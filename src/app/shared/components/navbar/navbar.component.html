@@ -1,0 +1,29 @@
+<nav [class]="navbarClasses" class="fixed top-0 left-0 w-full transition-all duration-500 flex items-center justify-between px-6 py-4 z-50">
+  <ul class="flex gap-10 text-white w-full justify-between">
+    <div [routerLink]="['/home']" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center justify-center">
+      <img src="/assets/img/logo_oficial.png" alt="Logo">
+    </div>
+    <div class="flex gap-10">
+      <div class="flex items-center gap-6 text-[17px]">
+        <li class="nav-item" [routerLink]="['/about-us']">{{ 'NAVBAR.ABOUT_US' | translate }}</li>
+        <li class="nav-item" [routerLink]="['/destinations']">{{ 'NAVBAR.DESTINATIONS' | translate }}</li>
+        <li class="nav-item" [routerLink]="['/our-products']">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</li>
+        <li class="nav-item" [routerLink]="['/our-services']">{{ 'NAVBAR.OUR_SERVICES' | translate }}</li>
+        <li class="nav-item" [routerLink]="['/contact-us']">{{ 'NAVBAR.CONTACT_US' | translate }}</li>
+      </div>
+      <div class="flex flex-row row-span-3 gap-6 relative">
+        <div class="text-[50px]">|</div>
+        <div class="flex flex-col col-span-2 items-center justify-between">
+          <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
+          <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
+        </div>
+        <div class="flex items-center justify-center">
+          <i class="fa-solid fa-phone phone-icon"></i>
+          <a href="tel:+51 1 646 0000" class="phone-number">
+            <b>{{ 'NAVBAR.SALES_CONTACT' | translate }}</b> +51 1 646 0000
+          </a>
+        </div>
+      </div>
+    </div>
+  </ul>
+</nav>

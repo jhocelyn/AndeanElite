@@ -1,0 +1,20 @@
+<app-navbar [enableScrollEffect]="false"></app-navbar>
+
+<div class="h-[80vh] relative">
+  <!-- Imagen de fondo -->
+  <img src="assets/img/background/street-of-arequipa-and-peruvian-flag-arequipa-p-2023-11-27-05-01-38-utc.jpg" alt="Background" class="h-full w-full object-cover">
+
+  <!-- Contenido del equipo -->
+  <div class="absolute inset-0 top-[430px] left-[50px] w-[300px] h-[200px]">
+    <div class="bg-[#034873] p-10 h-full rounded-b-[50px] rounded-tl-[50px] shadow-lg flex flex-col items-center justify-center">
+      <h2 class="text-3xl font-bold text-white mb-4">{{'ABOUT-US.SECTION'|translate}}</h2>
+    </div>
+  </div>
+</div>
+
+<div class="h-[100vh] flex flex-col col-span-2 items-center justify-center gap-5">
+  <h1 class="text-[30px] text-start text-[#034873]">{{'ABOUT-US.TITLE'|translate}}</h1>
+  <span class="w-[1100px] text-[20px] text-justify">
+  {{'ABOUT-US.DESCRIPTION'|translate}}</span>
+</div>
+<app-footer></app-footer>

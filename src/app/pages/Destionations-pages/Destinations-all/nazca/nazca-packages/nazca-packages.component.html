@@ -1,0 +1,16 @@
+<div class="h-[10vh] flex justify-center items-center text-[30px] text-[#034873]">
+  NAZCA
+</div>
+<div class="ml-5 grid grid-cols-4 gap-5">
+  <app-destination-card
+    title="Nasca Enigmatica"
+    [price]="176"
+    [originalPrice]="250"
+    [discount]="30"
+    days="2 DÍAS"
+    imageUrl="assets/img/destinations/nazca/beautiful-shot-of-nazca-condor-lines-geoglyphs-in-2023-11-27-05-20-19-utc.jpg"
+    [destinationBase]="'destination/nazca'"
+    (click)="onCardClick(1)"
+  >
+  </app-destination-card>
+</div>

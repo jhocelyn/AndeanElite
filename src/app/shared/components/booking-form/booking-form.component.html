@@ -1,0 +1,59 @@
+<div class="booking-form">
+  <h2>{{ title }}</h2>
+  <p><strong>Precio desde:</strong> ${{ price }}</p>
+  <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Nombre *</label>
+      <input type="text" id="name" formControlName="name" />
+      <div *ngIf="bookingForm.get('name')?.invalid && bookingForm.get('name')?.touched">
+        <p *ngIf="bookingForm.get('name')?.errors?.['required']">El nombre es obligatorio.</p>
+        <p *ngIf="bookingForm.get('name')?.errors?.['minlength']">Debe tener al menos 3 caracteres.</p>
+        <p *ngIf="bookingForm.get('name')?.errors?.['maxlength']">No debe exceder los 50 caracteres.</p>
+        <p *ngIf="bookingForm.get('name')?.errors?.['pattern']">Solo se permiten letras y espacios.</p>
+      </div>
+    </div>
+
+    <div>
+      <label for="phone">Teléfono *</label>
+      <app-phone-code-selector (phoneCodeSelected)="onPhoneCodeSelected($event)" ></app-phone-code-selector>
+      <input type="tel" id="phone" formControlName="phone" placeholder="912 345 678" />
+      <div *ngIf="bookingForm.get('phone')?.invalid && bookingForm.get('phone')?.touched">
+        <p *ngIf="bookingForm.get('phone')?.errors?.['required']">El teléfono es obligatorio.</p>
+        <p *ngIf="bookingForm.get('phone')?.errors?.['pattern']">Debe tener el formato +51 912 345 678.</p>
+      </div>
+    </div>
+
+    <div>
+      <label for="email">Correo electrónico *</label>
+      <input type="email" id="email" formControlName="email" />
+      <div *ngIf="bookingForm.get('email')?.invalid && bookingForm.get('email')?.touched">
+        <p *ngIf="bookingForm.get('email')?.errors?.['required']">El correo es obligatorio.</p>
+        <p *ngIf="bookingForm.get('email')?.errors?.['email']">Debe ser un correo válido.</p>
+      </div>
+    </div>
+
+    <div>
+      <label for="date">Fecha de Viaje *</label>
+      <input
+        type="date"
+        id="date"
+        formControlName="date_start"
+      />
+      <div *ngIf="bookingForm.get('date_start')?.invalid && bookingForm.get('date_start')?.touched">
+        <small>La fecha es obligatoria.</small>
+      </div>
+    </div>
+
+
+    <div>
+      <label for="message">Comentario o mensaje *</label>
+      <textarea id="message" formControlName="message"></textarea>
+      <div *ngIf="bookingForm.get('message')?.invalid && bookingForm.get('message')?.touched">
+        <p *ngIf="bookingForm.get('message')?.errors?.['required']">El mensaje es obligatorio.</p>
+        <p *ngIf="bookingForm.get('message')?.errors?.['maxlength']">Máximo 200 caracteres.</p>
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="bookingForm.invalid">Consulta tu reserva</button>
+  </form>
+</div>

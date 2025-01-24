@@ -1,0 +1,22 @@
+<div class="relative h-screen bg-cover bg-center overflow-hidden">
+  <div
+    *ngFor="let image of images; let i = index"
+    class="absolute inset-0 h-full w-full transition-opacity duration-1000"
+    [class.opacity-0]="i !== currentImageIndex"
+    [class.opacity-100]="i === currentImageIndex"
+  >
+    <img
+      [src]="image"
+      class="h-full w-full object-cover"
+      alt="Slider Image"
+    />
+  </div>
+  <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex gap-2 z-40">
+    <button
+      *ngFor="let image of images; let i = index"
+      (click)="goToImage(i)"
+      [class.bg-white]="i === currentImageIndex"
+      class="w-10 h-1 bg-gray-300 rounded-full"
+    ></button>
+  </div>
+</div>

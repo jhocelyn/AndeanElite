@@ -1,0 +1,79 @@
+/* Animación de caída */
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50px); /* Inicia fuera de la pantalla, arriba */
+    opacity: 0; /* Totalmente invisible */
+  }
+  100% {
+    transform: translateY(0); /* Posición final */
+    opacity: 1; /* Totalmente visible */
+  }
+}
+
+/* Clase para animar el logo */
+.logo {
+  animation: slideDown 1s ease-out; /* Aplica la animación */
+}
+
+.nav-item{
+  animation: slideDown 1s ease-out; /* Aplica la animación */
+}
+
+/* Clases para cada palabra del navbar */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* Necesario para la línea animada */
+  transition: color 0.5s ease; /* Animación al pasar el mouse */
+}
+
+/* Línea animada debajo de cada palabra */
+.nav-item::after {
+  content: '-'; /* Línea */
+  position: absolute;
+  bottom: -5px; /* Fuera del elemento */
+  left: 0;
+  width: 0; /* Comienza con ancho 0 */
+  height: 7px; /* Grosor de la línea */
+  background-color: #ffffff; /* Color de la línea */
+  transition: width 0.3s ease; /* Animación de expansión */
+}
+
+/* Animación al pasar el mouse */
+.nav-item:hover::after {
+  width: 100%; /* La línea se expande al ancho completo */
+}
+
+
+/* Inicialmente ocultamos el número de teléfono */
+.phone-number {
+  width: 300px;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 47px;  /* Ajusta la posición según sea necesario */
+  transform: translateX(-80%);
+  background-color: #707070;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 10;
+  white-space: nowrap;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  pointer-events: none;  /* No es clickeable inicialmente */
+}
+/* Mostrar el número de teléfono cuando el mouse pasa sobre el icono */
+.phone-icon:hover + .phone-number,
+.phone-number:hover {
+  display: block;
+  pointer-events: auto;  /* Hace el número clickeable */
+}
+
+/* Estilo para el número cuando se pasa el mouse sobre él */
+.phone-number:hover {
+  color: #151a33; /* Cambiar el color cuando el mouse está sobre el número */
+}

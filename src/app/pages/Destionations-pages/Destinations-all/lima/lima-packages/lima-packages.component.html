@@ -1,0 +1,16 @@
+<div class="h-[10vh] flex justify-center items-center text-[30px] text-[#034873]">
+  LIMA
+</div>
+<div class="ml-5 grid grid-cols-4 gap-5">
+  <app-destination-card
+    title="Lima Cultural"
+    [price]="193"
+    [originalPrice]="300"
+    [discount]="36"
+    days="3 DÍAS"
+    imageUrl="assets/img/destinations/lima/the-basilica-cathedral-of-lima-at-plaza-mayor-li-2023-11-27-05-22-01-utc.jpg"
+    [destinationBase]="'destination/lima'"
+    (click)="onCardClick(1)"
+  >
+  </app-destination-card>
+</div>

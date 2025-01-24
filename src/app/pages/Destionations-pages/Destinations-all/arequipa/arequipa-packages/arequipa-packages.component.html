@@ -1,0 +1,27 @@
+<div class="h-[10vh] flex justify-center items-center text-[30px] text-[#034873]">
+  AREQUIPA
+</div>
+<div class="ml-5 grid grid-cols-4 gap-5">
+  <app-destination-card
+    title="Arequipa Majestuosa"
+    [price]="274"
+    [originalPrice]="300"
+    [discount]="9"
+    days="4 DÍAS"
+    imageUrl="assets/img/destinations/arequipa/arequipa-city-with-misti-volcano-on-background-a-2023-11-27-05-10-01-utc.jpg"
+    [destinationBase]="'destination/arequipa'"
+    (click)="onCardClick(1)"
+  >
+  </app-destination-card>
+  <app-destination-card
+    title="Arequipa Tradicional"
+    [price]="257"
+    [originalPrice]="350"
+    [discount]="27"
+    days="4 DÍAS"
+    [destinationBase]="'destination/arequipa'"
+    imageUrl="assets/img/destinations/arequipa/flying-andean-condor-2024-08-06-01-13-41-utc.jpg"
+    (click)="onCardClick(2)"
+  >
+  </app-destination-card>
+</div>

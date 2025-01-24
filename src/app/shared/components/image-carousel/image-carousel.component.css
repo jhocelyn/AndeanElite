@@ -1,0 +1,56 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  position: relative;
+  text-align: center;
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.thumbnails img.active {
+  border-color: #007bff;
+}

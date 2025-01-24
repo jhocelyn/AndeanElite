@@ -1,0 +1,47 @@
+<footer class="bg-[#042A4E] text-white py-10 px-6 h-[50vh]">
+  <div class="container grid grid-cols-1 md:grid-cols-4 gap-4 items-center justify-center">
+    <!-- Logo e Información de Derechos -->
+    <div class="col-span-1">
+      <img src="assets/img/logo_oficial.png">
+      <p class="text-sm">
+        {{ 'FOOTER.DESCRIPTION' | translate }}
+      </p>
+      <p class="text-sm text-red-500 mt-2">
+        {{ 'FOOTER.MARCA' | translate }}
+      </p>
+    </div>
+
+    <!-- Contacto -->
+    <div class="col-span-1">
+      <h3 class="text-lg font-semibold mb-4">{{ 'FOOTER.CONTACTO' | translate }}</h3>
+      <ul class="text-sm space-y-2">
+        <li>
+          <span class="inline-block">📞</span> +51 985 517 770
+        </li>
+        <li>
+          <span class="inline-block">📍</span> Surco, Lima, Perú<br> RUC:
+        </li>
+        <li>
+          ✉️ <a href="mailto:sales@andeanelite.com" class="underline">sales&commat;andeanelite.com</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Información adicional -->
+    <div class="col-span-1">
+      <h3 class="text-lg font-semibold mb-4">Andean Elite</h3>
+      <ul class="text-sm space-y-2">
+        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.PROTECTION' | translate }}</a></li>
+        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.POLICY' | translate }}</a></li>
+        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.TERMS' | translate }}</a></li>
+        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.CERTIFICATES' | translate }}</a></li>
+      </ul>
+    </div>
+
+    <!-- Logos -->
+    <div class="col-span-1 flex justify-center md:justify-end items-center">
+      <img src="/assets/img/logo_agencia_turismo.png" alt="Agencia de Viajes" class="h-16 mr-4">
+      <img src="assets/img/book-claim-icon.png" alt="Libro de reclamaciones" class="h-16">
+    </div>
+  </div>
+</footer>

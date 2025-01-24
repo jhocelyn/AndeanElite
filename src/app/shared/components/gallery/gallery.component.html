@@ -1,0 +1,15 @@
+<div class="gallery">
+  <div class="carousel">
+    <button class="nav-btn" (click)="prev()">&#8249;</button>
+    <div class="carousel-wrapper">
+      <div
+        class="card"
+        *ngFor="let image of visibleImages">
+        <img [src]="image.url" [alt]="image.description" />
+        <h3 class="title">{{ image.title }}</h3>
+        <p class="info">{{ image.description }}</p>
+      </div>
+    </div>
+    <button class="nav-btn" (click)="next()">&#8250;</button>
+  </div>
+</div>

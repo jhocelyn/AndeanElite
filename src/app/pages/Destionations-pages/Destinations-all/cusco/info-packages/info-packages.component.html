@@ -1,0 +1,88 @@
+<div class="min-h-screen bg-[#FFFFFF]">
+  <!-- Encabezado -->
+  <div
+    class="relative bg-cover bg-center h-[150px]">
+    <div class="absolute inset-0 "></div>
+    <div class="absolute bottom-10 left-10 text-[#034873]">
+      <h1 class="text-4xl font-bold">{{ packageInfo?.name }}</h1>
+      <p>Total de días: {{ calculateDays(packageInfo.itinerary) }}</p>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Columna izquierda: Detalles del paquete -->
+      <div class="md:col-span-2 bg-white rounded-lg shadow-lg p-6">
+        <app-image-carousel [images]="packageInfo?.imageLinks"></app-image-carousel>
+        <!-- Descripción -->
+        <h2 class="text-2xl font-bold mb-4">DESCRIPCIÓN</h2>
+        <p class="text-gray-700">{{ packageInfo?.description }}</p>
+
+        <!-- Itinerario -->
+        <div *ngIf="packageInfo?.itinerary">
+          <h2 class="text-2xl font-bold mt-8 mb-4">ITINERARIO</h2>
+          <div *ngFor="let day of packageInfo?.itinerary" class="mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ day.day }}</h3>
+            <p class="text-gray-700">{{ day.description }}</p>
+          </div>
+        </div>
+
+        <!-- Recomendaciones -->
+        <h2 class="text-2xl font-bold mt-8 mb-4">RECOMENDACIONES</h2>
+        <p class="text-gray-700">{{ packageInfo?.recommendations }}</p>
+
+        <!-- Condiciones para menores de edad -->
+        <h2 class="text-2xl font-bold mt-8 mb-4">CONDICIONES PARA MENORES DE EDAD</h2>
+        <p class="text-gray-700">{{ packageInfo?.conditions_to_childs }}</p>
+
+        <!-- Condiciones generales -->
+        <div *ngIf="packageInfo?.conditions?.length">
+          <h2 class="text-2xl font-bold mt-8 mb-4">CONDICIONES</h2>
+          <ol class="text-gray-700 list-decimal pl-6">
+            <li *ngFor="let condition of packageInfo?.conditions">
+              {{ condition }}
+            </li>
+          </ol>
+        </div>
+
+        <!-- Incluye -->
+        <div *ngIf="packageInfo?.includes?.length">
+          <h2 class="text-2xl font-bold mt-8 mb-4">INCLUYE</h2>
+          <ul>
+            <li class="text-gray-700 list-none pl-6" *ngFor="let include of packageInfo?.includes">
+              <i class="fa-solid fa-check text-[#7ad03a]"></i> {{ include }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- No incluye -->
+        <div *ngIf="packageInfo?.not_includes?.length">
+          <h2 class="text-2xl font-bold mt-8 mb-4">NO INCLUYE</h2>
+          <ul>
+            <li class="text-gray-700 list-none pl-6" *ngFor="let not_include of packageInfo?.not_includes">
+              <i class="fa-solid fa-xmark text-[#a00]"></i> {{ not_include }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- Categorías -->
+        <h2 class="text-2xl font-bold mt-8 mb-4">CATEGORÍAS</h2>
+        <p class="text-gray-700">{{ packageInfo?.category }}</p>
+
+        <!-- Nota -->
+        <h2 class="text-2xl font-bold mt-8 mb-4">NOTA</h2>
+        <p class="text-gray-700">{{ packageInfo?.note }}</p>
+      </div>
+
+      <!-- Columna derecha: Formulario de reserva -->
+      <div class="bg-white rounded-lg shadow-lg p-6">
+        <app-booking-form
+          [title]="packageInfo?.name"
+          [price]="257"
+          [days]="4"
+        ></app-booking-form>
+      </div>
+    </div>
+  </div>
+</div>
