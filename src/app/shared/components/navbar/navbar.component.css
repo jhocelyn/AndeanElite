@@ -1,51 +1,48 @@
-/* Animación de caída */
 @keyframes slideDown {
   0% {
-    transform: translateY(-50px); /* Inicia fuera de la pantalla, arriba */
-    opacity: 0; /* Totalmente invisible */
+    transform: translateY(-50px);
+    opacity: 0;
   }
   100% {
-    transform: translateY(0); /* Posición final */
-    opacity: 1; /* Totalmente visible */
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
 /* Clase para animar el logo */
 .logo {
-  animation: slideDown 1s ease-out; /* Aplica la animación */
+  animation: slideDown 1s ease-out;
 }
 
-.nav-item{
-  animation: slideDown 1s ease-out; /* Aplica la animación */
+.nav-item {
+  animation: slideDown 1s ease-out;
 }
 
 /* Clases para cada palabra del navbar */
 .nav-item {
   position: relative;
   display: inline-block;
-  overflow: hidden; /* Necesario para la línea animada */
-  transition: color 0.5s ease; /* Animación al pasar el mouse */
+  overflow: hidden;
+  transition: color 0.5s ease;
 }
 
 /* Línea animada debajo de cada palabra */
 .nav-item::after {
-  content: '-'; /* Línea */
+  content: '-';
   position: absolute;
-  bottom: -5px; /* Fuera del elemento */
+  bottom: -5px;
   left: 0;
-  width: 0; /* Comienza con ancho 0 */
-  height: 7px; /* Grosor de la línea */
-  background-color: #ffffff; /* Color de la línea */
-  transition: width 0.3s ease; /* Animación de expansión */
+  width: 0;
+  height: 7px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
 }
 
-/* Animación al pasar el mouse */
 .nav-item:hover::after {
-  width: 100%; /* La línea se expande al ancho completo */
+  width: 100%;
 }
 
-
-/* Inicialmente ocultamos el número de teléfono */
+/* Número de teléfono */
 .phone-number {
   width: 300px;
   height: 50px;
@@ -54,7 +51,7 @@
   align-items: center;
   position: absolute;
   left: 50%;
-  top: 47px;  /* Ajusta la posición según sea necesario */
+  top: 47px;
   transform: translateX(-80%);
   background-color: #707070;
   color: #fff;
@@ -63,17 +60,50 @@
   font-size: 16px;
   z-index: 10;
   white-space: nowrap;
-  text-decoration: none; /* Elimina el subrayado del enlace */
-  pointer-events: none;  /* No es clickeable inicialmente */
+  text-decoration: none;
+  pointer-events: none;
 }
-/* Mostrar el número de teléfono cuando el mouse pasa sobre el icono */
+
 .phone-icon:hover + .phone-number,
 .phone-number:hover {
   display: block;
-  pointer-events: auto;  /* Hace el número clickeable */
+  pointer-events: auto;
 }
 
-/* Estilo para el número cuando se pasa el mouse sobre él */
 .phone-number:hover {
-  color: #151a33; /* Cambiar el color cuando el mouse está sobre el número */
+  color: #151a33;
 }
+/* Estilo para animar el menú desplegable */
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+.translate-x-0 {
+  transform: translateX(0);
+}
+
+.-translate-x-full {
+  transform: translateX(100%);
+}
+/* Estilos para el navbar */
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out, pointer-events 0.5s ease-in-out;
+}
+
+/* Estilo responsive */
+@media (max-width: 1024px) {
+  .phone-number {
+    width: 240px;
+  }
+
+  /* Estilos para el menú desplegable */
+  .nav-item {
+    font-size: 18px; /* Tamaño de fuente adecuado para móviles */
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+}
+

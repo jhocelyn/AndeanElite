@@ -1,29 +1,61 @@
-<nav [class]="navbarClasses" class="fixed top-0 left-0 w-full transition-all duration-500 flex items-center justify-between px-6 py-4 z-50">
-  <ul class="flex gap-10 text-white w-full justify-between">
-    <div [routerLink]="['/home']" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center justify-center">
-      <img src="/assets/img/logo_oficial.png" alt="Logo">
+<nav [class]="navbarClasses" class="fixed top-0 left-0 w-full transition-all duration-500 flex items-center justify-between px-6 py-4 z-50 bg-[#042A4E]">
+  <div class="flex items-center w-full justify-between">
+    <!-- Logo -->
+    <div [routerLink]="['/home']" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center">
+      <img src="/assets/img/logo_oficial.png" alt="Logo" class="h-10 w-auto">
     </div>
-    <div class="flex gap-10">
-      <div class="flex items-center gap-6 text-[17px]">
-        <li class="nav-item w-[70px]" [routerLink]="['/about-us']">{{ 'NAVBAR.ABOUT_US' | translate }}</li>
+    <!-- Menu Icon -->
+    <div class="md:hidden">
+    <i class="fa-solid fa-bars text-[20px] text-white cursor-pointer" (click)="toggleMenu()"></i>
+    </div>
+
+    <ul [class.hidden]="!isDesktop" class="flex flex-row text-white w-auto items-center gap-10 mt-4">
+      <div class="flex flex-row items-center gap-10 text-[17px]">
+        <li class="nav-item" [routerLink]="['/about-us']">{{ 'NAVBAR.ABOUT_US' | translate }}</li>
         <li class="nav-item" [routerLink]="['/destinations']">{{ 'NAVBAR.DESTINATIONS' | translate }}</li>
         <li class="nav-item" [routerLink]="['/our-products']">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</li>
         <li class="nav-item" [routerLink]="['/our-services']">{{ 'NAVBAR.OUR_SERVICES' | translate }}</li>
         <li class="nav-item" [routerLink]="['/contact-us']">{{ 'NAVBAR.CONTACT_US' | translate }}</li>
       </div>
-      <div class="flex flex-row row-span-3 gap-6 relative">
-        <div class="text-[50px]">|</div>
-        <div class="flex flex-col col-span-2 items-center justify-between">
+
+      <!-- Language and Contact -->
+      <div class="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+        <div class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
           <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
           <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
         </div>
-        <div class="flex items-center justify-center">
+        <div class="hidden md:flex items-center gap-2">
           <i class="fa-solid fa-phone phone-icon"></i>
           <a href="tel:+51 1 646 0000" class="phone-number">
             <b>{{ 'NAVBAR.SALES_CONTACT' | translate }}</b> +51 1 646 0000
           </a>
         </div>
       </div>
+    </ul>
+
+  </div>
+  <!-- Menu -->
+
+  <div
+    class="md:hidden fixed top-0 right-0 w-[full] h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transition-transform"
+    [ngClass]="{ 'translate-x-0': isMenuOpen, '-translate-x-full': !isMenuOpen }"
+  >
+    <button
+      class="text-white text-2xl mb-4 self-end"
+      (click)="toggleMenu()"
+    >
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <a [routerLink]="['/about-us']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
+    <a [routerLink]="['/destinations']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
+    <a [routerLink]="['/our-products']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
+    <a [routerLink]="['/our-services']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
+    <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
+    <div class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
+      <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
+      <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
     </div>
-  </ul>
+  </div>
+
 </nav>
+

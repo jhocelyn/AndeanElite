@@ -1,5 +1,5 @@
-import {Component, EventEmitter, HostListener, Input, OnInit, Output} from '@angular/core';
-import {NgForOf} from '@angular/common';
+import {Component, EventEmitter, HostListener, Input, Output} from '@angular/core';
+import {NgClass} from '@angular/common';
 import {RouterLink} from '@angular/router';
 import {TranslateModule, TranslateService} from '@ngx-translate/core';
 
@@ -7,7 +7,7 @@ import {TranslateModule, TranslateService} from '@ngx-translate/core';
   selector: 'app-navbar',
   standalone: true,
   imports: [
-    RouterLink,TranslateModule
+    RouterLink, TranslateModule, NgClass
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
@@ -42,5 +42,11 @@ export class NavbarComponent{
   changeLanguage(lang: string) {
     this.translate.use(lang);
     this.languageChanged.emit(lang);
+  }
+  isMenuOpen = false;
+  isDesktop= window.innerWidth > 1024;
+
+   toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }

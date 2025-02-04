@@ -1,22 +1,13 @@
-<app-navbar [enableScrollEffect]="true" (languageChanged)="onLanguageChange($event)"></app-navbar> <!-- Navbar con scroll -->
-<!--<div
-  class="logo-overlay"
-  [style.opacity]="logoOpacity"
-  [style.transform]="'translateX(-50%) scale(' + logoScale + ')'"
->
-  <img src="assets/img/logo_oficial_mejorado.png" alt="Logo" class="logo" />
-</div>
--->
-<div class="logo-overlay">
+<app-navbar [enableScrollEffect]="true" (languageChanged)="onLanguageChange($event)"></app-navbar>
 
-</div>
+<div>
 <app-slider></app-slider> <!-- Slider -->
-
+</div>
 <!--Learn More Seccion-->
-<div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center gap-40 h-[100vh] bg-gray-100">
-  <div class="flex flex-col col-span-2 gap-5 w-[540px]">
-    <h6 class="text-[20px] font-extralight text-[034873]">
-      AndeanElite
+<div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center w-full md:gap-40 md:h-[100vh] h-[700px]">
+  <div class="flex flex-col col-span-2 gap-5 w-[400px] md:w-[540px] p-10 md:p-0">
+    <h6 class="text-[20px] font-extralight text-[#034873]">
+      Andean Elite
     </h6>
     <p class="text-start text-[25px] text-[#034873]">
       {{ 'ANDEANELITE.DESCRIPTION' | translate }}
@@ -35,17 +26,17 @@
 </div>
 
 <!--Why ANDEANELITE Seccion-->
-<div class="flex items-center justify-center flex-col bg-[#034873] h-[100vh] text-[#FFFFFF] gap-20">
-  <div>
-    <h1 class="text-[50px]">{{ 'WHYANDEANELITE.TITLE' | translate}}</h1>
+<div class="flex items-center justify-center flex-col bg-[#034873] md:h-[100vh] text-[#FFFFFF] gap-10 md:gap-20 h-[210vh]">
+  <div class="mt-10 md:mt-0">
+    <h1 class="text-center text-[40px] md:text-[50px]">{{ 'WHYANDEANELITE.TITLE' | translate}}</h1>
   </div>
-  <div class="grid grid-cols-3 gap-20">
+  <div class="flex flex-col md:grid md:grid-cols-3 gap-20 md:p-0">
     <!--First-->
     <div class="flex items-center justify-center gap-3">
       <div class="flex items-center justify-center">
-      <i class="fa-solid fa-plane text-[80px]" ></i>
+      <i class="fa-solid fa-plane text-[60px] md:text-[80px]" ></i>
       </div>
-      <div class="w-[250px]">
+      <div class="w-[200px] md:w-[250px]">
         <h2 class="text-[25px]">{{ 'WHYANDEANELITE.1.TITLE' | translate}}</h2>
         <p class="text-[15px]">{{ 'WHYANDEANELITE.1.DESCRIPTION' | translate}}</p>
       </div>
@@ -53,9 +44,9 @@
     <!--Second-->
     <div class="flex items-center justify-center gap-3">
       <div class="flex items-center justify-center">
-        <i class="fa-solid fa-hotel text-[80px]" ></i>
+        <i class="fa-solid fa-hotel text-[60px] md:text-[80px]" ></i>
       </div>
-      <div class="w-[250px]">
+      <div class="w-[200px] md:w-[250px]">
         <h2 class="text-[25px]">{{ 'WHYANDEANELITE.2.TITLE' | translate}}</h2>
         <p class="text-[15px]">{{ 'WHYANDEANELITE.2.DESCRIPTION' | translate}}</p>
       </div>
@@ -63,9 +54,9 @@
     <!--Third-->
     <div class="flex items-center justify-center gap-3">
       <div class="flex items-center justify-center">
-        <i class="fa-solid fa-people-group text-[80px]" ></i>
+        <i class="fa-solid fa-people-group text-[60px] md:text-[80px]" ></i>
       </div>
-      <div class="w-[250px]">
+      <div class="w-[200px] md:w-[250px]">
         <h2 class="text-[25px]">{{ 'WHYANDEANELITE.3.TITLE' | translate}}</h2>
         <p class="text-[15px]">{{ 'WHYANDEANELITE.3.DESCRIPTION' | translate}}</p>
       </div>
@@ -73,9 +64,9 @@
     <!--Fourth-->
     <div class="flex items-center justify-center gap-3">
       <div class="flex items-center justify-center">
-        <i class="fa-solid fa-monument text-[80px]" ></i>
+        <i class="fa-solid fa-monument text-[60px] md:text-[80px]" ></i>
       </div>
-      <div class="w-[250px]">
+      <div class="w-[200px] md:w-[250px]">
         <h2 class="text-[25px]">{{ 'WHYANDEANELITE.4.TITLE' | translate}}</h2>
         <p class="text-[15px]">{{ 'WHYANDEANELITE.4.DESCRIPTION' | translate}}</p>
       </div>
@@ -83,9 +74,9 @@
     <!--Fifth-->
     <div class="flex items-center justify-center gap-3">
       <div class="flex items-center justify-center">
-        <i class="fa-solid fa-book-open text-[80px]" ></i>
+        <i class="fa-solid fa-book-open text-[60px] md:text-[80px]" ></i>
       </div>
-      <div class="w-[250px]">
+      <div class="w-[200px] md:w-[250px]">
         <h2 class="text-[25px]">{{ 'WHYANDEANELITE.5.TITLE' | translate}}</h2>
         <p class="text-[15px]">{{ 'WHYANDEANELITE.5.DESCRIPTION' | translate}}</p>
       </div>
@@ -93,9 +84,9 @@
     <!--Sixth-->
     <div class="flex items-center justify-center gap-3">
       <div class="flex items-center justify-center">
-        <i class="fa-solid fa-shield-heart text-[80px]" ></i>
+        <i class="fa-solid fa-shield-heart text-[60px] md:text-[80px]" ></i>
       </div>
-      <div class="w-[250px]">
+      <div class="w-[200px] md:w-[250px]">
         <h2 class="text-[25px]">{{ 'WHYANDEANELITE.6.TITLE' | translate}}</h2>
         <p class="text-[15px]">{{ 'WHYANDEANELITE.6.DESCRIPTION' | translate}}</p>
       </div>
@@ -104,10 +95,10 @@
 </div>
 <!--TRAVEL with ANDEANELITE Seccion-->
 <div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col h-[100vh] items-center justify-center">
-  <h1 class="text-[45px] font-extralight text-[#034873] mb-8">{{ 'TRAVELWITH.TITLE' | translate}}</h1>
-  <p class="w-[800px] text-center text-[25px] font-normal text-[#4D6270] mb-8">{{ 'TRAVELWITH.1' | translate}}</p>
-  <p class="w-[800px] text-center text-[25px] font-normal text-[#4D6270] mb-8">{{ 'TRAVELWITH.2' | translate}}</p>
-  <p class="w-[800px] text-center text-[25px] font-normal text-[#4D6270] mb-8">{{ 'TRAVELWITH.3' | translate}}</p>
+  <h1 class="text-[30px] md:text-[45px] font-extralight text-[#034873] mb-8">{{ 'TRAVELWITH.TITLE' | translate}}</h1>
+  <p class="md:w-[800px] text-center text-[20px] md:text-[25px] font-normal text-[#4D6270] mb-8">{{ 'TRAVELWITH.1' | translate}}</p>
+  <p class="md:w-[800px] text-center text-[20px] md:text-[25px] font-normal text-[#4D6270] mb-8">{{ 'TRAVELWITH.2' | translate}}</p>
+  <p class="md:w-[800px] text-center text-[20px] md:text-[25px] font-normal text-[#4D6270] mb-8">{{ 'TRAVELWITH.3' | translate}}</p>
   <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
   <span class="text-[#FFFFFF] text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
     <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
@@ -127,11 +118,13 @@
 <!--Discover Seccion-->
 <div class="flex justify-center items-center flex-col col-span-3 h-[100vh] bg-[#0F2D40]">
   <div class="text-[40px] font-extralight text-[#FFFFFF]">{{ galleryTitle }}</div>
+  <div class="w-[350px] md:w-[1000px]">
   <app-gallery
     [title]="galleryTitle"
     [images]="galleryImages">
   </app-gallery>
-  <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
+  </div>
+  <button class="bg-[#4D6270] rounded-full md:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
   <span class="text-[#FFFFFF] text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
     <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
      {{ 'BUTTON.READ_MORE' | translate }}
@@ -144,13 +137,15 @@
 </div>
 <!--Customers Seccion-->
 <div class="flex justify-center items-center flex-col col-span-3  h-[100vh] bg-[#ECEAE7]">
-  <div class="text-[40px] font-extralight text-[#034873]">{{ galleryTitle1 }}</div>
+  <div class="text-[30px] md:text-[40px] font-extralight text-[#034873]">{{ galleryTitle1 }}</div>
+  <div class="w-[350px] md:w-[1000px]">
   <app-gallery
     [title]="galleryTitle1"
     [images]="galleryImages1"
   >
   </app-gallery>
-  <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
+  </div>
+  <button class="bg-[#4D6270] rounded-full md:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
   <span class="text-[#FFFFFF] text-[25px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
     <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
       {{ 'BUTTON.READ_MORE' | translate }}
@@ -163,16 +158,16 @@
 </div>
 <!--Contact us Seccion-->
 <div class="flex flex-row row-span-2 justify-center items-center gap-20 h-[100vh]">
-  <div class="w-[300px]">
+  <div class="hidden md:w-[300px]">
     <img class="w-full" src="/assets/img/contact.jpg" alt="a">
   </div>
-  <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col col-span-3 gap-6">
+  <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col col-span-3 gap-6 p-4 ">
     <h1 class="text-[50px] font-extralight text-[#034873]">{{ 'CONTACTUS.TITLE' | translate }}</h1>
-    <p class="text-[30px] font-normal text-[#4D6270]">{{ 'CONTACTUS.DESCRIPTION' | translate }}</p>
+    <p class="text-[20px] md:text-[30px] font-normal text-[#4D6270]">{{ 'CONTACTUS.DESCRIPTION' | translate }}</p>
     <form class="flex flex-col gap-5">
-      <input class="w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="Name">
-      <input class="w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="Email">
-      <input class="w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="Phone">
+      <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="Name">
+      <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="Email">
+      <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="Phone">
       <button class="bg-[#4D6270] rounded-full w-[150px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
         <span class="text-white text-[20px] font-extralight flex items-center space-x-2">
           <span class="group-hover:-translate-x-2 transition-transform duration-300 ease-in-out">{{ 'CONTACTUS.BUTTON' | translate }}</span>
@@ -182,7 +177,6 @@
           </span>
         </span>
       </button>
-
     </form>
   </div>
 </div>
