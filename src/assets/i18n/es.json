@@ -4,19 +4,19 @@
     "DESTINATIONS": "Destinos",
     "OUR_PRODUCTS": "Nuestros Productos",
     "OUR_SERVICES": "Nuestros Servicios",
-    "CONTACT_US": "Contáctanos",
+    "CONTACT_US": "Contáctenos",
     "SALES_CONTACT": "Centro de Contacto de Ventas:"
   },
   "ANDEANELITE": {
     "TITLE": "ANDEAN ELITE",
-    "DESCRIPTION": "Viajes de Lujo Personalizados para Cada Emoción. Explora el mundo con viajes exclusivos y a medida..."
+    "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida..."
   },
   "WHYANDEANELITE": {
     "TITLE": "Por qué Andean Elite?",
     "1":{ "TITLE":"Experiencias Únicas","DESCRIPTION": "Creamos viajes personalizados en Perú, desde Machu Picchu hasta el Lago Titicaca, combinando aventura, cultura y lujo." },
     "2": { "TITLE":"Lujo en Cada Detalle","DESCRIPTION": "Ofrecemos hoteles boutique, trenes exclusivos y transporte privado para un viaje cómodo y elegante." },
     "3": { "TITLE":"Atención 24/7","DESCRIPTION": "Nuestro equipo está disponible para resolver cualquier imprevisto y garantizar tu tranquilidad." },
-    "4": { "TITLE":"Conexión Cultural","DESCRIPTION": "Vive el patrimonio peruano con visitas guiadas a Machu Picchu y el Valle Sagrado, con atención a cada detalle." },
+    "4": { "TITLE":"Conexión Cultural","DESCRIPTION": "Descubre la historia y cultura del Perú con visitas exclusivas a Machu Picchu y el Valle Sagrado." },
     "5": { "TITLE":"Guías Expertos","DESCRIPTION": "Nuestros guías locales te ofrecen conocimiento cultural e histórico en destinos como Cusco y Arequipa." },
     "6": { "TITLE":"Seguridad y Confianza","DESCRIPTION": "Con años de experiencia, garantizamos viajes seguros y cuidados hasta el último detalle." }
   },
@@ -24,7 +24,7 @@
     "READ_MORE": "Leer más"
   },
   "TRAVELWITH": {
-    "TITLE": "Viajar con Andean Elite",
+    "TITLE": "Viajar con Andean Elite: Experiencia de Lujo en Perú",
     "1": "Desde el Corazón de los Andes hasta la Maravilla de Machu Picchu",
     "2": "Déjate cautivar por los paisajes andinos, la riqueza cultural y la hospitalidad peruana mientras disfrutas de una experiencia exclusiva llena de magia y elegancia.",
     "3": "Viaja con estilo. Vive Perú como nunca antes.",
@@ -41,22 +41,22 @@
         },
         {
           "url": "assets/img/lima4.jpg",
-          "title": "Lima Cultural",
+          "title": "Lima, la Ciudad de los Reyes: Historia y Modernidad",
           "description": "Lima es la capital de Perú ubicada en la árida costa del Pacífico del país. Pese a que su centro colonial se conserva, es una desbordante metrópolis y una de las ciudades más grandes de Sudamérica."
         },
         {
           "url": "assets/img/cuscoespecial1.jpg",
-          "title": "Cusco Especial",
+          "title": "Cusco Mágico: Historia y Aventura",
           "description": "Viva la magia completa de Cusco en una viaje de 5 días y 4 noches que incluye estadía en Cusco, tour de la ciudad, visita arqueológica, tour al Valle Sagrado, tren Expedition o Vistadome, visita a Machu Picchu y visita a la Montaña de 7 Colores."
         },
         {
           "url": "assets/img/nazca5.jpg",
-          "title": "Nasca Enigmatica",
+          "title": "Nazca: Enigma en el Desierto",
           "description": "Las Líneas de Nazca, en el sur de Perú, son un grupo de geoglifos precolombinos que se extienden en las arenas del desierto. Abarcan un área de casi 1,000 kilómetros cuadrados y hay alrededor de 300 figuras distintas, que incluyen animales y plantas."
         },
         {
           "url": "assets/img/puerto_maldonado.jpeg",
-          "title": "Puerto Maldonado",
+          "title": "Puerto Maldonado y la Selva Amazónica: Aventura en la Naturaleza.",
           "description": "Puerto Maldonado, la capital de Madre de Dios, es la puerta al Amazonas peruano, donde la exuberante selva y la biodiversa Reserva Nacional Tambopata te esperan para una experiencia inolvidable."
         }
       ]
@@ -88,7 +88,7 @@
     }
   },
   "CONTACTUS": {
-    "TITLE": "Contactanos",
+    "TITLE": "Contáctenos",
     "DESCRIPTION": "Déjenos sus datos y nos pondremos en contacto con usted.",
     "BUTTON": "Enviar"
   },
@@ -109,8 +109,8 @@
     "DESCRIPTION": "En Andean Elite transformamos tus sueños de viaje en realidad. Nos especializamos en crear experiencias de lujo personalizadas que reflejan tus emociones y deseos. Desde los majestuosos Andes hasta la maravilla eterna de Machu Picchu, diseñamos itinerarios únicos que capturan la esencia de la cultura, historia y belleza natural del Perú. ¿Qué nos hace diferentes? No solo es nuestra atención al detalle ni nuestros itinerarios cuidadosamente seleccionados. Es la pasión y dedicación que ponemos en cada aventura. Nuestro equipo de expertos está disponible las 24 horas, los 7 días de la semana, para garantizar que cada momento de tu viaje sea perfecto e inolvidable. Ya sea explorando Cusco con guías expertos o disfrutando de la elegancia de hoteles boutique y transporte privado, priorizamos tu comodidad, seguridad y conexión con la riqueza del patrimonio peruano."
   },
   "CONTACT-US": {
-    "TITLE": "Contáctanos",
-    "AGENCY": "¿Es una agencia de viajes?",
+    "TITLE": "Contáctenos",
+    "AGENCY": "¿Representa una agencia de viajes?",
     "BUTTON": "Enviar Mensaje"
   },
   "DESTINATIONS": {

@@ -17,24 +17,24 @@
         <app-image-carousel [images]="packageInfo?.imageLinks"></app-image-carousel>
         <!-- Descripción -->
         <h2 class="text-2xl font-bold mb-4">DESCRIPCIÓN</h2>
-        <p class="text-gray-700">{{ packageInfo?.description }}</p>
+        <p class="text-justify text-gray-700">{{ packageInfo?.description }}</p>
 
         <!-- Itinerario -->
         <div *ngIf="packageInfo?.itinerary">
           <h2 class="text-2xl font-bold mt-8 mb-4">ITINERARIO</h2>
           <div *ngFor="let day of packageInfo?.itinerary" class="mb-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ day.day }}</h3>
-            <p class="text-gray-700">{{ day.description }}</p>
+            <p class="text-justify text-gray-700">{{ day.description }}</p>
           </div>
         </div>
 
         <!-- Recomendaciones -->
         <h2 class="text-2xl font-bold mt-8 mb-4">RECOMENDACIONES</h2>
-        <p class="text-gray-700">{{ packageInfo?.recommendations }}</p>
+        <p class="text-justify text-gray-700">{{ packageInfo?.recommendations }}</p>
 
         <!-- Condiciones para menores de edad -->
         <h2 class="text-2xl font-bold mt-8 mb-4">CONDICIONES PARA MENORES DE EDAD</h2>
-        <p class="text-gray-700">{{ packageInfo?.conditions_to_childs }}</p>
+        <p class="text-justify text-gray-700">{{ packageInfo?.conditions_to_childs }}</p>
 
         <!-- Condiciones generales -->
         <div *ngIf="packageInfo?.conditions?.length">

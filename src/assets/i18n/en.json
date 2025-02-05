@@ -9,12 +9,12 @@
   },
   "ANDEANELITE": {
     "TITLE": "ANDEAN ELITE",
-    "DESCRIPTION": "Luxury Travels Tailored to Every Emotion. Explore the world with exclusive and custom trips..."
+    "DESCRIPTION": "Tailor-Made Luxury Travel for Unforgettable Experiences. Explore the world with exclusive and custom trips..."
   },
   "WHYANDEANELITE": {
-    "TITLE": "Why Andean Elite?",
-    "1":{ "TITLE":"Unique Experience","DESCRIPTION": "We create customized trips in Peru, from Machu Picchu to Lake Titicaca, combining adventure, culture and luxury." },
-    "2": { "TITLE":"Luxury in Every Detail","DESCRIPTION": "We offer boutique hotels, exclusive trains and private transportation for a comfortable and elegant trip." },
+    "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
+    "1":{ "TITLE":"Unique Travel Experiences in Peru","DESCRIPTION": "We create customized trips in Peru, from Machu Picchu to Lake Titicaca, combining adventure, culture and luxury." },
+    "2": { "TITLE":"Luxury in Every Detail","DESCRIPTION": "Enjoy boutique hotels, luxury trains, and private transport for a seamless and sophisticated journey." },
     "3": { "TITLE":"Attention 24/7","DESCRIPTION": "Our team is available to solve any unforeseen event and guarantee your peace of mind." },
     "4": { "TITLE":"Cultural Connection","DESCRIPTION": "Experience the Peruvian heritage with guided tours to Machu Picchu and the Sacred Valley, with attention to every detail." },
     "5": { "TITLE":"Expert Guides","DESCRIPTION": "Our local guides offer you cultural and historical knowledge in destinations such as Cusco and Arequipa." },
@@ -24,7 +24,7 @@
     "READ_MORE": "Read More"
   },
   "TRAVELWITH": {
-    "TITLE": "Travel with Andean Elite",
+    "TITLE": "Luxury Travel in Peru with Andean Elite",
     "1": "From the Heart of the Andes to the Wonder of Machu Picchu",
     "2": "Be captivated by the Andean landscapes, cultural richness and Peruvian hospitality while enjoying an exclusive experience full of magic and elegance.",
     "3": "Travel in style. Experience Peru like never before.",
@@ -41,12 +41,12 @@
         },
         {
           "url": "assets/img/lima4.jpg",
-          "title": "Cultural Lima",
+          "title": "Lima, The City of Kings: Where History Meets Modernity",
           "description": "Lima is the capital of Peru, located on the country's arid Pacific coast. Despite preserving its colonial center, it is a bustling metropolis and one of the largest cities in South America."
         },
         {
           "url": "assets/img/cuscoespecial1.jpg",
-          "title": "Special Cusco",
+          "title": "Cusco: The Heart of the Inca Empire",
           "description": "Experience the full magic of Cusco on a 5-day, 4-night trip that includes accommodation in Cusco, a city tour, an archaeological visit, a Sacred Valley tour, an Expedition or Vistadome train ride, a visit to Machu Picchu, and a visit to Rainbow Mountain."
         },
         {
