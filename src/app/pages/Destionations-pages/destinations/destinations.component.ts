@@ -9,7 +9,7 @@ import {NgOptimizedImage} from '@angular/common';
 @Component({
   selector: 'app-destinations',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, RouterLink, TranslatePipe, LazyLoadImageModule, NgOptimizedImage],
+  imports: [NavbarComponent, FooterComponent, RouterLink, TranslatePipe, LazyLoadImageModule],
   templateUrl: './destinations.component.html',
   styleUrl: './destinations.component.css'
 })
