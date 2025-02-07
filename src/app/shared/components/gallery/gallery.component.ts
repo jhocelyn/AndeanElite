@@ -1,11 +1,13 @@
 import {Component, Input} from '@angular/core';
-import {NgForOf} from '@angular/common';
+import {NgForOf, NgOptimizedImage} from '@angular/common';
+import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 @Component({
   selector: 'app-gallery',
   standalone: true,
   imports: [
-    NgForOf
+    NgForOf,
+    LazyLoadImageModule
   ],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.css'

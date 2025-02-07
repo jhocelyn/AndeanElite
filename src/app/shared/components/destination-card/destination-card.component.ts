@@ -1,12 +1,14 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
 import {NgIf} from '@angular/common';
 import {Router} from '@angular/router';
+import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 @Component({
   selector: 'app-destination-card',
   standalone: true,
   imports: [
-    NgIf
+    NgIf,
+    LazyLoadImageModule
   ],
   templateUrl: './destination-card.component.html',
   styleUrl: './destination-card.component.css'

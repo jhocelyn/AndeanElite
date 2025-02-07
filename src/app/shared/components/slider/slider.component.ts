@@ -1,11 +1,12 @@
 import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { NgForOf } from '@angular/common';
+import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 @Component({
   selector: 'app-slider',
   standalone: true,
-  imports: [NgForOf],
+  imports: [NgForOf, LazyLoadImageModule],
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.css']
 })

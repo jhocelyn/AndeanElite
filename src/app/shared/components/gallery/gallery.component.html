@@ -1,18 +1,26 @@
-<div class="text-center text-white p-5 rounded-lg ">
+<div class="text-center text-white p-5 rounded-lg">
   <div class="flex items-center justify-center relative">
-    <button class="flex items-center justify-center text-gray-500 border border-gray-500 w-12 h-12 p-2 cursor-pointer rounded-full mx-2 hover:text-white hover:border-white" (click)="prev()">
+    <button
+      class="flex items-center justify-center text-gray-500 border border-gray-500 w-12 h-12 p-2 cursor-pointer rounded-full mx-2 hover:text-white hover:border-white"
+      (click)="prev()"
+      aria-label="Previous image">
       &#8249;
     </button>
+
     <div class="flex justify-center items-center overflow-hidden w-full max-w-screen-sm md:w-[90%]">
       <div class="flex overflow-x-auto space-x-4 scrollbar-hide">
         <div *ngFor="let image of visibleImages" class="bg-white flex flex-col items-center text-black mx-2 flex-[0_0_100%] sm:flex-[0_0_80%] md:flex-[0_0_30%] shadow-lg text-center h-[450px] w-full">
-          <img [src]="image.url" [alt]="image.description" class="w-full h-[250px] object-cover" />
+          <img [lazyLoad]="image.url" [alt]="image.description" loading="lazy" class="w-full h-[250px] object-cover" width="500" height="500" />
           <h3 class="mt-1 text-[15px] font-light text-[#0F2D40]">{{ image.title }}</h3>
           <p class="p-1 text-[12px] font-inherit">{{ image.description }}</p>
         </div>
       </div>
     </div>
-    <button class="flex items-center justify-center text-gray-500 border border-gray-500 w-12 h-12 p-2 cursor-pointer rounded-full mx-2 hover:text-white hover:border-white" (click)="next()">
+
+    <button
+      class="flex items-center justify-center text-gray-500 border border-gray-500 w-12 h-12 p-2 cursor-pointer rounded-full mx-2 hover:text-white hover:border-white"
+      (click)="next()"
+      aria-label="Next image">
       &#8250;
     </button>
   </div>

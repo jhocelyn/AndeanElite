@@ -3,11 +3,12 @@ import {NavbarComponent} from '../../../shared/components/navbar/navbar.componen
 import {FooterComponent} from '../../../shared/components/footer/footer.component';
 import {RouterLink} from '@angular/router';
 import {TranslatePipe} from '@ngx-translate/core';
+import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 @Component({
   selector: 'app-destinations',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, RouterLink, TranslatePipe],
+  imports: [NavbarComponent, FooterComponent, RouterLink, TranslatePipe, LazyLoadImageModule],
   templateUrl: './destinations.component.html',
   styleUrl: './destinations.component.css'
 })

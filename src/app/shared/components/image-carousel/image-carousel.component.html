@@ -1,16 +1,17 @@
 <div class="carousel-container">
   <div class="main-image">
     <button class="prev" (click)="prevImage()">&lt;</button>
-    <img [src]="images[currentIndex]" [alt]="'Imagen ' + (currentIndex + 1)" />
+    <img [lazyLoad]="images[currentIndex]" [alt]="'Imagen ' + (currentIndex + 1)" loading="lazy"
+        />
     <button class="next" (click)="nextImage()">&gt;</button>
   </div>
   <div class="thumbnails">
     <img
       *ngFor="let image of images; let i = index"
-      [src]="image"
+      [lazyLoad]="image"
       [alt]="'Miniatura ' + (i + 1)"
       [class.active]="i === currentIndex"
       (click)="setImage(i)"
-    />
+      />
   </div>
 </div>
