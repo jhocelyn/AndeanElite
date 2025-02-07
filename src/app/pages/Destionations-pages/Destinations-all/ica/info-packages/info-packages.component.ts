@@ -11,7 +11,6 @@ import {ImageCarouselComponent} from '../../../../../shared/components/image-car
     BookingFormComponent,
     NgForOf,
     NgIf,
-    NgStyle,
     ImageCarouselComponent
   ],
   templateUrl: './info-packages.component.html',
@@ -61,10 +60,10 @@ export class InfoPackagesComponent {
         'Propinas',
       ],
       imageLinks:[
-        'assets/img/destinations/ica/panoramic-view-of-huacachina-oasis-ica-peru-2023-11-27-05-23-54-utc.jpg',
-        'assets/img/destinations/ica/person-on-sand-dune-in-desert-sunset-of-huacachina-2023-11-27-05-00-47-utc.jpg',
-        'assets/img/destinations/ica/small-boat-at-huacachina-oasis-lake-ica-peru-2023-11-27-05-34-45-utc.jpg',
-        'assets/img/destinations/ica/huacachina-surrounded-by-sand-dunes-at-sunset-ic-2024-09-12-02-37-48-utc (1).jpg'
+        'assets/img/destinations/ica/panoramic-view-of-huacachina-oasis-ica-peru-2023-11-27-05-23-54-utc_11zon.webp',
+        'assets/img/destinations/ica/person-on-sand-dune-in-desert-sunset-of-huacachina-2023-11-27-05-00-47-utc_11zon.webp',
+        'assets/img/destinations/ica/small-boat-at-huacachina-oasis-lake-ica-peru-2023-11-27-05-34-45-utc_11zon.webp',
+        'assets/img/destinations/ica/huacachina-surrounded-by-sand-dunes-at-sunset-ic-2024-09-12-02-37-48-utc (1)_11zon.webp'
       ]
     },
 

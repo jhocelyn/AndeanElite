@@ -11,7 +11,6 @@ import {ImageCarouselComponent} from '../../../../../shared/components/image-car
     BookingFormComponent,
     NgForOf,
     NgIf,
-    NgStyle,
     ImageCarouselComponent
   ],
   templateUrl: './info-packages.component.html',
@@ -82,10 +81,10 @@ export class InfoPackagesComponent {
         'Almuerzo Café Inkaterra (sin bebidas)                  US$6.00',
       note:'',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -136,10 +135,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -197,10 +196,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -260,10 +259,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -323,10 +322,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -384,10 +383,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -442,10 +441,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
     {
@@ -493,10 +492,10 @@ export class InfoPackagesComponent {
       note:'NOTA: Min. 2 personas. Consultar tarifas por suplemento si el servicio es para 1 Pax.\n' +
         'Aplica solo pasajeros Peruanos o Residentes.\n',
       imageLinks:[
-        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc.jpg',
-        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc.jpg',
-        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc.jpg',
-        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc.jpg'
+        'assets/img/destinations/cusco/brown-and-white-lama-resting-on-green-meadow-at-ma-2024-07-03-02-43-58-utc_11zon.webp',
+        'assets/img/destinations/cusco/cusco-2023-11-27-05-29-33-utc_11zon.webp',
+        'assets/img/destinations/cusco/hike-in-peru-2023-11-27-05-01-51-utc_11zon.webp',
+        'assets/img/destinations/cusco/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp'
       ]
     },
   ];

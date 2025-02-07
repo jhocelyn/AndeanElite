@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {NgForOf, NgIf, NgStyle} from '@angular/common';
+import {NgForOf, NgIf} from '@angular/common';
 import {BookingFormComponent} from '../../../../../shared/components/booking-form/booking-form.component';
 import {ImageCarouselComponent} from '../../../../../shared/components/image-carousel/image-carousel.component';
 
 @Component({
   selector: 'app-info-packages',
   standalone: true,
-  imports: [NgIf, NgStyle, BookingFormComponent, NgForOf, ImageCarouselComponent],
+  imports: [NgIf, BookingFormComponent, NgForOf, ImageCarouselComponent],
   templateUrl: './info-packages.component.html',
   styleUrls: ['./info-packages.component.css'],
 })
@@ -69,10 +69,10 @@ export class InfoPackagesComponent implements OnInit {
         'Bebidas alcohólicas'
       ],
       imageLinks : [
-        'assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc.jpg',
-        'assets/img/destinations/arequipa/arequipa-city-with-misti-volcano-on-background-a-2023-11-27-05-10-01-utc.jpg',
-        'assets/img/destinations/arequipa/flying-andean-condor-2024-08-06-01-13-41-utc.jpg',
-        'assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc.jpg',
+        'assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc_11zon.webp',
+        'assets/img/destinations/arequipa/arequipa-city-with-misti-volcano-on-background-a-2023-11-27-05-10-01-utc_11zon.webp',
+        'assets/img/destinations/arequipa/flying-andean-condor-2024-08-06-01-13-41-utc_11zon.webp',
+        'assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp',
       ],
     },
     {
@@ -128,10 +128,10 @@ export class InfoPackagesComponent implements OnInit {
         'Bebidas alcohólicas'
       ],
       imageLinks : [
-        'assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc.jpg',
-        'assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-04-22-utc.jpg',
-        'assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-33-59-utc.jpg',
-        'assets/img/destinations/arequipa/santa-catalina-monastery-convento-de-santa-catali-2024-09-22-17-08-47-utc.jpg'
+        'assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp',
+        'assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-04-22-utc_11zon.webp',
+        'assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-33-59-utc_11zon.webp',
+        'assets/img/destinations/arequipa/santa-catalina-monastery-convento-de-santa-catali-2024-09-22-17-08-47-utc_11zon.webp'
       ],
     },
   ];

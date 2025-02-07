@@ -11,7 +11,6 @@ import {ImageCarouselComponent} from '../../../../../shared/components/image-car
     BookingFormComponent,
     NgForOf,
     NgIf,
-    NgStyle,
     ImageCarouselComponent
   ],
   templateUrl: './info-packages.component.html',
@@ -62,10 +61,10 @@ export class InfoPackagesComponent {
         'Propinas',
       ],
       imageLinks:[
-        'assets/img/destinations/nazca/beautiful-shot-of-nazca-condor-lines-geoglyphs-in-2023-11-27-05-20-19-utc.jpg',
-        'assets/img/destinations/nazca/nazca-2025-01-09-02-44-58-utc.jpg',
-        'assets/img/destinations/nazca/nazca-lines-hummingbird-2024-08-06-01-13-40-utc.jpg',
-        'assets/img/destinations/nazca/nazca-lines-hummingbird-2024-08-06-01-13-40-utc.jpg',
+        'assets/img/destinations/nazca/beautiful-shot-of-nazca-condor-lines-geoglyphs-in-2023-11-27-05-20-19-utc_11zon.webp',
+        'assets/img/destinations/nazca/nazca-2025-01-09-02-44-58-utc_11zon.webp',
+        'assets/img/destinations/nazca/nazca-lines-hummingbird-2024-08-06-01-13-40-utc_11zon.webp',
+        'assets/img/destinations/nazca/nazca-lines-hummingbird-2024-08-06-01-13-40-utc_11zon.webp',
       ]
     },
 

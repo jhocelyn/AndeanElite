@@ -11,7 +11,6 @@ import {ImageCarouselComponent} from '../../../../../shared/components/image-car
     BookingFormComponent,
     NgForOf,
     NgIf,
-    NgStyle,
     ImageCarouselComponent
   ],
   templateUrl: './info-packages.component.html',
@@ -81,10 +80,10 @@ export class InfoPackagesComponent {
         'Propinas',
       ],
       imageLinks:[
-        'assets/img/destinations/lima/scenery-by-the-ocean-in-peru-2023-11-27-05-23-56-utc.jpg',
-        'assets/img/destinations/lima/the-basilica-cathedral-of-lima-at-plaza-mayor-li-2023-11-27-05-22-01-utc.jpg',
-        'assets/img/destinations/lima/traditional-dishes-of-peruvian-cuisine-from-above-2023-11-27-05-09-08-utc.jpg',
-        'assets/img/destinations/lima/scenery-by-the-ocean-in-peru-2023-11-27-05-23-56-utc.jpg',
+        'assets/img/destinations/lima/scenery-by-the-ocean-in-peru-2023-11-27-05-23-56-utc_11zon.webp',
+        'assets/img/destinations/lima/the-basilica-cathedral-of-lima-at-plaza-mayor-li-2023-11-27-05-22-01-utc_11zon.webp',
+        'assets/img/destinations/lima/traditional-dishes-of-peruvian-cuisine-from-above-2023-11-27-05-09-08-utc_11zon.webp',
+        'assets/img/destinations/lima/scenery-by-the-ocean-in-peru-2023-11-27-05-23-56-utc_11zon.webp',
       ]
     },
 
