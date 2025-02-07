@@ -1,6 +1,6 @@
 <div class="relative w-full max-w-[320px] mx-auto h-min-[200px] rounded-lg overflow-hidden shadow-lg border sm:max-w-[400px]" (click)="onCardClick()">
   <!-- Imagen -->
-  <img [lazyLoad]="imageUrl" [alt]="title" class="w-full h-[150px] object-cover sm:h-[200px]">
+  <img [defaultImage]="imageUrl" [lazyLoad]="imageUrl" [alt]="title" class="w-full h-[150px] object-cover sm:h-[200px]">
 
   <!-- Descuento -->
   <div *ngIf="discount" class="absolute top-2 right-2 bg-red-600 text-white text-sm px-2 py-1 rounded">
