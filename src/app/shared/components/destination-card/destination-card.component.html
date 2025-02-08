@@ -1,4 +1,5 @@
-<div class="relative w-full max-w-[320px] mx-auto h-min-[200px] rounded-lg overflow-hidden shadow-lg border sm:max-w-[400px]" (click)="onCardClick()">
+<div class="relative w-full max-w-[320px] mx-auto h-[330px] md:h-[350px] rounded-lg overflow-hidden shadow-lg border sm:max-w-[400px]" (click)="onCardClick()">
+  <div class="relative w-full">
   <!-- Imagen -->
   <img [defaultImage]="imageUrl" [lazyLoad]="imageUrl" [alt]="title" class="w-full h-[150px] object-cover sm:h-[200px]">
 
@@ -8,10 +9,10 @@
   </div>
 
   <!-- Días -->
-  <div class="absolute bottom-[120px] right-2 bg-black bg-opacity-75 text-white text-xs px-3 py-1 rounded">
+  <div class="absolute bottom-[15px] md:bottom-[10px] right-2 bg-black bg-opacity-75 text-white text-xs px-3 py-1 rounded">
     {{ days }}
   </div>
-
+  </div>
   <!-- Detalles -->
   <div class="p-4 flex flex-col justify-between h-[calc(100%-150px)] sm:h-[calc(100%-200px)]">
     <h3 class="text-sm font-semibold text-gray-800 sm:text-base">{{ title }}</h3>

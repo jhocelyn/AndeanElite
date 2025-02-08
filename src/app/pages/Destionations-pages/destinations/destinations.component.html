@@ -1,17 +1,17 @@
 <app-navbar></app-navbar>
 
 <!-- Sección principal con imagen de fondo -->
-<div class="relative h-[80vh]">
+<div class="relative h-[40vh] md:h-[80vh]">
   <img [defaultImage]="'./assets/img/background/street-of-arequipa-and-peruvian-flag-arequipa-p-2023-11-27-05-01-38-utc.webp'" lazyLoad='./assets/img/background/street-of-arequipa-and-peruvian-flag-arequipa-p-2023-11-27-05-01-38-utc.jpg' alt="Background" class="h-full w-full object-cover" width="10px" height="10px">
-  <div class="absolute inset-0 top-[400px] left-[50px] w-[300px] h-[150px]">
-    <div class="bg-[#034873] p-10 h-full rounded-b-[50px] rounded-tl-[50px] shadow-lg flex flex-col items-center justify-center">
+  <div class="absolute inset-0 top-[200px] md:top-[400px] left-[50px] w-[300px] h-[80px] md:h-[150px]">
+    <div class="bg-[#034873] h-full rounded-tr-[50px] md:rounded-tr-[0px] rounded-b-[50px] rounded-tl-[50px] md:rounded-b-[50px] md:rounded-tl-[50px] shadow-lg flex flex-col items-center justify-center">
       <h2 class="text-3xl font-bold text-white mb-4">{{ 'DESTINATIONS.TITLE'|translate }}</h2>
     </div>
   </div>
 </div>
 
 <!-- Grid de destinos -->
-<div class="h-auto grid grid-cols-2 gap-5 md:gap-10 p-10 pt-32">
+<div class="h-auto grid grid-cols-2 gap-5 md:gap-10 p-10 pt-14 md:pt-32">
   <!-- Tarjeta de destino -->
   <div class="relative w-full h-[300px] rounded-lg overflow-hidden shadow-lg" [routerLink]="['/destination/arequipa/packages']">
     <img [src]="'assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc_11zon.webp'" lazyLoad="assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc_11zon.webp" alt="Arequipa" class="w-full h-full object-cover">
