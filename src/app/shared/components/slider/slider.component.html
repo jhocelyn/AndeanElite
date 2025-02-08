@@ -6,11 +6,13 @@
     [class.opacity-100]="i === currentImageIndex"
   >
     <img
+      [defaultImage]="'assets/img/loading-placeholder.webp'"
+      [errorImage]="'assets/img/error-placeholder.webp'"
       [lazyLoad]="image"
       class="h-full w-full object-cover"
       alt="Slider Image"
     />
-  </div>
+    </div>
   <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex gap-2 z-40">
     <button
       *ngFor="let image of images; let i = index"
