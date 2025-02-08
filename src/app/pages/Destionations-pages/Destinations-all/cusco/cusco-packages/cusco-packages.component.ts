@@ -13,8 +13,6 @@ import {DestinationCardComponent} from '../../../../../shared/components/destina
 })
 export class CuscoPackagesComponent {
   constructor(private router: Router) {}
-
-
   onCardClick(id: number) {
     this.router.navigate([`destination/cusco/info/${id}`]); // Redirigir a la ruta dinámica con el ID
   }
