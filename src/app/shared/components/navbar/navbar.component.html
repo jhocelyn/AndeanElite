@@ -4,96 +4,57 @@
     <div [routerLink]="['/home']" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center">
       <img src="/assets/img/logo_andean_1_t.png" alt="Logo" class="h-10 w-auto">
     </div>
-    <!-- Menu Icon -->
+
+    <!-- Menú Hamburguesa (móvil) -->
     <div class="md:hidden">
       <i class="fa-solid fa-bars text-[20px] text-white cursor-pointer" (click)="toggleMenu()"></i>
     </div>
 
     <!-- Menú principal (desktop) -->
-    <ul [class.hidden]="!isDesktop" class="flex flex-row text-white w-auto items-center gap-10 mt-4">
-      <div class="flex flex-row items-center gap-10 text-[17px]">
-        <li class="nav-item" [routerLink]="['/about-us']">{{ 'NAVBAR.ABOUT_US' | translate }}</li>
-        <li class="nav-item" [routerLink]="['/destinations']">{{ 'NAVBAR.DESTINATIONS' | translate }}</li>
-        <li class="nav-item" [routerLink]="['/our-products']">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</li>
-        <li class="nav-item" [routerLink]="['/our-services']">{{ 'NAVBAR.OUR_SERVICES' | translate }}</li>
-        <li class="nav-item" [routerLink]="['/contact-us']">{{ 'NAVBAR.CONTACT_US' | translate }}</li>
-      </div>
-
-      <!-- Language and Contact -->
-      <div class="flex flex-col md:flex-row items-center gap-4 md:gap-6">
-        <div class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
-          <span (click)="changeLanguage('es')" class="cursor-pointer">ESP</span>
-          <span (click)="changeLanguage('en')" class="cursor-pointer">ENG</span>
-        </div>
-        <div class="hidden md:flex items-center gap-2">
-          <i class="fa-solid fa-phone phone-icon"></i>
-          <a href="tel:+51 1 646 0000" class="phone-number">
-            <b>{{ 'NAVBAR.SALES_CONTACT' | translate }}</b> +51 1 646 0000
-          </a>
-        </div>
-      </div>
+    <ul class="hidden md:flex flex-row text-white w-auto items-center gap-10 text-[17px]">
+      <li class="nav-item" [routerLink]="['/about-us']">{{ 'NAVBAR.ABOUT_US' | translate }}</li>
+      <li class="nav-item" [routerLink]="['/destinations']">{{ 'NAVBAR.DESTINATIONS' | translate }}</li>
+      <li class="nav-item" [routerLink]="['/our-products']">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</li>
+      <li class="nav-item" [routerLink]="['/our-services']">{{ 'NAVBAR.OUR_SERVICES' | translate }}</li>
+      <li class="nav-item" [routerLink]="['/contact-us']">{{ 'NAVBAR.CONTACT_US' | translate }}</li>
     </ul>
 
+    <!-- Idioma y contacto -->
+    <div class="hidden md:flex items-center gap-6">
+      <!-- Idioma -->
+      <div class="flex flex-col items-center gap-2">
+        <span (click)="changeLanguage('es')" class="cursor-pointer">ESP</span>
+        <span (click)="changeLanguage('en')" class="cursor-pointer">ENG</span>
+      </div>
+      <!-- Teléfono -->
+      <div class="flex items-center gap-2">
+        <i class="fa-solid fa-phone phone-icon"></i>
+        <a href="tel:+51 1 646 0000" class="phone-number">
+          <b>{{ 'NAVBAR.SALES_CONTACT' | translate }}</b> +51 1 646 0000
+        </a>
+      </div>
+    </div>
   </div>
-  <nav [class]="navbarClasses" class="fixed top-0 left-0 w-full transition-all duration-500 flex items-center justify-between px-6 py-4 z-50 bg-[#042A4E]">
-    <div class="flex items-center w-full justify-between">
-      <!-- Logo -->
-      <div [routerLink]="['/home']" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center">
-        <img src="/assets/img/logo_andean_1_t.png" alt="Logo" class="h-10 w-auto">
-      </div>
-      <!-- Menu Icon -->
-      <div class="md:hidden">
-        <i class="fa-solid fa-bars text-[20px] text-white cursor-pointer" (click)="toggleMenu()"></i>
-      </div>
 
-      <!-- Menú principal (desktop) -->
-      <ul [class.hidden]="!isDesktop" class="flex flex-row text-white w-auto items-center gap-10 mt-4">
-        <div class="flex flex-row items-center gap-10 text-[17px]">
-          <li class="nav-item" [routerLink]="['/about-us']">{{ 'NAVBAR.ABOUT_US' | translate }}</li>
-          <li class="nav-item" [routerLink]="['/destinations']">{{ 'NAVBAR.DESTINATIONS' | translate }}</li>
-          <li class="nav-item" [routerLink]="['/our-products']">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</li>
-          <li class="nav-item" [routerLink]="['/our-services']">{{ 'NAVBAR.OUR_SERVICES' | translate }}</li>
-          <li class="nav-item" [routerLink]="['/contact-us']">{{ 'NAVBAR.CONTACT_US' | translate }}</li>
-        </div>
+  <!-- Menú móvil -->
+  <div
+    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transition-all duration-500"
+    [ngClass]="{ 'right-[-0%]': isMenuOpen }"
+  >
+    <button class="text-white text-2xl mb-4 self-end" (click)="toggleMenu()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
 
-        <!-- Language and Contact -->
-        <div class="flex flex-col md:flex-row items-center gap-4 md:gap-6">
-          <div class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
-            <span (click)="changeLanguage('es')" class="cursor-pointer">ESP</span>
-            <span (click)="changeLanguage('en')" class="cursor-pointer">ENG</span>
-          </div>
-          <div class="hidden md:flex items-center gap-2">
-            <i class="fa-solid fa-phone phone-icon"></i>
-            <a href="tel:+51 1 646 0000" class="phone-number">
-              <b>{{ 'NAVBAR.SALES_CONTACT' | translate }}</b> +51 1 646 0000
-            </a>
-          </div>
-        </div>
-      </ul>
+    <a [routerLink]="['/about-us']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
+    <a [routerLink]="['/destinations']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
+    <a [routerLink]="['/our-products']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
+    <a [routerLink]="['/our-services']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
+    <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
 
+    <!-- Idiomas -->
+    <div class="flex flex-row items-center gap-2 pt-4">
+      <span (click)="changeLanguage('es'); closeMenu()" class="cursor-pointer text-white">ESP</span>
+      <span (click)="changeLanguage('en'); closeMenu()" class="cursor-pointer text-white">ENG</span>
     </div>
-
-    <!-- Menú móvil -->
-    <div
-      class="md:hidden fixed top-0 right-[100%] w-full h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transition-all duration-500"
-      [ngClass]="{ 'right-[0%]': isMenuOpen }"
-    >
-      <button class="text-white text-2xl mb-4 self-end" (click)="toggleMenu()">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-
-      <a [routerLink]="['/about-us']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
-      <a [routerLink]="['/destinations']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
-      <a [routerLink]="['/our-products']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
-      <a [routerLink]="['/our-services']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
-      <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white" (click)="closeMenu()">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
-
-      <!-- Idiomas -->
-      <div class="flex flex-row items-center gap-2 pt-4">
-        <span (click)="changeLanguage('es'); closeMenu()" class="cursor-pointer text-white">ESP</span>
-        <span (click)="changeLanguage('en'); closeMenu()" class="cursor-pointer text-white">ENG</span>
-      </div>
-    </div>
-  </nav>
-
+  </div>
 </nav>
