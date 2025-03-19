@@ -115,5 +115,195 @@
   },
   "DESTINATIONS": {
     "TITLE": "Destinos"
+  },
+  "PACKAGES": {
+    "AREQUIPA":   [
+      {
+        "id": "1",
+        "title": "Arequipa Majestuosa",
+        "subtitle": "Arequipa es la capital colonial de la región, rodeada de volcanes y con arquitectura en sillar, una piedra volcánica blanca.",
+        "days": 4,
+        "nights": 3,
+        "price": 0,
+        "mapUrl": [],
+        "description": {
+          "highlights": [],
+          "text": "",
+          "itinerary": [
+            {
+              "dayTitle": "DÍA 01: LLEGADA Y CITY TOUR",
+              "daySubtitle": "",
+              "dayDescription": "Recepción y traslado al hotel. En la tarde, recorrido por la Plaza de Armas, la Catedral y el Monasterio de Santa Catalina."
+            },
+            {
+              "dayTitle": "DÍA 02: FULL DAY CAÑÓN DEL COLCA",
+              "daySubtitle": "",
+              "dayDescription": "Salida temprano hacia Chivay, visita a miradores y Cruz del Cóndor. Regreso con paradas en Pampa Cañahuas y Patapampa."
+            },
+            {
+              "dayTitle": "DÍA 03: TOUR DEL SILLAR",
+              "daySubtitle": "",
+              "dayDescription": "Exploración de canteras de sillar, visita a miradores de volcanes y caminata en la Quebrada de Culebrillas."
+            },
+            {
+              "dayTitle": "DÍA 04: SALIDA DE AREQUIPA",
+              "daySubtitle": "",
+              "dayDescription": "Desayuno y traslado a la estación o aeropuerto."
+            }
+          ]
+        },
+        "sampleJourney": [
+          {
+            "dayTitle": "DÍA 01: EXPLORANDO LA CIUDAD",
+            "daySubtitle": "Historia y cultura colonial",
+            "dayDescription": "Recorrerás el corazón de Arequipa, admirando la Plaza de Armas, la Catedral y los claustros coloniales. Luego, visitarás el Monasterio de Santa Catalina, un convento con pasajes coloridos y patios tranquilos que reflejan la vida de clausura del siglo XVII. Por la noche, cena en un restaurante con vista al volcán Misti."
+          },
+          {
+            "dayTitle": "DÍA 02: MARAVILLA NATURAL DEL COLCA",
+            "daySubtitle": "Encuentro con el cóndor andino",
+            "dayDescription": "Salida al Cañón del Colca, uno de los más profundos del mundo. En el camino, harás paradas en miradores estratégicos para admirar el valle. Al llegar a la Cruz del Cóndor, observarás el majestuoso vuelo de los cóndores. Luego, exploración de pueblos tradicionales y relajación en aguas termales naturales."
+          },
+          {
+            "dayTitle": "DÍA 03: MISTERIOS DEL SILLAR",
+            "daySubtitle": "El arte de la piedra blanca",
+            "dayDescription": "Descubrirás las canteras de sillar, donde aún se esculpen bloques de esta piedra volcánica. En la Quebrada de Culebrillas, caminarás entre formaciones rocosas y petroglifos preincaicos que cuentan historias ancestrales. Finaliza el día con una vista panorámica de los volcanes que rodean la ciudad."
+          }
+        ],
+        "customOptions": {
+          "description": "Recomendaciones y condiciones de viaje",
+          "packages": []
+        },
+        "pricing": {
+          "title": "Condiciones y tarifas",
+          "included": [
+            "Traslado aeropuerto – hotel – aeropuerto en movilidad privada",
+            "3 noches de alojamiento en Arequipa + desayunos.",
+            "City Tour + Monasterio de Santa Catalina.",
+            "Full Day Colca",
+            "Tour Ruta del Sillar",
+            "Entradas turísticas.",
+            "Guía Profesional en Español.",
+            "Asistencia durante todo el viaje."
+          ],
+          "notIncluded": [
+            "Tickets Aéreos",
+            "Seguro de viaje",
+            "Ingreso Catedral de Arequipa",
+            "Alimentación no especificada",
+            "Propinas",
+            "Bebidas alcohólicas"
+          ]
+        },
+        "images": [
+          {
+            "alt": "Iglesia de la Compañía de Jesús en Arequipa",
+            "src": "assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc_11zon.webp",
+            "width": "800"
+          },
+          {
+            "alt": "Vista de la ciudad de Arequipa con el volcán Misti de fondo",
+            "src": "assets/img/destinations/arequipa/arequipa-city-with-misti-volcano-on-background-a-2023-11-27-05-10-01-utc_11zon.webp",
+            "width": "800"
+          },
+          {
+            "alt": "Cóndor volando en el Cañón del Colca",
+            "src": "assets/img/destinations/arequipa/flying-andean-condor-2024-08-06-01-13-41-utc_11zon.webp",
+            "width": "1200"
+          },
+          {
+            "alt": "Interior del Monasterio de Santa Catalina en Arequipa",
+            "src": "assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp",
+            "width": "800"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Arequipa Tradicional",
+        "subtitle": "Arequipa, la capital colonial de la región, rodeada de volcanes y con arquitectura de sillar.",
+        "days": 4,
+        "nights": 3,
+        "price": 0,
+        "mapUrl": [],
+        "description": {
+          "highlights": [
+            "Visita a la Plaza de Armas y la Catedral de Arequipa",
+            "Recorrido por el Monasterio de Santa Catalina",
+            "Exploración del Valle del Colca y la Cruz del Cóndor",
+            "Baños termales en La Calera",
+            "Observación del majestuoso vuelo del cóndor"
+          ],
+          "text": "Arequipa es la capital de la época colonial de la región de Arequipa en Perú. La rodean 3 volcanes y cuenta con edificios barrocos construidos de sillar, una piedra volcánica blanca.",
+          "itinerary": [
+            {
+              "dayTitle": "DIA 01",
+              "daySubtitle": "AREQUIPA IN – CITY TOUR + MONASTERIO DE SANTA CATALINA",
+              "dayDescription": "Recepción y traslado al hotel elegido. Recojo del hotel para realizar el City Tour. Visita a la Plaza de Armas, la Catedral, los Claustros de la Compañía de Jesús y el Monasterio de Santa Catalina. Luego, recorrido por la campiña de Carmen Alto y el Mirador de Yanahuara."
+            },
+            {
+              "dayTitle": "DIA 02",
+              "daySubtitle": "AREQUIPA – CHIVAY",
+              "dayDescription": "Desayuno. Salida hacia el Valle del Colca atravesando la reserva de Salinas y Aguada Blanca. Paradas en Pampa Cañahuas, Patahuasi, Tocra y Patapampa. Llegada a Chivay, almuerzo (por cuenta del pasajero), visita a los baños termales La Calera y cena con show folklórico."
+            },
+            {
+              "dayTitle": "DIA 03",
+              "daySubtitle": "COLCA – CRUZ DEL CÓNDOR – AREQUIPA",
+              "dayDescription": "Desayuno. Visita a la Cruz del Cóndor para observar el cañón y el vuelo del cóndor. Paradas en Yanque, Maca y otros miradores. Retorno a Chivay, almuerzo (por cuenta del pasajero) y regreso a Arequipa."
+            },
+            {
+              "dayTitle": "DIA 04",
+              "daySubtitle": "AREQUIPA OUT",
+              "dayDescription": "Desayuno. Traslado a la estación/aeropuerto para retorno a ciudad de origen."
+            }
+          ]
+        },
+        "sampleJourney": [],
+        "customOptions": {
+          "description": "Opciones a medida disponibles bajo solicitud.",
+          "packages": []
+        },
+        "pricing": {
+          "title": "Condiciones y Precios",
+          "included": [
+            "Traslado aeropuerto – hotel – aeropuerto en movilidad privada.",
+            "2 noches de alojamiento en Arequipa + desayunos.",
+            "1 noche de Alojamiento en Chivay HTL VITA Colca o similar + desayuno.",
+            "City Tour + Monasterio Santa Catalina.",
+            "Cañón del Colca.",
+            "Entradas turísticas.",
+            "Guía Profesional Bilingüe (Español).",
+            "Asistencia durante todo el viaje."
+          ],
+          "notIncluded": [
+            "Tickets Aéreos",
+            "Seguro de viaje",
+            "Propinas",
+            "Bebidas alcohólicas"
+          ]
+        },
+        "images": [
+          {
+            "alt": "Monasterio de Santa Catalina - Arequipa",
+            "src": "assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Santa Catalina Monastery - Arequipa",
+            "src": "assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-04-22-utc_11zon.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Arquitectura del Monasterio de Santa Catalina",
+            "src": "assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-33-59-utc_11zon.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Vista interna del Monasterio de Santa Catalina",
+            "src": "assets/img/destinations/arequipa/santa-catalina-monastery-convento-de-santa-catali-2024-09-22-17-08-47-utc_11zon.webp",
+            "width": 1200
+          }
+        ]
+      }
+    ]
   }
 }

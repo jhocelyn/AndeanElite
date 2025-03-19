@@ -1,107 +1,46 @@
-<div class="min-h-screen bg-[#FFFFFF]">
-  <!-- Encabezado -->
-  <div
-    class="relative bg-cover bg-center h-[150px]">
-    <div class="absolute inset-0 "></div>
-    <div class="absolute bottom-10 left-10 text-[#034873]">
-      <h1 class="text-4xl font-bold">{{ packageInfo?.name }}</h1>
-      <p>Total de días: {{ calculateDays(packageInfo.itinerary) }}</p>
-    </div>
-  </div>
+<!--Banner-->
+<ng-container *ngIf="package$ | async as package">
+  <app-banner [images]="package.images"></app-banner>
 
-  <!-- Contenido principal -->
-  <div class="container mx-auto px-4 py-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div class="flex flex-col justify-between w-full p-6 space-y-8">
+    <!-- Información general siempre visible -->
+    <app-package-over-view [package]="package"></app-package-over-view>
 
-      <!-- Columna izquierda: Detalles del paquete -->
-      <div class="md:col-span-2 bg-white rounded-lg shadow-lg p-6">
-        <app-image-carousel [images]="packageInfo?.imageLinks"></app-image-carousel>
-
-        <!-- Descripción -->
-        <h2 class="text-2xl font-bold mb-4">DESCRIPCION</h2>
-        <p class="text-justify text-gray-700">{{ packageInfo?.description }}</p>
-
-        <!-- Itinerario -->
-        <h2 class="text-2xl font-bold mt-8 mb-4">ITINERARIO</h2>
-        <div *ngFor="let day of packageInfo?.itinerary" class="mb-6">
-          <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ day.day }}</h3>
-          <p class="text-justify text-gray-700">{{ day.description }}</p>
+    <!-- Contenedor flexible responsive -->
+    <div class="flex flex-col gap-5 xl:flex-row w-full">
+      <div class="w-full xl:w-2/3">
+        <!-- Menú de navegación -->
+        <div class="flex overflow-x-auto xl:overflow-x-hidden space-x-2 border-b">
+          <button
+            *ngFor="let tab of tabs"
+            (click)="selectedTab = tab.id"
+            [class.text-blue-500]="selectedTab === tab.id"
+            class="py-2 px-4 font-semibold text-gray-700 hover:text-[#aa5432] whitespace-nowrap">
+            <i [class]="tab.icon"></i> {{ tab.label }}
+          </button>
         </div>
 
-        <!--Recomendaciones -->
-        <h2 class="text-2xl font-bold mt-8 mb-4">RECOMENDACIONES</h2>
-        <p class=" text-justify text-gray-700">{{packageInfo?.recommendations}}</p>
+        <!-- Contenido de las secciones -->
+        <ng-container [ngSwitch]="selectedTab">
+          <app-package-description *ngSwitchCase="'description'" [package]="package"></app-package-description>
+          <app-pack-sample-journey [alojamientos]="false" *ngSwitchCase="'sample-journey'" [package]="package"></app-pack-sample-journey>
+          <app-custom-options *ngSwitchCase="'custom-options'" [package]="package"></app-custom-options>
+          <app-package-pricing *ngSwitchCase="'pricing'" [package]="package"></app-package-pricing>
 
-        <!--Condiciones para menores de edad-->
-        <h2 class="text-2xl font-bold mt-8 mb-4">CONDICIONES PARA MENORES DE EDAD</h2>
-        <p class="text-justify text-gray-700">{{packageInfo?.conditions_to_childs}}</p>
-        <div *ngFor="let condition of packageInfo?.list_conditions">
-          <li class="text-justify text-gray-700">{{ condition }}</li>
-        </div>
-        <p class="text-gray-700">{{packageInfo?.conditions1_to_childs}}</p>
-        <!--Condiciones-->
-        <div *ngIf="packageInfo?.conditions?.length">
-          <h2 class="text-2xl font-bold mt-8 mb-4">Condiciones</h2>
-          <ol class="text-gray-700 list-decimal pl-6">
-            <li *ngFor="let condition of packageInfo.conditions">
-              {{ condition }}
-            </li>
-          </ol>
-        </div>
-        <!--Incluye-->
-        <div *ngIf="packageInfo?.includes?.length">
-          <h2 class="text-2xl font-bold mt-8 mb-4">INCLUYE</h2>
-            <li class="text-gray-700 list-none pl-6" *ngFor="let include of packageInfo.includes">
-              <i class="fa-solid fa-check text-[#7ad03a]"></i> {{ include }}
-            </li>
-        </div>
-
-        <!--No incluye-->
-        <div *ngIf="packageInfo?.includes?.length">
-          <h2 class="text-2xl font-bold mt-8 mb-4">NO INCLUYE</h2>
-          <li class="text-gray-700 list-none pl-6" *ngFor="let not_include of packageInfo.not_includes">
-            <i class="fa-solid fa-xmark text-[#a00]"></i> {{ not_include }}
-          </li>
-        </div>
-        <!--Hoteles TABLA-->
-        <h2 class="text-2xl font-bold mt-8 mb-4">PRECIOS</h2>
-        <div *ngIf="hoteles" class="overflow-x-auto">
-          <table class="table-auto w-full border-collapse border border-gray-300">
-            <thead>
-            <tr class="bg-gray-100">
-              <th *ngFor="let columna of columnas" class="px-4 py-2 border border-gray-300 text-left">
-                {{ columna }}
-              </th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr
-              *ngFor="let hotel of hoteles"
-              class="hover:bg-gray-50 even:bg-gray-100 odd:bg-white"
-            >
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.nombre }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.categoria }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.desayuno }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.simple || '-' }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.doble || '-' }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.triple || '-' }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.nino8a16 || '-' }}</td>
-              <td class="px-4 py-2 border border-gray-300">{{ hotel.nino3a8 || '-' }}</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-
+          <!-- Nueva sección Request the Program -->
+          <div *ngSwitchCase="'request-program'" class="flex flex-col items-center p-10">
+            <h2 class="text-2xl font-semibold mb-4">Request the Program</h2>
+            <div *ngIf="package">
+            </div>
+          </div>
+        </ng-container>
       </div>
-      <!-- Columna derecha: Formulario de reserva -->
-      <div class="bg-white rounded-lg shadow-lg p-6">
-        <app-booking-form
-          [title]="packageInfo?.name"
-          [price]="257"
-          [days]="4"
-        ></app-booking-form>
+
+      <!--Mapa - Oculto en móviles, visible en pantallas xl en adelante-->
+      <div *ngIf="package" class="w-full xl:w-1/3 hidden xl:block mt-6 xl:mt-0">
+        <app-booking-form [title]="package.title" [price]="package.price" [days]="package.days"></app-booking-form>
       </div>
     </div>
   </div>
-</div>
 
+</ng-container>

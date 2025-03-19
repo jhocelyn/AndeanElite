@@ -115,5 +115,185 @@
   },
   "DESTINATIONS": {
     "TITLE": "Destinations"
+  },
+  "PACKAGES":{
+    "AREQUIPA": [
+      {
+        "id": "1",
+        "title": "Majestic Arequipa",
+        "subtitle": "Arequipa is the colonial-era capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone.",
+        "days": 4,
+        "nights": 3,
+        "price": 0,
+        "mapUrl": [],
+        "description": {
+          "highlights": [],
+          "text": "",
+          "itinerary": [
+            {
+              "dayTitle": "DAY 01 AREQUIPA IN – CITY TOUR + SANTA CATALINA MONASTERY",
+              "daySubtitle": "",
+              "dayDescription": "At the scheduled time, hotel pickup for the City Tour. At 14:00 hrs, we begin the visit to the White City of Arequipa, exploring the Main Square, which features a beautiful three-tiered bronze fountain crowned by a 16th-century soldier figure. You will also appreciate the Cathedral and the Cloisters of the Society of Jesus. Next, visit the Santa Catalina Monastery, a former absolute cloister that remained closed to the public for centuries. Today, it has been beautifully restored and opened to the public, allowing visitors to experience what Arequipa was like in the 17th century. You will see its streets, gardens, cloisters, rustic stone wash basins, sillar walls, and its impressive art gallery. The tour continues to the beautiful green countryside of Carmen Alto and the Yanahuara Viewpoint, where you will have a privileged view of the city and the surrounding volcanoes, including Misti, Pichu Pichu, and Chachani. Overnight in Arequipa."
+            },
+            {
+              "dayTitle": "DAY 02 FULL DAY COLCA CANYON",
+              "daySubtitle": "",
+              "dayDescription": "Departure very early, around 3:00 to 3:30 am, heading directly to Chivay for breakfast before continuing to La Cruz Del Cóndor. Along the way, there will be stops in Yanque, several viewpoints, and the town of Maca, with stops coordinated along the route, either on the way there or back. Upon arrival at the Cruz Del Cóndor viewpoint, you will witness part of the canyon’s depth and hopefully see the majestic flight of the condor, with an approximate stay of one hour. The return trip to Chivay includes lunch (not included) and stops at strategic locations within the Salinas and Aguada Blanca National Reserve, such as Patapampa (the viewpoint of the volcanoes), the Tocra wetlands, and Pampa Cañahuas to observe vicuñas. Finally, arrival in Arequipa."
+            },
+            {
+              "dayTitle": "DAY 03 SILLAR ROUTE TOUR",
+              "daySubtitle": "",
+              "dayDescription": "Breakfast at the hotel. At 08:00 hrs, we begin our journey filled with history and living culture, visiting quarries and areas where sillar originated. We will make a brief stop at the main square of Cayma District to appreciate its Plaza and Church. We continue our tour with a short stop at a viewpoint to see the three volcanoes surrounding Arequipa: Misti, Chachani, and Pichupichu. Then, we will arrive at the Añashuayco Quarry, where you can see the quarry in operation, learn about the sillar extraction process, and witness the craftsmanship of the master stonecutters. The tour continues to the Culebrillas Ravine, where we will take a 20-minute walk through a small canyon formed by water erosion, with walls ranging from 15 to 20 meters high. As we walk, the walls grow taller, leading to ancient petroglyphs created by the Wasi Culture. At the end of the tour, we will observe the Apachetas, stone formations stacked on top of each other, symbolizing gratitude to nature and attracting good fortune, creating a mystical atmosphere. Return to the hotel."
+            },
+            {
+              "dayTitle": "DAY 04 AREQUIPA",
+              "daySubtitle": "",
+              "dayDescription": "Breakfast. At the scheduled time, transfer to the station/airport for the return to your home city or to continue your journey."
+            }
+          ]
+        },
+        "sampleJourney": [],
+        "customOptions": {
+          "description": "Travel recommendations and conditions",
+          "packages": []
+        },
+        "pricing": {
+          "title": "Conditions and Rates",
+          "included": [
+            "Private transportation airport – hotel – airport",
+            "3 nights of accommodation in Arequipa + breakfasts",
+            "City Tour + Santa Catalina Monastery",
+            "Full Day Colca",
+            "Sillar Route Tour",
+            "Tourist entrance fees",
+            "Professional Spanish-speaking guide",
+            "Assistance throughout the trip"
+          ],
+          "notIncluded": [
+            "Airline tickets",
+            "Travel insurance",
+            "Entrance to Arequipa Cathedral",
+            "Meals not specified",
+            "Tips",
+            "Alcoholic beverages"
+          ]
+        },
+        "images": [
+          {
+            "alt": "Church of the Society of Jesus in Arequipa",
+            "src": "assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc_11zon.webp",
+            "width": "800"
+          },
+          {
+            "alt": "View of Arequipa city with Misti Volcano in the background",
+            "src": "assets/img/destinations/arequipa/arequipa-city-with-misti-volcano-on-background-a-2023-11-27-05-10-01-utc_11zon.webp",
+            "width": "800"
+          },
+          {
+            "alt": "Andean condor flying over Colca Canyon",
+            "src": "assets/img/destinations/arequipa/flying-andean-condor-2024-08-06-01-13-41-utc_11zon.webp",
+            "width": "800"
+          },
+          {
+            "alt": "Interior of Santa Catalina Monastery in Arequipa",
+            "src": "assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp",
+            "width": "800"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Traditional Arequipa",
+        "subtitle": "Arequipa, the colonial capital of the region, surrounded by volcanoes and featuring sillar architecture.",
+        "days": 4,
+        "nights": 3,
+        "price": 0,
+        "mapUrl": [],
+        "description": {
+          "highlights": [
+            "Visit to the Plaza de Armas and the Cathedral of Arequipa",
+            "Tour of the Santa Catalina Monastery",
+            "Exploration of the Colca Valley and the Condor Cross",
+            "Thermal baths at La Calera",
+            "Observation of the majestic flight of the condor"
+          ],
+          "text": "Arequipa is the colonial capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone.",
+          "itinerary": [
+            {
+              "dayTitle": "DAY 01",
+              "daySubtitle": "AREQUIPA IN – CITY TOUR + SANTA CATALINA MONASTERY",
+              "dayDescription": "Reception and transfer to the selected hotel. Pick-up from the hotel for the City Tour. Visit to the Plaza de Armas, the Cathedral, the Cloisters of the Church of the Society of Jesus, and the Santa Catalina Monastery. Then, tour through the countryside of Carmen Alto and the Yanahuara Viewpoint."
+            },
+            {
+              "dayTitle": "DAY 02",
+              "daySubtitle": "AREQUIPA – CHIVAY",
+              "dayDescription": "Breakfast. Departure to the Colca Valley, crossing the Salinas and Aguada Blanca reserve. Stops at Pampa Cañahuas, Patahuasi, Tocra, and Patapampa. Arrival in Chivay, lunch (at the traveler's expense), visit to the La Calera hot springs, and dinner with a folk show."
+            },
+            {
+              "dayTitle": "DAY 03",
+              "daySubtitle": "COLCA – CONDOR CROSS – AREQUIPA",
+              "dayDescription": "Breakfast. Visit to the Condor Cross to observe the canyon and the flight of the condor. Stops in Yanque, Maca, and other viewpoints. Return to Chivay, lunch (at the traveler's expense), and return to Arequipa."
+            },
+            {
+              "dayTitle": "DAY 04",
+              "daySubtitle": "AREQUIPA OUT",
+              "dayDescription": "Breakfast. Transfer to the station/airport for return to the city of origin."
+            }
+          ]
+        },
+        "sampleJourney": [],
+        "customOptions": {
+          "description": "Tailor-made options available upon request.",
+          "packages": []
+        },
+        "pricing": {
+          "title": "Conditions and Prices",
+          "included": [
+            "Private transportation: airport – hotel – airport.",
+            "2 nights of accommodation in Arequipa + breakfasts.",
+            "1 night of accommodation in Chivay HTL VITA Colca or similar + breakfast.",
+            "City Tour + Santa Catalina Monastery.",
+            "Colca Canyon.",
+            "Tourist entrance fees.",
+            "Bilingual Professional Guide (Spanish).",
+            "Assistance throughout the trip."
+          ],
+          "notIncluded": [
+            "Air Tickets",
+            "Travel Insurance",
+            "Tips",
+            "Alcoholic beverages"
+          ]
+        },
+        "images": [
+          {
+            "alt": "Santa Catalina Monastery - Arequipa",
+            "src": "assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Santa Catalina Monastery - Arequipa",
+            "src": "assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-04-22-utc_11zon.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Architecture of the Santa Catalina Monastery",
+            "src": "assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-33-59-utc_11zon.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Interior view of the Santa Catalina Monastery",
+            "src": "assets/img/destinations/arequipa/santa-catalina-monastery-convento-de-santa-catali-2024-09-22-17-08-47-utc_11zon.webp",
+            "width": 1200
+          }
+        ]
+      }
+    ],
+    "CUSCO":[],
+    "ICA": [],
+    "LIMA":[],
+    "NAZCA": [],
+    "PUERTO_MALDONADO": []
   }
 }
+

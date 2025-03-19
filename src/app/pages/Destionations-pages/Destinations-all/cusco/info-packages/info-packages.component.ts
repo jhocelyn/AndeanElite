@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {BookingFormComponent} from '../../../../../shared/components/booking-form/booking-form.component';
-import {NgForOf} from '@angular/common';
+import {NgForOf, NgIf} from '@angular/common';
 import {ActivatedRoute} from '@angular/router';
 import {ImageCarouselComponent} from '../../../../../shared/components/image-carousel/image-carousel.component';
 
@@ -10,7 +10,8 @@ import {ImageCarouselComponent} from '../../../../../shared/components/image-car
   imports: [
     BookingFormComponent,
     NgForOf,
-    ImageCarouselComponent
+    ImageCarouselComponent,
+    NgIf
   ],
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'

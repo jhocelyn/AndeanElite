@@ -22,11 +22,5 @@ export class DestinationCardComponent {
   @Input() imageUrl!: string;
   @Output() cardClick = new EventEmitter<void>();
   @Input() destinationBase: string = 'destination/arequipa';
-  constructor(private router: Router) {}
-
-  onCardClick() {
-    const formattedTitle = this.title.replace(/ /g, '-').toLowerCase();
-    this.router.navigate([`${this.destinationBase}/info/${formattedTitle}`]);
-  }
-
+  constructor() {}
 }
