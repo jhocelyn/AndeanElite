@@ -1,10 +1,10 @@
 import {Component, OnInit, Inject, PLATFORM_ID, HostListener} from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import AOS from 'aos';
-import {NavbarComponent} from '../../shared/components/navbar/navbar.component';
-import {SliderComponent} from '../../shared/components/slider/slider.component';
+import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
+import {SliderComponent} from '../../shared/components/Important/slider/slider.component';
 import {GalleryComponent} from '../../shared/components/gallery/gallery.component';
-import {FooterComponent} from '../../shared/components/footer/footer.component';
+import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 
 @Component({

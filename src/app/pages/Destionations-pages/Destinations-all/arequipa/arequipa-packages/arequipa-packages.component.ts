@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DestinationCardComponent } from '../../../../../shared/components/destination-card/destination-card.component';
+import { DestinationCardComponent } from '../../../../../shared/components/to-destinations/list-packages/destination-card/destination-card.component';
 import { Router } from '@angular/router';
 
 @Component({

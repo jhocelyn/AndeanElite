@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
-import {DestinationCardComponent} from '../../../../../shared/components/destination-card/destination-card.component';
+import {DestinationCardComponent} from '../../../../../shared/components/to-destinations/list-packages/destination-card/destination-card.component';
 
 @Component({
   selector: 'app-nazca-packages',

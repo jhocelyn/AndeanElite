@@ -2,25 +2,25 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {AsyncPipe, NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
 import {BookingFormComponent} from '../../../../../shared/components/booking-form/booking-form.component';
-import {BannerComponent} from '../../../../../shared/components/info-destinations/banner/banner.component';
+import {BannerComponent} from '../../../../../shared/components/to-destinations/info-destinations/banner/banner.component';
 import {
   PackageOverViewComponent
-} from '../../../../../shared/components/info-destinations/package-over-view/package-over-view.component';
+} from '../../../../../shared/components/to-destinations/info-destinations/package-over-view/package-over-view.component';
 import {Observable} from 'rxjs';
 import {TravelPackage} from '../../../../../shared/models/TravelPackage.model';
 import {PackagesService} from '../../../../../services/packages.service';
 import {
   PackageDescriptionComponent
-} from '../../../../../shared/components/info-destinations/package-description/package-description.component';
+} from '../../../../../shared/components/to-destinations/info-destinations/package-description/package-description.component';
 import {
   PackSampleJourneyComponent
-} from '../../../../../shared/components/info-destinations/pack-sample-journey/pack-sample-journey.component';
+} from '../../../../../shared/components/to-destinations/info-destinations/pack-sample-journey/pack-sample-journey.component';
 import {
   CustomOptionsComponent
-} from '../../../../../shared/components/info-destinations/custom-options/custom-options.component';
+} from '../../../../../shared/components/to-destinations/info-destinations/custom-options/custom-options.component';
 import {
   PackagePricingComponent
-} from '../../../../../shared/components/info-destinations/package-pricing/package-pricing.component';
+} from '../../../../../shared/components/to-destinations/info-destinations/package-pricing/package-pricing.component';
 
 @Component({
   selector: 'app-info-packages',
