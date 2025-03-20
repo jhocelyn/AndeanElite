@@ -1,6 +1,5 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
 import {NgIf} from '@angular/common';
-import {Router} from '@angular/router';
 import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 @Component({
