@@ -1,9 +1,32 @@
 {
   "NAVBAR": {
-    "ABOUT_US": "About us",
+    "ABOUT_US": {
+      "TITLE": "About Us",
+      "OURTEAM": "Our Team",
+      "LICENSE": "License and Acreditations",
+      "RESPONSIBLE": "Responsable Travel"
+    },
     "DESTINATIONS": "Destinations",
-    "OUR_PRODUCTS": "Our Products",
-    "OUR_SERVICES": "Our Services",
+    "HOME": "Home",
+    "WAYS": {
+      "TITLE":"Ways to Travel",
+      "STYLES": {
+        "TITLE": "Styles",
+        "PREMIUM": "Premium",
+        "DELUXE": "Deluxe",
+        "COMFORT": "Comfort",
+        "SUPERDEALS": "Super Deals"
+      },
+      "TRAVEL": {
+        "TITLE": "Travel By Interest",
+        "CRUISE": "Cruise",
+        "TREKKING": "Trekking",
+        "FULLDAY": "Full Day Tours",
+        "FAMILY": "Family",
+        "CIRCUITS": "Circuits",
+        "TAYLOR": "Taylor Made"
+      }
+    },
     "CONTACT_US": "Contact us",
     "SALES_CONTACT": "Sales Contact Center:"
   },

@@ -1,11 +1,35 @@
 {
   "NAVBAR": {
-    "ABOUT_US": "Sobre nosotros",
+    "ABOUT_US": {
+      "TITLE": "Sobre nosotros",
+      "OURTEAM": "Nuestro Equipo",
+      "LICENSE": "Licencia y Acreditaciones",
+      "RESPONSIBLE": "Viaje Responsable"
+    },
+    "HOME": "Inicio",
+    "WAYS": {
+      "TITLE":"Formas de Viajar",
+      "STYLES": {
+        "TITLE": "Estilos",
+        "PREMIUM": "Premium",
+        "DELUXE": "Deluxe",
+        "COMFORT": "Comfort",
+        "SUPERDEALS": "Super Deals"
+      },
+      "TRAVEL": {
+        "TITLE": "Viajes por Interes",
+        "CRUISE": "Crucero",
+        "TREKKING": "Trekking",
+        "FULLDAY": "Full Day Tours",
+        "FAMILY": "Familia",
+        "CIRCUITS": "Circuitos",
+        "TAYLOR": "A Medida"
+      }
+    },
     "DESTINATIONS": "Destinos",
-    "OUR_PRODUCTS": "Nuestros Productos",
-    "OUR_SERVICES": "Nuestros Servicios",
     "CONTACT_US": "Contáctenos",
     "SALES_CONTACT": "Centro de Contacto de Ventas:"
+
   },
   "ANDEANELITE": {
     "TITLE": "ANDEAN ELITE",
