@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {BookingFormService} from '../../../services/booking-form.service';
+import {BookingFormService} from '../../../../services/booking-form.service';
 import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
 import {NgIf} from '@angular/common';
 import {PhoneCodeSelectorComponent} from '../phone-code-selector/phone-code-selector.component';

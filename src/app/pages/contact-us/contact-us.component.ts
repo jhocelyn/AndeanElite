@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { NavbarComponent } from '../../shared/components/Important/navbar/navbar.component';
 import { FooterComponent } from '../../shared/components/Important/footer/footer.component';
-import {PhoneCodeSelectorComponent} from '../../shared/components/phone-code-selector/phone-code-selector.component';
+import {PhoneCodeSelectorComponent} from '../../shared/components/general/phone-code-selector/phone-code-selector.component';
 
 @Component({
   selector: 'app-contact-us',

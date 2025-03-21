@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import {BookingFormComponent} from '../../../../../shared/components/booking-form/booking-form.component';
+import {BookingFormComponent} from '../../../../../shared/components/general/booking-form/booking-form.component';
 import {NgForOf, NgIf} from '@angular/common';
 import {ActivatedRoute} from '@angular/router';
-import {ImageCarouselComponent} from '../../../../../shared/components/image-carousel/image-carousel.component';
+import {ImageCarouselComponent} from '../../../../../shared/components/general/image-carousel/image-carousel.component';
 
 @Component({
   selector: 'app-info-packages',

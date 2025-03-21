@@ -14,7 +14,8 @@
         "PREMIUM": "Premium",
         "DELUXE": "Deluxe",
         "COMFORT": "Comfort",
-        "SUPERDEALS": "Super Deals"
+        "SUPERDEALS": "Super Deals",
+        "PRICESALE": "Price Sale"
       },
       "TRAVEL": {
         "TITLE": "Viajes por Interes",
@@ -23,7 +24,10 @@
         "FULLDAY": "Full Day Tours",
         "FAMILY": "Familia",
         "CIRCUITS": "Circuitos",
-        "TAYLOR": "A Medida"
+        "TAYLOR": "A Medida",
+        "EXTENSIONS": "Extensiones",
+        "HOMESTAYS": "Estadías",
+        "CORPORATE": "Viaje Corporativo"
       }
     },
     "DESTINATIONS": "Destinos",

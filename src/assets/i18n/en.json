@@ -15,7 +15,8 @@
         "PREMIUM": "Premium",
         "DELUXE": "Deluxe",
         "COMFORT": "Comfort",
-        "SUPERDEALS": "Super Deals"
+        "SUPERDEALS": "Super Deals",
+        "PRICESALE": "Price Sale"
       },
       "TRAVEL": {
         "TITLE": "Travel By Interest",
@@ -24,7 +25,10 @@
         "FULLDAY": "Full Day Tours",
         "FAMILY": "Family",
         "CIRCUITS": "Circuits",
-        "TAYLOR": "Taylor Made"
+        "TAYLOR": "Taylor Made",
+        "EXTENSIONS": "Extensions",
+        "HOMESTAYS": "Homestays",
+        "CORPORATE": "Corporate Travel"
       }
     },
     "CONTACT_US": "Contact us",

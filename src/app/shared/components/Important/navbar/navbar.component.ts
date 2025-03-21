@@ -108,7 +108,6 @@ export class NavbarComponent implements OnInit{
     this.activeSubSubMenu = null;
   }
 
-  protected readonly close = close;
   phoneNumber: string = '+51934983711'; // 📌 Reemplaza con tu número de WhatsApp
   message: string = 'Hola, quiero más información sobre los paquetes de viaje.';
 

@@ -1,10 +1,9 @@
-<app-navbar [enableScrollEffect]="true" (languageChanged)="onLanguageChange($event)"></app-navbar>
 
 <div>
 <app-slider></app-slider> <!-- Slider -->
 </div>
 <!--Learn More Seccion-->
-<div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center w-full md:gap-40 xl:h-[60vh] h-[40vh]">
+<div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center w-full md:gap-40 h-[40vh]">
   <div class="flex flex-col items-center justify-center gap-5 w-[80%] xl:w-[540px] p-10 md:p-0">
     <h6 class="text-xl xl:text-[20px] font-extralight text-[#034873]">
       Andean Elite
@@ -24,7 +23,6 @@
     </button>
   </div>
 </div>
-
 <!--Why ANDEANELITE Seccion-->
 <div class="flex items-center justify-center flex-col bg-[#034873] text-[#FFFFFF] gap-10 md:gap-20 h-[230vh] xl:h-[100vh] ">
   <div class="mt-10 md:mt-0">
@@ -94,7 +92,7 @@
   </div>
 </div>
 <!--TRAVEL with ANDEANELITE Seccion-->
-<div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col h-[70vh] xl:h-[100vh] items-center justify-center w-full p-4 ">
+<div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col h-[70vh] items-center justify-center w-full p-4 ">
   <h1 class="text-center w-full text-[20px] xl:text-[45px] font-extralight text-[#034873] mb-8">{{ 'TRAVELWITH.TITLE' | translate}}</h1>
   <div class="flex flex-col text-center gap-5 text-[15px] font-normal xl:w-[160vh] text-[#4D6270] mb-5">
     <p class="">{{ 'TRAVELWITH.1' | translate}}</p>
@@ -113,19 +111,13 @@
   </button>
 
 </div>
-<!--Pictures Seccion-->
-<div>
-<app-slider></app-slider>
-</div>
 <!--Discover Seccion-->
 <div class="flex justify-center items-center flex-col col-span-3 h-[100vh] bg-[#0F2D40]">
   <div class="text-[40px] font-extralight text-[#FFFFFF]">{{ galleryTitle }}</div>
-  <div class="w-[350px] md:w-[1000px]">
   <app-gallery
     [title]="galleryTitle"
     [images]="galleryImages">
   </app-gallery>
-  </div>
   <button class="bg-[#4D6270] rounded-full md:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
   <span class="text-[#FFFFFF] text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
     <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
@@ -183,4 +175,3 @@
   </div>
 </div>
 <!--Footer-->
-<app-footer></app-footer>

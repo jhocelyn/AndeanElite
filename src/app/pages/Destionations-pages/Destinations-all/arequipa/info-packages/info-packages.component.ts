@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {AsyncPipe, NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
-import {BookingFormComponent} from '../../../../../shared/components/booking-form/booking-form.component';
+import {BookingFormComponent} from '../../../../../shared/components/general/booking-form/booking-form.component';
 import {BannerComponent} from '../../../../../shared/components/to-destinations/info-destinations/banner/banner.component';
 import {
   PackageOverViewComponent

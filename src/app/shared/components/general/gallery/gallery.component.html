@@ -1,0 +1,47 @@
+<div class="w-full text-white text-center">
+  <div class="flex items-center justify-between p-5 xl:p-5">
+    <!-- Botón Anterior -->
+    <button
+      class="flex items-center justify-center w-12 h-12 border rounded-full text-gray-500 border-gray-500 hover:text-white hover:border-white transition"
+      (click)="prev()"
+      aria-label="Previous image"
+      role="button">
+      &#8249;
+    </button>
+
+    <!-- Contenedor de imágenes -->
+    <div class="flex justify-center items-center overflow-hidden w-full">
+      <div class="flex flex-nowrap justify-center items-center gap-4 transition-transform duration-300 ease-in-out">
+        <div
+          *ngFor="let image of visibleImages"
+          class="flex flex-col items-center text-black bg-white shadow-lg xl:mx-2 h-[450px]
+                 w-full sm:w-full md:w-full lg:w-[50%] xl:w-[30%] shrink-0 rounded-lg">
+
+          <img
+            [lazyLoad]="image.url"
+            [alt]="image.description"
+            loading="lazy"
+            class="w-full h-[60%] object-cover rounded-md" />
+
+          <div class="h-[40%] flex flex-col justify-center px-3">
+            <h3 class="mt-2 text-[15px] font-light text-[#0F2D40]">
+              {{ image.title }}
+            </h3>
+            <p class="p-1 text-[12px] text-gray-700">
+              {{ image.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón Siguiente -->
+    <button
+      class="flex items-center justify-center w-12 h-12 border rounded-full text-gray-500 border-gray-500 hover:text-white hover:border-white transition"
+      (click)="next()"
+      aria-label="Next image"
+      role="button">
+      &#8250;
+    </button>
+  </div>
+</div>

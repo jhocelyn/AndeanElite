@@ -3,7 +3,7 @@ import { isPlatformBrowser } from '@angular/common';
 import AOS from 'aos';
 import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
 import {SliderComponent} from '../../shared/components/Important/slider/slider.component';
-import {GalleryComponent} from '../../shared/components/gallery/gallery.component';
+import {GalleryComponent} from '../../shared/components/general/gallery/gallery.component';
 import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 
@@ -36,11 +36,6 @@ export class LayoutComponent implements OnInit{
     this.loadTranslations();
 
     this.translate.onLangChange.subscribe(() => {
-      this.loadTranslations();
-    });
-  }
-  onLanguageChange(lang: string) {
-    this.translate.use(lang).subscribe(() => {
       this.loadTranslations();
     });
   }
