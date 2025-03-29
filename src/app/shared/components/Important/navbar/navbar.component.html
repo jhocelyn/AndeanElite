@@ -160,7 +160,7 @@
   <!-- Menú móvil -->
   <div
     class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transition-all duration-500"
-    [ngClass]="{ 'right-[-0%]': isMenuOpen }"
+    [ngClass]="{ 'right-[0%]': isMenuOpen }"
   >
     <button class="text-white text-2xl mb-4 self-end" (click)="toggleMenu()">
       <i class="fa-solid fa-xmark"></i>
@@ -185,7 +185,7 @@
   <!-- Submenú (Segundo Nivel) -->
   <div
     class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-50 flex flex-col px-6 py-4 transition-all duration-500"
-    [ngClass]="{ 'right-[-0%]': activeSubMenu }"
+    [ngClass]="{ 'right-[0%]': activeSubMenu }"
   >
     <button class="text-white text-2xl mb-4" (click)="closeSubMenu()">
       <i class="fa-solid fa-arrow-left"></i>
@@ -210,7 +210,7 @@
   <!-- Sub-submenú (Tercer Nivel) -->
   <div
     class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-50 flex flex-col px-6 py-4 transition-all duration-500"
-    [ngClass]="{ 'right-[-0%]': activeSubSubMenu }"
+    [ngClass]="{ 'right-[0%]': activeSubSubMenu }"
   >
     <button class="text-white text-2xl mb-4" (click)="closeSubSubMenu()">
       <i class="fa-solid fa-arrow-left"></i>
@@ -222,17 +222,21 @@
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.DELUXE" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.COMFORT" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.SUPERDEALS" | translate }}</a>
+      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PRICESALE" | translate }}</a>
     </div>
 
     <div *ngIf="activeSubSubMenu === 'travel'">
       <h2 class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</h2>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CRUISE" | translate }}</a>
+      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CIRCUITS" | translate }}</a>
+      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.EXTENSIONS" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TREKKING" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.FULLDAY" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.FAMILY" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CIRCUITS" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TAYLOR" | translate }}</a>
+      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CRUISE" | translate }}</a>
       <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">MICE</a>
+      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.HOMESTAYS" | translate }}</a>
+      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CORPORATE" | translate }}</a>
     </div>
   </div>
 
