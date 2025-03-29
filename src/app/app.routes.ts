@@ -11,5 +11,5 @@ export const routes: Routes = [
   {path:'contact-us',component:ContactUsComponent},
   {path:'destinations',component:DestinationsComponent},
   {path:'destination',loadChildren:()=>import('./pages/Destionations-pages/destinations.routes').then(m=>m.destinationsRoutes)},
-
+  {path:'ways-to-travel',loadChildren:()=>import('./pages/ways-to-travel/ways-to-travel.routes').then(m=>m.waysToTravelRoutes)},
 ];
