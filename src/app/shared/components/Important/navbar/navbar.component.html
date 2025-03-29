@@ -36,72 +36,72 @@
           class="absolute flex left-[-100%] gap-10 top-full w-[400%] bg-white text-gray-800 shadow-lg  mt-2 p-5 z-50 transition-all duration-300 overflow-visible"
           >
           <div class="w-[40%] font-semibold">
-            <a [routerLink]="['/ways-to-travel/theme']" (click)="toggleStyleMenu()" class="flex flex-row justify-between items-center p-5  hover:bg-gray-100">
+            <a (click)="toggleStyleMenu()" class="flex flex-row justify-between items-center p-5  hover:bg-gray-100">
               <span>{{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</span><span>></span>
             </a>
-            <a [routerLink]="['/ways-to-travel/styles']" (click)="toggleTravelByMenu()" class="flex flex-row justify-between items-center p-5 hover:bg-gray-100">
+            <a (click)="toggleTravelByMenu()" class="flex flex-row justify-between items-center p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</span><span>></span>
             </a>
           </div>
           <div class="w-full">
             <div *ngIf="isStyleOpen">
-              <div class="text-2xl font-semibold px-4 py-2">
+              <div [routerLink]="['/ways-to-travel/styles']"  class="text-2xl font-semibold px-4 py-2">
                 {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
               </div>
               <div class="">
-                <a [routerLink]="['/ways-to-travel/theme']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/premium']" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.PREMIUM' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/deluxe']" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.DELUXE' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/comfort']" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.COMFORT' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/super-deals']" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.SUPERDEALS' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/price-sale']" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.PRICESALE' | translate }}
                 </a>
               </div>
             </div>
             <div *ngIf="!isStyleOpen" class="w-full">
-              <div class="text-2xl font-semibold px-4 py-2">
+              <div [routerLink]="['/ways-to-travel/travel-by-interest']"  class="text-2xl font-semibold px-4 py-2">
                 {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}
               </div>
               <div class="flex flex-row justify-between w-full">
                 <div>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/circuits']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.CIRCUITS' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/extensions']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.EXTENSIONS' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/trekking']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.TREKKING' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/full-day']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.FULLDAY' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/family']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.FAMILY' | translate }}
                   </a>
                 </div>
                 <div>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/taylor']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.TAYLOR' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/theme']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/cruise']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.CRUISE' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/mice']" class="block px-4 py-2 hover:bg-gray-100">
                     MICE
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/home-stays']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.HOMESTAYS' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/styles']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/corporate-travel']" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.CORPORATE' | translate }}
                   </a>
                 </div>
@@ -124,13 +124,13 @@
           *ngIf="isMenuAboutUsOpen"
         >
           <div class="w-full font-semibold">
-            <a [routerLink]="['/ways-to-travel/theme']" class="flex p-5  hover:bg-gray-100">
+            <a [routerLink]="['/about-us/our-team']" class="flex p-5  hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.OURTEAM' | translate }}</span>
             </a>
-            <a [routerLink]="['/ways-to-travel/styles']"  class="flex p-5 hover:bg-gray-100">
+            <a [routerLink]="['/about-us/license']"  class="flex p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.LICENSE' | translate }}</span>
             </a>
-            <a [routerLink]="['/ways-to-travel/theme']" class="flex p-5  hover:bg-gray-100">
+            <a [routerLink]="['/about-us/responsible']" class="flex p-5  hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.RESPONSIBLE' | translate }}</span>
             </a>
           </div>
@@ -193,17 +193,17 @@
 
     <!-- WAYS TO TRAVEL -->
     <div *ngIf="activeSubMenu === 'ways'">
-      <h2 class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</h2>
+      <h2 [routerLink]="['/ways-to-travel']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</h2>
       <div (click)="openSubSubMenu('styles')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</div>
       <div (click)="openSubSubMenu('travel')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</div>
     </div>
 
     <!-- ABOUT US -->
     <div *ngIf="activeSubMenu === 'about-us'">
-      <h2 class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</h2>
-      <a (click)="closeAllMenus()" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
-      <a (click)="closeAllMenus()" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.LICENSE" | translate }}</a>
-      <a (click)="closeAllMenus()" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.RESPONSIBLE" | translate }}</a>
+      <h2 [routerLink]="['/about-us']" class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</h2>
+      <a (click)="closeAllMenus()" [routerLink]="['/about-us/our-team']" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
+      <a (click)="closeAllMenus()" [routerLink]="['/about-us/license']" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.LICENSE" | translate }}</a>
+      <a (click)="closeAllMenus()" [routerLink]="['/about-us/responsible']" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.RESPONSIBLE" | translate }}</a>
     </div>
   </div>
 
@@ -217,26 +217,26 @@
     </button>
 
     <div *ngIf="activeSubSubMenu === 'styles'">
-      <h2 class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</h2>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PREMIUM" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.DELUXE" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.COMFORT" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.SUPERDEALS" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PRICESALE" | translate }}</a>
+      <h2 [routerLink]="['ways-to-travel/styles']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</h2>
+      <a [routerLink]="['/ways-to-travel/styles/premium']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PREMIUM" | translate }}</a>
+      <a [routerLink]="['/ways-to-travel/styles/deluxe']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.DELUXE" | translate }}</a>
+      <a [routerLink]="['/ways-to-travel/styles/comfort']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.COMFORT" | translate }}</a>
+      <a [routerLink]="['/ways-to-travel/styles/super-deals']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.SUPERDEALS" | translate }}</a>
+      <a [routerLink]="['/ways-to-travel/styles/price-sale']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PRICESALE" | translate }}</a>
     </div>
 
     <div *ngIf="activeSubSubMenu === 'travel'">
-      <h2 class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</h2>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CIRCUITS" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.EXTENSIONS" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TREKKING" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.FULLDAY" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.FAMILY" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TAYLOR" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CRUISE" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">MICE</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.HOMESTAYS" | translate }}</a>
-      <a [routerLink]="['/destinations/bolivia']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CORPORATE" | translate }}</a>
+      <h2 [routerLink]="['ways-to-travel/travel-by-interest']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</h2>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/circuits']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CIRCUITS" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/extensions']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.EXTENSIONS" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/trekking']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TREKKING" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/full-day']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.FULLDAY" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/family']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.FAMILY" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/taylor']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TAYLOR" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/cruise']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CRUISE" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/mice']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">MICE</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/home-stays']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.HOMESTAYS" | translate }}</a>
+      <a [routerLink]="['ways-to-travel/travel-by-interest/corporate-travel']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CORPORATE" | translate }}</a>
     </div>
   </div>
 
