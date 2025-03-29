@@ -1,1 +1,13 @@
-<p>list-travel-by-interst works!</p>
+<app-banner
+  [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
+  [title]="'TRAVEL_BY_INTEREST.TITLE'"
+></app-banner>
+
+<app-info-grid-ways-to-travel
+  [title]="'TRAVEL_BY_INTEREST.TITLE' | translate"
+  [description]="'TRAVEL_BY_INTEREST.DESCRIPTION' | translate"
+  [ruta]="'/ways-to-travel/travel-by-interest'"
+  [servicesKeys]="servicesKeys"
+  [services]="services">
+</app-info-grid-ways-to-travel>
+

@@ -1,18 +1,16 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
-import { NavbarComponent } from '../../shared/components/Important/navbar/navbar.component';
-import { FooterComponent } from '../../shared/components/Important/footer/footer.component';
 import {PhoneCodeSelectorComponent} from '../../shared/components/general/phone-code-selector/phone-code-selector.component';
+import {BannerComponent} from "../../shared/components/general/banner/banner.component";
 
 @Component({
   selector: 'app-contact-us',
   standalone: true,
-  imports: [
-    ReactiveFormsModule,
-    NavbarComponent,
-    FooterComponent,
-    PhoneCodeSelectorComponent
-  ],
+    imports: [
+        ReactiveFormsModule,
+        PhoneCodeSelectorComponent,
+        BannerComponent
+    ],
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.css']
 })

@@ -1,15 +1,17 @@
 import { ApplicationConfig, importProvidersFrom, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import {provideRouter} from '@angular/router';
 import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 import { HttpClient, HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import {ScrollService} from './services/scroll.service';
 
 // Función de fábrica para el cargador de traducciones
 export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
+
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -18,7 +20,6 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(),
     provideHttpClient(withFetch()),
     importProvidersFrom(HttpClientModule),
-
     // Configurar TranslateModule correctamente
     importProvidersFrom(
       TranslateModule.forRoot({
@@ -30,5 +31,6 @@ export const appConfig: ApplicationConfig = {
         defaultLanguage: 'es'  // Opcional, idioma por defecto
       })
     ),
+    ScrollService, // ✅ Se agrega el servicio al proveedor
   ]
 };

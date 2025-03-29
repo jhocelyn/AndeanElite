@@ -321,6 +321,281 @@
     "LIMA":[],
     "NAZCA": [],
     "PUERTO_MALDONADO": []
+  },
+  "WAYS_TO_TRAVEL": {
+    "TITLE": "Ways to Travel",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "DESCRIPTION": "Enjoy the best travel experience with Andean Elite. We offer a wide range of services to make your trip unforgettable.",
+    "Services": [
+      {
+        "name": "Styles",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "styles",
+        "featured": true
+      },
+      {
+        "name": "Travel By Interest",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "travel-by-interest",
+        "featured": true
+      }
+    ]
+  },
+  "TRAVEL_BY_INTEREST": {
+    "TITLE": "Travel By Interest",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "DESCRIPTION": "We know that every traveler is unique, and that's why we offer a variety of travel styles to suit your preferences. Whether you're looking for adventure, relaxation, or cultural immersion, we have the perfect option for you.",
+    "Services": [
+      {
+        "name": "Circuits",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "circuits",
+        "featured": true
+      },
+      {
+        "name": "Extensions",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "extensions",
+        "featured": true
+      },
+      {
+        "name": "Trekking",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "trekking",
+        "featured": true
+      },
+      {
+        "name": "Full Day Tours",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "full-day-tours",
+        "featured": true
+      },
+      {
+        "name": "Family",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "family",
+        "featured": true
+      },
+      {
+        "name": "Taylor Made",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "taylor-made",
+        "featured": true
+      },
+      {
+        "name": "Cruise",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "cruise",
+        "featured": true
+      },
+      {
+        "name": "MICE",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "mice",
+        "featured": true
+      },
+      {
+        "name": "Homestays",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "homestays",
+        "featured": true
+      },
+      {
+        "name": "Corporate Travel",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "corporate-travel",
+        "featured": true
+      }
+    ],
+    "TREKKING": {
+      "TITLE": "Trekking",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Explore the most beautiful trekking routes in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you.",
+      "PACKAGES": [
+        {
+          "title": "Trekking a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking a la Montaña de 7 Colores",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking al Nevado Ausangate",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking al Valle Sagrado",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking a la Montaña de 7 Colores",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking al Nevado Ausangate",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Trekking al Valle Sagrado",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    }
+
+  },
+  "STYLES": {
+    "TITLE": "Styles",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "DESCRIPTION": "Find the perfect travel style for you. We offer a variety of options to suit your preferences and needs.",
+    "PREMIUM": {
+      "TITLE": "Premium",
+      "slug": "premium",
+      "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "DELUXE": {
+      "TITLE": "Deluxe",
+      "slug": "deluxe",
+      "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "COMFORT": {
+      "TITLE": "Comfort",
+      "slug": "comfort",
+      "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "PRICE-SALE": {
+      "TITLE": "Price Sale",
+      "slug": "price-sale",
+      "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "SUPER_DEALS": {
+      "TITLE": "Super Deals",
+      "slug": "super-deals",
+      "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    }
   }
+
 }
 

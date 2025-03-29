@@ -8,7 +8,7 @@
     },
     "HOME": "Inicio",
     "WAYS": {
-      "TITLE":"Formas de Viajar",
+      "TITLE": "Formas de Viajar",
       "STYLES": {
         "TITLE": "Estilos",
         "PREMIUM": "Premium",
@@ -33,7 +33,6 @@
     "DESTINATIONS": "Destinos",
     "CONTACT_US": "Contáctenos",
     "SALES_CONTACT": "Centro de Contacto de Ventas:"
-
   },
   "ANDEANELITE": {
     "TITLE": "ANDEAN ELITE",
@@ -41,12 +40,30 @@
   },
   "WHYANDEANELITE": {
     "TITLE": "Por qué Andean Elite?",
-    "1":{ "TITLE":"Experiencias Únicas","DESCRIPTION": "Creamos viajes personalizados en Perú, desde Machu Picchu hasta el Lago Titicaca, combinando aventura, cultura y lujo." },
-    "2": { "TITLE":"Lujo en Cada Detalle","DESCRIPTION": "Ofrecemos hoteles boutique, trenes exclusivos y transporte privado para un viaje cómodo y elegante." },
-    "3": { "TITLE":"Atención 24/7","DESCRIPTION": "Nuestro equipo está disponible para resolver cualquier imprevisto y garantizar tu tranquilidad." },
-    "4": { "TITLE":"Conexión Cultural","DESCRIPTION": "Descubre la historia y cultura del Perú con visitas exclusivas a Machu Picchu y el Valle Sagrado." },
-    "5": { "TITLE":"Guías Expertos","DESCRIPTION": "Nuestros guías locales te ofrecen conocimiento cultural e histórico en destinos como Cusco y Arequipa." },
-    "6": { "TITLE":"Seguridad y Confianza","DESCRIPTION": "Con años de experiencia, garantizamos viajes seguros y cuidados hasta el último detalle." }
+    "1": {
+      "TITLE": "Experiencias Únicas",
+      "DESCRIPTION": "Creamos viajes personalizados en Perú, desde Machu Picchu hasta el Lago Titicaca, combinando aventura, cultura y lujo."
+    },
+    "2": {
+      "TITLE": "Lujo en Cada Detalle",
+      "DESCRIPTION": "Ofrecemos hoteles boutique, trenes exclusivos y transporte privado para un viaje cómodo y elegante."
+    },
+    "3": {
+      "TITLE": "Atención 24/7",
+      "DESCRIPTION": "Nuestro equipo está disponible para resolver cualquier imprevisto y garantizar tu tranquilidad."
+    },
+    "4": {
+      "TITLE": "Conexión Cultural",
+      "DESCRIPTION": "Descubre la historia y cultura del Perú con visitas exclusivas a Machu Picchu y el Valle Sagrado."
+    },
+    "5": {
+      "TITLE": "Guías Expertos",
+      "DESCRIPTION": "Nuestros guías locales te ofrecen conocimiento cultural e histórico en destinos como Cusco y Arequipa."
+    },
+    "6": {
+      "TITLE": "Seguridad y Confianza",
+      "DESCRIPTION": "Con años de experiencia, garantizamos viajes seguros y cuidados hasta el último detalle."
+    }
   },
   "BUTTON": {
     "READ_MORE": "Leer más"
@@ -132,9 +149,40 @@
     }
   },
   "ABOUT-US": {
-    "SECTION": "Nuestro Equipo",
-    "TITLE": "Somos Andean Elite: Un Mundo de Lujo Personalizado y Viajes Inolvidables",
-    "DESCRIPTION": "En Andean Elite transformamos tus sueños de viaje en realidad. Nos especializamos en crear experiencias de lujo personalizadas que reflejan tus emociones y deseos. Desde los majestuosos Andes hasta la maravilla eterna de Machu Picchu, diseñamos itinerarios únicos que capturan la esencia de la cultura, historia y belleza natural del Perú. ¿Qué nos hace diferentes? No solo es nuestra atención al detalle ni nuestros itinerarios cuidadosamente seleccionados. Es la pasión y dedicación que ponemos en cada aventura. Nuestro equipo de expertos está disponible las 24 horas, los 7 días de la semana, para garantizar que cada momento de tu viaje sea perfecto e inolvidable. Ya sea explorando Cusco con guías expertos o disfrutando de la elegancia de hoteles boutique y transporte privado, priorizamos tu comodidad, seguridad y conexión con la riqueza del patrimonio peruano."
+    "TITLE": "Sobre Andean Elite",
+    "DESCRIPTION": "Andean Elite es una agencia de viajes especializada en ofrecer experiencias únicas y personalizadas en Perú. Nuestro objetivo es brindar un servicio excepcional, garantizando que cada viaje sea inolvidable. Con un equipo de expertos apasionados por el turismo, nos dedicamos a crear itinerarios a medida que reflejen los intereses y deseos de nuestros clientes.",
+    "MISSION": {
+      "TITLE": "Nuestra Misión",
+      "DESCRIPTION": "En Andean Elite, nuestra misión es ofrecer experiencias de viaje únicas y memorables en Perú, combinando lujo, aventura y cultura. Nos esforzamos por brindar un servicio excepcional y personalizado, asegurando que cada cliente viva momentos inolvidables."
+    },
+    "VISION": {
+      "TITLE": "Nuestra Visión",
+      "DESCRIPTION": "Ser la agencia de viajes líder en Perú, reconocida por ofrecer experiencias exclusivas y personalizadas que superen las expectativas de nuestros clientes. Nos comprometemos a promover un turismo responsable y sostenible, contribuyendo al desarrollo de las comunidades locales."
+    },
+    "OUR_TEAM": {
+      "TITLE": "Nuestro Equipo",
+      "DESCRIPTION": "Andean Elite es un equipo de profesionales apasionados por el turismo, dedicados a ofrecer experiencias únicas y memorables en Perú. Nuestro compromiso es brindar un servicio excepcional y personalizado, asegurando que cada viaje sea una aventura inolvidable.",
+      "TEAM": [
+        {
+          "name": "Andean Elite",
+          "description": "Andean Elite es un equipo de profesionales apasionados por el turismo, dedicados a ofrecer experiencias únicas y memorables en Perú. Nuestro compromiso es brindar un servicio excepcional y personalizado, asegurando que cada viaje sea una aventura inolvidable.",
+          "image": "assets/img/destinations/banner-destinations-peru.webp"
+        },
+        {
+          "name": "Andean Elite",
+          "description": "Andean Elite es un equipo de profesionales apasionados por el turismo, dedicados a ofrecer experiencias únicas y memorables en Perú. Nuestro compromiso es brindar un servicio excepcional y personalizado, asegurando que cada viaje sea una aventura inolvidable.",
+          "image": "assets/img/destinations/banner-destinations-peru.webp"
+        }
+      ]
+    },
+    "LICENSE": {
+      "TITLE": "Licencia y Acreditaciones",
+      "DESCRIPTION": "Andean Elite está debidamente registrada y acreditada para operar en el sector turístico, garantizando la calidad y seguridad de nuestros servicios. Contamos con las licencias necesarias para ofrecer experiencias únicas y memorables en Perú."
+    },
+    "RESPONSIBLE": {
+      "TITLE": "Viaje Responsable",
+      "DESCRIPTION": "En Andean Elite, nos comprometemos a promover un turismo responsable y sostenible. Trabajamos en colaboración con comunidades locales y respetamos el medio ambiente, asegurando que nuestras actividades beneficien tanto a los viajeros como a las comunidades que visitamos."
+    }
   },
   "CONTACT-US": {
     "TITLE": "Contáctenos",
@@ -145,7 +193,7 @@
     "TITLE": "Destinos"
   },
   "PACKAGES": {
-    "AREQUIPA":   [
+    "AREQUIPA": [
       {
         "id": "1",
         "title": "Arequipa Majestuosa",
@@ -332,6 +380,290 @@
           }
         ]
       }
+    ],
+    "TREKKING": [
+      {}
     ]
+  },
+  "WAYS_TO_TRAVEL": {
+    "TITLE": "Formas de Viajar",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "DESCRIPTION": "Disfruta de nuestros servicios especiales para una experiencia única",
+    "Services": [
+      {
+        "name": "Estilos",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "styles",
+        "featured": true
+      },
+      {
+        "name": "Viajes por Interés",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "travel-by-interest",
+        "featured": true
+      }
+    ]
+  },
+  "TRAVEL_BY_INTEREST": {
+    "TITLE": "Viajes por Interés",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "DESCRIPTION": "Sabemos que cada viajero tiene intereses únicos. Por eso, ofrecemos una variedad de servicios para satisfacer tus necesidades específicas.",
+    "Services": [
+      {
+        "name": "Circuitos",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "circuits",
+        "featured": false
+      },
+      {
+        "name": "Extensiones",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "extensions",
+        "featured": false
+      },
+      {
+        "name": "Trekking",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "trekking",
+        "featured": false
+      },
+      {
+        "name": "Full Day Tours",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "full-day-tours",
+        "featured": false
+      },
+      {
+        "name": "Familia",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "family",
+        "featured": false
+      },
+      {
+        "name": "A Medida",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "taylor-made",
+        "featured": false
+      },
+      {
+        "name": "Crucero",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "cruise",
+        "featured": false
+      },
+      {
+        "name": "MICE",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "mice",
+        "featured": false
+      },
+      {
+        "name": "Estadías",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "homestays",
+        "featured": false
+      },
+      {
+        "name": "Viaje Corporativo",
+        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "slug": "corporate-travel",
+        "featured": false
+      }
+    ],
+    "TREKKING": {
+      "TITLE": "Trekking",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Explora los Andes peruanos a través de emocionantes rutas de trekking. Desde el famoso Camino Inca hasta senderos menos transitados, cada paso te llevará a paisajes impresionantes y experiencias culturales únicas.",
+      "PACKAGES": [
+        {
+          "id": "1",
+          "title": "Trekking a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "2",
+          "title": "Trekking a la Montaña de 7 Colores",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "3",
+          "title": "Trekking al Nevado Ausangate",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "4",
+          "title": "Trekking al Valle Sagrado",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "5",
+          "title": "Trekking a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "6",
+          "title": "Trekking a la Montaña de 7 Colores",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "7",
+          "title": "Trekking al Nevado Ausangate",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "8",
+          "title": "Trekking al Valle Sagrado",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    }
+  },
+  "STYLES": {
+    "TITLE": "Estilos",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "DESCRIPTION": "Cada viajero tiene su propio estilo. Por eso, ofrecemos una variedad de servicios para satisfacer tus necesidades específicas.",
+    "PREMIUM": {
+      "TITLE": "Premium",
+      "slug": "premium",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "10"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "DELUXE": {
+      "TITLE": "Deluxe",
+      "slug": "deluxe",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "COMFORT": {
+      "TITLE": "Comfort",
+      "slug": "comfort",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "PRICE-SALE": {
+      "TITLE": "Price Sale",
+      "slug": "price-sale",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    },
+    "SUPER_DEALS": {
+      "TITLE": "Super Deals",
+      "slug": "super-deals",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES": [
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        },
+        {
+          "title": "Viaje Premium a Nazca",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
+    }
   }
 }

@@ -1,18 +1,44 @@
+<app-banner [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
+            [title]="'ABOUT-US.TITLE' | translate"></app-banner>
 
-<div class="h-[40vh] md:h-[80vh] relative">
-  <!-- Imagen de fondo -->
-  <img src="assets/img/background/street-of-arequipa-and-peruvian-flag-arequipa-p-2023-11-27-05-01-38-utc.webp" alt="Background" class="h-full w-full object-cover">
+<div class="flex flex-col items-center mb-5 bg-[#f5f2eb]">
+  <!-- Descripción general -->
+  <div class="max-w-4xl text-center p-5" id="description">
+    <p class="text-lg text-gray-700">{{ 'ABOUT-US.DESCRIPTION' | translate }}</p>
+  </div>
 
-  <!-- Contenido del equipo -->
-  <div class="absolute inset-0 top-[200px] md:top-[350px] left-[50px] w-[300px] h-[80px] md:h-[200px]">
-    <div class="bg-[#034873] h-full rounded-tr-[50px] md:rounded-tr-[0px] rounded-b-[50px] rounded-tl-[50px] md:rounded-b-[50px] md:rounded-tl-[50px] shadow-lg flex flex-col items-center justify-center">
-      <h2 class="text-3xl font-bold text-white mb-4">{{'ABOUT-US.SECTION'|translate}}</h2>
+  <!-- Misión y Visión -->
+  <div class="max-w-6xl grid md:grid-cols-2 gap-6 p-6" id="mission-vision">
+    <div class="bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-semibold text-[#034873]">{{ 'ABOUT-US.MISSION.TITLE' | translate }}</h2>
+      <p class="text-gray-600 mt-2">{{ 'ABOUT-US.MISSION.DESCRIPTION' | translate }}</p>
+    </div>
+    <div class="bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-semibold text-[#034873]">{{ 'ABOUT-US.VISION.TITLE' | translate }}</h2>
+      <p class="text-gray-600 mt-2">{{ 'ABOUT-US.VISION.DESCRIPTION' | translate }}</p>
     </div>
   </div>
-</div>
 
-<div class="h-[180vh] md:h-[100vh] flex flex-col col-span-2 items-center justify-center gap-5">
-  <h1 class="w-[300px] md:w-full md:pl-24 text-[30px] text-start text-[#034873]">{{'ABOUT-US.TITLE'|translate}}</h1>
-  <span class="w-[300px] md:w-[1100px] text-[20px] text-justify">
-  {{'ABOUT-US.DESCRIPTION'|translate}}</span>
+  <!-- Nuestro Equipo -->
+  <div class="max-w-6xl text-center p-6" id="our-team">
+    <h2 class="text-3xl font-semibold text-[#034873]">{{ 'ABOUT-US.OUR_TEAM.TITLE' | translate }}</h2>
+    <p class="text-gray-600 mt-2">{{ 'ABOUT-US.OUR_TEAM.DESCRIPTION' | translate }}</p>
+  </div>
+
+  <!-- Licencias -->
+  <div class="max-w-6xl p-6 mt-6" id="license">
+    <div class="p-6 bg-white shadow-lg">
+      <h2 class="text-2xl font-semibold text-[#034873]">{{ 'ABOUT-US.LICENSE.TITLE' | translate }}</h2>
+      <p class="text-gray-600 mt-2">{{ 'ABOUT-US.LICENSE.DESCRIPTION' | translate }}</p>
+    </div>
+  </div>
+
+  <!-- Viaje Responsable -->
+  <div class="max-w-6xl p-6 mt-6" id="responsible">
+    <div class="p-6 bg-white shadow-lg">
+      <h2 class="text-2xl font-semibold text-[#034873]">{{ 'ABOUT-US.RESPONSIBLE.TITLE' | translate }}</h2>
+      <p class="text-gray-600 mt-2">{{ 'ABOUT-US.RESPONSIBLE.DESCRIPTION' | translate }}</p>
+    </div>
+  </div>
+
 </div>

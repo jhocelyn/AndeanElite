@@ -1,1 +1,43 @@
-<p>list-styles works!</p>
+<app-banner [backgroundImage]="bannerImage" [title]="'STYLES.TITLE' | translate"></app-banner>
+
+<div class="flex flex-col items-center bg-[#f5f2eb]">
+  <!-- Descripción general -->
+  <div class="max-w-4xl text-center p-5">
+    <p class="text-lg text-gray-700">{{ 'STYLES.DESCRIPTION' | translate }}</p>
+  </div>
+
+  <!-- Grid de estilos de viaje -->
+  <div class="flex flex-col w-full max-w-6xl gap-6 p-6">
+    <ng-container *ngFor="let item of services | keyvalue">
+      <div *ngIf="item.key !== 'TITLE' && item.key !== 'IMAGE' && item.key !== 'DESCRIPTION'"
+           class="bg-white shadow-lg overflow-hidden p-6">
+
+        <div class="flex justify-between">
+          <div>
+            <h2 class="text-2xl font-semibold text-[#034873]">{{ item.value.TITLE | translate }}</h2>
+            <p class="text-gray-600 mt-2">{{ item.value.DESCRIPTION | translate }}</p>
+          </div>
+          <i [routerLink]="['/travel-styles', item.value.slug]" class="fa-solid fa-arrow-right text-[#034873]"></i>
+        </div>
+
+        <!-- Tarjetas de paquetes -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+          <div *ngFor="let pkg of item.value.PACKAGES"
+               class="relative bg-gray-100 shadow-md rounded-lg h-[50vh] flex flex-col items-center">
+            <div class="absolute flex items-center justify-center top-1 right-1 bg-red-600 w-10 h-7 rounded-md">
+              <span class="text-white">{{ pkg.price }}$</span>
+            </div>
+            <div class="h-[60%]">
+              <img [src]="pkg.image" [alt]="pkg.title" class="w-full h-full object-cover rounded-lg">
+            </div>
+            <div class="h-[40%] flex flex-col items-center justify-between p-2">
+              <h3 class="text-center text-lg font-semibold mt-2">{{ pkg.title | translate }}</h3>
+              <p class="rounded-md bg-red-600 px-5 py-2 text-white">Consultar</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </ng-container>
+  </div>
+</div>

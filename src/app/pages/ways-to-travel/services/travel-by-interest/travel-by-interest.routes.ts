@@ -14,7 +14,7 @@ export const travelByInterestRoutes:Routes = [
     {path:'extensions',loadChildren: () => import('./travel-by-interest/extensions/extensions.routes').then(m => m.extensionsRoutes)},
     {path:'family',loadChildren:()=> import('./travel-by-interest/family/family.routes').then(m => m.familyRoutes)},
     {path:'full-day-tours',loadChildren: () => import('./travel-by-interest/full-day-tours/full-day-tours.routes').then(m => m.fullDayToursRoutes)},
-    {path:'home-stays',loadChildren: () => import('./travel-by-interest/home-stays/home-stays.routes').then(m => m.homeStaysRoutes)},
+    {path:'homestays',loadChildren: () => import('./travel-by-interest/home-stays/home-stays.routes').then(m => m.homeStaysRoutes)},
     {path:'mice',component:MiceComponent},
     {path:'taylor-made',component:TaylorMadeComponent},
     {path:'trekking',loadChildren: () => import('./travel-by-interest/trekking/trekking.routes').then(m => m.trekkingRoutes)},
