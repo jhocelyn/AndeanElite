@@ -1,0 +1,25 @@
+<!-- Grid dinámico de destinos -->
+<div class="h-auto grid gap-5 md:gap-10 p-10 pt-14 md:pt-32"
+     [ngClass]="{
+     'xl:grid-cols-1':columns===1,
+     'xl:grid-cols-2':columns===2,
+     'xl:grid-cols-3':columns===3,
+     'xl:grid-cols-4':columns===4,
+     'xl:grid-cols-5':columns===5,
+     'xl:grid-cols-6':columns===6,
+     }">
+
+  <!-- Iterar sobre destinos -->
+  <div *ngFor="let destination of destinations"
+       class="relative w-full h-[300px] rounded-lg overflow-hidden shadow-lg"
+       [routerLink]="[destination.link]">
+
+    <img [src]="destination.image"
+         [alt]="destination.name" class="w-full h-full object-cover">
+
+    <span class="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white px-4 py-2
+                 rounded-lg text-lg font-semibold">
+      {{ destination.name }}
+    </span>
+  </div>
+</div>
