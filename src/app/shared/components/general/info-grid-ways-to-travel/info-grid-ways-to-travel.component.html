@@ -1,0 +1,27 @@
+<div class="flex flex-col bg-[#f5f2eb]">
+  <!-- Título -->
+  <div class="flex p-5 justify-center items-center">
+    <h1 class="font-medium text-3xl">{{ title }}</h1>
+  </div>
+
+  <div class="flex p-5 justify-center items-center">
+    <p class="font-thin text-justify xl:text-center text-2xl">{{ description }}</p>
+  </div>
+
+  <!-- Grid de servicios -->
+  <div class="p-4 mb-3 grid w-[100%] max-w-[1600px] gap-6
+              grid-cols-1 sm:grid-cols-1 md:grid-cols-2
+              auto-rows-fr place-items-center">
+    <div *ngFor="let key of servicesKeys"
+         class="relative h-[80vh] w-full"
+         [ngClass]="{'row-span-2': services[key].featured}">
+      <a [routerLink]="[ruta, services[key].slug]">
+        <img [src]="services[key].image" [alt]="services[key].name" class="object-cover w-full h-full">
+        <div class="absolute inset-0 flex items-center justify-center bg-black opacity-50"></div>
+        <span class="flex inset-0 absolute top-0 left-0 items-center justify-center text-center text-white text-xl sm:text-2xl lg:text-3xl font-thin leading-tight">
+          {{ services[key].name }}
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
