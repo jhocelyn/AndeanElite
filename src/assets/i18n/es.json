@@ -192,12 +192,13 @@
   "DESTINATIONS": {
     "TITLE": "Destinos"
   },
-  "PACKAGES": {
-    "AREQUIPA": [
+  "PACKAGES":{
+    "DESTINOS":{
+      "AREQUIPA": [
       {
         "id": "1",
-        "title": "Arequipa Majestuosa",
-        "subtitle": "Arequipa es la capital colonial de la región, rodeada de volcanes y con arquitectura en sillar, una piedra volcánica blanca.",
+        "title": "Majestic Arequipa",
+        "subtitle": "Arequipa is the colonial-era capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone.",
         "days": 4,
         "nights": 3,
         "price": 0,
@@ -207,87 +208,71 @@
           "text": "",
           "itinerary": [
             {
-              "dayTitle": "DÍA 01: LLEGADA Y CITY TOUR",
+              "dayTitle": "DAY 01 AREQUIPA IN – CITY TOUR + SANTA CATALINA MONASTERY",
               "daySubtitle": "",
-              "dayDescription": "Recepción y traslado al hotel. En la tarde, recorrido por la Plaza de Armas, la Catedral y el Monasterio de Santa Catalina."
+              "dayDescription": "At the scheduled time, hotel pickup for the City Tour. At 14:00 hrs, we begin the visit to the White City of Arequipa, exploring the Main Square, which features a beautiful three-tiered bronze fountain crowned by a 16th-century soldier figure. You will also appreciate the Cathedral and the Cloisters of the Society of Jesus. Next, visit the Santa Catalina Monastery, a former absolute cloister that remained closed to the public for centuries. Today, it has been beautifully restored and opened to the public, allowing visitors to experience what Arequipa was like in the 17th century. You will see its streets, gardens, cloisters, rustic stone wash basins, sillar walls, and its impressive art gallery. The tour continues to the beautiful green countryside of Carmen Alto and the Yanahuara Viewpoint, where you will have a privileged view of the city and the surrounding volcanoes, including Misti, Pichu Pichu, and Chachani. Overnight in Arequipa."
             },
             {
-              "dayTitle": "DÍA 02: FULL DAY CAÑÓN DEL COLCA",
+              "dayTitle": "DAY 02 FULL DAY COLCA CANYON",
               "daySubtitle": "",
-              "dayDescription": "Salida temprano hacia Chivay, visita a miradores y Cruz del Cóndor. Regreso con paradas en Pampa Cañahuas y Patapampa."
+              "dayDescription": "Departure very early, around 3:00 to 3:30 am, heading directly to Chivay for breakfast before continuing to La Cruz Del Cóndor. Along the way, there will be stops in Yanque, several viewpoints, and the town of Maca, with stops coordinated along the route, either on the way there or back. Upon arrival at the Cruz Del Cóndor viewpoint, you will witness part of the canyon’s depth and hopefully see the majestic flight of the condor, with an approximate stay of one hour. The return trip to Chivay includes lunch (not included) and stops at strategic locations within the Salinas and Aguada Blanca National Reserve, such as Patapampa (the viewpoint of the volcanoes), the Tocra wetlands, and Pampa Cañahuas to observe vicuñas. Finally, arrival in Arequipa."
             },
             {
-              "dayTitle": "DÍA 03: TOUR DEL SILLAR",
+              "dayTitle": "DAY 03 SILLAR ROUTE TOUR",
               "daySubtitle": "",
-              "dayDescription": "Exploración de canteras de sillar, visita a miradores de volcanes y caminata en la Quebrada de Culebrillas."
+              "dayDescription": "Breakfast at the hotel. At 08:00 hrs, we begin our journey filled with history and living culture, visiting quarries and areas where sillar originated. We will make a brief stop at the main square of Cayma District to appreciate its Plaza and Church. We continue our tour with a short stop at a viewpoint to see the three volcanoes surrounding Arequipa: Misti, Chachani, and Pichupichu. Then, we will arrive at the Añashuayco Quarry, where you can see the quarry in operation, learn about the sillar extraction process, and witness the craftsmanship of the master stonecutters. The tour continues to the Culebrillas Ravine, where we will take a 20-minute walk through a small canyon formed by water erosion, with walls ranging from 15 to 20 meters high. As we walk, the walls grow taller, leading to ancient petroglyphs created by the Wasi Culture. At the end of the tour, we will observe the Apachetas, stone formations stacked on top of each other, symbolizing gratitude to nature and attracting good fortune, creating a mystical atmosphere. Return to the hotel."
             },
             {
-              "dayTitle": "DÍA 04: SALIDA DE AREQUIPA",
+              "dayTitle": "DAY 04 AREQUIPA",
               "daySubtitle": "",
-              "dayDescription": "Desayuno y traslado a la estación o aeropuerto."
+              "dayDescription": "Breakfast. At the scheduled time, transfer to the station/airport for the return to your home city or to continue your journey."
             }
           ]
         },
-        "sampleJourney": [
-          {
-            "dayTitle": "DÍA 01: EXPLORANDO LA CIUDAD",
-            "daySubtitle": "Historia y cultura colonial",
-            "dayDescription": "Recorrerás el corazón de Arequipa, admirando la Plaza de Armas, la Catedral y los claustros coloniales. Luego, visitarás el Monasterio de Santa Catalina, un convento con pasajes coloridos y patios tranquilos que reflejan la vida de clausura del siglo XVII. Por la noche, cena en un restaurante con vista al volcán Misti."
-          },
-          {
-            "dayTitle": "DÍA 02: MARAVILLA NATURAL DEL COLCA",
-            "daySubtitle": "Encuentro con el cóndor andino",
-            "dayDescription": "Salida al Cañón del Colca, uno de los más profundos del mundo. En el camino, harás paradas en miradores estratégicos para admirar el valle. Al llegar a la Cruz del Cóndor, observarás el majestuoso vuelo de los cóndores. Luego, exploración de pueblos tradicionales y relajación en aguas termales naturales."
-          },
-          {
-            "dayTitle": "DÍA 03: MISTERIOS DEL SILLAR",
-            "daySubtitle": "El arte de la piedra blanca",
-            "dayDescription": "Descubrirás las canteras de sillar, donde aún se esculpen bloques de esta piedra volcánica. En la Quebrada de Culebrillas, caminarás entre formaciones rocosas y petroglifos preincaicos que cuentan historias ancestrales. Finaliza el día con una vista panorámica de los volcanes que rodean la ciudad."
-          }
-        ],
+        "sampleJourney": [],
         "customOptions": {
-          "description": "Recomendaciones y condiciones de viaje",
+          "description": "Travel recommendations and conditions",
           "packages": []
         },
         "pricing": {
-          "title": "Condiciones y tarifas",
+          "title": "Conditions and Rates",
           "included": [
-            "Traslado aeropuerto – hotel – aeropuerto en movilidad privada",
-            "3 noches de alojamiento en Arequipa + desayunos.",
-            "City Tour + Monasterio de Santa Catalina.",
+            "Private transportation airport – hotel – airport",
+            "3 nights of accommodation in Arequipa + breakfasts",
+            "City Tour + Santa Catalina Monastery",
             "Full Day Colca",
-            "Tour Ruta del Sillar",
-            "Entradas turísticas.",
-            "Guía Profesional en Español.",
-            "Asistencia durante todo el viaje."
+            "Sillar Route Tour",
+            "Tourist entrance fees",
+            "Professional Spanish-speaking guide",
+            "Assistance throughout the trip"
           ],
           "notIncluded": [
-            "Tickets Aéreos",
-            "Seguro de viaje",
-            "Ingreso Catedral de Arequipa",
-            "Alimentación no especificada",
-            "Propinas",
-            "Bebidas alcohólicas"
+            "Airline tickets",
+            "Travel insurance",
+            "Entrance to Arequipa Cathedral",
+            "Meals not specified",
+            "Tips",
+            "Alcoholic beverages"
           ]
         },
         "images": [
           {
-            "alt": "Iglesia de la Compañía de Jesús en Arequipa",
+            "alt": "Church of the Society of Jesus in Arequipa",
             "src": "assets/img/destinations/arequipa/arequipa-church-iglesia-de-la-compania-de-jesus-2024-09-12-02-46-11-utc_11zon.webp",
             "width": "800"
           },
           {
-            "alt": "Vista de la ciudad de Arequipa con el volcán Misti de fondo",
+            "alt": "View of Arequipa city with Misti Volcano in the background",
             "src": "assets/img/destinations/arequipa/arequipa-city-with-misti-volcano-on-background-a-2023-11-27-05-10-01-utc_11zon.webp",
             "width": "800"
           },
           {
-            "alt": "Cóndor volando en el Cañón del Colca",
+            "alt": "Andean condor flying over Colca Canyon",
             "src": "assets/img/destinations/arequipa/flying-andean-condor-2024-08-06-01-13-41-utc_11zon.webp",
-            "width": "1200"
+            "width": "800"
           },
           {
-            "alt": "Interior del Monasterio de Santa Catalina en Arequipa",
+            "alt": "Interior of Santa Catalina Monastery in Arequipa",
             "src": "assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp",
             "width": "800"
           }
@@ -295,71 +280,71 @@
       },
       {
         "id": "2",
-        "title": "Arequipa Tradicional",
-        "subtitle": "Arequipa, la capital colonial de la región, rodeada de volcanes y con arquitectura de sillar.",
+        "title": "Traditional Arequipa",
+        "subtitle": "Arequipa, the colonial capital of the region, surrounded by volcanoes and featuring sillar architecture.",
         "days": 4,
         "nights": 3,
         "price": 0,
         "mapUrl": [],
         "description": {
           "highlights": [
-            "Visita a la Plaza de Armas y la Catedral de Arequipa",
-            "Recorrido por el Monasterio de Santa Catalina",
-            "Exploración del Valle del Colca y la Cruz del Cóndor",
-            "Baños termales en La Calera",
-            "Observación del majestuoso vuelo del cóndor"
+            "Visit to the Plaza de Armas and the Cathedral of Arequipa",
+            "Tour of the Santa Catalina Monastery",
+            "Exploration of the Colca Valley and the Condor Cross",
+            "Thermal baths at La Calera",
+            "Observation of the majestic flight of the condor"
           ],
-          "text": "Arequipa es la capital de la época colonial de la región de Arequipa en Perú. La rodean 3 volcanes y cuenta con edificios barrocos construidos de sillar, una piedra volcánica blanca.",
+          "text": "Arequipa is the colonial capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone.",
           "itinerary": [
             {
-              "dayTitle": "DIA 01",
-              "daySubtitle": "AREQUIPA IN – CITY TOUR + MONASTERIO DE SANTA CATALINA",
-              "dayDescription": "Recepción y traslado al hotel elegido. Recojo del hotel para realizar el City Tour. Visita a la Plaza de Armas, la Catedral, los Claustros de la Compañía de Jesús y el Monasterio de Santa Catalina. Luego, recorrido por la campiña de Carmen Alto y el Mirador de Yanahuara."
+              "dayTitle": "DAY 01",
+              "daySubtitle": "AREQUIPA IN – CITY TOUR + SANTA CATALINA MONASTERY",
+              "dayDescription": "Reception and transfer to the selected hotel. Pick-up from the hotel for the City Tour. Visit to the Plaza de Armas, the Cathedral, the Cloisters of the Church of the Society of Jesus, and the Santa Catalina Monastery. Then, tour through the countryside of Carmen Alto and the Yanahuara Viewpoint."
             },
             {
-              "dayTitle": "DIA 02",
+              "dayTitle": "DAY 02",
               "daySubtitle": "AREQUIPA – CHIVAY",
-              "dayDescription": "Desayuno. Salida hacia el Valle del Colca atravesando la reserva de Salinas y Aguada Blanca. Paradas en Pampa Cañahuas, Patahuasi, Tocra y Patapampa. Llegada a Chivay, almuerzo (por cuenta del pasajero), visita a los baños termales La Calera y cena con show folklórico."
+              "dayDescription": "Breakfast. Departure to the Colca Valley, crossing the Salinas and Aguada Blanca reserve. Stops at Pampa Cañahuas, Patahuasi, Tocra, and Patapampa. Arrival in Chivay, lunch (at the traveler's expense), visit to the La Calera hot springs, and dinner with a folk show."
             },
             {
-              "dayTitle": "DIA 03",
-              "daySubtitle": "COLCA – CRUZ DEL CÓNDOR – AREQUIPA",
-              "dayDescription": "Desayuno. Visita a la Cruz del Cóndor para observar el cañón y el vuelo del cóndor. Paradas en Yanque, Maca y otros miradores. Retorno a Chivay, almuerzo (por cuenta del pasajero) y regreso a Arequipa."
+              "dayTitle": "DAY 03",
+              "daySubtitle": "COLCA – CONDOR CROSS – AREQUIPA",
+              "dayDescription": "Breakfast. Visit to the Condor Cross to observe the canyon and the flight of the condor. Stops in Yanque, Maca, and other viewpoints. Return to Chivay, lunch (at the traveler's expense), and return to Arequipa."
             },
             {
-              "dayTitle": "DIA 04",
+              "dayTitle": "DAY 04",
               "daySubtitle": "AREQUIPA OUT",
-              "dayDescription": "Desayuno. Traslado a la estación/aeropuerto para retorno a ciudad de origen."
+              "dayDescription": "Breakfast. Transfer to the station/airport for return to the city of origin."
             }
           ]
         },
         "sampleJourney": [],
         "customOptions": {
-          "description": "Opciones a medida disponibles bajo solicitud.",
+          "description": "Tailor-made options available upon request.",
           "packages": []
         },
         "pricing": {
-          "title": "Condiciones y Precios",
+          "title": "Conditions and Prices",
           "included": [
-            "Traslado aeropuerto – hotel – aeropuerto en movilidad privada.",
-            "2 noches de alojamiento en Arequipa + desayunos.",
-            "1 noche de Alojamiento en Chivay HTL VITA Colca o similar + desayuno.",
-            "City Tour + Monasterio Santa Catalina.",
-            "Cañón del Colca.",
-            "Entradas turísticas.",
-            "Guía Profesional Bilingüe (Español).",
-            "Asistencia durante todo el viaje."
+            "Private transportation: airport – hotel – airport.",
+            "2 nights of accommodation in Arequipa + breakfasts.",
+            "1 night of accommodation in Chivay HTL VITA Colca or similar + breakfast.",
+            "City Tour + Santa Catalina Monastery.",
+            "Colca Canyon.",
+            "Tourist entrance fees.",
+            "Bilingual Professional Guide (Spanish).",
+            "Assistance throughout the trip."
           ],
           "notIncluded": [
-            "Tickets Aéreos",
-            "Seguro de viaje",
-            "Propinas",
-            "Bebidas alcohólicas"
+            "Air Tickets",
+            "Travel Insurance",
+            "Tips",
+            "Alcoholic beverages"
           ]
         },
         "images": [
           {
-            "alt": "Monasterio de Santa Catalina - Arequipa",
+            "alt": "Santa Catalina Monastery - Arequipa",
             "src": "assets/img/destinations/arequipa/inside-the-santa-catalina-monastery-of-arequipa-p-2023-11-27-04-56-52-utc_11zon.webp",
             "width": 1200
           },
@@ -369,21 +354,128 @@
             "width": 1200
           },
           {
-            "alt": "Arquitectura del Monasterio de Santa Catalina",
+            "alt": "Architecture of the Santa Catalina Monastery",
             "src": "assets/img/destinations/arequipa/santa-catalina-monastery-arequipa-peru-2023-11-27-05-33-59-utc_11zon.webp",
             "width": 1200
           },
           {
-            "alt": "Vista interna del Monasterio de Santa Catalina",
+            "alt": "Interior view of the Santa Catalina Monastery",
             "src": "assets/img/destinations/arequipa/santa-catalina-monastery-convento-de-santa-catali-2024-09-22-17-08-47-utc_11zon.webp",
             "width": 1200
           }
         ]
       }
     ],
-    "TREKKING": [
-      {}
-    ]
+      "CUSCO":[],
+      "ICA": [],
+      "LIMA":[],
+      "NAZCA": [],
+      "PUERTO_MALDONADO": []
+    },
+    "FULL_DAY_TOURS": {
+      "1": {
+        "packageTitle": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
+        "itinerary": {
+          "day1": {
+            "time": "07:00 hrs",
+            "description": "Inicio del tour con dirección a la ruta Cusco - Limatambo en un tiempo de 2 hrs aprox. A lo largo del viaje, realizará paradas en algunas zonas arqueológicas como Kilarumiyoc y Tarawasi, continuará el viaje hasta el puente Huayronca, desde donde tomará una ruta hacia la comunidad de Chonta."
+          },
+          "day2": {
+            "description": "Este viaje será de ascenso hasta los 3400 msnm. Hará paradas en algunos puntos claves para tomarse fotos como en el nevado del Salkantay y con el valle de Limatambo."
+          },
+          "day3": {
+            "description": "Llegará al pueblo de Chonta entre el mediodía donde disfrutará de un agradable almuerzo observando el nevado del Salkantay."
+          },
+          "day4": {
+            "description": "Emprenderá una caminata de 1h 30min aprox. hasta el mirador del Cañón del Cóndor. Desde este punto, tendrá la oportunidad de observar el vuelo majestuoso del cóndor andino en su hábitat natural."
+          },
+          "day5": {
+            "description": "Aquí, observará a los cóndores desde muy de cerca y por un promedio de 2 horas a más volando, e incluso en ocasiones pueden verlo volar a 20 metros del mirador."
+          },
+          "day6": {
+            "description": "Retorno al pueblo de Chonta y luego, a la ciudad de Cusco."
+          }
+        },
+        "duration": "Full Day",
+        "departure": "Diarias",
+        "schedule": "07:00 Hrs",
+        "includes": [
+          "Movilidad Turística en servicio compartido o privado.",
+          "Guía profesional de turismo con binoculares y telescopio.",
+          "01 almuerzo.",
+          "Entrada al cañón del cóndor.",
+          "Recojo del hotel."
+        ],
+        "notIncluded": [
+          "Alimentación no especificada",
+          "Propina para el guía.",
+          "Seguro de viaje.",
+          "Fotografías.",
+          "Snacks y/o bebidas durante el recorrido.",
+          "Souvenirs, regalos, compras personales.",
+          "Caballos."
+        ],
+        "prices": {
+          "shared": {
+            "ADT": 67,
+            "JR": 67,
+            "CHD": 67
+          },
+          "private": {
+            "1 Person": 369,
+            "2 People": 196,
+            "3/4 People": 139,
+            "5 People": 106,
+            "6 People": 90,
+            "7 People": 79,
+            "8 People": 76
+          }
+        },
+        "notes": {
+          "paymentMethods": {
+            "SafetyPay": "1% adicional",
+            "NIUBIS/VISANET": "3% adicional",
+            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+          },
+          "recommendations": [
+            "Traer medicamentos e implementos de higiene personal.",
+            "Zapatillas o zapatos de caminata.",
+            "Linterna con pilas y focos de repuesto.",
+            "Sombrero o gorro, lentes para el sol y protector solar.",
+            "Repelente de insectos (recomendable con 40% o más de DEET).",
+            "Impermeable, camisas de manga larga y pantalones de algodón.",
+            "Ropa caliente en caso de friaje.",
+            "Binoculares, cámara fotográfica.",
+            "Mochila de equipaje y mochila pequeña."
+          ],
+          "childPolicy": {
+            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
+            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
+          },
+          "bookingConditions": [
+            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+            "No show no reembolsable.",
+            "Se requiere información completa de los pasajeros antes del servicio.",
+            "Precios exclusivos y confidenciales.",
+            "Tarifas válidas hasta diciembre de 2025."
+          ],
+          "cancellationPolicy": [
+            "Reservas individuales: Información completa 30 días antes del servicio.",
+            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
+            "Pago total al confirmar la reserva.",
+            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
+            "No reembolso en caso de cancelación o no show."
+          ],
+          "responsibilities": [
+            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
+            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
+            "Los trámites de visado y vacunación son responsabilidad del pasajero."
+          ]
+        }
+      }
+    }
+
   },
   "WAYS_TO_TRAVEL": {
     "TITLE": "Formas de Viajar",
@@ -524,7 +616,21 @@
           "price": "0"
         }
       ]
+    },
+    "FULL_DAY_TOURS": {
+      "TITLE": "Full Day Tours",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Explora los Andes peruanos a través de emocionantes rutas de trekking. Desde el famoso Camino Inca hasta senderos menos transitados, cada paso te llevará a paisajes impresionantes y experiencias culturales únicas.",
+      "PACKAGES": [
+        {
+          "id": "1",
+          "title": "Trekking a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
     }
+
   },
   "STYLES": {
     "TITLE": "Estilos",

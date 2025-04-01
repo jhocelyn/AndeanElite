@@ -2,27 +2,29 @@ import { Component } from '@angular/core';
 import {BannerComponent} from '../../../../../../../shared/components/general/banner/banner.component';
 import {NgForOf} from '@angular/common';
 import {TranslateService} from '@ngx-translate/core';
+import {
+  ListPackagesStructureComponent
+} from '../../../../../../../shared/components/general/list-packages-structure/list-packages-structure.component';
 
 @Component({
   selector: 'app-list-packages',
   standalone: true,
   imports: [
-    BannerComponent,
-    NgForOf
+    ListPackagesStructureComponent
   ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })
 export class ListPackagesComponent {
-  trekkingData: any;
+  TourData: any;
 
   constructor(private translate: TranslateService) {
     this.loadTrekkingData();
   }
 
   loadTrekkingData() {
-    this.translate.get('TRAVEL_BY_INTEREST.TREKKING').subscribe((data) => {
-      this.trekkingData = data;
+    this.translate.get('TRAVEL_BY_INTEREST.FULL_DAY_TOURS').subscribe((data) => {
+      this.TourData = data;
     });
   }
 }

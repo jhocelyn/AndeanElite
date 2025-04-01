@@ -144,7 +144,7 @@
     "TITLE": "Destinations"
   },
   "PACKAGES":{
-    "AREQUIPA": [
+    "DESTINOS":{"AREQUIPA": [
       {
         "id": "1",
         "title": "Majestic Arequipa",
@@ -321,6 +321,110 @@
     "LIMA":[],
     "NAZCA": [],
     "PUERTO_MALDONADO": []
+    },
+    "FULL_DAY_TOURS": {
+      "1": {
+        "packageTitle": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
+        "itinerary": {
+          "day1": {
+            "time": "07:00 hrs",
+            "description": "Inicio del tour con dirección a la ruta Cusco - Limatambo en un tiempo de 2 hrs aprox. A lo largo del viaje, realizará paradas en algunas zonas arqueológicas como Kilarumiyoc y Tarawasi, continuará el viaje hasta el puente Huayronca, desde donde tomará una ruta hacia la comunidad de Chonta."
+          },
+          "day2": {
+            "description": "Este viaje será de ascenso hasta los 3400 msnm. Hará paradas en algunos puntos claves para tomarse fotos como en el nevado del Salkantay y con el valle de Limatambo."
+          },
+          "day3": {
+            "description": "Llegará al pueblo de Chonta entre el mediodía donde disfrutará de un agradable almuerzo observando el nevado del Salkantay."
+          },
+          "day4": {
+            "description": "Emprenderá una caminata de 1h 30min aprox. hasta el mirador del Cañón del Cóndor. Desde este punto, tendrá la oportunidad de observar el vuelo majestuoso del cóndor andino en su hábitat natural."
+          },
+          "day5": {
+            "description": "Aquí, observará a los cóndores desde muy de cerca y por un promedio de 2 horas a más volando, e incluso en ocasiones pueden verlo volar a 20 metros del mirador."
+          },
+          "day6": {
+            "description": "Retorno al pueblo de Chonta y luego, a la ciudad de Cusco."
+          }
+        },
+        "duration": "Full Day",
+        "departure": "Diarias",
+        "schedule": "07:00 Hrs",
+        "includes": [
+          "Movilidad Turística en servicio compartido o privado.",
+          "Guía profesional de turismo con binoculares y telescopio.",
+          "01 almuerzo.",
+          "Entrada al cañón del cóndor.",
+          "Recojo del hotel."
+        ],
+        "notIncluded": [
+          "Alimentación no especificada",
+          "Propina para el guía.",
+          "Seguro de viaje.",
+          "Fotografías.",
+          "Snacks y/o bebidas durante el recorrido.",
+          "Souvenirs, regalos, compras personales.",
+          "Caballos."
+        ],
+        "prices": {
+          "shared": {
+            "ADT": 67,
+            "JR": 67,
+            "CHD": 67
+          },
+          "private": {
+            "1 Person": 369,
+            "2 People": 196,
+            "3/4 People": 139,
+            "5 People": 106,
+            "6 People": 90,
+            "7 People": 79,
+            "8 People": 76
+          }
+        },
+        "notes": {
+          "paymentMethods": {
+            "SafetyPay": "1% adicional",
+            "NIUBIS/VISANET": "3% adicional",
+            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+          },
+          "recommendations": [
+            "Traer medicamentos e implementos de higiene personal.",
+            "Zapatillas o zapatos de caminata.",
+            "Linterna con pilas y focos de repuesto.",
+            "Sombrero o gorro, lentes para el sol y protector solar.",
+            "Repelente de insectos (recomendable con 40% o más de DEET).",
+            "Impermeable, camisas de manga larga y pantalones de algodón.",
+            "Ropa caliente en caso de friaje.",
+            "Binoculares, cámara fotográfica.",
+            "Mochila de equipaje y mochila pequeña."
+          ],
+          "childPolicy": {
+            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
+            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
+          },
+          "bookingConditions": [
+            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+            "No show no reembolsable.",
+            "Se requiere información completa de los pasajeros antes del servicio.",
+            "Precios exclusivos y confidenciales.",
+            "Tarifas válidas hasta diciembre de 2025."
+          ],
+          "cancellationPolicy": [
+            "Reservas individuales: Información completa 30 días antes del servicio.",
+            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
+            "Pago total al confirmar la reserva.",
+            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
+            "No reembolso en caso de cancelación o no show."
+          ],
+          "responsibilities": [
+            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
+            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
+            "Los trámites de visado y vacunación son responsabilidad del pasajero."
+          ]
+        }
+      }
+    }
   },
   "WAYS_TO_TRAVEL": {
     "TITLE": "Ways to Travel",
@@ -413,48 +517,68 @@
       "DESCRIPTION": "Explore the most beautiful trekking routes in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you.",
       "PACKAGES": [
         {
+          "id": "1",
           "title": "Trekking a Machu Picchu",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "2",
           "title": "Trekking a la Montaña de 7 Colores",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "3",
           "title": "Trekking al Nevado Ausangate",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "4",
           "title": "Trekking al Valle Sagrado",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "5",
           "title": "Trekking a Machu Picchu",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "6",
           "title": "Trekking a la Montaña de 7 Colores",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "7",
           "title": "Trekking al Nevado Ausangate",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         },
         {
+          "id": "8",
           "title": "Trekking al Valle Sagrado",
           "image": "assets/img/destinations/banner-destinations-peru.webp",
           "price": "0"
         }
       ]
+    },
+    "FULL_DAY_TOURS": {
+      "TITLE": "Full Day Tours",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Explore the most beautiful Full day tours routes in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you.",
+      "PACKAGES": [
+        {
+          "id": "1",
+          "title": "Trekking a Machu Picchu",
+          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "price": "0"
+        }
+      ]
     }
-
   },
   "STYLES": {
     "TITLE": "Styles",

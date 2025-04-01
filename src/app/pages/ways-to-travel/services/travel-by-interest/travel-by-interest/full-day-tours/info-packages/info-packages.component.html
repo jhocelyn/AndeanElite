@@ -1,1 +1,141 @@
-<p>info-packages works!</p>
+<div *ngIf="packageData">
+<app-tour-banner
+  [title]="packageData.packageTitle"
+  [rating]="4.5"
+  [reviews]="12363"
+  [images]="[
+    'assets/img/destinations/banner-destinations-peru.webp',
+    'assets/img/destinations/banner-destinations-peru.webp'
+  ]">
+</app-tour-banner>
+  <div class="flex flex-col md:flex-row gap-4 w-full">
+    <div class="w-2/3 max-w-5xl mx-auto p-6 ">
+      <!-- Título -->
+      <h1 class="text-2xl font-bold text-center text-gray-800">{{packageData.packageTitle}}</h1>
+      <h2 class="text-lg text-center text-gray-600 mt-2">{{packageData.packageTitle}}</h2>
+
+      <!-- Itinerario -->
+      <div class="flex items-center mt-6 gap-5">
+        <h3 class="text-xl font-semibold text-gray-800">Itinerario</h3>
+        <div class="flex flex-col">
+          <div *ngFor="let day of packageData.itinerary | keyvalue">
+          <div class="mt-4">
+            <p class="text-gray-600">{{day.value.description}}</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Duración y horarios -->
+      <div class="grid grid-cols-2 gap-4 mt-4">
+        <div>
+          <h4 class="text-lg font-semibold text-gray-800">Duración</h4>
+          <p class="text-gray-600">{{packageData.duration}}</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold text-gray-800">Horario de salida</h4>
+          <p class="text-gray-600">{{packageData.schedule}}</p>
+        </div>
+      </div>
+      <hr>
+      <!-- Inclusiones y exclusiones -->
+      <div class="flex flex-col w-full mt-6 gap-8">
+        <div class="flex flex-row items-center gap-[5.6rem]">
+          <h4 class="text-lg font-semibold text-gray-800">Incluye</h4>
+          <ul class="flex flex-col  list-disc pl-5">
+            <li *ngFor="let item of packageData.includes">{{item}}</li>
+          </ul>
+        </div>
+        <div class="flex flex-row items-center gap-16">
+          <h4 class="text-lg font-semibold text-gray-800 mt-4">No incluye</h4>
+          <ul class="list-disc pl-5">
+            <li *ngFor="let item of packageData.notIncluded">{{item}}</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Precios -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Precios</h4>
+        <div class="grid grid-cols-2 gap-4 mt-4">
+          <div>
+            <h5 class="text-gray-800">Compartido</h5>
+            <p class="text-gray-600">Adultos: {{packageData.prices.shared.ADT}} USD</p>
+            <p class="text-gray-600">Niños: {{packageData.prices.shared.CHD}} USD</p>
+          </div>
+          <div>
+            <h5 class="text-gray-800">Privado</h5>
+            <p *ngFor="let price of packageData.prices.private | keyvalue">
+              {{price.key}}: {{price.value}} USD
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Métodos de pago -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Métodos de pago</h4>
+        <ul class="list-disc pl-5">
+          <li *ngFor="let paymentMethod of packageData.notes.paymentMethods | keyvalue">
+            {{paymentMethod.key}}: {{paymentMethod.value}}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Recomendaciones -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Recomendaciones</h4>
+        <ul class="list-disc pl-5">
+          <li *ngFor="let recommendation of packageData.notes.recommendations">{{recommendation}}</li>
+        </ul>
+      </div>
+
+      <!-- Política de niños -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Política de niños</h4>
+        <p class="text-gray-600">{{packageData.notes.childPolicy.CHD}}</p>
+        <p class="text-gray-600">{{packageData.notes.childPolicy.JR}}</p>
+      </div>
+
+      <!-- Condiciones de reserva -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Condiciones de reserva</h4>
+        <ul class="list-disc pl-5">
+          <li *ngFor="let condition of packageData.notes.bookingConditions">{{condition}}</li>
+        </ul>
+      </div>
+
+      <!-- Política de cancelación -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Política de cancelación</h4>
+        <ul class="list-disc pl-5">
+          <li *ngFor="let condition of packageData.notes.cancellationPolicy">{{condition}}</li>
+        </ul>
+      </div>
+
+      <!-- Responsabilidades -->
+      <div class="mt-6">
+        <h4 class="text-lg font-semibold text-gray-800">Responsabilidades</h4>
+        <ul class="list-disc pl-5">
+          <li *ngFor="let responsibility of packageData.notes.responsibilities">{{responsibility}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="w-1/4 mx-auto p-6  shadow-lg rounded-lg border border-gray-200">
+      <div class="flex justify-between items-center">
+        <span class="text-xl font-semibold text-gray-800">Desde:</span>
+        <span class="text-2xl font-bold text-gray-800">$299</span>
+      </div>
+
+      <!-- Etiqueta de casi agotado -->
+      <div class="mt-2">
+        <span class="px-3 py-1 text-sm font-semibold text-white bg-red-600 rounded-full">Casi Agotado</span>
+      </div>
+
+      <!-- Botón de Ver Disponibilidad -->
+      <button class="mt-4 w-full px-4 py-2 text-white bg-gray-900 hover:bg-gray-800 font-semibold rounded-lg transition duration-300">
+        Ver Disponibilidad
+      </button>
+    </div>
+  </div>
+</div>
