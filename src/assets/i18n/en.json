@@ -578,6 +578,46 @@
           "price": "0"
         }
       ]
+    },
+    "CIRCUITS": {
+      "TITLE": "Circuits",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Circuits designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
+    },
+    "CORPORATE_TRAVEL": {
+      "TITLE": "Corporate Travel",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Corporate travel services for companies. We offer personalized packages to meet the needs of your business, from transportation to accommodation and activities."
+    },
+    "CRUISE": {
+      "TITLE": "Cruices",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Cruices designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
+    },
+    "EXTENSIONS": {
+      "TITLE": "Extensions",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Extensions designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
+    },
+    "FAMILY": {
+      "TITLE": "Family",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Travel with your family and enjoy unforgettable experiences. We offer personalized packages for families, including activities and accommodations suitable for all ages."
+    },
+    "HOME_STAYS": {
+      "TITLE": "Home Stays",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Home Stays designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
+    },
+    "MICE": {
+      "TITLE": "MICE",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "MICE services for companies. We offer personalized packages to meet the needs of your business, from transportation to accommodation and activities."
+    },
+    "TAYLOR_MADE": {
+      "TITLE": "Taylor Made",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Taylor Made services for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
     }
   },
   "STYLES": {

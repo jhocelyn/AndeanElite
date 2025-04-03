@@ -629,8 +629,47 @@
           "price": "0"
         }
       ]
+    },
+    "CIRCUITS": {
+      "TITLE": "Circuitos",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Circuitos personalizados para explorar Perú a tu ritmo. Desde la costa hasta la sierra, cada circuito está diseñado para ofrecerte una experiencia única y enriquecedora."
+    },
+    "CORPORATE_TRAVEL": {
+      "TITLE": "Viaje Corporativo",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Viajes corporativos a medida para empresas. Ofrecemos servicios de transporte, alojamiento y actividades personalizadas para satisfacer las necesidades de tu empresa."
+    },
+    "CRUISE": {
+      "TITLE": "Crucero",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Explora cruceros por los ríos amazónicos y la costa peruana. Disfruta de la biodiversidad y la cultura local mientras navegas por paisajes impresionantes."
+    },
+    "EXTENSIONS": {
+      "TITLE": "Extensiones",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Extensiones personalizadas para complementar tu viaje. Desde visitas a sitios arqueológicos hasta experiencias culturales, cada extensión está diseñada para enriquecer tu experiencia en Perú."
+    },
+    "FAMILY": {
+      "TITLE": "Familia",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Viaja en familia y disfruta de experiencias únicas. Ofrecemos paquetes diseñados para todas las edades, asegurando diversión y aprendizaje para todos."
+    },
+    "HOME_STAYS": {
+      "TITLE": "Estancias",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Estancias en comunidades locales para una experiencia auténtica. Vive la cultura peruana de cerca y contribuye al desarrollo sostenible de las comunidades que visitas."
+    },
+    "MICE": {
+      "TITLE": "MICE",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "MICE (Meetings, Incentives, Conferences, Exhibitions) para empresas. Organizamos eventos y actividades personalizadas para satisfacer las necesidades de tu empresa."
+    },
+    "TAYLOR_MADE": {
+      "TITLE": "A Medida",
+      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "DESCRIPTION": "Viajes a medida para satisfacer tus necesidades específicas. Ofrecemos servicios personalizados para crear la experiencia de viaje perfecta para ti."
     }
-
   },
   "STYLES": {
     "TITLE": "Estilos",
