@@ -417,18 +417,18 @@
         ],
         "prices": {
           "shared": {
-            "ADT": 67,
-            "JR": 67,
-            "CHD": 67
+            "ADT": "67",
+            "JR": "67",
+            "CHD": "67"
           },
           "private": {
-            "1 Person": 369,
-            "2 People": 196,
-            "3/4 People": 139,
-            "5 People": 106,
-            "6 People": 90,
-            "7 People": 79,
-            "8 People": 76
+            "1 Person": "369",
+            "2 People": "196",
+            "3/4 People": "139",
+            "5 People": "106",
+            "6 People": "90",
+            "7 People": "79",
+            "8 People": "76"
           }
         },
         "notes": {
@@ -636,140 +636,277 @@
     "TITLE": "Estilos",
     "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
     "DESCRIPTION": "Cada viajero tiene su propio estilo. Por eso, ofrecemos una variedad de servicios para satisfacer tus necesidades específicas.",
-    "PREMIUM": {
-      "TITLE": "Premium",
-      "slug": "premium",
-      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES": [
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "10"
-        },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        }
-      ]
-    },
-    "DELUXE": {
-      "TITLE": "Deluxe",
-      "slug": "deluxe",
-      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES": [
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        }
-      ]
+    "STYLES": {
+      "PREMIUM": {
+        "TITLE": "Premium",
+        "slug": "premium",
+        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+        "PACKAGES": [
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "10"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          }
+        ]
+      },
+      "DELUXE": {
+        "TITLE": "Deluxe",
+        "slug": "deluxe",
+        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+        "PACKAGES": [
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          }
+        ]
+      },
+      "COMFORT": {
+        "TITLE": "Comfort",
+        "slug": "comfort",
+        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+        "PACKAGES": [
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          }
+        ]
+      },
+      "PRICE-SALE": {
+        "TITLE": "Price Sale",
+        "slug": "price-sale",
+        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+        "PACKAGES": [
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          }
+        ]
+      },
+      "SUPER_DEALS": {
+        "TITLE": "Super Deals",
+        "slug": "super-deals",
+        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+        "PACKAGES": [
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Machu Picchu",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          },
+          {
+            "title": "Viaje Premium a Nazca",
+            "image": "assets/img/destinations/banner-destinations-peru.webp",
+            "price": "0"
+          }
+        ]
+      }
     },
     "COMFORT": {
       "TITLE": "Comfort",
       "slug": "comfort",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES": [
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         }
-      ]
+      }
     },
-    "PRICE-SALE": {
+    "DELUXE": {
+      "TITLE": "Deluxe",
+      "slug": "deluxe",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    },
+    "PREMIUM": {
+      "TITLE": "Premium",
+      "slug": "premium",
+      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    },
+    "PRICE_SALE": {
       "TITLE": "Price Sale",
       "slug": "price-sale",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES": [
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         }
-      ]
+      }
     },
     "SUPER_DEALS": {
       "TITLE": "Super Deals",
       "slug": "super-deals",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES": [
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         },
-        {
-          "title": "Viaje Premium a Nazca",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
         }
-      ]
+      }
     }
   }
 }

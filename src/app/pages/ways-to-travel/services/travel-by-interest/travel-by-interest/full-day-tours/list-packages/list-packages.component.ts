@@ -1,16 +1,13 @@
 import { Component } from '@angular/core';
-import {BannerComponent} from '../../../../../../../shared/components/general/banner/banner.component';
-import {NgForOf} from '@angular/common';
 import {TranslateService} from '@ngx-translate/core';
 import {
   ListPackagesStructureComponent
 } from '../../../../../../../shared/components/general/list-packages-structure/list-packages-structure.component';
-
 @Component({
   selector: 'app-list-packages',
   standalone: true,
   imports: [
-    ListPackagesStructureComponent
+    ListPackagesStructureComponent,
   ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'

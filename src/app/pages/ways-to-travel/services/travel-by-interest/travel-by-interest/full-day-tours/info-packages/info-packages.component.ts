@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { TourBannerComponent } from '../../../../../../../shared/components/tours/tour-banner/tour-banner.component';
-import {KeyValuePipe, NgForOf, NgIf, TitleCasePipe} from '@angular/common';
+import { NgIf} from '@angular/common';
+import {
+  DetailPackageComponent
+} from '../../../../../../../shared/components/tours/detail-package/detail-package.component';
 interface ItineraryDay {
   time?: string;
   description: string;
@@ -10,18 +13,18 @@ interface ItineraryDay {
 
 interface Pricing {
   shared: {
-    ADT: number;
-    JR: number;
-    CHD: number;
+    ADT: string;
+    JR: string;
+    CHD: string;
   };
   private: {
-    '1 Person': number;
-    '2 People': number;
-    '3/4 People': number;
-    '5 People': number;
-    '6 People': number;
-    '7 People': number;
-    '8 People': number;
+    '1 Person': string;
+    '2 People': string;
+    '3/4 People': string;
+    '5 People': string;
+    '6 People': string;
+    '7 People': string;
+    '8 People': string;
   };
 }
 
@@ -57,10 +60,8 @@ interface PackageData {
   standalone: true,
   imports: [
     TourBannerComponent,
-    NgForOf,
-    KeyValuePipe,
-    TitleCasePipe,
-    NgIf
+    NgIf,
+    DetailPackageComponent
   ],
   templateUrl: './info-packages.component.html',
   styleUrls: ['./info-packages.component.css']

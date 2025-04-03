@@ -10,6 +10,12 @@ interface TravelStyle {
   DESCRIPTION: string;
   PACKAGES: { title: string; image: string; price: number }[];
 }
+interface StylesData {
+  TITLE: string;
+  IMAGE: string;
+  DESCRIPTION: string;
+  STYLES: Record<string, TravelStyle>;
+}
 
 @Component({
   selector: 'app-list-styles',
@@ -39,8 +45,14 @@ export class ListStylesComponent {
   }
 
   loadServices(): void {
-    this.translate.get('STYLES').subscribe((data: Record<string, TravelStyle>) => {
-      this.services = data;
-    });
+    this.translate.get('STYLES').subscribe((data: StylesData) => {
+    if (data?.STYLES) {
+      this.services = data.STYLES;
+      this.bannerImage = data.IMAGE; // Usar la imagen del JSON de traducción
+    } else {
+      this.services = {};
+      this.bannerImage = 'assets/img/destinations/banner-destinations-peru.webp'; // Imagen por defecto
+    }
+  });
   }
 }

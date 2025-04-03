@@ -324,103 +324,103 @@
     },
     "FULL_DAY_TOURS": {
       "1": {
-        "packageTitle": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
+        "packageTitle": "CUSCO TOURISM - 2025\nCONDOR CANYON + CHONTA",
         "itinerary": {
           "day1": {
             "time": "07:00 hrs",
-            "description": "Inicio del tour con dirección a la ruta Cusco - Limatambo en un tiempo de 2 hrs aprox. A lo largo del viaje, realizará paradas en algunas zonas arqueológicas como Kilarumiyoc y Tarawasi, continuará el viaje hasta el puente Huayronca, desde donde tomará una ruta hacia la comunidad de Chonta."
+            "description": "Tour departure towards the Cusco - Limatambo route, approximately 2 hours. Along the way, stops will be made at some archaeological sites such as Kilarumiyoc and Tarawasi. The journey continues to the Huayronca bridge, from where a route will be taken to the Chonta community."
           },
           "day2": {
-            "description": "Este viaje será de ascenso hasta los 3400 msnm. Hará paradas en algunos puntos claves para tomarse fotos como en el nevado del Salkantay y con el valle de Limatambo."
+            "description": "This journey will be an ascent up to 3,400 meters above sea level. Stops will be made at key points for photos, such as the Salkantay snow-capped mountain and the Limatambo valley."
           },
           "day3": {
-            "description": "Llegará al pueblo de Chonta entre el mediodía donde disfrutará de un agradable almuerzo observando el nevado del Salkantay."
+            "description": "Arrival at Chonta village around noon, where you will enjoy a pleasant lunch while observing the Salkantay snow-capped mountain."
           },
           "day4": {
-            "description": "Emprenderá una caminata de 1h 30min aprox. hasta el mirador del Cañón del Cóndor. Desde este punto, tendrá la oportunidad de observar el vuelo majestuoso del cóndor andino en su hábitat natural."
+            "description": "A 1-hour and 30-minute hike to the Condor Canyon viewpoint. From this point, you will have the opportunity to observe the majestic flight of the Andean condor in its natural habitat."
           },
           "day5": {
-            "description": "Aquí, observará a los cóndores desde muy de cerca y por un promedio de 2 horas a más volando, e incluso en ocasiones pueden verlo volar a 20 metros del mirador."
+            "description": "You will see the condors up close for approximately 2 hours or more. Sometimes, they may fly as close as 20 meters from the viewpoint."
           },
           "day6": {
-            "description": "Retorno al pueblo de Chonta y luego, a la ciudad de Cusco."
+            "description": "Return to Chonta village and then back to Cusco city."
           }
         },
         "duration": "Full Day",
-        "departure": "Diarias",
+        "departure": "Daily",
         "schedule": "07:00 Hrs",
         "includes": [
-          "Movilidad Turística en servicio compartido o privado.",
-          "Guía profesional de turismo con binoculares y telescopio.",
-          "01 almuerzo.",
-          "Entrada al cañón del cóndor.",
-          "Recojo del hotel."
+          "Tourist transportation in shared or private service.",
+          "Professional tour guide with binoculars and telescope.",
+          "01 lunch.",
+          "Entrance to the condor canyon.",
+          "Hotel pickup."
         ],
         "notIncluded": [
-          "Alimentación no especificada",
-          "Propina para el guía.",
-          "Seguro de viaje.",
-          "Fotografías.",
-          "Snacks y/o bebidas durante el recorrido.",
-          "Souvenirs, regalos, compras personales.",
-          "Caballos."
+          "Meals not specified.",
+          "Guide gratuities.",
+          "Travel insurance.",
+          "Photographs.",
+          "Snacks and/or drinks during the tour.",
+          "Souvenirs, gifts, personal purchases.",
+          "Horses."
         ],
         "prices": {
           "shared": {
-            "ADT": 67,
-            "JR": 67,
-            "CHD": 67
+            "ADT": "67",
+            "JR": "67",
+            "CHD": "67"
           },
           "private": {
-            "1 Person": 369,
-            "2 People": 196,
-            "3/4 People": 139,
-            "5 People": 106,
-            "6 People": 90,
-            "7 People": 79,
-            "8 People": 76
+            "1 Person": "369",
+            "2 People": "196",
+            "3/4 People": "139",
+            "5 People": "106",
+            "6 People": "90",
+            "7 People": "79",
+            "8 People": "76"
           }
         },
         "notes": {
           "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+            "SafetyPay": "1% additional",
+            "NIUBIS/VISANET": "3% additional",
+            "Mercado Pago": "2.5% additional (up to 3 interest-free installments)"
           },
           "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
+            "Bring medications and personal hygiene items.",
+            "Hiking shoes or sneakers.",
+            "Flashlight with extra batteries and bulbs.",
+            "Hat or cap, sunglasses, and sunscreen.",
+            "Insect repellent (recommended with 40% or more DEET).",
+            "Raincoat, long-sleeve shirts, and cotton pants.",
+            "Warm clothing in case of cold weather.",
+            "Binoculars, camera.",
+            "Luggage backpack and small backpack."
           ],
           "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
+            "CHD": "Children under 08 years old, including all services, require a minimum of 2 paying adults.",
+            "JR": "From 08 to 16 years old, including all services, require a minimum of 2 paying adults."
           },
           "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
+            "Rates in US dollars, valid only for Peruvian passengers or residents.",
+            "Not valid during peak seasons (Easter, National Holidays, New Year's Eve, holidays, international events, or fairs).",
+            "No-show is non-refundable.",
+            "Full passenger information is required before the service.",
+            "Exclusive and confidential prices.",
+            "Rates valid until December 2025."
           ],
           "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
+            "Individual bookings: Full information 30 days before the service.",
+            "Group bookings: Preliminary passenger list 60 days before arrival.",
+            "Full payment required upon booking confirmation.",
+            "Health-related changes allowed with at least 48 hours' notice.",
+            "No refund for cancellations or no-shows."
           ],
           "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
+            "Andean Elite is not responsible for interruptions caused by factors beyond our control.",
+            "If it is necessary to modify a tour or excursion to enhance the experience, it will be done promptly.",
+            "Visa and vaccination procedures are the passenger’s responsibility."
           ]
         }
       }
@@ -584,7 +584,9 @@
     "TITLE": "Styles",
     "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
     "DESCRIPTION": "Find the perfect travel style for you. We offer a variety of options to suit your preferences and needs.",
-    "PREMIUM": {
+    "STYLES":
+    {
+      "PREMIUM": {
       "TITLE": "Premium",
       "slug": "premium",
       "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
@@ -611,7 +613,7 @@
         }
       ]
     },
-    "DELUXE": {
+      "DELUXE": {
       "TITLE": "Deluxe",
       "slug": "deluxe",
       "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
@@ -638,7 +640,7 @@
         }
       ]
     },
-    "COMFORT": {
+      "COMFORT": {
       "TITLE": "Comfort",
       "slug": "comfort",
       "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
@@ -665,7 +667,7 @@
         }
       ]
     },
-    "PRICE-SALE": {
+      "PRICE-SALE": {
       "TITLE": "Price Sale",
       "slug": "price-sale",
       "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
@@ -692,7 +694,7 @@
         }
       ]
     },
-    "SUPER_DEALS": {
+      "SUPER_DEALS": {
       "TITLE": "Super Deals",
       "slug": "super-deals",
       "DESCRIPTION": "Premium travel experiences for those who seek the best. Explore the world with exclusive and custom trips...",
@@ -719,7 +721,142 @@
         }
       ]
     }
+    },
+    "COMFORT": {
+      "TITLE": "Comfort",
+      "slug": "comfort",
+      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    },
+    "DELUXE": {
+      "TITLE": "Deluxe",
+      "slug": "deluxe",
+      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    },
+    "PREMIUM": {
+      "TITLE": "Premium",
+      "slug": "premium",
+      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    },
+    "PRICE_SALE": {
+      "TITLE": "Price Sale",
+      "slug": "price-sale",
+      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    },
+    "SUPER_DEALS": {
+      "TITLE": "Super Deals",
+      "slug": "super-deals",
+      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
+      "PACKAGES":{
+        "1":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "2":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "3":{
+          "title":"Viaje Premium a Machu Picchu",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        },
+        "4":{
+          "title":"Viaje Premium a Nazca",
+          "image":"assets/img/destinations/banner-destinations-peru.webp",
+          "price":"0"
+        }
+      }
+    }
   }
-
 }
 
