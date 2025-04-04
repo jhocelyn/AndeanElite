@@ -1,6 +1,6 @@
 <div *ngIf="packageData">
 <div class="flex flex-col md:flex-row gap-4 w-full">
-  <div class="w-2/3 max-w-5xl mx-auto p-6 ">
+  <div class="w-full xl:w-2/3 max-w-5xl mx-auto p-6 ">
     <!-- Duración y horarios -->
     <div class="grid grid-cols-2 gap-4 mt-4">
       <div>
@@ -116,10 +116,10 @@
 
 
   <!-- Precio -->
-  <div class="w-1/4 mx-auto p-6  shadow-lg rounded-lg border border-gray-200">
+  <div class="fixed bottom-0 xl:static w-full xl:w-1/4 mx-auto p-6 shadow-lg rounded-lg border bg-[#042A4E] border-[#042A4E] xl:bg-transparent xl:border-gray-200">
     <div class="flex justify-between items-center">
-      <span class="text-xl font-semibold text-gray-800">Desde:</span>
-      <span class="text-2xl font-bold text-gray-800">$299</span>
+      <span class="text-xl font-semibold text-white xl:text-gray-800">Desde:</span>
+      <span class="text-2xl font-bold text-white xl:text-gray-800">$299</span>
     </div>
 
     <!-- Etiqueta de casi agotado -->
@@ -128,7 +128,7 @@
     </div>
 
     <!-- Botón de Ver Disponibilidad -->
-    <button class="mt-4 w-full px-4 py-2 text-white bg-gray-900 hover:bg-gray-800 font-semibold rounded-lg transition duration-300">
+    <button class="mt-4 w-full px-4 py-2 text-gray-900 bg-gray-100 hover:bg-gray-900 hover:text-white xl:text-white xl:bg-gray-900 xl:hover:bg-gray-800 font-semibold rounded-lg transition duration-300">
       Ver Disponibilidad
     </button>
   </div>
