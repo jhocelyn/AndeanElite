@@ -1,11 +1,11 @@
-<div class="h-[16vh] bg-[#042A4E]"></div>
+<div class="h-[11vh] xl:h-[16vh] bg-[#042A4E]"></div>
 <div class="mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
   <div class="p-5">
-    <div class="flex items-center justify-between">
-      <h2 class="text-2xl font-bold">{{ title }}</h2>
-      <div class="flex items-center">
-        <span class="text-yellow-500 text-lg">★★★★★</span>
-        <span class="ml-2 text-gray-600 text-sm">{{ rating }}</span>
+    <div class="flex flex-col xl:flex-row items-start xl:items-center justify-between">
+      <h2 class="text-base xl:text-2xl font-bold">{{ title }}</h2>
+      <div class="flex w-full flex-row items-end xl:items-center">
+          <span class="text-yellow-500 text-lg">★★★★★</span>
+          <span class="ml-2 text-gray-600 text-sm">{{ rating }}</span>
       </div>
     </div>
   </div>
