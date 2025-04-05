@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
-import {DestinationCardComponent} from '../../../../../shared/components/to-destinations/list-packages/destination-card/destination-card.component';
-
+import {BannerComponent} from '../../../../../shared/components/general/banner/banner.component';
 @Component({
   selector: 'app-cusco-packages',
   standalone: true,
   imports: [
-    DestinationCardComponent
+    BannerComponent,
   ],
   templateUrl: './cusco-packages.component.html',
   styleUrl: './cusco-packages.component.css'

@@ -1,15 +1,8 @@
-<div class="h-[10vh] flex justify-center items-center text-[30px] text-[#034873]">
-  NAZCA
-</div>
+
+<app-banner
+  [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
+  [title]="'DESTINATIONS.NAZCA'"
+></app-banner>
 <div class="p-1 grid grid-cols-2 md:grid-cols-4 gap-5">
-  <app-destination-card
-    title="Nasca Enigmatica"
-    [price]="176"
-    [originalPrice]="250"
-    [discount]="30"
-    days="2 DÍAS"
-    [destinationBase]="'destination/nazca'"
-    (click)="onCardClick(1)"
-  >
-  </app-destination-card>
+
 </div>

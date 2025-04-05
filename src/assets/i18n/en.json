@@ -141,8 +141,15 @@
     "BUTTON": "Send Message"
   },
   "DESTINATIONS": {
-    "TITLE": "Destinations"
-  },
+  "TITLE": "Destinations",
+  "CUSCO": "CUSCO",
+  "AREQUIPA": "AREQUIPA",
+  "LIMA": "LIMA",
+  "ICA": "ICA",
+  "NAZCA": "NAZCA",
+  "PUERTO_MALDONADO": "PUERTO MALDONADO"
+},
+
   "PACKAGES":{
     "DESTINOS":{"AREQUIPA": [
       {

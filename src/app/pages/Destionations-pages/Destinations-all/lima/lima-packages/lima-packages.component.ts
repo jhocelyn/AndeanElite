@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
 import {DestinationCardComponent} from '../../../../../shared/components/to-destinations/list-packages/destination-card/destination-card.component';
+import {BannerComponent} from "../../../../../shared/components/general/banner/banner.component";
 
 @Component({
   selector: 'app-lima-packages',
   standalone: true,
-  imports: [
-    DestinationCardComponent
-  ],
+    imports: [
+        DestinationCardComponent,
+        BannerComponent
+    ],
   templateUrl: './lima-packages.component.html',
   styleUrl: './lima-packages.component.css'
 })

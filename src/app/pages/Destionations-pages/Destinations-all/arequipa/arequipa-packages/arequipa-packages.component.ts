@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DestinationCardComponent } from '../../../../../shared/components/to-destinations/list-packages/destination-card/destination-card.component';
 import { Router } from '@angular/router';
+import {BannerComponent} from "../../../../../shared/components/general/banner/banner.component";
 
 @Component({
   selector: 'app-arequipa-packages',
   standalone: true,
-  imports: [
-    CommonModule,
-    DestinationCardComponent
-  ],
+    imports: [
+        CommonModule,
+        BannerComponent
+    ],
   templateUrl: './arequipa-packages.component.html',
   styleUrl: './arequipa-packages.component.css'
 })

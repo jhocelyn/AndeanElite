@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
-import {DestinationCardComponent} from '../../../../../shared/components/to-destinations/list-packages/destination-card/destination-card.component';
+import {BannerComponent} from "../../../../../shared/components/general/banner/banner.component";
 
 @Component({
   selector: 'app-ica-packages',
   standalone: true,
-  imports: [
-    DestinationCardComponent
-  ],
+    imports: [
+        BannerComponent
+    ],
   templateUrl: './ica-packages.component.html',
   styleUrl: './ica-packages.component.css'
 })
