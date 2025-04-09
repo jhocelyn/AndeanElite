@@ -67,22 +67,22 @@
           "description": "Arequipa is the colonial-era capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone."
         },
         {
-          "url": "assets/img/lima4.jpg",
+          "url": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
           "title": "Lima, The City of Kings: Where History Meets Modernity",
           "description": "Lima is the capital of Peru, located on the country's arid Pacific coast. Despite preserving its colonial center, it is a bustling metropolis and one of the largest cities in South America."
         },
         {
-          "url": "assets/img/cuscoespecial1.webp",
+          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Cusco: The Heart of the Inca Empire",
           "description": "Experience the full magic of Cusco on a 5-day, 4-night trip that includes accommodation in Cusco, a city tour, an archaeological visit, a Sacred Valley tour, an Expedition or Vistadome train ride, a visit to Machu Picchu, and a visit to Rainbow Mountain."
         },
         {
-          "url": "assets/img/nazca5.webp",
+          "url": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
           "title": "Enigmatic Nazca",
           "description": "The Nazca Lines, in southern Peru, are a group of pre-Columbian geoglyphs etched into the desert sands. They cover an area of nearly 1,000 square kilometers and include around 300 distinct figures, featuring animals and plants."
         },
         {
-          "url": "assets/img/puerto_maldonado.webp",
+          "url": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
           "title": "Puerto Maldonado",
           "description": "Puerto Maldonado, the capital of Madre de Dios, is the gateway to the Peruvian Amazon, where the lush jungle and the biodiverse Tambopata National Reserve await for an unforgettable experience."
         }
@@ -454,66 +454,66 @@
   },
   "TRAVEL_BY_INTEREST": {
     "TITLE": "Travel By Interest",
-    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp",
     "DESCRIPTION": "We know that every traveler is unique, and that's why we offer a variety of travel styles to suit your preferences. Whether you're looking for adventure, relaxation, or cultural immersion, we have the perfect option for you.",
     "Services": [
       {
         "name": "Circuits",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp",
         "slug": "circuits",
         "featured": true
       },
       {
         "name": "Extensions",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp",
         "slug": "extensions",
         "featured": true
       },
       {
         "name": "Trekking",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp",
         "slug": "trekking",
         "featured": true
       },
       {
         "name": "Full Day Tours",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp",
         "slug": "full-day-tours",
         "featured": true
       },
       {
         "name": "Family",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/family/family-travel-peru.webp",
         "slug": "family",
         "featured": true
       },
       {
         "name": "Taylor Made",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp",
         "slug": "taylor-made",
         "featured": true
       },
       {
         "name": "Cruise",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
         "slug": "cruise",
         "featured": true
       },
       {
         "name": "MICE",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/mice/mice-travel.webp",
         "slug": "mice",
         "featured": true
       },
       {
         "name": "Homestays",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp",
         "slug": "homestays",
         "featured": true
       },
       {
         "name": "Corporate Travel",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp",
         "slug": "corporate-travel",
         "featured": true
       }

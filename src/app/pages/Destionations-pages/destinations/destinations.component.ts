@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import {NavbarComponent} from '../../../shared/components/Important/navbar/navbar.component';
-import {FooterComponent} from '../../../shared/components/Important/footer/footer.component';
-import {RouterLink} from '@angular/router';
 import {LazyLoadImageModule} from 'ng-lazyload-image';
 import {BannerComponent} from '../../../shared/components/general/banner/banner.component';
 import {
@@ -17,12 +14,12 @@ import {
 })
 export class DestinationsComponent {
   destinations = [
-    { name: 'Arequipa', image: 'assets/img/destinations/banner-destinations-peru.webp', link: '/destination/arequipa/packages' },
-    { name: 'Cusco', image: 'assets/img/destinations/banner-destinations-peru.webp', link: '/destination/cusco/packages' },
-    { name: 'Puerto Maldonado', image: 'assets/img/destinations/banner-destinations-peru.webp', link: '/destination/puerto-maldonado/packages' },
-    { name: 'Lima', image: 'assets/img/destinations/banner-destinations-peru.webp', link: '/destination/lima/packages' },
-    { name: 'Ica', image: 'assets/img/destinations/banner-destinations-peru.webp', link: '/destination/ica/packages' },
-    { name: 'Nazca', image: 'assets/img/destinations/banner-destinations-peru.webp', link: '/destination/nazca/packages' }
+    { name: 'Arequipa', image: 'assets/img/destinations/arequipa/destinations-arequipa-santa-catalina.webp', link: '/destination/arequipa/packages' },
+    { name: 'Cusco', image: 'assets/img/destinations/cusco/destinations-machu-picchu.webp', link: '/destination/cusco/packages' },
+    { name: 'Puerto Maldonado', image: 'assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp', link: '/destination/puerto-maldonado/packages' },
+    { name: 'Lima', image: 'assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp', link: '/destination/lima/packages' },
+    { name: 'Ica', image: 'assets/img/destinations/ica/destinations-peru-paracas-ica.webp', link: '/destination/ica/packages' },
+    { name: 'Nazca', image: 'assets/img/destinations/nazca/destinations-peru-nasca.webp', link: '/destination/nazca/packages' }
   ];
 
 }

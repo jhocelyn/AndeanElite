@@ -85,22 +85,22 @@
           "description": "Arequipa es la capital de la época colonial de la región de Arequipa en Perú. La rodean 3 volcanes y cuenta con edificios barrocos construidos de sillar, una piedra volcánica blanca."
         },
         {
-          "url": "assets/img/lima4.webp",
+          "url": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
           "title": "Lima, la Ciudad de los Reyes: Historia y Modernidad",
           "description": "Lima es la capital de Perú ubicada en la árida costa del Pacífico del país. Pese a que su centro colonial se conserva, es una desbordante metrópolis y una de las ciudades más grandes de Sudamérica."
         },
         {
-          "url": "assets/img/cuscoespecial1.webp",
+          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Cusco Mágico: Historia y Aventura",
           "description": "Viva la magia completa de Cusco en una viaje de 5 días y 4 noches que incluye estadía en Cusco, tour de la ciudad, visita arqueológica, tour al Valle Sagrado, tren Expedition o Vistadome, visita a Machu Picchu y visita a la Montaña de 7 Colores."
         },
         {
-          "url": "assets/img/nazca5.webp",
+          "url": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
           "title": "Nazca: Enigma en el Desierto",
           "description": "Las Líneas de Nazca, en el sur de Perú, son un grupo de geoglifos precolombinos que se extienden en las arenas del desierto. Abarcan un área de casi 1,000 kilómetros cuadrados y hay alrededor de 300 figuras distintas, que incluyen animales y plantas."
         },
         {
-          "url": "assets/img/puerto_maldonado.webp",
+          "url": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
           "title": "Puerto Maldonado y la Selva Amazónica: Aventura en la Naturaleza.",
           "description": "Puerto Maldonado, la capital de Madre de Dios, es la puerta al Amazonas peruano, donde la exuberante selva y la biodiversa Reserva Nacional Tambopata te esperan para una experiencia inolvidable."
         }
@@ -110,22 +110,22 @@
       "TITLE": "Nuestros Clientes Dicen",
       "IMAGES": [
         {
-          "url": "assets/img/gallery1.webp",
+          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Johann (Perú) & Daniela (México)",
           "description": "\"Nuestro viaje con Andean Elite fue espectacular. Todo estuvo perfectamente organizado, y cada destino nos dejó asombrados. Tuvimos un incidente al perder una cartera con dinero en la entrada de Machu Picchu, pero gracias al equipo de Andean Elite, que actuó rápidamente con seguridad y cámaras, logramos recuperarla. ¡Un servicio impecable y altamente recomendado!\""
         },
         {
-          "url": "assets/img/gallery2.webp",
+          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Luis López. - Ciudad de México, México",
           "description": "\"Viajar con Andean Elite fue la mejor decisión que pudimos tomar. Nos ofrecieron un itinerario exclusivo que combinó historia, cultura y lujo. El guía fue increíblemente conocedor y amable. Cusco nos dejó maravillados y todo fue gracias a la impecable planificación del equipo. ¡Recomendadísimos!\""
         },
         {
-          "url": "assets/img/gallery3.webp",
+          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Mariana Quiñones. - Atlanta, USA",
           "description": "\"Siempre soñamos con conocer Machu Picchu, pero hacerlo con Andean Elite lo convirtió en una experiencia inolvidable. Cada hotel fue de primera categoría y el transporte privado nos permitió relajarnos y disfrutar del viaje. Nos sentimos cuidados y atendidos en todo momento. ¡Gracias por este viaje de ensueño!\""
         },
         {
-          "url": "assets/img/gallery4.webp",
+          "url": "assets/img/destinations/arequipa/destinations-arequipa-santa-catalina.webp",
           "title": "Familia Londoño- Bogota, Colombia",
           "description": "\"Éramos cinco personas viajando en familia y no podríamos estar más felices con la experiencia. Cusco nos enamoró con su historia, Arequipa nos impresionó con su arquitectura, y Puno nos dejó sin palabras con el Lago Titicaca. Andean Elite se encargó de cada detalle para que disfrutáramos sin preocupaciones. ¡Definitivamente el mejor viaje familiar que hemos tenido!\""
         }
@@ -2263,61 +2263,61 @@
     "Services": [
       {
         "name": "Circuitos",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp",
         "slug": "circuits",
         "featured": false
       },
       {
         "name": "Extensiones",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp",
         "slug": "extensions",
         "featured": false
       },
       {
         "name": "Trekking",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp",
         "slug": "trekking",
         "featured": false
       },
       {
         "name": "Full Day Tours",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp",
         "slug": "full-day-tours",
         "featured": false
       },
       {
         "name": "Familia",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/family/family-travel-peru.webp",
         "slug": "family",
         "featured": false
       },
       {
         "name": "A Medida",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp",
         "slug": "taylor-made",
         "featured": false
       },
       {
         "name": "Crucero",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
         "slug": "cruise",
         "featured": false
       },
       {
         "name": "MICE",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/mice/mice-travel.webp",
         "slug": "mice",
         "featured": false
       },
       {
         "name": "Estadías",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp",
         "slug": "homestays",
         "featured": false
       },
       {
         "name": "Viaje Corporativo",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp",
         "slug": "corporate-travel",
         "featured": false
       }
