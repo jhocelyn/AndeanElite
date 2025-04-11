@@ -33,7 +33,7 @@ interface StylesData {
 })
 export class ListStylesComponent {
   services: Record<string, TravelStyle> = {};
-  bannerImage = 'assets/img/destinations/banner-destinations-peru.webp';
+  bannerImage = 'assets/img/ways-to-travel/styles/styles-peru.webp';
 
   constructor(private translate: TranslateService) {}
 
@@ -51,7 +51,7 @@ export class ListStylesComponent {
       this.bannerImage = data.IMAGE; // Usar la imagen del JSON de traducción
     } else {
       this.services = {};
-      this.bannerImage = 'assets/img/destinations/banner-destinations-peru.webp'; // Imagen por defecto
+      this.bannerImage = 'assets/img/ways-to-travel/styles/styles-peru.webp'; // Imagen por defecto
     }
   });
   }

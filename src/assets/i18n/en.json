@@ -131,9 +131,41 @@
     }
   },
   "ABOUT-US": {
-    "SECTION": "OUR TEAM",
-    "TITLE": "We are Andean Elite: A World of Personalized Luxury and Unforgettable Journeys",
-    "DESCRIPTION": "At Andean Elite we transform your travel dreams into reality. We specialize in creating customized luxury experiences that reflect your emotions and desires. From the majestic Andes to the timeless wonder of Machu Picchu, we design unique itineraries that capture the essence of Peru's culture, history and natural beauty. What makes us different? It's not just our attention to detail or our carefully selected itineraries. It's the passion and dedication we put into every adventure. Our team of experts is available 24 hours a day, 7 days a week to ensure that every moment of your trip is perfect and unforgettable. Whether exploring Cusco with expert guides or enjoying the elegance of boutique hotels and private transportation, we prioritize your comfort, safety and connection to the richness of Peru's heritage."
+    "TITLE": "About Andean Elite",
+    "DESCRIPTION": "Andean Elite is a luxury travel agency in Peru, dedicated to creating unique and unforgettable experiences for our clients. We specialize in tailor-made trips that combine adventure, culture, and luxury, ensuring that every detail of your journey is taken care of. Our team of experts is passionate about travel and committed to providing exceptional service, making your trip to Peru an unforgettable experience.",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "MISSION": {
+      "TITLE": "Our Mission",
+      "DESCRIPTION": "En Andean Elite, nuestra misión es ofrecer experiencias de viaje únicas y personalizadas en Perú, combinando lujo, aventura y cultura. Nos comprometemos a brindar un servicio excepcional y atención al detalle, asegurando que cada cliente viva una experiencia inolvidable. Trabajamos en colaboración con comunidades locales para promover un turismo responsable y sostenible."
+    },
+    "VISION": {
+      "TITLE": "Our Vision",
+      "DESCRIPTION": "Ser la agencia de viajes de lujo líder en Perú, reconocida por nuestra atención al cliente, experiencias personalizadas y compromiso con la sostenibilidad. Buscamos inspirar a los viajeros a descubrir la belleza y diversidad de Perú, creando recuerdos inolvidables que perduren en el tiempo."
+    },
+    "OUR_TEAM": {
+      "TITLE": "Our Team",
+      "DESCRIPTION": "Our team is made up of passionate professionals who are dedicated to providing exceptional service and creating unforgettable travel experiences. We are committed to ensuring that every detail of your trip is taken care of, so you can relax and enjoy your journey.",
+      "TEAM": [
+        {
+          "name": "Andean Elite",
+          "description": "Andean Elite is a luxury travel agency in Peru, dedicated to creating unique and unforgettable experiences for our clients. We specialize in tailor-made trips that combine adventure, culture, and luxury, ensuring that every detail of your journey is taken care of. Our team of experts is passionate about travel and committed to providing exceptional service, making your trip to Peru an unforgettable experience.",
+          "image": "assets/img/destinations/banner-destinations-peru.webp"
+        },
+        {
+          "name": "Andean Elite",
+          "description": "Andean Elite is a luxury travel agency in Peru, dedicated to creating unique and unforgettable experiences for our clients. We specialize in tailor-made trips that combine adventure, culture, and luxury, ensuring that every detail of your journey is taken care of. Our team of experts is passionate about travel and committed to providing exceptional service, making your trip to Peru an unforgettable experience.",
+          "image": "assets/img/destinations/banner-destinations-peru.webp"
+        }
+      ]
+    },
+    "LICENSE": {
+      "TITLE": "License and Accreditations",
+      "DESCRIPTION": "Andean Elite is a licensed travel agency in Peru, with all the necessary accreditations to operate legally and safely. We are committed to providing our clients with the highest quality service and ensuring that their travel experience is unforgettable."
+    },
+    "RESPONSIBLE": {
+      "TITLE": "Travel Responsibly",
+      "DESCRIPTION": "In Andean Elite, we are committed to promoting responsible and sustainable tourism. We work in collaboration with local communities to ensure that our trips have a positive impact on the environment and the culture of the places we visit. We believe that travel should be an enriching experience for both travelers and the communities they visit."
+    }
   },
   "CONTACT-US": {
     "TITLE": "Contact us",
@@ -435,18 +467,18 @@
   },
   "WAYS_TO_TRAVEL": {
     "TITLE": "Ways to Travel",
-    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/ways-to-travel.webp",
     "DESCRIPTION": "Enjoy the best travel experience with Andean Elite. We offer a wide range of services to make your trip unforgettable.",
     "Services": [
       {
         "name": "Styles",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/travel-by-interest.webp",
         "slug": "styles",
         "featured": true
       },
       {
         "name": "Travel By Interest",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/styles/styles-peru.webp",
         "slug": "travel-by-interest",
         "featured": true
       }
@@ -454,7 +486,7 @@
   },
   "TRAVEL_BY_INTEREST": {
     "TITLE": "Travel By Interest",
-    "IMAGE": "assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/travel-by-interest/travel-by-interest.webp",
     "DESCRIPTION": "We know that every traveler is unique, and that's why we offer a variety of travel styles to suit your preferences. Whether you're looking for adventure, relaxation, or cultural immersion, we have the perfect option for you.",
     "Services": [
       {
@@ -520,62 +552,15 @@
     ],
     "TREKKING": {
       "TITLE": "Trekking",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp",
       "DESCRIPTION": "Explore the most beautiful trekking routes in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you.",
       "PACKAGES": [
-        {
-          "id": "1",
-          "title": "Trekking a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "2",
-          "title": "Trekking a la Montaña de 7 Colores",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "3",
-          "title": "Trekking al Nevado Ausangate",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "4",
-          "title": "Trekking al Valle Sagrado",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "5",
-          "title": "Trekking a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "6",
-          "title": "Trekking a la Montaña de 7 Colores",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "7",
-          "title": "Trekking al Nevado Ausangate",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "8",
-          "title": "Trekking al Valle Sagrado",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        }
+
       ]
     },
     "FULL_DAY_TOURS": {
       "TITLE": "Full Day Tours",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp",
       "DESCRIPTION": "Explore the most beautiful Full day tours routes in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you.",
       "PACKAGES": [
         {
@@ -588,48 +573,48 @@
     },
     "CIRCUITS": {
       "TITLE": "Circuits",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp",
       "DESCRIPTION": "Circuits designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
     },
     "CORPORATE_TRAVEL": {
       "TITLE": "Corporate Travel",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp",
       "DESCRIPTION": "Corporate travel services for companies. We offer personalized packages to meet the needs of your business, from transportation to accommodation and activities."
     },
     "CRUISE": {
       "TITLE": "Cruices",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
       "DESCRIPTION": "Cruices designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
     },
     "EXTENSIONS": {
       "TITLE": "Extensions",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp",
       "DESCRIPTION": "Extensions designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
     },
     "FAMILY": {
       "TITLE": "Family",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/family/family-travel-peru.webp",
       "DESCRIPTION": "Travel with your family and enjoy unforgettable experiences. We offer personalized packages for families, including activities and accommodations suitable for all ages."
     },
     "HOME_STAYS": {
       "TITLE": "Home Stays",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp",
       "DESCRIPTION": "Home Stays designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
     },
     "MICE": {
       "TITLE": "MICE",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/mice/mice-travel.webp",
       "DESCRIPTION": "MICE services for companies. We offer personalized packages to meet the needs of your business, from transportation to accommodation and activities."
     },
     "TAYLOR_MADE": {
       "TITLE": "Taylor Made",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp",
       "DESCRIPTION": "Taylor Made services for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
     }
   },
   "STYLES": {
     "TITLE": "Styles",
-    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/styles/styles-peru.webp",
     "DESCRIPTION": "Find the perfect travel style for you. We offer a variety of options to suit your preferences and needs.",
     "STYLES":
     {
@@ -772,6 +757,7 @@
     "COMFORT": {
       "TITLE": "Comfort",
       "slug": "comfort",
+      "IMAGE": "assets/img/ways-to-travel/styles/comfort/comfort-travel.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
         "1":{
@@ -799,6 +785,7 @@
     "DELUXE": {
       "TITLE": "Deluxe",
       "slug": "deluxe",
+      "IMAGE": "assets/img/ways-to-travel/styles/deluxe/deluxe-travel-peru.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
         "1":{
@@ -826,6 +813,7 @@
     "PREMIUM": {
       "TITLE": "Premium",
       "slug": "premium",
+      "IMAGE": "assets/img/ways-to-travel/styles/premium/premium-travel-peru.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
         "1":{
@@ -853,6 +841,7 @@
     "PRICE_SALE": {
       "TITLE": "Price Sale",
       "slug": "price-sale",
+      "IMAGE": "assets/img/ways-to-travel/styles/price-sale/price-sale.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
         "1":{
@@ -880,6 +869,7 @@
     "SUPER_DEALS": {
       "TITLE": "Super Deals",
       "slug": "super-deals",
+      "IMAGE": "assets/img/ways-to-travel/styles/super-deals/super-deals-travel-peru.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
         "1":{

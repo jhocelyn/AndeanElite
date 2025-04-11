@@ -151,6 +151,7 @@
   "ABOUT-US": {
     "TITLE": "Sobre Andean Elite",
     "DESCRIPTION": "Andean Elite es una agencia de viajes especializada en ofrecer experiencias únicas y personalizadas en Perú. Nuestro objetivo es brindar un servicio excepcional, garantizando que cada viaje sea inolvidable. Con un equipo de expertos apasionados por el turismo, nos dedicamos a crear itinerarios a medida que reflejen los intereses y deseos de nuestros clientes.",
+    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
     "MISSION": {
       "TITLE": "Nuestra Misión",
       "DESCRIPTION": "En Andean Elite, nuestra misión es ofrecer experiencias de viaje únicas y memorables en Perú, combinando lujo, aventura y cultura. Nos esforzamos por brindar un servicio excepcional y personalizado, asegurando que cada cliente viva momentos inolvidables."
@@ -2239,18 +2240,18 @@
   },
   "WAYS_TO_TRAVEL": {
     "TITLE": "Formas de Viajar",
-    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/ways-to-travel.webp",
     "DESCRIPTION": "Disfruta de nuestros servicios especiales para una experiencia única",
     "Services": [
       {
         "name": "Estilos",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/styles/styles-peru.webp",
         "slug": "styles",
         "featured": true
       },
       {
         "name": "Viajes por Interés",
-        "image": "assets/img/destinations/banner-destinations-peru.webp",
+        "image": "assets/img/ways-to-travel/travel-by-interest/travel-by-interest.webp",
         "slug": "travel-by-interest",
         "featured": true
       }
@@ -2258,7 +2259,7 @@
   },
   "TRAVEL_BY_INTEREST": {
     "TITLE": "Viajes por Interés",
-    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/travel-by-interest/travel-by-interest.webp",
     "DESCRIPTION": "Sabemos que cada viajero tiene intereses únicos. Por eso, ofrecemos una variedad de servicios para satisfacer tus necesidades específicas.",
     "Services": [
       {
@@ -2324,62 +2325,15 @@
     ],
     "TREKKING": {
       "TITLE": "Trekking",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp",
       "DESCRIPTION": "Explora los Andes peruanos a través de emocionantes rutas de trekking. Desde el famoso Camino Inca hasta senderos menos transitados, cada paso te llevará a paisajes impresionantes y experiencias culturales únicas.",
       "PACKAGES": [
-        {
-          "id": "1",
-          "title": "Trekking a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "2",
-          "title": "Trekking a la Montaña de 7 Colores",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "3",
-          "title": "Trekking al Nevado Ausangate",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "4",
-          "title": "Trekking al Valle Sagrado",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "5",
-          "title": "Trekking a Machu Picchu",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "6",
-          "title": "Trekking a la Montaña de 7 Colores",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "7",
-          "title": "Trekking al Nevado Ausangate",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "8",
-          "title": "Trekking al Valle Sagrado",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
-          "price": "0"
-        }
+
       ]
     },
     "FULL_DAY_TOURS": {
       "TITLE": "Full Day Tours",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp",
       "DESCRIPTION": "Explora los Andes peruanos a través de emocionantes rutas de trekking. Desde el famoso Camino Inca hasta senderos menos transitados, cada paso te llevará a paisajes impresionantes y experiencias culturales únicas.",
       "PACKAGES": [
         {
@@ -2512,48 +2466,48 @@
     },
     "CIRCUITS": {
       "TITLE": "Circuitos",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp",
       "DESCRIPTION": "Circuitos personalizados para explorar Perú a tu ritmo. Desde la costa hasta la sierra, cada circuito está diseñado para ofrecerte una experiencia única y enriquecedora."
     },
     "CORPORATE_TRAVEL": {
       "TITLE": "Viaje Corporativo",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp",
       "DESCRIPTION": "Viajes corporativos a medida para empresas. Ofrecemos servicios de transporte, alojamiento y actividades personalizadas para satisfacer las necesidades de tu empresa."
     },
     "CRUISE": {
       "TITLE": "Crucero",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
       "DESCRIPTION": "Explora cruceros por los ríos amazónicos y la costa peruana. Disfruta de la biodiversidad y la cultura local mientras navegas por paisajes impresionantes."
     },
     "EXTENSIONS": {
       "TITLE": "Extensiones",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp",
       "DESCRIPTION": "Extensiones personalizadas para complementar tu viaje. Desde visitas a sitios arqueológicos hasta experiencias culturales, cada extensión está diseñada para enriquecer tu experiencia en Perú."
     },
     "FAMILY": {
       "TITLE": "Familia",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/family/family-travel-peru.webp",
       "DESCRIPTION": "Viaja en familia y disfruta de experiencias únicas. Ofrecemos paquetes diseñados para todas las edades, asegurando diversión y aprendizaje para todos."
     },
     "HOME_STAYS": {
       "TITLE": "Estancias",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp",
       "DESCRIPTION": "Estancias en comunidades locales para una experiencia auténtica. Vive la cultura peruana de cerca y contribuye al desarrollo sostenible de las comunidades que visitas."
     },
     "MICE": {
       "TITLE": "MICE",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/mice/mice-travel.webp",
       "DESCRIPTION": "MICE (Meetings, Incentives, Conferences, Exhibitions) para empresas. Organizamos eventos y actividades personalizadas para satisfacer las necesidades de tu empresa."
     },
     "TAYLOR_MADE": {
       "TITLE": "A Medida",
-      "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
-      "DESCRIPTION": "Viajes a medida para satisfacer tus necesidades específicas. Ofrecemos servicios personalizados para crear la experiencia de viaje perfecta para ti."
+      "IMAGE": "assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp",
+     "DESCRIPTION": "Viajes a medida para satisfacer tus necesidades específicas. Ofrecemos servicios personalizados para crear la experiencia de viaje perfecta para ti."
     }
   },
   "STYLES": {
     "TITLE": "Estilos",
-    "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
+    "IMAGE": "assets/img/ways-to-travel/styles/styles-peru.webp",
     "DESCRIPTION": "Cada viajero tiene su propio estilo. Por eso, ofrecemos una variedad de servicios para satisfacer tus necesidades específicas.",
     "STYLES": {
       "PREMIUM": {
@@ -2695,6 +2649,7 @@
     "COMFORT": {
       "TITLE": "Comfort",
       "slug": "comfort",
+      "IMAGE": "assets/img/ways-to-travel/styles/comfort/comfort-travel.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
         "1":{
@@ -2722,6 +2677,7 @@
     "DELUXE": {
       "TITLE": "Deluxe",
       "slug": "deluxe",
+      "IMAGE": "assets/img/ways-to-travel/styles/deluxe/deluxe-travel-peru.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
         "1":{
@@ -2749,6 +2705,7 @@
     "PREMIUM": {
       "TITLE": "Premium",
       "slug": "premium",
+      "IMAGE": "assets/img/ways-to-travel/styles/premium/premium-travel-peru.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
         "1":{
@@ -2776,6 +2733,7 @@
     "PRICE_SALE": {
       "TITLE": "Price Sale",
       "slug": "price-sale",
+      "IMAGE": "assets/img/ways-to-travel/styles/price-sale/price-sale.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
         "1":{
@@ -2803,6 +2761,7 @@
     "SUPER_DEALS": {
       "TITLE": "Super Deals",
       "slug": "super-deals",
+      "IMAGE": "assets/img/ways-to-travel/styles/super-deals/super-deals-travel-peru.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
         "1":{
