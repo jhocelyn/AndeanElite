@@ -382,6 +382,10 @@
     "FULL_DAY_TOURS": {
       "1": {
         "packageTitle": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "07:00 hrs",
@@ -483,6 +487,10 @@
       },
       "2": {
         "packageTitle": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MORADA DE LOS DIOSES",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Recojo del hotel. Nos dirigimos al poblado de Tica Tica hasta llegar al sector Sencca en un trayecto de 25 minutos. Una vez ahí empezamos un briefing de seguridad de 5 minutos y 10 minutos de entrenamiento con las Cuatrimotos, para dar inicio a la aventura. El recorrido en cuatrimotos tiene una duración de 1 hora, primero visitaremos el Acueducto Colonial Fortaleza, luego continuaremos hasta la Morada de los Dioses, una vez llegado comenzaremos con la visita de aproximadamente 30 minutos, en este lugar podremos apreciar las diversas esculturas hechas a mano, apreciando el paisaje natural y poder tomarse fotos. Finalizada la visita, retornaremos hasta el campamento para abordar nuestro transporte y retornar a la ciudad de Cusco. Dejándolos en la Calle Shapy a una cuadra de la Plaza de Armas."
@@ -560,6 +568,10 @@
       },
       "3": {
         "packageTitle": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MARAS & MORAY",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-maras-moray.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Recojo del hotel. Iniciaremos el tour, dirigiéndonos al Pueblo de Maras, aquí tendremos una breve explicación a cargo nuestro guía quien les explicará sobre la experiencia turística, así como también el uso correcto de las cuatrimotos con una breve práctica de 10 a 15 minutos. El primer punto a visitar serán las terrazas de Moray, centro arqueológico considerado como el laboratorio agrícola inca. Nuestro guía les brindará la explicación de este impresionante lugar, para luego visitar al poblado de Maras, lugar que hasta nuestros días mantiene sus arcos coloniales en sus viviendas y la plaza típica de los pueblos andinos. Llegaremos a las salineras donde se apreciará más de 3000 pozos de sal, que son trabajados por los pobladores y que es parte de su economía, comprobaremos sus beneficios de la sal rosada medicinal y la sal de uso culinario. Retorno al hotel en Cusco."
@@ -648,6 +660,10 @@
       },
       "4": {
         "packageTitle": "TURISMO CUSCO - 2025\nEXCURSIÓN SUPER VALLE",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "En este tour más extenso realizamos un paseo por todo lo mejor del Valle Sagrado de los Incas. 6:20 a 7:00 hrs Recojo del hotel. Nos dirigimos a Chincheros, pueblo ancestral de los Incas, donde vamos a apreciar la hacienda real del Inca Tupac Yupanqui, y la plaza y templo colonial. Seguimos a Moray para visitar el centro incaico de pesquisas agrícolas, con sus impresionantes andenes en forma circular. De allí a la antigua salinera de Maras, lugar visualmente único e ideal para practicar la fotografía. Bajando al hermoso Valle Sagrado, almorzamos en un restaurante estilo buffet en el pueblo de Urubamba. Bordeando el río del mismo nombre, llegamos a la antigua ciudadela de Ollantaytambo, con su imponente fortaleza y sus incomparables canales, grandes muros y templos, maravillosos ejemplos de la arquitectura de los Incas. Hacia el final del tour estaremos en Pisac, un complejo arquitectónico de enormes terrazas y templos de piedra de fino acabado, otra joya de la civilización incaica. En el mercado de Pisac podrá admirar lo mejor de la artesanía cusqueña. Retorno a su hotel en Cusco."
@@ -748,6 +764,10 @@
       },
       "5": {
         "packageTitle": "TURISMO CUSCO - 2025\nFD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Recojo de su hotel de 3:30 am a 4:00 am. Transporte de Cusco hasta Japura por 2h:30 minutos. Se desayuna en el poblado de Japura. Tendrán una breve práctica con los cuatrimotos en nuestra base para luego continuar en ellas hasta Qosqopata por 1h:30 minutos rodeado de paisajes increíbles rodeado de montañas y animales alto-andinos como son las llamas y alpacas. Desde Qosqopata hasta la montaña de colores, caminata de 35 minutos. Se realiza la visita y se da la explicación en la montaña de colores por tiempo promedio de 1 hora. Después de la visita a montaña de colores retorno por la misma ruta hasta Qosqopata para luego subiremos de nuevo a nuestros cuatrimotos hasta el poblado de Japura por un tiempo promedio de 1h:30 minutos. Llegado a nuestra base en el poblado de Japura nos espera nuestro delicioso almuerzo al promediar medio día. Después del almuerzo retornamos a Cusco, arribamos promedio a las 5 pm en la Plaza de Armas."
@@ -821,6 +841,10 @@
       },
       "6": {
         "packageTitle": "TURISMO CUSCO - 2025\nFULL DAY MACHU PICCHU",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/machu-picchu-tours.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Muy temprano por la mañana, los recogeremos de su hotel para trasladarlos a la estación de tren en Ollantaytambo. A la llegada, abordarán el tren con dirección al pueblo de Aguas Calientes, disfrutando de un paisaje espectacular durante el trayecto. Al llegar a Aguas Calientes, nuestro personal los asistirá para tomar el bus que los llevará hasta la ciudadela de Machu Picchu. Ingresaremos a la ciudadela con nuestro guía profesional, quien nos llevará por los principales puntos del complejo arqueológico durante aproximadamente 2 horas. Después del recorrido, tendrán tiempo libre para explorar por su cuenta o tomar algunas fotos. Más tarde, bajaremos en bus a Aguas Calientes para disfrutar del almuerzo (no incluido). A la hora indicada, abordaremos el tren de regreso a Ollantaytambo y luego nuestro transporte los llevará de regreso a la ciudad del Cusco."
@@ -892,6 +916,10 @@
       },
       "7": {
         "packageTitle": "TURISMO CUSCO - 2025\nLAGUNA HUMANTAY",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "04:00 hrs a 04:40 hrs Recojo del hotel e inicio del tour. Con el guía, continuará hasta llegar al poblado de Mollepata, donde disfrutará del desayuno. En el transcurso llegará hasta Soraypampa, donde tendrá un pequeño descanso y luego, continuará con la caminata a la Laguna Humantay a una altitud de 4250 m.s.n.m. Este ascenso tiene una duración de 1h30min aprox. Al llegar a la laguna Humantay, tendrá tiempo suficiente para apreciar la majestuosa naturaleza. También, se realizará una breve demostración del pago a la tierra a los Apus sagrados. A hora oportuna, retornará a Soraypampa y luego al poblado de Mollepata para disfrutar del almuerzo. 18:30 hrs o 19:00 hrs Retorno a la ciudad de Cusco y traslado a su hotel."
@@ -974,6 +1002,10 @@
       },
       "8": {
         "packageTitle": "TURISMO CUSCO - 2025\nTOUR MARAS MORAY",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "08:10 hrs a 08:50 hrs Recojo del hotel e inicio del tour. Visitará Maras, ubicado en la provincia de Urubamba, donde se encuentran las minas de sal más importantes de la región del Cusco. Fue el primer centro productor de sal de la parte meridional de la sierra. Luego, nos dirigiremos al formidable complejo arqueológico de Moray, conformado por admirables sistemas de enormes terrazas que se superponen concéntricamente, tomando la forma de un gigantesco anfiteatro. Estas hermosas terrazas conformaron un gran laboratorio agrícola donde los antiguos peruanos lograron un increíble avance en la agricultura. 15:00 hrs Retorno a su hotel en Cusco."
@@ -1069,6 +1101,10 @@
       },
       "9": {
         "packageTitle": "TURISMO CUSCO - 2025\nMONTAÑA PALCOYO",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "04:30 hrs Recojo del hotel. En dirección a la Montaña Arcoíris Palccoyo en un viaje de 3:30 hrs. El viaje es una alternativa menos visitada y menos exigente físicamente a la Montaña Arcoíris o Vinicunca. En nuestro recorrido se podrá apreciar alpacas nativas en paisajes montañosos hasta llegar al punto donde comenzaremos una caminata. Luego de 45 minutos de paso pausado, llegaremos a 5000 m de altitud, donde tendremos acceso a vistas privilegiadas de esta parte de la cordillera, con tres montañas de colores visibles desde el punto más alto. Luego, retornaremos a nuestro vehículo para trasladarnos por 1 hr hasta el puente Checacupe, puente colgante fabricado por los quechuas para favorecer la conexión del imperio Inca. Luego, podremos almorzar y tener un pequeño descanso. Regreso a Cusco."
@@ -1157,6 +1193,10 @@
       },
       "10": {
         "packageTitle": "TURISMO CUSCO - 2025\nPARQUE ARQUEOLÓGICO EN CIUDAD",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/parque-arqueologico-cusco.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Recojo del hotel. Visitará el Parque Arqueológico con sus cuatro centros importantes y que están aledaños de la ciudad del Cusco: Sacsayhuamán, famosa por sus enormes piedras labradas, Qenqo, centro de adoración al dios Puma, Puca Pucara, fortaleza roja debido al color de las piedras, y Tambomachay, sitio arqueológico destinado al culto al agua. Retorno a Cusco."
@@ -1258,6 +1298,10 @@
       },
       "11": {
         "packageTitle": "TURISMO CUSCO - 2025\nQ’ESWACHACA",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/ultimo-puente-inca.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Q’eswachaca es el último puente Inca en uso y es parte de la extensa red de caminos o Qhapac Ñan. Este puente ha sido reconocido por la UNESCO como “Patrimonio Cultural de la Humanidad”, y es el único que ha sobrevivido a tantas generaciones por más de 500 años. Se encuentra en un estado casi original gracias a la dedicación de las comunidades actoras: Huinchiri, Chaupibanda, Ccollana, Quehue y Chocayhua, las que haciendo gala de su cultura viva repiten técnicas y ceremonias de origen puramente andino, reproduciendo año a año este maravilloso evento, como una paradoja en el tiempo y mostrando la autenticidad de nuestra cultura. Durante tres días ellos renovarán anualmente el puente inca de Q'eswachaka, en los primeros días del mes de junio."
@@ -1345,6 +1389,10 @@
       },
       "12": {
         "packageTitle": "TURISMO CUSCO - 2025\nRAFTING EN CUSCO",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco-lake.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "08:50 hrs Salida del hotel en dirección al campamento “Cusipata River Lodge”. Disfrutará de duchas calientes, baños y sauna y confortable comedor. Nuestros guías profesionales le proporcionarán todo el equipo de rafting adecuado, y después de una charla exhaustiva sobre seguridad, nos dirigiremos hasta el poblado de Chuquicahuana. Ahí, comenzaremos con una clase en río de niveles II y III y en algunos tramos pueden ser más. Pasará unas dos horas flotando sobre el río sintiendo la adrenalina. Luego, terminaremos el rafting en CUSIPATA RIVER LODGE, donde se servirá un buen almuerzo caliente y se podrá disfrutar del sauna relajante. Y si desea también tenemos un ZIP LINE con 2 cables sobre el río Urubamba cada uno desde 100 mts (opcional). Regreso a la ciudad de Cusco por la tarde."
@@ -1423,6 +1471,10 @@
       },
       "13": {
         "packageTitle": "TURISMO CUSCO - 2025\nRUTA DEL SOL CUSCO - PUNO",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "07:00 hrs Salida en bus turístico desde el terminal terrestre con destino a la ciudad de Puno. En el trayecto visitará algunos atractivos; como la Capilla de Andahuaylillas conocida por la belleza de los murales que alberga en su interior, el complejo arqueológico de Raqchi conocido como el templo del Dios Wiracocha. Luego del recorrido, degustaremos de un delicioso almuerzo buffet. Seguido, visitaremos el punto más alto del camino en La Raya, la frontera entre las ciudades de Cusco y Puno. Finalmente, visitaremos el Museo Lítico de Pukara, en este museo podrá encontrar la famosa escultura del Hatunñaqac 'el supremo degollador'. 17:00 hrs Llegada a la estación de bus en Puno."
@@ -1499,6 +1551,10 @@
       },
       "14": {
         "packageTitle": "TURISMO CUSCO - 2025\nRUTA DEL SOL PUNO A CUSCO",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/raqchi-puno.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "07:00 hrs Check in de ticket de embarque en la estación terrestre. 07:20 hrs Salida con destino a la ciudad de Cusco, en este trayecto visitará algunos atractivos importantes como el Museo Lítico de Pukara, en donde encontrará cerámicas y esculturas representando figuras zoomórficas, entre ellas la famosa escultura del Hatunñaqac 'el supremo degollador'. Posteriormente, visitará el Paso de la Raya, la frontera entre las ciudades de Puno y Cusco, a más de 4335 msnm donde se encuentra el famoso nevado Chimboya, de donde nace el río Amazonas. Tendrá tiempo para la toma de fotografías, y luego un almuerzo buffet en Sicuani. La siguiente parada será el Complejo Arqueológico de Raqchi, conocido también como el Templo del dios Wiracocha, el cual fue la suprema deidad Inka. En este lugar encontraremos la mayor cantidad de Colcas (Graneros), también veremos magníficas edificaciones en piedra y adobe. Finalmente, llegará a la Capilla De Andahuaylillas, una iglesia que data del siglo XVII, conocida como La Sixtina de los Andes por la belleza de sus murales, los trabajos en pan de oro y las pinturas de la escuela cusqueña que alberga en su interior. 17:00 hrs Llegada a la estación de bus en Cusco."
@@ -1575,6 +1631,10 @@
       },
       "15": {
         "packageTitle": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp"
+        ],
         "itinerary": {
           "day1": {
             "description": "Comienza el día con el traslado al punto de inicio de la actividad en Sacred Valley, donde podrás disfrutar de la experiencia de la vía ferrata y tirolesa, acompañados de guías especializados. Durante la actividad se ofrecerá un box lunch con un delicioso sandwich caprese, chocolate sublime, mandarina y frutas deshidratadas."
@@ -1681,6 +1741,10 @@
       },
       "16": {
         "packageTitle": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE CON ALMUERZO Y RELAX EN CABINAS",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "Recojo del hotel y traslado hacia Skylodge.",
@@ -1755,6 +1819,10 @@
       },
       "17":{
         "packageTitle": "TURISMO CUSCO - 2025\nEXPERIENCIAS GASTRONÓMICAS\nTALLER DE CHOCOLATE + CITY TOUR PEATONAL",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "Recojo y traslado a la chocolatería.",
@@ -1839,6 +1907,10 @@
       },
       "18": {
         "packageTitle": "TURISMO CUSCO - 2025\nCITY TOUR CUSCO & PARQUE ARQUEOLÓGICO",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-iglesia-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "Hora coordinada",
@@ -1937,6 +2009,11 @@
       },
       "19": {
         "packageTitle": "TURISMO CUSCO - 2025\nFULL DAY VALLE SAGRADO, PISAC, OLLANTAYTAMBO & CHINCHEROS",
+
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-ollataytambo.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "07:30 hrs a 08:00 hrs",
@@ -2040,6 +2117,10 @@
       },
       "20": {
         "packageTitle": "TURISMO CUSCO - 2025\nVALLE SUR - ANDAHUAYLILLAS",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "08:00 hrs a 08:30 hrs",
@@ -2143,6 +2224,10 @@
       },
       "21": {
         "packageTitle": "TURISMO CUSCO - 2025\nVINICUNCA (MONTAÑA DE 7 COLORES)",
+        "images": [
+          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp"
+        ],
         "itinerary": {
           "day1": {
             "time": "04:20 hrs a 05:00 hrs",
@@ -2339,127 +2424,127 @@
         {
           "id": "1",
           "title": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
           "price": "0"
         },
         {
           "id": "2",
           "title": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MORADA DE LOS DIOSES",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
           "price": "0"
         },
         {
           "id": "3",
           "title": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MARAS & MORAY",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
           "price": "0"
         },
         {
           "id": "4",
           "title": "TURISMO CUSCO - 2025\nEXCURSIÓN SUPER VALLE",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
           "price": "0"
         },
         {
           "id": "5",
           "title": "TURISMO CUSCO - 2025\nFD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
           "price": "0"
         },
         {
           "id": "6",
           "title": "TURISMO CUSCO - 2025\nFULL DAY MACHU PICCHU",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
           "price": "0"
         },
         {
           "id": "7",
           "title": "TURISMO CUSCO - 2025\nLAGUNA HUMANTAY",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
           "price": "0"
         },
         {
           "id": "8",
           "title": "TURISMO CUSCO - 2025\nTOUR MARAS MORAY",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
           "price": "0"
         },
         {
           "id": "9",
           "title": "TURISMO CUSCO - 2025\nMONTAÑA PALCOYO",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
           "price": "0"
         },
         {
           "id": "10",
           "title": "TURISMO CUSCO - 2025\nPARQUE ARQUEOLÓGICO EN CIUDAD",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
           "price": "0"
         },
         {
           "id": "11",
           "title": "TURISMO CUSCO - 2025\nQ’ESWACHACA",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
           "price": "0"
         },
         {
           "id": "12",
           "title": "TURISMO CUSCO - 2025\nRAFTING EN CUSCO",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
           "price": "0"
         },
         {
           "id": "13",
           "title": "TURISMO CUSCO - 2025\nRUTA DEL SOL CUSCO - PUNO",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
           "price": "0"
         },
         {
           "id": "14",
           "title": "TURISMO CUSCO - 2025\nRUTA DEL SOL PUNO A CUSCO",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
           "price": "0"
         },
         {
           "id": "15",
           "title": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
           "price": "0"
         },
         {
           "id": "16",
           "title": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE CON ALMUERZO Y RELAX EN CABINAS",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
           "price": "0"
         },
         {
           "id": "17",
           "title": "TURISMO CUSCO - 2025\nEXPERIENCIAS GASTRONÓMICAS\nTALLER DE CHOCOLATE + CITY TOUR PEATONAL",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
           "price": "0"
         },
         {
           "id": "18",
           "title": "TURISMO CUSCO - 2025\nCITY TOUR CUSCO & PARQUE ARQUEOLÓGICO",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
           "price": "0"
         },
         {
           "id": "19",
           "title": "TURISMO CUSCO - 2025\nFULL DAY VALLE SAGRADO, PISAC, OLLANTAYTAMBO & CHINCHEROS",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
           "price": "0"
         },
         {
           "id": "20",
           "title": "TURISMO CUSCO - 2025\nVALLE SUR - ANDAHUAYLILLAS",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
           "price": "0"
         },
         {
           "id": "21",
           "title": "TURISMO CUSCO - 2025 VINICUNCA (MONTAÑA DE 7 COLORES)",
-          "image": "assets/img/destinations/banner-destinations-peru.webp",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
           "price": "0"
         }
       ]

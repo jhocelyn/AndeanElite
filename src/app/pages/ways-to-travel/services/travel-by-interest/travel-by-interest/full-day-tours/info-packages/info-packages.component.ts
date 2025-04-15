@@ -36,6 +36,7 @@ interface PaymentMethods {
 
 interface PackageData {
   packageTitle: string;
+  images: string[];
   itinerary: { [key: string]: ItineraryDay };  // Esto es un objeto con claves dinámicas y valores de tipo ItineraryDay
   duration: string;
   departure: string;
