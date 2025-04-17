@@ -11,7 +11,7 @@
       {{ 'ANDEANELITE.DESCRIPTION' | translate }}
     </p>
     <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
-      <span class="text-[#FFFFFF] text-[25px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
+      <span class="text-[#FFFFFF] text-[25px] xl:text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
         <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
           {{ 'BUTTON.READ_MORE' | translate }}
         </span>
@@ -23,8 +23,8 @@
   </div>
 </div>
 <!--Why ANDEANELITE Seccion-->
-<div class="flex items-center justify-center flex-col bg-[#034873] text-[#FFFFFF] gap-10 md:gap-20 h-[230vh] xl:h-[100vh] ">
-  <div class="mt-10 md:mt-0">
+<div class="flex items-center text-justify justify-center flex-col bg-[#034873] text-[#FFFFFF] gap-10 md:gap-20 h-[230vh] xl:h-[80vh] ">
+  <div class="mt-10 xl:mt-2">
     <h1 class="text-center text-4xl xl:text-[50px]">{{ 'WHYANDEANELITE.TITLE' | translate}}</h1>
   </div>
   <div class="flex flex-col md:grid md:grid-cols-3 gap-20 md:p-0">
@@ -93,7 +93,7 @@
 <!--TRAVEL with ANDEANELITE Seccion-->
 <div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col h-[70vh] items-center justify-center w-full p-4 ">
   <h1 class="text-center w-full text-[20px] xl:text-[45px] font-extralight text-[#034873] mb-8">{{ 'TRAVELWITH.TITLE' | translate}}</h1>
-  <div class="flex flex-col text-center gap-5 text-[15px] font-normal xl:w-[160vh] text-[#4D6270] mb-5">
+  <div class="flex flex-col text-center gap-5 text-[15px] xl:text-[17px] font-normal xl:w-[160vh] text-[#4D6270] mb-5">
     <p class="">{{ 'TRAVELWITH.1' | translate}}</p>
     <p class="">{{ 'TRAVELWITH.2' | translate}}</p>
     <p class="">{{ 'TRAVELWITH.3' | translate}}</p>
@@ -111,13 +111,13 @@
 
 </div>
 <!--Discover Seccion-->
-<div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#0F2D40] p-6">
+<div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#0F2D40] ">
   <!-- Título -->
   <div class="text-2xl sm:text-4xl font-extralight text-white mb-6 text-center">
     {{ galleryTitle }}
   </div>
 
-  <div class="w-full max-w-[350px] sm:max-w-[1000px]">
+  <div class=" max-w-[350px] xl:max-w-[1200px]">
     <!-- Galería -->
     <app-gallery
       [title]="galleryTitle"
@@ -137,14 +137,14 @@
   </button>
 </div>
 <!--Customers Seccion-->
-<div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] p-6">
+<div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] ">
   <!-- Título -->
   <div class="text-2xl sm:text-4xl font-extralight text-[#034873] text-center mb-6">
     {{ galleryTitle1 }}
   </div>
 
   <!-- Galería -->
-  <div class="w-full max-w-[350px] sm:max-w-[1000px]">
+  <div class=" max-w-[350px] xl:max-w-[1200px]">
     <app-gallery
       [title]="galleryTitle1"
       [images]="galleryImages1">
@@ -165,8 +165,8 @@
 </div>
 <!--Contact us Seccion-->
 <div class="flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
-  <div class="hidden xl:block w-[30vh]">
-    <img class="w-full" src="/assets/img/contact.webp" alt="a">
+  <div class="hidden xl:block h-[50vh] w-[30vh]">
+    <img class="h-full object-cover" src="/assets/img/ways-to-travel/ways-to-travel.webp" alt="a">
   </div>
   <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col col-span-3 gap-6 p-4 ">
     <h1 class="text-[30px] font-extralight text-[#034873]">{{ 'CONTACTUS.TITLE' | translate }}</h1>

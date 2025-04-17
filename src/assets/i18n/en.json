@@ -40,7 +40,7 @@
   },
   "WHYANDEANELITE": {
     "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
-    "1":{ "TITLE":"Unique Travel Experiences in Peru","DESCRIPTION": "We create customized trips in Peru, from Machu Picchu to Lake Titicaca, combining adventure, culture and luxury." },
+    "1":{ "TITLE":"Unique Travel","DESCRIPTION": "We create customized trips in Peru, from Machu Picchu to Lake Titicaca, combining adventure, culture and luxury." },
     "2": { "TITLE":"Luxury in Every Detail","DESCRIPTION": "Enjoy boutique hotels, luxury trains, and private transport for a seamless and sophisticated journey." },
     "3": { "TITLE":"Attention 24/7","DESCRIPTION": "Our team is available to solve any unforeseen event and guarantee your peace of mind." },
     "4": { "TITLE":"Cultural Connection","DESCRIPTION": "Experience the Peruvian heritage with guided tours to Machu Picchu and the Sacred Valley, with attention to every detail." },
@@ -167,10 +167,24 @@
       "DESCRIPTION": "In Andean Elite, we are committed to promoting responsible and sustainable tourism. We work in collaboration with local communities to ensure that our trips have a positive impact on the environment and the culture of the places we visit. We believe that travel should be an enriching experience for both travelers and the communities they visit."
     }
   },
+  "GENERAL": {
+    "YES": "Yes",
+    "NO": "No"
+  },
   "CONTACT-US": {
     "TITLE": "Contact us",
-    "AGENCY": "Are you agency travel?",
-    "BUTTON": "Send Message"
+    "AGENCY_QUESTION": "Are you agency travel?",
+    "BUTTON": "Send Message",
+    "NAME_LABEL": "First And Last Name",
+    "PHONE_PLACEHOLDER": "Phone",
+    "EMAIL_PLACEHOLDER": "Email",
+    "HOTEL_CATEGORY": "Hotel Category",
+    "3STARS": "3 Stars",
+    "4STARS": "4 Stars",
+    "5STARS": "5 Stars",
+    "DESTINATION": "Destination",
+    "MESSAGE": "Write your message",
+    "SEND_MESSAGE": "Send Message"
   },
   "DESTINATIONS": {
   "TITLE": "Destinations",

@@ -185,10 +185,24 @@
       "DESCRIPTION": "En Andean Elite, nos comprometemos a promover un turismo responsable y sostenible. Trabajamos en colaboración con comunidades locales y respetamos el medio ambiente, asegurando que nuestras actividades beneficien tanto a los viajeros como a las comunidades que visitamos."
     }
   },
+  "GENERAL": {
+    "YES": "Sí",
+    "NO": "No"
+  },
   "CONTACT-US": {
     "TITLE": "Contáctenos",
-    "AGENCY": "¿Representa una agencia de viajes?",
-    "BUTTON": "Enviar Mensaje"
+    "AGENCY_QUESTION": "¿Representa una agencia de viajes?",
+    "BUTTON": "Enviar Mensaje",
+    "NAME_LABEL": "Nombre y Apellidos",
+    "PHONE_PLACEHOLDER": "Teléfono",
+    "EMAIL_PLACEHOLDER": "Correo",
+    "HOTEL_CATEGORY": "Categoria de Hotel",
+    "3STARS": "3 estrellas",
+    "4STARS": "4 estrellas",
+    "5STARS": "5 estrellas",
+    "DESTINATION": "Destinos",
+    "MESSAGE": "Escribe tu mensaje",
+    "SEND_MESSAGE": "Envia tu mensaje"
   },
   "DESTINATIONS": {
     "TITLE": "Destinos",

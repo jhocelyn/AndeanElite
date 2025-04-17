@@ -1,8 +1,8 @@
 <nav [class]="navbarClasses" class="fixed top-0 left-0 w-full transition-all duration-500 flex items-center justify-between px-6 py-4 z-50 bg-[#042A4E]">
   <div class="flex items-center w-full justify-between">
     <!-- Logo -->
-    <div [routerLink]="['/home']" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center animate-slideDown">
-      <img src="assets/img/logo_oficial.png" alt="Logo" class="h-10 w-auto">
+    <div [routerLink]="['/home']" (click)="closeAllMenus()" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center animate-slideDown">
+      <img src="assets/img/logo_oficial.png" alt="Logo" class="h-14 w-auto">
     </div>
 
     <!-- Menú Hamburguesa (móvil) -->
@@ -13,12 +13,12 @@
     <!-- Menú principal (desktop) -->
     <ul class="hidden md:flex flex-row text-white w-auto items-center gap-10 text-[17px]">
       <li class="nav-item relative inline-block transition-colors duration-500 animate-slideDown">
-        <span [routerLink]="['/home']" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+        <span [routerLink]="['/home']"  (click)="closeAllMenus()" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
           {{ 'NAVBAR.HOME' | translate }}
         </span>
       </li>
       <li class="nav-item relative inline-block transition-colors duration-500 animate-slideDown">
-        <span [routerLink]="['/destinations']" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+        <span [routerLink]="['/destinations']" (click)="closeAllMenus()" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
           {{ 'NAVBAR.DESTINATIONS' | translate }}
         </span>
       </li>
@@ -45,64 +45,64 @@
           </div>
           <div class="w-full">
             <div *ngIf="isStyleOpen">
-              <div [routerLink]="['/ways-to-travel/styles']"  class="text-2xl font-semibold px-4 py-2">
+              <div [routerLink]="['/ways-to-travel/styles']" (click)="closeAllMenus()"  class="text-2xl font-semibold px-4 py-2">
                 {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
               </div>
               <div class="">
-                <a [routerLink]="['/ways-to-travel/styles/premium']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/premium']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.PREMIUM' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles/deluxe']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/deluxe']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.DELUXE' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles/comfort']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/comfort']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.COMFORT' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles/super-deals']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/super-deals']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.SUPERDEALS' | translate }}
                 </a>
-                <a [routerLink]="['/ways-to-travel/styles/price-sale']" class="block px-4 py-2 hover:bg-gray-100">
+                <a [routerLink]="['/ways-to-travel/styles/price-sale']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                   {{ 'NAVBAR.WAYS.STYLES.PRICESALE' | translate }}
                 </a>
               </div>
             </div>
             <div *ngIf="!isStyleOpen" class="w-full">
-              <div [routerLink]="['/ways-to-travel/travel-by-interest']"  class="text-2xl font-semibold px-4 py-2">
+              <div [routerLink]="['/ways-to-travel/travel-by-interest']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">
                 {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}
               </div>
               <div class="flex flex-row justify-between w-full">
                 <div>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/circuits']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/circuits']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.CIRCUITS' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/extensions']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/extensions']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.EXTENSIONS' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/trekking']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/trekking']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.TREKKING' | translate }}
                   </a>
                   <a [routerLink]="['/ways-to-travel/travel-by-interest/full-day-tours' +
-                   '']" class="block px-4 py-2 hover:bg-gray-100">
+                   '']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.FULLDAY' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/family']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/family']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.FAMILY' | translate }}
                   </a>
                 </div>
                 <div>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/taylor-made']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/taylor-made']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.TAYLOR' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/cruise']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/cruise']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.CRUISE' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/mice']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/mice']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     MICE
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/homestays']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/homestays']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.HOMESTAYS' | translate }}
                   </a>
-                  <a [routerLink]="['/ways-to-travel/travel-by-interest/corporate-travel']" class="block px-4 py-2 hover:bg-gray-100">
+                  <a [routerLink]="['/ways-to-travel/travel-by-interest/corporate-travel']" (click)="closeAllMenus()" class="block px-4 py-2 hover:bg-gray-100">
                     {{ 'NAVBAR.WAYS.TRAVEL.CORPORATE' | translate }}
                   </a>
                 </div>
@@ -113,7 +113,7 @@
       </li>
       <li class="nav-item relative">
         <!-- Botón para abrir el submenú -->
-        <span (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+        <span (click)="toggleAboutUsMenu()"  class="cursor-pointer relative flex items-center after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
           {{ 'NAVBAR.ABOUT_US.TITLE' | translate }}
           <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform"
              [ngClass]="{ 'rotate-180': isMenuAboutUsOpen }"></i>
@@ -125,20 +125,20 @@
           *ngIf="isMenuAboutUsOpen"
         >
           <div class="w-full font-semibold">
-            <a [routerLink]="'/about-us'" [fragment]="'our-team'" class="flex p-5 hover:bg-gray-100">
+            <a [routerLink]="'/about-us'" (click)="closeAllMenus()" [fragment]="'our-team'" class="flex p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.OURTEAM' | translate }}</span>
             </a>
-            <a [routerLink]="'/about-us'" [fragment]="'license'" class="flex p-5 hover:bg-gray-100">
+            <a [routerLink]="'/about-us'" (click)="closeAllMenus()" [fragment]="'license'" class="flex p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.LICENSE' | translate }}</span>
             </a>
-            <a [routerLink]="'/about-us'" [fragment]="'responsible'" class="flex p-5 hover:bg-gray-100">
+            <a [routerLink]="'/about-us'" (click)="closeAllMenus()" [fragment]="'responsible'" class="flex p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.RESPONSIBLE' | translate }}</span>
             </a>
           </div>
         </div>
       </li>
       <li class="nav-item relative inline-block transition-colors duration-500 animate-slideDown">
-        <span [routerLink]="['/contact-us']" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+        <span [routerLink]="['/contact-us']" (click)="closeAllMenus()" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
           {{ 'NAVBAR.CONTACT_US' | translate }}
         </span>
       </li>

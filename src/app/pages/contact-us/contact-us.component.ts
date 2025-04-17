@@ -2,15 +2,17 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import {PhoneCodeSelectorComponent} from '../../shared/components/general/phone-code-selector/phone-code-selector.component';
 import {BannerComponent} from "../../shared/components/general/banner/banner.component";
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact-us',
   standalone: true,
-    imports: [
-        ReactiveFormsModule,
-        PhoneCodeSelectorComponent,
-        BannerComponent
-    ],
+  imports: [
+    ReactiveFormsModule,
+    PhoneCodeSelectorComponent,
+    BannerComponent,
+    TranslatePipe
+  ],
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.css']
 })

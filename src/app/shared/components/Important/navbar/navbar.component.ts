@@ -98,6 +98,8 @@ export class NavbarComponent implements OnInit{
     this.isMenuOpen = false;
     this.activeSubMenu = null;
     this.activeSubSubMenu = null;
+    this.isMenuAboutUsOpen=false;
+    this.isWaysToTravelOpen=false
   }
 
   openSubSubMenu(menu: string) {

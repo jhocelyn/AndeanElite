@@ -1,25 +1,27 @@
-<footer class="bg-[#042A4E] text-white py-10 px-6 h-[100vh] md:h-[50vh]">
-  <div class="container grid grid-cols-1 md:grid-cols-4 gap-4 items-center justify-center">
+<footer class="bg-[#042A4E] text-white text-justify py-10 px-6 h-[100vh] md:h-[50vh]">
+  <div class="container grid grid-cols-1 md:grid-cols-4 gap-8">
     <!-- Logo e Información de Derechos -->
-    <div class="col-span-1">
+    <div class="flex flex-col justify-center items-center md:items-start col-span-1">
       <img src="assets/img/logo_oficial.png" alt="image">
-      <p class="text-sm">
-        {{ 'FOOTER.DESCRIPTION' | translate }}
-      </p>
-      <p class="text-sm text-red-500 mt-2">
-        {{ 'FOOTER.MARCA' | translate }}
-      </p>
+      <div>
+        <p class="text-sm">
+          {{ 'FOOTER.DESCRIPTION' | translate }}
+        </p>
+        <p class="text-sm  mt-2">
+          {{ 'FOOTER.MARCA' | translate }}
+        </p>
+      </div>
     </div>
 
     <!-- Contacto -->
-    <div class="col-span-1">
+    <div class="flex flex-col ml-0 md:ml-10">
       <h3 class="text-lg font-semibold mb-4">{{ 'FOOTER.CONTACTO' | translate }}</h3>
       <ul class="text-sm space-y-2">
         <li>
           <span class="inline-block">📞</span> +51 950 194 035
         </li>
         <li>
-          <span class="inline-block">📍</span> Surco, Lima, Perú<br> RUC:
+          <span class="inline-block">📍</span> Surco, Lima, Perú
         </li>
         <li>
           ✉️ <a href="mailto:sales@andeanelite.com" class="underline">sales&commat;andeanelite.com</a>
@@ -28,7 +30,7 @@
     </div>
 
     <!-- Información adicional -->
-    <div class="col-span-1">
+    <div class="flex flex-col  col-span-1">
       <h3 class="text-lg font-semibold mb-4">Andean Elite</h3>
       <ul class="text-sm space-y-2">
         <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.PROTECTION' | translate }}</a></li>
