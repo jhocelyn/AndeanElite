@@ -1,0 +1,145 @@
+<app-banner
+  [backgroundImage]="'BOOK_CLAIMS.IMAGE'"
+  [title]="'BOOK_CLAIMS.TITLE'"
+>
+</app-banner>
+<form [formGroup]="reclamationForm" (ngSubmit)="onSubmit()" class="max-w-4xl mx-auto p-6 bg-white shadow rounded-lg space-y-8">
+
+  <!-- Datos del Proveedor -->
+  <div >
+    <h2 class="text-xl font-semibold mb-4 border-b pb-2">{{'BOOK_CLAIMS.PROVIDER.TITLE'|translate}}</h2>
+    <div formGroupName="provider" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.NAME'|translate}}</label>
+        <input type="text" formControlName="name" class="input border-black">
+      </div>
+      <div>
+        <label class="block font-medium">RUC</label>
+        <input type="text" formControlName="ruc" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.DIRECTION'|translate}}</label>
+        <input type="text" formControlName="address" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.PHONE'|translate}}</label>
+        <input type="text" formControlName="phone" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.EMAIL'|translate}}</label>
+        <input type="email" formControlName="email" class="input">
+      </div>
+    </div>
+  </div>
+
+  <!-- Datos del Consumidor -->
+  <div>
+    <h2 class="text-xl font-semibold mb-4 border-b pb-2">{{'BOOK_CLAIMS.CUSTOMER.TITLE'|translate}}</h2>
+    <div formGroupName="consumer" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.NAME'|translate}}</label>
+        <input type="text" formControlName="name" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">DNI</label>
+        <input type="text" formControlName="dni" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.DIRECTION'|translate}}</label>
+        <input type="text" formControlName="address" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.PHONE'|translate}}</label>
+        <input type="text" formControlName="phone" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.EMAIL'|translate}}</label>
+        <input type="email" formControlName="email" class="input">
+      </div>
+    </div>
+  </div>
+
+  <!-- Menor de Edad -->
+  <div>
+    <h2 class="text-xl font-semibold mb-4 border-b pb-2">{{'BOOK_CLAIMS.MINOR.TITLE'|translate}}</h2>
+    <div class="mb-4">
+      <label class="inline-flex items-center gap-2">
+        <input type="checkbox" formControlName="isMinor" class="h-4 w-4">
+        <span class="text-sm">{{'BOOK_CLAIMS.MINOR.YES'|translate}}</span>
+      </label>
+    </div>
+
+    <div *ngIf="reclamationForm.get('isMinor')?.value" formGroupName="minor" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.MINOR.NAME'|translate}}</label>
+        <input type="text" formControlName="name" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.MINOR.PARENT_ID'|translate}}</label>
+        <input type="text" formControlName="dni" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.MINOR.PHONE'|translate}}</label>
+        <input type="number" formControlName="phone" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.MINOR.EMAIL'|translate}}</label>
+        <input type="text" formControlName="email" class="input">
+      </div>
+    </div>
+  </div>
+
+  <!-- Tipo de Reclamo -->
+  <div>
+    <h2 class="text-xl font-semibold mb-4 border-b pb-2">{{'BOOK_CLAIMS.TYPE.TITLE'|translate}}</h2>
+    <div class="space-y-2">
+      <label class="block font-medium">{{'BOOK_CLAIMS.TYPE.SELECT_ONE'|translate}}</label>
+      <select formControlName="claimType" class="input">
+        <option value="">{{'BOOK_CLAIMS.TYPE.SELECT'|translate}}</option>
+        <option value="reclamo">{{'BOOK_CLAIMS.TYPE.CLAIM'|translate}}</option>
+        <option value="queja">{{'BOOK_CLAIMS.TYPE.REPORT'|translate}}</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Producto o Servicio -->
+  <div formGroupName="product">
+    <h2 class="text-xl font-semibold mb-4 border-b pb-2">{{'BOOK_CLAIMS.PRODUCT.TITLE'|translate}}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.PRODUCT.NAME'|translate}}</label>
+        <input type="text" formControlName="name" class="input">
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.PRODUCT.PRICE'|translate}}</label>
+        <input type="text" formControlName="amountClaimed" class="input">
+      </div>
+      <div class="md:col-span-2">
+        <label class="block font-medium">{{'BOOK_CLAIMS.PRODUCT.DESCRIPTION'|translate}}</label>
+        <textarea formControlName="description" class="input h-24"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detalles del Reclamo -->
+  <div formGroupName="details">
+    <h2 class="text-xl font-semibold mb-4 border-b pb-2">{{'BOOK_CLAIMS.DETAILS.TITLE'|translate}}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.DETAILS.DESCRIPTION'|translate}}</label>
+        <textarea formControlName="claimDescription" class="input h-24"></textarea>
+      </div>
+      <div>
+        <label class="block font-medium">{{'BOOK_CLAIMS.DETAILS.REASON'|translate}}</label>
+        <textarea formControlName="requestedAction" class="input h-24"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón de Enviar -->
+  <div class="text-right">
+    <button  type="submit" class="bg-blue-950 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Enviar Reclamo
+    </button>
+  </div>
+</form>

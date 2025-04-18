@@ -127,7 +127,8 @@
       "PROTECTION": "Personal Data Protection Policy",
       "POLICY": "Policy ESNNA",
       "TERMS": "Terms and Conditions",
-      "CERTIFICATES": "Certificate ESNNA"
+      "CERTIFICATES": "Certificate ESNNA",
+      "BOOK_CLAIMS": "Book of Claims"
     }
   },
   "ABOUT-US": {
@@ -195,7 +196,6 @@
   "NAZCA": "NAZCA",
   "PUERTO_MALDONADO": "PUERTO MALDONADO"
 },
-
   "PACKAGES":{
     "DESTINOS":{"AREQUIPA": [
       {
@@ -2868,6 +2868,53 @@
         }
       }
     }
+  },
+  "BOOK_CLAIMS": {
+    "TITLE": "Book of Claims",
+    "IMAGE": "assets/img/general/customer-support.webp",
+    "DESCRIPTION": "According to the Consumer Protection Code, all consumers have the right to file a complaint or claim when they are not satisfied with a product or service. This is a way to express dissatisfaction and seek a solution.",
+    "PROVIDER": {
+      "TITLE": "Provider Data",
+      "NAME": "Name / Company Name",
+      "EMAIL": "Email",
+      "DIRECTION": "Adress",
+      "PHONE": "Phone"
+    },
+    "CUSTOMER": {
+      "TITLE": "Customer Data",
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "DIRECTION": "Adress"
+    },
+    "MINOR": {
+      "TITLE": "Are you minor?",
+      "YES": "Yes, I am minor",
+      "NAME": "First and Last Name of father, mother or guardian",
+      "PHONE": "Phone of father, mother or guardian",
+      "EMAIL": "Email of father, mother or guardian",
+      "PARENT_ID": "DNI of father, mother or guardian"
+    },
+    "TYPE": {
+      "TITLE": "Type of Claim",
+      "SELECT": "Select...",
+      "SELECT_ONE": "Select an option",
+      "CLAIM": "Claim(Disconformity with the product or service)",
+      "REPORT": "Report(Disconformity with assistance)"
+    },
+    "PRODUCT": {
+      "TITLE": "Product or Service",
+      "NAME": "Name of the product or service",
+      "DESCRIPTION": "Description of the product or service",
+      "PRICE": "Price of the product or service"
+    },
+    "DETAILS": {
+      "TITLE": "Details of Claim / Report",
+      "DESCRIPTION": "Description",
+      "REASON": "Reason"
+    }
   }
+
+
 }
 

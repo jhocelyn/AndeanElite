@@ -80,7 +80,7 @@
       "TITLE": "Descubre",
       "IMAGES": [
         {
-          "url": "assets/img/arequipa1.webp",
+          "url": "assets/img/general/arequipa1.webp",
           "title": "Arequipa Majestuosa",
           "description": "Arequipa es la capital de la época colonial de la región de Arequipa en Perú. La rodean 3 volcanes y cuenta con edificios barrocos construidos de sillar, una piedra volcánica blanca."
         },
@@ -144,8 +144,9 @@
     "POLICY": {
       "PROTECTION": "Política de Protección de Datos Personales",
       "POLICY": "Política ESNNA",
-      "TERMS": "Terms and Conditions",
-      "CERTIFICATES": "Certificado ESNNA"
+      "TERMS": "Terminos y Condiciones",
+      "CERTIFICATES": "Certificado ESNNA",
+      "BOOK_CLAIMS": "Libro de Reclamaciones"
     }
   },
   "ABOUT-US": {
@@ -2884,6 +2885,51 @@
           "price":"0"
         }
       }
+    }
+  },
+  "BOOK_CLAIMS": {
+    "TITLE": "Libro de Reclamaciones",
+    "IMAGE": "assets/img/general/customer-support.webp",
+    "DESCRIPTION": "Conforme a la Ley N° 29571, Ley de Protección y Defensa del Consumidor, el libro de reclamaciones es un documento que permite a los consumidores presentar sus quejas o reclamos sobre productos o servicios. El libro de reclamaciones es gratuito y debe estar disponible en todos los establecimientos comerciales.",
+    "PROVIDER": {
+      "TITLE": "Datos del Proveedor",
+      "NAME": "Nombre/Razon Social",
+      "EMAIL": "Correo Electrónico",
+      "DIRECTION": "Direccion",
+      "PHONE": "Telefono"
+    },
+    "CUSTOMER": {
+      "TITLE": "Datos del Consumidor",
+      "NAME": "Nombre",
+      "EMAIL": "Correo Electrónico",
+      "PHONE": "Telefono",
+      "DIRECTION": "Direccion"
+    },
+    "MINOR": {
+      "TITLE": "¿Es menor de edad?",
+      "YES": "Si, es menor de edad",
+      "NAME": "Nombre y Apellidos del padre, madre o apoderado",
+      "PHONE": "Telefono del padre, madre o apoderado",
+      "EMAIL": "Email del padre, madre o apoderado",
+      "PARENT_ID": "DNI del padre, madre o apoderado"
+    },
+    "TYPE": {
+      "TITLE": "Tipo de Reclamo",
+      "SELECT": "Seleccione",
+      "SELECT_ONE": "Seleccione una opción",
+      "CLAIM": "Reclamo(Disconformidad con producto o servicio)",
+      "REPORT": "Queja(Disconformidad con la atención)"
+    },
+    "PRODUCT": {
+      "TITLE": "Producto o servicio",
+      "NAME": "Nombre del producto o servicio",
+      "DESCRIPTION": "Descripción del producto o servicio",
+      "PRICE": "Precio del producto o servicio"
+    },
+    "DETAILS": {
+      "TITLE": "Detalle del Reclamo / Queja",
+      "DESCRIPTION": "Descripcion",
+      "REASON": "Pedido del consumidor"
     }
   }
 }
