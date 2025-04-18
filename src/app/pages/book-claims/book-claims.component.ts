@@ -45,7 +45,6 @@ export class BookClaimsComponent implements OnInit{
         phone: [''],
       }),
       claimType: ['', Validators.required],
-      claimDetail: ['', Validators.required],
       product: this.fb.group({
         name: ['', Validators.required],
         amountClaimed: ['', [Validators.required, Validators.pattern(/^\d+(\.\d{1,2})?$/)]],
@@ -77,18 +76,63 @@ export class BookClaimsComponent implements OnInit{
 
       minorGroup.get('name')?.updateValueAndValidity();
       minorGroup.get('dni')?.updateValueAndValidity();
-      minorGroup.get('age')?.updateValueAndValidity();
-    });
+      minorGroup.get('email')?.updateValueAndValidity();
+      minorGroup.get('phone')?.updateValueAndValidity();});
   }
 
   onSubmit(): void {
     if (this.reclamationForm.invalid) {
       this.reclamationForm.markAllAsTouched();
       console.log('Formulario no valido:', this.reclamationForm.value);
+      console.log('Campos inválidos:', this.findInvalidControls(this.reclamationForm));
       return;
     }
+    if (this.reclamationForm.valid) {
+      const formData = this.reclamationForm.value;
+      console.log('Formulario enviado:', formData);
 
-    console.log('Formulario enviado:', this.reclamationForm.value);
-    // Aquí puedes enviar los datos a tu servicio o API
+      // Cambia esta URL por la de tu Apps Script o API
+      const url = 'https://script.google.com/macros/s/AKfycbxeEXsAnWmOoLstshyZqbJ9_W-SpGUtawlXOzElGvjxUNmRs31U_MOPsQ4na4eAQLiX/exec';
+
+      // Configurar los encabezados de la solicitud
+      const headers = {
+        'Content-Type': 'text/plain;charset=utf-8'
+      };
+
+      // Usamos fetch para enviar la solicitud POST
+      fetch(url, {
+        redirect:'follow',
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(formData) // Convertir formData a JSON
+      })
+        .then((response) => response.json()) // Parsear la respuesta
+        .then((data) => {
+          console.log('Datos enviados correctamente:', data);
+          alert('Formulario enviado correctamente.');
+          this.reclamationForm.reset();
+        })
+        .catch((error) => {
+          console.error('Error al enviar los datos:', error);
+          alert('Ocurrió un error al enviar el formulario.');
+        });
+    } else {
+      alert('Por favor completa todos los campos requeridos.');
+    }
   }
+  private findInvalidControls(formGroup: FormGroup, path: string = ''): string[] {
+    let invalids: string[] = [];
+    Object.keys(formGroup.controls).forEach(key => {
+      const control = formGroup.get(key);
+      const currentPath = path ? `${path}.${key}` : key;
+
+      if (control instanceof FormGroup) {
+        invalids = [...invalids, ...this.findInvalidControls(control, currentPath)];
+      } else if (control && control.invalid) {
+        invalids.push(currentPath);
+      }
+    });
+    return invalids;
+  }
+
 }
