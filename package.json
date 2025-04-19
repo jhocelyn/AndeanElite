@@ -28,6 +28,7 @@
     "aos": "^2.3.4",
     "express": "^4.18.2",
     "ng-lazyload-image": "^9.1.3",
+    "ngx-captcha": "^13.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"

@@ -1,7 +1,7 @@
-<nav [class]="navbarClasses" class="fixed top-0 left-0 w-full transition-all duration-500 flex items-center justify-between px-6 py-4 z-50 bg-[#042A4E]">
+<nav  class=" w-full  flex items-center justify-between px-6 py-4 z-50 bg-[#042A4E] text-white shadow-md">
   <div class="flex items-center w-full justify-between">
     <!-- Logo -->
-    <div [routerLink]="['/home']" (click)="closeAllMenus()" class="logo flex text-white font-bold text-lg transition-opacity duration-500 items-center animate-slideDown">
+    <div [routerLink]="['/home']" (click)="closeAllMenus()" class="logo flex text-white font-bold text-lg items-center ">
       <img src="assets/img/logo_oficial.png" alt="Logo" class="h-14 w-auto">
     </div>
 
@@ -11,7 +11,7 @@
     </div>
 
     <!-- Menú principal (desktop) -->
-    <ul class="hidden md:flex flex-row text-white w-auto items-center gap-10 text-[17px]">
+    <ul class="md:flex flex-row text-white w-auto items-center gap-10 text-[17px]">
       <li class="nav-item relative inline-block transition-colors duration-500 animate-slideDown">
         <span [routerLink]="['/home']"  (click)="closeAllMenus()" class="relative cursor-pointer after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">
           {{ 'NAVBAR.HOME' | translate }}

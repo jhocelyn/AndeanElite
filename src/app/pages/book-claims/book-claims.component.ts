@@ -1,8 +1,9 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Inject, OnInit, PLATFORM_ID} from '@angular/core';
 import {TranslatePipe} from '@ngx-translate/core';
 import {BannerComponent} from '../../shared/components/general/banner/banner.component';
-import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {NgIf} from '@angular/common';
+import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
+import {isPlatformBrowser, NgIf} from '@angular/common';
+import {NgxCaptchaModule} from 'ngx-captcha';
 
 @Component({
   selector: 'app-book-claims',
@@ -11,30 +12,38 @@ import {NgIf} from '@angular/common';
     TranslatePipe,
     BannerComponent,
     ReactiveFormsModule,
-    NgIf
+    NgIf,
+    FormsModule,
+    NgxCaptchaModule
   ],
   templateUrl: './book-claims.component.html',
   styleUrl: './book-claims.component.css'
 })
 export class BookClaimsComponent implements OnInit{
   reclamationForm!: FormGroup;
+  isBrowser = false;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, @Inject(PLATFORM_ID) private platformId: Object) {
+    this.isBrowser = isPlatformBrowser(platformId);
 
+  }
+  site_key:string='6LdRCh4rAAAAANhdQqrPuYoSXDcdED9Y9GQwtlmo'
   ngOnInit(): void {
+
+
     this.reclamationForm = this.fb.group({
       provider: this.fb.group({
         name: ['', Validators.required],
         ruc: ['', [Validators.required, Validators.pattern(/^\d{11}$/)]],
         address: ['', Validators.required],
-        phone: ['', [Validators.required, Validators.pattern(/^\d{7,9}$/)]],
+        phone: ['', [Validators.required, Validators.pattern(/^\d{7,11}$/)]],
         email: ['', [Validators.required, Validators.email]]
       }),
       consumer: this.fb.group({
         name: ['', Validators.required],
         dni: ['', [Validators.required, Validators.pattern(/^\d{8}$/)]],
         address: ['', Validators.required],
-        phone: ['', [Validators.required, Validators.pattern(/^\d{7,9}$/)]],
+        phone: ['', [Validators.required, Validators.pattern(/^\d{7,11}$/)]],
         email: ['', [Validators.required, Validators.email]]
       }),
       isMinor: [false],
@@ -53,11 +62,16 @@ export class BookClaimsComponent implements OnInit{
       details: this.fb.group({
         claimDescription: ['', Validators.required],
         requestedAction: ['', Validators.required]
-      })
+      }),
+      terms: [false, Validators.requiredTrue],
+      recaptcha: ['', Validators.required],
     });
 
     this.handleMinorFieldValidation();
   }
+
+
+
 
   private handleMinorFieldValidation(): void {
     this.reclamationForm.get('isMinor')?.valueChanges.subscribe((isMinor: boolean) => {
