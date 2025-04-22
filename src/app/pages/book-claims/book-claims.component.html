@@ -13,35 +13,35 @@
         <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.NAME'|translate}}</label>
         <input type="text" formControlName="name" class="input border-black">
         <div *ngIf="reclamationForm.get('provider.name')?.touched && reclamationForm.get('provider.name')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido.
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">RUC</label>
         <input type="text" formControlName="ruc" class="input">
         <div *ngIf="reclamationForm.get('provider.ruc')?.touched && reclamationForm.get('provider.ruc')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido y debe ser de 11 números.
+          {{'REQUIRED.RUC'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.DIRECTION'|translate}}</label>
         <input type="text" formControlName="address" class="input">
         <div *ngIf="reclamationForm.get('provider.direction')?.touched && reclamationForm.get('provider.direction')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido.
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.PHONE'|translate}}</label>
         <input type="text" formControlName="phone" class="input">
         <div *ngIf="reclamationForm.get('provider.phone')?.touched && reclamationForm.get('provider.phone')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido.
+          {{'REQUIRED.PHONE_NUMBER'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.PROVIDER.EMAIL'|translate}}</label>
         <input type="email" formControlName="email" class="input">
         <div *ngIf="reclamationForm.get('provider.email')?.touched && reclamationForm.get('provider.email')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido.
+          {{'REQUIRED.EMAIL'|translate}}
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
         <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.NAME'|translate}}</label>
         <input type="text" formControlName="name" class="input">
         <div *ngIf="reclamationForm.get('consumer.name')?.touched && reclamationForm.get('consumer.name')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido.
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
 
       </div>
@@ -63,28 +63,28 @@
         <label class="block font-medium">DNI</label>
         <input type="text" formControlName="dni" class="input">
         <div *ngIf="reclamationForm.get('consumer.dni')?.touched && reclamationForm.get('consumer.dni')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido y de 8 digitos
+          {{'REQUIRED.DNI'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.DIRECTION'|translate}}</label>
         <input type="text" formControlName="address" class="input">
         <div *ngIf="reclamationForm.get('consumer.address')?.touched && reclamationForm.get('consumer.address')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.PHONE'|translate}}</label>
         <input type="text" formControlName="phone" class="input">
         <div *ngIf="reclamationForm.get('consumer.phone')?.touched && reclamationForm.get('consumer.phone')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.PHONE_NUMBER'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.CUSTOMER.EMAIL'|translate}}</label>
         <input type="email" formControlName="email" class="input">
         <div *ngIf="reclamationForm.get('consumer.email')?.touched && reclamationForm.get('consumer.email')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.EMAIL'|translate}}
         </div>
       </div>
     </div>
@@ -141,21 +141,21 @@
         <label class="block font-medium">{{'BOOK_CLAIMS.PRODUCT.NAME'|translate}}</label>
         <input type="text" formControlName="name" class="input">
         <div *ngIf="reclamationForm.get('product.name')?.touched && reclamationForm.get('product.name')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.PRODUCT.PRICE'|translate}}</label>
         <input type="text" formControlName="amountClaimed" class="input">
         <div *ngIf="reclamationForm.get('product.amountClaimed')?.touched && reclamationForm.get('product.amountClaimed')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
       <div class="md:col-span-2">
         <label class="block font-medium">{{'BOOK_CLAIMS.PRODUCT.DESCRIPTION'|translate}}</label>
         <textarea formControlName="description" class="input h-24"></textarea>
         <div *ngIf="reclamationForm.get('product.description')?.touched && reclamationForm.get('product.description')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
     </div>
@@ -169,14 +169,14 @@
         <label class="block font-medium">{{'BOOK_CLAIMS.DETAILS.DESCRIPTION'|translate}}</label>
         <textarea formControlName="claimDescription" class="input h-24"></textarea>
         <div *ngIf="reclamationForm.get('details.claimDescription')?.touched && reclamationForm.get('details.claimDescription')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
       <div>
         <label class="block font-medium">{{'BOOK_CLAIMS.DETAILS.REASON'|translate}}</label>
         <textarea formControlName="requestedAction" class="input h-24"></textarea>
         <div *ngIf="reclamationForm.get('details.requestedAction')?.touched && reclamationForm.get('details.requestedAction')?.invalid" class="text-red-600 text-sm mt-1">
-          Este campo es requerido
+          {{'REQUIRED.REQUIRED'|translate}}
         </div>
       </div>
     </div>
@@ -185,7 +185,7 @@
   <!-- Checkbox de Términos -->
   <div class="flex flex-row items-start justify-start w-[200px]">
     <input type="checkbox" id="terms" formControlName="terms" class="w-1/4" />
-    <label class="w-3/4" for="terms">Acepto los <a href="/terminos-y-condiciones" class="text-blue-600 underline" target="_blank">términos y condiciones</a></label>
+    <label class="w-3/4" for="terms">{{'BOOK_CLAIMS.TERMS'|translate}}<a href="/terminos-y-condiciones" class="text-blue-600 underline" target="_blank">{{'BOOK_CLAIMS.TERMS_LINK'|translate}}</a></label>
   </div>
   <!-- Botón con reCAPTCHA -->
   <ngx-recaptcha2 *ngIf="isBrowser"
@@ -199,8 +199,17 @@
     <button
       [disabled]="reclamationForm.invalid || !reclamationForm.get('terms')?.value"
       class="g-recaptcha bg-blue-950 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50">
-      Enviar Reclamo
+    {{'BOOK_CLAIMS.SEND'|translate}}
     </button>
   </div>
 
 </form>
+
+<!-- Modal de éxito -->
+<div *ngIf="showSuccessModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+  <div class="bg-white shadow-lg p-8 max-w-md w-full text-center">
+    <h2 class="text-xl font-bold mb-4">{{'BOOK_CLAIMS.RECEIVED'|translate}}</h2>
+    <p class="mb-6">{{'BOOK_CLAIMS.RECEIVED_ANSWER'|translate}}</p>
+    <button (click)="closeModal()" class="px-6 py-2 bg-blue-950 text-white rounded-lg hover:bg-blue-700">Aceptar</button>
+  </div>
+</div>

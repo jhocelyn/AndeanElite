@@ -2891,6 +2891,11 @@
     "TITLE": "Libro de Reclamaciones",
     "IMAGE": "assets/img/general/customer-support.webp",
     "DESCRIPTION": "Conforme a la Ley N° 29571, Ley de Protección y Defensa del Consumidor, el libro de reclamaciones es un documento que permite a los consumidores presentar sus quejas o reclamos sobre productos o servicios. El libro de reclamaciones es gratuito y debe estar disponible en todos los establecimientos comerciales.",
+    "TERMS": "Acepto los ",
+    "TERMS_LINK": "Términos y condiciones",
+    "SEND": "Enviar",
+    "RECEIVED": "Formulario enviado correctamente",
+    "RECEIVED_ANSWER": "Gracias por enviarnos tu reclamo. Serás redirigido al inicio en unos segundos.",
     "PROVIDER": {
       "TITLE": "Datos del Proveedor",
       "NAME": "Nombre/Razon Social",
@@ -2931,5 +2936,12 @@
       "DESCRIPTION": "Descripcion",
       "REASON": "Pedido del consumidor"
     }
+  },
+  "REQUIRED": {
+    "REQUIRED": "Campo requerido",
+    "PHONE_NUMBER": "Campo requerido de 9 a 11 digitos",
+    "EMAIL": "Campo requerido con formato de correo electronico",
+    "RUC": "Campo requerido de 11 digitos",
+    "DNI": "Campo requerido de 8 digitos"
   }
 }

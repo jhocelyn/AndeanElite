@@ -4,6 +4,7 @@ import {BannerComponent} from '../../shared/components/general/banner/banner.com
 import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
 import {isPlatformBrowser, NgIf} from '@angular/common';
 import {NgxCaptchaModule} from 'ngx-captcha';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-book-claims',
@@ -22,14 +23,12 @@ import {NgxCaptchaModule} from 'ngx-captcha';
 export class BookClaimsComponent implements OnInit{
   reclamationForm!: FormGroup;
   isBrowser = false;
-
-  constructor(private fb: FormBuilder, @Inject(PLATFORM_ID) private platformId: Object) {
+  showSuccessModal = false;
+  constructor(private fb: FormBuilder, @Inject(PLATFORM_ID) private platformId: Object, private router: Router) {
     this.isBrowser = isPlatformBrowser(platformId);
-
   }
   site_key:string='6LdRCh4rAAAAANhdQqrPuYoSXDcdED9Y9GQwtlmo'
   ngOnInit(): void {
-
 
     this.reclamationForm = this.fb.group({
       provider: this.fb.group({
@@ -103,16 +102,12 @@ export class BookClaimsComponent implements OnInit{
     }
     if (this.reclamationForm.valid) {
       const formData = this.reclamationForm.value;
-      console.log('Formulario enviado:', formData);
-
       // Cambia esta URL por la de tu Apps Script o API
       const url = 'https://script.google.com/macros/s/AKfycbxeEXsAnWmOoLstshyZqbJ9_W-SpGUtawlXOzElGvjxUNmRs31U_MOPsQ4na4eAQLiX/exec';
-
       // Configurar los encabezados de la solicitud
       const headers = {
         'Content-Type': 'text/plain;charset=utf-8'
       };
-
       // Usamos fetch para enviar la solicitud POST
       fetch(url, {
         redirect:'follow',
@@ -120,10 +115,11 @@ export class BookClaimsComponent implements OnInit{
         headers: headers,
         body: JSON.stringify(formData) // Convertir formData a JSON
       })
-        .then((response) => response.json()) // Parsear la respuesta
-        .then((data) => {
-          console.log('Datos enviados correctamente:', data);
-          alert('Formulario enviado correctamente.');
+        .then(()=> {
+          this.showSuccessModal = true;
+          setTimeout(() => {
+            this.router.navigate(['/']);
+          }, 4000);
           this.reclamationForm.reset();
         })
         .catch((error) => {
@@ -148,5 +144,8 @@ export class BookClaimsComponent implements OnInit{
     });
     return invalids;
   }
-
+  closeModal() {
+    this.showSuccessModal = false;
+    this.router.navigate(['/']);
+  }
 }

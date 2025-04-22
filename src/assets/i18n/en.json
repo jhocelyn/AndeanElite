@@ -2873,6 +2873,11 @@
     "TITLE": "Book of Claims",
     "IMAGE": "assets/img/general/customer-support.webp",
     "DESCRIPTION": "According to the Consumer Protection Code, all consumers have the right to file a complaint or claim when they are not satisfied with a product or service. This is a way to express dissatisfaction and seek a solution.",
+    "TERMS": "Accept ",
+    "TERMS_LINK": "Terms and conditions",
+    "SEND": "Send",
+    "RECEIVED": "Forms received",
+    "RECEIVED_ANSWER": "Thanks you for your message, we will contact you as soon as possible.",
     "PROVIDER": {
       "TITLE": "Provider Data",
       "NAME": "Name / Company Name",
@@ -2913,8 +2918,14 @@
       "DESCRIPTION": "Description",
       "REASON": "Reason"
     }
+  },
+  "REQUIRED": {
+    "REQUIRED": "Required field",
+    "PHONE_NUMBER": "Required field with 9 digits",
+    "EMAIL": "Required field with valid email format",
+    "RUC": "Required field with 11 digits",
+    "DNI": "Required field with 8 digits"
   }
-
 
 }
 
