@@ -82,27 +82,27 @@
         {
           "url": "assets/img/general/arequipa1.webp",
           "title": "Arequipa Majestuosa",
-          "description": "Arequipa es la capital de la época colonial de la región de Arequipa en Perú. La rodean 3 volcanes y cuenta con edificios barrocos construidos de sillar, una piedra volcánica blanca."
+          "description": "Arequipa es la capital colonial de la región homónima en el sur del Perú. Rodeada por los imponentes volcanes Misti, Chachani y Pichu Pichu, destaca por su arquitectura barroca hecha con sillar, una piedra volcánica blanca. Su centro histórico, reconocido por la UNESCO, combina belleza arquitectónica, historia y cultura viva, convirtiendo a la ciudad en un destino fascinante para los viajeros que buscan autenticidad y tradición."
         },
         {
           "url": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
           "title": "Lima, la Ciudad de los Reyes: Historia y Modernidad",
-          "description": "Lima es la capital de Perú ubicada en la árida costa del Pacífico del país. Pese a que su centro colonial se conserva, es una desbordante metrópolis y una de las ciudades más grandes de Sudamérica."
+          "description": "Lima es la capital del Perú, situada en la árida costa del Pacífico. Aunque conserva un centro histórico colonial con iglesias, balcones y casonas emblemáticas, es también una metrópolis moderna y vibrante. Es una de las ciudades más grandes de Sudamérica y destaca por su diversidad cultural, su reconocida gastronomía, su vida nocturna y su mezcla única de tradición e innovación urbana."
         },
         {
           "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Cusco Mágico: Historia y Aventura",
-          "description": "Viva la magia completa de Cusco en una viaje de 5 días y 4 noches que incluye estadía en Cusco, tour de la ciudad, visita arqueológica, tour al Valle Sagrado, tren Expedition o Vistadome, visita a Machu Picchu y visita a la Montaña de 7 Colores."
+          "description": "Viva la magia completa de Cusco en un viaje inolvidable de 5 días y 4 noches que incluye estadía en cómodos hoteles, un tour guiado por la ciudad, visitas a sitios arqueológicos emblemáticos, recorrido por el impresionante Valle Sagrado, un viaje panorámico en tren Expedition o Vistadome, exploración de la maravilla mundial Machu Picchu y una caminata hacia la imponente y colorida Montaña de 7 Colores."
         },
         {
           "url": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
           "title": "Nazca: Enigma en el Desierto",
-          "description": "Las Líneas de Nazca, en el sur de Perú, son un grupo de geoglifos precolombinos que se extienden en las arenas del desierto. Abarcan un área de casi 1,000 kilómetros cuadrados y hay alrededor de 300 figuras distintas, que incluyen animales y plantas."
+          "description": "Las Líneas de Nazca, ubicadas en el sur de Perú, son un enigmático conjunto de geoglifos precolombinos que se extienden sobre las áridas arenas del desierto. Estas misteriosas figuras cubren un área de aproximadamente 1,000 kilómetros cuadrados y se componen de alrededor de 300 representaciones distintas, que incluyen figuras de animales, plantas y seres humanos, siendo uno de los mayores logros del arte prehispánico en la región."
         },
         {
           "url": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
           "title": "Puerto Maldonado y la Selva Amazónica: Aventura en la Naturaleza.",
-          "description": "Puerto Maldonado, la capital de Madre de Dios, es la puerta al Amazonas peruano, donde la exuberante selva y la biodiversa Reserva Nacional Tambopata te esperan para una experiencia inolvidable."
+          "description": "Puerto Maldonado, la capital de la región de Madre de Dios, se erige como la puerta de entrada al imponente Amazonas peruano. En este destino, la exuberante selva tropical y la biodiversidad única de la Reserva Nacional Tambopata te invitan a sumergirte en un entorno natural incomparable. Aquí, los viajeros pueden disfrutar de una experiencia inolvidable, rodeados de una rica flora y fauna en su hábitat natural."
         }
       ]
     },
@@ -134,6 +134,9 @@
   },
   "CONTACTUS": {
     "TITLE": "Contáctenos",
+    "EMAIL": "Correo Electronico",
+    "PHONE": "Celular",
+    "NAME": "Nombres",
     "DESCRIPTION": "Déjenos sus datos y nos pondremos en contacto con usted.",
     "BUTTON": "Enviar"
   },

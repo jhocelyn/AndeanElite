@@ -62,19 +62,19 @@
       "TITLE": "Discover",
       "IMAGES": [
         {
-          "url": "assets/img/arequipa1.webp",
+          "url": "assets/img/general/arequipa1.webp",
           "title": "Majestic Arequipa",
-          "description": "Arequipa is the colonial-era capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone."
+          "description": "Arequipa is the colonial-era capital of the Arequipa region in southern Peru. It is surrounded by three majestic volcanoes and is known for its baroque architecture built from sillar, a white volcanic stone. Beyond its architectural beauty, Arequipa offers a rich cultural history, traditional cuisine, and a mild climate, making it an ideal destination for those seeking to experience Peruvian history, nature, and tradition."
         },
         {
           "url": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
           "title": "Lima, The City of Kings: Where History Meets Modernity",
-          "description": "Lima is the capital of Peru, located on the country's arid Pacific coast. Despite preserving its colonial center, it is a bustling metropolis and one of the largest cities in South America."
+          "description": "Lima is the capital of Peru, located on the country’s arid Pacific coast. While it preserves a well-maintained colonial center, it is also a dynamic metropolis and one of the largest cities in South America. Lima offers a vibrant mix of history, culture, and modernity, with world-renowned cuisine, diverse neighborhoods, coastal views, and a rich blend of pre-Columbian and colonial heritage."
         },
         {
           "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
           "title": "Cusco: The Heart of the Inca Empire",
-          "description": "Experience the full magic of Cusco on a 5-day, 4-night trip that includes accommodation in Cusco, a city tour, an archaeological visit, a Sacred Valley tour, an Expedition or Vistadome train ride, a visit to Machu Picchu, and a visit to Rainbow Mountain."
+          "description": "Experience the full magic of Cusco on an unforgettable 5-day, 4-night journey that includes comfortable accommodation in the heart of the city, a guided city tour, exploration of nearby archaeological sites, a scenic tour through the Sacred Valley, a train ride aboard the Expedition or Vistadome, a visit to the awe-inspiring Machu Picchu, and an adventurous hike to the colorful and iconic Rainbow Mountain."
         },
         {
           "url": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
@@ -84,7 +84,7 @@
         {
           "url": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
           "title": "Puerto Maldonado",
-          "description": "Puerto Maldonado, the capital of Madre de Dios, is the gateway to the Peruvian Amazon, where the lush jungle and the biodiverse Tambopata National Reserve await for an unforgettable experience."
+          "description": "Puerto Maldonado, the capital of the Madre de Dios region, serves as the gateway to the Peruvian Amazon. Surrounded by lush rainforest and rich wildlife, it offers access to the incredible Tambopata National Reserve. This biodiverse paradise invites travelers to immerse themselves in nature through guided jungle walks, river excursions, and wildlife spotting, promising an unforgettable and immersive Amazonian adventure unlike any other."
         }
       ]
     },
@@ -116,6 +116,9 @@
   },
   "CONTACTUS": {
     "TITLE": "Contact us",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "NAME": "Name",
     "DESCRIPTION": "Leave your details and we will contact you.",
     "BUTTON": "SEND"
   },
