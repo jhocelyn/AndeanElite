@@ -110,73 +110,80 @@
         <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Precios</h2>
 
         <!-- Comfort -->
-        <h3 class="text-xl font-semibold text-[#094074] mb-4">Comfort</h3>
-        <table class="w-full text-left text-gray-700 border-collapse mb-6">
-          <thead>
-          <tr class="border-b border-gray-300">
-            <th class="py-2 px-4">Categoría</th>
-            <th class="py-2 px-4">Simple</th>
-            <th class="py-2 px-4">Doble</th>
-            <th class="py-2 px-4">Triple</th>
-            <th class="py-2 px-4">Niño</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let option of packageData.comfort" class="border-b border-gray-200">
-            <td class="py-2 px-4 font-medium">{{ option.name }}</td>
-            <td class="py-2 px-4">{{ option.simple }}</td>
-            <td class="py-2 px-4">{{ option.double }}</td>
-            <td class="py-2 px-4">{{ option.triple }}</td>
-            <td class="py-2 px-4">{{ option.child }}</td>
-          </tr>
-          </tbody>
-        </table>
-
-        <!-- Premium -->
-        <h3 class="text-xl font-semibold text-[#094074] mb-4">Premium</h3>
-        <table class="w-full text-left text-gray-700 border-collapse mb-6">
-          <thead>
-          <tr class="border-b border-gray-300">
-            <th class="py-2 px-4">Categoría</th>
-            <th class="py-2 px-4">Simple</th>
-            <th class="py-2 px-4">Doble</th>
-            <th class="py-2 px-4">Triple</th>
-            <th class="py-2 px-4">Niño</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let option of packageData.premium" class="border-b border-gray-200">
-            <td class="py-2 px-4 font-medium">{{ option.name }}</td>
-            <td class="py-2 px-4">{{ option.simple }}</td>
-            <td class="py-2 px-4">{{ option.double }}</td>
-            <td class="py-2 px-4">{{ option.triple }}</td>
-            <td class="py-2 px-4">{{ option.child }}</td>
-          </tr>
-          </tbody>
-        </table>
+        <ng-container *ngIf="packageData.comfort && packageData.comfort.length">
+          <h3 class="text-xl font-semibold text-[#094074] mb-4">Comfort</h3>
+          <table class="w-full text-left text-gray-700 border-collapse mb-6">
+            <thead>
+            <tr class="border-b border-gray-300">
+              <th class="py-2 px-4">Categoría</th>
+              <th class="py-2 px-4">Simple</th>
+              <th class="py-2 px-4">Doble</th>
+              <th class="py-2 px-4">Triple</th>
+              <th class="py-2 px-4">Niño</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let option of packageData.comfort" class="border-b border-gray-200">
+              <td class="py-2 px-4 font-medium">{{ option.name }}</td>
+              <td class="py-2 px-4">{{ option.simple }}</td>
+              <td class="py-2 px-4">{{ option.double }}</td>
+              <td class="py-2 px-4">{{ option.triple }}</td>
+              <td class="py-2 px-4">{{ option.child }}</td>
+            </tr>
+            </tbody>
+          </table>
+        </ng-container>
 
         <!-- Deluxe -->
-        <h3 class="text-xl font-semibold text-[#094074] mb-4">Deluxe</h3>
-        <table class="w-full text-left text-gray-700 border-collapse">
-          <thead>
-          <tr class="border-b border-gray-300">
-            <th class="py-2 px-4">Categoría</th>
-            <th class="py-2 px-4">Simple</th>
-            <th class="py-2 px-4">Doble</th>
-            <th class="py-2 px-4">Triple</th>
-            <th class="py-2 px-4">Niño</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let option of packageData.deluxe" class="border-b border-gray-200">
-            <td class="py-2 px-4 font-medium">{{ option.name }}</td>
-            <td class="py-2 px-4">{{ option.simple }}</td>
-            <td class="py-2 px-4">{{ option.double }}</td>
-            <td class="py-2 px-4">{{ option.triple }}</td>
-            <td class="py-2 px-4">{{ option.child }}</td>
-          </tr>
-          </tbody>
-        </table>
+        <ng-container *ngIf="packageData.deluxe && packageData.deluxe.length">
+          <h3 class="text-xl font-semibold text-[#094074] mb-4">Deluxe</h3>
+          <table class="w-full text-left text-gray-700 border-collapse mb-6">
+            <thead>
+            <tr class="border-b border-gray-300">
+              <th class="py-2 px-4">Categoría</th>
+              <th class="py-2 px-4">Simple</th>
+              <th class="py-2 px-4">Doble</th>
+              <th class="py-2 px-4">Triple</th>
+              <th class="py-2 px-4">Niño</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let option of packageData.deluxe" class="border-b border-gray-200">
+              <td class="py-2 px-4 font-medium">{{ option.name }}</td>
+              <td class="py-2 px-4">{{ option.simple }}</td>
+              <td class="py-2 px-4">{{ option.double }}</td>
+              <td class="py-2 px-4">{{ option.triple }}</td>
+              <td class="py-2 px-4">{{ option.child }}</td>
+            </tr>
+            </tbody>
+          </table>
+        </ng-container>
+
+        <!-- Premium -->
+        <ng-container *ngIf="packageData.premium && packageData.premium.length">
+          <h3 class="text-xl font-semibold text-[#094074] mb-4">Premium</h3>
+          <table class="w-full text-left text-gray-700 border-collapse mb-6">
+            <thead>
+            <tr class="border-b border-gray-300">
+              <th class="py-2 px-4">Categoría</th>
+              <th class="py-2 px-4">Simple</th>
+              <th class="py-2 px-4">Doble</th>
+              <th class="py-2 px-4">Triple</th>
+              <th class="py-2 px-4">Niño</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let option of packageData.premium" class="border-b border-gray-200">
+              <td class="py-2 px-4 font-medium">{{ option.name }}</td>
+              <td class="py-2 px-4">{{ option.simple }}</td>
+              <td class="py-2 px-4">{{ option.double }}</td>
+              <td class="py-2 px-4">{{ option.triple }}</td>
+              <td class="py-2 px-4">{{ option.child }}</td>
+            </tr>
+            </tbody>
+          </table>
+        </ng-container>
+
       </div>
 
       <!-- Políticas -->

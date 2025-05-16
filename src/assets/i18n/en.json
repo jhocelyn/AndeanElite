@@ -2436,60 +2436,128 @@
         ],
           "comfort": [
             {
-              "name": "Hotel Inkari (Cusco) - Vista Machupicchu",
+              "child": "409.5",
+              "double": "529.2",
+              "name": "Hotel Inkari  (Cusco) -  Vista Machupicchu",
               "simple": "631.05",
-              "double": "529.95",
-              "triple": "526.05",
-              "child": "409.5"
+              "triple": "526.05"
             },
             {
-              "name": "Hotel Warari (Cusco) - Vista Machupicchu",
-              "simple": "560.70",
-              "double": "468.30",
-              "triple": "457.80",
-              "child": "370.65"
+              "child": "399",
+              "double": "523.95",
+              "name": "Hotel Warari  (Cusco) -  Vista Machupicchu",
+              "simple": "616.35",
+              "triple": "514.5"
             },
             {
-              "name": "Hotel Warari (Cusco) - Vista Machupicchu",
-              "simple": "560.70",
-              "double": "468.30",
-              "triple": "457.80",
-              "child": "370.65"
+              "child": "462",
+              "double": "591.15",
+              "name": "Hotel Munay Wasi (Cusco) -  Inti Punku Machupichu",
+              "simple": "769.65",
+              "triple": "577.5"
+            },
+            {
+              "child": "468.3",
+              "double": "584.85",
+              "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu",
+              "simple": "745.5",
+              "triple": "583.8"
+            },
+            {
+              "child": "441",
+              "double": "581.7",
+              "name": "San Agust\u00edn (Cusco) -  Inti Punku Machupicchu",
+              "simple": "753.9",
+              "triple": "557.55"
+            },
+            {
+              "child": "472.5",
+              "double": "606.9",
+              "name": "San Agust\u00edn Dorado  (Cusco) \u2013 Casa Andina Machupicchu",
+              "simple": "799.05",
+              "triple": "588"
+            },
+            {
+              "child": "500.85",
+              "double": "649.95",
+              "name": "San Agust\u00edn Plaza (Cusco) -  Casa Andina Machupicchu",
+              "simple": "891.45",
+              "triple": "617.4"
+            },
+            {
+              "child": "487.2",
+              "double": "602.7",
+              "name": "Tierra Viva (Centro,Plaza,Saphy)   Hatun Inti Classic",
+              "simple": "768.6",
+              "triple": "602.7"
+            },
+            {
+              "child": "473.55",
+              "double": "593.25",
+              "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu",
+              "simple": "759.15",
+              "triple": "589.05"
+            },
+            {
+              "child": "517.65",
+              "double": "637.35",
+              "name": "Casa Andina (Plaza)(Cusco) Inti Punku Machupicchu",
+              "simple": "847.35",
+              "triple": "633.15"
             }
-
           ],
           "deluxe": [
             {
-              "name": "San Agustín Dorado (Cusco) - Casa Andina Machupicchu",
-              "simple": "805.35",
-              "double": "582.75",
-              "triple": "561.75",
-              "child": "473.55"
+              "child": "480.9",
+              "double": "596.4",
+              "name": "Xima Hotel(Cusco) Hatun Inti Classic",
+              "simple": "785.4",
+              "triple": "596.4"
             },
             {
-              "name": "Casa Andina (Plaza)(Cusco) - Inti Punku Machupicchu",
-              "simple": "843.15",
-              "double": "607.95",
-              "triple": "604.80",
-              "child": "515.55"
+              "child": "540.75",
+              "double": "655.2",
+              "name": "Hotel Sonesta Posada (Cusco) Hatun Inti Classic",
+              "simple": "897.75",
+              "triple": "658.35"
+            },
+            {
+              "child": "525",
+              "double": "641.55",
+              "name": "Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu",
+              "simple": "865.2",
+              "triple": "536.55"
+            },
+            {
+              "child": "492.45",
+              "double": "617.4",
+              "name": "Los Portales (Cusco) Hatun Inti Classic",
+              "simple": "821.1",
+              "triple": "611.1"
+            },
+            {
+              "child": "549.15",
+              "double": "714",
+              "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu",
+              "simple": "956.55",
+              "triple": "669.9"
+            },
+            {
+              "child": "645.75",
+              "double": "785.4",
+              "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra",
+              "simple": "1060.5",
+              "triple": "766.5"
+            },
+            {
+              "child": "645.75",
+              "double": "785.4",
+              "name": "Novotel (Cusco) El Mapi by Inkaterra",
+              "simple": "1060.5",
+              "triple": "766.5"
             }
           ],
-          "premium": [
-            {
-              "name": "Casa Andina Premium (Cusco) - El Mapi by Inkaterra",
-              "simple": "1165.50",
-              "double": "786.45",
-              "triple": "766.50",
-              "child": "672.00"
-            },
-            {
-              "name": "Novotel (Cusco) - El Mapi by Inkaterra",
-              "simple": "1165.50",
-              "double": "786.45",
-              "triple": "766.50",
-              "child": "672.00"
-            }
-          ]
+          "premium": []
       }
 
     }
