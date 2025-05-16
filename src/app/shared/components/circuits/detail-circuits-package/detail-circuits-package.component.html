@@ -1,0 +1,192 @@
+<div *ngIf="packageData">
+  <!-- Menú Fijo -->
+  <div class="bg-gray-100 p-6 rounded-2xl shadow-md mb-4 sticky top-0 z-40">
+    <ul class="flex justify-between gap-4 text-gray-700">
+      <li *ngFor="let section of sections" (click)="setActiveSection(section.id)"
+          class="flex items-center gap-2 cursor-pointer"
+          [ngClass]="{'text-[#042a4e] font-semibold': activeSection === section.id}">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" [attr.d]="section.icon" />
+        </svg>
+        {{ section.name }}
+      </li>
+    </ul>
+  </div>
+
+  <!-- Secciones del Contenido -->
+  <div *ngFor="let section of sections" [hidden]="activeSection !== section.id" class="p-8 bg-gray-50 rounded-lg shadow-lg mb-8">
+    <ng-container [ngSwitch]="section.id">
+
+      <!-- Descripción -->
+      <div *ngSwitchCase="'description'">
+        <div class="bg-gray-100 p-6 rounded-2xl shadow-md">
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 4h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V9a2 2 0 012-2z" />
+              </svg>
+              Salidas diarias
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 8l7 7 7-7" />
+              </svg>
+              Servicio grupal
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              Guía de turismo
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 11c.828 0 1.5-.672 1.5-1.5S12.828 8 12 8s-1.5.672-1.5 1.5S11.172 11 12 11zm0 0v6m0 0c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2v-5a2 2 0 00-2-2h-4a2 2 0 00-2 2z" />
+              </svg>
+              Cancelación Flexible
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v12.494m0 0L8.25 15m3.75 3.747l3.75-3.747" />
+              </svg>
+              Recojo desde hotel
+            </li>
+            <li class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v12.494m0 0L8.25 15m3.75 3.747l3.75-3.747" />
+              </svg>
+              Español
+            </li>
+          </ul>
+          <p class="text-sm text-[#042a4e] mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1 4h1m-1-4v-2a2 2 0 011-1.732 2 2 0 012 0A2 2 0 0115 10v2a2 2 0 011 1.732V16m-2 0h-2" />
+            </svg>
+            Por favor leer las notas de viaje antes de reservar.
+          </p>
+        </div>
+
+        <h2 class="text-2xl font-semibold text-[#042a4e] my-4">{{ packageData.subtitle }}</h2>
+        <p [innerHTML]="packageData.description"></p>
+
+        <h2 class="text-2xl font-semibold text-[#042a4e] my-4">¿Por qué amarás el{{ packageData.subtitle }}?</h2>
+        <li *ngFor="let why of packageData.whyChooseUs">{{ why }}</li>
+      </div>
+
+      <!-- Itinerario -->
+      <div *ngSwitchCase="'itinerary'">
+        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Itinerario</h2>
+        <ul class="">
+          <li *ngFor="let day of packageData.itinerary" class="border-l-4 p-6 border-[#042a4e] rounded-md mb-4">
+            <p class="text-justify leading-relaxed" [innerHTML]="day"></p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Incluye -->
+      <div *ngSwitchCase="'includes'">
+        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Incluye</h2>
+        <ul class="grid grid-cols-2 gap-4">
+          <li *ngFor="let item of packageData.includes" class="flex items-center gap-2">
+            <i class="fas fa-check text-[#042a4e]"></i>
+            <span>{{ item }}</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- No Incluye -->
+      <div *ngSwitchCase="'not_includes'">
+        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">No Incluye</h2>
+        <ul class="grid grid-cols-2 gap-4">
+          <li *ngFor="let item of packageData.notIncluded" class="flex items-center gap-2">
+            <i class="fas fa-times text-[#042a4e]"></i>
+            <span>{{ item }}</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Precios -->
+      <div *ngSwitchCase="'prices'">
+        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Precios</h2>
+
+        <!-- Comfort -->
+        <h3 class="text-xl font-semibold text-[#094074] mb-4">Comfort</h3>
+        <table class="w-full text-left text-gray-700 border-collapse mb-6">
+          <thead>
+          <tr class="border-b border-gray-300">
+            <th class="py-2 px-4">Categoría</th>
+            <th class="py-2 px-4">Simple</th>
+            <th class="py-2 px-4">Doble</th>
+            <th class="py-2 px-4">Triple</th>
+            <th class="py-2 px-4">Niño</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let option of packageData.comfort" class="border-b border-gray-200">
+            <td class="py-2 px-4 font-medium">{{ option.name }}</td>
+            <td class="py-2 px-4">{{ option.simple }}</td>
+            <td class="py-2 px-4">{{ option.double }}</td>
+            <td class="py-2 px-4">{{ option.triple }}</td>
+            <td class="py-2 px-4">{{ option.child }}</td>
+          </tr>
+          </tbody>
+        </table>
+
+        <!-- Premium -->
+        <h3 class="text-xl font-semibold text-[#094074] mb-4">Premium</h3>
+        <table class="w-full text-left text-gray-700 border-collapse mb-6">
+          <thead>
+          <tr class="border-b border-gray-300">
+            <th class="py-2 px-4">Categoría</th>
+            <th class="py-2 px-4">Simple</th>
+            <th class="py-2 px-4">Doble</th>
+            <th class="py-2 px-4">Triple</th>
+            <th class="py-2 px-4">Niño</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let option of packageData.premium" class="border-b border-gray-200">
+            <td class="py-2 px-4 font-medium">{{ option.name }}</td>
+            <td class="py-2 px-4">{{ option.simple }}</td>
+            <td class="py-2 px-4">{{ option.double }}</td>
+            <td class="py-2 px-4">{{ option.triple }}</td>
+            <td class="py-2 px-4">{{ option.child }}</td>
+          </tr>
+          </tbody>
+        </table>
+
+        <!-- Deluxe -->
+        <h3 class="text-xl font-semibold text-[#094074] mb-4">Deluxe</h3>
+        <table class="w-full text-left text-gray-700 border-collapse">
+          <thead>
+          <tr class="border-b border-gray-300">
+            <th class="py-2 px-4">Categoría</th>
+            <th class="py-2 px-4">Simple</th>
+            <th class="py-2 px-4">Doble</th>
+            <th class="py-2 px-4">Triple</th>
+            <th class="py-2 px-4">Niño</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let option of packageData.deluxe" class="border-b border-gray-200">
+            <td class="py-2 px-4 font-medium">{{ option.name }}</td>
+            <td class="py-2 px-4">{{ option.simple }}</td>
+            <td class="py-2 px-4">{{ option.double }}</td>
+            <td class="py-2 px-4">{{ option.triple }}</td>
+            <td class="py-2 px-4">{{ option.child }}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Políticas -->
+      <div *ngSwitchCase="'politics'">
+        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Políticas</h2>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li *ngFor="let policy of packageData.politics">{{ policy }}</li>
+        </ul>
+      </div>
+
+    </ng-container>
+  </div>
+</div>

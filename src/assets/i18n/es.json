@@ -2307,7 +2307,88 @@
 
 
 
-    }
+    },
+    "CIRCUITS": {
+     "1": {
+        "id": "1",
+        "title": "Cusco Exprés",
+        "subtitle": "Explora lo mejor de Cusco y Machu Picchu en tres días",
+        "description": "Un viaje corto pero intenso para descubrir los misterios de la capital del Imperio Inca y la maravilla mundial de Machu Picchu.",
+        "whyChooseUs": [
+          "Visita los principales sitios arqueológicos de Cusco",
+          "Explora Machu Picchu con un guía profesional",
+          "Incluye almuerzo en Aguas Calientes",
+          "Traslados y entradas incluidas"
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN - CITY TOUR. Llegada a Cusco. Bienvenida y traslado al hotel. Descanso para aclimatación. Tour por Qoricancha, Sacsayhuaman, Qenqo, Puca Pucara y Tambomachay. Retorno al hotel. Alojamiento en Cusco.",
+          "DÍA 2: EXC. FD SANTUARIO HISTÓRICO DE MACHU PICCHU. Traslado a la estación de trenes. Viaje en tren a Aguas Calientes y luego en bus a Machu Picchu. Visita guiada al complejo arqueológico. Almuerzo en Aguas Calientes. Retorno a Cusco. Alojamiento en Cusco.",
+          "DÍA 3: CUSCO. Traslado al aeropuerto para retorno a ciudad de origen. Fin de los servicios."
+        ],
+        "startDate": "2025-06-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados in – out en Cusco",
+          "02 noches de hotel en Cusco + 02 desayunos",
+          "Excursión a la ciudad del Cusco y 4 Ruinas (Qoricancha)",
+          "Excursión a Machu Picchu",
+          "Boleto de tren Expedition a Machu Picchu",
+          "Bus de subida y bajada a Machu Picchu",
+          "Almuerzo en Machu Picchu (Apu Inti)",
+          "Todas las entradas a los atractivos de acuerdo al itinerario",
+          "Excursiones en servicio compartido",
+          "Guiado profesional en español o inglés"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y domésticos",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "404.25",
+        "optional": [
+          "Tren Vistadome - $80.00"
+        ],
+        "politics": [
+          "Precios por persona en dólares americanos",
+          "Tarifa niños aplica a partir de 3 hasta 11 años",
+          "Tarifas sujetas a cambio sin previo aviso",
+          "No aplica en fechas festivas o fines de semana largos",
+          "Ingresos a Machu Picchu sujetos a disponibilidad"
+        ],
+        "images": [
+          {
+            "alt": "Cañón del Cóndor y nevado Salkantay",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Mirador en Chonta, Perú",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+          { "name": "Hotel Inkarri", "simple": "404.25", "double": "355.95", "triple": "355.95", "child": "250.95" },
+          { "name": "Hotel Imperial", "simple": "425.25", "double": "366.45", "triple": "361.2", "child": "256.2" },
+          { "name": "Hotel Prisma", "simple": "455.7", "double": "383.25", "triple": "369.6", "child": "255.15" },
+          { "name": "San Francisco Plaza", "simple": "432.6", "double": "372.75", "triple": "362.25", "child": "257.25" }
+        ],
+        "premium": [
+          { "name": "Sueños del Inka", "simple": "486.15", "double": "401.1", "triple": "396.9", "child": "290.85" },
+          { "name": "Tierra Viva", "simple": "506.1", "double": "411.6", "triple": "410.55", "child": "304.5" },
+          { "name": "San Agustín Internacional", "simple": "505.05", "double": "403.2", "triple": "388.5", "child": "282.45" },
+          { "name": "San Agustín Plaza", "simple": "537.6", "double": "420", "triple": "404.25", "child": "299.25" }
+        ],
+        "deluxe": [
+          { "name": "Casa Andina Premium", "simple": "690.9", "double": "513.45", "triple": "513.45", "child": "401.1" },
+          { "name": "Novotel", "simple": "693", "double": "515.55", "triple": "481.95", "child": "370.65" },
+          { "name": "Aranwa (hab. classic)", "simple": "867.3", "double": "589.05", "triple": "537.6", "child": "433.65" },
+          { "name": "Palacio del Inka", "simple": "1223.25", "double": "767.55", "triple": "704.55", "child": "588" }
+        ]
+      }}
   },
   "WAYS_TO_TRAVEL": {
     "TITLE": "Formas de Viajar",
@@ -2538,7 +2619,64 @@
     "CIRCUITS": {
       "TITLE": "Circuitos",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp",
-      "DESCRIPTION": "Circuitos personalizados para explorar Perú a tu ritmo. Desde la costa hasta la sierra, cada circuito está diseñado para ofrecerte una experiencia única y enriquecedora."
+      "DESCRIPTION": "Circuitos personalizados para explorar Perú a tu ritmo. Desde la costa hasta la sierra, cada circuito está diseñado para ofrecerte una experiencia única y enriquecedora.",
+      "PACKAGES": [
+        {
+          "id": "1",
+          "title": "Cusco Exprés (CUSCO)",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "2",
+          "title": "Esencial Cusco y Machu Picchu (Cusco y Mapi)",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "3",
+          "title": "Tour Imperdible Cusco (cusco Valle y Mapi)",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "4",
+          "title": "Cusco y Montaña 7 Colores Cusco Valle Mapi y 7 Colores",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "5",
+          "title": "Encantos de Cusco y Laguna Humantay",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "6",
+          "title": "Descubre Cusco y el Oasis\n",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "7",
+          "title": "Explora Perú: Andes y Amazonía",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "8",
+          "title": "El Legado Sagrado de Cusco y el Lago Titicaca",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        },
+        {
+          "id": "9",
+          "title": "Viaje Andino: Cusco y Arequipa",
+          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "price": "0"
+        }
+      ]
+
     },
     "CORPORATE_TRAVEL": {
       "TITLE": "Viaje Corporativo",

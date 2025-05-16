@@ -28,7 +28,7 @@ export const appConfig: ApplicationConfig = {
             useFactory: httpLoaderFactory,
             deps: [HttpClient],
           },
-          defaultLanguage: 'es'  // Opcional, idioma por defecto
+          defaultLanguage: 'en'  // Opcional, idioma por defecto
         })
       ),
       ScrollService, // ✅ Se agrega el servicio al proveedor

@@ -4,11 +4,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { TourBannerComponent } from '../../../../../../../shared/components/tours/tour-banner/tour-banner.component';
 import { NgIf} from '@angular/common';
 import {
-  DetailPackageComponent
-} from '../../../../../../../shared/components/tours/detail-package/detail-package.component';
-import {
   DetailToursPackageComponent
-} from '../../../../../../../shared/components/to-destinations/tours/detail-tours-package/detail-tours-package.component';
+} from '../../../../../../../shared/components/tours/detail-tours-package/detail-tours-package.component';
 
 
 interface PackageData {
@@ -35,13 +32,13 @@ interface PackageData {
   }[];
 }
 
+
 @Component({
   selector: 'app-info-packages',
   standalone: true,
   imports: [
     TourBannerComponent,
     NgIf,
-    DetailPackageComponent,
     DetailToursPackageComponent
   ],
   templateUrl: './info-packages.component.html',
