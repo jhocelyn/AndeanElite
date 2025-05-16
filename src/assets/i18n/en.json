@@ -2352,77 +2352,214 @@
           }
         ],
         "comfort": [
-          { "name": "Hotel Inkarri", "simple": "404.25", "double": "355.95", "triple": "355.95", "child": "250.95" },
-          { "name": "Hotel Imperial", "simple": "425.25", "double": "366.45", "triple": "361.2", "child": "256.2" },
-          { "name": "Hotel Prisma", "simple": "455.7", "double": "383.25", "triple": "369.6", "child": "255.15" },
-          { "name": "San Francisco Plaza", "simple": "432.6", "double": "372.75", "triple": "362.25", "child": "257.25" }
-        ],
-        "premium": [
-          { "name": "Sueños del Inka", "simple": "486.15", "double": "401.1", "triple": "396.9", "child": "290.85" },
-          { "name": "Tierra Viva", "simple": "506.1", "double": "411.6", "triple": "410.55", "child": "304.5" },
-          { "name": "San Agustín Internacional", "simple": "505.05", "double": "403.2", "triple": "388.5", "child": "282.45" },
-          { "name": "San Agustín Plaza", "simple": "537.6", "double": "420", "triple": "404.25", "child": "299.25" }
+
+          {
+            "child": "290.85",
+            "double": "415.8",
+            "name": "Hotel Inkarri",
+            "simple": "477.75",
+            "triple": "414.75"
+          },
+          {
+            "child": "282.45",
+            "double": "412.65",
+            "name": "Hotel Imperial",
+            "simple": "468.3",
+            "triple": "406.35"
+          },
+          {
+            "child": "275.1",
+            "double": "417.9",
+            "name": "Hotel Prisma",
+            "simple": "479.85",
+            "triple": "406.35"
+          },
+          {
+            "child": "284.55",
+            "double": "417.9",
+            "name": "San Francisco Plaza",
+            "simple": "475.65",
+            "triple": "408.45"
+          },
+          {
+            "child": "306.6",
+            "double": "434.7",
+            "name": "Sueños del Inka",
+            "simple": "507.15",
+            "triple": "430.5"
+          },
+          {
+            "child": "327.6",
+            "double": "449.4",
+            "name": "Tierra Viva",
+            "simple": "534.45",
+            "triple": "451.5"
+          },
+          {
+            "child": "298.2",
+            "double": "435.75",
+            "name": "San Agustín Internacional",
+            "simple": "521.85",
+            "triple": "423.15"
+          },
+          {
+            "child": "348.6",
+            "double": "473.55",
+            "name": "Casa Andina Classic ( Plaza)",
+            "simple": "584.85",
+            "triple": "473.55"
+          },
+          {
+            "child": "320.25",
+            "double": "444.15",
+            "name": "Casa Andina Classic ( San Blas )",
+            "simple": "526.05",
+            "triple": "444.15"
+          }
         ],
         "deluxe": [
-          { "name": "Casa Andina Premium", "simple": "690.9", "double": "513.45", "triple": "513.45", "child": "401.1" },
-          { "name": "Novotel", "simple": "693", "double": "515.55", "triple": "481.95", "child": "370.65" },
-          { "name": "Aranwa (hab. classic)", "simple": "867.3", "double": "589.05", "triple": "537.6", "child": "433.65" },
-          { "name": "Palacio del Inka", "simple": "1223.25", "double": "767.55", "triple": "704.55", "child": "588" }
+          {
+            "child": "328.65",
+            "double": "455.7",
+            "name": "Los Portales",
+            "simple": "565.95",
+            "triple": "452.55"
+          },
+          {
+            "child": "316.05",
+            "double": "438.9",
+            "name": "Terra Andina",
+            "simple": "517.65",
+            "triple": "439.95"
+          },
+          {
+            "child": "308.7",
+            "double": "445.2",
+            "name": "San Agust\u00edn Dorado",
+            "simple": "540.75",
+            "triple": "433.65"
+          },
+          {
+            "child": "312.9",
+            "double": "449.4",
+            "name": "San Agust\u00edn Plaza",
+            "simple": "550.2",
+            "triple": "436.8"
+          },
+          {
+            "child": "328.65",
+            "double": "483",
+            "name": "Xima Hotel",
+            "simple": "555.45",
+            "triple": "457.8"
+          },
+          {
+            "child": "343.35",
+            "double": "472.5",
+            "name": "Jos\u00e9 Antonio",
+            "simple": "586.95",
+            "triple": "472.5"
+          },
+          {
+            "child": "366.45",
+            "double": "496.65",
+            "name": "Sonesta",
+            "simple": "628.95",
+            "triple": "498.75"
+          },
+          {
+            "child": "359.1",
+            "double": "510.3",
+            "name": "Costa del Sol ( hab. moderna )",
+            "simple": "633.15",
+            "triple": "489.3"
+          },
+          {
+            "child": "402.15",
+            "double": "532.35",
+            "name": "Casa Andina Premium",
+            "simple": "680.4",
+            "triple": "532.35"
+          },
+          {
+            "child": "375.9",
+            "double": "534.45",
+            "name": "Novotel",
+            "simple": "686.7",
+            "triple": "505.05"
+          },
+          {
+            "child": "429.45",
+            "double": "598.5",
+            "name": "Aranwa ( hab. classic)",
+            "simple": "835.8",
+            "triple": "553.35"
+          }
+        ],
+        "premium": [
+          {
+            "child": "562.8",
+            "double": "752.85",
+            "name": "Palacio del Inka",
+            "simple": "1144.5",
+            "triple": "699.3"
+          }
         ]
       },
-      "2": {
-          "id": "2",
-          "title": "Tour Imperdible Cusco",
-          "subtitle": "Explora Cusco y sus maravillas",
-          "description": "Un recorrido inolvidable por los principales atractivos de Cusco, incluyendo Machu Picchu y el Valle Sagrado.",
-          "whyChooseUs": [
-            "Experiencia única en la ciudad imperial de Cusco",
-            "Guías profesionales en español o inglés",
-            "Visita a las ruinas más emblemáticas",
-            "Itinerarios flexibles y servicios personalizados"
-          ],
-          "itinerary": [
-            "DÍA 1: CUSCO IN - CITY TOUR + RUINAS CERCANAS: Recepción en la ciudad del Cusco. Traslado al hotel. Mate de coca de bienvenida. Después del almuerzo, iniciaremos recojo de los hoteles para comenzar con la visita a la ciudad y ruinas cercanas. El tour nos mostrará la impresionante ciudad colonial edificada sobre bases incas. Continuamos con la visita a las cuatro ruinas aledañas a Cusco: Sacsayhuaman, Qenqo, Pucapucara y Tambomachay. Retorno al hotel. Noche de alojamiento.",
-            "DÍA 2: VALLE SAGRADO (Desayuno y almuerzo incluido): 08:00 h. Tour al Valle Sagrado de los Incas, recorrido por el pueblo de Pisac, Ccoya, Lamay, Calca y Urubamba. Almuerzo buffet. Por la tarde visita guiada al pueblo de Ollantaytambo y retorno al Cusco por el poblado de Chincheros. Noche de alojamiento.",
-            "DÍA 3: CUSCO – AGUAS CALIENTES (Desayuno y almuerzo incluido): Traslado a la estación de tren para iniciar el viaje a Machu Picchu. Llegada a Aguas Calientes y traslado al hotel elegido. Tarde libre para explorar el pueblo. Noche de alojamiento en Aguas Calientes.",
-            "DÍA 4: FULL DAY MACHU PICCHU (Desayuno incluido): Traslados a la estación Puente Ruinas para tomar el bus hacia Machu Picchu. Excursión guiada por los principales sitios de la ciudadela. Retorno a Cusco. Noche de alojamiento.",
-            "DÍA 5: CUSCO (Desayuno incluido): Traslado de salida. Fin de los servicios."
-          ],
-          "startDate": "2025-06-01",
-          "endDate": "2025-12-31",
-          "includes": [
-            "Traslados in – out en Cusco",
-            "03 noches de hotel en Cusco + desayunos",
-            "01 noche de hotel en Aguas Calientes + desayunos",
-            "Excursión ciudad de Cusco y 4 Ruinas (Qoricancha)",
-            "Excursión a Machu Picchu",
-            "Boleto de tren Expedition a Machu Picchu",
-            "Bus de subida y bajada a Machu Picchu",
-            "Almuerzo en Machu Picchu (Apu Inti)",
-            "Excursión a Valle Sagrado. Incluye almuerzo",
-            "Excursiones en servicio compartido",
-            "Todas las entradas a los atractivos visitados",
-            "Guiado profesional en español o inglés"
-          ],
-          "notIncluded": [
-            "Tickets aéreos internacionales y domésticos",
-            "Early Check-in y Late Check-out",
-            "Seguro de viaje",
-            "Comidas no mencionadas y propinas",
-            "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
-            "Ingreso a la Catedral"
-          ],
-          "from": "529.20",
-          "optional": [
-            "Tren Vistadome ($80.00 USD netos)"
-          ],
-          "politics": [
-            "PRECIOS POR PERSONA / EXPRESADOS EN DÓLARES AMERICANOS",
-            "TARIFA NIÑOS APLICA A PARTIR DE 3 HASTA 11 AÑOS",
-            "TARIFAS SUJETAS A CAMBIO SIN PREVIO AVISO",
-            "TARIFA NO APLICA EN FECHAS FESTIVAS / FIN DE SEMANA LARGO"
-          ],
-          "images": [
+      "2": {},
+      "3": {
+        "id": "3",
+        "title": "Tour Imperdible Cusco",
+        "subtitle": "Explora Cusco y sus maravillas",
+        "description": "Un recorrido inolvidable por los principales atractivos de Cusco, incluyendo Machu Picchu y el Valle Sagrado.",
+        "whyChooseUs": [
+          "Experiencia única en la ciudad imperial de Cusco",
+          "Guías profesionales en español o inglés",
+          "Visita a las ruinas más emblemáticas",
+          "Itinerarios flexibles y servicios personalizados"
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN - CITY TOUR + RUINAS CERCANAS: Recepción en la ciudad del Cusco. Traslado al hotel. Mate de coca de bienvenida. Después del almuerzo, iniciaremos recojo de los hoteles para comenzar con la visita a la ciudad y ruinas cercanas. El tour nos mostrará la impresionante ciudad colonial edificada sobre bases incas. Continuamos con la visita a las cuatro ruinas aledañas a Cusco: Sacsayhuaman, Qenqo, Pucapucara y Tambomachay. Retorno al hotel. Noche de alojamiento.",
+          "DÍA 2: VALLE SAGRADO (Desayuno y almuerzo incluido): 08:00 h. Tour al Valle Sagrado de los Incas, recorrido por el pueblo de Pisac, Ccoya, Lamay, Calca y Urubamba. Almuerzo buffet. Por la tarde visita guiada al pueblo de Ollantaytambo y retorno al Cusco por el poblado de Chincheros. Noche de alojamiento.",
+          "DÍA 3: CUSCO – AGUAS CALIENTES (Desayuno y almuerzo incluido): Traslado a la estación de tren para iniciar el viaje a Machu Picchu. Llegada a Aguas Calientes y traslado al hotel elegido. Tarde libre para explorar el pueblo. Noche de alojamiento en Aguas Calientes.",
+          "DÍA 4: FULL DAY MACHU PICCHU (Desayuno incluido): Traslados a la estación Puente Ruinas para tomar el bus hacia Machu Picchu. Excursión guiada por los principales sitios de la ciudadela. Retorno a Cusco. Noche de alojamiento.",
+          "DÍA 5: CUSCO (Desayuno incluido): Traslado de salida. Fin de los servicios."
+        ],
+        "startDate": "2025-06-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados in – out en Cusco",
+          "03 noches de hotel en Cusco + desayunos",
+          "01 noche de hotel en Aguas Calientes + desayunos",
+          "Excursión ciudad de Cusco y 4 Ruinas (Qoricancha)",
+          "Excursión a Machu Picchu",
+          "Boleto de tren Expedition a Machu Picchu",
+          "Bus de subida y bajada a Machu Picchu",
+          "Almuerzo en Machu Picchu (Apu Inti)",
+          "Excursión a Valle Sagrado. Incluye almuerzo",
+          "Excursiones en servicio compartido",
+          "Todas las entradas a los atractivos visitados",
+          "Guiado profesional en español o inglés"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y domésticos",
+          "Early Check-in y Late Check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "529.20",
+        "optional": [
+          "Tren Vistadome ($80.00 USD netos)"
+        ],
+        "politics": [
+          "PRECIOS POR PERSONA / EXPRESADOS EN DÓLARES AMERICANOS",
+          "TARIFA NIÑOS APLICA A PARTIR DE 3 HASTA 11 AÑOS",
+          "TARIFAS SUJETAS A CAMBIO SIN PREVIO AVISO",
+          "TARIFA NO APLICA EN FECHAS FESTIVAS / FIN DE SEMANA LARGO"
+        ],
+        "images": [
           {
             "alt": "Cañón del Cóndor y nevado Salkantay",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
@@ -2434,131 +2571,829 @@
             "width": 1200
           }
         ],
-          "comfort": [
-            {
-              "child": "409.5",
-              "double": "529.2",
-              "name": "Hotel Inkari  (Cusco) -  Vista Machupicchu",
-              "simple": "631.05",
-              "triple": "526.05"
-            },
-            {
-              "child": "399",
-              "double": "523.95",
-              "name": "Hotel Warari  (Cusco) -  Vista Machupicchu",
-              "simple": "616.35",
-              "triple": "514.5"
-            },
-            {
-              "child": "462",
-              "double": "591.15",
-              "name": "Hotel Munay Wasi (Cusco) -  Inti Punku Machupichu",
-              "simple": "769.65",
-              "triple": "577.5"
-            },
-            {
-              "child": "468.3",
-              "double": "584.85",
-              "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu",
-              "simple": "745.5",
-              "triple": "583.8"
-            },
-            {
-              "child": "441",
-              "double": "581.7",
-              "name": "San Agust\u00edn (Cusco) -  Inti Punku Machupicchu",
-              "simple": "753.9",
-              "triple": "557.55"
-            },
-            {
-              "child": "472.5",
-              "double": "606.9",
-              "name": "San Agust\u00edn Dorado  (Cusco) \u2013 Casa Andina Machupicchu",
-              "simple": "799.05",
-              "triple": "588"
-            },
-            {
-              "child": "500.85",
-              "double": "649.95",
-              "name": "San Agust\u00edn Plaza (Cusco) -  Casa Andina Machupicchu",
-              "simple": "891.45",
-              "triple": "617.4"
-            },
-            {
-              "child": "487.2",
-              "double": "602.7",
-              "name": "Tierra Viva (Centro,Plaza,Saphy)   Hatun Inti Classic",
-              "simple": "768.6",
-              "triple": "602.7"
-            },
-            {
-              "child": "473.55",
-              "double": "593.25",
-              "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu",
-              "simple": "759.15",
-              "triple": "589.05"
-            },
-            {
-              "child": "517.65",
-              "double": "637.35",
-              "name": "Casa Andina (Plaza)(Cusco) Inti Punku Machupicchu",
-              "simple": "847.35",
-              "triple": "633.15"
-            }
-          ],
-          "deluxe": [
-            {
-              "child": "480.9",
-              "double": "596.4",
-              "name": "Xima Hotel(Cusco) Hatun Inti Classic",
-              "simple": "785.4",
-              "triple": "596.4"
-            },
-            {
-              "child": "540.75",
-              "double": "655.2",
-              "name": "Hotel Sonesta Posada (Cusco) Hatun Inti Classic",
-              "simple": "897.75",
-              "triple": "658.35"
-            },
-            {
-              "child": "525",
-              "double": "641.55",
-              "name": "Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu",
-              "simple": "865.2",
-              "triple": "536.55"
-            },
-            {
-              "child": "492.45",
-              "double": "617.4",
-              "name": "Los Portales (Cusco) Hatun Inti Classic",
-              "simple": "821.1",
-              "triple": "611.1"
-            },
-            {
-              "child": "549.15",
-              "double": "714",
-              "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu",
-              "simple": "956.55",
-              "triple": "669.9"
-            },
-            {
-              "child": "645.75",
-              "double": "785.4",
-              "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra",
-              "simple": "1060.5",
-              "triple": "766.5"
-            },
-            {
-              "child": "645.75",
-              "double": "785.4",
-              "name": "Novotel (Cusco) El Mapi by Inkaterra",
-              "simple": "1060.5",
-              "triple": "766.5"
-            }
-          ],
-          "premium": []
-      }
+        "comfort": [
+          {
+            "child": "409.5",
+            "double": "529.2",
+            "name": "Hotel Inkari  (Cusco) -  Vista Machupicchu",
+            "simple": "631.05",
+            "triple": "526.05"
+          },
+          {
+            "child": "399",
+            "double": "523.95",
+            "name": "Hotel Warari  (Cusco) -  Vista Machupicchu",
+            "simple": "616.35",
+            "triple": "514.5"
+          },
+          {
+            "child": "462",
+            "double": "591.15",
+            "name": "Hotel Munay Wasi (Cusco) -  Inti Punku Machupichu",
+            "simple": "769.65",
+            "triple": "577.5"
+          },
+          {
+            "child": "468.3",
+            "double": "584.85",
+            "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu",
+            "simple": "745.5",
+            "triple": "583.8"
+          },
+          {
+            "child": "441",
+            "double": "581.7",
+            "name": "San Agust\u00edn (Cusco) -  Inti Punku Machupicchu",
+            "simple": "753.9",
+            "triple": "557.55"
+          },
+          {
+            "child": "472.5",
+            "double": "606.9",
+            "name": "San Agust\u00edn Dorado  (Cusco) \u2013 Casa Andina Machupicchu",
+            "simple": "799.05",
+            "triple": "588"
+          },
+          {
+            "child": "500.85",
+            "double": "649.95",
+            "name": "San Agust\u00edn Plaza (Cusco) -  Casa Andina Machupicchu",
+            "simple": "891.45",
+            "triple": "617.4"
+          },
+          {
+            "child": "487.2",
+            "double": "602.7",
+            "name": "Tierra Viva (Centro,Plaza,Saphy)   Hatun Inti Classic",
+            "simple": "768.6",
+            "triple": "602.7"
+          },
+          {
+            "child": "473.55",
+            "double": "593.25",
+            "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu",
+            "simple": "759.15",
+            "triple": "589.05"
+          },
+          {
+            "child": "517.65",
+            "double": "637.35",
+            "name": "Casa Andina (Plaza)(Cusco) Inti Punku Machupicchu",
+            "simple": "847.35",
+            "triple": "633.15"
+          }
+        ],
+        "deluxe": [
+          {
+            "child": "480.9",
+            "double": "596.4",
+            "name": "Xima Hotel(Cusco) Hatun Inti Classic",
+            "simple": "785.4",
+            "triple": "596.4"
+          },
+          {
+            "child": "540.75",
+            "double": "655.2",
+            "name": "Hotel Sonesta Posada (Cusco) Hatun Inti Classic",
+            "simple": "897.75",
+            "triple": "658.35"
+          },
+          {
+            "child": "525",
+            "double": "641.55",
+            "name": "Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu",
+            "simple": "865.2",
+            "triple": "536.55"
+          },
+          {
+            "child": "492.45",
+            "double": "617.4",
+            "name": "Los Portales (Cusco) Hatun Inti Classic",
+            "simple": "821.1",
+            "triple": "611.1"
+          },
+          {
+            "child": "549.15",
+            "double": "714",
+            "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu",
+            "simple": "956.55",
+            "triple": "669.9"
+          },
+          {
+            "child": "645.75",
+            "double": "785.4",
+            "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra",
+            "simple": "1060.5",
+            "triple": "766.5"
+          },
+          {
+            "child": "645.75",
+            "double": "785.4",
+            "name": "Novotel (Cusco) El Mapi by Inkaterra",
+            "simple": "1060.5",
+            "triple": "766.5"
+          }
+        ],
+        "premium": []
+      },
+      "4": {
+        "id": "4",
+        "title": "Cusco y Montaña 7 Colores",
+        "subtitle": "Explora la ciudad imperial y las maravillas naturales de los Andes",
+        "description": "Descubre la magia de Cusco, el Valle Sagrado, la impresionante ciudadela de Machu Picchu y la colorida Montaña Vinicunca en este completo tour.",
+        "whyChooseUs": [
+          "Visitas guiadas a los principales atractivos de Cusco",
+          "Explora las maravillas arqueológicas de los Incas",
+          "Admira los paisajes únicos de los Andes",
+          "Alojamiento cómodo y bien ubicado",
+          "Atención personalizada y asistencia 24/7"
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN - CITY TOUR + 4 RUINAS",
+          "DÍA 2: VALLE SAGRADO",
+          "DÍA 3: EXC. FD SANTUARIO HISTÓRICO DE MACHU PICCHU",
+          "DÍA 4: MARAS – MORAY",
+          "DÍA 5: MONTAÑA VINICUNCA (MONTAÑA 7 COLORES)",
+          "DÍA 6: CUSCO OUT"
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslado in – out en Cusco",
+          "05 noches de alojamiento en Cusco + desayunos",
+          "Excursión a la ciudad del Cusco y 4 ruinas (Qoricancha)",
+          "Excursión a Valle Sagrado. Incluye almuerzo",
+          "Excursión a Machu Picchu",
+          "Boleto de tren Expedition a Machu Picchu",
+          "Bus de subida y bajada a Machu Picchu",
+          "Almuerzo en Machu Picchu (Apu Inti)",
+          "Excursión Maras – Moray",
+          "Tour a Montaña 7 Colores. Incluye desayuno y almuerzo",
+          "Excursiones en servicio compartido",
+          "Todas las entradas a los atractivos de acuerdo al itinerario",
+          "Guiado profesional español o inglés"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y domésticos",
+          "El early Check-In y late Check-Out de los horarios establecidos del hotel",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "674.1",
+        "optional": [
+          "Tren Vistadome $80.00 (netos)",
+          "Caballo con arriero $30.00 (netos)"
+        ],
+        "politics": [
+          "Precios por persona expresados en dólares americanos",
+          "Tarifa niños aplica a partir de 3 hasta 11 años",
+          "Tarifas sujetas a cambio sin previo aviso",
+          "No aplica en fechas festivas / fines de semana largos",
+          "Ingresos a la ciudadela de acuerdo al circuito elegido",
+          "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
+        ],
+        "images": [
+          {
+            "alt": "Cañón del Cóndor y nevado Salkantay",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Mirador en Chonta, Perú",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+          {
+            "child": "478.8",
+            "double": "616.35",
+            "name": "Hotel Warari",
+            "simple": "731.85",
+            "triple": "601.65"
+          },
+          {
+            "child": "485.1",
+            "double": "624.75",
+            "name": "Emperador Plaza",
+            "simple": "738.15",
+            "triple": "606.9"
+          },
+          {
+            "child": "498.75",
+            "double": "624.75",
+            "name": "Hotel Inkarri",
+            "simple": "754.95",
+            "triple": "620.55"
+          },
+          {
+            "child": "478.8",
+            "double": "616.35",
+            "name": "Hotel Imperial",
+            "simple": "731.85",
+            "triple": "601.65"
+          },
+          {
+            "child": "483",
+            "double": "631.05",
+            "name": "San Francisco Plaza",
+            "simple": "749.7",
+            "triple": "604.8"
+          },
+          {
+            "child": "527.1",
+            "double": "659.4",
+            "name": "Sue\u00f1os del Inka",
+            "simple": "825.3",
+            "triple": "649.95"
+          },
+          {
+            "child": "517.65",
+            "double": "659.4",
+            "name": "Siete Ventanas",
+            "simple": "791.7",
+            "triple": "641.55"
+          },
+          {
+            "child": "607.95",
+            "double": "729.75",
+            "name": "Tierra Viva",
+            "simple": "937.65",
+            "triple": "727.65"
+          },
+          {
+            "child": "565.95",
+            "double": "700.35",
+            "name": "Uni\u00f3n Hotel",
+            "simple": "898.8",
+            "triple": "688.8"
+          },
+          {
+            "child": "537.6",
+            "double": "675.15",
+            "name": "Munay Wasi",
+            "simple": "884.1",
+            "triple": "660.45"
+          },
+          {
+            "child": "512.4",
+            "double": "666.75",
+            "name": "San Agust\u00edn Internacional",
+            "simple": "861",
+            "triple": "634.2"
+          },
+          {
+            "child": "646.8",
+            "double": "767.55",
+            "name": "Casa Andina Classic ( Plaza)",
+            "simple": "1031.1",
+            "triple": "767.55"
+          },
+          {
+            "child": "516.6",
+            "double": "694.05",
+            "name": "Casa Andina Classic ( San Blas )",
+            "simple": "876.75",
+            "triple": "694.05"
+          }
+        ],
+        "deluxe": [
+          {
+            "child": "556.5",
+            "double": "674.1",
+            "name": "Terra Andina",
+            "simple": "848.4",
+            "triple": "679.35"
+          },
+          {
+            "child": "544.95",
+            "double": "696.15",
+            "name": "San Agust\u00edn Dorado",
+            "simple": "913.5",
+            "triple": "666.75"
+          },
+          {
+            "child": "553.35",
+            "double": "706.65",
+            "name": "San Agust\u00edn Plaza",
+            "simple": "936.6",
+            "triple": "673.05"
+          },
+          {
+            "child": "583.8",
+            "double": "704.55",
+            "name": "Xima Hotel",
+            "simple": "931.35",
+            "triple": "704.55"
+          },
+          {
+            "child": "572.25",
+            "double": "694.05",
+            "name": "Jos\u00e9 Antonio",
+            "simple": "911.4",
+            "triple": "694.05"
+          },
+          {
+            "child": "591.15",
+            "double": "728.7",
+            "name": "Los Portales",
+            "simple": "980.7",
+            "triple": "720.3"
+          },
+          {
+            "child": "678.3",
+            "double": "799.05",
+            "name": "Sonesta",
+            "simple": "1120.35",
+            "triple": "804.3"
+          },
+          {
+            "child": "669.9",
+            "double": "843.15",
+            "name": "Costa del Sol ( hab. moderna )",
+            "simple": "1141.35",
+            "triple": "791.7"
+          },
+          {
+            "child": "775.95",
+            "double": "897.75",
+            "name": "Casa Andina Premium",
+            "simple": "1260",
+            "triple": "897.75"
+          },
+          {
+            "child": "710.85",
+            "double": "904.05",
+            "name": "Novotel",
+            "simple": "1260",
+            "triple": "832.65"
+          },
+          {
+            "child": "832.65",
+            "double": "1071",
+            "name": "Aranwa Hotel  ( hab. classic)",
+            "simple": "1665.3",
+            "triple": "955.5"
+          }
+        ],
+        "premium":[
+          {
+            "child": "1186.5",
+            "double": "1464.75",
+            "name": "Palacio del Inka",
+            "simple": "2342.55",
+            "triple": "1330.35"
+          }
+        ]
+      },
+      "5": {
+        "id": "5",
+        "title": "Encantos de Cusco y Laguna Humantay",
+        "subtitle": "Explora la magia de Cusco, Machu Picchu y la espectacular Laguna Humantay",
+        "description": "Un recorrido completo por las maravillas del Cusco, incluyendo la ciudad imperial, Machu Picchu, la Montaña 7 Colores y la impresionante Laguna Humantay.",
+        "whyChooseUs": [
+          "Visitas guiadas a los principales atractivos de Cusco",
+          "Explora las maravillas arqueológicas de los Incas",
+          "Trekking a la espectacular Laguna Humantay",
+          "Asistencia personalizada y traslados en servicio compartido"
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN - CITY TOUR",
+          "DÍA 2: EXC. FD SANTUARIO HISTÓRICO DE MACHU PICCHU",
+          "DÍA 3: LAGUNA HUMANTAY",
+          "DÍA 4: MONTAÑA VININCUNCA (MONTAÑA 7 COLORES)",
+          "DÍA 5: CUSCO OUT"
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslado in – out en Cusco",
+          "04 noches de hotel en Cusco + 04 desayunos",
+          "Excursión a la ciudad del Cusco y 4 Ruinas (Koricancha)",
+          "Excursión a Machu Picchu",
+          "Boleto de tren Expedition a Machu Picchu",
+          "Bus de subida y bajada a Machu Picchu",
+          "Almuerzo en Machu Picchu (Apu Inti)",
+          "Tour a Montaña 7 Colores (desayuno y almuerzo incluido)",
+          "Tour a Laguna Humantay (desayuno y almuerzo incluido)",
+          "Excursiones en servicio compartido",
+          "Todas las entradas a los atractivos de acuerdo al itinerario",
+          "Guiado profesional en español o inglés"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y domésticos",
+          "El early check-In (llegada temprana) y late check-Out (salida tardía)",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "590.1",
+        "optional": [
+          "Tren Vistadome $80.00 (netos)",
+          "Caballo con arriero $30.00 (netos)"
+        ],
+        "politics": [
+          "Precios por persona expresados en dólares americanos",
+          "Tarifa niños aplica a partir de 3 hasta 11 años",
+          "Tarifas sujetas a cambio sin previo aviso",
+          "No aplica en fechas festivas / fines de semana largos",
+          "Ingresos a la ciudadela de acuerdo al circuito elegido",
+          "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
+        ],
+        "images": [
+          {
+            "alt": "Cañón del Cóndor y nevado Salkantay",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Mirador en Chonta, Perú",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+
+          {
+            "child": "422.1",
+            "double": "540.75",
+            "name": "Hotel Warari",
+            "simple": "638.4",
+            "triple": "529.2"
+          },
+          {
+            "child": "426.3",
+            "double": "548.1",
+            "name": "Emperador Plaza",
+            "simple": "643.65",
+            "triple": "533.4"
+          },
+          {
+            "child": "436.8",
+            "double": "548.1",
+            "name": "Hotel Inkarri",
+            "simple": "657.3",
+            "triple": "544.95"
+          },
+          {
+            "child": "422.1",
+            "double": "540.75",
+            "name": "Hotel Imperial",
+            "simple": "638.4",
+            "triple": "529.2"
+          },
+          {
+            "child": "425.25",
+            "double": "552.3",
+            "name": "San Francisco Plaza",
+            "simple": "653.1",
+            "triple": "532.35"
+          },
+          {
+            "child": "460.95",
+            "double": "575.4",
+            "name": "Sue\u00f1os del Inka",
+            "simple": "708.75",
+            "triple": "568.05"
+          },
+          {
+            "child": "452.55",
+            "double": "575.4",
+            "name": "Siete Ventanas",
+            "simple": "685.65",
+            "triple": "559.65"
+          },
+          {
+            "child": "512.4",
+            "double": "616.35",
+            "name": "Tierra Viva",
+            "simple": "772.8",
+            "triple": "619.5"
+          },
+          {
+            "child": "451.5",
+            "double": "583.8",
+            "name": "San Agust\u00edn Internacional",
+            "simple": "744.45",
+            "triple": "558.6"
+          },
+          {
+            "child": "555.45",
+            "double": "666.75",
+            "name": "Casa Andina Classic ( Plaza)",
+            "simple": "877.8",
+            "triple": "665.7"
+          },
+          {
+            "child": "496.65",
+            "double": "607.95",
+            "name": "Casa Andina Classic ( San Blas )",
+            "simple": "759.15",
+            "triple": "606.9"
+          }
+        ],
+        "deluxe": [
+
+          {
+            "child": "484.05",
+            "double": "586.95",
+            "name": "Terra Andina",
+            "simple": "731.85",
+            "triple": "591.15"
+          },
+          {
+            "child": "471.45",
+            "double": "602.7",
+            "name": "San Agust\u00edn Dorado",
+            "simple": "782.25",
+            "triple": "579.6"
+          },
+          {
+            "child": "477.75",
+            "double": "612.15",
+            "name": "San Agust\u00edn Plaza",
+            "simple": "801.15",
+            "triple": "585.9"
+          },
+          {
+            "child": "506.1",
+            "double": "665.7",
+            "name": "Xima Hotel",
+            "simple": "803.25",
+            "triple": "617.4"
+          },
+          {
+            "child": "537.6",
+            "double": "648.9",
+            "name": "Jos\u00e9 Antonio",
+            "simple": "868.35",
+            "triple": "647.85"
+          },
+          {
+            "child": "511.35",
+            "double": "626.85",
+            "name": "Los Portales",
+            "simple": "832.65",
+            "triple": "619.5"
+          },
+          {
+            "child": "580.65",
+            "double": "689.85",
+            "name": "Sonesta",
+            "simple": "956.55",
+            "triple": "694.05"
+          },
+          {
+            "child": "570.15",
+            "double": "723.45",
+            "name": "Costa del Sol ( hab. moderna )",
+            "simple": "972.3",
+            "triple": "682.5"
+          },
+          {
+            "child": "653.1",
+            "double": "767.55",
+            "name": "Casa Andina Premium",
+            "simple": "1067.85",
+            "triple": "767.55"
+          },
+          {
+            "child": "602.7",
+            "double": "772.8",
+            "name": "Novotel",
+            "simple": "1083.6",
+            "triple": "716.1"
+          },
+          {
+            "child": "697.2",
+            "double": "903",
+            "name": "Aranwa hotel  ( hab. classic)",
+            "simple": "1386",
+            "triple": "812.7"
+          }
+        ],
+        "premium": [
+          {
+            "child": "978.6",
+            "double": "1205.4",
+            "name": "Palacio del Inka",
+            "simple": "1958.25",
+            "triple": "1097.25"
+          }
+        ]
+      },
+      "6": {},
+      "7": {},
+      "8": {
+        "id": "8",
+        "title": "El Legado Sagrado de Cusco y el Lago Titicaca",
+        "subtitle": "Descubre la historia y cultura del Cusco y el místico Lago Titicaca",
+        "description": "Un viaje fascinante que te llevará a explorar las antiguas ruinas incas de Cusco, la mágica ciudadela de Machu Picchu y el imponente Lago Titicaca, el lago navegable más alto del mundo.",
+        "whyChooseUs": [
+          "Visitas guiadas a los principales atractivos de Cusco",
+          "Experiencia cultural en las islas flotantes de los Uros y Taquile",
+          "Explora Machu Picchu con un guía profesional",
+          "Asistencia personalizada y traslados en servicio compartido"
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN - CITY TOUR + RUINAS CERCANAS",
+          "DÍA 2: VALLE SAGRADO",
+          "DÍA 3: CUSCO – AGUAS CALIENTES",
+          "DÍA 4: MACHU PICCHU – CUSCO",
+          "DÍA 5: CUSCO – PUNO “RUTA DE SOL”",
+          "DÍA 6: ISLA UROS Y TAQUILE",
+          "DÍA 7: TRASLADO DE SALIDA"
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados in – out en Cusco",
+          "03 noches de hotel en Cusco + desayunos",
+          "01 noche de hotel en Aguas Calientes + desayunos",
+          "Traslados in – out en Puno",
+          "02 noches de hotel en Puno + desayunos",
+          "Excursión ciudad de Cusco y 4 Ruinas (Qoricancha)",
+          "Excursión a Machu Picchu",
+          "Boleto de tren Expedition a Machu Picchu",
+          "Bus de subida y bajada a Machu Picchu",
+          "Almuerzo en Machu Picchu (Apu Inti)",
+          "Excursión a Valle Sagrado. Incluye almuerzo.",
+          "Tours en servicio regular: Isla Uros y Taquile / Sillustani",
+          "01 almuerzo típico en Taquile",
+          "Excursiones en servicio compartido",
+          "Todas las entradas a los atractivos visitados de acuerdo al Itinerario",
+          "Guiado profesional en español o inglés"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y domésticos",
+          "El early Check-in (llegada temprana) y el late Check-out (salida tardía)",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "870.05",
+        "optional": [
+          "Tren Vistadome $80.00 (netos)"
+        ],
+        "politics": [
+          "Precios por persona expresados en dólares americanos",
+          "Tarifa niños aplica a partir de 3 hasta 11 años",
+          "Tarifas sujetas a cambio sin previo aviso",
+          "No aplica en fechas festivas / fines de semana largos",
+          "Ingresos a la ciudadela de acuerdo al circuito elegido",
+          "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
+        ],
+        "images": [
+          {
+            "alt": "Cañón del Cóndor y nevado Salkantay",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Mirador en Chonta, Perú",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+          {
+            "child": "638",
+            "double": "776.6",
+            "name": "Hotel Inkari  (Cusco) - Vista Machupicchu, Munay tambo Puno",
+            "simple": "922.55",
+            "triple": "767.15"
+          },
+          {
+            "child": "623.3",
+            "double": "822.8",
+            "name": "Hotel Warari  (Cusco) - Vista Machupicchu, Casona Plaza Centro Puno",
+            "simple": "923.6",
+            "triple": "750.35"
+          },
+          {
+            "child": "611.75",
+            "double": "769.25",
+            "name": "Hotel Imperial (Cusco) - Vista Machupicchu , Conde Lemos",
+            "simple": "902.6",
+            "triple": "752.45"
+          },
+          {
+            "child": "697.85",
+            "double": "844.85",
+            "name": "Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Hacienda Puno",
+            "simple": "1088.45",
+            "triple": "824.9"
+          },
+          {
+            "child": "676.85",
+            "double": "835.4",
+            "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu , Hacienda Puno",
+            "simple": "1072.7",
+            "triple": "804.95"
+          },
+          {
+            "child": "687.35",
+            "double": "829.1",
+            "name": "San Agust\u00edn (Cusco) - Inti Punku Machupicchu , Hacienda Plaza de Armas",
+            "simple": "1072.7",
+            "triple": "804.95"
+          },
+          {
+            "child": "718.85",
+            "double": "854.3",
+            "name": "San Agust\u00edn Dorado  (Cusco) \u2013 Casa Andina Machupicchu , Hacienda Plaza de armas",
+            "simple": "1117.85",
+            "triple": "835.4"
+          },
+          {
+            "child": "747.2",
+            "double": "897.35",
+            "name": "San Agust\u00edn Plaza (Cusco) - Casa Andina Machupicchu, hacienda Plaza de armas",
+            "simple": "1210.25",
+            "triple": "864.8"
+          },
+          {
+            "child": "688.4",
+            "double": "855.35",
+            "name": "Tierra Viva (Centro,Plaza,Saphy)  Hatun Inti Classic, tierra viva Puno",
+            "simple": "1077.95",
+            "triple": "692.7"
+          },
+          {
+            "child": "563.55",
+            "double": "849.05",
+            "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, Casa andina STD PUNO",
+            "simple": "1082.15",
+            "triple": "844.85"
+          },
+          {
+            "child": "607.65",
+            "double": "893.15",
+            "name": "Casa Andina (Plaza)(Cusco)Inti Punku Machupicchu, Casa andina STD Puno",
+            "simple": "1170.35",
+            "triple": "888.95"
+          }
+        ],
+        "deluxe": [
+          {
+            "child": "759.25",
+            "double": "958.75",
+            "name": "Xima Hotel(Cusco) Hatun Inti Classic, Sonesta Posada del Inca",
+            "simple": "1273.75",
+            "triple": "952.45"
+          },
+          {
+            "child": "819.1",
+            "double": "1017.55",
+            "name": "Hotel Sonesta Posada (Cusco) Hatun Inti Classic, Sonesta Posada del Inca",
+            "simple": "1386.1",
+            "triple": "1014.4"
+          },
+          {
+            "child": "788.65",
+            "double": "1021.75",
+            "name": "Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu, casa andina premium sin vista",
+            "simple": "1367.2",
+            "triple": "914.65"
+          },
+          {
+            "child": "755.05",
+            "double": "1012.3",
+            "name": "Los Portales (Cusco) Hatun Inti Classic, Casa andina Premium con vista",
+            "simple": "1351.45",
+            "triple": "701.1"
+          },
+          {
+            "child": "792.85",
+            "double": "1123.6",
+            "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu , GHL HOTEL LAGO TITICACA",
+            "simple": "1538.35",
+            "triple": "1086.85"
+          },
+          {
+            "child": "1144.6",
+            "double": "1284.25",
+            "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra   GHL HOTEL LAGO TITICACA",
+            "simple": "1540.45",
+            "triple": "1266.4"
+          },
+          {
+            "child": "1118.4",
+            "double": "1287.4",
+            "name": "Novotel (Cusco) El Mapi by Inkaterra , GHL HOTEL LAGO TITICACA",
+            "simple": "1549.9",
+            "triple": "1241.2"
+          }
+        ],
+        "premium": []
+      },
+      "9": {}
+
+
 
     }
   },
