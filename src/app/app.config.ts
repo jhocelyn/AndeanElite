@@ -14,23 +14,23 @@ export function httpLoaderFactory(http: HttpClient) {
 
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes),
-    provideClientHydration(),
-    provideHttpClient(withFetch()),
-    importProvidersFrom(HttpClientModule),
-    // Configurar TranslateModule correctamente
-    importProvidersFrom(
-      TranslateModule.forRoot({
-        loader: {
-          provide: TranslateLoader,
-          useFactory: httpLoaderFactory,
-          deps: [HttpClient],
-        },
-        defaultLanguage: 'es'  // Opcional, idioma por defecto
-      })
-    ),
-    ScrollService, // ✅ Se agrega el servicio al proveedor
-  ]
+    providers: [
+      provideZoneChangeDetection({ eventCoalescing: true }),
+      provideRouter(routes),
+      provideClientHydration(),
+      provideHttpClient(withFetch()),
+      importProvidersFrom(HttpClientModule),
+      // Configurar TranslateModule correctamente
+      importProvidersFrom(
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useFactory: httpLoaderFactory,
+            deps: [HttpClient],
+          },
+          defaultLanguage: 'es'  // Opcional, idioma por defecto
+        })
+      ),
+      ScrollService, // ✅ Se agrega el servicio al proveedor
+    ]
 };

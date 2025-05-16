@@ -1,5 +1,5 @@
-import { Component ,Input} from '@angular/core';
-import {JsonPipe, KeyValuePipe, NgClass, NgForOf, NgIf, NgSwitch, NgSwitchCase} from "@angular/common";
+import {Component, Input} from '@angular/core';
+import {NgClass, NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
 interface PackageData {
   id: string;
   title: string;
@@ -25,19 +25,19 @@ interface PackageData {
 }
 
 @Component({
-  selector: 'app-detail-package',
+  selector: 'app-detail-tours-package',
   standalone: true,
   imports: [
     NgForOf,
     NgIf,
-    NgClass,
+    NgSwitchCase,
     NgSwitch,
-    NgSwitchCase
+    NgClass
   ],
-  templateUrl: './detail-package.component.html',
-  styleUrl: './detail-package.component.css'
+  templateUrl: './detail-tours-package.component.html',
+  styleUrl: './detail-tours-package.component.css'
 })
-export class DetailPackageComponent {
+export class DetailToursPackageComponent {
   sections = [
     { id: 'description', name: 'Descripción', icon: 'M8 7V3m8 4V3m-9 4h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V9a2 2 0 012-2z' },
     { id: 'itinerary', name: 'Itinerario', icon: 'M5 8l7 7 7-7' },

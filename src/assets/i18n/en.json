@@ -380,110 +380,78 @@
     },
     "FULL_DAY_TOURS": {
       "1": {
-        "packageTitle": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp"
-        ],
-        "itinerary": {
-          "day1": {
-            "time": "07:00 hrs",
-            "description": "Inicio del tour con dirección a la ruta Cusco - Limatambo en un tiempo de 2 hrs aprox. A lo largo del viaje, realizará paradas en algunas zonas arqueológicas como Kilarumiyoc y Tarawasi, continuará el viaje hasta el puente Huayronca, desde donde tomará una ruta hacia la comunidad de Chonta."
-          },
-          "day2": {
-            "description": "Este viaje será de ascenso hasta los 3400 msnm. Hará paradas en algunos puntos claves para tomarse fotos como en el nevado del Salkantay y con el valle de Limatambo."
-          },
-          "day3": {
-            "description": "Llegará al pueblo de Chonta entre el mediodía donde disfrutará de un agradable almuerzo observando el nevado del Salkantay."
-          },
-          "day4": {
-            "description": "Emprenderá una caminata de 1h 30min aprox. hasta el mirador del Cañón del Cóndor. Desde este punto, tendrá la oportunidad de observar el vuelo majestuoso del cóndor andino en su hábitat natural."
-          },
-          "day5": {
-            "description": "Aquí, observará a los cóndores desde muy de cerca y por un promedio de 2 horas a más volando, e incluso en ocasiones pueden verlo volar a 20 metros del mirador."
-          },
-          "day6": {
-            "description": "Retorno al pueblo de Chonta y luego, a la ciudad de Cusco."
-          }
-        },
-        "duration": "Full Day",
-        "departure": "Diarias",
-        "schedule": "07:00 Hrs",
-        "includes": [
-          "Movilidad Turística en servicio compartido o privado.",
-          "Guía profesional de turismo con binoculares y telescopio.",
-          "01 almuerzo.",
-          "Entrada al cañón del cóndor.",
-          "Recojo del hotel."
-        ],
-        "notIncluded": [
-          "Alimentación no especificada",
-          "Propina para el guía.",
-          "Seguro de viaje.",
-          "Fotografías.",
-          "Snacks y/o bebidas durante el recorrido.",
-          "Souvenirs, regalos, compras personales.",
-          "Caballos."
-        ],
-        "prices": {
-          "shared": {
-            "ADT": "67",
-            "JR": "67",
-            "CHD": "67"
-          },
-          "private": {
-            "1 Person": "369",
-            "2 People": "196",
-            "3/4 People": "139",
-            "5 People": "106",
-            "6 People": "90",
-            "7 People": "79",
-            "8 People": "76"
-          }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+      "id": "1",
+      "title": "TURISMO CUSCO - 2025",
+      "subtitle": "CAÑÓN DEL CÓNDOR + CHONTA",
+      "description": "Descubre el impresionante Cañón del Cóndor en Chonta, una experiencia única para observar el vuelo majestuoso del cóndor andino en su hábitat natural.",
+      "whyChooseUs": [
+        "Experiencia única para observar cóndores en su hábitat natural.",
+        "Guías profesionales con binoculares y telescopios.",
+        "Vistas impresionantes del nevado Salkantay y el valle de Limatambo.",
+        "Oportunidad de explorar sitios arqueológicos como Killarumiyoc y Tarawasi."
+      ],
+      "itinerary": [
+        "07:00 hrs - Inicio del tour con dirección a la ruta Cusco - Limatambo (2 hrs aprox.), con paradas en Killarumiyoc y Tarawasi. Continuación hacia la comunidad de Chonta.",
+        "Ascenso hasta los 3400 msnm, con paradas para fotos en el nevado Salkantay y el valle de Limatambo.",
+        "Llegada al pueblo de Chonta para un almuerzo con vista al nevado del Salkantay.",
+        "Caminata de 1h 30min aprox. hasta el mirador del Cañón del Cóndor para observar el vuelo de los cóndores.",
+        "Observación de cóndores desde muy cerca, con posibilidad de verlos volar a solo 20 metros del mirador.",
+        "Retorno al pueblo de Chonta y regreso a la ciudad de Cusco."
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "includes": [
+        "Movilidad Turística en servicio compartido o privado.",
+        "Guía profesional de turismo con binoculares y telescopio.",
+        "01 almuerzo.",
+        "Entrada al cañón del cóndor.",
+        "Recojo del hotel."
+      ],
+      "notIncluded": [
+        "Alimentación no especificada",
+        "Propina para el guía.",
+        "Seguro de viaje.",
+        "Fotografías.",
+        "Snacks y/o bebidas durante el recorrido.",
+        "Souvenirs, regalos, compras personales.",
+        "Caballos."
+      ],
+      "prices": {
+        "per": "Por persona",
+        "ext": "Desde $67 (compartido) / Desde $76 (privado, según cantidad de personas)"
       },
+      "optional": [
+        "Medicamentos e implementos de higiene personal.",
+        "Zapatillas o zapatos de caminata.",
+        "Linterna con pilas y focos de repuesto.",
+        "Sombrero o gorro, lentes para el sol y protector solar.",
+        "Repelente de insectos (recomendable con 40% o más de DEET).",
+        "Impermeable, camisas de manga larga y pantalones de algodón.",
+        "Ropa caliente en caso de friaje.",
+        "Binoculares, cámara fotográfica.",
+        "Mochila de equipaje y mochila pequeña."
+      ],
+      "politics": [
+        "Tarifas en dólares americanos, válidas solo para pasajeros peruanos o residentes.",
+        "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+        "No show no reembolsable.",
+        "Se requiere información completa de los pasajeros antes del servicio.",
+        "Precios exclusivos y confidenciales.",
+        "Tarifas válidas hasta diciembre de 2025."
+      ],
+      "images": [
+        {
+          "alt": "Cañón del Cóndor y nevado Salkantay",
+          "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+          "width": 1200
+        },
+        {
+          "alt": "Mirador en Chonta, Perú",
+          "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "width": 1200
+        }
+      ]
+    },
       "2": {
         "packageTitle": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MORADA DE LOS DIOSES",
         "images": [

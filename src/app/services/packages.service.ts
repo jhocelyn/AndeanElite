@@ -1,7 +1,7 @@
 import {TranslateService} from '@ngx-translate/core';
-import {TravelPackage} from '../shared/models/TravelPackage.model';
 import {Injectable} from '@angular/core';
 import {map, Observable} from 'rxjs';
+import {TravelPackageModel} from '../shared/models/TravelPackage.model';
 
 @Injectable({
   providedIn: 'root'
@@ -9,74 +9,37 @@ import {map, Observable} from 'rxjs';
 export class PackagesService {
   constructor(private translate: TranslateService) {}
 
-  getPackagesByCategory(category: string): Observable<TravelPackage[]> {
-    return this.translate.get(`PACKAGES.${category}`).pipe(
+  getPackagesByCategory(category: string): Observable<TravelPackageModel[]> {
+    return this.translate.get(`INFO_PACKAGE.${category}`).pipe(
       map((packages: any) => {
         console.log('Datos originales de TranslateService:', packages);
 
-        if (!Array.isArray(packages)) {
-          packages = Object.values(packages);
-        }
+        // Asegura que los paquetes sean siempre un array
+        const packageArray = Array.isArray(packages) ? packages : Object.values(packages);
 
-        return packages.map((pkg: any): TravelPackage => {
-          return {
-            id: +pkg.id || 0, // Convertir a número y manejar undefined
-            title: pkg.title || '',
-            subtitle: pkg.subtitle || '',
-            days: +pkg.days || 0, // Convertir a número
-            nights: +pkg.nights || 0,
-            price: +pkg.price || 0,
-            mapUrl: pkg.mapUrl
-              ? pkg.mapUrl.map((location: any) => ({
-                name: location.name || '',
-                lat: +location.lat || 0,
-                lng: +location.lng || 0,
-                day: +location.day || 0,
-              }))
-              : [],
-            description: {
-              highlights: pkg.description?.highlights || [],
-              text: pkg.description?.text || '',
-              itinerary: pkg.description?.itinerary
-                ? pkg.description.itinerary.map((item: any) => ({
-                  dayTitle: item.dayTitle || '',
-                  daySubtitle: item.daySubtitle || '',
-                  dayDescription: item.dayDescription || '',
-                }))
-                : [],
-            },
-            sampleJourney: pkg.sampleJourney
-              ? pkg.sampleJourney.map((journey: any) => ({
-                dayTitle: journey.dayTitle || '',
-                daySubtitle: journey.daySubtitle || '',
-                dayDescription: journey.dayDescription || '',
-                accommodations: journey.accommodations || [],
-              }))
-              : [],
-            customOptions: {
-              description: pkg.customOptions?.description || '',
-              packages: pkg.customOptions?.packages || [],
-            },
-            pricing: {
-              title: pkg.pricing?.title || '',
-              included: pkg.pricing?.included || [],
-              notIncluded: pkg.pricing?.notIncluded || [],
-            },
-            images: pkg.images
-              ? pkg.images.map((img: any) => ({
-                alt: img.alt || '',
-                src: img.src || '',
-                width: +img.width || 0, // Convertir a número
-              }))
-              : [],
-          };
-        });
+        // Mapea los datos al modelo TourPackages
+        return packageArray.map((pkg: any) => ({
+          id: pkg.id || '',
+          title: pkg.title || '',
+          subtitle: pkg.subtitle || '',
+          description: pkg.description || '',
+          whyChooseUs: Array.isArray(pkg.whyChooseUs) ? pkg.whyChooseUs : [],
+          itinerary: Array.isArray(pkg.itinerary) ? pkg.itinerary : [],
+          startDate: pkg.startDate || '',
+          endDate: pkg.endDate || '',
+          includes: Array.isArray(pkg.includes) ? pkg.includes : [],
+          notIncluded: Array.isArray(pkg.notIncluded) ? pkg.notIncluded : [],
+          prices: pkg.prices || { per: '', ext: '' },
+          optional: Array.isArray(pkg.optional) ? pkg.optional : [],
+          politics: Array.isArray(pkg.politics) ? pkg.politics : [],
+          images: Array.isArray(pkg.images) ? pkg.images : [],
+        }));
       })
     );
   }
 
 
-  getPackageById(category: string, index: number): Observable<TravelPackage | undefined> {
+  getPackageById(category: string, index: number): Observable<TravelPackageModel | undefined> {
     return this.getPackagesByCategory(category).pipe(
       map(packages => {
         console.log('Lista de paquetes:', packages);

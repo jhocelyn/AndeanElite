@@ -1,43 +1,23 @@
-export interface TravelPackage {
-  id: number;
+export interface TravelPackageModel {
+  id: string;
   title: string;
   subtitle: string;
-  days: number;
-  nights: number;
-  price: number;
-  mapUrl: {name:string,lat:number,lng:number,day:number}[];
-  description: {
-    highlights: string[];
-    text: string;
-    itinerary: {
-      dayTitle: string;
-      daySubtitle: string;
-      dayDescription: string;
-    }[];
+  description: string;
+  whyChooseUs: string[];
+  itinerary: string[];
+  startDate: string;
+  endDate: string;
+  includes: string[];
+  notIncluded: string[];
+  prices: {
+    per: string;
+    ext: string;
   };
-  sampleJourney: {
-    dayTitle: string;
-    daySubtitle: string;
-    dayDescription: string;
-    accommodations: {
-      stars: number;
-      title: string;
-      image: string;
-      location: string;
-    }[];
+  optional: string[];
+  politics: string[];
+  images: {
+    alt: string;
+    src: string;
+    width: number;
   }[];
-  customOptions: {
-    description: string;
-    packages: {
-      title: string;
-      image: string;
-    }[];
-  };
-  pricing: {
-    title: string;
-    included: string[];
-    notIncluded: string[];
-  };
-  images:
-    {alt:string; src:string; width:number; }[]
 }

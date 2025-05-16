@@ -74,14 +74,14 @@
       </div>
 
       <!-- Itinerario -->
-      <div *ngSwitchCase="'itinerary'">
-        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Itinerario</h2>
-        <ul class="space-y-6">
-          <li *ngFor="let day of packageData.itinerary" class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-950">
-            <p class="text-justify leading-relaxed" [innerHTML]="day"></p>
-          </li>
-        </ul>
-      </div>
+        <div *ngSwitchCase="'itinerary'">
+          <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Itinerario</h2>
+          <ul class="list-disc pl-4 ">
+            <li *ngFor="let day of packageData.itinerary" class="p-2">
+              <p class="text-justify leading-relaxed" [innerHTML]="day"></p>
+            </li>
+          </ul>
+        </div>
 
       <!-- Incluye -->
       <div *ngSwitchCase="'includes'">

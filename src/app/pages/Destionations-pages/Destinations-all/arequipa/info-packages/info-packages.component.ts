@@ -7,7 +7,6 @@ import {
   PackageOverViewComponent
 } from '../../../../../shared/components/to-destinations/info-destinations/package-over-view/package-over-view.component';
 import {Observable} from 'rxjs';
-import {TravelPackage} from '../../../../../shared/models/TravelPackage.model';
 import {PackagesService} from '../../../../../services/packages.service';
 import {
   PackageDescriptionComponent
@@ -21,6 +20,7 @@ import {
 import {
   PackagePricingComponent
 } from '../../../../../shared/components/to-destinations/info-destinations/package-pricing/package-pricing.component';
+import {TravelPackageModel} from '../../../../../shared/models/TravelPackage.model';
 
 @Component({
   selector: 'app-info-packages',
@@ -39,7 +39,7 @@ export class InfoPackagesComponent implements OnInit {
     { id: 'pricing', label: 'PRECIOS', icon: 'fas fa-tags' },
     { id: 'request-program', label: 'REQUEST THE PROGRAM', icon: 'fas fa-envelope' } // Nueva pestaña
   ];
-  package$!: Observable<TravelPackage | undefined>; // Ahora es un Observable
+  package$!: Observable<TravelPackageModel | undefined>; // Ahora es un Observable
 
   constructor(
     private route: ActivatedRoute,
