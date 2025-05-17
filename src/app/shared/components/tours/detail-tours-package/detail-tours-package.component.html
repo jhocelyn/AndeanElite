@@ -88,7 +88,7 @@
         <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">Incluye</h2>
         <ul class="grid grid-cols-2 gap-4">
           <li *ngFor="let item of packageData.includes" class="flex items-center gap-2">
-            <i class="fas fa-check text-[#042a4e]"></i>
+            <i class="fas fa-check text-green-700"></i>
             <span>{{ item }}</span>
           </li>
         </ul>
@@ -99,7 +99,7 @@
         <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">No Incluye</h2>
         <ul class="grid grid-cols-2 gap-4">
           <li *ngFor="let item of packageData.notIncluded" class="flex items-center gap-2">
-            <i class="fas fa-times text-[#042a4e]"></i>
+            <i class="fas fa-times text-red-600"></i>
             <span>{{ item }}</span>
           </li>
         </ul>
