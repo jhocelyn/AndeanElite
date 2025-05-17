@@ -12,9 +12,9 @@ import {LazyLoadImageModule} from 'ng-lazyload-image';
 })
 export class SliderComponent implements OnInit {
   images: string[] = [
-    'assets/img/home/hike-in-peru-2023-11-27-05-01-51-utc.webp',
     'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp',
-    'assets/img/home/banner/Moray.webp',
+    'assets/img/home/hike-in-peru-2023-11-27-05-01-51-utc.webp',
+    'assets/img/home/banner/Moray.jpg',
   ];
   currentImageIndex: number = 0;
 
