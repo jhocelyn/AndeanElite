@@ -14,6 +14,7 @@ export class SliderComponent implements OnInit {
   images: string[] = [
     'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp',
     'assets/img/destinations/cusco/seven-colors-mountain-peru.webp',
+    'assets/img/destinations/cusco/seven-colors-mountain-peru1.webp',
     'assets/img/home/hike-in-peru-2023-11-27-05-01-51-utc.webp',
     'assets/img/home/banner/Moray.jpg',
   ];
