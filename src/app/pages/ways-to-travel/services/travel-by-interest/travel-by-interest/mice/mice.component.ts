@@ -1,6 +1,6 @@
 import {Component, OnDestroy} from '@angular/core';
 
-import {LangChangeEvent, TranslateService} from '@ngx-translate/core';
+import {LangChangeEvent, TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {BannerComponent} from '../../../../../../shared/components/general/banner/banner.component';
 import {Subscription} from 'rxjs';
 import {ContactUsComponent} from '../../../../../contact-us/contact-us.component';
@@ -14,7 +14,8 @@ import {
   imports: [
     BannerComponent,
     ContactUsComponent,
-    ReusableContactFormsComponent
+    ReusableContactFormsComponent,
+    TranslatePipe
   ],
   templateUrl: './mice.component.html',
   styleUrl: './mice.component.css'
