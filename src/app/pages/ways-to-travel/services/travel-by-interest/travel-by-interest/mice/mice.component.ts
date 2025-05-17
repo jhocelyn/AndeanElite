@@ -1,28 +1,47 @@
-import { Component } from '@angular/core';
+import {Component, OnDestroy} from '@angular/core';
+
+import {LangChangeEvent, TranslateService} from '@ngx-translate/core';
+import {BannerComponent} from '../../../../../../shared/components/general/banner/banner.component';
+import {Subscription} from 'rxjs';
+import {ContactUsComponent} from '../../../../../contact-us/contact-us.component';
 import {
-    ListPackagesStructureComponent
-} from "../../../../../../shared/components/general/list-packages-structure/list-packages-structure.component";
-import {TranslateService} from '@ngx-translate/core';
+  ReusableContactFormsComponent
+} from '../../../../../../shared/components/Important/reusable-contact-forms/reusable-contact-forms.component';
 
 @Component({
   selector: 'app-mice',
   standalone: true,
-    imports: [
-        ListPackagesStructureComponent
-    ],
+  imports: [
+    BannerComponent,
+    ContactUsComponent,
+    ReusableContactFormsComponent
+  ],
   templateUrl: './mice.component.html',
   styleUrl: './mice.component.css'
 })
-export class MiceComponent {
-  MiceData: any;
+export class MiceComponent  implements OnDestroy{
+  MiceData: any = {};
+  private langSubscription: Subscription;
 
   constructor(private translate: TranslateService) {
-    this.loadTrekkingData();
+    this.loadMiceData();
+
+    // Suscribirse a los cambios de idioma
+    this.langSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.loadMiceData();
+    });
   }
 
-  loadTrekkingData() {
+  loadMiceData() {
     this.translate.get('TRAVEL_BY_INTEREST.MICE').subscribe((data) => {
       this.MiceData = data;
     });
+  }
+
+  ngOnDestroy() {
+    // Limpia la suscripción para evitar fugas de memoria
+    if (this.langSubscription) {
+      this.langSubscription.unsubscribe();
+    }
   }
 }

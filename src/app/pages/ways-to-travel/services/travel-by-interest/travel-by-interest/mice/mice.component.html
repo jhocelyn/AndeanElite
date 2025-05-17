@@ -1,6 +1,6 @@
-<app-list-packages-structure
-  [backgroundImage]="'TRAVEL_BY_INTEREST.MICE.IMAGE'"
-  [title]="'TRAVEL_BY_INTEREST.MICE.TITLE'"
-  [description]="MiceData?.DESCRIPTION"
-  [packages]="MiceData?.PACKAGES"
-></app-list-packages-structure>
+<app-banner [backgroundImage]="MiceData.IMAGE" [title]="MiceData.TITLE"></app-banner>
+<div class="h-full px-10 pt-10 gap-10 flex flex-col items-center ">
+  <h2 class="text-center text-[#042a4e] text-2xl">{{MiceData.SUBTITLE}}</h2>
+  <p class="p-8 text-lg text-justify">{{MiceData.DESCRIPTION}}</p>
+</div>
+<app-reusable-contact-forms></app-reusable-contact-forms>

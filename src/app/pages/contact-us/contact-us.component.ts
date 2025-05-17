@@ -3,6 +3,9 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import {PhoneCodeSelectorComponent} from '../../shared/components/general/phone-code-selector/phone-code-selector.component';
 import {BannerComponent} from "../../shared/components/general/banner/banner.component";
 import {TranslatePipe} from '@ngx-translate/core';
+import {
+  ReusableContactFormsComponent
+} from '../../shared/components/Important/reusable-contact-forms/reusable-contact-forms.component';
 
 @Component({
   selector: 'app-contact-us',
@@ -11,7 +14,8 @@ import {TranslatePipe} from '@ngx-translate/core';
     ReactiveFormsModule,
     PhoneCodeSelectorComponent,
     BannerComponent,
-    TranslatePipe
+    TranslatePipe,
+    ReusableContactFormsComponent
   ],
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.css']
