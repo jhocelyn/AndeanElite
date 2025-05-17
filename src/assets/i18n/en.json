@@ -138,37 +138,28 @@
     "TITLE": "About Andean Elite",
     "DESCRIPTION": "Andean Elite is a luxury travel agency in Peru, dedicated to creating unique and unforgettable experiences for our clients. We specialize in tailor-made trips that combine adventure, culture, and luxury, ensuring that every detail of your journey is taken care of. Our team of experts is passionate about travel and committed to providing exceptional service, making your trip to Peru an unforgettable experience.",
     "IMAGE": "assets/img/destinations/banner-destinations-peru.webp",
-    "MISSION": {
-      "TITLE": "Our Mission",
-      "DESCRIPTION": "En Andean Elite, nuestra misión es ofrecer experiencias de viaje únicas y personalizadas en Perú, combinando lujo, aventura y cultura. Nos comprometemos a brindar un servicio excepcional y atención al detalle, asegurando que cada cliente viva una experiencia inolvidable. Trabajamos en colaboración con comunidades locales para promover un turismo responsable y sostenible."
-    },
-    "VISION": {
-      "TITLE": "Our Vision",
-      "DESCRIPTION": "Ser la agencia de viajes de lujo líder en Perú, reconocida por nuestra atención al cliente, experiencias personalizadas y compromiso con la sostenibilidad. Buscamos inspirar a los viajeros a descubrir la belleza y diversidad de Perú, creando recuerdos inolvidables que perduren en el tiempo."
-    },
-    "OUR_TEAM": {
-      "TITLE": "Our Team",
-      "DESCRIPTION": "Our team is made up of passionate professionals who are dedicated to providing exceptional service and creating unforgettable travel experiences. We are committed to ensuring that every detail of your trip is taken care of, so you can relax and enjoy your journey.",
-      "TEAM": [
-        {
-          "name": "Andean Elite",
-          "description": "Andean Elite is a luxury travel agency in Peru, dedicated to creating unique and unforgettable experiences for our clients. We specialize in tailor-made trips that combine adventure, culture, and luxury, ensuring that every detail of your journey is taken care of. Our team of experts is passionate about travel and committed to providing exceptional service, making your trip to Peru an unforgettable experience.",
-          "image": "assets/img/destinations/banner-destinations-peru.webp"
-        },
-        {
-          "name": "Andean Elite",
-          "description": "Andean Elite is a luxury travel agency in Peru, dedicated to creating unique and unforgettable experiences for our clients. We specialize in tailor-made trips that combine adventure, culture, and luxury, ensuring that every detail of your journey is taken care of. Our team of experts is passionate about travel and committed to providing exceptional service, making your trip to Peru an unforgettable experience.",
-          "image": "assets/img/destinations/banner-destinations-peru.webp"
-        }
+    "WHY": {
+      "TITLE": " Why Travel With Us?",
+      "DESCRIPTION": [
+        "Experts in iconic destinations like Machu Picchu, the Sacred Valley, Lake Titicaca, the Peruvian Amazon, and more.",
+        "Customized itineraries for couples, solo travelers, families, and small groups.",
+        "Certified bilingual local guides who are passionate about their culture.",
+        "English and Spanish support, from planning to your safe return home.",
+        "Personalized assistance via WhatsApp, email, or video call.",
+        "Options for private tours, luxury travel, mystical experiences with shamans, and authentic local interactions."
       ]
     },
     "LICENSE": {
-      "TITLE": "License and Accreditations",
-      "DESCRIPTION": "Andean Elite is a licensed travel agency in Peru, with all the necessary accreditations to operate legally and safely. We are committed to providing our clients with the highest quality service and ensuring that their travel experience is unforgettable."
+      "TITLE": " Trusted by travelers from around the world:",
+      "DESCRIPTION": "We proudly welcome visitors from the USA, Canada, UK, Germany, France, Spain, Mexico, and beyond. They choose us for our local expertise, personalized service, and commitment to responsible tourism."
     },
     "RESPONSIBLE": {
-      "TITLE": "Travel Responsibly",
-      "DESCRIPTION": "In Andean Elite, we are committed to promoting responsible and sustainable tourism. We work in collaboration with local communities to ensure that our trips have a positive impact on the environment and the culture of the places we visit. We believe that travel should be an enriching experience for both travelers and the communities they visit."
+      "TITLE": "Our Promise:",
+      "DESCRIPTION": "We don’t just sell packages. We create memories that last a lifetime.<br>Whether it’s watching the sunrise at Machu Picchu, sailing the world’s highest navigable lake, or joining a sacred Andean offering to Pachamama… we’re here to build that experience with you."
+    },
+    "READY": {
+      "TITLE": "Ready to experience Peru like never before?",
+      "DESCRIPTION": "Connect with our travel experts and start crafting your journey. <br>Travel with inspiration, authenticity, and heart. Travel with Andean Elite."
     }
   },
   "GENERAL": {
