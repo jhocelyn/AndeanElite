@@ -16,7 +16,7 @@ export class DestinationsComponent {
   destinations = [
     { name: 'Cusco', image: 'assets/img/destinations/cusco/machu-picchu-inca-view.webp', link: '/destination/cusco/packages' },
     { name: 'Puerto Maldonado', image: 'assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp', link: '/destination/puerto-maldonado/packages' },
-    { name: 'Puno', image: 'assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp', link: '/destination/puno/packages' },
+    { name: 'Puno', image: 'assets/img/destinations/puno/lake-titicaca-natural-landscape.webp', link: '/destination/puno/packages' },
     { name: 'Arequipa', image: 'assets/img/destinations/arequipa/colca-canon.webp', link: '/destination/arequipa/packages' },
     { name: 'Lima', image: 'assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp', link: '/destination/lima/packages' },
     { name: 'Ica', image: 'assets/img/destinations/ica/destinations-peru-paracas-ica.webp', link: '/destination/ica/packages' },
