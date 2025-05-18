@@ -191,7 +191,8 @@
   "PUERTO_MALDONADO": "PUERTO MALDONADO"
 },
   "PACKAGES":{
-    "DESTINOS":{"AREQUIPA": [
+    "DESTINOS":{
+      "AREQUIPA": [
       {
         "id": "1",
         "title": "Majestic Arequipa",
@@ -2283,62 +2284,65 @@
     "CIRCUITS": {
       "1": {
         "id": "1",
-        "title": "Cusco Exprés",
-        "subtitle": "Explora lo mejor de Cusco y Machu Picchu en tres días",
-        "description": "Un viaje corto pero intenso para descubrir los misterios de la capital del Imperio Inca y la maravilla mundial de Machu Picchu.",
+        "title": "Cusco Express",
+        "subtitle": "Discover the highlights of Cusco and Machu Picchu in 3 days",
+        "description": "A compact and enriching tour through the imperial city of Cusco and the majestic Machu Picchu. Perfect for travelers with limited time who want to experience the Inca culture and history.",
         "whyChooseUs": [
-          "Visita los principales sitios arqueológicos de Cusco",
-          "Explora Machu Picchu con un guía profesional",
-          "Incluye almuerzo en Aguas Calientes",
-          "Traslados y entradas incluidas"
+          "Explore 4 important archaeological sites in Cusco",
+          "Full-day guided tour of Machu Picchu with included lunch",
+          "Professional bilingual guide in Spanish or English",
+          "Includes all transfers, tickets, and accommodations",
+          "Experience local culture with the Inka Tea Experience"
         ],
         "itinerary": [
-          "DÍA 1: CUSCO IN - CITY TOUR. Llegada a Cusco. Bienvenida y traslado al hotel. Descanso para aclimatación. Tour por Qoricancha, Sacsayhuaman, Qenqo, Puca Pucara y Tambomachay. Retorno al hotel. Alojamiento en Cusco.",
-          "DÍA 2: EXC. FD SANTUARIO HISTÓRICO DE MACHU PICCHU. Traslado a la estación de trenes. Viaje en tren a Aguas Calientes y luego en bus a Machu Picchu. Visita guiada al complejo arqueológico. Almuerzo en Aguas Calientes. Retorno a Cusco. Alojamiento en Cusco.",
-          "DÍA 3: CUSCO. Traslado al aeropuerto para retorno a ciudad de origen. Fin de los servicios."
+          "Day 1: Arrival in Cusco – City Tour. Arrival in the imperial city of Cusco. Meet and greet at the airport, assistance, and transfer to your hotel. Time to rest and acclimatize to the altitude. At 2:00 PM, the tour begins at Qoricancha, the legendary Temple of the Sun and the main ceremonial site of the Inca Empire, alongside the Convent of Santo Domingo. Then, continue uphill to the impressive Sacsayhuamán archaeological complex. Visit Qenqo, an ancient ritual site, followed by Puca Pucara, the 'Red Fortress.' Enjoy the Inka Tea Experience at a local artisan center. Finally, visit Tambomachay, the Inca Water Temple. Return to hotel. Overnight in Cusco.",
+          "Day 2: Full-Day Excursion to Machu Picchu (Breakfast and lunch included). Morning transfer to the train station. Board the train to Aguas Calientes, then bus to Machu Picchu. Guided tour of the sanctuary, exploring its history and architecture. After the 2-hour tour, lunch in Apu Inti restaurant. Return train to Ollantaytambo and transfer back to Cusco. Overnight in Cusco.",
+          "Day 3: Cusco Departure (Breakfast included). Transfer to Velasco Astete Airport for your flight back home. End of services."
         ],
         "startDate": "2025-06-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Traslados in – out en Cusco",
-          "02 noches de hotel en Cusco + 02 desayunos",
-          "Excursión a la ciudad del Cusco y 4 Ruinas (Qoricancha)",
-          "Excursión a Machu Picchu",
-          "Boleto de tren Expedition a Machu Picchu",
-          "Bus de subida y bajada a Machu Picchu",
-          "Almuerzo en Machu Picchu (Apu Inti)",
-          "Todas las entradas a los atractivos de acuerdo al itinerario",
-          "Excursiones en servicio compartido",
-          "Guiado profesional en español o inglés"
+          "Transfers in and out in Cusco",
+          "02 nights of hotel accommodation in Cusco + 02 breakfasts",
+          "City tour in Cusco + visit to 4 archaeological sites (including Qoricancha)",
+          "Excursion to Machu Picchu",
+          "Expedition train ticket to Machu Picchu",
+          "Round-trip bus ticket to/from Machu Picchu",
+          "Lunch in Machu Picchu (Apu Inti restaurant)",
+          "All entrance tickets as per itinerary",
+          "Shared group excursions",
+          "Professional bilingual guide (Spanish or English)"
         ],
         "notIncluded": [
-          "Tickets aéreos internacionales y domésticos",
-          "Early check-in y late check-out",
-          "Seguro de viaje",
-          "Comidas no mencionadas y propinas",
-          "Gastos personales (bebidas, lavandería, etc.)",
-          "Ingreso a la Catedral"
+          "International and domestic airfare",
+          "Early check-in and late check-out beyond the hotel’s standard schedule",
+          "Travel insurance",
+          "Meals not specified and tips",
+          "Personal expenses (drinks, travel or medical insurance, laundry, etc.)",
+          "Entrance fee to the Cathedral"
         ],
-        "from": "404.25",
+        "from": "620.00",
         "optional": [
-          "Tren Vistadome - $80.00"
+          "Upgrade to Vistadome Train: $80.00 USD net price"
         ],
         "politics": [
-          "Precios por persona en dólares americanos",
-          "Tarifa niños aplica a partir de 3 hasta 11 años",
-          "Tarifas sujetas a cambio sin previo aviso",
-          "No aplica en fechas festivas o fines de semana largos",
-          "Ingresos a Machu Picchu sujetos a disponibilidad"
+          "Prices are per person and expressed in US dollars.",
+          "Child rate applies from ages 3 to 11.",
+          "Rates are subject to change without prior notice.",
+          "Rates do not apply on holidays or long weekends.",
+          "Entry to the citadel is based on the selected circuit and is subject to availability, starting from 1:00 PM.",
+          "A private guide service may be added.",
+          "Entrance ticket prices are subject to change without prior notice."
         ],
         "images": [
           {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
             "width": 1200
           },
           {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
             "width": 1200
           }
         ],
@@ -2497,68 +2501,125 @@
           }
         ]
       },
-      "2": {},
+      "2": {
+        "id": "2",
+        "title": "Essential Cusco & Machu Picchu",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      },
       "3": {
         "id": "3",
-        "title": "Tour Imperdible Cusco",
-        "subtitle": "Explora Cusco y sus maravillas",
-        "description": "Un recorrido inolvidable por los principales atractivos de Cusco, incluyendo Machu Picchu y el Valle Sagrado.",
+        "title": "Unmissable Cusco Tour",
+        "subtitle": "Explore Cusco, Sacred Valley and Machu Picchu in 5 days",
+        "description": "An immersive tour through the historic city of Cusco, the breathtaking Sacred Valley, and the majestic Machu Picchu. Ideal for travelers who want a deep cultural experience with guided excursions.",
         "whyChooseUs": [
-          "Experiencia única en la ciudad imperial de Cusco",
-          "Guías profesionales en español o inglés",
-          "Visita a las ruinas más emblemáticas",
-          "Itinerarios flexibles y servicios personalizados"
+          "Comprehensive 5-day itinerary covering Cusco, Sacred Valley and Machu Picchu",
+          "Guided visits to 4 major Inca ruins near Cusco",
+          "Buffet lunch in Sacred Valley and lunch in Machu Picchu",
+          "Professional bilingual guide in Spanish or English",
+          "All transfers, train tickets, entrance fees, and accommodations included"
         ],
         "itinerary": [
-          "DÍA 1: CUSCO IN - CITY TOUR + RUINAS CERCANAS: Recepción en la ciudad del Cusco. Traslado al hotel. Mate de coca de bienvenida. Después del almuerzo, iniciaremos recojo de los hoteles para comenzar con la visita a la ciudad y ruinas cercanas. El tour nos mostrará la impresionante ciudad colonial edificada sobre bases incas. Continuamos con la visita a las cuatro ruinas aledañas a Cusco: Sacsayhuaman, Qenqo, Pucapucara y Tambomachay. Retorno al hotel. Noche de alojamiento.",
-          "DÍA 2: VALLE SAGRADO (Desayuno y almuerzo incluido): 08:00 h. Tour al Valle Sagrado de los Incas, recorrido por el pueblo de Pisac, Ccoya, Lamay, Calca y Urubamba. Almuerzo buffet. Por la tarde visita guiada al pueblo de Ollantaytambo y retorno al Cusco por el poblado de Chincheros. Noche de alojamiento.",
-          "DÍA 3: CUSCO – AGUAS CALIENTES (Desayuno y almuerzo incluido): Traslado a la estación de tren para iniciar el viaje a Machu Picchu. Llegada a Aguas Calientes y traslado al hotel elegido. Tarde libre para explorar el pueblo. Noche de alojamiento en Aguas Calientes.",
-          "DÍA 4: FULL DAY MACHU PICCHU (Desayuno incluido): Traslados a la estación Puente Ruinas para tomar el bus hacia Machu Picchu. Excursión guiada por los principales sitios de la ciudadela. Retorno a Cusco. Noche de alojamiento.",
-          "DÍA 5: CUSCO (Desayuno incluido): Traslado de salida. Fin de los servicios."
+          "Day 1: Arrival in Cusco – City Tour + Nearby Ruins. Reception upon arrival in Cusco, transfer to hotel with welcome coca tea. Afternoon city and archaeological tour visiting Sacsayhuamán, Qenqo, Pucapucara, and Tambomachay. Overnight in Cusco.",
+          "Day 2: Sacred Valley Tour (Breakfast and lunch included). Full-day tour starting at 08:00 AM. Visit Pisac market and towns of Ccoya, Lamay, Calca, and Urubamba for buffet lunch. Afternoon guided visit to Ollantaytambo and return via Chinchero. Overnight in Cusco.",
+          "Day 3: Cusco – Aguas Calientes (Breakfast and lunch included). Transfer to train station for scenic 3.5-hour ride to Aguas Calientes. Arrival and transfer to hotel, lunch included. Afternoon at leisure, optional visit to hot springs. Overnight in Aguas Calientes.",
+          "Day 4: Full Day Machu Picchu Tour (Breakfast included). Morning bus to Machu Picchu, guided tour including Main Viewpoint, Temple of the Three Windows, Intihuatana, and Main Square. Return bus to Aguas Calientes and train back to Cusco. Overnight in Cusco.",
+          "Day 5: Departure from Cusco (Breakfast included). Transfer to airport for return flight. End of services."
         ],
         "startDate": "2025-06-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Traslados in – out en Cusco",
-          "03 noches de hotel en Cusco + desayunos",
-          "01 noche de hotel en Aguas Calientes + desayunos",
-          "Excursión ciudad de Cusco y 4 Ruinas (Qoricancha)",
-          "Excursión a Machu Picchu",
-          "Boleto de tren Expedition a Machu Picchu",
-          "Bus de subida y bajada a Machu Picchu",
-          "Almuerzo en Machu Picchu (Apu Inti)",
-          "Excursión a Valle Sagrado. Incluye almuerzo",
-          "Excursiones en servicio compartido",
-          "Todas las entradas a los atractivos visitados",
-          "Guiado profesional en español o inglés"
+          "Roundtrip transfers in Cusco (airport/hotel/airport)",
+          "03 nights of hotel accommodation in Cusco with breakfast",
+          "01 night of hotel accommodation in Aguas Calientes with breakfast",
+          "Guided tour of Cusco city and 4 nearby ruins (including Qoricancha)",
+          "Excursion to Machu Picchu",
+          "Expedition train ticket to/from Machu Picchu",
+          "Roundtrip bus ticket to/from Machu Picchu",
+          "Lunch in Machu Picchu (Apu Inti restaurant)",
+          "Sacred Valley tour, including buffet lunch",
+          "Shared group excursions",
+          "All entrance fees to attractions as per itinerary",
+          "Professional bilingual guide (Spanish or English)"
         ],
         "notIncluded": [
-          "Tickets aéreos internacionales y domésticos",
-          "Early Check-in y Late Check-out",
-          "Seguro de viaje",
-          "Comidas no mencionadas y propinas",
-          "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
-          "Ingreso a la Catedral"
+          "International and domestic airfare",
+          "Early check-in (prior to hotel’s standard time) and late check-out",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, medical/travel insurance, laundry, etc.)",
+          "Entrance ticket to Cusco Cathedral"
         ],
-        "from": "529.20",
+        "from": "850.00",
         "optional": [
-          "Tren Vistadome ($80.00 USD netos)"
+          "Vistadome Train Upgrade: $80.00 USD (net rate)"
         ],
         "politics": [
-          "PRECIOS POR PERSONA / EXPRESADOS EN DÓLARES AMERICANOS",
-          "TARIFA NIÑOS APLICA A PARTIR DE 3 HASTA 11 AÑOS",
-          "TARIFAS SUJETAS A CAMBIO SIN PREVIO AVISO",
-          "TARIFA NO APLICA EN FECHAS FESTIVAS / FIN DE SEMANA LARGO"
+          "Prices are per person and expressed in US dollars.",
+          "Child rate applies for ages 3 to 11.",
+          "Rates are subject to change without prior notice.",
+          "Rates do not apply on holidays or long weekends.",
+          "Entry to the citadel is based on the selected circuit and is subject to availability, with entry allowed from 1:00 PM onward.",
+          "If a private guide is required, it must be added separately.",
+          "Entry fees to the citadel are subject to change without prior notice."
         ],
         "images": [
           {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
             "width": 1200
           },
           {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
             "width": 1200
           }
         ],
@@ -2689,73 +2750,66 @@
       },
       "4": {
         "id": "4",
-        "title": "Cusco y Montaña 7 Colores",
-        "subtitle": "Explora la ciudad imperial y las maravillas naturales de los Andes",
-        "description": "Descubre la magia de Cusco, el Valle Sagrado, la impresionante ciudadela de Machu Picchu y la colorida Montaña Vinicunca en este completo tour.",
+        "title": "Cusco & Rainbow Mountain Adventure",
+        "subtitle": "Explore the imperial city of Cusco and hike the stunning Rainbow Mountain",
+        "description": "Experience the rich history of Cusco, visit ancient ruins, discover the Sacred Valley, enjoy Machu Picchu, and hike the breathtaking Vinicunca Rainbow Mountain.",
         "whyChooseUs": [
-          "Visitas guiadas a los principales atractivos de Cusco",
-          "Explora las maravillas arqueológicas de los Incas",
-          "Admira los paisajes únicos de los Andes",
-          "Alojamiento cómodo y bien ubicado",
-          "Atención personalizada y asistencia 24/7"
+          "Professional bilingual guides (Spanish or English)",
+          "All entrance tickets included as per itinerary",
+          "Shared group excursions for a social experience",
+          "Comfortable hotel accommodation with breakfast",
+          "Includes train and bus tickets for Machu Picchu"
         ],
         "itinerary": [
-          "DÍA 1: CUSCO IN - CITY TOUR + 4 RUINAS",
-          "DÍA 2: VALLE SAGRADO",
-          "DÍA 3: EXC. FD SANTUARIO HISTÓRICO DE MACHU PICCHU",
-          "DÍA 4: MARAS – MORAY",
-          "DÍA 5: MONTAÑA VINICUNCA (MONTAÑA 7 COLORES)",
-          "DÍA 6: CUSCO OUT"
+          "Day 1: Arrival in Cusco – City Tour + 4 Nearby Ruins\nArrival in Cusco, airport transfer, rest and acclimate. Afternoon city tour visiting Qoricancha, Sacsayhuamán, Qenqo, Puca Pucara, a local artisan center for Inka Tea Experience, and Tambomachay. Overnight in Cusco.",
+          "Day 2: Sacred Valley Tour (Breakfast and lunch included)\nFull-day tour to the Sacred Valley visiting Pisac, passing through Ccoya, Lamay, Calca, and Urubamba (buffet lunch included), afternoon visit to Ollantaytambo, and return via Chinchero. Overnight in Cusco.",
+          "Day 3: Full-Day Excursion to Machu Picchu (Breakfast and lunch included)\nMorning train to Aguas Calientes, bus to Machu Picchu, guided tour, lunch in Apu Inti restaurant, afternoon return train to Ollantaytambo, transfer back to Cusco. Overnight in Cusco.",
+          "Day 4: Maras & Moray Tour (Breakfast included)\nMorning visit to Moray agricultural terraces, salt mines of Maras, return to Cusco early afternoon. Overnight in Cusco.",
+          "Day 5: Vinicunca Rainbow Mountain Hike (Breakfast and lunch included)\nEarly morning departure, breakfast in Cusipata, 2-hour hike to Rainbow Mountain summit (5,020 m.a.s.l.), time to admire views and photograph, return hike and lunch, arrival in Cusco in the afternoon. Overnight in Cusco.",
+          "Day 6: Departure from Cusco (Breakfast included)\nTransfer to Velasco Astete International Airport for your flight. End of services."
         ],
-        "startDate": "2025-01-01",
-        "endDate": "2025-12-31",
+        "startDate": "",
+        "endDate": "",
         "includes": [
-          "Traslado in – out en Cusco",
-          "05 noches de alojamiento en Cusco + desayunos",
-          "Excursión a la ciudad del Cusco y 4 ruinas (Qoricancha)",
-          "Excursión a Valle Sagrado. Incluye almuerzo",
-          "Excursión a Machu Picchu",
-          "Boleto de tren Expedition a Machu Picchu",
-          "Bus de subida y bajada a Machu Picchu",
-          "Almuerzo en Machu Picchu (Apu Inti)",
-          "Excursión Maras – Moray",
-          "Tour a Montaña 7 Colores. Incluye desayuno y almuerzo",
-          "Excursiones en servicio compartido",
-          "Todas las entradas a los atractivos de acuerdo al itinerario",
-          "Guiado profesional español o inglés"
+          "Roundtrip transfers in Cusco (airport/hotel/airport)",
+          "5 nights hotel accommodation with breakfast",
+          "City tour of Cusco and 4 nearby ruins including Qoricancha",
+          "Sacred Valley tour with buffet lunch",
+          "Full-day excursion to Machu Picchu",
+          "Train tickets to/from Machu Picchu",
+          "Bus tickets to/from Machu Picchu citadel",
+          "Lunch at Apu Inti restaurant in Machu Picchu",
+          "Maras and Moray excursion",
+          "Rainbow Mountain tour with breakfast and lunch",
+          "Shared group excursions",
+          "All entrance tickets as per itinerary",
+          "Professional bilingual guide (Spanish or English)"
         ],
         "notIncluded": [
-          "Tickets aéreos internacionales y domésticos",
-          "El early Check-In y late Check-Out de los horarios establecidos del hotel",
-          "Seguro de viaje",
-          "Comidas no mencionadas y propinas",
-          "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
-          "Ingreso a la Catedral"
+          "International and domestic airfare",
+          "Early check-in and late check-out outside hotel standard hours",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, laundry, travel or medical insurance, etc.)",
+          "Entrance fee to Cusco Cathedral"
         ],
-        "from": "674.1",
+        "from": "Cusco",
         "optional": [
-          "Tren Vistadome $80.00 (netos)",
-          "Caballo con arriero $30.00 (netos)"
+          "Vistadome train upgrade: $80 USD net rate",
+          "Horse with handler for Rainbow Mountain hike: $30 USD net",
+          "Private guide (additional cost)"
         ],
         "politics": [
-          "Precios por persona expresados en dólares americanos",
-          "Tarifa niños aplica a partir de 3 hasta 11 años",
-          "Tarifas sujetas a cambio sin previo aviso",
-          "No aplica en fechas festivas / fines de semana largos",
-          "Ingresos a la ciudadela de acuerdo al circuito elegido",
-          "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
+          "Prices are per person and expressed in U.S. dollars.",
+          "Child rates apply for ages 3 to 11.",
+          "Rates subject to change without prior notice.",
+          "Rates do not apply on holidays or long weekends.",
+          "Entry to Machu Picchu citadel depends on selected circuit and availability, access allowed from 1:00 PM onward.",
+          "Private guide and entrance fees to citadel must be arranged separately."
         ],
         "images": [
-          {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-            "width": 1200
-          },
-          {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-            "width": 1200
-          }
+          { "alt": "Moray", "src": "assets/img/home/banner/Moray.webp", "width": 800 },
+          { "alt": "Rainbow Mountain panorama", "src": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp", "width": 800 }
         ],
         "comfort": [
           {
@@ -2941,70 +2995,65 @@
       },
       "5": {
         "id": "5",
-        "title": "Encantos de Cusco y Laguna Humantay",
-        "subtitle": "Explora la magia de Cusco, Machu Picchu y la espectacular Laguna Humantay",
-        "description": "Un recorrido completo por las maravillas del Cusco, incluyendo la ciudad imperial, Machu Picchu, la Montaña 7 Colores y la impresionante Laguna Humantay.",
+        "title": "Charms of Cusco & Humantay Lake",
+        "subtitle": "Discover Cusco's imperial beauty, Machu Picchu, Humantay Lake, and Rainbow Mountain",
+        "description": "Enjoy an immersive journey exploring Cusco’s highlights, including city tours, Machu Picchu, a mountain hike to Humantay Lake, and the colorful Rainbow Mountain.",
         "whyChooseUs": [
-          "Visitas guiadas a los principales atractivos de Cusco",
-          "Explora las maravillas arqueológicas de los Incas",
-          "Trekking a la espectacular Laguna Humantay",
-          "Asistencia personalizada y traslados en servicio compartido"
+          "Professional bilingual guides (Spanish or English)",
+          "All entrance tickets included as per itinerary",
+          "Shared group excursions for a social experience",
+          "Comfortable hotel accommodation with breakfast",
+          "Includes train and bus tickets for Machu Picchu",
+          "Mountain adventure to Humantay Lake"
         ],
         "itinerary": [
-          "DÍA 1: CUSCO IN - CITY TOUR",
-          "DÍA 2: EXC. FD SANTUARIO HISTÓRICO DE MACHU PICCHU",
-          "DÍA 3: LAGUNA HUMANTAY",
-          "DÍA 4: MONTAÑA VININCUNCA (MONTAÑA 7 COLORES)",
-          "DÍA 5: CUSCO OUT"
+          "Day 1: Arrival in Cusco – City Tour. Arrival, airport transfer, rest and acclimate. Afternoon city tour visiting Qoricancha, Sacsayhuamán, Qenqo, Puca Pucara, artisan center with Inka Tea, and Tambomachay. Overnight in Cusco.",
+          "Day 2: Full-Day Excursion to Machu Picchu (Breakfast and lunch included). Train to Aguas Calientes, bus to Machu Picchu, guided tour, lunch at Apu Inti restaurant, return train and transfer to Cusco. Overnight in Cusco.",
+          "Day 3: Humantay Lake (Breakfast and lunch included). Early morning pick-up, travel to Mollepata and Soraypampa Valley. Hike 7 km round-trip to Humantay Lake (4200 m.a.s.l.). Enjoy stunning views, lunch, and return to Cusco. Overnight in Cusco.",
+          "Day 4: Vinicunca Rainbow Mountain (Breakfast and lunch included). Early pick-up, breakfast in Cusipata. 2-hour hike to Rainbow Mountain summit (5020 m.a.s.l.), enjoy views and photos. Return hike, lunch, and arrival in Cusco. Overnight in Cusco.",
+          "Day 5: Departure from Cusco (Breakfast included). Transfer to Velasco Astete International Airport. End of services."
         ],
-        "startDate": "2025-01-01",
-        "endDate": "2025-12-31",
+        "startDate": "",
+        "endDate": "",
         "includes": [
-          "Traslado in – out en Cusco",
-          "04 noches de hotel en Cusco + 04 desayunos",
-          "Excursión a la ciudad del Cusco y 4 Ruinas (Koricancha)",
-          "Excursión a Machu Picchu",
-          "Boleto de tren Expedition a Machu Picchu",
-          "Bus de subida y bajada a Machu Picchu",
-          "Almuerzo en Machu Picchu (Apu Inti)",
-          "Tour a Montaña 7 Colores (desayuno y almuerzo incluido)",
-          "Tour a Laguna Humantay (desayuno y almuerzo incluido)",
-          "Excursiones en servicio compartido",
-          "Todas las entradas a los atractivos de acuerdo al itinerario",
-          "Guiado profesional en español o inglés"
+          "Roundtrip transfers in Cusco (airport–hotel–airport)",
+          "4 nights hotel accommodation with breakfast",
+          "City tour of Cusco and 4 nearby ruins including Qoricancha",
+          "Full-day excursion to Machu Picchu",
+          "Train tickets to/from Machu Picchu",
+          "Bus tickets to/from Machu Picchu citadel",
+          "Lunch at Apu Inti restaurant in Machu Picchu",
+          "Rainbow Mountain tour with breakfast and lunch",
+          "Humantay Lake tour with breakfast and lunch",
+          "Shared group excursions",
+          "All entrance tickets as per itinerary",
+          "Professional bilingual guide (Spanish or English)"
         ],
         "notIncluded": [
-          "Tickets aéreos internacionales y domésticos",
-          "El early check-In (llegada temprana) y late check-Out (salida tardía)",
-          "Seguro de viaje",
-          "Comidas no mencionadas y propinas",
-          "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
-          "Ingreso a la Catedral"
+          "International and domestic airfare",
+          "Early check-in and late check-out outside hotel standard hours",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, medical or travel insurance, laundry, etc.)",
+          "Entrance fee to Cusco Cathedral"
         ],
-        "from": "590.1",
+        "from": "USD",
         "optional": [
-          "Tren Vistadome $80.00 (netos)",
-          "Caballo con arriero $30.00 (netos)"
+          "Vistadome Train Upgrade: $80 USD net rate",
+          "Horse with handler for Rainbow Mountain hike: $30 USD net",
+          "Private guide (additional cost)"
         ],
         "politics": [
-          "Precios por persona expresados en dólares americanos",
-          "Tarifa niños aplica a partir de 3 hasta 11 años",
-          "Tarifas sujetas a cambio sin previo aviso",
-          "No aplica en fechas festivas / fines de semana largos",
-          "Ingresos a la ciudadela de acuerdo al circuito elegido",
-          "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
+          "Prices are per person and expressed in US dollars.",
+          "Child rate applies for ages 3 to 11.",
+          "Rates subject to change without prior notice.",
+          "Rates do not apply on holidays or long weekends.",
+          "Entrance to Machu Picchu citadel depends on selected circuit and availability, with entry allowed from 1:00 PM onward.",
+          "Private guide and entrance fees must be arranged separately."
         ],
         "images": [
-          {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-            "width": 1200
-          },
-          {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-            "width": 1200
-          }
+          { "alt": "Laguna Humantay", "src": "assets/img/destinations/cusco/lake-huamantay.webp", "width": 800 },
+          { "alt": "Rainbow Mountain panorama", "src": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp", "width": 800 }
         ],
         "comfort": [
 
@@ -3176,79 +3225,180 @@
           }
         ]
       },
-      "6": {},
-      "7": {},
-      "8": {
-        "id": "8",
-        "title": "El Legado Sagrado de Cusco y el Lago Titicaca",
-        "subtitle": "Descubre la historia y cultura del Cusco y el místico Lago Titicaca",
-        "description": "Un viaje fascinante que te llevará a explorar las antiguas ruinas incas de Cusco, la mágica ciudadela de Machu Picchu y el imponente Lago Titicaca, el lago navegable más alto del mundo.",
-        "whyChooseUs": [
-          "Visitas guiadas a los principales atractivos de Cusco",
-          "Experiencia cultural en las islas flotantes de los Uros y Taquile",
-          "Explora Machu Picchu con un guía profesional",
-          "Asistencia personalizada y traslados en servicio compartido"
-        ],
-        "itinerary": [
-          "DÍA 1: CUSCO IN - CITY TOUR + RUINAS CERCANAS",
-          "DÍA 2: VALLE SAGRADO",
-          "DÍA 3: CUSCO – AGUAS CALIENTES",
-          "DÍA 4: MACHU PICCHU – CUSCO",
-          "DÍA 5: CUSCO – PUNO “RUTA DE SOL”",
-          "DÍA 6: ISLA UROS Y TAQUILE",
-          "DÍA 7: TRASLADO DE SALIDA"
-        ],
-        "startDate": "2025-01-01",
-        "endDate": "2025-12-31",
-        "includes": [
-          "Traslados in – out en Cusco",
-          "03 noches de hotel en Cusco + desayunos",
-          "01 noche de hotel en Aguas Calientes + desayunos",
-          "Traslados in – out en Puno",
-          "02 noches de hotel en Puno + desayunos",
-          "Excursión ciudad de Cusco y 4 Ruinas (Qoricancha)",
-          "Excursión a Machu Picchu",
-          "Boleto de tren Expedition a Machu Picchu",
-          "Bus de subida y bajada a Machu Picchu",
-          "Almuerzo en Machu Picchu (Apu Inti)",
-          "Excursión a Valle Sagrado. Incluye almuerzo.",
-          "Tours en servicio regular: Isla Uros y Taquile / Sillustani",
-          "01 almuerzo típico en Taquile",
-          "Excursiones en servicio compartido",
-          "Todas las entradas a los atractivos visitados de acuerdo al Itinerario",
-          "Guiado profesional en español o inglés"
-        ],
-        "notIncluded": [
-          "Tickets aéreos internacionales y domésticos",
-          "El early Check-in (llegada temprana) y el late Check-out (salida tardía)",
-          "Seguro de viaje",
-          "Comidas no mencionadas y propinas",
-          "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
-          "Ingreso a la Catedral"
-        ],
-        "from": "870.05",
-        "optional": [
-          "Tren Vistadome $80.00 (netos)"
-        ],
-        "politics": [
-          "Precios por persona expresados en dólares americanos",
-          "Tarifa niños aplica a partir de 3 hasta 11 años",
-          "Tarifas sujetas a cambio sin previo aviso",
-          "No aplica en fechas festivas / fines de semana largos",
-          "Ingresos a la ciudadela de acuerdo al circuito elegido",
-          "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
-        ],
+      "6": {
+        "id": "6",
+        "title": "Discover Cusco and the Oasis",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
         "images": [
           {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
             "width": 1200
           },
           {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
             "width": 1200
           }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      },
+      "7": {
+        "id": "7",
+        "title": "Explore Peru: Andes and The Amazon",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      },
+      "8": {
+        "id": "8",
+        "title": "The Sacred Legacy of Cusco & Lake Titicaca",
+        "subtitle": "Explore the ancient wonders of Cusco, Machu Picchu, Sacred Valley, and Lake Titicaca",
+        "description": "An unforgettable journey through the heart of the Inca Empire, including Cusco city tour, Sacred Valley, Machu Picchu, and the cultural richness of Lake Titicaca's Uros and Taquile Islands.",
+        "whyChooseUs": [
+          "Professional bilingual guides (Spanish or English)",
+          "All entrance tickets included as per itinerary",
+          "Shared group excursions for social and immersive experience",
+          "Includes expedition train and bus tickets to Machu Picchu",
+          "Traditional meals included during key excursions",
+          "Experience the unique culture of Lake Titicaca's islands"
+        ],
+        "itinerary": [
+          "Day 1: Arrival in Cusco – City Tour + Nearby Ruins. Arrival, transfer to hotel and welcome coca tea. Afternoon city tour with visits to Qoricancha, Sacsayhuamán, Qenqo, Pucapucara, and Tambomachay. Overnight in Cusco.",
+          "Day 2: Sacred Valley Tour (Breakfast and lunch included). Tour to Pisac market, Ccoya, Lamay, Calca, Urubamba. Buffet lunch included. Visit Ollantaytambo and return via Chinchero. Overnight in Cusco.",
+          "Day 3: Cusco – Aguas Calientes (Breakfast and lunch included). Train transfer to Aguas Calientes, hotel check-in, afternoon at leisure, optional thermal baths visit. Overnight in Aguas Calientes.",
+          "Day 4: Machu Picchu – Return to Cusco (Breakfast included). Transfer to Machu Picchu via bus, guided tour of main areas (Main Viewpoint, Temple of the Three Windows, Intihuatana, Main Square). Return by bus and train to Cusco. Overnight in Cusco.",
+          "Day 5: Cusco – Puno via 'Route of the Sun' (Breakfast and lunch included). Guided bus tour with stops at Andahuaylillas church, Raqchi temple, Sicuani lunch, La Raya pass, Pukará pyramid. Arrival and overnight in Puno.",
+          "Day 6: Uros & Taquile Islands (Breakfast and lunch included). Boat transfer to Uros floating islands, guided visit. Continue to Taquile Island with traditional lunch and free time to explore. Return to Puno. Overnight in Puno.",
+          "Day 7: Departure from Puno (Breakfast included). Transfer to Juliaca Airport for return flight. End of services."
+        ],
+        "startDate": "",
+        "endDate": "",
+        "includes": [
+          "Roundtrip transfers in Cusco (airport – hotel – airport)",
+          "03 nights hotel accommodation in Cusco with breakfast",
+          "01 night hotel accommodation in Aguas Calientes with breakfast",
+          "Roundtrip transfers in Puno",
+          "02 nights hotel accommodation in Puno with breakfast",
+          "City tour of Cusco and 4 nearby ruins (including Qoricancha)",
+          "Excursion to Machu Picchu",
+          "Expedition train ticket to/from Machu Picchu",
+          "Roundtrip bus ticket to/from Machu Picchu",
+          "Lunch in Machu Picchu (Apu Inti restaurant)",
+          "Sacred Valley excursion, including lunch",
+          "Regular group tours: Uros & Taquile Islands / Sillustani",
+          "01 traditional lunch in Taquile",
+          "Shared group excursions",
+          "All entrance tickets to attractions as per itinerary",
+          "Professional bilingual guide (Spanish or English)"
+        ],
+        "notIncluded": [
+          "International and domestic airfare",
+          "Early check-in and late check-out beyond the hotel’s standard hours",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, medical/travel insurance, laundry, etc.)",
+          "Entrance fee to Cusco Cathedral"
+        ],
+        "from": "USD",
+        "optional": [
+          "Vistadome Train Upgrade: $80.00 USD (net rate)"
+        ],
+        "politics": [
+          "Prices are per person and expressed in U.S. dollars.",
+          "Child rate applies for children aged 3 to 11 years.",
+          "Rates are subject to change without prior notice.",
+          "Rates do not apply on holidays or long weekends.",
+          "Entry to the citadel is based on the selected circuit and is subject to availability, with access permitted from 1:00 PM onward.",
+          "If a private guide is requested, it must be added separately.",
+          "Entry fee to the citadel is subject to change without prior notice."
+        ],
+        "images": [
+          { "alt": "Machu Picchu", "src": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp", "width": 800 },
+          { "alt": "Puno Lake", "src": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp", "width": 800 }
         ],
         "comfort": [
           {
@@ -3382,10 +3532,60 @@
         ],
         "premium": []
       },
-      "9": {}
-
-
-
+      "9": {
+        "id": "9",
+        "title": "Andean Journey: Cusco and Arequipa",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
+            "width": 1200
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      }
     }
   },
   "WAYS_TO_TRAVEL": {
@@ -3622,55 +3822,55 @@
         {
           "id": "1",
           "title": "Cusco Express",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
           "price": "0"
         },
         {
           "id": "2",
           "title": "Essential Cusco & Machu Picchu\n",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
           "price": "0"
         },
         {
           "id": "3",
           "title": "Must-See Cusco Tour",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
           "price": "0"
         },
         {
           "id": "4",
           "title": "Cusco and Rainbow Mountain",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
           "price": "0"
         },
         {
           "id": "5",
           "title": "Charms of Cusco and Humantay Lagoon",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/lake-huamantay.webp",
           "price": "0"
         },
         {
           "id": "6",
           "title": "Discover Cusco and the Oasis",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
           "price": "0"
         },
         {
           "id": "7",
           "title": "Explore Peru: Andes and The Amazon",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/peru-weavers-llama.webp",
           "price": "0"
         },
         {
           "id": "8",
           "title": "The Sacred Legacy of Cusco and Lake Titicaca",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp",
           "price": "0"
         },
         {
           "id": "9",
           "title": "Andean Journey: Cusco and Arequipa",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/arequipa/colca-canon.webp",
           "price": "0"
         }
       ]
@@ -4051,6 +4251,52 @@
     "EMAIL": "Required field with valid email format",
     "RUC": "Required field with 11 digits",
     "DNI": "Required field with 8 digits"
+  },
+  "INFO_PACKAGES": {
+    "MENU": {
+      "DESCRIPTION": "Description",
+      "ITINERARY": "Itinerary",
+      "INCLUDES": "Includes",
+      "NOT_INCLUDES": "Not Included",
+      "PRICES": "Prices",
+      "POLITICS": "Policies"
+    },
+    "DESCRIPTION": {
+      "DAILY_DEPARTURES": "Daily Departures",
+      "GROUP_SERVICE": "Group Service",
+      "TOUR_GUIDE": "Tour Guide",
+      "FLEXIBLE_CANCELLATION": "Flexible Cancellation",
+      "HOTEL_PICKUP": "Hotel Pickup",
+      "LANGUAGE": "Spanish",
+      "READ_NOTES": "Please read the travel notes before booking."
+    },
+    "WHY_YOU_WILL_LOVE": "Why will you love the {{ subtitle }}?",
+    "ITINERARY_TITLE": "Itinerary",
+    "INCLUDES_TITLE": "Includes",
+    "NOT_INCLUDES_TITLE": "Not Included",
+    "PRICES_TITLE": "Prices",
+    "PRICE_CATEGORIES": {
+      "COMFORT": "Comfort",
+      "DELUXE": "Deluxe",
+      "PREMIUM": "Premium",
+      "CATEGORY": "Category",
+      "SIMPLE": "Single",
+      "DOUBLE": "Double",
+      "TRIPLE": "Triple",
+      "CHILD": "Child"
+    },
+    "POLITICS_TITLE": "Policies",
+    "RESERVE_YOUR_TRIP": "Reserve Your Trip",
+    "FROM": "From",
+    "BUY_NOW": "Buy Now",
+    "REVIEWS": "Reviews",
+    "PACKAGE_RATES": {
+      "TARIFF": "Tariff",
+      "PRICE_PER_PERSON": "Price per person",
+      "PERUVIAN": "Peruvian",
+      "FOREIGN": "Foreigner"
+    }
+
   }
 
 }

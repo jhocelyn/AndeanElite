@@ -11,10 +11,10 @@
     ></app-detail-tours-package>
   </div>
   <div class="my-0 md:my-24 sticky top-5 w-[30%] h-[50vh] flex flex-col justify-center items-center bg-[#042a4e] mx-2 text-white rounded-2xl shadow-lg p-8">
-      <h1 class="text-3xl font-bold mb-4 text-center">Reserva tu viaje</h1>
-      <p class="text-lg font-semibold mb-6">Desde 300$</p>
+      <h1 class="text-3xl font-bold mb-4 text-center">{{ 'INFO_PACKAGES.RESERVE_YOUR_TRIP' | translate }}</h1>
+      <p class="text-lg font-semibold mb-6">{{ 'INFO_PACKAGES.FROM' | translate }} {{ packageData.from }}</p>
       <button class="bg-yellow-500 text-[#042a4e] font-semibold px-12 py-4 rounded-2xl shadow-lg hover:bg-yellow-400 hover:text-[#042a4e] transition-all duration-300">
-        Comprar Ahora
+        {{ 'INFO_PACKAGES.BUY_NOW' | translate }}
       </button>
     </div>
 </div>

@@ -208,7 +208,7 @@
     "NAZCA": "NAZCA",
     "PUERTO_MALDONADO": "PUERTO MALDONADO"
   },
-  "PACKAGES":{
+  "PACKAGES": {
     "DESTINOS":{
       "AREQUIPA": [
       {
@@ -2351,13 +2351,13 @@
         ],
         "images": [
           {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
             "width": 1200
           },
           {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
             "width": 1200
           }
         ],
@@ -2516,7 +2516,55 @@
           }
         ]
       },
-      "2": {},
+      "2": {
+        "id": "2",
+        "title": "Esencial Cusco y Machu Picchu (Cusco y Mapi)",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "",
+            "src": "",
+            "width": 0
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      },
       "3": {
         "id": "3",
         "title": "Tour Imperdible Cusco",
@@ -2571,13 +2619,13 @@
         ],
         "images": [
           {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
             "width": 1200
           },
           {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
             "width": 1200
           }
         ],
@@ -2765,17 +2813,10 @@
           "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
         ],
         "images": [
-          {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-            "width": 1200
-          },
-          {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-            "width": 1200
-          }
+          { "alt": "Moray", "src": "assets/img/home/banner/Moray.webp", "width": 800 },
+          { "alt": "Rainbow Mountain panorama", "src": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp", "width": 800 }
         ],
+
         "comfort": [
           {
             "child": "478.8",
@@ -3014,16 +3055,8 @@
           "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
         ],
         "images": [
-          {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-            "width": 1200
-          },
-          {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-            "width": 1200
-          }
+          { "alt": "Laguna Humantay", "src": "assets/img/destinations/cusco/lake-humantay.webp", "width": 800 },
+          { "alt": "Rainbow Mountain panorama", "src": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp", "width": 800 }
         ],
         "comfort": [
 
@@ -3195,8 +3228,104 @@
           }
         ]
       },
-      "6": {},
-      "7": {},
+      "6": {
+        "id": "6",
+        "title": "Descubre Cusco y el Oasis",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "",
+            "src": "",
+            "width": 0
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      },
+      "7": {
+        "id": "7",
+        "title": "Explora Perú: Andes y Amazonía",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "",
+            "src": "",
+            "width": 0
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      },
       "8": {
         "id": "8",
         "title": "El Legado Sagrado de Cusco y el Lago Titicaca",
@@ -3258,16 +3387,8 @@
           "Guiado en privado y precio del ingreso a la ciudadela sujeto a cambios"
         ],
         "images": [
-          {
-            "alt": "Cañón del Cóndor y nevado Salkantay",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-            "width": 1200
-          },
-          {
-            "alt": "Mirador en Chonta, Perú",
-            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-            "width": 1200
-          }
+          { "alt": "Machu Picchu", "src": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp", "width": 800 },
+          { "alt": "Puno Lake", "src": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp", "width": 800 }
         ],
         "comfort": [
           {
@@ -3401,10 +3522,55 @@
         ],
         "premium": []
       },
-      "9": {}
-
-
-
+      "9": {
+        "id": "9",
+        "title": "Viaje Andino: Cusco y Arequipa",
+        "subtitle": "",
+        "description": "",
+        "whyChooseUs": [],
+        "itinerary": [],
+        "startDate": "",
+        "endDate": "",
+        "includes": [],
+        "notIncluded": [],
+        "from": "",
+        "optional": [],
+        "politics": [],
+        "images": [
+          {
+            "alt": "",
+            "src": "",
+            "width": 0
+          }
+        ],
+        "comfort": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "deluxe": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ],
+        "premium": [
+          {
+            "name": "",
+            "simple": "",
+            "double": "",
+            "triple": "",
+            "child": ""
+          }
+        ]
+      }
     }
   },
   "WAYS_TO_TRAVEL": {
@@ -3641,55 +3807,55 @@
         {
           "id": "1",
           "title": "Cusco Exprés (CUSCO)",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
           "price": "0"
         },
         {
           "id": "2",
           "title": "Esencial Cusco y Machu Picchu (Cusco y Mapi)",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
           "price": "0"
         },
         {
           "id": "3",
           "title": "Tour Imperdible Cusco (cusco Valle y Mapi)",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
           "price": "0"
         },
         {
           "id": "4",
           "title": "Cusco y Montaña 7 Colores Cusco Valle Mapi y 7 Colores",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
           "price": "0"
         },
         {
           "id": "5",
           "title": "Encantos de Cusco y Laguna Humantay",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/lake-huamantay.webp",
           "price": "0"
         },
         {
           "id": "6",
           "title": "Descubre Cusco y el Oasis\n",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
           "price": "0"
         },
         {
           "id": "7",
           "title": "Explora Perú: Andes y Amazonía",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/cusco/peru-weavers-llama.webp",
           "price": "0"
         },
         {
           "id": "8",
           "title": "El Legado Sagrado de Cusco y el Lago Titicaca",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp",
           "price": "0"
         },
         {
           "id": "9",
           "title": "Viaje Andino: Cusco y Arequipa",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+          "image": "assets/img/destinations/arequipa/colca-canon.webp",
           "price": "0"
         }
       ]
@@ -4070,5 +4236,50 @@
     "EMAIL": "Campo requerido con formato de correo electronico",
     "RUC": "Campo requerido de 11 digitos",
     "DNI": "Campo requerido de 8 digitos"
+  },
+  "INFO_PACKAGES": {
+    "MENU": {
+      "DESCRIPTION": "Descripción",
+      "ITINERARY": "Itinerario",
+      "INCLUDES": "Incluye",
+      "NOT_INCLUDES": "No Incluye",
+      "PRICES": "Precios",
+      "POLITICS": "Políticas"
+    },
+    "DESCRIPTION": {
+      "DAILY_DEPARTURES": "Salidas diarias",
+      "GROUP_SERVICE": "Servicio grupal",
+      "TOUR_GUIDE": "Guía de turismo",
+      "FLEXIBLE_CANCELLATION": "Cancelación Flexible",
+      "HOTEL_PICKUP": "Recojo desde hotel",
+      "LANGUAGE": "Español",
+      "READ_NOTES": "Por favor leer las notas de viaje antes de reservar."
+    },
+    "WHY_YOU_WILL_LOVE": "¿Por qué amarás el {{ subtitle }}?",
+    "ITINERARY_TITLE": "Itinerario",
+    "INCLUDES_TITLE": "Incluye",
+    "NOT_INCLUDES_TITLE": "No Incluye",
+    "PRICES_TITLE": "Precios",
+    "PRICE_CATEGORIES": {
+      "COMFORT": "Comfort",
+      "DELUXE": "Deluxe",
+      "PREMIUM": "Premium",
+      "CATEGORY": "Categoría",
+      "SIMPLE": "Simple",
+      "DOUBLE": "Doble",
+      "TRIPLE": "Triple",
+      "CHILD": "Niño"
+    },
+    "POLITICS_TITLE": "Políticas",
+    "RESERVE_YOUR_TRIP": "Reserva tu viaje",
+    "FROM": "Desde",
+    "BUY_NOW": "Comprar Ahora",
+    "REVIEWS": "Reseñas",
+    "PACKAGE_RATES": {
+      "TARIFF": "Tarifa",
+      "PRICE_PER_PERSON": "Precio por persona",
+      "PERUVIAN": "Peruano",
+      "FOREIGN": "Extranjero"
+    }
   }
 }

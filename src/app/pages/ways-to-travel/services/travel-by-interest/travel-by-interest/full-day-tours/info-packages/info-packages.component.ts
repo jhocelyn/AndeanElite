@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import {Component, OnDestroy} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
+import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import { TourBannerComponent } from '../../../../../../../shared/components/tours/tour-banner/tour-banner.component';
 import { NgIf} from '@angular/common';
 import {
   DetailToursPackageComponent
 } from '../../../../../../../shared/components/tours/detail-tours-package/detail-tours-package.component';
+import {Subscription} from 'rxjs';
 
 
 interface PackageData {
@@ -17,6 +18,7 @@ interface PackageData {
   itinerary: string[];
   startDate: string;
   endDate: string;
+  from:string;
   includes: string[];
   notIncluded: string[];
   prices: {
@@ -39,23 +41,41 @@ interface PackageData {
   imports: [
     TourBannerComponent,
     NgIf,
-    DetailToursPackageComponent
+    DetailToursPackageComponent,
+    TranslatePipe
   ],
   templateUrl: './info-packages.component.html',
   styleUrls: ['./info-packages.component.css']
 })
-export class InfoPackagesComponent {
+export class InfoPackagesComponent implements OnDestroy{
   packageData: PackageData | undefined;
+  private subscription: Subscription | undefined;
+  packageId: string | undefined;
 
   constructor(private route: ActivatedRoute, private translate: TranslateService) {}
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      const packageId = params['id'];
-      this.translate.get(`PACKAGES.FULL_DAY_TOURS.${packageId}`).subscribe(data => {
-        this.packageData = data;
-      });
+      this.packageId = params['id'];
+      this.loadPackageData();
     });
+
+    // Para que cambie cuando cambie el idioma
+    this.subscription = this.translate.onLangChange.subscribe(() => {
+      this.loadPackageData();
+    });
+  }
+
+  loadPackageData() {
+    if (!this.packageId) return;
+
+    this.translate.get(`PACKAGES.FULL_DAY_TOURS.${this.packageId}`).subscribe(data => {
+      this.packageData = data as PackageData;
+    });
+  }
+
+  ngOnDestroy() {
+    this.subscription?.unsubscribe();
   }
 
 }
