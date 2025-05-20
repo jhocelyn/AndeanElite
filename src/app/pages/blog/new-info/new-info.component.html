@@ -1,1 +1,8 @@
-<p>new-info works!</p>
+<div *ngIf="newsItem" class="max-w-4xl mx-auto px-4 py-10">
+  <img [src]="newsItem.image" [alt]="newsItem.title" class="w-full h-auto mb-6 rounded-md shadow" />
+  <p class="text-sm text-gray-500 mb-2">
+    {{ newsItem.date }} | {{ 'SECTION_BLOG.CATEGORIES.' + newsItem.category | translate }}
+  </p>
+  <h1 class="text-3xl font-bold text-gray-800 mb-4">{{ newsItem.title }}</h1>
+  <p class="text-lg text-gray-700 whitespace-pre-line" [innerHTML]="newsItem.text"></p>
+</div>
