@@ -1,7 +1,6 @@
-
-<app-banner
-  [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
-  [title]="'DESTINATIONS.PUERTO_MALDONADO'"
-></app-banner>
-
-
+<app-list-packages-structure
+  [backgroundImage]="'DESTINATIONS.PUERTO_MALDONADO.IMAGE'"
+  [title]="'DESTINATIONS.PUERTO_MALDONADO.TITLE'"
+  [description]="PuertoMaldonadodata?.DESCRIPTION"
+  [packages]="PuertoMaldonadodata?.PACKAGES"
+></app-list-packages-structure>

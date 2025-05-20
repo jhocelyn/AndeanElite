@@ -183,12 +183,73 @@
   },
   "DESTINATIONS": {
   "TITLE": "Destinations",
-  "CUSCO": "CUSCO",
-  "AREQUIPA": "AREQUIPA",
-  "LIMA": "LIMA",
-  "ICA": "ICA",
-  "NAZCA": "NAZCA",
-  "PUERTO_MALDONADO": "PUERTO MALDONADO"
+    "CUSCO": {
+    "TITLE": "CUSCO",
+    "DESCRIPTION": "Cusco, the ancient capital of the Inca Empire, is a UNESCO World Heritage site known for its rich history and stunning architecture. Nestled in the Andes mountains, it offers a unique blend of Inca and colonial Spanish influences. Visitors can explore archaeological sites, vibrant markets, and experience the local culture.",
+    "IMAGE": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
+    "PACKAGES": []
+    },
+    "AREQUIPA": {
+    "TITLE": "AREQUIPA",
+    "DESCRIPTION": "Arequipa is the colonial-era capital of the Arequipa region in Peru. It is surrounded by three volcanoes and features baroque buildings made of sillar, a white volcanic stone. Arequipa is known for its rich history, stunning architecture, and vibrant culture.",
+      "IMAGE": "assets/img/destinations/arequipa/colca-canon.webp",
+    "PACKAGES": [
+    ]
+  },
+    "LIMA": {
+    "TITLE": "LIMA",
+    "DESCRIPTION": "Lima, the capital of Peru, is a vibrant city that blends history and modernity. Known as the 'City of Kings', it boasts a rich colonial heritage, world-class cuisine, and stunning coastal views. Lima is a gateway to Peru's diverse landscapes and cultures.",
+      "IMAGE": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
+    "PACKAGES": [
+    ]
+  },
+    "ICA": {
+    "TITLE": "ICA",
+    "DESCRIPTION": "Ica is a region in southern Peru known for its desert landscapes, vineyards, and the famous Huacachina oasis. It offers adventure activities like sandboarding and dune buggy rides, as well as opportunities to explore ancient archaeological sites.",
+    "IMAGE": "assets/img/destinations/ica/huacachina-desert-oasis.webp",
+    "PACKAGES": [
+    ]
+  },
+    "NAZCA": {
+      "TITLE": "NAZCA",
+      "DESCRIPTION": "Nazca is a region in southern Peru famous for the Nazca Lines, ancient geoglyphs etched into the desert floor. These mysterious figures can be best appreciated from the air, and the area is also known for its rich archaeological heritage and stunning desert landscapes.",
+      "IMAGE": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
+      "PACKAGES": [
+      ]
+    },
+    "PUERTO_MALDONADO": {
+      "TITLE":"PUERTO MALDONADO",
+      "DESCRIPTION": "Puerto Maldonado is the capital of the Madre de Dios region in southeastern Peru. It serves as a gateway to the Amazon rainforest, offering access to stunning biodiversity, indigenous cultures, and eco-tourism opportunities. Visitors can explore the Tambopata National Reserve and experience the rich flora and fauna of the Amazon.",
+      "IMAGE": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
+      "PACKAGES": [
+      ]
+    },
+    "PUNO": {
+      "TITLE": "PUNO",
+      "DESCRIPTION": "Puno is a city located on the shores of Lake Titicaca, the highest navigable lake in the world. It is known for its rich indigenous culture, traditional festivals, and stunning landscapes. Visitors can explore the floating islands of Uros and Taquile, as well as experience the vibrant local culture.",
+      "IMAGE": "",
+      "PACKAGES": [
+        {
+          "id": "",
+          "title": "",
+          "image": "",
+          "price": ""
+        }
+      ]
+    },
+    "CHACHAPOYAS": {
+      "TITLE": "CHACHAPOYAS",
+      "DESCRIPTION": "Chachapoyas is a region in northern Peru known for its stunning landscapes, rich history, and archaeological sites. It is home to the impressive Kuelap fortress, ancient burial sites, and beautiful waterfalls. The region offers a unique blend of culture and nature.",
+      "IMAGE": "",
+      "PACKAGES": [
+        {
+          "id": "",
+          "title": "",
+          "image": "",
+          "price": ""
+        }
+      ]
+    }
 },
   "PACKAGES":{
     "DESTINOS":{

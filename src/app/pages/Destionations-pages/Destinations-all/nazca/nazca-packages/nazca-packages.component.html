@@ -1,8 +1,6 @@
-
-<app-banner
-  [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
-  [title]="'DESTINATIONS.NAZCA'"
-></app-banner>
-<div class="p-1 grid grid-cols-2 md:grid-cols-4 gap-5">
-
-</div>
+<app-list-packages-structure
+  [backgroundImage]="'DESTINATIONS.NAZCA.IMAGE'"
+  [title]="'DESTINATIONS.NAZCA.TITLE'"
+  [description]="Nazcadata?.DESCRIPTION"
+  [packages]="Nazcadata?.PACKAGES"
+></app-list-packages-structure>

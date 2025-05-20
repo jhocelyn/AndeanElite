@@ -5,7 +5,7 @@
 <div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center w-full md:gap-40 h-[40vh]">
   <div class="flex flex-col items-center justify-center gap-5 w-[80%] xl:w-[540px] p-10 md:p-0">
     <h6 class="text-xl xl:text-[20px] font-extralight text-[#034873]">
-      Andean Elite
+      ANDEAN ELITE
     </h6>
     <p class="text-center text-lg xl:text-[25px] text-[#034873]">
       {{ 'ANDEANELITE.DESCRIPTION' | translate }}
@@ -23,69 +23,84 @@
   </div>
 </div>
 <!--Why ANDEANELITE Seccion-->
-<div class="flex items-center text-justify justify-center flex-col bg-[#034873] text-[#FFFFFF] gap-10 md:gap-20 h-[210vh] xl:h-[80vh] ">
-  <div class="mt-10 xl:mt-2">
-    <h1 class="text-center text-4xl xl:text-[50px]">{{ 'WHYANDEANELITE.TITLE' | translate}}</h1>
-  </div>
-  <div class="flex flex-col md:grid md:grid-cols-3 gap-20 md:p-0">
-    <!--First-->
-    <div class="flex items-center justify-center gap-3">
-      <div class="flex items-center justify-center">
-      <i class="fa-solid fa-plane text-[60px] md:text-[80px]" ></i>
-      </div>
-      <div class="w-[200px] md:w-[250px]">
-        <h2 class="text-[25px]">{{ 'WHYANDEANELITE.1.TITLE' | translate}}</h2>
-        <p class="text-[15px]">{{ 'WHYANDEANELITE.1.DESCRIPTION' | translate}}</p>
-      </div>
-    </div>
-    <!--Second-->
-    <div class="flex items-center justify-center gap-3">
-      <div class="flex items-center justify-center">
-        <i class="fa-solid fa-hotel text-[60px] md:text-[80px]" ></i>
-      </div>
-      <div class="w-[200px] md:w-[250px]">
-        <h2 class="text-[25px]">{{ 'WHYANDEANELITE.2.TITLE' | translate}}</h2>
-        <p class="text-[15px]">{{ 'WHYANDEANELITE.2.DESCRIPTION' | translate}}</p>
+<div class="flex items-center justify-center flex-col bg-[#034873] text-white gap-10 md:gap-20 px-4 py-10 xl:py-16">
+  <!-- Título principal -->
+  <h1 class="text-center text-4xl xl:text-[50px] font-semibold">
+    {{ 'WHYANDEANELITE.TITLE' | translate }}
+  </h1>
+
+  <!-- Contenedor de los elementos -->
+  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-14">
+    <!-- Reusable item -->
+    <div class="flex items-start gap-4 max-w-[300px] text-justify">
+      <i class="fa-solid fa-plane text-[50px] md:text-[60px]"></i>
+      <div>
+        <h2 class="text-xl font-bold mb-2">
+          {{ 'WHYANDEANELITE.1.TITLE' | translate }}
+        </h2>
+        <p class="text-sm leading-relaxed">
+          {{ 'WHYANDEANELITE.1.DESCRIPTION' | translate }}
+        </p>
       </div>
     </div>
-    <!--Third-->
-    <div class="flex items-center justify-center gap-3">
-      <div class="flex items-center justify-center">
-        <i class="fa-solid fa-people-group text-[60px] md:text-[80px]" ></i>
-      </div>
-      <div class="w-[200px] md:w-[250px]">
-        <h2 class="text-[25px]">{{ 'WHYANDEANELITE.3.TITLE' | translate}}</h2>
-        <p class="text-[15px]">{{ 'WHYANDEANELITE.3.DESCRIPTION' | translate}}</p>
-      </div>
-    </div>
-    <!--Fourth-->
-    <div class="flex items-center justify-center gap-3">
-      <div class="flex items-center justify-center">
-        <i class="fa-solid fa-monument text-[60px] md:text-[80px]" ></i>
-      </div>
-      <div class="w-[200px] md:w-[250px]">
-        <h2 class="text-[25px]">{{ 'WHYANDEANELITE.4.TITLE' | translate}}</h2>
-        <p class="text-[15px]">{{ 'WHYANDEANELITE.4.DESCRIPTION' | translate}}</p>
+
+    <div class="flex items-start gap-4 max-w-[300px] text-justify">
+      <i class="fa-solid fa-hotel text-[50px] md:text-[60px]"></i>
+      <div>
+        <h2 class="text-xl font-bold mb-2">
+          {{ 'WHYANDEANELITE.2.TITLE' | translate }}
+        </h2>
+        <p class="text-sm leading-relaxed">
+          {{ 'WHYANDEANELITE.2.DESCRIPTION' | translate }}
+        </p>
       </div>
     </div>
-    <!--Fifth-->
-    <div class="flex items-center justify-center gap-3">
-      <div class="flex items-center justify-center">
-        <i class="fa-solid fa-book-open text-[60px] md:text-[80px]" ></i>
-      </div>
-      <div class="w-[200px] md:w-[250px]">
-        <h2 class="text-[25px]">{{ 'WHYANDEANELITE.5.TITLE' | translate}}</h2>
-        <p class="text-[15px]">{{ 'WHYANDEANELITE.5.DESCRIPTION' | translate}}</p>
+
+    <div class="flex items-start gap-4 max-w-[300px] text-justify">
+      <i class="fa-solid fa-people-group text-[50px] md:text-[60px]"></i>
+      <div>
+        <h2 class="text-xl font-bold mb-2">
+          {{ 'WHYANDEANELITE.3.TITLE' | translate }}
+        </h2>
+        <p class="text-sm leading-relaxed">
+          {{ 'WHYANDEANELITE.3.DESCRIPTION' | translate }}
+        </p>
       </div>
     </div>
-    <!--Sixth-->
-    <div class="flex items-center justify-center gap-3">
-      <div class="flex items-center justify-center">
-        <i class="fa-solid fa-shield-heart text-[60px] md:text-[80px]" ></i>
+
+    <div class="flex items-start gap-4 max-w-[300px] text-justify">
+      <i class="fa-solid fa-monument text-[50px] md:text-[60px]"></i>
+      <div>
+        <h2 class="text-xl font-bold mb-2">
+          {{ 'WHYANDEANELITE.4.TITLE' | translate }}
+        </h2>
+        <p class="text-sm leading-relaxed">
+          {{ 'WHYANDEANELITE.4.DESCRIPTION' | translate }}
+        </p>
       </div>
-      <div class="w-[200px] md:w-[250px]">
-        <h2 class="text-[25px]">{{ 'WHYANDEANELITE.6.TITLE' | translate}}</h2>
-        <p class="text-[15px]">{{ 'WHYANDEANELITE.6.DESCRIPTION' | translate}}</p>
+    </div>
+
+    <div class="flex items-start gap-4 max-w-[300px] text-justify">
+      <i class="fa-solid fa-book-open text-[50px] md:text-[60px]"></i>
+      <div>
+        <h2 class="text-xl font-bold mb-2">
+          {{ 'WHYANDEANELITE.5.TITLE' | translate }}
+        </h2>
+        <p class="text-sm leading-relaxed">
+          {{ 'WHYANDEANELITE.5.DESCRIPTION' | translate }}
+        </p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4 max-w-[300px] text-justify">
+      <i class="fa-solid fa-shield-heart text-[50px] md:text-[60px]"></i>
+      <div>
+        <h2 class="text-xl font-bold mb-2">
+          {{ 'WHYANDEANELITE.6.TITLE' | translate }}
+        </h2>
+        <p class="text-sm leading-relaxed">
+          {{ 'WHYANDEANELITE.6.DESCRIPTION' | translate }}
+        </p>
       </div>
     </div>
   </div>

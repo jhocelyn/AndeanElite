@@ -1,7 +1,6 @@
-
-<app-banner
-  [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
-  [title]="'DESTINATIONS.LIMA'"
-></app-banner>
-<div class="p-1 grid grid-cols-2 md:grid-cols-4 gap-5">
-</div>
+<app-list-packages-structure
+  [backgroundImage]="'DESTINATIONS.LIMA.IMAGE'"
+  [title]="'DESTINATIONS.LIMA.TITLE'"
+  [description]="Limadata?.DESCRIPTION"
+  [packages]="Limadata?.PACKAGES"
+></app-list-packages-structure>

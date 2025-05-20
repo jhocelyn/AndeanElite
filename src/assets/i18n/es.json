@@ -201,12 +201,74 @@
   },
   "DESTINATIONS": {
     "TITLE": "Destinos",
-    "CUSCO": "CUSCO",
-    "AREQUIPA": "AREQUIPA",
-    "LIMA": "LIMA",
-    "ICA": "ICA",
-    "NAZCA": "NAZCA",
-    "PUERTO_MALDONADO": "PUERTO MALDONADO"
+    "CUSCO": {
+      "TITLE": "Cusco",
+      "DESCRIPTION": "Cusco, la antigua capital del Imperio Inca, es un destino turístico de renombre mundial. Conocida por su rica historia, arquitectura colonial y paisajes impresionantes, Cusco ofrece una experiencia única que combina cultura, aventura y espiritualidad. Desde la majestuosidad de Machu Picchu hasta el vibrante Valle Sagrado, cada rincón de Cusco cuenta una historia fascinante.",
+      "IMAGE": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
+      "PACKAGES": [
+      ]
+    },
+    "AREQUIPA": {
+      "TITLE": "Arequipa",
+      "DESCRIPTION": "Arequipa, conocida como la 'Ciudad Blanca', es famosa por su arquitectura colonial construida con sillar, una piedra volcánica blanca. Rodeada de impresionantes volcanes, Arequipa ofrece una mezcla única de historia, cultura y belleza natural. Su centro histórico, declarado Patrimonio de la Humanidad por la UNESCO, alberga joyas arquitectónicas como la Catedral y el Monasterio de Santa Catalina.",
+      "IMAGE": "assets/img/destinations/arequipa/colca-canon.webp",
+      "PACKAGES": [
+      ]
+    },
+    "LIMA": {
+      "TITLE": "Lima",
+      "DESCRIPTION": "Lima, la capital del Perú, es una metrópoli vibrante que combina historia y modernidad. Conocida por su rica gastronomía, Lima ofrece una experiencia cultural única con su centro histórico, declarado Patrimonio de la Humanidad por la UNESCO. Desde sus impresionantes plazas hasta sus museos y playas, Lima es un destino fascinante que cautiva a los visitantes.",
+      "IMAGE": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
+      "PACKAGES": [
+      ]
+    },
+    "ICA": {
+      "TITLE": "Ica",
+      "DESCRIPTION": "Ica, ubicada en la costa sur del Perú, es famosa por sus paisajes desérticos y su producción de vino y pisco. Conocida por las Líneas de Nazca, Ica ofrece una mezcla de historia, cultura y aventura. Los visitantes pueden explorar sus viñedos, disfrutar de deportes de aventura en las dunas y descubrir la rica herencia cultural de la región.",
+      "IMAGE": "assets/img/destinations/ica/huacachina-desert-oasis.webp",
+      "PACKAGES": [
+      ]
+    },
+    "NAZCA":{
+      "TITLE": "Nazca",
+      "DESCRIPTION": "Nazca, famosa por sus enigmáticas Líneas de Nazca, es un destino fascinante que atrae a viajeros de todo el mundo. Estas gigantescas figuras geométricas y representaciones de animales, visibles desde el aire, son un misterio arqueológico. Además, Nazca ofrece paisajes desérticos impresionantes y una rica historia cultural.",
+      "IMAGE": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
+      "PACKAGES": [
+      ]
+    },
+    "PUERTO_MALDONADO": {
+      "TITLE": "Puerto Maldonado",
+      "DESCRIPTION": "Puerto Maldonado, la puerta de entrada a la Amazonía peruana, es un destino ecoturístico que ofrece una experiencia única en la selva tropical. Con su rica biodiversidad y paisajes impresionantes, los visitantes pueden explorar la selva, avistar fauna exótica y disfrutar de actividades al aire libre. Puerto Maldonado es un lugar ideal para los amantes de la naturaleza y la aventura.",
+      "IMAGE": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
+      "PACKAGES": [
+      ]
+    },
+    "PUNO": {
+      "TITLE": "Puno",
+      "DESCRIPTION": "Puno, situada a orillas del lago Titicaca, es conocida como la 'Capital Folklórica del Perú'. Este destino ofrece una rica herencia cultural, con tradiciones indígenas y festivales vibrantes. Los visitantes pueden explorar las islas flotantes de los Uros, disfrutar de la belleza del lago y sumergirse en la cultura andina.",
+      "IMAGE": "assets/img/destinations/puno/puno.webp",
+      "PACKAGES": [
+        {
+          "id": "",
+          "title": "",
+          "image": "",
+          "price": ""
+        }
+      ]
+    },
+    "CHACHAPOYAS": {
+      "TITLE": "Chachapoyas",
+      "DESCRIPTION": "Chachapoyas, ubicada en la región Amazonas, es un destino lleno de historia y belleza natural. Conocida por sus impresionantes paisajes montañosos y su rica herencia cultural, Chachapoyas ofrece una experiencia única. Los visitantes pueden explorar las ruinas de Kuélap, las cataratas de Gocta y disfrutar de la biodiversidad de la región.",
+      "IMAGE": "assets/img/destinations/chachapoyas/chachapoyas.webp",
+      "PACKAGES": [
+        {
+          "id": "",
+          "title": "",
+          "image": "",
+          "price": ""
+        }
+      ]
+    }
   },
   "PACKAGES": {
     "DESTINOS":{
