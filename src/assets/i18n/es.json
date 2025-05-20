@@ -39,30 +39,30 @@
     "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida..."
   },
   "WHYANDEANELITE": {
-    "TITLE": "Por qué Andean Elite?",
+    "TITLE": "¿Por qué Andean Elite?",
     "1": {
       "TITLE": "Experiencias Únicas",
-      "DESCRIPTION": "Creamos viajes personalizados en Perú, desde Machu Picchu hasta el Lago Titicaca, combinando aventura, cultura y lujo."
+      "DESCRIPTION": "Viajes personalizados en Perú, con aventura, cultura y lujo en cada destino."
     },
     "2": {
       "TITLE": "Lujo en Cada Detalle",
-      "DESCRIPTION": "Ofrecemos hoteles boutique, trenes exclusivos y transporte privado para un viaje cómodo y elegante."
+      "DESCRIPTION": "Hoteles boutique, trenes exclusivos y transporte privado para un viaje elegante."
     },
     "3": {
       "TITLE": "Atención 24/7",
-      "DESCRIPTION": "Nuestro equipo está disponible para resolver cualquier imprevisto y garantizar tu tranquilidad."
+      "DESCRIPTION": "Disponibles siempre para resolver imprevistos y asegurar tu tranquilidad."
     },
     "4": {
       "TITLE": "Conexión Cultural",
-      "DESCRIPTION": "Descubre la historia y cultura del Perú con visitas exclusivas a Machu Picchu y el Valle Sagrado."
+      "DESCRIPTION": "Explora Machu Picchu y el Valle Sagrado con tours culturales y exclusivos."
     },
     "5": {
       "TITLE": "Guías Expertos",
-      "DESCRIPTION": "Nuestros guías locales te ofrecen conocimiento cultural e histórico en destinos como Cusco y Arequipa."
+      "DESCRIPTION": "Guías locales con profundo conocimiento cultural en destinos como Cusco y Arequipa."
     },
     "6": {
       "TITLE": "Seguridad y Confianza",
-      "DESCRIPTION": "Con años de experiencia, garantizamos viajes seguros y cuidados hasta el último detalle."
+      "DESCRIPTION": "Experiencia garantizando viajes seguros, organizados y cuidados al detalle."
     }
   },
   "BUTTON": {
@@ -4343,5 +4343,45 @@
       "PERUVIAN": "Peruano",
       "FOREIGN": "Extranjero"
     }
+  },
+  "SECTION_BLOG": {
+    "TITLE": "Blog",
+    "DESCRIPTION": "Bienvenido a nuestro blog, donde compartimos las últimas noticias y actualizaciones sobre nuestros tours y destinos.",
+    "GUIDE_CUSCO": "Guía Cusco",
+    "GUIDE_AREQUIPA": "Guía Arequipa",
+    "MORE_INFO": "Más información",
+    "FILTER_TITLE": "Filtrar noticias",
+    "SEARCH_PLACEHOLDER": "Buscar noticias",
+    "CITY": "Ciudad",
+    "CATEGORY": "Categoría",
+    "ALL": "Todas",
+    "SEARCH": "Buscar noticias"
+  },
+  "NEWS": {
+    "noticia-1": {
+      "title": "Título en español",
+      "category": "cultura",
+      "date": "2025-05-20",
+      "city": "cusco",
+      "image": "assets/img/destinations/arequipa/colca-canon.webp",
+      "text": "Texto completo en español."
+    },
+    "noticia-2": {
+      "title": "Título en español",
+      "category": "family",
+      "date": "2025-05-20",
+      "city": "arequipa",
+      "image": "assets/img/destinations/arequipa/colca-canon.webp",
+      "text": "Texto completo en español."
+    },
+    "noticia-3": {
+      "title": "Título en español",
+      "category": "cultura",
+      "date": "2025-05-20",
+      "city": "cusco",
+      "image": "assets/img/destinations/arequipa/colca-canon.webp",
+      "text": "Texto completo en español."
+    }
   }
+
 }

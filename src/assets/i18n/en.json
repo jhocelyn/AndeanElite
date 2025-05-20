@@ -40,12 +40,32 @@
   },
   "WHYANDEANELITE": {
     "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
-    "1":{ "TITLE":"Unique Travel","DESCRIPTION": "We create customized trips in Peru, from Machu Picchu to Lake Titicaca, combining adventure, culture and luxury." },
-    "2": { "TITLE":"Luxury in Every Detail","DESCRIPTION": "Enjoy boutique hotels, luxury trains, and private transport for a seamless and sophisticated journey." },
-    "3": { "TITLE":"Attention 24/7","DESCRIPTION": "Our team is available to solve any unforeseen event and guarantee your peace of mind." },
-    "4": { "TITLE":"Cultural Connection","DESCRIPTION": "Experience the Peruvian heritage with guided tours to Machu Picchu and the Sacred Valley, with attention to every detail." },
-    "5": { "TITLE":"Expert Guides","DESCRIPTION": "Our local guides offer you cultural and historical knowledge in destinations such as Cusco and Arequipa." },
-    "6": { "TITLE":"Security and Confidence","DESCRIPTION": "With years of experience, we guarantee safe trips and care to the last detail." }
+    "1": {
+      "TITLE": "Unique Travel",
+      "DESCRIPTION": "Custom trips in Peru from Machu Picchu to Titicaca with luxury and adventure."
+    },
+    "2": {
+      "TITLE": "Luxury in Every Detail",
+      "DESCRIPTION": "Boutique hotels, luxury trains, and private transport for a smooth, elegant experience."
+    },
+    "3": {
+      "TITLE": "Attention 24/7",
+      "DESCRIPTION": "We’re available anytime to solve issues and ensure peace of mind during travel."
+    },
+    "4": {
+      "TITLE": "Cultural Connection",
+      "DESCRIPTION": "Explore Peruvian heritage on guided tours to Machu Picchu and Sacred Valley."
+    },
+
+    "5": {
+      "TITLE": "Expert Guides",
+      "DESCRIPTION": "Local experts share cultural insights in Cusco, Arequipa, and other top destinations."
+    },
+    "6": {
+      "TITLE": "Security and Confidence",
+      "DESCRIPTION": "With experience and care, we ensure safe, worry-free luxury travel every step."
+    }
+
   },
   "BUTTON": {
     "READ_MORE": "Read More"
@@ -4356,6 +4376,46 @@
       "PRICE_PER_PERSON": "Price per person",
       "PERUVIAN": "Peruvian",
       "FOREIGN": "Foreigner"
+    }
+
+  },
+  "SECTION_BLOG": {
+    "TITLE": "Blog",
+    "DESCRIPTION": "Welcome to our blog, where we share the latest news and updates about our tours and destinations.",
+    "GUIDE_CUSCO": "Cusco Guide",
+    "GUIDE_AREQUIPA": "Arequipa Guide",
+    "MORE_INFO": "More information",
+    "FILTER_TITLE": "Filter news",
+    "SEARCH_PLACEHOLDER": "Search news",
+    "CITY": "City",
+    "CATEGORY": "Category",
+    "ALL": "All",
+    "SEARCH": "Seach news"
+  },
+  "NEWS": {
+    "noticia-1": {
+      "title": "Title in English",
+      "category": "culture",
+      "date": "2025-05-20",
+      "city": "cusco",
+      "image": "assets/img/destinations/arequipa/colca-canon.webp",
+      "text": "Full text in English."
+    },
+    "noticia-2": {
+      "title": "Title in English",
+      "category": "family",
+      "date": "2025-05-20",
+      "city": "arequipa",
+      "image": "assets/img/destinations/arequipa/colca-canon.webp",
+      "text": "Full text in English."
+    },
+    "noticia-3": {
+      "title": "Title in English",
+      "category": "culture",
+      "date": "2025-05-20",
+      "city": "cusco",
+      "image": "assets/img/destinations/arequipa/colca-canon.webp",
+      "text": "Full text in English."
     }
 
   }

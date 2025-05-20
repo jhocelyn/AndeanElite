@@ -25,82 +25,19 @@
 <!--Why ANDEANELITE Seccion-->
 <div class="flex items-center justify-center flex-col bg-[#034873] text-white gap-10 md:gap-20 px-4 py-10 xl:py-16">
   <!-- Título principal -->
-  <h1 class="text-center text-4xl xl:text-[50px] font-semibold">
+  <h1 class="text-center text-4xl xl:text-[50px] font-light">
     {{ 'WHYANDEANELITE.TITLE' | translate }}
   </h1>
 
   <!-- Contenedor de los elementos -->
   <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-14">
-    <!-- Reusable item -->
-    <div class="flex items-start gap-4 max-w-[300px] text-justify">
-      <i class="fa-solid fa-plane text-[50px] md:text-[60px]"></i>
-      <div>
-        <h2 class="text-xl font-bold mb-2">
-          {{ 'WHYANDEANELITE.1.TITLE' | translate }}
-        </h2>
-        <p class="text-sm leading-relaxed">
-          {{ 'WHYANDEANELITE.1.DESCRIPTION' | translate }}
-        </p>
-      </div>
-    </div>
-
-    <div class="flex items-start gap-4 max-w-[300px] text-justify">
-      <i class="fa-solid fa-hotel text-[50px] md:text-[60px]"></i>
-      <div>
-        <h2 class="text-xl font-bold mb-2">
-          {{ 'WHYANDEANELITE.2.TITLE' | translate }}
-        </h2>
-        <p class="text-sm leading-relaxed">
-          {{ 'WHYANDEANELITE.2.DESCRIPTION' | translate }}
-        </p>
-      </div>
-    </div>
-
-    <div class="flex items-start gap-4 max-w-[300px] text-justify">
-      <i class="fa-solid fa-people-group text-[50px] md:text-[60px]"></i>
-      <div>
-        <h2 class="text-xl font-bold mb-2">
-          {{ 'WHYANDEANELITE.3.TITLE' | translate }}
-        </h2>
-        <p class="text-sm leading-relaxed">
-          {{ 'WHYANDEANELITE.3.DESCRIPTION' | translate }}
-        </p>
-      </div>
-    </div>
-
-    <div class="flex items-start gap-4 max-w-[300px] text-justify">
-      <i class="fa-solid fa-monument text-[50px] md:text-[60px]"></i>
-      <div>
-        <h2 class="text-xl font-bold mb-2">
-          {{ 'WHYANDEANELITE.4.TITLE' | translate }}
-        </h2>
-        <p class="text-sm leading-relaxed">
-          {{ 'WHYANDEANELITE.4.DESCRIPTION' | translate }}
-        </p>
-      </div>
-    </div>
-
-    <div class="flex items-start gap-4 max-w-[300px] text-justify">
-      <i class="fa-solid fa-book-open text-[50px] md:text-[60px]"></i>
-      <div>
-        <h2 class="text-xl font-bold mb-2">
-          {{ 'WHYANDEANELITE.5.TITLE' | translate }}
-        </h2>
-        <p class="text-sm leading-relaxed">
-          {{ 'WHYANDEANELITE.5.DESCRIPTION' | translate }}
-        </p>
-      </div>
-    </div>
-
-    <div class="flex items-start gap-4 max-w-[300px] text-justify">
-      <i class="fa-solid fa-shield-heart text-[50px] md:text-[60px]"></i>
-      <div>
-        <h2 class="text-xl font-bold mb-2">
-          {{ 'WHYANDEANELITE.6.TITLE' | translate }}
-        </h2>
-        <p class="text-sm leading-relaxed">
-          {{ 'WHYANDEANELITE.6.DESCRIPTION' | translate }}
-        </p>
+    <div
+      class="flex items-start gap-4 max-w-[350px] text-justify"
+      *ngFor="let item of whyItems; let i = index"
+    >
+        <i [ngClass]="'fa-solid ' + icons[i]" class="text-[50px] md:text-[60px]"></i>      <div>
+        <h2 class="text-xl text-justify font-semibold mb-2">{{ item.title }}</h2>
+        <p class="text-sm text-start">{{ item.description }}</p>
       </div>
     </div>
   </div>

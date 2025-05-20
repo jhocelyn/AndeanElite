@@ -13,5 +13,6 @@ export const routes: Routes = [
   {path:'destinations',component:DestinationsComponent},
   {path:'destination',loadChildren:()=>import('./pages/Destionations-pages/destinations.routes').then(m=>m.destinationsRoutes)},
   {path:'ways-to-travel',loadChildren:()=>import('./pages/ways-to-travel/ways-to-travel.routes').then(m=>m.waysToTravelRoutes)},
-  {path:'book-claims', component:BookClaimsComponent}
+  {path:'book-claims', component:BookClaimsComponent},
+  {path:'blog', loadChildren:()=>import('./pages/blog/blog.routes').then(m=>m.blogRoutes)},
 ];
