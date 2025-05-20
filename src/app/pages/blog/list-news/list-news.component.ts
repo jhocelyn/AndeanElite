@@ -4,6 +4,8 @@ import {FormsModule} from '@angular/forms';
 import {DatePipe, NgClass, NgForOf} from '@angular/common';
 import {BannerComponent} from '../../../shared/components/general/banner/banner.component';
 import {TranslatePipe} from '@ngx-translate/core';
+import {BlogSectionComponent} from '../../../shared/components/general/blog-section/blog-section.component';
+import {NewCardComponent} from '../../../shared/components/general/new-card/new-card.component';
 export interface NewsItem {
   slug: string;
   title: string;
@@ -20,10 +22,11 @@ export interface NewsItem {
   imports: [
     FormsModule,
     NgForOf,
-    DatePipe,
     BannerComponent,
     NgClass,
-    TranslatePipe
+    TranslatePipe,
+    BlogSectionComponent,
+    NewCardComponent
   ],
   templateUrl: './list-news.component.html',
   styleUrl: './list-news.component.css'
@@ -35,11 +38,8 @@ export class ListNewsComponent implements OnInit {
   filterCity: string = '';
   filterCategory: string = '';
   searchTerm: string = '';
-  cities: string[] = ['', 'Lima', 'Arequipa', 'Puno'];
-  categories: string[] = ['', 'Cultura', 'Family'];
-
-
-
+  cities: string[] = ['', 'lima', 'arequipa', 'puno', 'cusco', 'chachapoyas', 'ica', 'nazca', 'puerto-maldonado'];
+  categories: string[] = ['', 'culture', 'family','adventure', 'gastronomy', 'romance', 'cultural-heritage'];
   constructor(private newsService: newService) {}
 
   ngOnInit() {
@@ -77,6 +77,12 @@ export class ListNewsComponent implements OnInit {
     const cityLower = city.toLowerCase();
     return this.allNews
       .filter(n => n.city && n.city.toLowerCase() === cityLower)
+      .slice(0, limit);
+  }
+
+  getNewsByCategory(category:string,limit:number=6):NewsItem[]{
+    const categoryLower = category.toLowerCase();
+    return this.allNews.filter(n=>n.category && n.category.toLowerCase()==categoryLower)
       .slice(0, limit);
   }
 

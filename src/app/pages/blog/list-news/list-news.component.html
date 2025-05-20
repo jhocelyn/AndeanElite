@@ -1,7 +1,7 @@
 <app-banner
   [backgroundImage]="'assets/img/destinations/cusco/destinations-machu-picchu.webp'"
-  [title]="'SECTION_BLOG.TITLE' | translate"
-></app-banner>
+  [title]="'SECTION_BLOG.TITLE' | translate">
+</app-banner>
 
 <div class="flex flex-col items-center px-4 py-10 max-w-7xl mx-auto">
   <p class="text-lg text-gray-700 text-center mb-10">
@@ -9,75 +9,46 @@
   </p>
 
   <div class="flex flex-col md:flex-row w-full gap-8">
-
     <!-- Contenido principal -->
     <section class="flex-1">
       <!-- Noticias filtradas -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
-        <div
+        <app-new-card
           *ngFor="let news of filteredNews"
-          class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
-        >
-          <img [src]="news.image" alt="{{ news.title }}" class="w-full h-48 object-cover" />
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1">{{ news.title }}</h3>
-            <p class="text-sm text-gray-500 mb-2">{{ news.category }} - {{ news.date | date:'mediumDate' }}</p>
-          </div>
-        </div>
+          [image]="news.image"
+          [title]="news.title"
+          [category]="news.category"
+          [date]="news.date">
+        </app-new-card>
       </div>
 
-      <!-- Guía Cusco -->
-      <h2 class="text-2xl font-bold mb-4">  {{ 'SECTION_BLOG.GUIDE_CUSCO' | translate }}</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
-        <div
-          *ngFor="let news of getNewsByCity('Cusco')"
-          class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
-        >
-          <img [src]="news.image" alt="{{ news.title }}" class="w-full h-40 object-cover" />
-          <div class="p-3">
-            <h4 class="font-semibold mb-1">{{ news.title }}</h4>
-            <p class="text-sm text-gray-600">{{ news.category }} - {{ news.date | date:'mediumDate' }}</p>
-          </div>
-        </div>
-      </div>
-      <button
-        (click)="showMore('Perú')"
-        class="px-5 py-2 bg-[#042a4e] text-white rounded-md hover:bg-blue-900 transition-colors"
-      >
-        {{ 'SECTION_BLOG.MORE_INFO' | translate }}
-      </button>
+      <!-- Secciones reutilizables -->
+      <app-blog-section
+        [titleKey]="'SECTION_BLOG.GUIDE_CUSCO'"
+        [city]="'Cusco'"
+        [newsList]="allNews">
+      </app-blog-section>
 
-      <!-- Guía Arequipa -->
-      <h2 class="text-2xl font-bold mt-10 mb-4">  {{ 'SECTION_BLOG.GUIDE_AREQUIPA' | translate }}</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
-        <div
-          *ngFor="let news of getNewsByCity('Arequipa')"
-          class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
-        >
-          <img [src]="news.image" alt="{{ news.title }}" class="w-full h-40 object-cover" />
-          <div class="p-3">
-            <h4 class="font-semibold mb-1">{{ news.title }}</h4>
-            <p class="text-sm text-gray-600">{{ news.category }} - {{ news.date | date:'mediumDate' }}</p>
-          </div>
-        </div>
-      </div>
-      <button
-        (click)="showMore('Arequipa')"
-        class="px-5 py-2 bg-[#042a4e] text-white rounded-md hover:bg-blue-900 transition-colors"
-      >
-        {{ 'SECTION_BLOG.MORE_INFO' | translate }}
-      </button>
+      <app-blog-section
+        class="mt-10"
+        [titleKey]="'SECTION_BLOG.GUIDE_AREQUIPA'"
+        [city]="'Arequipa'"
+        [newsList]="allNews">
+      </app-blog-section>
+
+      <app-blog-section
+        class="mt-10"
+        [titleKey]="'SECTION_BLOG.HERITAGE.TITLE'"
+        [descriptionKey]="'SECTION_BLOG.HERITAGE.DESCRIPTION'"
+        [category]="'cultural-heritage'"
+        [maxItems]="12"
+        [newsList]="allNews">
+      </app-blog-section>
     </section>
-
-
-    <!-- Amazon -->
-
-
-    <!-- -->
 
     <!-- Filtros -->
     <aside class="w-full md:w-1/4 bg-[#042a4e] p-6 rounded-lg text-white">
-      <h3 class="text-lg font-bold mb-4">  {{ 'SECTION_BLOG.FILTER_TITLE' | translate }}</h3>
+      <h3 class="text-lg font-bold mb-4">{{ 'SECTION_BLOG.FILTER_TITLE' | translate }}</h3>
 
       <!-- Búsqueda -->
       <input
@@ -89,34 +60,32 @@
       />
 
       <!-- Filtro por ciudad -->
-      <h4 class="text-sm font-semibold mb-2">  {{ 'SECTION_BLOG.CITY' | translate }}</h4>
+      <h4 class="text-sm font-semibold mb-2">{{ 'SECTION_BLOG.CITY' | translate }}</h4>
       <div class="flex flex-wrap gap-2 mb-4">
         <button
           *ngFor="let city of cities"
           (click)="setCityFilter(city)"
           [ngClass]="{
-        'bg-white text-[#042a4e]': filterCity === city,
-        'bg-[#1f4068] text-white': filterCity !== city
-      }"
-          class="px-3 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-[#042a4e] transition"
-        >
-          {{ city || ('SECTION_BLOG.ALL' | translate) }}
+            'bg-white text-[#042a4e]': filterCity === city,
+            'bg-[#1f4068] text-white': filterCity !== city
+          }"
+          class="px-3 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-[#042a4e] transition">
+          {{ 'SECTION_BLOG.CITIES.' + city | translate }}
         </button>
       </div>
 
       <!-- Filtro por categoría -->
-      <h4 class="text-sm font-semibold mb-2">  {{ 'SECTION_BLOG.CATEGORY' | translate }}</h4>
+      <h4 class="text-sm font-semibold mb-2">{{ 'SECTION_BLOG.CATEGORY' | translate }}</h4>
       <div class="flex flex-wrap gap-2">
         <button
           *ngFor="let category of categories"
           (click)="setCategoryFilter(category)"
           [ngClass]="{
-        'bg-white text-[#042a4e]': filterCategory === category,
-        'bg-[#1f4068] text-white': filterCategory !== category
-      }"
-          class="px-3 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-[#042a4e] transition"
-        >
-          {{ category || ('SECTION_BLOG.ALL' | translate) }}
+            'bg-white text-[#042a4e]': filterCategory === category,
+            'bg-[#1f4068] text-white': filterCategory !== category
+          }"
+          class="px-3 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-[#042a4e] transition">
+          {{ 'SECTION_BLOG.CATEGORIES.' + category | translate }}
         </button>
       </div>
     </aside>
