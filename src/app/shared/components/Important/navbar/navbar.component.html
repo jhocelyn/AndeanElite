@@ -125,7 +125,7 @@
           *ngIf="isMenuAboutUsOpen"
         >
           <div class="w-full font-semibold">
-            <a [routerLink]="'/about-us'" (click)="closeAllMenus()" [fragment]="'our-team'" class="flex p-5 hover:bg-gray-100">
+            <a [routerLink]="'/about-us'" (click)="closeAllMenus()" class="flex p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.ABOUT_US.OURTEAM' | translate }}</span>
             </a>
             <a [routerLink]="'/about-us'" (click)="closeAllMenus()" [fragment]="'license'" class="flex p-5 hover:bg-gray-100">

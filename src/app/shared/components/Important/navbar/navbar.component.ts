@@ -7,8 +7,9 @@ import {
   PLATFORM_ID,
 } from '@angular/core';
 import {isPlatformBrowser, NgClass, NgIf} from '@angular/common';
-import {RouterLink} from '@angular/router';
+import {ActivatedRoute, NavigationEnd, Router, RouterLink} from '@angular/router';
 import {TranslateModule, TranslateService} from '@ngx-translate/core';
+import {ScrollService} from '../../../../services/scroll.service';
 
 @Component({
   selector: 'app-navbar',
@@ -28,12 +29,16 @@ export class NavbarComponent implements OnInit{
   constructor(
     private translate: TranslateService,
     @Inject(PLATFORM_ID) private platformId: object,
+    private router: Router,
+    private route: ActivatedRoute,
+    private scrollService: ScrollService
   ) {}
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       this.isDesktop = window.innerWidth > 1024;
     }
+
   }
 
 

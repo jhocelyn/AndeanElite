@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {BannerComponent} from "../../shared/components/general/banner/banner.component";
-import {NgForOf} from '@angular/common';
+import {NgForOf, ViewportScroller} from '@angular/common';
 
 @Component({
   selector: 'app-about-us',
@@ -18,6 +18,7 @@ export class AboutUsComponent {
     this.translate.onLangChange.subscribe(() => {
     });
   }
+
 
 
 }
