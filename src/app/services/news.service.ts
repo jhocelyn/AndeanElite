@@ -2,17 +2,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
+import {NewsItem} from '../shared/models/NewsItem.model';
 
-export interface NewsItem {
-  slug: string;
-  title: string;
-  city: string;
-  category: string;
-  date: string;
-  image: string;
-  text?: string;
-  summary?: string; // Agregado para mostrar resumen en tarjeta
-}
 
 @Injectable({
   providedIn: 'root'
@@ -33,7 +24,8 @@ export class newService {
             date: item.date,
             image: item.image,
             text: item.text,
-            summary: item.summary
+            summary: item.summary,
+            context_Image:item.context_Image
           } as NewsItem;
         })
       )

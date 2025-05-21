@@ -4,17 +4,8 @@ import {newService} from '../../../services/news.service';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {NgIf} from '@angular/common';
 import {Subscription} from 'rxjs';
+import {NewsItem} from '../../../shared/models/NewsItem.model';
 
-export interface NewsItem {
-  slug: string;
-  title: string;
-  city: string;
-  category: string;
-  date: string;
-  image: string;
-  text?: string;
-  summary?: string; // Agregado para mostrar resumen en tarjeta
-}
 @Component({
   selector: 'app-new-info',
   standalone: true,

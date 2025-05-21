@@ -1,6 +1,14 @@
 <app-list-packages-structure
   [backgroundImage]="'TRAVEL_BY_INTEREST.FULL_DAY_TOURS.IMAGE'"
   [title]="'TRAVEL_BY_INTEREST.FULL_DAY_TOURS.TITLE'"
-  [description]="TourData?.DESCRIPTION"
-  [packages]="TourData?.PACKAGES"
+  [description]="toursDescription"
+  [packages]="filteredTours"
+  [cities]="cities"
+  [categories]="categories"
+  [filterCity]="filterCity"
+  [filterCategory]="filterCategory"
+  [searchTerm]="searchTerm"
+  (cityChange)="setCityFilter($event)"
+  (categoryChange)="setCategoryFilter($event)"
+  (searchChange)="setSearchTerm($event)"
 ></app-list-packages-structure>

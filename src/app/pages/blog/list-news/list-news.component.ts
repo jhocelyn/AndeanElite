@@ -7,15 +7,8 @@ import {LangChangeEvent, TranslatePipe, TranslateService} from '@ngx-translate/c
 import {BlogSectionComponent} from '../../../shared/components/general/blog-section/blog-section.component';
 import {NewCardComponent} from '../../../shared/components/general/new-card/new-card.component';
 import {Subscription} from 'rxjs';
-export interface NewsItem {
-  slug: string;
-  title: string;
-  city:string;
-  category: string;
-  date: string;
-  image: string;
-  text?: string;  // Opcional, porque no siempre se usa en la tarjeta
-}
+import {NewsItem} from '../../../shared/models/NewsItem.model';
+import {FilterSidebarComponent} from '../../../shared/components/Important/filter-sidebar/filter-sidebar.component';
 
 @Component({
   selector: 'app-list-news',
@@ -24,10 +17,10 @@ export interface NewsItem {
     FormsModule,
     NgForOf,
     BannerComponent,
-    NgClass,
     TranslatePipe,
     BlogSectionComponent,
-    NewCardComponent
+    NewCardComponent,
+    FilterSidebarComponent
   ],
   templateUrl: './list-news.component.html',
   styleUrl: './list-news.component.css'
@@ -87,24 +80,9 @@ export class ListNewsComponent implements OnInit, OnDestroy {
       return matchesSearch && matchesCity && matchesCategory;
     });
   }
-
-  getNewsByCity(city: string, limit: number = 6): NewsItem[] {
-    const cityLower = city.toLowerCase();
-    return this.allNews
-      .filter(n => n.city && n.city.toLowerCase() === cityLower)
-      .slice(0, limit);
-  }
-
-  getNewsByCategory(category: string, limit: number = 6): NewsItem[] {
-    const categoryLower = category.toLowerCase();
-    return this.allNews
-      .filter(n => n.category && n.category.toLowerCase() === categoryLower)
-      .slice(0, limit);
-  }
-
-  showMore(city: string): void {
-    console.log(`Mostrar más noticias para ciudad: ${city}`);
-    // Implementa navegación o carga paginada aquí si lo necesitas.
+  onSearchChange(term: string): void {
+    this.searchTerm = term;
+    this.applyFilters();
   }
 
   ngOnDestroy(): void {

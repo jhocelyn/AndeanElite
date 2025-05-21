@@ -3732,134 +3732,241 @@
       "TITLE": "Full Day Tours",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp",
       "DESCRIPTION": "Explora los Andes peruanos a través de emocionantes rutas de trekking. Desde el famoso Camino Inca hasta senderos menos transitados, cada paso te llevará a paisajes impresionantes y experiencias culturales únicas.",
-      "PACKAGES": [
+      "PACKAGES":
         {
-          "id": "1",
-          "title": "TURISMO CUSCO - 2025\nCAÑÓN DEL CÓNDOR + CHONTA",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "2",
-          "title": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MORADA DE LOS DIOSES",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
-          "price": "0"
-        },
-        {
-          "id": "3",
-          "title": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MARAS & MORAY",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
-          "price": "0"
-        },
-        {
-          "id": "4",
-          "title": "TURISMO CUSCO - 2025\nEXCURSIÓN SUPER VALLE",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
-          "price": "0"
-        },
-        {
-          "id": "5",
-          "title": "TURISMO CUSCO - 2025\nFD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "price": "0"
-        },
-        {
-          "id": "6",
-          "title": "TURISMO CUSCO - 2025\nFULL DAY MACHU PICCHU",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
-          "price": "0"
-        },
-        {
-          "id": "7",
-          "title": "TURISMO CUSCO - 2025\nLAGUNA HUMANTAY",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
-          "price": "0"
-        },
-        {
-          "id": "8",
-          "title": "TURISMO CUSCO - 2025\nTOUR MARAS MORAY",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
-          "price": "0"
-        },
-        {
-          "id": "9",
-          "title": "TURISMO CUSCO - 2025\nMONTAÑA PALCOYO",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
-          "price": "0"
-        },
-        {
-          "id": "10",
-          "title": "TURISMO CUSCO - 2025\nPARQUE ARQUEOLÓGICO EN CIUDAD",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
-          "price": "0"
-        },
-        {
-          "id": "11",
-          "title": "TURISMO CUSCO - 2025\nQ’ESWACHACA",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
-          "price": "0"
-        },
-        {
-          "id": "12",
-          "title": "TURISMO CUSCO - 2025\nRAFTING EN CUSCO",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
-          "price": "0"
-        },
-        {
-          "id": "13",
-          "title": "TURISMO CUSCO - 2025\nRUTA DEL SOL CUSCO - PUNO",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
-          "price": "0"
-        },
-        {
-          "id": "14",
-          "title": "TURISMO CUSCO - 2025\nRUTA DEL SOL PUNO A CUSCO",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
-          "price": "0"
-        },
-        {
-          "id": "15",
-          "title": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
-          "price": "0"
-        },
-        {
-          "id": "16",
-          "title": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE CON ALMUERZO Y RELAX EN CABINAS",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
-          "price": "0"
-        },
-        {
-          "id": "17",
-          "title": "TURISMO CUSCO - 2025\nEXPERIENCIAS GASTRONÓMICAS\nTALLER DE CHOCOLATE + CITY TOUR PEATONAL",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
-          "price": "0"
-        },
-        {
-          "id": "18",
-          "title": "TURISMO CUSCO - 2025\nCITY TOUR CUSCO & PARQUE ARQUEOLÓGICO",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
-          "price": "0"
-        },
-        {
-          "id": "19",
-          "title": "TURISMO CUSCO - 2025\nFULL DAY VALLE SAGRADO, PISAC, OLLANTAYTAMBO & CHINCHEROS",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
-          "price": "0"
-        },
-        {
-          "id": "20",
-          "title": "TURISMO CUSCO - 2025\nVALLE SUR - ANDAHUAYLILLAS",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
-          "price": "0"
-        },
-        {
-          "id": "21",
-          "title": "TURISMO CUSCO - 2025 VINICUNCA (MONTAÑA DE 7 COLORES)",
-          "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "price": "0"
+          "1": {
+            "id": "1",
+            "title": "2025 CAÑÓN DEL CÓNDOR + CHONTA",
+            "city": "cusco",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "price": "0"
+          },
+          "2": {
+            "id": "2",
+            "title": "2025 CUATRIMOTOS EN MORADA DE LOS DIOSES",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
+            "price": "0"
+          },
+          "3": {
+            "id": "3",
+            "title": "2025 CUATRIMOTOS EN MARAS & MORAY",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
+            "price": "0"
+          },
+          "4": {
+            "id": "4",
+            "title": "2025 EXCURSIÓN SUPER VALLE",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
+            "price": "0"
+          },
+          "5": {
+            "id": "5",
+            "title": "2025 FD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+            "price": "0"
+          },
+          "6": {
+            "id": "6",
+            "title": "2025 FULL DAY MACHU PICCHU",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
+            "price": "0"
+          },
+          "7": {
+            "id": "7",
+            "title": "2025 LAGUNA HUMANTAY",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
+            "price": "0"
+          },
+          "8": {
+            "id": "8",
+            "title": "2025 TOUR MARAS MORAY",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
+            "price": "0"
+          },
+          "9": {
+            "id": "9",
+            "title": "2025 MONTAÑA PALCOYO",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
+            "price": "0"
+          },
+          "10": {
+            "id": "10",
+            "title": "2025 PARQUE ARQUEOLÓGICO EN CIUDAD",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+            "price": "0"
+          },
+          "11": {
+            "id": "11",
+            "title": "2025 Q’ESWACHACA",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
+            "price": "0"
+          },
+          "12": {
+            "id": "12",
+            "title": "2025 RAFTING EN CUSCO",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
+            "price": "0"
+          },
+          "13": {
+            "id": "13",
+            "title": "2025 RUTA DEL SOL CUSCO - PUNO",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
+            "price": "0"
+          },
+          "14": {
+            "id": "14",
+            "title": "2025 RUTA DEL SOL PUNO A CUSCO",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
+            "price": "0"
+          },
+          "15": {
+            "id": "15",
+            "title": "2025 SACRED VALLEY VIA FERRATA & ZIP-LINE",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+            "price": "0"
+          },
+          "16": {
+            "id": "16",
+            "title": "2025 SACRED VALLEY VIA FERRATA & ZIP-LINE CON ALMUERZO Y RELAX EN CABINAS",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
+            "price": "0"
+          },
+          "17": {
+            "id": "17",
+            "title": "2025 EXPERIENCIAS GASTRONÓMICAS TALLER DE CHOCOLATE + CITY TOUR PEATONAL",
+            "categories": [
+              "adventure",
+              "culture",
+              "gastronomy"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
+            "price": "0"
+          },
+          "18": {
+            "id": "18",
+            "title": "2025 CITY TOUR CUSCO & PARQUE ARQUEOLÓGICO",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
+            "price": "0"
+          },
+          "19": {
+            "id": "19",
+            "title": "2025 FULL DAY VALLE SAGRADO, PISAC, OLLANTAYTAMBO & CHINCHEROS",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+            "price": "0"
+          },
+          "20": {
+            "id": "20",
+            "title": "2025 VALLE SUR - ANDAHUAYLILLAS",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
+            "price": "0"
+          },
+          "21": {
+            "id": "21",
+            "title": "2025 VINICUNCA (MONTAÑA DE 7 COLORES)",
+            "categories": [
+              "adventure",
+              "culture"
+            ],
+            "city": "cusco",
+            "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+            "price": "0"
+          }
         }
-      ]
     },
     "CIRCUITS": {
       "TITLE": "Circuitos",
@@ -4429,7 +4536,9 @@
       "date": "2025-05-20",
       "city": "cusco",
       "image": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
-      "text":"<strong>Inscripción:</strong> 18ª Sesión del Comité del Patrimonio Mundial. Phuket, 12 de diciembre, 1994.<br><br>\n\nUbicadas en la costa desértica peruana a unos 400 km al sur de Lima, en el departamento de Ica, las <strong>Líneas y Geoglifos de Nasca y Palpa</strong> se descubrieron en 1927, y constituyen el legado más importante de la sociedad Nasca, que se desarrolló hace 2,300 años, entre los 100 a.C. – 600 d.C., correspondiente al período Intermedio Temprano de la secuencia cultural andina.<br><br>\n\nEl sitio arqueológico cubre un área de aproximadamente <strong>75,358 hectáreas</strong>, y fue asiento de los antiguos habitantes de la región que dibujaron en el suelo árido una extraordinaria variedad de figuras geométricas, de animales y divinidades, que sólo pueden ser apreciadas desde lo alto, transformando la extensa costa en un paisaje cultural simbólico, ritual y social que permanece hasta nuestros días. Las Líneas y Geoglifos de Nasca constituyen un producto artístico único de la cultura andina por su extensión, dimensiones y diversidad, que no tiene parangón en el mundo prehistórico (<strong>Criterio (i)</strong>). A través de su uso de la tierra, es un testimonio excepcional de la cultura, la tradición y las creencias de las sociedades que se desarrollaron en la América Precolombina entre los siglos VIII a.C. y VIII d.C. (<strong>Criterio (iii)</strong>). El sistema de líneas y geoglifos, que ha perdurado intacto durante más de dos milenios, evidencia una forma inusual de utilizar la tierra y el entorno natural, que representa un paisaje cultural altamente simbólico, aplicando una tecnología de construcción que les permitió diseñar figuras a gran escala con una precisión geométrica prominente (<strong>Criterio (iv)</strong>).<br><br>\n\nHay dos categorías de glifos: el primer grupo representa en forma esquemática una variedad de formas naturales que incluyen animales, pájaros, insectos, flores, plantas y árboles, y objetos de la vida cotidiana. El segundo grupo comprende líneas generalmente rectas que cruzan la pampa en todas las direcciones. Algunas tienen varios kilómetros de longitud y forman diseños de figuras geométricas: triángulos, espirales, líneas onduladas. Otro grupo son las llamadas ‘pistas’, al parecer diseñadas para acomodar a un gran número de personas.<br><br>\n\n<strong>Integridad.</strong> Las Líneas y Geoglifos de Nasca y Palpa, en un área de protección que se extiende sobre 75,358 hectáreas, transmiten el Valor Universal Excepcional de la propiedad, incluyendo su paisaje circundante, conformando una unidad armoniosa que ha sobrevivido prácticamente inalterada a lo largo de los siglos. Las tasas de precipitación bajas (las más bajas del mundo) determinan las características del clima del desierto y la extrema aridez que han favorecido la conservación de las Líneas y Geoglifos de Nasca. Así mismo, la actividad humana no ha causado un impacto severo en la propiedad, por lo que los geoglifos y el paisaje cultural se han mantenido intactos durante casi dos milenios. Sin embargo, la construcción de la Carretera Panamericana Sur, que cruza directamente la propiedad, ha causado daños en algunos sectores de las líneas y figuras.<br><br>\n\n<strong>Autenticidad.</strong> La creación, diseño, morfología, tamaño y variedad de los geoglifos y líneas corresponden a los diseños originales producidos durante la evolución histórica de la región y se han mantenido sin cambios. La ideología, el simbolismo y el carácter sagrado y ritual de los geoglifos y el paisaje están claramente representados, y su significado permanece intacto hasta la actualidad.<br><br>\n\n<strong>Requisitos de protección y gestión.</strong> La Constitución Nacional (Artículo 36) y la Ley N° 28296, Ley General del Patrimonio Cultural Nacional, son las principales normas de protección legal para las Líneas y Geoglifos de Nasca y Palpa. Los límites del área de protección se establecieron mediante la Resolución N° 421 / INC como Reserva Arqueológica. Desde 1941 científicos extranjeros, especialmente la Dra. María Reiche, han realizado investigaciones arqueológicas, de conservación, protección y medidas de mantenimiento de las Líneas y Geoglifos de Nasca. La gestión y protección es responsabilidad del Gobierno peruano representado por el Ministerio de Cultura. Se ha formulado y se está implementando un plan de gestión para toda el área, que es fundamental para la protección de las Líneas y Geoglifos de Nasca y Palpa."
+      "text":"<strong>Inscripción:</strong> 18ª Sesión del Comité del Patrimonio Mundial. Phuket, 12 de diciembre, 1994.<br><br>\n\nUbicadas en la costa desértica peruana a unos 400 km al sur de Lima, en el departamento de Ica, las <strong>Líneas y Geoglifos de Nasca y Palpa</strong> se descubrieron en 1927, y constituyen el legado más importante de la sociedad Nasca, que se desarrolló hace 2,300 años, entre los 100 a.C. – 600 d.C., correspondiente al período Intermedio Temprano de la secuencia cultural andina.<br><br>\n\nEl sitio arqueológico cubre un área de aproximadamente <strong>75,358 hectáreas</strong>, y fue asiento de los antiguos habitantes de la región que dibujaron en el suelo árido una extraordinaria variedad de figuras geométricas, de animales y divinidades, que sólo pueden ser apreciadas desde lo alto, transformando la extensa costa en un paisaje cultural simbólico, ritual y social que permanece hasta nuestros días. Las Líneas y Geoglifos de Nasca constituyen un producto artístico único de la cultura andina por su extensión, dimensiones y diversidad, que no tiene parangón en el mundo prehistórico (<strong>Criterio (i)</strong>). A través de su uso de la tierra, es un testimonio excepcional de la cultura, la tradición y las creencias de las sociedades que se desarrollaron en la América Precolombina entre los siglos VIII a.C. y VIII d.C. (<strong>Criterio (iii)</strong>). El sistema de líneas y geoglifos, que ha perdurado intacto durante más de dos milenios, evidencia una forma inusual de utilizar la tierra y el entorno natural, que representa un paisaje cultural altamente simbólico, aplicando una tecnología de construcción que les permitió diseñar figuras a gran escala con una precisión geométrica prominente (<strong>Criterio (iv)</strong>).<br><br>\n\nHay dos categorías de glifos: el primer grupo representa en forma esquemática una variedad de formas naturales que incluyen animales, pájaros, insectos, flores, plantas y árboles, y objetos de la vida cotidiana. El segundo grupo comprende líneas generalmente rectas que cruzan la pampa en todas las direcciones. Algunas tienen varios kilómetros de longitud y forman diseños de figuras geométricas: triángulos, espirales, líneas onduladas. Otro grupo son las llamadas ‘pistas’, al parecer diseñadas para acomodar a un gran número de personas.<br><br>\n\n<strong>Integridad.</strong> Las Líneas y Geoglifos de Nasca y Palpa, en un área de protección que se extiende sobre 75,358 hectáreas, transmiten el Valor Universal Excepcional de la propiedad, incluyendo su paisaje circundante, conformando una unidad armoniosa que ha sobrevivido prácticamente inalterada a lo largo de los siglos. Las tasas de precipitación bajas (las más bajas del mundo) determinan las características del clima del desierto y la extrema aridez que han favorecido la conservación de las Líneas y Geoglifos de Nasca. Así mismo, la actividad humana no ha causado un impacto severo en la propiedad, por lo que los geoglifos y el paisaje cultural se han mantenido intactos durante casi dos milenios. Sin embargo, la construcción de la Carretera Panamericana Sur, que cruza directamente la propiedad, ha causado daños en algunos sectores de las líneas y figuras.<br><br>\n\n<strong>Autenticidad.</strong> La creación, diseño, morfología, tamaño y variedad de los geoglifos y líneas corresponden a los diseños originales producidos durante la evolución histórica de la región y se han mantenido sin cambios. La ideología, el simbolismo y el carácter sagrado y ritual de los geoglifos y el paisaje están claramente representados, y su significado permanece intacto hasta la actualidad.<br><br>\n\n<strong>Requisitos de protección y gestión.</strong> La Constitución Nacional (Artículo 36) y la Ley N° 28296, Ley General del Patrimonio Cultural Nacional, son las principales normas de protección legal para las Líneas y Geoglifos de Nasca y Palpa. Los límites del área de protección se establecieron mediante la Resolución N° 421 / INC como Reserva Arqueológica. Desde 1941 científicos extranjeros, especialmente la Dra. María Reiche, han realizado investigaciones arqueológicas, de conservación, protección y medidas de mantenimiento de las Líneas y Geoglifos de Nasca. La gestión y protección es responsabilidad del Gobierno peruano representado por el Ministerio de Cultura. Se ha formulado y se está implementando un plan de gestión para toda el área, que es fundamental para la protección de las Líneas y Geoglifos de Nasca y Palpa.",
+      "context_Image": "assets/img/destinations/nazca/destinations-peru-nasca.webp"
+
     },
     "historic-center-of-arequipa-city-cultural-heritage": {
       "title": "Centro Histórico de la Ciudad de Arequipa Patrimonio Cultural",
