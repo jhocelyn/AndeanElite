@@ -4084,12 +4084,12 @@
       "DESCRIPTION":"There are thirteen cultural and heritage sites in Peru inscribed on the UNESCO World Heritage List based on their Outstanding Universal Value: nine as Cultural Heritage, two as Natural Heritage, and two as Mixed Heritage."
     },
     "MORE_INFO": "More information",
-    "FILTER_TITLE": "Filter news",
-    "SEARCH_PLACEHOLDER": "Search news",
+    "FILTER_TITLE": "Filter ",
+    "SEARCH_PLACEHOLDER": "Search ",
     "CITY": "City",
     "CATEGORY": "Category",
     "ALL": "All",
-    "SEARCH": "Seach news",
+    "SEARCH": "Seach",
     "CATEGORIES": {
       "": "All",
       "culture": "Culture",
