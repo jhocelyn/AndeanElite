@@ -2189,52 +2189,151 @@
       "2": {
         "id": "2",
         "title": "Esencial Cusco y Machu Picchu (Cusco y Mapi)",
-        "subtitle": "",
-        "description": "",
-        "whyChooseUs": [],
-        "itinerary": [],
-        "startDate": "",
-        "endDate": "",
-        "includes": [],
-        "notIncluded": [],
-        "from": "",
-        "optional": [],
-        "politics": [],
+        "subtitle": "Descubre lo mejor de Cusco, Machu Picchu y Lima en un solo itinerario completo",
+        "description": "Un tour de experiencia completa que cubre la riqueza cultural de Cusco y sus alrededores, la majestuosidad de Machu Picchu y los encantos modernos y coloniales de Lima. Incluye visitas guiadas, traslados, alojamiento y algunas comidas.",
+        "whyChooseUs": [
+          "Guía profesional bilingüe especializado en cultura e historia andina.",
+          "Itinerario completo que cubre Cusco, Valle Sagrado, Machu Picchu y Lima.",
+          "Incluye traslados cómodos y boletos de ingreso a todas las atracciones.",
+          "Equilibrio entre tours guiados y tiempo libre para exploración personal.",
+          "Alojamiento en hoteles seleccionados con desayuno incluido."
+        ],
+        "itinerary": [
+          "Día 1: Llegada a Cusco – City tour y ruinas cercanas. Bienvenida con mate de coca, visita a la ciudad colonial y las cuatro ruinas cercanas: Sacsayhuamán, Qenqo, Pucapucara y Tambomachay. Noche en Cusco.",
+          "Día 2: Valle Sagrado (Desayuno y almuerzo incluidos). Visita al mercado artesanal de Pisac y misa dominical en quechua, pueblos de Ccoya, Lamay, Calca, Urubamba; almuerzo buffet; visita por la tarde al parque arqueológico de Ollantaytambo y al pueblo de Chincheros. Noche en Cusco.",
+          "Día 3: Cusco – Aguas Calientes (Desayuno y almuerzo incluidos). Viaje en tren al pueblo de Machu Picchu, check-in en el hotel, almuerzo y tarde libre para visitar las aguas termales opcionalmente. Noche en Aguas Calientes.",
+          "Día 4: Día completo en Machu Picchu (Desayuno incluido). Visita guiada al sitio de Machu Picchu incluyendo la Plaza Principal, el Templo de las Tres Ventanas, el Intihuatana (abierto de 7 a 10 a.m.) y el mirador. Retorno en tren a Cusco. Noche en Cusco.",
+          "Día 5: Cusco – Lima (Desayuno incluido). Vuelo a Lima. Tour por la tarde por Miraflores (Parque del Amor, Huaca Pucllana), San Isidro (Parque El Olivar) y centro histórico incluyendo Plaza San Martín, Plaza Mayor y Convento de San Francisco con catacumbas. Noche en Lima.",
+          "Día 6: Salida de Lima (Desayuno incluido). Traslado al aeropuerto para salida."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados de llegada y salida en Cusco y Lima",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "1 noche de alojamiento en Aguas Calientes con desayuno",
+          "1 noche de alojamiento en Lima con desayuno",
+          "City tour por Cusco y ruinas cercanas (incluye Qoricancha)",
+          "Tour al Valle Sagrado con almuerzo",
+          "Tour a Machu Picchu incluyendo ticket de tren (Expedition), buses y almuerzo en Apu Inti",
+          "City tour por Lima moderna y colonial",
+          "Entradas a todos los lugares según itinerario",
+          "Guía profesional bilingüe (español/inglés)",
+          "Tours en servicio compartido"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Cargos por check-in temprano o check-out tardío",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
+          "Ingreso a la Catedral de Lima"
+        ],
+        "from": "Precios por persona en USD",
+        "optional": [
+          "Upgrade a tren Vistadome: $80 USD (precio neto)"
+        ],
+        "politics": [
+          "Precios válidos solo para peruanos y residentes",
+          "Tarifas no aplican en temporadas altas o feriados",
+          "Política de no-show no reembolsable",
+          "Se requiere información completa del pasajero antes del servicio",
+          "Precios válidos hasta diciembre de 2025",
+          "Cambios de fecha por salud permitidos con al menos 48 horas de anticipación",
+          "No se realizan reembolsos por cancelaciones o no presentación",
+          "Andean Elite no se hace responsable por interrupciones fuera de nuestro control",
+          "Trámites de visa y vacunas son responsabilidad del pasajero"
+        ],
         "images": [
           {
-            "alt": "",
-            "src": "",
-            "width": 0
+            "alt": "Vista panorámica de Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Plaza de Armas de Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
+            "width": 1200
           }
         ],
         "comfort": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
+          {"name":"Hotel Inkari  (Cusco) -Vista Machupicchu,  IBIS Lima","simple":"808.5","double":"646.8","triple":"635.25","child":"506.1"},{"name":"Hotel Warari  (Cusco) - Vista Machupicchu,  IBIS Lima","simple":"793.8","double":"641.55","triple":"623.7","child":"495.6"},{"name":"Hotel Imperial (Cusco) - Vista Machupicchu, IBIS Lima","simple":"793.8","double":"641.55","triple":"623.7","child":"495.6"},{"name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, El Tambo Lima","simple":"947.1","double":"591.15","triple":"689.85","child":"561.75"},{"name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, El Tambo Lima","simple":"922.95","double":"702.45","triple":"696.15","child":"568.05"},{"name":"San Agustín (Cusco) - Inti Punku Machupicchu , EL tambo","simple":"931.35","double":"699.3","triple":"669.9","child":"540.75"},{"name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Tierra Viva Miraflores Centro ","simple":"1078.4","double":"777","triple":"738.15","child":"609"},{"name":"Tierra Viva (Centro,Plaza,Saphy),Hatun Inti Classic,  Tierra Viva Miraflores Centro ","simple":"955.5","double":"729.75","triple":"723.45","child":"595.35"},{"name":"Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, HSA Exclusive","simple":"957.6","double":"721.35","triple":"--","child":"588"},{"name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Ikonik","simple":"1038.5","double":"762.3","triple":"757.05","child":"627.9"}
         ],
         "deluxe": [
           {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
+          "name": "Xima Hotel(Cusco)Hatun Inti Classic Casa Andina Select Miraflores",
+          "simple": "981.75",
+          "double": "723.45",
+          "triple": "722.4",
+          "child": "594.3"
+        },
+          {
+            "name": "Hotel Sonesta Posada (Cusco)Hatun Inti Classic José Antonio (Av. 28 de Julio)",
+            "simple": "1116.2",
+            "double": "793.8",
+            "triple": "794.85",
+            "child": "664.65"
+          },
+          {
+            "name": "Hotel Jose Antonio   (Cusco)Casa Andina Machupicchu, Casa Andina Select Miraflores",
+            "simple": "1061.6",
+            "double": "768.6",
+            "triple": "662.55",
+            "child": "638.4"
+          },
+          {
+            "name": "Los Portales (Cusco)Hatun Inti Classic José Antonio Deluxe (Bellavista)",
+            "simple": "1053.2",
+            "double": "762.3",
+            "triple": "754.95",
+            "child": "622.65"
+          },
+          {
+            "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu El Pardo Double Tree by Hilton",
+            "simple": "1226.4",
+            "double": "884.1",
+            "triple": "824.25",
+            "child": "689.85"
+          },
+          {
+            "name": "Novotel (Cusco)El Mapi by Inkaterra Pullman Lima Miraflores",
+            "simple": "1337.7",
+            "double": "953.4",
+            "triple": "934.5",
+            "child": "801.15"
+          },
+          {
+            "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra ,C.A Premium Miraflores ",
+            "simple": "1332.5",
+            "double": "956.55",
+            "triple": "935.55",
+            "child": "801.15"
+          },
+          {
+            "name": "Casa Andina Premium (Cusco)El Mapi by Inkaterra, C.A Premium San Isidro",
+            "simple": "1338.8",
+            "double": "959.7",
+            "triple": "--",
+            "child": "805.35"
+          },
+          {
+            "name": "Novotel (Cusco)El Mapi by Inkaterra, Hyatt Centric San Isidro ",
+            "simple": "1344",
+            "double": "956.55",
+            "triple": "--",
+            "child": "802.2"
+          },
+          {
+            "name": "Novotel (Cusco)El Mapi by Inkaterra, Swissotel",
+            "simple": "1369.2",
+            "double": "969.15",
+            "triple": "940.8",
+            "child": "807.45"
           }
         ],
-        "premium": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
-        ]
-      },
+        "premium": []
+
+    },
       "3": {
         "id": "3",
         "title": "Tour Imperdible Cusco",
@@ -3194,51 +3293,82 @@
       },
       "9": {
         "id": "9",
-        "title": "Viaje Andino: Cusco y Arequipa",
-        "subtitle": "",
-        "description": "",
-        "whyChooseUs": [],
-        "itinerary": [],
+        "title": "Andean Journey: Cusco and Arequipa",
+        "subtitle": "Una experiencia única a través de la historia, cultura y paisajes del sur peruano",
+        "description": "Este viaje de 8 días combina lo mejor del legado inca en Cusco y Machu Picchu con el encanto colonial y paisajístico de Arequipa y el majestuoso Cañón del Colca.",
+        "whyChooseUs": [
+          "Incluye excursiones guiadas a Machu Picchu, Valle Sagrado y el Cañón del Colca.",
+          "Alojamiento en hoteles seleccionados según categoría elegida.",
+          "Experiencia cultural completa con guías expertos en español o inglés.",
+          "Entradas incluidas a los principales atractivos.",
+          "Opcional upgrade al tren Vistadome para una experiencia más panorámica."
+        ],
+        "itinerary": [
+          "Día 1: Llegada a Cusco - City Tour + Ruinas Cercanas.",
+          "Día 2: Excursión al Valle Sagrado de los Incas con almuerzo.",
+          "Día 3: Viaje en tren a Aguas Calientes. Tarde libre.",
+          "Día 4: Excursión guiada a Machu Picchu. Retorno a Cusco.",
+          "Día 5: Vuelo a Arequipa y City Tour con Monasterio de Santa Catalina.",
+          "Día 6: Inicio del tour al Cañón del Colca. Noche en Chivay.",
+          "Día 7: Visita a la Cruz del Cóndor y pueblos tradicionales. Retorno a Arequipa.",
+          "Día 8: Ruta del Sillar y traslado al aeropuerto. Fin del tour."
+        ],
         "startDate": "",
         "endDate": "",
-        "includes": [],
-        "notIncluded": [],
-        "from": "",
-        "optional": [],
-        "politics": [],
+        "includes": [
+          "Traslados in – out en Cusco y Arequipa.",
+          "03 noches de hotel en Cusco con desayuno.",
+          "01 noche de hotel en Aguas Calientes con desayuno.",
+          "Excursión ciudad de Cusco y 4 Ruinas.",
+          "Excursión a Machu Picchu con guía y entradas.",
+          "Boleto de tren Expedition a Machu Picchu.",
+          "Bus de subida y bajada a Machu Picchu.",
+          "Almuerzo en Machu Picchu (Apu Inti).",
+          "Excursión al Valle Sagrado con almuerzo.",
+          "02 noches en Arequipa con desayuno.",
+          "City Tour Peatonal + Convento de Santa Catalina / Ruta del Sillar.",
+          "01 noche en Chivay con desayuno.",
+          "Tour Cañón del Colca en compartido.",
+          "Entradas a todos los atractivos mencionados.",
+          "Guías profesionales en español o inglés."
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y domésticos.",
+          "Early check-in y late check-out.",
+          "Seguro de viaje.",
+          "Comidas no mencionadas.",
+          "Propinas y gastos personales.",
+          "Ingreso a la Catedral de Arequipa."
+        ],
+        "from": "USD 668.85 por persona en base doble (categoría 3 estrellas - nacional)",
+        "optional": [
+          "Tren Vistadome: USD 80.00 por persona"
+        ],
+        "politics": [
+          "Precios por persona en dólares americanos.",
+          "Tarifa niños aplica de 3 a 10 años.",
+          "Sujeto a disponibilidad y cambios sin previo aviso.",
+          "Tarifas no aplican en fechas festivas o fines de semana largos.",
+          "Ingreso a Machu Picchu sujeto a disponibilidad y horarios establecidos."
+        ],
         "images": [
           {
-            "alt": "",
-            "src": "",
-            "width": 0
+            "alt": "Panoramic view of Machu Picchu",
+            "src": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Plaza de Armas in Cusco",
+            "src": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
+            "width": 1200
           }
         ],
+
         "comfort": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
-        ],
+          {"name":"Hotel Inkari  (Cusco) - Vista Machupicchu, TerraMistica (Arequipa) Colca Inn (Colca)","simple":"926.1","double":"760.2","triple":"751.8","child":"600.6"},{"name":"Hotel Warari  (Cusco) -Vista Machupicchu  TerraMistica (Arequipa) Colca Inn (Colca)","simple":"911.4","double":"754.95","triple":"740.25","child":"408.1"},{"name":"Hotel Imperial (Cusco) Vista Machupicchu, Majestad (Arequipa) Colca Inn (Colca)","simple":"914.55","double":"764.4","triple":"742.35","child":"596.4"},{"name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Xima Crismar (Arequipa), Pozo del Cielo  (Colca)","simple":"1121.4","double":"847.35","triple":"834.75","child":"666.75"},{"name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, Mirador del Monasterio (Arequipa), Pozo del Cielo  (Colca)","simple":"1097.3","double":"847.35","triple":"828.45","child":"675.15"},{"name":"San Agustín (Cusco) - Inti Punku Machupicchu, Santa Rosa (Arequipa), Pozo del Cielo  (Colca)","simple":"1130.9","double":"849.45","triple":"804.3","child":"649.95"},{"name":"San Agustín Dorado  (Cusco) – Casa Andina Machupicchu, San Agustin Posada (Arequipa), Casa Andina Chivay","simple":"1203.3","double":"884.1","triple":"857.85","child":"652.05"},{"name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Casa Andina Classic (Arequipa), Casa Andina Chivay","simple":"1286.3","double":"929.25","triple":"896.7","child":"680.4"},{"name":"Tierra Viva (Centro,Plaza,Saphy) , Hatun Inti Classic, Vita  Hoteles (Arequipa), Colca Llaqta (Colca)","simple":"1116.2","double":"852.6","triple":"848.4","child":"702.45"},{"name":"Casa Andina (San Blas)(Cusco), Inti Punku Machupicchu, Casona Plaza  (Arequipa), Casona Plaza  (Colca)","simple":"1154","double":"871.5","triple":"856.8","child":"700.35"},{"name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Tambo Colonial (Arequipa), Casona Plaza (Colca)","simple":"1223.3","double":"915.6","triple":"891.45","child":"740.25"}        ],
         "deluxe": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
-        ],
+          {"name":"Xima Hotel(Cusco) Hatun Inti Classic, Sonesta (Arequipa), Colca Lodge / Aranwa (Colca)","simple":"1324.1","double":"950.25","triple":"888.3","child":"693"},{"name":"Hotel Sonesta Posada (Cusco) Hatun Inti Classic  Sonesta (Arequipa)   Colca Lodge / Aranwa (Colca)","simple":"1436.4","double":"1009.1","triple":"950.25","child":"752.85"},{"name":"Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu, Casa Andina Select (Arequipa), Colca Lodge / Aranwa (Colca)","simple":"1478.4","double":"1043.7","triple":"--","child":"720.3"},{"name":"Los Portales (Cusco) Hatun Inti Classic Costa del Sol (Aqp) Colca Lodge / Aranwa","simple":"1460.6","double":"1034.3","triple":"988.05","child":"690.9"},{"name":"Costa del Sol - Hab. Contempo Tierra Viva Machupicchu   Costa del Sol (Aqp)Colca Lodge / Aranwa","simple":"1596","double":"1130.9","triple":"1046.9","child":"747.6"},{"name":"Casa Andina Premium (Cusco)El Mapi by Inkaterra, Casa Andina Premium (Arequipa)Colca Lodge / Aranwa","simple":"1728.3","double":"1215.9","triple":"--","child":"841.05"},{"name":"Novotel (Cusco), El Mapi by Inkaterra, Casa Andina Premium (Arequipa), Colca Lodge / Aranwa","simple":"1728.3","double":"1215.9","triple":"--","child":"841.05"}],
         "premium": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
         ]
       }
     }

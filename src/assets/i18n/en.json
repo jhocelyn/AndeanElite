@@ -453,145 +453,145 @@
     },
     "FULL_DAY_TOURS": {
       "1": {
-      "id": "1",
-      "title": "CAÑÓN DEL CÓNDOR + CHONTA",
-      "subtitle": "CAÑÓN DEL CÓNDOR + CHONTA",
-      "description": "Descubre el impresionante Cañón del Cóndor en Chonta, una experiencia única para observar el vuelo majestuoso del cóndor andino en su hábitat natural.",
-      "whyChooseUs": [
-        "Experiencia única para observar cóndores en su hábitat natural.",
-        "Guías profesionales con binoculares y telescopios.",
-        "Vistas impresionantes del nevado Salkantay y el valle de Limatambo.",
-        "Oportunidad de explorar sitios arqueológicos como Killarumiyoc y Tarawasi."
-      ],
-      "itinerary": [
-        "07:00 hrs - Inicio del tour con dirección a la ruta Cusco - Limatambo (2 hrs aprox.), con paradas en Killarumiyoc y Tarawasi. Continuación hacia la comunidad de Chonta.",
-        "Ascenso hasta los 3400 msnm, con paradas para fotos en el nevado Salkantay y el valle de Limatambo.",
-        "Llegada al pueblo de Chonta para un almuerzo con vista al nevado del Salkantay.",
-        "Caminata de 1h 30min aprox. hasta el mirador del Cañón del Cóndor para observar el vuelo de los cóndores.",
-        "Observación de cóndores desde muy cerca, con posibilidad de verlos volar a solo 20 metros del mirador.",
-        "Retorno al pueblo de Chonta y regreso a la ciudad de Cusco."
-      ],
-      "startDate": "2025-01-01",
-      "endDate": "2025-12-31",
-      "includes": [
-        "Movilidad Turística en servicio compartido o privado.",
-        "Guía profesional de turismo con binoculares y telescopio.",
-        "01 almuerzo.",
-        "Entrada al cañón del cóndor.",
-        "Recojo del hotel."
-      ],
-      "notIncluded": [
-        "Alimentación no especificada",
-        "Propina para el guía.",
-        "Seguro de viaje.",
-        "Fotografías.",
-        "Snacks y/o bebidas durante el recorrido.",
-        "Souvenirs, regalos, compras personales.",
-        "Caballos."
-      ],
-      "prices": {
-        "per": "Por persona",
-        "ext": "Desde $67 (compartido) / Desde $76 (privado, según cantidad de personas)"
-      },
-      "optional": [
-        "Medicamentos e implementos de higiene personal.",
-        "Zapatillas o zapatos de caminata.",
-        "Linterna con pilas y focos de repuesto.",
-        "Sombrero o gorro, lentes para el sol y protector solar.",
-        "Repelente de insectos (recomendable con 40% o más de DEET).",
-        "Impermeable, camisas de manga larga y pantalones de algodón.",
-        "Ropa caliente en caso de friaje.",
-        "Binoculares, cámara fotográfica.",
-        "Mochila de equipaje y mochila pequeña."
-      ],
-      "politics": [
-        "Tarifas en dólares americanos, válidas solo para pasajeros peruanos o residentes.",
-        "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-        "No show no reembolsable.",
-        "Se requiere información completa de los pasajeros antes del servicio.",
-        "Precios exclusivos y confidenciales.",
-        "Tarifas válidas hasta diciembre de 2025."
-      ],
-      "images": [
-        {
-          "alt": "Cañón del Cóndor y nevado Salkantay",
-          "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
-          "width": 1200
-        },
-        {
-          "alt": "Mirador en Chonta, Perú",
-          "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-          "width": 1200
-        }
-      ]
-    },
-      "2": {
-        "id": "2",
-        "title": "CUATRIMOTOS EN MORADA DE LOS DIOSES",
-        "subtitle": "CUATRIMOTOS EN MORADA DE LOS DIOSES",
-        "description": "Aventura en cuatrimotos por la Morada de los Dioses en Cusco. Descubre esculturas impresionantes talladas en roca y disfruta de paisajes andinos únicos en un recorrido lleno de adrenalina.",
+        "id": "1",
+        "title": "CONDOR CANYON + CHONTA",
+        "subtitle": "CONDOR CANYON + CHONTA",
+        "description": "Discover the impressive Condor Canyon in Chonta, a unique experience to observe the majestic flight of the Andean condor in its natural habitat.",
         "whyChooseUs": [
-          "Recorrido en cuatrimotos guiado por expertos.",
-          "Visita a la Morada de los Dioses con esculturas únicas.",
-          "Incluye práctica previa y equipo de seguridad.",
-          "Ideal para los amantes de la aventura y la cultura."
+          "Unique experience to observe condors in their natural environment.",
+          "Professional guides equipped with binoculars and telescopes.",
+          "Stunning views of the Salkantay snow-capped mountain and the Limatambo valley.",
+          "Opportunity to explore archaeological sites such as Killarumiyoc and Tarawasi."
         ],
         "itinerary": [
-          "Recojo del hotel y traslado al sector Sencca (25 min).",
-          "Briefing de seguridad (5 min) y entrenamiento en cuatrimotos (10 min).",
-          "Recorrido en cuatrimotos de 1 hora visitando el Acueducto Colonial Fortaleza.",
-          "Visita a la Morada de los Dioses por 30 minutos para apreciar esculturas y paisajes.",
-          "Retorno al campamento y traslado a Cusco, finalizando en la Calle Shapy (a una cuadra de la Plaza de Armas)."
+          "07:00 hrs - Tour begins heading towards the Cusco - Limatambo route (approx. 2 hours), with stops at Killarumiyoc and Tarawasi. Continue to the community of Chonta.",
+          "Ascent to 3400 meters above sea level, with photo stops at the Salkantay snow-capped mountain and the Limatambo valley.",
+          "Arrival at the town of Chonta for lunch with views of the Salkantay snow-capped mountain.",
+          "Approx. 1h 30min walk to the Condor Canyon viewpoint to watch the condors in flight.",
+          "Close observation of condors, with the possibility to see them flying just 20 meters from the viewpoint.",
+          "Return to the town of Chonta and then back to the city of Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Traslados al campo base.",
-          "Briefing y práctica instructiva de las cuatrimotos.",
-          "Guía profesional de turismo Bilingüe.",
-          "Equipo de seguridad.",
-          "Ticket de ingreso.",
-          "Asistencia."
+          "Tourist transportation in shared or private service.",
+          "Professional tour guide with binoculars and telescope.",
+          "1 lunch.",
+          "Entry to Condor Canyon.",
+          "Hotel pickup."
         ],
         "notIncluded": [
-          "Alimentación no especificada.",
-          "Propina para el guía.",
-          "Seguro de viaje.",
-          "Fotografías.",
-          "Snacks y/o bebidas durante el recorrido.",
-          "Souvenirs, regalos, compras personales."
+          "Unspecified meals.",
+          "Tips for the guide.",
+          "Travel insurance.",
+          "Photography.",
+          "Snacks and/or drinks during the tour.",
+          "Souvenirs, gifts, personal purchases.",
+          "Horses."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Desde $36 (compartido)"
+          "per": "Per person",
+          "ext": "From $67 (shared) / From $76 (private, depending on group size)"
         },
         "optional": [
-          "Medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos de caminata.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol y protector solar.",
-          "Repelente de insectos (recomendable con 40% o más de DEET).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa caliente en caso de friaje.",
-          "Binoculares, cámara fotográfica.",
-          "Mochila de equipaje y mochila pequeña."
+          "Medications and personal hygiene items.",
+          "Hiking shoes or sneakers.",
+          "Flashlight with spare batteries and bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (recommended with 40% or higher DEET).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing in case of cold weather.",
+          "Binoculars, camera.",
+          "Luggage backpack and small daypack."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information is required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Cuatrimotos en la Morada de los Dioses - Cusco",
+            "alt": "Condor Canyon and Salkantay snow-capped mountain",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-condor-chonta-peru.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Viewpoint in Chonta, Peru",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "2": {
+        "id": "2",
+        "title": "ATV RIDING IN THE ABODE OF THE GODS",
+        "subtitle": "ATV RIDING IN THE ABODE OF THE GODS",
+        "description": "Adventure on ATVs through the Abode of the Gods in Cusco. Discover impressive rock-carved sculptures and enjoy unique Andean landscapes on a thrilling ride full of adrenaline.",
+        "whyChooseUs": [
+          "Guided ATV tour by experts.",
+          "Visit to the Abode of the Gods with unique sculptures.",
+          "Includes prior practice and safety equipment.",
+          "Ideal for adventure and culture lovers."
+        ],
+        "itinerary": [
+          "Hotel pickup and transfer to Sencca sector (25 min).",
+          "Safety briefing (5 min) and ATV training (10 min).",
+          "1-hour ATV ride visiting the Colonial Aqueduct Fortress.",
+          "30-minute visit to the Abode of the Gods to appreciate sculptures and landscapes.",
+          "Return to the camp and transfer to Cusco, finishing at Shapy Street (one block from the Plaza de Armas)."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Transfers to base camp.",
+          "Briefing and instructive practice of ATV riding.",
+          "Professional bilingual tour guide.",
+          "Safety equipment.",
+          "Entrance ticket.",
+          "Assistance."
+        ],
+        "notIncluded": [
+          "Unspecified meals.",
+          "Tips for the guide.",
+          "Travel insurance.",
+          "Photography.",
+          "Snacks and/or drinks during the tour.",
+          "Souvenirs, gifts, personal purchases."
+        ],
+        "prices": {
+          "per": "Per person",
+          "ext": "From $36 (shared)"
+        },
+        "optional": [
+          "Medications and personal hygiene items.",
+          "Hiking shoes or sneakers.",
+          "Flashlight with spare batteries and bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (recommended with 40% or higher DEET).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing in case of cold weather.",
+          "Binoculars, camera.",
+          "Luggage backpack and small daypack."
+        ],
+        "politics": [
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information is required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
+        ],
+        "images": [
+          {
+            "alt": "ATVs in the Abode of the Gods - Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses.webp",
             "width": 1200
           },
           {
-            "alt": "Recorrido en cuatrimotos - Morada de los Dioses",
+            "alt": "ATV tour - Abode of the Gods",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp",
             "width": 1200
           }
@@ -599,71 +599,71 @@
       },
       "3": {
         "id": "3",
-        "title": "CUATRIMOTOS EN MARAS & MORAY",
-        "subtitle": "CUATRIMOTOS EN MARAS & MORAY",
-        "description": "Aventura en cuatrimotos por Maras y Moray, donde descubrirás el laboratorio agrícola inca, un pueblo colonial y las impactantes salineras con más de 3000 pozas. Vive la cultura andina combinada con adrenalina.",
+        "title": "ATV TOUR IN MARAS & MORAY",
+        "subtitle": "ATV TOUR IN MARAS & MORAY",
+        "description": "Adventure on ATVs through Maras and Moray, where you will discover the Inca agricultural laboratory, a colonial town, and the impressive salt mines with over 3000 salt ponds. Experience Andean culture combined with adrenaline.",
         "whyChooseUs": [
-          "Recorrido guiado en cuatrimotos por Maras, Moray y las Salineras.",
-          "Incluye práctica previa y equipo de seguridad.",
-          "Visita al centro arqueológico de Moray, un antiguo laboratorio agrícola inca.",
-          "Explora las Salineras de Maras, con beneficios medicinales y culinarios.",
-          "Ideal para viajeros que buscan historia, cultura y aventura."
+          "Guided ATV tour through Maras, Moray, and the Salt Mines.",
+          "Includes prior practice and safety equipment.",
+          "Visit to the archaeological site of Moray, an ancient Inca agricultural laboratory.",
+          "Explore the Maras Salt Mines, known for their medicinal and culinary benefits.",
+          "Ideal for travelers seeking history, culture, and adventure."
         ],
         "itinerary": [
-          "Recojo del hotel y traslado al Pueblo de Maras.",
-          "Briefing de seguridad y práctica con cuatrimotos (10 a 15 min).",
-          "Recorrido hacia las terrazas de Moray con visita guiada.",
-          "Visita al pueblo colonial de Maras y su arquitectura tradicional.",
-          "Exploración de las Salineras de Maras con más de 3000 pozas.",
-          "Retorno al hotel en Cusco."
+          "Hotel pickup and transfer to the town of Maras.",
+          "Safety briefing and ATV practice (10 to 15 min).",
+          "Tour to the Moray terraces with guided visit.",
+          "Visit to the colonial town of Maras and its traditional architecture.",
+          "Exploration of the Maras Salt Mines with over 3000 salt ponds.",
+          "Return to the hotel in Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Cuatrimoto.",
-          "Cascos y accesorios de seguridad.",
-          "Tickets de ingreso a Salineras de Maras.",
-          "Guía profesional de turismo (Español o Inglés).",
-          "Movilidad turística.",
-          "Asistencia permanente."
+          "ATV vehicle.",
+          "Helmets and safety accessories.",
+          "Entrance tickets to Maras Salt Mines.",
+          "Professional tour guide (Spanish or English).",
+          "Tourist transportation.",
+          "Continuous assistance."
         ],
         "notIncluded": [
-          "Seguro de viaje.",
-          "Tickets de ingreso a Moray (BT-Parcial).",
-          "Alimentación.",
-          "Propinas."
+          "Travel insurance.",
+          "Entrance tickets to Moray (partial BT).",
+          "Meals.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Desde $71 (compartido)"
+          "per": "Per person",
+          "ext": "From $71 (shared)"
         },
         "optional": [
-          "Medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos de caminata.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol y protector solar.",
-          "Repelente de insectos (recomendable con 40% o más de DEET).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa caliente en caso de friaje.",
-          "Binoculares, cámara fotográfica.",
-          "Mochila de equipaje y mochila pequeña."
+          "Medications and personal hygiene items.",
+          "Hiking shoes or sneakers.",
+          "Flashlight with spare batteries and bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (recommended with 40% or higher DEET).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing in case of cold weather.",
+          "Binoculars, camera.",
+          "Luggage backpack and small daypack."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information is required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Tour en cuatrimotos a Maras y Moray",
+            "alt": "ATV tour to Maras and Moray",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-maras-moray.webp",
             "width": 1200
           },
           {
-            "alt": "Salineras de Maras en cuatrimotos",
+            "alt": "Maras Salt Mines on ATVs",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp",
             "width": 1200
           }
@@ -671,72 +671,72 @@
       },
       "4": {
         "id": "4",
-        "title": "EXCURSIÓN SUPER VALLE",
-        "subtitle": "EXCURSIÓN SUPER VALLE - VALLE SAGRADO COMPLETO",
-        "description": "Un recorrido de día completo por lo mejor del Valle Sagrado de los Incas. Visita Chincheros, Moray, las Salineras de Maras, almuerza en Urubamba y explora las imponentes fortalezas de Ollantaytambo y Pisac.",
+        "title": "SUPER VALLEY EXCURSION",
+        "subtitle": "SUPER VALLEY EXCURSION - FULL SACRED VALLEY",
+        "description": "A full-day tour through the best of the Sacred Valley of the Incas. Visit Chincheros, Moray, the Maras Salt Mines, have lunch in Urubamba, and explore the impressive fortresses of Ollantaytambo and Pisac.",
         "whyChooseUs": [
-          "Tour integral por los principales atractivos del Valle Sagrado.",
-          "Incluye entradas a Moray y Salineras de Maras.",
-          "Almuerzo buffet en Urubamba incluido.",
-          "Guías expertos en historia y cultura incaica.",
-          "Ideal para quienes desean una experiencia completa en un solo día."
+          "Comprehensive tour of the main attractions in the Sacred Valley.",
+          "Includes entrance tickets to Moray and Maras Salt Mines.",
+          "Buffet lunch in Urubamba included.",
+          "Expert guides in Inca history and culture.",
+          "Ideal for those seeking a complete experience in one day."
         ],
         "itinerary": [
-          "Recojo del hotel entre 06:20 y 07:00 hrs.",
-          "Visita a Chincheros: hacienda real del Inca y templo colonial.",
-          "Exploración de los andenes circulares de Moray.",
-          "Visita a las Salineras de Maras, ideales para fotografía.",
-          "Almuerzo buffet en Urubamba.",
-          "Recorrido por la fortaleza y templos de Ollantaytambo.",
-          "Visita al complejo arqueológico y mercado artesanal de Pisac.",
-          "Retorno al hotel en Cusco."
+          "Hotel pickup between 6:20 AM and 7:00 AM.",
+          "Visit to Chincheros: Inca royal estate and colonial temple.",
+          "Exploration of the circular terraces of Moray.",
+          "Visit to the Maras Salt Mines, perfect for photography.",
+          "Buffet lunch in Urubamba.",
+          "Tour of the fortress and temples of Ollantaytambo.",
+          "Visit to the archaeological complex and artisan market of Pisac.",
+          "Return to hotel in Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Transporte turístico.",
-          "Guía profesional bilingüe (Español/Inglés).",
-          "Almuerzo buffet.",
-          "Asistencia permanente."
+          "Tourist transportation.",
+          "Professional bilingual guide (Spanish/English).",
+          "Buffet lunch.",
+          "Continuous assistance."
         ],
         "notIncluded": [
-          "Boleto turístico Parcial (BTC).",
-          "Ingreso a Coricancha y Catedral.",
-          "Seguro de viaje.",
-          "Alimentación no mencionada.",
-          "Propinas."
+          "Partial Tourist Ticket (BTC).",
+          "Entrance to Coricancha and Cathedral.",
+          "Travel insurance.",
+          "Meals not mentioned.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Desde $51 (compartido)"
+          "per": "Per person",
+          "ext": "From $51 (shared)"
         },
         "optional": [
-          "Medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos de caminata.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol y protector solar.",
-          "Repelente de insectos (recomendable con 40% o más de DEET).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa caliente en caso de friaje.",
-          "Binoculares, cámara fotográfica.",
-          "Mochila de equipaje y mochila pequeña."
+          "Medications and personal hygiene items.",
+          "Hiking shoes or sneakers.",
+          "Flashlight with spare batteries and bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (recommended with 40% or higher DEET).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing in case of cold weather.",
+          "Binoculars, camera.",
+          "Luggage backpack and small daypack."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information is required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Tour por el Valle Sagrado de los Incas",
+            "alt": "Tour through the Sacred Valley of the Incas",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
             "width": 1200
           },
           {
-            "alt": "Paisaje del Valle Sagrado - Excursión completa",
+            "alt": "Sacred Valley landscape - Full excursion",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
             "width": 1200
           }
@@ -744,74 +744,74 @@
       },
       "5": {
         "id": "5",
-        "title": "FD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
-        "subtitle": "Aventura en Cuatrimotos hacia la Montaña de 7 Colores",
-        "description": "Vive una experiencia única rumbo a la Montaña de 7 Colores en cuatrimotos. Combina adrenalina, naturaleza y cultura en una excursión inolvidable por los paisajes altoandinos del Cusco.",
+        "title": "FD 7 COLORS MOUNTAIN BY ATV",
+        "subtitle": "ATV Adventure to the 7 Colors Mountain",
+        "description": "Experience a unique adventure heading to the 7 Colors Mountain by ATV. Combine adrenaline, nature, and culture in an unforgettable tour through the high Andean landscapes of Cusco.",
         "whyChooseUs": [
-          "Traslado en cuatrimotos por paisajes altoandinos hasta Qosqopata.",
-          "Visita guiada a la Montaña de 7 Colores con caminata corta.",
-          "Incluye desayuno y almuerzo en el pueblo de Japura.",
-          "Tour ideal para quienes buscan aventura sin largas caminatas.",
-          "Guías expertos y equipo de seguridad incluido."
+          "ATV ride through high Andean landscapes to Qosqopata.",
+          "Guided visit to the 7 Colors Mountain with a short hike.",
+          "Includes breakfast and lunch in the town of Japura.",
+          "Ideal tour for those seeking adventure without long hikes.",
+          "Expert guides and safety equipment included."
         ],
         "itinerary": [
-          "Recojo del hotel entre 03:30 y 04:00 am.",
-          "Viaje en transporte privado hasta Japura (2h 30min).",
-          "Desayuno en Japura.",
-          "Práctica de cuatrimotos y recorrido hasta Qosqopata (1h 30min).",
-          "Caminata de 35 minutos hasta la Montaña de 7 Colores.",
-          "Visita guiada y tiempo libre (aproximadamente 1 hora).",
-          "Retorno en cuatrimotos a Japura (1h 30min).",
-          "Almuerzo en Japura y retorno a Cusco.",
-          "Llegada a la Plaza de Armas aprox. 5:00 pm."
+          "Hotel pickup between 3:30 AM and 4:00 AM.",
+          "Private transport to Japura (2h 30min).",
+          "Breakfast in Japura.",
+          "ATV practice and ride to Qosqopata (1h 30min).",
+          "35-minute hike to the 7 Colors Mountain.",
+          "Guided visit and free time (approximately 1 hour).",
+          "Return by ATV to Japura (1h 30min).",
+          "Lunch in Japura and return to Cusco.",
+          "Arrival at Plaza de Armas approx. 5:00 PM."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Transporte ida y vuelta.",
-          "Cuatrimotos (Honda TRX 250).",
-          "Combustible y casco de seguridad.",
-          "Desayuno y almuerzo.",
-          "Botiquín de primeros auxilios.",
-          "Guía profesional bilingüe (Español/Inglés)."
+          "Round-trip transportation.",
+          "ATVs (Honda TRX 250).",
+          "Fuel and safety helmet.",
+          "Breakfast and lunch.",
+          "First aid kit.",
+          "Professional bilingual guide (Spanish/English)."
         ],
         "notIncluded": [
-          "Seguro de viaje.",
-          "Entrada a la Montaña de 7 Colores ($12 por persona).",
-          "Alimentación no mencionada.",
-          "Propinas."
+          "Travel insurance.",
+          "Entrance fee to the 7 Colors Mountain ($12 per person).",
+          "Meals not mentioned.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por servicio",
-          "ext": "Desde $126 (cuatrimoto individual) / $236 (cuatrimoto doble)"
+          "per": "Per service",
+          "ext": "From $126 (single ATV) / $236 (double ATV)"
         },
         "optional": [
-          "Medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos de caminata.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol y protector solar.",
-          "Repelente de insectos (recomendable con 40% o más de DEET).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa caliente en caso de friaje.",
-          "Binoculares, cámara fotográfica.",
-          "Mochila de equipaje y mochila pequeña."
+          "Medications and personal hygiene items.",
+          "Hiking shoes or sneakers.",
+          "Flashlight with spare batteries and bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (recommended with 40% or higher DEET).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing in case of cold weather.",
+          "Binoculars, camera.",
+          "Luggage backpack and small daypack."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information is required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Montaña de 7 Colores - Aventura en cuatrimotos",
+            "alt": "7 Colors Mountain - ATV Adventure",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
             "width": 1200
           },
           {
-            "alt": "Tour en cuatrimotos rumbo a la montaña arcoiris",
+            "alt": "ATV tour heading to the Rainbow Mountain",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
             "width": 1200
           }
@@ -820,73 +820,73 @@
       "6": {
         "id": "6",
         "title": "FULL DAY MACHU PICCHU",
-        "subtitle": "Descubre la maravilla del mundo en un solo día",
-        "description": "Una experiencia inolvidable desde Cusco hacia la majestuosa ciudadela de Machu Picchu. Ideal para quienes disponen de poco tiempo pero no quieren perderse lo mejor del legado incaico.",
+        "subtitle": "Discover the wonder of the world in a single day",
+        "description": "An unforgettable experience from Cusco to the majestic citadel of Machu Picchu. Ideal for those with limited time who don’t want to miss the best of the Inca legacy.",
         "whyChooseUs": [
-          "Servicio todo incluido desde tu hotel en Cusco hasta Machu Picchu.",
-          "Viaje en tren con vistas espectaculares a través del Valle Sagrado.",
-          "Guía profesional durante todo el recorrido en Machu Picchu.",
-          "Tiempo libre para disfrutar y explorar por cuenta propia.",
-          "Ideal para viajes express sin sacrificar calidad ni seguridad."
+          "All-inclusive service from your hotel in Cusco to Machu Picchu.",
+          "Train ride with spectacular views through the Sacred Valley.",
+          "Professional guide throughout the Machu Picchu tour.",
+          "Free time to enjoy and explore on your own.",
+          "Perfect for express trips without sacrificing quality or safety."
         ],
         "itinerary": [
-          "Recojo del hotel en Cusco entre 04:00 y 04:30 am.",
-          "Transporte hasta la estación de tren en Ollantaytambo.",
-          "Viaje en tren hasta Aguas Calientes (2 horas aprox.).",
-          "Bus a Machu Picchu desde Aguas Calientes.",
-          "Visita guiada por la ciudadela (2 horas).",
-          "Tiempo libre en Machu Picchu.",
-          "Bus de retorno a Aguas Calientes.",
-          "Almuerzo (no incluido) y tiempo libre.",
-          "Tren de regreso a Ollantaytambo y traslado a Cusco.",
-          "Arribo a Cusco por la noche."
+          "Hotel pickup in Cusco between 4:00 AM and 4:30 AM.",
+          "Transport to the train station in Ollantaytambo.",
+          "Train ride to Aguas Calientes (approx. 2 hours).",
+          "Bus from Aguas Calientes to Machu Picchu.",
+          "Guided tour of the citadel (2 hours).",
+          "Free time at Machu Picchu.",
+          "Return bus to Aguas Calientes.",
+          "Lunch (not included) and free time.",
+          "Return train to Ollantaytambo and transfer back to Cusco.",
+          "Arrival in Cusco at night."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Recojo desde el hotel en Cusco.",
-          "Transporte ida y vuelta a la estación de tren.",
-          "Ticket de tren ida y vuelta (Ollantaytambo - Aguas Calientes).",
-          "Bus ida y vuelta (Aguas Calientes - Machu Picchu).",
-          "Entrada a Machu Picchu.",
-          "Guía profesional en Español.",
-          "Asistencia permanente."
+          "Hotel pickup in Cusco.",
+          "Round-trip transport to the train station.",
+          "Round-trip train ticket (Ollantaytambo - Aguas Calientes).",
+          "Round-trip bus ticket (Aguas Calientes - Machu Picchu).",
+          "Machu Picchu entrance ticket.",
+          "Professional Spanish-speaking guide.",
+          "Permanent assistance."
         ],
         "notIncluded": [
-          "Almuerzo en Aguas Calientes.",
-          "Snacks y bebidas.",
-          "Propinas.",
-          "Seguro de viaje."
+          "Lunch in Aguas Calientes.",
+          "Snacks and drinks.",
+          "Tips.",
+          "Travel insurance."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Adulto: $325 | Estudiante con carné: $305"
+          "per": "Per person",
+          "ext": "Adult: $325 | Student with ID: $305"
         },
         "optional": [
-          "Llevar pasaporte original o documento de identidad válido.",
-          "Ropa cómoda y zapatillas de caminata.",
-          "Bloqueador solar, lentes de sol y sombrero.",
-          "Botella de agua reutilizable.",
-          "Cámara fotográfica.",
-          "Dinero en efectivo para gastos personales.",
-          "Chamarra o impermeable en temporada de lluvias."
+          "Bring original passport or valid ID.",
+          "Comfortable clothing and hiking shoes.",
+          "Sunscreen, sunglasses, and hat.",
+          "Reusable water bottle.",
+          "Camera.",
+          "Cash for personal expenses.",
+          "Jacket or raincoat during rainy season."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Tour completo a Machu Picchu desde Cusco",
+            "alt": "Full-day tour to Machu Picchu from Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
             "width": 1200
           },
           {
-            "alt": "Ciudadela de Machu Picchu vista panorámica",
+            "alt": "Panoramic view of the Machu Picchu citadel",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/machu-picchu-tours.webp",
             "width": 1200
           }
@@ -894,71 +894,71 @@
       },
       "7": {
         "id": "7",
-        "title": "LAGUNA HUMANTAY",
-        "subtitle": "Una caminata mágica hacia una joya escondida de los Andes",
-        "description": "Explora una de las lagunas más impresionantes del Cusco. Rodeada por montañas nevadas, la Laguna Humantay es un destino perfecto para los amantes de la naturaleza, la aventura y la espiritualidad andina.",
+        "title": "HUMANTAY LAKE",
+        "subtitle": "A magical hike to a hidden jewel of the Andes",
+        "description": "Explore one of the most stunning lakes in Cusco. Surrounded by snow-capped mountains, Humantay Lake is a perfect destination for lovers of nature, adventure, and Andean spirituality.",
         "whyChooseUs": [
-          "Vistas espectaculares de la cordillera nevada de Vilcabamba.",
-          "Ceremonia andina de agradecimiento a la Pachamama.",
-          "Desayuno y almuerzo incluidos para una experiencia completa.",
-          "Guía profesional y transporte seguro durante todo el día.",
-          "Ideal para viajeros que disfrutan de retos físicos y paisajes naturales."
+          "Spectacular views of the Vilcabamba snow-capped mountain range.",
+          "Andean ceremony of gratitude to Pachamama (Mother Earth).",
+          "Breakfast and lunch included for a complete experience.",
+          "Professional guide and safe transportation throughout the day.",
+          "Ideal for travelers who enjoy physical challenges and natural landscapes."
         ],
         "itinerary": [
-          "Recojo del hotel entre 04:00 y 04:40 hrs.",
-          "Viaje hacia Mollepata y desayuno local.",
-          "Continuación hacia Soraypampa.",
-          "Inicio de la caminata hacia la Laguna Humantay (1h30min aprox.).",
-          "Tiempo libre en la laguna y ceremonia andina de pago a la tierra.",
-          "Retorno a Soraypampa y luego a Mollepata para el almuerzo.",
-          "Regreso a Cusco entre 18:30 y 19:00 hrs. y traslado al hotel."
+          "Hotel pickup between 4:00 AM and 4:40 AM.",
+          "Travel to Mollepata and local breakfast.",
+          "Continue to Soraypampa.",
+          "Start of the hike to Humantay Lake (approx. 1h 30min).",
+          "Free time at the lake and Andean payment ceremony to the earth.",
+          "Return to Soraypampa and then to Mollepata for lunch.",
+          "Return to Cusco between 6:30 PM and 7:00 PM with transfer to the hotel."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Movilidad Turística.",
-          "Guía Profesional de Ruta.",
-          "Transporte Cusco – Mollepata – Soraypampa – Cusco.",
-          "Desayuno.",
-          "Box Lunch.",
-          "Entrada turística."
+          "Tourist transportation.",
+          "Professional route guide.",
+          "Transport Cusco – Mollepata – Soraypampa – Cusco.",
+          "Breakfast.",
+          "Box lunch.",
+          "Tourist entrance ticket."
         ],
         "notIncluded": [
-          "Seguro de viaje.",
-          "Alimentación no mencionada.",
-          "Propinas."
+          "Travel insurance.",
+          "Food not mentioned.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adulto/Junior/CHD $49 | Privado: Desde $369 (1 persona) hasta $76 (8 personas)"
+          "per": "Per person",
+          "ext": "Shared: Adult/Junior/CHD $49 | Private: From $369 (1 person) up to $76 (8 people)"
         },
         "optional": [
-          "Traer medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos de caminata.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol, protector solar.",
-          "Repelente de insectos (40% o más de DEET).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa abrigadora.",
-          "Binoculares, cámara fotográfica.",
-          "Mochila de equipaje y mochila pequeña."
+          "Bring medications and personal hygiene items.",
+          "Hiking shoes or sneakers.",
+          "Flashlight with batteries and spare bulbs.",
+          "Hat or cap, sunglasses, sunscreen.",
+          "Insect repellent (40% or more DEET).",
+          "Raincoat, long sleeve shirts, and cotton pants.",
+          "Warm clothing.",
+          "Binoculars, camera.",
+          "Luggage backpack and small daypack."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Vista panorámica de la Laguna Humantay",
+            "alt": "Panoramic view of Humantay Lake",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
             "width": 1200
           },
           {
-            "alt": "Paisaje andino en la ruta a Humantay",
+            "alt": "Andean landscape on the route to Humantay",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
             "width": 1200
           }
@@ -966,75 +966,75 @@
       },
       "8": {
         "id": "8",
-        "title": "TOUR MARAS MORAY",
-        "subtitle": "Descubre la ingeniería ancestral y paisajes únicos del Valle Sagrado",
-        "description": "Explora los fascinantes sitios de Maras y Moray en este tour de medio día. Visita las impresionantes salineras y las terrazas circulares de Moray, utilizadas por los incas como laboratorio agrícola. Una combinación perfecta de historia, cultura y belleza natural.",
+        "title": "MARAS MORAY TOUR",
+        "subtitle": "Discover ancient engineering and unique landscapes of the Sacred Valley",
+        "description": "Explore the fascinating sites of Maras and Moray on this half-day tour. Visit the impressive salt mines and the circular terraces of Moray, used by the Incas as an agricultural laboratory. A perfect combination of history, culture, and natural beauty.",
         "whyChooseUs": [
-          "Visita a las salineras milenarias de Maras.",
-          "Exploración del laboratorio agrícola inca en Moray.",
-          "Ideal para viajeros con poco tiempo en Cusco.",
-          "Opciones en servicio compartido o privado.",
-          "Guías expertos y transporte turístico cómodo."
+          "Visit to the ancient salt mines of Maras.",
+          "Exploration of the Inca agricultural laboratory at Moray.",
+          "Ideal for travelers with limited time in Cusco.",
+          "Options for shared or private service.",
+          "Expert guides and comfortable tourist transportation."
         ],
         "itinerary": [
-          "Recojo del hotel entre 08:10 y 08:50 hrs.",
-          "Visita a las Salineras de Maras, centro de producción ancestral de sal.",
-          "Exploración del sitio arqueológico de Moray y sus terrazas concéntricas.",
-          "Retorno a Cusco a las 15:00 hrs."
+          "Hotel pickup between 8:10 AM and 8:50 AM.",
+          "Visit to the Maras Salt Mines, an ancestral salt production center.",
+          "Exploration of the archaeological site of Moray and its concentric terraces.",
+          "Return to Cusco at 3:00 PM."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Tickets de ingreso a Salineras de Maras.",
-          "Entrada a Maras.",
-          "Guiado en Español o Inglés.",
-          "Movilidad turística.",
-          "Asistencia permanente."
+          "Entrance tickets to Maras Salt Mines.",
+          "Entry to Maras.",
+          "Guided tour in Spanish or English.",
+          "Tourist transportation.",
+          "Permanent assistance."
         ],
         "notIncluded": [
-          "Seguro de viaje.",
-          "Tickets de ingreso a Moray.",
-          "Alimentación.",
-          "Propinas."
+          "Travel insurance.",
+          "Entrance tickets to Moray.",
+          "Food.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adulto/Junior/CHD $24 | Privado: Desde $234 (1 persona) hasta $38 (8 personas)"
+          "per": "Per person",
+          "ext": "Shared: Adult/Junior/CHD $24 | Private: From $234 (1 person) up to $38 (8 people)"
         },
         "optional": [
-          "Zapatillas o zapatos de caminata.",
-          "Sombrero o gorro, lentes para el sol, protector solar.",
-          "Repelente de insectos (40% DEET o más).",
-          "Impermeable o ropa de abrigo según la temporada.",
-          "Cámara fotográfica y binoculares.",
-          "Mochila de día y botella de agua reutilizable."
+          "Hiking shoes or sneakers.",
+          "Hat or cap, sunglasses, sunscreen.",
+          "Insect repellent (40% DEET or more).",
+          "Raincoat or warm clothing depending on the season.",
+          "Camera and binoculars.",
+          "Day backpack and reusable water bottle."
         ],
-        "adicionalEntryFee": {
-          "nacionales": {
-            "adulto": "$14",
-            "niño": "$14"
+        "additionalEntryFee": {
+          "nationals": {
+            "adult": "$14",
+            "child": "$14"
           },
-          "extranjeros": {
-            "adulto": "$25",
-            "niño": "$25"
+          "foreigners": {
+            "adult": "$25",
+            "child": "$25"
           }
         },
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Prices in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, National Holidays, New Year, holidays, international events or fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Prices valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Vista panorámica de las salineras de Maras",
+            "alt": "Panoramic view of the Maras Salt Mines",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
             "width": 1200
           },
           {
-            "alt": "Terrazas circulares en Moray",
+            "alt": "Circular terraces at Moray",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
             "width": 1200
           }
@@ -1042,71 +1042,71 @@
       },
       "9": {
         "id": "9",
-        "title": "MONTAÑA PALCOYO",
-        "subtitle": "Una alternativa menos concurrida a la Montaña Arcoíris",
-        "description": "Explora la Montaña Palcoyo, la opción tranquila y accesible frente a la popular Vinicunca. Disfruta de un paisaje colorido con tres montañas arcoíris visibles y una caminata moderada. Ideal para quienes buscan belleza natural sin una exigencia física intensa.",
+        "title": "PALCOYO MOUNTAIN",
+        "subtitle": "A less crowded alternative to Rainbow Mountain",
+        "description": "Explore Palcoyo Mountain, the quiet and accessible option compared to the popular Vinicunca. Enjoy a colorful landscape with three visible rainbow mountains and a moderate hike. Ideal for those seeking natural beauty without intense physical demand.",
         "whyChooseUs": [
-          "Alternativa menos visitada que Vinicunca.",
-          "Accesible para personas con menor condición física.",
-          "Vistas panorámicas de tres montañas arcoíris.",
-          "Visita cultural al puente Inca de Checacupe.",
-          "Servicio con guía experto y almuerzo incluido."
+          "Less visited alternative than Vinicunca.",
+          "Accessible for people with lower physical fitness.",
+          "Panoramic views of three rainbow mountains.",
+          "Cultural visit to the Inca bridge of Checacupe.",
+          "Service with expert guide and included lunch."
         ],
         "itinerary": [
-          "Recojo del hotel a las 04:30 hrs.",
-          "Viaje de 3h30min a la zona de caminata.",
-          "Caminata moderada de 45 minutos hasta los 5,000 m.s.n.m.",
-          "Vista de tres montañas de colores y paisaje cordillerano.",
-          "Visita al puente inca de Checacupe.",
-          "Almuerzo y retorno a Cusco."
+          "Hotel pickup at 4:30 AM.",
+          "3h30min trip to the hiking area.",
+          "Moderate 45-minute hike up to 5,000 meters above sea level.",
+          "View of three colorful mountains and mountain landscape.",
+          "Visit to the Inca bridge of Checacupe.",
+          "Lunch and return to Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Recojo del hotel.",
-          "Transporte compartido.",
-          "Guía en español.",
-          "Almuerzo.",
-          "Ticket de entrada al parque."
+          "Hotel pickup.",
+          "Shared transportation.",
+          "Spanish-speaking guide.",
+          "Lunch.",
+          "Park entrance ticket."
         ],
         "notIncluded": [
-          "Alimentación no especificada.",
-          "Propinas.",
-          "Seguro de viaje.",
-          "Fotografías.",
-          "Snacks y bebidas.",
+          "Unspecified meals.",
+          "Tips.",
+          "Travel insurance.",
+          "Photos.",
+          "Snacks and drinks.",
           "Souvenirs.",
-          "Caballos."
+          "Horses."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adulto/Junior/CHD $50 | Privado: Desde $366 (1 persona) hasta $73 (8 personas)"
+          "per": "Per person",
+          "ext": "Shared: Adult/Junior/CHD $50 | Private: From $366 (1 person) up to $73 (8 persons)"
         },
         "optional": [
-          "Zapatillas o zapatos de caminata.",
-          "Ropa de abrigo y capa para lluvia.",
-          "Sombrero o gorro, lentes para el sol, protector solar.",
-          "Repelente con 40% DEET o más.",
-          "Bastones de trekking (opcional).",
-          "Cámara fotográfica y binoculares.",
-          "Mochila de día con botella de agua."
+          "Hiking sneakers or shoes.",
+          "Warm clothes and rain poncho.",
+          "Hat or cap, sunglasses, sunscreen.",
+          "Insect repellent with 40% DEET or higher.",
+          "Trekking poles (optional).",
+          "Camera and binoculars.",
+          "Day backpack with water bottle."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Vista colorida de la Montaña Palcoyo",
+            "alt": "Colorful view of Palcoyo Mountain",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
             "width": 1200
           },
           {
-            "alt": "Panorama de la cordillera con tonos arcoíris",
+            "alt": "Mountain range panorama with rainbow tones",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
             "width": 1200
           }
@@ -1114,62 +1114,62 @@
       },
       "10": {
         "id": "10",
-        "title": "PARQUE ARQUEOLÓGICO EN CIUDAD",
-        "subtitle": "Recorrido cultural por los principales centros arqueológicos de Cusco",
-        "description": "Sumérgete en la historia inca visitando los principales centros arqueológicos aledaños a la ciudad de Cusco: Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Un tour ideal para quienes desean conocer la riqueza histórica y espiritual de la cultura andina sin alejarse de la ciudad.",
+        "title": "ARCHAEOLOGICAL PARK IN THE CITY",
+        "subtitle": "Cultural tour of the main archaeological sites of Cusco",
+        "description": "Immerse yourself in Inca history by visiting the main archaeological sites near the city of Cusco: Sacsayhuamán, Qenqo, Puca Pucara, and Tambomachay. An ideal tour for those who want to discover the historical and spiritual richness of Andean culture without leaving the city.",
         "whyChooseUs": [
-          "Tour de medio día, ideal para combinar con otras actividades.",
-          "Visita a los cuatro sitios arqueológicos más importantes de Cusco.",
-          "Acompañamiento por guías profesionales en español o inglés.",
-          "Salida diaria con opción de servicio privado.",
-          "Perfecto para una primera inmersión en la cultura inca."
+          "Half-day tour, perfect to combine with other activities.",
+          "Visit the four most important archaeological sites in Cusco.",
+          "Guided by professional guides in Spanish or English.",
+          "Daily departures with private service option.",
+          "Perfect for a first immersion into Inca culture."
         ],
         "itinerary": [
-          "Recojo del hotel.",
-          "Visita a Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay.",
-          "Retorno a Cusco."
+          "Hotel pickup.",
+          "Visit to Sacsayhuamán, Qenqo, Puca Pucara, and Tambomachay.",
+          "Return to Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Transporte turístico.",
-          "Guía en español o inglés.",
-          "Asistencia permanente."
+          "Tourist transportation.",
+          "Guide in Spanish or English.",
+          "Continuous assistance."
         ],
         "notIncluded": [
-          "Boleto turístico parcial.",
-          "Entradas a Coricancha y Catedral.",
-          "Seguro de viaje.",
-          "Alimentación.",
-          "Propinas."
+          "Partial tourist ticket.",
+          "Entrance to Coricancha and Cathedral.",
+          "Travel insurance.",
+          "Meals.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: $14 (Adulto/CHD/Estudiante) | Privado: Desde $134 (1 persona) hasta $16 (8 personas)"
+          "per": "Per person",
+          "ext": "Shared: $14 (Adult/CHD/Student) | Private: From $134 (1 person) up to $16 (8 persons)"
         },
         "optional": [
-          "Zapatillas cómodas o de caminata.",
-          "Protección solar y repelente con DEET.",
-          "Cámara fotográfica y binoculares.",
-          "Ropa ligera y abrigo para cambios de clima.",
-          "Botella de agua y snacks."
+          "Comfortable or hiking sneakers.",
+          "Sun protection and DEET insect repellent.",
+          "Camera and binoculars.",
+          "Light clothing and warm layers for weather changes.",
+          "Water bottle and snacks."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Vista de Sacsayhuamán en Cusco",
+            "alt": "View of Sacsayhuamán in Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/parque-arqueologico-cusco.webp",
             "width": 1200
           },
           {
-            "alt": "Ruinas arqueológicas cerca de Cusco",
+            "alt": "Archaeological ruins near Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
             "width": 1200
           }
@@ -1178,67 +1178,67 @@
       "11": {
         "id": "11",
         "title": "Q’ESWACHACA",
-        "subtitle": "El último puente Inca en uso – Un legado vivo del Qhapaq Ñan",
-        "description": "Descubre el asombroso puente inca de Q’eswachaca, reconocido por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad. Este tour de día completo te lleva a través de los Andes hasta el legendario puente de ichu sobre el río Apurímac, construido y renovado anualmente por comunidades locales mediante técnicas ancestrales. Una experiencia auténtica de cultura viva y conexión histórica.",
+        "subtitle": "The last Inca bridge still in use – A living legacy of the Qhapaq Ñan",
+        "description": "Discover the amazing Inca bridge of Q’eswachaca, recognized by UNESCO as an Intangible Cultural Heritage of Humanity. This full-day tour takes you through the Andes to the legendary ichu grass bridge over the Apurímac River, built and renewed annually by local communities using ancestral techniques. An authentic experience of living culture and historical connection.",
         "whyChooseUs": [
-          "Visita al único puente inca funcional aún en uso.",
-          "Interacción con comunidades locales y participación en la elaboración de sogas.",
-          "Recorrido panorámico por las 4 lagunas altoandinas.",
-          "Tour disponible todo el año, con enfoque cultural y vivencial.",
-          "Experiencia única declarada Patrimonio de la Humanidad por la UNESCO."
+          "Visit the only functional Inca bridge still in use.",
+          "Interact with local communities and participate in rope-making.",
+          "Scenic tour of the 4 high Andean lagoons.",
+          "Year-round tour with cultural and immersive focus.",
+          "Unique experience declared a UNESCO World Heritage."
         ],
         "itinerary": [
-          "Día 1: Introducción histórica sobre el Q’eswachaca, su legado y las comunidades que lo mantienen.",
-          "Día 2:",
-          "- 05:30 hrs: Salida desde Cusco rumbo al poblado de Pomacanchi.",
-          "- Vista panorámica de las lagunas Pomacanchi, Acopia, Asnacocha y Pampamarca.",
-          "- Llegada al puente inca de Q’eswachaca.",
-          "- Participación en la elaboración de sogas de ichu y cruce del puente.",
-          "- Tiempo libre para fotografías y conexión con el entorno.",
-          "- 17:30 hrs: Retorno a Cusco."
+          "Day 1: Historical introduction about Q’eswachaca, its legacy, and the communities that maintain it.",
+          "Day 2:",
+          "- 5:30 AM: Departure from Cusco towards the town of Pomacanchi.",
+          "- Panoramic view of the Pomacanchi, Acopia, Asnacocha, and Pampamarca lagoons.",
+          "- Arrival at the Inca bridge of Q’eswachaca.",
+          "- Participation in ichu rope-making and crossing the bridge.",
+          "- Free time for photos and connection with the surroundings.",
+          "- 5:30 PM: Return to Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Movilidad turística.",
-          "Guía de turismo.",
+          "Tourist transportation.",
+          "Tour guide.",
           "Box lunch.",
-          "Ingreso al puente Q’eswachaca.",
-          "Asistencia permanente durante la excursión."
+          "Entrance to the Q’eswachaca bridge.",
+          "Continuous assistance during the excursion."
         ],
         "notIncluded": [
-          "Seguro de viaje.",
-          "Alimentación adicional.",
-          "Propinas."
+          "Travel insurance.",
+          "Additional meals.",
+          "Tips."
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: $55 (ADT/CHD/JR) | Privado: Desde $366 (1 persona) hasta $72 (8 personas)"
+          "per": "Per person",
+          "ext": "Shared: $55 (ADT/CHD/JR) | Private: From $366 (1 person) up to $72 (8 persons)"
         },
         "optional": [
-          "Zapatillas de caminata.",
-          "Ropa impermeable y de abrigo.",
-          "Protección solar y repelente de insectos (DEET 40%).",
-          "Botella de agua y snacks personales.",
-          "Cámara fotográfica y binoculares.",
-          "Mochila pequeña."
+          "Hiking shoes.",
+          "Waterproof and warm clothing.",
+          "Sun protection and insect repellent (40% DEET).",
+          "Water bottle and personal snacks.",
+          "Camera and binoculars.",
+          "Small backpack."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Puente inca de Q’eswachaca sobre el río Apurímac",
+            "alt": "Inca bridge of Q’eswachaca over the Apurímac River",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/ultimo-puente-inca.webp",
             "width": 1200
           },
           {
-            "alt": "Comunidades locales renovando el puente Q’eswachaca",
+            "alt": "Local communities renewing the Q’eswachaca bridge",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
             "width": 1200
           }
@@ -1246,77 +1246,77 @@
       },
       "12": {
         "id": "12",
-        "title": "Rafting en Cusco",
-        "subtitle": "Aventura y relax en el río Urubamba",
-        "description": "Disfruta de una experiencia de rafting en los rápidos del río Urubamba, con un campamento cómodo que incluye duchas calientes, sauna y un almuerzo caliente. Ideal para quienes buscan adrenalina y descanso en la naturaleza.",
+        "title": "Rafting in Cusco",
+        "subtitle": "Adventure and relaxation on the Urubamba River",
+        "description": "Enjoy a rafting experience on the rapids of the Urubamba River, with a comfortable camp that includes hot showers, sauna, and a hot lunch. Ideal for those seeking adrenaline and relaxation in nature.",
         "whyChooseUs": [
-          "Guías profesionales con equipo completo y charla exhaustiva de seguridad.",
-          "Rafting en rápidos nivel II y III, con algunos tramos más desafiantes.",
-          "Incluye transporte turístico y recogida en el hotel.",
-          "Opcional Zip Line sobre el río Urubamba con 2 cables de 100 metros cada uno.",
-          "Disfrute de sauna y almuerzo en el campamento Cusipata River Lodge."
+          "Professional guides with full equipment and thorough safety briefing.",
+          "Rafting on level II and III rapids, with some more challenging sections.",
+          "Includes tourist transportation and hotel pickup.",
+          "Optional Zip Line over the Urubamba River with 2 cables of 100 meters each.",
+          "Enjoy sauna and lunch at Cusipata River Lodge camp."
         ],
         "itinerary": [
-          "08:50 hrs: Salida del hotel hacia el campamento Cusipata River Lodge.",
-          "Recepción con duchas calientes, baños, sauna y comedor confortable.",
-          "Charla de seguridad y entrega de equipo de rafting.",
-          "Traslado a Chuquicahuana para iniciar rafting en rápidos de nivel II y III.",
-          "Dos horas de rafting disfrutando la adrenalina del río.",
-          "Regreso a Cusipata River Lodge para almuerzo y sauna relajante.",
-          "Opcional: Zip Line con 2 cables sobre el río Urubamba.",
-          "Regreso a Cusco por la tarde."
+          "08:50 AM: Departure from the hotel to Cusipata River Lodge camp.",
+          "Reception with hot showers, bathrooms, sauna, and comfortable dining area.",
+          "Safety briefing and rafting equipment delivery.",
+          "Transfer to Chuquicahuana to start rafting on level II and III rapids.",
+          "Two hours of rafting enjoying the adrenaline of the river.",
+          "Return to Cusipata River Lodge for lunch and relaxing sauna.",
+          "Optional: Zip Line with 2 cables over the Urubamba River.",
+          "Return to Cusco in the afternoon."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Recojo del hotel",
-          "Transporte turístico",
-          "Traje húmedo y remos",
-          "Guía profesional river",
-          "Almuerzo",
-          "Kayakista de seguridad",
-          "Botiquín de primeros auxilios",
-          "Bastón"
+          "Hotel pickup",
+          "Tourist transportation",
+          "Wetsuit and paddles",
+          "Professional river guide",
+          "Lunch",
+          "Safety kayaker",
+          "First aid kit",
+          "Paddle"
         ],
         "notIncluded": [
-          "Propina para el guía",
-          "Seguro de viaje",
-          "Fotografías",
-          "Snacks y/o bebidas durante el recorrido",
-          "Souvenirs, regalos, compras personales"
+          "Tip for the guide",
+          "Travel insurance",
+          "Photos",
+          "Snacks and/or drinks during the tour",
+          "Souvenirs, gifts, personal purchases"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: $80 (adultos y niños)"
+          "per": "Per person",
+          "ext": "Shared: $80 (adults and children)"
         },
         "optional": [
-          "Llevar otra muda de ropa y un par de sandalias",
-          "Medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares y cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
+          "Bring a change of clothes and a pair of sandals",
+          "Medications and personal hygiene items",
+          "Sneakers or hiking shoes",
+          "Flashlight with batteries and spare bulbs",
+          "Hat or cap, sunglasses, sunscreen",
+          "Insect repellent (recommended with 40% or more DEET)",
+          "Raincoat, long sleeve shirts, and cotton pants",
+          "Warm clothing in case of cold weather",
+          "Binoculars and camera",
+          "Luggage backpack and small daypack"
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
+          "Rates in US dollars, valid only for Peruvian passengers or residents",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs)",
+          "No-show is non-refundable",
+          "Complete passenger information required before the service",
+          "Exclusive and confidential prices",
+          "Rates valid until December 2025"
         ],
         "images": [
           {
-            "alt": "Rafting en río Urubamba, Cusco",
+            "alt": "Rafting on the Urubamba River, Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
             "width": 1200
           },
           {
-            "alt": "Campamento Cusipata River Lodge junto al río",
+            "alt": "Cusipata River Lodge camp by the river",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco-lake.webp",
             "width": 1200
           }
@@ -1324,73 +1324,73 @@
       },
       "13": {
         "id": "13",
-        "title": "Ruta del Sol Cusco - Puno",
-        "subtitle": "Tour en bus turístico con visitas culturales y paisajísticas",
-        "description": "Viaja en bus turístico desde Cusco hasta Puno visitando atractivos culturales como la Capilla de Andahuaylillas, el templo de Wiracocha en Raqchi, La Raya y el Museo Lítico de Pukará. Incluye almuerzo buffet y guía en español o inglés.",
+        "title": "Sun Route Cusco - Puno",
+        "subtitle": "Tour by tourist bus with cultural and scenic visits",
+        "description": "Travel by tourist bus from Cusco to Puno visiting cultural attractions such as the Chapel of Andahuaylillas, the Wiracocha temple in Raqchi, La Raya, and the Pukará Lithic Museum. Includes buffet lunch and guide in Spanish or English.",
         "whyChooseUs": [
-          "Transporte cómodo en bus turístico con paradas estratégicas.",
-          "Visitas guiadas en sitios arqueológicos y culturales reconocidos.",
-          "Almuerzo buffet incluido para disfrutar de la gastronomía local.",
-          "Guía profesional bilingüe (español o inglés) durante todo el recorrido.",
-          "Asistencia permanente durante el viaje."
+          "Comfortable transportation on a tourist bus with strategic stops.",
+          "Guided visits to recognized archaeological and cultural sites.",
+          "Buffet lunch included to enjoy local cuisine.",
+          "Professional bilingual guide (Spanish or English) throughout the trip.",
+          "Permanent assistance during the journey."
         ],
         "itinerary": [
-          "07:00 hrs: Salida en bus turístico desde el terminal terrestre de Cusco.",
-          "Visita a la Capilla de Andahuaylillas, famosa por sus murales.",
-          "Recorrido por el complejo arqueológico de Raqchi, templo de Wiracocha.",
-          "Almuerzo buffet durante el trayecto.",
-          "Parada en La Raya, punto más alto del camino y frontera entre Cusco y Puno.",
-          "Visita al Museo Lítico de Pukará, donde se encuentra la escultura del Hatunñaqac.",
-          "17:00 hrs: Llegada a la estación de bus en Puno."
+          "07:00 AM: Departure by tourist bus from Cusco’s bus terminal.",
+          "Visit to the Chapel of Andahuaylillas, famous for its murals.",
+          "Tour of the archaeological complex of Raqchi, temple of Wiracocha.",
+          "Buffet lunch during the trip.",
+          "Stop at La Raya, the highest point on the route and border between Cusco and Puno.",
+          "Visit to the Pukará Lithic Museum, home to the Hatunñaqac sculpture.",
+          "05:00 PM: Arrival at the bus station in Puno."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Movilidad turística",
-          "Tickets de ingreso",
-          "Visita a la Capilla de Andahuaylillas",
-          "Visita a Raqchi",
-          "Almuerzo buffet",
-          "Parada en La Raya",
-          "Visita al Museo Lítico de Pukará",
-          "Guiado en español o inglés",
-          "Asistencia permanente"
+          "Tourist transportation",
+          "Entrance tickets",
+          "Visit to the Chapel of Andahuaylillas",
+          "Visit to Raqchi",
+          "Buffet lunch",
+          "Stop at La Raya",
+          "Visit to the Pukará Lithic Museum",
+          "Guided tour in Spanish or English",
+          "Permanent assistance"
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Propinas"
+          "Travel insurance",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos $90, Junior (8-16 años) $83"
+          "per": "Per person",
+          "ext": "Shared: Adults $90, Junior (8-16 years) $83"
         },
         "optional": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
+          "Bring medications and personal hygiene items",
+          "Sneakers or hiking shoes",
+          "Flashlight with batteries and spare bulbs",
+          "Hat or cap, sunglasses, sunscreen",
+          "Insect repellent (recommended with 40% or more DEET)",
+          "Raincoat, long-sleeve shirts, and cotton pants",
+          "Warm clothing in case of cold weather",
+          "Binoculars, camera",
+          "Luggage backpack and small daypack"
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
+          "Rates in US dollars, valid only for Peruvian passengers or residents",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events, or international fairs)",
+          "No-show is non-refundable",
+          "Complete passenger information required before the service",
+          "Exclusive and confidential prices",
+          "Rates valid until December 2025"
         ],
         "images": [
           {
-            "alt": "Paisaje en Puno",
+            "alt": "Landscape in Puno",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
             "width": 1200
           },
           {
-            "alt": "Vista panorámica de Puno",
+            "alt": "Panoramic view of Puno",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
             "width": 1200
           }
@@ -1398,74 +1398,74 @@
       },
       "14": {
         "id": "14",
-        "title": "Ruta del Sol Puno a Cusco",
-        "subtitle": "Tour en bus turístico con visitas culturales y paisajísticas desde Puno hacia Cusco",
-        "description": "Disfruta un viaje en bus turístico desde Puno a Cusco visitando importantes atractivos culturales como el Museo Lítico de Pukará, el Paso de la Raya con el nevado Chimboya, el complejo arqueológico de Raqchi y la Capilla de Andahuaylillas, con almuerzo buffet incluido y guía en español o inglés.",
+        "title": "Sun Route Puno to Cusco",
+        "subtitle": "Tour by tourist bus with cultural and scenic visits from Puno to Cusco",
+        "description": "Enjoy a tourist bus trip from Puno to Cusco visiting important cultural attractions such as the Pukará Lithic Museum, the La Raya Pass with the Chimboya snow-capped mountain, the Raqchi archaeological complex, and the Chapel of Andahuaylillas. Includes buffet lunch and a guide in Spanish or English.",
         "whyChooseUs": [
-          "Transporte cómodo en bus turístico con paradas en sitios históricos y culturales.",
-          "Guía profesional bilingüe (español o inglés) durante todo el recorrido.",
-          "Visitas a museos y complejos arqueológicos destacados.",
-          "Almuerzo buffet incluido para recargar energías.",
-          "Asistencia permanente para garantizar tu comodidad y seguridad."
+          "Comfortable transportation by tourist bus with stops at historical and cultural sites.",
+          "Professional bilingual guide (Spanish or English) throughout the tour.",
+          "Visits to prominent museums and archaeological complexes.",
+          "Buffet lunch included to recharge your energy.",
+          "Permanent assistance to ensure your comfort and safety."
         ],
         "itinerary": [
-          "07:00 hrs: Check-in y embarque en la estación terrestre de Puno.",
-          "07:20 hrs: Salida hacia Cusco.",
-          "Visita al Museo Lítico de Pukará con cerámicas y esculturas zoomórficas.",
-          "Parada en el Paso de la Raya (4,335 msnm), con vistas al nevado Chimboya.",
-          "Almuerzo buffet en Sicuani.",
-          "Visita al Complejo Arqueológico de Raqchi, templo del dios Wiracocha.",
-          "Visita a la Capilla de Andahuaylillas, conocida como la Sixtina de los Andes.",
-          "17:00 hrs: Llegada a la estación de bus en Cusco."
+          "07:00 AM: Check-in and boarding at the Puno bus terminal.",
+          "07:20 AM: Departure towards Cusco.",
+          "Visit to the Pukará Lithic Museum featuring ceramics and zoomorphic sculptures.",
+          "Stop at La Raya Pass (4,335 meters above sea level), with views of the Chimboya snow-capped mountain.",
+          "Buffet lunch in Sicuani.",
+          "Visit to the Raqchi Archaeological Complex, temple of the god Wiracocha.",
+          "Visit to the Chapel of Andahuaylillas, known as the Sistine Chapel of the Andes.",
+          "05:00 PM: Arrival at the bus station in Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Movilidad turística",
-          "Tickets de ingreso",
-          "Visita al Museo Lítico de Pukará",
-          "Parada en La Raya",
-          "Visita a Raqchi",
-          "Visita a la Capilla de Andahuaylillas",
-          "Almuerzo buffet",
-          "Guiado en español o inglés",
-          "Asistencia permanente"
+          "Tourist transportation",
+          "Entrance tickets",
+          "Visit to the Pukará Lithic Museum",
+          "Stop at La Raya",
+          "Visit to Raqchi",
+          "Visit to the Chapel of Andahuaylillas",
+          "Buffet lunch",
+          "Guided tour in Spanish or English",
+          "Permanent assistance"
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Propinas"
+          "Travel insurance",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos $90, Junior (8-16 años) $83"
+          "per": "Per person",
+          "ext": "Shared: Adults $90, Junior (8-16 years) $83"
         },
         "optional": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
+          "Bring medications and personal hygiene items",
+          "Sneakers or hiking shoes",
+          "Flashlight with batteries and spare bulbs",
+          "Hat or cap, sunglasses, sunscreen",
+          "Insect repellent (recommended with 40% or more DEET)",
+          "Raincoat, long-sleeve shirts, and cotton pants",
+          "Warm clothing in case of cold weather",
+          "Binoculars, camera",
+          "Luggage backpack and small daypack"
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
+          "Rates in US dollars, valid only for Peruvian passengers or residents",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events, or international fairs)",
+          "No-show is non-refundable",
+          "Complete passenger information required before the service",
+          "Exclusive and confidential prices",
+          "Rates valid until December 2025"
         ],
         "images": [
           {
-            "alt": "Museo Lítico de Pukará",
+            "alt": "Pukará Lithic Museum",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/raqchi-puno.webp",
             "width": 1200
           },
           {
-            "alt": "Paisaje en Puno",
+            "alt": "Landscape in Puno",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
             "width": 1200
           }
@@ -1474,68 +1474,68 @@
       "15": {
         "id": "15",
         "title": "Sacred Valley Via Ferrata & Zip-Line",
-        "subtitle": "Experiencia de aventura con vía ferrata y tirolesa en el Valle Sagrado, Cusco",
-        "description": "Disfruta una emocionante actividad de vía ferrata y zip-line en el Valle Sagrado, acompañados de guías especializados. Incluye traslado desde y hacia el hotel en Cusco o Valle Sagrado, equipo completo, box lunch y asistencia permanente durante la actividad.",
+        "subtitle": "Adventure experience with via ferrata and zip-line in the Sacred Valley, Cusco",
+        "description": "Enjoy an exciting via ferrata and zip-line activity in the Sacred Valley, accompanied by specialized guides. Includes transportation to and from the hotel in Cusco or Sacred Valley, full equipment, box lunch, and permanent assistance during the activity.",
         "whyChooseUs": [
-          "Guías especializados que garantizan una experiencia segura y divertida.",
-          "Equipo completo para vía ferrata y zip-line incluido.",
-          "Traslados desde y hacia el hotel en Cusco o Valle Sagrado para mayor comodidad.",
-          "Box lunch saludable incluido para recargar energías durante la actividad.",
-          "Asistencia permanente para garantizar tu seguridad y apoyo en todo momento."
+          "Specialized guides who ensure a safe and fun experience.",
+          "Complete equipment for via ferrata and zip-line included.",
+          "Transportation to and from the hotel in Cusco or Sacred Valley for added convenience.",
+          "Healthy box lunch included to recharge energy during the activity.",
+          "Permanent assistance to guarantee your safety and support at all times."
         ],
         "itinerary": [
-          "Traslado al punto de inicio en Sacred Valley.",
-          "Disfruta de la vía ferrata con equipo y guía especializado.",
-          "Realiza la tirolesa con equipo de seguridad completo.",
-          "Durante la actividad, se ofrece box lunch con sandwich caprese, chocolate sublime, mandarina y frutas deshidratadas."
+          "Transfer to the starting point in Sacred Valley.",
+          "Enjoy the via ferrata with equipment and specialized guide.",
+          "Do the zip-line with full safety equipment.",
+          "During the activity, a box lunch is offered with a caprese sandwich, sublime chocolate, mandarin, and dried fruits."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Traslado ida y retorno desde el Hotel en Cusco o Valle Sagrado",
-          "Guías especializados",
-          "Equipo Via Ferrata (arnés, casco, set vía ferrata y guantes)",
-          "Equipo zip-line (arnés, casco, set zip-line y guantes)",
-          "Box Lunch (sandwich caprese, chocolate sublime, mandarina, frutas deshidratadas)",
-          "Asistencia durante la actividad"
+          "Round-trip transfer from the hotel in Cusco or Sacred Valley",
+          "Specialized guides",
+          "Via Ferrata equipment (harness, helmet, via ferrata set, and gloves)",
+          "Zip-line equipment (harness, helmet, zip-line set, and gloves)",
+          "Box Lunch (caprese sandwich, sublime chocolate, mandarin, dried fruits)",
+          "Assistance during the activity"
         ],
         "notIncluded": [
-          "Alimentación no especificada",
-          "Propina para el guía",
-          "Seguro de viaje",
-          "Fotografías"
+          "Unspecified meals",
+          "Tips for the guide",
+          "Travel insurance",
+          "Photos"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Desde $50 hasta $361 según tipo y cantidad de participantes"
+          "per": "Per person",
+          "ext": "From $50 up to $361 depending on type and number of participants"
         },
         "optional": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
+          "Bring medications and personal hygiene items",
+          "Sneakers or hiking shoes",
+          "Flashlight with batteries and spare bulbs",
+          "Hat or cap, sunglasses, sunscreen",
+          "Insect repellent (recommended with 40% or more DEET)",
+          "Raincoat, long-sleeve shirts, and cotton pants",
+          "Warm clothes in case of cold weather",
+          "Binoculars, camera",
+          "Luggage backpack and small daypack"
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
+          "Rates in US dollars, valid only for Peruvian passengers or residents",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs)",
+          "No-show is non-refundable",
+          "Complete passenger information required before the service",
+          "Exclusive and confidential prices",
+          "Rates valid until December 2025"
         ],
         "images": [
           {
-            "alt": "Paisaje Sacred Valley y actividad de aventura",
+            "alt": "Sacred Valley landscape and adventure activity",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
             "width": 1200
           },
           {
-            "alt": "Vía ferrata y zip-line en Sacred Valley",
+            "alt": "Via ferrata and zip-line in Sacred Valley",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
             "width": 1200
           }
@@ -1543,68 +1543,68 @@
       },
       "16": {
         "id": "16",
-        "title": "Sacred Valley Via Ferrata & Zip-Line con Almuerzo y Relax en Cabinas",
-        "subtitle": "Experiencia exclusiva en Skylodge Adventure Suites con escalada, tirolesa y almuerzo gourmet",
-        "description": "Disfruta de una aventura única en el Valle Sagrado, escalando 400 metros por vía ferrata, descendiendo por tirolesas y culminando con un almuerzo de 4 platos con vista panorámica en las exclusivas cabinas Skylodge Adventure Suites.",
+        "title": "Sacred Valley Via Ferrata & Zip-Line with Lunch and Relaxation in Cabins",
+        "subtitle": "Exclusive experience at Skylodge Adventure Suites with climbing, zip-line, and gourmet lunch",
+        "description": "Enjoy a unique adventure in the Sacred Valley, climbing 400 meters via ferrata, descending by zip-lines, and finishing with a 4-course lunch with panoramic views in the exclusive Skylodge Adventure Suites cabins.",
         "whyChooseUs": [
-          "Experiencia exclusiva en Skylodge, único en su tipo.",
-          "Almuerzo gourmet de 4 platos con bebidas incluidas.",
-          "Guías especializados y equipo completo para vía ferrata y zip-line.",
-          "Traslado privado desde y hacia el hotel en Cusco.",
-          "Asistencia permanente durante toda la actividad."
+          "Exclusive experience at Skylodge, one of a kind.",
+          "4-course gourmet lunch with drinks included.",
+          "Specialized guides and full equipment for via ferrata and zip-line.",
+          "Private transfer to and from the hotel in Cusco.",
+          "Permanent assistance throughout the entire activity."
         ],
         "itinerary": [
-          "Recojo del hotel en Cusco y traslado hacia Skylodge.",
-          "Escalada por vía ferrata de 400 metros hasta la cápsula comedor.",
-          "Descenso por tirolesas disfrutando del paisaje del Valle Sagrado.",
-          "Almuerzo de 4 platos a la carta con bebidas alcohólicas y no alcohólicas en las cabinas Skylodge."
+          "Hotel pickup in Cusco and transfer to Skylodge.",
+          "Climb 400 meters via ferrata to the dining capsule.",
+          "Zip-line descent enjoying the Sacred Valley landscape.",
+          "4-course à la carte lunch with alcoholic and non-alcoholic beverages in the Skylodge cabins."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Traslado ida y retorno desde el Hotel en Cusco",
-          "Almuerzo de 4 platos a la carta con bebidas alcohólicas y no alcohólicas",
-          "Guías especializados",
-          "Equipo Via Ferrata (arnés, casco, set vía ferrata y guantes)",
-          "Equipo zipline (arnés, casco, set zip-line y guantes)",
-          "Asistencia durante la actividad"
+          "Round-trip transfer from the hotel in Cusco",
+          "4-course à la carte lunch with alcoholic and non-alcoholic beverages",
+          "Specialized guides",
+          "Via Ferrata equipment (harness, helmet, via ferrata set, and gloves)",
+          "Zip-line equipment (harness, helmet, zip-line set, and gloves)",
+          "Assistance during the activity"
         ],
         "notIncluded": [
-          "Propina para el guía",
-          "Seguro de viaje",
-          "Fotografías"
+          "Tips for the guide",
+          "Travel insurance",
+          "Photos"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "USD 295 (tarifa única para adultos, jóvenes y niños)"
+          "per": "Per person",
+          "ext": "USD 295 (flat rate for adults, youth, and children)"
         },
         "optional": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol y protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
+          "Bring medications and personal hygiene items",
+          "Sneakers or hiking shoes",
+          "Flashlight with batteries and spare bulbs",
+          "Hat or cap, sunglasses, and sunscreen",
+          "Insect repellent (recommended with 40% or more DEET)",
+          "Raincoat, long-sleeve shirts, and cotton pants",
+          "Warm clothing in case of cold weather",
+          "Binoculars, camera",
+          "Luggage backpack and small daypack"
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Escalada y aventura en Skylodge Valle Sagrado",
+            "alt": "Climbing and adventure at Skylodge Sacred Valley",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
             "width": 1200
           },
           {
-            "alt": "Vista panorámica del Valle Sagrado y cabinas Skylodge",
+            "alt": "Panoramic view of Sacred Valley and Skylodge cabins",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
             "width": 1200
           }
@@ -1612,67 +1612,67 @@
       },
       "17": {
         "id": "17",
-        "title": "Experiencias Gastronómicas: Taller de Chocolate + City Tour Peatonal",
-        "subtitle": "Descubre la tradición del chocolate peruano y explora la historia de Cusco a pie",
-        "description": "Participa en un taller donde aprenderás el proceso de fabricación del chocolate desde el cacao de la selva peruana y luego disfruta un recorrido peatonal por la ciudad imperial de Cusco, visitando lugares históricos como el Koricancha, la Plaza de Armas, la Catedral, el mercado de San Pedro y el barrio de San Blas.",
+        "title": "Gastronomic Experiences: Chocolate Workshop + Walking City Tour",
+        "subtitle": "Discover the tradition of Peruvian chocolate and explore Cusco’s history on foot",
+        "description": "Participate in a workshop where you will learn the chocolate-making process starting from cacao from the Peruvian jungle, then enjoy a walking tour through the imperial city of Cusco, visiting historic sites such as Koricancha, the Plaza de Armas, the Cathedral, San Pedro Market, and the San Blas neighborhood.",
         "whyChooseUs": [
-          "Taller práctico de chocolate con ingredientes originarios de Perú.",
-          "Tour peatonal guiado por los principales puntos históricos de Cusco.",
-          "Incluye recojo y asistencia durante la actividad.",
-          "Ideal para quienes buscan combinar cultura gastronómica con historia local.",
-          "Grupos reducidos para una experiencia personalizada."
+          "Hands-on chocolate workshop using native Peruvian ingredients.",
+          "Guided walking tour through Cusco’s main historic landmarks.",
+          "Includes pickup and assistance during the activity.",
+          "Ideal for those looking to combine culinary culture with local history.",
+          "Small groups for a personalized experience."
         ],
         "itinerary": [
-          "Día 1: Recojo y traslado a la chocolatería. Aprenderás el proceso y elaboración del chocolate.",
-          "Día 2: Tour peatonal por Cusco con visita al Koricancha y al Templo al Dios Inti.",
-          "Día 3: Visita panorámica a la Plaza de Armas y la Catedral.",
-          "Día 4: Opción para visitar el mercado de San Pedro y el barrio San Blas.",
-          "Día 5: Visita a los Acueductos de Sapantiana y retorno al hotel."
+          "Day 1: Pickup and transfer to the chocolate workshop. Learn about the chocolate-making process.",
+          "Day 2: Walking tour of Cusco with visits to Koricancha and the Temple of the Sun God Inti.",
+          "Day 3: Panoramic visit to the Plaza de Armas and the Cathedral.",
+          "Day 4: Optional visit to San Pedro Market and the San Blas neighborhood.",
+          "Day 5: Visit to the Sapantiana Aqueducts and return to the hotel."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Asistencia durante la actividad",
-          "Guía especializado",
-          "Recojo del hotel"
+          "Assistance during the activity",
+          "Specialized guide",
+          "Hotel pickup"
         ],
         "notIncluded": [
-          "Entrada a la Catedral",
-          "Seguro de viaje",
-          "Alimentación",
-          "Propinas"
+          "Cathedral entrance fee",
+          "Travel insurance",
+          "Meals",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "USD 39 para adultos y jóvenes, USD 37 para niños"
+          "per": "Per person",
+          "ext": "USD 39 for adults and youth, USD 37 for children"
         },
         "optional": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos cómodos para caminar",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol y protector solar",
-          "Repelente de insectos con DEET (40% o más recomendado)",
-          "Impermeable, ropa de manga larga y pantalones de algodón",
-          "Ropa abrigadora para el friaje",
-          "Binoculares y cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
+          "Bring medications and personal hygiene items",
+          "Comfortable walking shoes or sneakers",
+          "Flashlight with batteries and spare bulbs",
+          "Hat or cap, sunglasses, and sunscreen",
+          "Insect repellent with DEET (40% or higher recommended)",
+          "Raincoat, long-sleeve clothing, and cotton pants",
+          "Warm clothing for cold weather",
+          "Binoculars and camera",
+          "Luggage backpack and small daypack"
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas solo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025."
         ],
         "images": [
           {
-            "alt": "Taller de chocolate en Cusco",
+            "alt": "Chocolate workshop in Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
             "width": 1200
           },
           {
-            "alt": "City tour peatonal en Cusco",
+            "alt": "Walking city tour in Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
             "width": 1200
           }
@@ -1680,72 +1680,72 @@
       },
       "18": {
         "id": "18",
-        "title": "City Tour Cusco & Parque Arqueológico",
-        "subtitle": "Explora la historia y arquitectura inca y colonial en un recorrido guiado por Cusco",
-        "description": "Realiza un recorrido turístico por Cusco y sus alrededores, visitando el impresionante Parque Arqueológico con Sacsayhuamán y Qenqo, seguido de un paseo por la Plaza Mayor, la Catedral y el Templo de Qoricancha, combinando historia inca y colonial.",
+        "title": "Cusco City Tour & Archaeological Park",
+        "subtitle": "Explore Inca and colonial history and architecture on a guided tour of Cusco",
+        "description": "Take a sightseeing tour of Cusco and its surroundings, visiting the impressive Archaeological Park including Sacsayhuamán and Qenqo, followed by a stroll through the Main Square, the Cathedral, and the Temple of Qoricancha, combining Inca and colonial history.",
         "whyChooseUs": [
-          "Visita a uno de los sitios arqueológicos más impresionantes del mundo: Sacsayhuamán.",
-          "Recorrido guiado por los principales atractivos históricos de Cusco.",
-          "Guías profesionales en español o inglés.",
-          "Transporte cómodo y asistencia permanente durante el tour.",
-          "Ideal para quienes desean una experiencia cultural completa en pocas horas."
+          "Visit one of the most impressive archaeological sites in the world: Sacsayhuamán.",
+          "Guided tour of Cusco’s main historical attractions.",
+          "Professional guides in Spanish or English.",
+          "Comfortable transportation and continuous assistance during the tour.",
+          "Ideal for those seeking a complete cultural experience in a few hours."
         ],
         "itinerary": [
-          "Día 1: Inicio del recorrido por la ciudad y visita al Parque Arqueológico, incluyendo Sacsayhuamán y Qenqo.",
-          "Día 2: Visita a la Plaza Mayor, la Catedral y el Templo de Qoricancha (Convento de Santo Domingo).",
-          "Día 3: Retorno a su hotel."
+          "Day 1: Start the city tour with a visit to the Archaeological Park, including Sacsayhuamán and Qenqo.",
+          "Day 2: Visit the Main Square, the Cathedral, and the Temple of Qoricancha (Convent of Santo Domingo).",
+          "Day 3: Return to your hotel."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Transporte turístico",
-          "Guía en español o inglés",
-          "Asistencia permanente"
+          "Tourist transportation",
+          "Guide in Spanish or English",
+          "Continuous assistance"
         ],
         "notIncluded": [
-          "Boleto turístico parcial",
-          "Tickets de ingreso a Coricancha",
-          "Tickets de ingreso a la Catedral",
-          "Seguro de viaje",
-          "Alimentación",
-          "Propinas"
+          "Partial tourist ticket",
+          "Entrance tickets to Coricancha",
+          "Entrance tickets to the Cathedral",
+          "Travel insurance",
+          "Meals",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos USD 134, Niños USD 67. Privado: Adultos USD 45, Jóvenes USD 30, Niños USD 24, Otros descuentos por grupo."
+          "per": "Per person",
+          "ext": "Shared: Adults USD 134, Children USD 67. Private: Adults USD 45, Youth USD 30, Children USD 24, Other group discounts available."
         },
         "optional": [
-          "Compra de boleto turístico parcial, Catedral y Coricancha (costos adicionales según nacionalidad).",
-          "Traer medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos cómodos para caminar.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol y protector solar.",
-          "Repelente de insectos (40% o más de DEET recomendado).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa abrigadora para el friaje.",
-          "Binoculares y cámara fotográfica.",
-          "Mochila pequeña para equipaje personal."
+          "Purchase of partial tourist ticket, Cathedral and Coricancha (additional costs vary by nationality).",
+          "Bring medications and personal hygiene items.",
+          "Comfortable walking shoes or sneakers.",
+          "Flashlight with batteries and spare bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (40% or higher DEET recommended).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing for cold weather.",
+          "Binoculars and camera.",
+          "Small backpack for personal belongings."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025.",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-          "No reembolso en caso de cancelación o no show.",
-          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events, or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025.",
+          "Health-related changes allowed with at least 48 hours’ notice.",
+          "No refund in case of cancellation or no-show.",
+          "Andean Elite is not responsible for interruptions caused by factors beyond our control.",
+          "Visa and vaccination procedures are the passenger's responsibility."
         ],
         "images": [
           {
-            "alt": "Paisaje de Cusco con Sacsayhuamán",
+            "alt": "Cusco landscape with Sacsayhuamán",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
             "width": 1200
           },
           {
-            "alt": "Iglesia colonial en Cusco",
+            "alt": "Colonial church in Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-iglesia-landscape.webp",
             "width": 1200
           }
@@ -1753,72 +1753,72 @@
       },
       "19": {
         "id": "19",
-        "title": "Full Day Valle Sagrado, Pisac, Ollantaytambo & Chincheros",
-        "subtitle": "Explora los sitios arqueológicos y pueblos vivos del Valle Sagrado en un día completo",
-        "description": "Disfruta de un recorrido completo por el Valle Sagrado de los Incas visitando Pisac, Urubamba, Ollantaytambo y Chincheros, con guía oficial, transporte turístico y almuerzo buffet incluido.",
+        "title": "Full Day Sacred Valley, Pisac, Ollantaytambo & Chincheros",
+        "subtitle": "Explore the archaeological sites and living villages of the Sacred Valley in a full day",
+        "description": "Enjoy a full-day tour of the Sacred Valley of the Incas visiting Pisac, Urubamba, Ollantaytambo, and Chincheros, with an official guide, tourist transportation, and buffet lunch included.",
         "whyChooseUs": [
-          "Visita a Pisac con su complejo arqueológico y mercado artesanal.",
-          "Almuerzo buffet en Urubamba para disfrutar de la gastronomía local.",
-          "Recorrido por Ollantaytambo, pueblo vivo con arquitectura inca original.",
-          "Visita al pintoresco pueblo colonial de Chincheros.",
-          "Guía oficial de turismo en español y asistencia permanente."
+          "Visit Pisac with its archaeological complex and artisan market.",
+          "Buffet lunch in Urubamba to enjoy local cuisine.",
+          "Tour Ollantaytambo, a living village with original Inca architecture.",
+          "Visit the picturesque colonial town of Chincheros.",
+          "Official Spanish-speaking tour guide and continuous assistance."
         ],
         "itinerary": [
-          "07:30 - 08:00 hrs: Recojo del hotel y visita a Pisac, incluyendo complejo arqueológico y mercado artesanal.",
-          "Trayecto por el Río Vilcanota hasta Urubamba para almuerzo buffet.",
-          "Visita a Ollantaytambo, recorrido por calles incas y complejo arqueológico.",
-          "Visita a Chincheros y retorno al hotel en Cusco."
+          "07:30 - 08:00 hrs: Hotel pickup and visit to Pisac, including archaeological site and artisan market.",
+          "Journey along the Vilcanota River to Urubamba for buffet lunch.",
+          "Visit Ollantaytambo, tour Inca streets and archaeological complex.",
+          "Visit Chincheros and return to the hotel in Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Movilidad turística",
-          "Guía oficial de turismo",
-          "Almuerzo buffet",
-          "Asistencia permanente"
+          "Tourist transportation",
+          "Official tour guide",
+          "Buffet lunch",
+          "Continuous assistance"
         ],
         "notIncluded": [
-          "Tickets de ingreso BT-Parcial ADT",
-          "Seguro de viaje",
-          "Alimentación adicional",
-          "Propinas"
+          "Partial BT entrance tickets for adults",
+          "Travel insurance",
+          "Additional meals",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos y Niños USD 36. Privado: Adultos USD 237, Niños USD 128, Tarifas especiales por grupo."
+          "per": "Per person",
+          "ext": "Shared: Adults and Children USD 36. Private: Adults USD 237, Children USD 128, Special group rates available."
         },
         "optional": [
-          "Compra de boleto turístico parcial (costos adicionales según nacionalidad).",
-          "Medicamentos e implementos de higiene personal.",
-          "Zapatillas o zapatos cómodos para caminar.",
-          "Linterna con pilas y focos de repuesto.",
-          "Sombrero o gorro, lentes para el sol, protector solar.",
-          "Repelente de insectos (recomendable con 40% o más de DEET).",
-          "Impermeable, camisas de manga larga y pantalones de algodón.",
-          "Ropa abrigadora para el friaje.",
-          "Binoculares y cámara fotográfica.",
-          "Mochila pequeña para equipaje personal."
+          "Purchase of partial tourist ticket (additional costs depending on nationality).",
+          "Medications and personal hygiene items.",
+          "Comfortable walking shoes or sneakers.",
+          "Flashlight with batteries and spare bulbs.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent (recommended with 40% or higher DEET).",
+          "Raincoat, long-sleeve shirts, and cotton pants.",
+          "Warm clothing for cold weather.",
+          "Binoculars and camera.",
+          "Small backpack for personal belongings."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025.",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-          "No reembolso en caso de cancelación o no show.",
-          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events, or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025.",
+          "Health-related changes allowed with at least 48 hours’ notice.",
+          "No refund in case of cancellation or no-show.",
+          "Andean Elite is not responsible for interruptions caused by factors beyond our control.",
+          "Visa and vaccination procedures are the passenger's responsibility."
         ],
         "images": [
           {
-            "alt": "Valle Sagrado con montañas y río",
+            "alt": "Sacred Valley with mountains and river",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
             "width": 1200
           },
           {
-            "alt": "Complejo arqueológico de Ollantaytambo",
+            "alt": "Archaeological complex of Ollantaytambo",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-ollataytambo.webp",
             "width": 1200
           }
@@ -1826,71 +1826,71 @@
       },
       "20": {
         "id": "20",
-        "title": "Valle Sur - Andahuaylillas",
-        "subtitle": "Tour completo por sitios arqueológicos y joyas coloniales al sur de Cusco",
-        "description": "Disfruta un tour de día completo visitando Tipón, Pikillaqta y la iglesia colonial de Andahuaylillas, conocida como 'La Sixtina de América', con guía oficial y movilidad turística.",
+        "title": "Southern Valley - Andahuaylillas",
+        "subtitle": "Full-day tour of archaeological sites and colonial gems south of Cusco",
+        "description": "Enjoy a full-day tour visiting Tipón, Pikillaqta, and the colonial church of Andahuaylillas, known as 'The Sistine Chapel of the Americas,' with an official guide and tourist transportation.",
         "whyChooseUs": [
-          "Visita al centro ceremonial Inka de Tipón y su sistema hidráulico ancestral.",
-          "Recorrido por la ciudadela amurallada de Pikillaqta, importante centro del Imperio Wari.",
-          "Conoce la hermosa Iglesia de Andahuaylillas con su impresionante arte barroco.",
-          "Guía oficial de turismo y asistencia durante todo el recorrido.",
-          "Transporte cómodo y seguro con salidas diarias desde Cusco."
+          "Visit the Inca ceremonial center of Tipón and its ancient hydraulic system.",
+          "Tour the walled city of Pikillaqta, an important Wari Empire center.",
+          "Explore the beautiful Andahuaylillas Church with its impressive baroque art.",
+          "Official tour guide and assistance throughout the entire tour.",
+          "Comfortable and safe transportation with daily departures from Cusco."
         ],
         "itinerary": [
-          "08:00 - 08:30 hrs: Recojo del hotel y salida hacia Tipón para visitar el centro ceremonial Inka.",
-          "Visita al complejo arqueológico Pikillaqta, antigua ciudad amurallada Wari.",
-          "Visita a la Iglesia de Andahuaylillas, joya colonial conocida como 'La Sixtina de América'.",
-          "14:30 hrs: Retorno al hotel en Cusco."
+          "08:00 - 08:30 hrs: Hotel pickup and departure to Tipón to visit the Inca ceremonial center.",
+          "Visit to the archaeological complex Pikillaqta, an ancient walled Wari city.",
+          "Visit to the Andahuaylillas Church, a colonial gem known as 'The Sistine Chapel of the Americas.'",
+          "14:30 hrs: Return to the hotel in Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Guía oficial de turismo",
-          "Ingreso a Andahuaylillas",
-          "Asistencia durante el tour",
-          "Movilidad turística"
+          "Official tour guide",
+          "Entrance to Andahuaylillas",
+          "Assistance during the tour",
+          "Tourist transportation"
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Alimentación",
-          "Propinas"
+          "Travel insurance",
+          "Meals",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos y Niños USD 26. Privado: Adultos USD 182, Niños USD 95, Tarifas especiales por grupo."
+          "per": "Per person",
+          "ext": "Shared: Adults and Children USD 26. Private: Adults USD 182, Children USD 95, Special group rates available."
         },
         "optional": [
-          "Compra de boleto turístico parcial (costos adicionales según nacionalidad).",
-          "Medicamentos e implementos de higiene personal recomendados.",
-          "Zapatillas o zapatos cómodos para caminata.",
-          "Linterna con pilas de repuesto.",
-          "Sombrero o gorro, lentes y protector solar.",
-          "Repelente de insectos con alto porcentaje de DEET.",
-          "Ropa impermeable y de manga larga para protección.",
-          "Ropa abrigadora para posibles bajas temperaturas.",
-          "Binoculares y cámara fotográfica.",
-          "Mochila pequeña para objetos personales."
+          "Purchase of partial tourist ticket (additional costs depending on nationality).",
+          "Recommended medications and personal hygiene items.",
+          "Comfortable walking shoes or sneakers.",
+          "Flashlight with spare batteries.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent with a high percentage of DEET.",
+          "Rain gear and long-sleeved clothing for protection.",
+          "Warm clothing for possible low temperatures.",
+          "Binoculars and camera.",
+          "Small backpack for personal belongings."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025.",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-          "No reembolso en caso de cancelación o no show.",
-          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events, or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025.",
+          "Health-related changes allowed with at least 48 hours’ notice.",
+          "No refund in case of cancellation or no-show.",
+          "Andean Elite is not responsible for interruptions caused by factors beyond our control.",
+          "Visa and vaccination procedures are the passenger’s responsibility."
         ],
         "images": [
           {
-            "alt": "Centro arqueológico Pikillaqta en Cusco",
+            "alt": "Archaeological center Pikillaqta in Cusco",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
             "width": 1200
           },
           {
-            "alt": "Paisaje de Cusco con montañas",
+            "alt": "Cusco landscape with mountains",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
             "width": 1200
           }
@@ -1898,72 +1898,72 @@
       },
       "21": {
         "id": "21",
-        "title": "Vinicunca (Montaña de 7 Colores)",
-        "subtitle": "Trekking y experiencia cultural en la montaña multicolor del Ausangate",
-        "description": "Un tour full day para descubrir la mágica Montaña de 7 Colores, caminando acompañado por un guía profesional que comparte el misticismo y tradiciones quechuas mientras disfrutas de paisajes espectaculares.",
+        "title": "Vinicunca (Rainbow Mountain)",
+        "subtitle": "Trekking and cultural experience on the multicolored mountain of Ausangate",
+        "description": "A full-day tour to discover the magical Rainbow Mountain, trekking accompanied by a professional guide who shares the mysticism and Quechua traditions while you enjoy spectacular landscapes.",
         "whyChooseUs": [
-          "Guía profesional especializado en trekking y cultura andina.",
-          "Incluye desayuno y almuerzo semi buffet para energizar tu aventura.",
-          "Transporte cómodo desde Cusco hacia las faldas del nevado Ausangate.",
-          "Experiencia cultural y espiritual única en un entorno natural impresionante.",
-          "Salidas diarias con opción privada a solicitud del pasajero."
+          "Professional guide specialized in trekking and Andean culture.",
+          "Includes breakfast and semi-buffet lunch to energize your adventure.",
+          "Comfortable transport from Cusco to the foothills of the Ausangate snow-capped mountain.",
+          "Unique cultural and spiritual experience in an impressive natural setting.",
+          "Daily departures with private option available upon passenger request."
         ],
         "itinerary": [
-          "04:20 - 05:00 hrs: Recojo del hotel y viaje de 2 horas hacia las faldas del nevado Ausangate, parada en Cusipata para desayuno.",
-          "Charla introductoria y comienzo de la caminata con guía profesional explicando costumbres y misticismo local.",
-          "Visita a la Montaña de 7 Colores y regreso a Cusipata para almuerzo semi buffet.",
-          "16:30 hrs aprox: Retorno a Cusco."
+          "04:20 - 05:00 hrs: Hotel pickup and 2-hour trip to the foothills of the Ausangate snow mountain, with a stop in Cusipata for breakfast.",
+          "Introductory talk and start of the hike with a professional guide explaining local customs and mysticism.",
+          "Visit to Rainbow Mountain and return to Cusipata for semi-buffet lunch.",
+          "Approx. 16:30 hrs: Return to Cusco."
         ],
         "startDate": "2025-01-01",
         "endDate": "2025-12-31",
         "includes": [
-          "Movilidad Turística",
-          "Guía profesional para el trekking",
-          "Ingreso a la montaña",
-          "Desayuno y almuerzo semi buffet",
-          "Asistencia durante el viaje"
+          "Tourist transportation",
+          "Professional trekking guide",
+          "Mountain entrance fee",
+          "Breakfast and semi-buffet lunch",
+          "Assistance during the trip"
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Alimentación adicional",
-          "Propinas"
+          "Travel insurance",
+          "Additional meals",
+          "Tips"
         ],
         "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos y Niños USD 49. Privado: Adultos USD 366, Niños USD 194, tarifas especiales para grupos."
+          "per": "Per person",
+          "ext": "Shared: Adults and Children USD 49. Private: Adults USD 366, Children USD 194, special rates for groups."
         },
         "optional": [
-          "Uso de bastones de trekking (no incluidos).",
-          "Ropa y calzado especializado para caminata.",
-          "Medicamentos e implementos de higiene personal recomendados.",
-          "Linterna con pilas de repuesto.",
-          "Sombrero o gorro, lentes y protector solar.",
-          "Repelente de insectos con alto porcentaje de DEET.",
-          "Ropa impermeable y de manga larga para protección.",
-          "Ropa abrigadora para posibles bajas temperaturas.",
-          "Binoculares y cámara fotográfica.",
-          "Mochila pequeña para objetos personales."
+          "Use of trekking poles (not included).",
+          "Specialized clothing and footwear for hiking.",
+          "Recommended medications and personal hygiene items.",
+          "Flashlight with spare batteries.",
+          "Hat or cap, sunglasses, and sunscreen.",
+          "Insect repellent with a high percentage of DEET.",
+          "Rain gear and long-sleeved clothing for protection.",
+          "Warm clothing for possible low temperatures.",
+          "Binoculars and camera.",
+          "Small backpack for personal belongings."
         ],
         "politics": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-          "No show no reembolsable.",
-          "Se requiere información completa de los pasajeros antes del servicio.",
-          "Precios exclusivos y confidenciales.",
-          "Tarifas válidas hasta diciembre de 2025.",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-          "No reembolso en caso de cancelación o no show.",
-          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+          "Rates in US dollars, valid only for Peruvian passengers or residents.",
+          "Not valid during high seasons (Holy Week, Independence Day, New Year, holidays, events, or international fairs).",
+          "No-show is non-refundable.",
+          "Complete passenger information required before the service.",
+          "Exclusive and confidential prices.",
+          "Rates valid until December 2025.",
+          "Health-related changes allowed with at least 48 hours’ notice.",
+          "No refund in case of cancellation or no-show.",
+          "Andean Elite is not responsible for interruptions caused by factors beyond our control.",
+          "Visa and vaccination procedures are the passenger’s responsibility."
         ],
         "images": [
           {
-            "alt": "Montaña de 7 Colores, Vinicunca",
+            "alt": "Rainbow Mountain, Vinicunca",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
             "width": 1200
           },
           {
-            "alt": "Paisaje del trekking en la Montaña de 7 Colores",
+            "alt": "Trekking landscape at Rainbow Mountain",
             "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
             "width": 1200
           }
@@ -2192,18 +2192,62 @@
       },
       "2": {
         "id": "2",
-        "title": "Essential Cusco & Machu Picchu",
-        "subtitle": "",
-        "description": "",
-        "whyChooseUs": [],
-        "itinerary": [],
-        "startDate": "",
-        "endDate": "",
-        "includes": [],
-        "notIncluded": [],
-        "from": "",
-        "optional": [],
-        "politics": [],
+        "title": "Essential Peru (Lima & Cusco)",
+        "subtitle": "Discover the highlights of Cusco, Machu Picchu, and Lima in one complete itinerary",
+        "description": "A full experience tour covering the cultural richness of Cusco and its surroundings, the majestic Machu Picchu, and the modern and colonial charms of Lima. Includes guided visits, transfers, accommodation, and some meals.",
+        "whyChooseUs": [
+          "Professional bilingual guide specialized in Andean culture and history.",
+          "Comprehensive itinerary covering Cusco, Sacred Valley, Machu Picchu, and Lima.",
+          "Includes comfortable transfers and entrance tickets to all attractions.",
+          "Balanced mix of guided tours and free time for personal exploration.",
+          "Accommodation in selected hotels with breakfast included."
+        ],
+        "itinerary": [
+          "Day 1: Cusco Arrival – City Tour & Nearby Ruins. Welcome with coca tea, visit colonial city and the four nearby ruins: Sacsayhuaman, Qenqo, Pucapucara, and Tambomachay. Overnight in Cusco.",
+          "Day 2: Sacred Valley (Breakfast and lunch included). Visit Pisac artisan market and Sunday Quechua Mass, towns of Ccoya, Lamay, Calca, Urubamba; buffet lunch; afternoon visit to Ollantaytambo archaeological park and Chincheros village. Overnight in Cusco.",
+          "Day 3: Cusco – Aguas Calientes (Breakfast and lunch included). Train trip to Machu Picchu town, hotel check-in, lunch, and afternoon free for optional hot springs. Overnight in Aguas Calientes.",
+          "Day 4: Full day Machu Picchu (Breakfast included). Guided tour of Machu Picchu site including the Main Plaza, Temple of the Three Windows, Intihuatana (open 7am-10am), and viewpoint. Return train to Cusco. Overnight in Cusco.",
+          "Day 5: Cusco – Lima (Breakfast included). Flight to Lima. Afternoon tour of Miraflores (Park of Love, Huaca Pucllana), San Isidro (El Olivar Park), and historic center including Plaza San Martín, Plaza Mayor, and San Francisco Convent with catacombs. Overnight in Lima.",
+          "Day 6: Lima Departure (Breakfast included). Transfer to the airport for departure."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Transfers in and out in Cusco and Lima",
+          "3 nights accommodation in Cusco with breakfast",
+          "1 night accommodation in Aguas Calientes with breakfast",
+          "1 night accommodation in Lima with breakfast",
+          "City tour of Cusco and nearby ruins (Qoricancha included)",
+          "Sacred Valley tour with lunch",
+          "Machu Picchu tour including train ticket (Expedition), bus rides, and lunch at Apu Inti",
+          "Modern and colonial Lima city tour",
+          "All entrance fees as per itinerary",
+          "Professional bilingual guide (Spanish/English)",
+          "Shared service tours"
+        ],
+        "notIncluded": [
+          "International and domestic airfare",
+          "Early check-in and late check-out fees",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, medical insurance, laundry, etc.)",
+          "Entrance to the Cathedral of Lima"
+        ],
+        "from": "Prices per person in USD",
+        "optional": [
+          "Vistadome train upgrade: $80 USD (net price)"
+        ],
+        "politics": [
+          "Prices valid only for Peruvian nationals and residents",
+          "Rates do not apply during peak seasons or holidays",
+          "Non-refundable no-show policy",
+          "Complete passenger information required before service",
+          "Prices valid until December 2025",
+          "Health-related date changes allowed with at least 48 hours notice",
+          "No refunds for cancellations or no-shows",
+          "Andean Elite is not responsible for interruptions beyond our control",
+          "Visa and vaccination procedures are passenger responsibility"
+        ],
         "images": [
           {
             "alt": "Panoramic view of Machu Picchu",
@@ -2217,32 +2261,81 @@
           }
         ],
         "comfort": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
+          {"name":"Hotel Inkari  (Cusco) -Vista Machupicchu,  IBIS Lima","simple":"808.5","double":"646.8","triple":"635.25","child":"506.1"},{"name":"Hotel Warari  (Cusco) - Vista Machupicchu,  IBIS Lima","simple":"793.8","double":"641.55","triple":"623.7","child":"495.6"},{"name":"Hotel Imperial (Cusco) - Vista Machupicchu, IBIS Lima","simple":"793.8","double":"641.55","triple":"623.7","child":"495.6"},{"name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, El Tambo Lima","simple":"947.1","double":"591.15","triple":"689.85","child":"561.75"},{"name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, El Tambo Lima","simple":"922.95","double":"702.45","triple":"696.15","child":"568.05"},{"name":"San Agustín (Cusco) - Inti Punku Machupicchu , EL tambo","simple":"931.35","double":"699.3","triple":"669.9","child":"540.75"},{"name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Tierra Viva Miraflores Centro ","simple":"1078.4","double":"777","triple":"738.15","child":"609"},{"name":"Tierra Viva (Centro,Plaza,Saphy),Hatun Inti Classic,  Tierra Viva Miraflores Centro ","simple":"955.5","double":"729.75","triple":"723.45","child":"595.35"},{"name":"Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, HSA Exclusive","simple":"957.6","double":"721.35","triple":"--","child":"588"},{"name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Ikonik","simple":"1038.5","double":"762.3","triple":"757.05","child":"627.9"}
         ],
         "deluxe": [
           {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
+            "name": "Xima Hotel(Cusco)Hatun Inti Classic Casa Andina Select Miraflores",
+            "simple": "981.75",
+            "double": "723.45",
+            "triple": "722.4",
+            "child": "594.3"
+          },
+          {
+            "name": "Hotel Sonesta Posada (Cusco)Hatun Inti Classic José Antonio (Av. 28 de Julio)",
+            "simple": "1116.2",
+            "double": "793.8",
+            "triple": "794.85",
+            "child": "664.65"
+          },
+          {
+            "name": "Hotel Jose Antonio   (Cusco)Casa Andina Machupicchu, Casa Andina Select Miraflores",
+            "simple": "1061.6",
+            "double": "768.6",
+            "triple": "662.55",
+            "child": "638.4"
+          },
+          {
+            "name": "Los Portales (Cusco)Hatun Inti Classic José Antonio Deluxe (Bellavista)",
+            "simple": "1053.2",
+            "double": "762.3",
+            "triple": "754.95",
+            "child": "622.65"
+          },
+          {
+            "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu El Pardo Double Tree by Hilton",
+            "simple": "1226.4",
+            "double": "884.1",
+            "triple": "824.25",
+            "child": "689.85"
+          },
+          {
+            "name": "Novotel (Cusco)El Mapi by Inkaterra Pullman Lima Miraflores",
+            "simple": "1337.7",
+            "double": "953.4",
+            "triple": "934.5",
+            "child": "801.15"
+          },
+          {
+            "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra ,C.A Premium Miraflores ",
+            "simple": "1332.5",
+            "double": "956.55",
+            "triple": "935.55",
+            "child": "801.15"
+          },
+          {
+            "name": "Casa Andina Premium (Cusco)El Mapi by Inkaterra, C.A Premium San Isidro",
+            "simple": "1338.8",
+            "double": "959.7",
+            "triple": "--",
+            "child": "805.35"
+          },
+          {
+            "name": "Novotel (Cusco)El Mapi by Inkaterra, Hyatt Centric San Isidro ",
+            "simple": "1344",
+            "double": "956.55",
+            "triple": "--",
+            "child": "802.2"
+          },
+          {
+            "name": "Novotel (Cusco)El Mapi by Inkaterra, Swissotel",
+            "simple": "1369.2",
+            "double": "969.15",
+            "triple": "940.8",
+            "child": "807.45"
           }
         ],
-        "premium": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
-        ]
+        "premium": []
       },
       "3": {
         "id": "3",
@@ -3224,17 +3317,63 @@
       "9": {
         "id": "9",
         "title": "Andean Journey: Cusco and Arequipa",
-        "subtitle": "",
-        "description": "",
-        "whyChooseUs": [],
-        "itinerary": [],
+        "subtitle": "A unique experience through the history, culture, and landscapes of southern Peru",
+        "description": "This 8-day journey combines the best of the Inca legacy in Cusco and Machu Picchu with the colonial charm and natural beauty of Arequipa and the majestic Colca Canyon.",
+        "whyChooseUs": [
+          "Includes guided excursions to Machu Picchu, Sacred Valley, and Colca Canyon.",
+          "Accommodation in selected hotels based on chosen category.",
+          "Full cultural experience with expert guides in Spanish or English.",
+          "Entrance tickets to all main attractions included.",
+          "Optional Vistadome train upgrade for a more scenic experience."
+        ],
+        "itinerary": [
+          "Day 1: Arrival in Cusco - City Tour + Nearby Ruins.",
+          "Day 2: Excursion to the Sacred Valley of the Incas with lunch.",
+          "Day 3: Train journey to Aguas Calientes. Free afternoon.",
+          "Day 4: Guided tour of Machu Picchu. Return to Cusco.",
+          "Day 5: Flight to Arequipa and City Tour with Santa Catalina Monastery.",
+          "Day 6: Start of Colca Canyon tour. Overnight in Chivay.",
+          "Day 7: Visit to Cruz del Cóndor and traditional towns. Return to Arequipa.",
+          "Day 8: Sillar Route and transfer to the airport. End of the tour."
+        ],
         "startDate": "",
         "endDate": "",
-        "includes": [],
-        "notIncluded": [],
-        "from": "",
-        "optional": [],
-        "politics": [],
+        "includes": [
+          "Transfers in/out in Cusco and Arequipa.",
+          "03 nights in Cusco with breakfast.",
+          "01 night in Aguas Calientes with breakfast.",
+          "City tour of Cusco and 4 nearby ruins.",
+          "Excursion to Machu Picchu with guide and entrance tickets.",
+          "Expedition train ticket to Machu Picchu.",
+          "Round-trip bus to Machu Picchu.",
+          "Lunch in Machu Picchu (Apu Inti).",
+          "Excursion to the Sacred Valley with lunch.",
+          "02 nights in Arequipa with breakfast.",
+          "Walking City Tour + Santa Catalina Convent / Sillar Route.",
+          "01 night in Chivay with breakfast.",
+          "Shared Colca Canyon tour.",
+          "Entrance tickets to all mentioned attractions.",
+          "Professional guides in Spanish or English."
+        ],
+        "notIncluded": [
+          "International and domestic air tickets.",
+          "Early check-in and late check-out.",
+          "Travel insurance.",
+          "Meals not mentioned.",
+          "Tips and personal expenses.",
+          "Entrance to Arequipa Cathedral."
+        ],
+        "from": "USD 668.85 per person based on double occupancy (3-star category - national market)",
+        "optional": [
+          "Vistadome train: USD 80.00 per person"
+        ],
+        "politics": [
+          "Prices are per person in US dollars.",
+          "Child rate applies from 3 to 10 years old.",
+          "Subject to availability and changes without prior notice.",
+          "Rates do not apply on holidays or long weekends.",
+          "Entrance to Machu Picchu subject to availability and designated schedules."
+        ],
         "images": [
           {
             "alt": "Panoramic view of Machu Picchu",
@@ -3248,31 +3387,10 @@
           }
         ],
         "comfort": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
-        ],
+          {"name":"Hotel Inkari  (Cusco) - Vista Machupicchu, TerraMistica (Arequipa) Colca Inn (Colca)","simple":"926.1","double":"760.2","triple":"751.8","child":"600.6"},{"name":"Hotel Warari  (Cusco) -Vista Machupicchu  TerraMistica (Arequipa) Colca Inn (Colca)","simple":"911.4","double":"754.95","triple":"740.25","child":"408.1"},{"name":"Hotel Imperial (Cusco) Vista Machupicchu, Majestad (Arequipa) Colca Inn (Colca)","simple":"914.55","double":"764.4","triple":"742.35","child":"596.4"},{"name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Xima Crismar (Arequipa), Pozo del Cielo  (Colca)","simple":"1121.4","double":"847.35","triple":"834.75","child":"666.75"},{"name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, Mirador del Monasterio (Arequipa), Pozo del Cielo  (Colca)","simple":"1097.3","double":"847.35","triple":"828.45","child":"675.15"},{"name":"San Agustín (Cusco) - Inti Punku Machupicchu, Santa Rosa (Arequipa), Pozo del Cielo  (Colca)","simple":"1130.9","double":"849.45","triple":"804.3","child":"649.95"},{"name":"San Agustín Dorado  (Cusco) – Casa Andina Machupicchu, San Agustin Posada (Arequipa), Casa Andina Chivay","simple":"1203.3","double":"884.1","triple":"857.85","child":"652.05"},{"name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Casa Andina Classic (Arequipa), Casa Andina Chivay","simple":"1286.3","double":"929.25","triple":"896.7","child":"680.4"},{"name":"Tierra Viva (Centro,Plaza,Saphy) , Hatun Inti Classic, Vita  Hoteles (Arequipa), Colca Llaqta (Colca)","simple":"1116.2","double":"852.6","triple":"848.4","child":"702.45"},{"name":"Casa Andina (San Blas)(Cusco), Inti Punku Machupicchu, Casona Plaza  (Arequipa), Casona Plaza  (Colca)","simple":"1154","double":"871.5","triple":"856.8","child":"700.35"},{"name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Tambo Colonial (Arequipa), Casona Plaza (Colca)","simple":"1223.3","double":"915.6","triple":"891.45","child":"740.25"}        ],
         "deluxe": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
-        ],
+          {"name":"Xima Hotel(Cusco) Hatun Inti Classic, Sonesta (Arequipa), Colca Lodge / Aranwa (Colca)","simple":"1324.1","double":"950.25","triple":"888.3","child":"693"},{"name":"Hotel Sonesta Posada (Cusco) Hatun Inti Classic  Sonesta (Arequipa)   Colca Lodge / Aranwa (Colca)","simple":"1436.4","double":"1009.1","triple":"950.25","child":"752.85"},{"name":"Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu, Casa Andina Select (Arequipa), Colca Lodge / Aranwa (Colca)","simple":"1478.4","double":"1043.7","triple":"--","child":"720.3"},{"name":"Los Portales (Cusco) Hatun Inti Classic Costa del Sol (Aqp) Colca Lodge / Aranwa","simple":"1460.6","double":"1034.3","triple":"988.05","child":"690.9"},{"name":"Costa del Sol - Hab. Contempo Tierra Viva Machupicchu   Costa del Sol (Aqp)Colca Lodge / Aranwa","simple":"1596","double":"1130.9","triple":"1046.9","child":"747.6"},{"name":"Casa Andina Premium (Cusco)El Mapi by Inkaterra, Casa Andina Premium (Arequipa)Colca Lodge / Aranwa","simple":"1728.3","double":"1215.9","triple":"--","child":"841.05"},{"name":"Novotel (Cusco), El Mapi by Inkaterra, Casa Andina Premium (Arequipa), Colca Lodge / Aranwa","simple":"1728.3","double":"1215.9","triple":"--","child":"841.05"}],
         "premium": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
         ]
       }
     }
