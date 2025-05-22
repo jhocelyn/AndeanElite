@@ -46,7 +46,7 @@ export class ListPackagesComponent implements OnInit, OnDestroy{
   }
 
   loadDescription(): void {
-    this.translate.get('TRAVEL_BY_INTEREST.FULL_DAY_TOURS.DESCRIPTION').subscribe((translated: string) => {
+    this.translate.get('TRAVEL_BY_INTEREST.CIRCUITS.DESCRIPTION').subscribe((translated: string) => {
       this.Description = translated;
     });
   }
