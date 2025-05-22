@@ -10,16 +10,16 @@
 
   <!-- Sidebar -->
   <div class="md:col-span-1">
-    <app-filter-sidebar
-      [cities]="cities"
-      [categories]="categories"
-      [filterCity]="filterCity"
-      [filterCategory]="filterCategory"
-      [searchTerm]="searchTerm"
-      (cityChange)="onCityChange($event)"
-      (categoryChange)="onCategoryChange($event)"
-      (searchChange)="onSearchChange($event)"
-    ></app-filter-sidebar>
+      <app-filter-sidebar
+        [cities]="cities"
+        [categories]="categories"
+        [filterCity]="filterCity"
+        [filterCategory]="filterCategory"
+        [searchTerm]="searchTerm"
+        (cityChange)="onCityChange($event)"
+        (categoryChange)="onCategoryChange($event)"
+        (searchChange)="onSearchChange($event)"
+      ></app-filter-sidebar>
   </div>
 
   <!-- Lista de paquetes -->

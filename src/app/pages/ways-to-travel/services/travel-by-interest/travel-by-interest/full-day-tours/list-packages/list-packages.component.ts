@@ -55,7 +55,7 @@ export class ListPackagesComponent implements OnDestroy,OnInit{
   }
 
   loadPackages(): void {
-    this.packageService.getPackages().subscribe(data => {
+    this.packageService.getPackages('FULL_DAY_TOURS').subscribe(data => {
       this.allTours = data;
       this.applyFilters();
       console.log("Paquetes cargados:", this.allTours);
@@ -92,29 +92,11 @@ export class ListPackagesComponent implements OnDestroy,OnInit{
     });
   }
 
-  getNewsByCity(city: string, limit: number = 6): SimplePackage[] {
-    return this.allTours
-      .filter(pkg => pkg.city?.toLowerCase() === city.toLowerCase())
-      .slice(0, limit);
-  }
-
-  getNewsByCategory(category: string, limit: number = 6): SimplePackage[] {
-    const categoryLower = category.toLowerCase();
-    return this.allTours
-      .filter(pkg =>
-        pkg.categories?.some(cat => cat.toLowerCase() === categoryLower)
-      )
-      .slice(0, limit);
-  }
 
   setSearchTerm(term: string): void {
     this.searchTerm = term;
     this.applyFilters();
   }
 
-  showMore(city: string): void {
-    console.log(`Mostrar más paquetes para ciudad: ${city}`);
-    // Aquí podrías redirigir a otra vista o cargar más elementos.
-  }
 
 }

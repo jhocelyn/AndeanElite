@@ -1,6 +1,14 @@
 <app-list-packages-structure
-  [backgroundImage]="'TRAVEL_BY_INTEREST.CIRCUITS.IMAGE'"
-  [title]="'TRAVEL_BY_INTEREST.CIRCUITS.TITLE'"
-  [description]="CircuitsData?.DESCRIPTION"
-  [packages]="CircuitsData?.PACKAGES"
+  [backgroundImage]="'TRAVEL_BY_INTEREST.FULL_DAY_TOURS.IMAGE'"
+  [title]="'TRAVEL_BY_INTEREST.FULL_DAY_TOURS.TITLE'"
+  [description]="Description"
+  [packages]="filteredCircuits"
+  [cities]="cities"
+  [categories]="categories"
+  [filterCity]="filterCity"
+  [filterCategory]="filterCategory"
+  [searchTerm]="searchTerm"
+  (cityChange)="setCityFilter($event)"
+  (categoryChange)="setCategoryFilter($event)"
+  (searchChange)="setSearchTerm($event)"
 ></app-list-packages-structure>

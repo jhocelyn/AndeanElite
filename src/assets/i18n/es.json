@@ -453,7 +453,7 @@
     "FULL_DAY_TOURS": {
       "1": {
         "id": "1",
-        "title": "TURISMO CUSCO - 2025",
+        "title": "CAÑÓN DEL CÓNDOR + CHONTA",
         "subtitle": "CAÑÓN DEL CÓNDOR + CHONTA",
         "description": "Descubre el impresionante Cañón del Cóndor en Chonta, una experiencia única para observar el vuelo majestuoso del cóndor andino en su hábitat natural.",
         "whyChooseUs": [
@@ -525,29 +525,35 @@
         ]
       },
       "2": {
-        "packageTitle": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MORADA DE LOS DIOSES",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp"
+        "id": "2",
+        "title": "CUATRIMOTOS EN MORADA DE LOS DIOSES",
+        "subtitle": "CUATRIMOTOS EN MORADA DE LOS DIOSES",
+        "description": "Aventura en cuatrimotos por la Morada de los Dioses en Cusco. Descubre esculturas impresionantes talladas en roca y disfruta de paisajes andinos únicos en un recorrido lleno de adrenalina.",
+        "whyChooseUs": [
+          "Recorrido en cuatrimotos guiado por expertos.",
+          "Visita a la Morada de los Dioses con esculturas únicas.",
+          "Incluye práctica previa y equipo de seguridad.",
+          "Ideal para los amantes de la aventura y la cultura."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Recojo del hotel. Nos dirigimos al poblado de Tica Tica hasta llegar al sector Sencca en un trayecto de 25 minutos. Una vez ahí empezamos un briefing de seguridad de 5 minutos y 10 minutos de entrenamiento con las Cuatrimotos, para dar inicio a la aventura. El recorrido en cuatrimotos tiene una duración de 1 hora, primero visitaremos el Acueducto Colonial Fortaleza, luego continuaremos hasta la Morada de los Dioses, una vez llegado comenzaremos con la visita de aproximadamente 30 minutos, en este lugar podremos apreciar las diversas esculturas hechas a mano, apreciando el paisaje natural y poder tomarse fotos. Finalizada la visita, retornaremos hasta el campamento para abordar nuestro transporte y retornar a la ciudad de Cusco. Dejándolos en la Calle Shapy a una cuadra de la Plaza de Armas."
-          }
-        },
-        "duration": "03 Hrs",
-        "departure": "Diarias",
-        "schedule": "AM 08:00 a.m. y 11:00 a.m.\nPM 13:00 p.m. y 15:00 p.m.",
+        "itinerary": [
+          "Recojo del hotel y traslado al sector Sencca (25 min).",
+          "Briefing de seguridad (5 min) y entrenamiento en cuatrimotos (10 min).",
+          "Recorrido en cuatrimotos de 1 hora visitando el Acueducto Colonial Fortaleza.",
+          "Visita a la Morada de los Dioses por 30 minutos para apreciar esculturas y paisajes.",
+          "Retorno al campamento y traslado a Cusco, finalizando en la Calle Shapy (a una cuadra de la Plaza de Armas)."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Traslados al campo base",
-          "Briefing y práctica instructiva de las cuatrimotos",
-          "Guía profesional de turismo Bilingüe",
-          "Equipo de seguridad",
-          "Ticket de ingreso",
-          "Asistencia"
+          "Traslados al campo base.",
+          "Briefing y práctica instructiva de las cuatrimotos.",
+          "Guía profesional de turismo Bilingüe.",
+          "Equipo de seguridad.",
+          "Ticket de ingreso.",
+          "Asistencia."
         ],
         "notIncluded": [
-          "Alimentación no especificada",
+          "Alimentación no especificada.",
           "Propina para el guía.",
           "Seguro de viaje.",
           "Fotografías.",
@@ -555,894 +561,712 @@
           "Souvenirs, regalos, compras personales."
         ],
         "prices": {
-          "shared": {
-            "ADT": "36",
-            "CHD": "36",
-            "EST": "36"
-          },
-          "private": {}
+          "per": "Por persona",
+          "ext": "Desde $36 (compartido)"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+        "optional": [
+          "Medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos de caminata.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol y protector solar.",
+          "Repelente de insectos (recomendable con 40% o más de DEET).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa caliente en caso de friaje.",
+          "Binoculares, cámara fotográfica.",
+          "Mochila de equipaje y mochila pequeña."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Cuatrimotos en la Morada de los Dioses - Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses.webp",
+            "width": 1200
           },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Desde los 09 años compartiendo cuatrimoto con adulto.",
-            "JR": "Desde los 15 años en cuatrimoto propia. Desde los 12 compartiendo con adulto."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+          {
+            "alt": "Recorrido en cuatrimotos - Morada de los Dioses",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp",
+            "width": 1200
+          }
+        ]
       },
       "3": {
-        "packageTitle": "TURISMO CUSCO - 2025\nCUATRIMOTOS EN MARAS & MORAY",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-maras-moray.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp"
+        "id": "3",
+        "title": "CUATRIMOTOS EN MARAS & MORAY",
+        "subtitle": "CUATRIMOTOS EN MARAS & MORAY",
+        "description": "Aventura en cuatrimotos por Maras y Moray, donde descubrirás el laboratorio agrícola inca, un pueblo colonial y las impactantes salineras con más de 3000 pozas. Vive la cultura andina combinada con adrenalina.",
+        "whyChooseUs": [
+          "Recorrido guiado en cuatrimotos por Maras, Moray y las Salineras.",
+          "Incluye práctica previa y equipo de seguridad.",
+          "Visita al centro arqueológico de Moray, un antiguo laboratorio agrícola inca.",
+          "Explora las Salineras de Maras, con beneficios medicinales y culinarios.",
+          "Ideal para viajeros que buscan historia, cultura y aventura."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Recojo del hotel. Iniciaremos el tour, dirigiéndonos al Pueblo de Maras, aquí tendremos una breve explicación a cargo nuestro guía quien les explicará sobre la experiencia turística, así como también el uso correcto de las cuatrimotos con una breve práctica de 10 a 15 minutos. El primer punto a visitar serán las terrazas de Moray, centro arqueológico considerado como el laboratorio agrícola inca. Nuestro guía les brindará la explicación de este impresionante lugar, para luego visitar al poblado de Maras, lugar que hasta nuestros días mantiene sus arcos coloniales en sus viviendas y la plaza típica de los pueblos andinos. Llegaremos a las salineras donde se apreciará más de 3000 pozos de sal, que son trabajados por los pobladores y que es parte de su economía, comprobaremos sus beneficios de la sal rosada medicinal y la sal de uso culinario. Retorno al hotel en Cusco."
-          }
-        },
-        "duration": "6 Horas Aprox.",
-        "departure": "Salidas diarias",
-        "schedule": "Servicio compartido: 8:00 horas\nServicio privado: A solicitud del pasajero",
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel y traslado al Pueblo de Maras.",
+          "Briefing de seguridad y práctica con cuatrimotos (10 a 15 min).",
+          "Recorrido hacia las terrazas de Moray con visita guiada.",
+          "Visita al pueblo colonial de Maras y su arquitectura tradicional.",
+          "Exploración de las Salineras de Maras con más de 3000 pozas.",
+          "Retorno al hotel en Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Cuatrimoto",
-          "Cascos y accesorios de seguridad",
-          "Tickets de ingreso a Salineras de Maras",
-          "Guiado en Español o Inglés",
-          "Asistencia permanente",
-          "Movilidad turística"
+          "Cuatrimoto.",
+          "Cascos y accesorios de seguridad.",
+          "Tickets de ingreso a Salineras de Maras.",
+          "Guía profesional de turismo (Español o Inglés).",
+          "Movilidad turística.",
+          "Asistencia permanente."
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Tickets de ingreso a Moray (BT-Parcial)",
-          "Alimentación",
-          "Propinas"
+          "Seguro de viaje.",
+          "Tickets de ingreso a Moray (BT-Parcial).",
+          "Alimentación.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "ADT": "71",
-            "CHD": "71",
-            "EST": "71"
-          },
-          "private": {}
+          "per": "Por persona",
+          "ext": "Desde $71 (compartido)"
         },
-        "additionalEntranceFees": {
-          "BT-Parcial": {
-            "NACIONAL": {
-              "ADULTOS": "14",
-              "JR/NIÑOS": "14"
-            },
-            "EXTRANJERO": {
-              "ADULTOS": "25",
-              "JR/NIÑOS": "25"
-            }
+        "optional": [
+          "Medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos de caminata.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol y protector solar.",
+          "Repelente de insectos (recomendable con 40% o más de DEET).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa caliente en caso de friaje.",
+          "Binoculares, cámara fotográfica.",
+          "Mochila de equipaje y mochila pequeña."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Tour en cuatrimotos a Maras y Moray",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-maras-moray.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Salineras de Maras en cuatrimotos",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-morada-dioses-cuatrimotos.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Tarifa aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "Tarifa JR aplica de 08 hasta 16 años, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+        ]
       },
       "4": {
-        "packageTitle": "TURISMO CUSCO - 2025\nEXCURSIÓN SUPER VALLE",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp"
+        "id": "4",
+        "title": "EXCURSIÓN SUPER VALLE",
+        "subtitle": "EXCURSIÓN SUPER VALLE - VALLE SAGRADO COMPLETO",
+        "description": "Un recorrido de día completo por lo mejor del Valle Sagrado de los Incas. Visita Chincheros, Moray, las Salineras de Maras, almuerza en Urubamba y explora las imponentes fortalezas de Ollantaytambo y Pisac.",
+        "whyChooseUs": [
+          "Tour integral por los principales atractivos del Valle Sagrado.",
+          "Incluye entradas a Moray y Salineras de Maras.",
+          "Almuerzo buffet en Urubamba incluido.",
+          "Guías expertos en historia y cultura incaica.",
+          "Ideal para quienes desean una experiencia completa en un solo día."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "En este tour más extenso realizamos un paseo por todo lo mejor del Valle Sagrado de los Incas. 6:20 a 7:00 hrs Recojo del hotel. Nos dirigimos a Chincheros, pueblo ancestral de los Incas, donde vamos a apreciar la hacienda real del Inca Tupac Yupanqui, y la plaza y templo colonial. Seguimos a Moray para visitar el centro incaico de pesquisas agrícolas, con sus impresionantes andenes en forma circular. De allí a la antigua salinera de Maras, lugar visualmente único e ideal para practicar la fotografía. Bajando al hermoso Valle Sagrado, almorzamos en un restaurante estilo buffet en el pueblo de Urubamba. Bordeando el río del mismo nombre, llegamos a la antigua ciudadela de Ollantaytambo, con su imponente fortaleza y sus incomparables canales, grandes muros y templos, maravillosos ejemplos de la arquitectura de los Incas. Hacia el final del tour estaremos en Pisac, un complejo arquitectónico de enormes terrazas y templos de piedra de fino acabado, otra joya de la civilización incaica. En el mercado de Pisac podrá admirar lo mejor de la artesanía cusqueña. Retorno a su hotel en Cusco."
-          }
-        },
-        "duration": "12 Hrs aprox.",
-        "departure": "Salidas diarias",
-        "schedule": "Servicio compartido: 06:30 AM\nServicio privado: A solicitud del pasajero",
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel entre 06:20 y 07:00 hrs.",
+          "Visita a Chincheros: hacienda real del Inca y templo colonial.",
+          "Exploración de los andenes circulares de Moray.",
+          "Visita a las Salineras de Maras, ideales para fotografía.",
+          "Almuerzo buffet en Urubamba.",
+          "Recorrido por la fortaleza y templos de Ollantaytambo.",
+          "Visita al complejo arqueológico y mercado artesanal de Pisac.",
+          "Retorno al hotel en Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Transporte turístico",
-          "Guiado en Español o Inglés",
-          "Almuerzo Buffet",
-          "Asistencia permanente"
+          "Transporte turístico.",
+          "Guía profesional bilingüe (Español/Inglés).",
+          "Almuerzo buffet.",
+          "Asistencia permanente."
         ],
         "notIncluded": [
-          "Boleto turístico Parcial",
-          "Tickets de ingreso Coricancha",
-          "Tickets de ingreso Catedral",
-          "Seguro de viaje",
-          "Alimentación no mencionada",
-          "Propinas"
+          "Boleto turístico Parcial (BTC).",
+          "Ingreso a Coricancha y Catedral.",
+          "Seguro de viaje.",
+          "Alimentación no mencionada.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "ADT": "51",
-            "CHD": "51",
-            "JR": "51"
-          },
-          "private": {
-            "1": "304",
-            "2": "165",
-            "3/4": "116",
-            "5": "84",
-            "6": "72",
-            "7": "63",
-            "8": "63"
-          }
+          "per": "Por persona",
+          "ext": "Desde $51 (compartido)"
         },
-        "additionalEntranceFees": {
-          "BTC-Parcial": {
-            "NACIONAL": {
-              "ADULTOS": "29",
-              "JR/NIÑOS": "22"
-            },
-            "EXTRANJERO": {
-              "ADULTOS": "40",
-              "JR/NIÑOS": "33"
-            }
+        "optional": [
+          "Medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos de caminata.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol y protector solar.",
+          "Repelente de insectos (recomendable con 40% o más de DEET).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa caliente en caso de friaje.",
+          "Binoculares, cámara fotográfica.",
+          "Mochila de equipaje y mochila pequeña."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Tour por el Valle Sagrado de los Incas",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Paisaje del Valle Sagrado - Excursión completa",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "pickupPolicy": "Los pasajeros deberán esperar en el lobby del hotel según las horas de inicio indicadas. El tiempo de recojo puede extenderse hasta en 10 a 15 minutos desde la hora indicada.",
-          "pickupSchedule": {
-            "HOTELES CUSCO": "06:20 hrs - 07:00 hrs"
-          },
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Tarifa aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "Tarifa JR aplica de 08 hasta 16 años, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+        ]
       },
       "5": {
-        "packageTitle": "TURISMO CUSCO - 2025\nFD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp"
+        "id": "5",
+        "title": "FD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
+        "subtitle": "Aventura en Cuatrimotos hacia la Montaña de 7 Colores",
+        "description": "Vive una experiencia única rumbo a la Montaña de 7 Colores en cuatrimotos. Combina adrenalina, naturaleza y cultura en una excursión inolvidable por los paisajes altoandinos del Cusco.",
+        "whyChooseUs": [
+          "Traslado en cuatrimotos por paisajes altoandinos hasta Qosqopata.",
+          "Visita guiada a la Montaña de 7 Colores con caminata corta.",
+          "Incluye desayuno y almuerzo en el pueblo de Japura.",
+          "Tour ideal para quienes buscan aventura sin largas caminatas.",
+          "Guías expertos y equipo de seguridad incluido."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Recojo de su hotel de 3:30 am a 4:00 am. Transporte de Cusco hasta Japura por 2h:30 minutos. Se desayuna en el poblado de Japura. Tendrán una breve práctica con los cuatrimotos en nuestra base para luego continuar en ellas hasta Qosqopata por 1h:30 minutos rodeado de paisajes increíbles rodeado de montañas y animales alto-andinos como son las llamas y alpacas. Desde Qosqopata hasta la montaña de colores, caminata de 35 minutos. Se realiza la visita y se da la explicación en la montaña de colores por tiempo promedio de 1 hora. Después de la visita a montaña de colores retorno por la misma ruta hasta Qosqopata para luego subiremos de nuevo a nuestros cuatrimotos hasta el poblado de Japura por un tiempo promedio de 1h:30 minutos. Llegado a nuestra base en el poblado de Japura nos espera nuestro delicioso almuerzo al promediar medio día. Después del almuerzo retornamos a Cusco, arribamos promedio a las 5 pm en la Plaza de Armas."
-          }
-        },
-        "duration": "12 Horas Aprox.",
-        "departure": "Salidas diarias, mínimo 02 pasajeros.",
-        "schedule": "Servicio compartido: Pick up 03:30 a 04:00 am",
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel entre 03:30 y 04:00 am.",
+          "Viaje en transporte privado hasta Japura (2h 30min).",
+          "Desayuno en Japura.",
+          "Práctica de cuatrimotos y recorrido hasta Qosqopata (1h 30min).",
+          "Caminata de 35 minutos hasta la Montaña de 7 Colores.",
+          "Visita guiada y tiempo libre (aproximadamente 1 hora).",
+          "Retorno en cuatrimotos a Japura (1h 30min).",
+          "Almuerzo en Japura y retorno a Cusco.",
+          "Llegada a la Plaza de Armas aprox. 5:00 pm."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Transporte ida y vuelta",
-          "Cuatrimotos (Marca Honda TRX 250)",
-          "Combustible",
-          "Casco",
-          "Desayuno y almuerzo",
-          "Botiquín de primeros auxilios",
-          "Guiado en Español o Inglés"
+          "Transporte ida y vuelta.",
+          "Cuatrimotos (Honda TRX 250).",
+          "Combustible y casco de seguridad.",
+          "Desayuno y almuerzo.",
+          "Botiquín de primeros auxilios.",
+          "Guía profesional bilingüe (Español/Inglés)."
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Tickets de entrada a Montaña 7 Colores: $12.00 por persona.",
-          "Alimentación no mencionada",
-          "Propinas"
+          "Seguro de viaje.",
+          "Entrada a la Montaña de 7 Colores ($12 por persona).",
+          "Alimentación no mencionada.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "CUATRIMOTO INDIVIDUAL": "126",
-            "CUATRIMOTO DOBLE": "236"
-          }
+          "per": "Por servicio",
+          "ext": "Desde $126 (cuatrimoto individual) / $236 (cuatrimoto doble)"
         },
-        "notes": {
-          "pickupPolicy": "Los pasajeros deberán estar listos en el lobby de su hotel entre las 03:30 y 04:00 am.",
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+        "optional": [
+          "Medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos de caminata.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol y protector solar.",
+          "Repelente de insectos (recomendable con 40% o más de DEET).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa caliente en caso de friaje.",
+          "Binoculares, cámara fotográfica.",
+          "Mochila de equipaje y mochila pequeña."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Montaña de 7 Colores - Aventura en cuatrimotos",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+            "width": 1200
           },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": "Menores de 18 años no pueden usar cuatrimotos individuales. Deben ir en cuatrimoto doble junto a un adulto por seguridad.",
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+          {
+            "alt": "Tour en cuatrimotos rumbo a la montaña arcoiris",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
+            "width": 1200
+          }
+        ]
       },
       "6": {
-        "packageTitle": "TURISMO CUSCO - 2025\nFULL DAY MACHU PICCHU",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/machu-picchu-tours.webp"
+        "id": "6",
+        "title": "FULL DAY MACHU PICCHU",
+        "subtitle": "Descubre la maravilla del mundo en un solo día",
+        "description": "Una experiencia inolvidable desde Cusco hacia la majestuosa ciudadela de Machu Picchu. Ideal para quienes disponen de poco tiempo pero no quieren perderse lo mejor del legado incaico.",
+        "whyChooseUs": [
+          "Servicio todo incluido desde tu hotel en Cusco hasta Machu Picchu.",
+          "Viaje en tren con vistas espectaculares a través del Valle Sagrado.",
+          "Guía profesional durante todo el recorrido en Machu Picchu.",
+          "Tiempo libre para disfrutar y explorar por cuenta propia.",
+          "Ideal para viajes express sin sacrificar calidad ni seguridad."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Muy temprano por la mañana, los recogeremos de su hotel para trasladarlos a la estación de tren en Ollantaytambo. A la llegada, abordarán el tren con dirección al pueblo de Aguas Calientes, disfrutando de un paisaje espectacular durante el trayecto. Al llegar a Aguas Calientes, nuestro personal los asistirá para tomar el bus que los llevará hasta la ciudadela de Machu Picchu. Ingresaremos a la ciudadela con nuestro guía profesional, quien nos llevará por los principales puntos del complejo arqueológico durante aproximadamente 2 horas. Después del recorrido, tendrán tiempo libre para explorar por su cuenta o tomar algunas fotos. Más tarde, bajaremos en bus a Aguas Calientes para disfrutar del almuerzo (no incluido). A la hora indicada, abordaremos el tren de regreso a Ollantaytambo y luego nuestro transporte los llevará de regreso a la ciudad del Cusco."
-          }
-        },
-        "duration": "16 Horas Aprox.",
-        "departure": "Salidas diarias, mínimo 01 pasajero.",
-        "schedule": "Pick up entre 04:00 y 04:30 am desde su hotel en Cusco.",
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel en Cusco entre 04:00 y 04:30 am.",
+          "Transporte hasta la estación de tren en Ollantaytambo.",
+          "Viaje en tren hasta Aguas Calientes (2 horas aprox.).",
+          "Bus a Machu Picchu desde Aguas Calientes.",
+          "Visita guiada por la ciudadela (2 horas).",
+          "Tiempo libre en Machu Picchu.",
+          "Bus de retorno a Aguas Calientes.",
+          "Almuerzo (no incluido) y tiempo libre.",
+          "Tren de regreso a Ollantaytambo y traslado a Cusco.",
+          "Arribo a Cusco por la noche."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Recojo desde el hotel en Cusco",
-          "Transporte ida y vuelta a la estación de tren",
-          "Ticket de tren ida y vuelta (Ollantaytambo - Aguas Calientes)",
-          "Bus ida y vuelta (Aguas Calientes - Machu Picchu)",
-          "Entrada a Machu Picchu",
-          "Guía profesional en Español",
-          "Asistencia permanente"
+          "Recojo desde el hotel en Cusco.",
+          "Transporte ida y vuelta a la estación de tren.",
+          "Ticket de tren ida y vuelta (Ollantaytambo - Aguas Calientes).",
+          "Bus ida y vuelta (Aguas Calientes - Machu Picchu).",
+          "Entrada a Machu Picchu.",
+          "Guía profesional en Español.",
+          "Asistencia permanente."
         ],
         "notIncluded": [
-          "Almuerzo en Aguas Calientes",
-          "Snacks y bebidas",
-          "Propinas",
-          "Seguro de viaje"
+          "Almuerzo en Aguas Calientes.",
+          "Snacks y bebidas.",
+          "Propinas.",
+          "Seguro de viaje."
         ],
         "prices": {
-          "shared": {
-            "ADULTO": "325",
-            "ESTUDIANTE CON CARNÉ": "305"
-          }
+          "per": "Por persona",
+          "ext": "Adulto: $325 | Estudiante con carné: $305"
         },
-        "notes": {
-          "pickupPolicy": "Los pasajeros deberán estar listos en el lobby de su hotel entre las 04:00 y 04:30 am.",
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+        "optional": [
+          "Llevar pasaporte original o documento de identidad válido.",
+          "Ropa cómoda y zapatillas de caminata.",
+          "Bloqueador solar, lentes de sol y sombrero.",
+          "Botella de agua reutilizable.",
+          "Cámara fotográfica.",
+          "Dinero en efectivo para gastos personales.",
+          "Chamarra o impermeable en temporada de lluvias."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Tour completo a Machu Picchu desde Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+            "width": 1200
           },
-          "recommendations": [
-            "Llevar pasaporte original o documento de identidad válido.",
-            "Ropa cómoda y zapatillas de caminata.",
-            "Bloqueador solar, lentes de sol y sombrero.",
-            "Botella de agua reutilizable.",
-            "Cámara fotográfica.",
-            "Dinero en efectivo para gastos personales.",
-            "Chamarra o impermeable en temporada de lluvias."
-          ],
-          "childPolicy": "Niños hasta 3 años no pagan siempre que no ocupen asiento. A partir de 4 años pagan tarifa completa.",
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+          {
+            "alt": "Ciudadela de Machu Picchu vista panorámica",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/machu-picchu-tours.webp",
+            "width": 1200
+          }
+        ]
       },
       "7": {
-        "packageTitle": "TURISMO CUSCO - 2025\nLAGUNA HUMANTAY",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp"
+        "id": "7",
+        "title": "LAGUNA HUMANTAY",
+        "subtitle": "Una caminata mágica hacia una joya escondida de los Andes",
+        "description": "Explora una de las lagunas más impresionantes del Cusco. Rodeada por montañas nevadas, la Laguna Humantay es un destino perfecto para los amantes de la naturaleza, la aventura y la espiritualidad andina.",
+        "whyChooseUs": [
+          "Vistas espectaculares de la cordillera nevada de Vilcabamba.",
+          "Ceremonia andina de agradecimiento a la Pachamama.",
+          "Desayuno y almuerzo incluidos para una experiencia completa.",
+          "Guía profesional y transporte seguro durante todo el día.",
+          "Ideal para viajeros que disfrutan de retos físicos y paisajes naturales."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "04:00 hrs a 04:40 hrs Recojo del hotel e inicio del tour. Con el guía, continuará hasta llegar al poblado de Mollepata, donde disfrutará del desayuno. En el transcurso llegará hasta Soraypampa, donde tendrá un pequeño descanso y luego, continuará con la caminata a la Laguna Humantay a una altitud de 4250 m.s.n.m. Este ascenso tiene una duración de 1h30min aprox. Al llegar a la laguna Humantay, tendrá tiempo suficiente para apreciar la majestuosa naturaleza. También, se realizará una breve demostración del pago a la tierra a los Apus sagrados. A hora oportuna, retornará a Soraypampa y luego al poblado de Mollepata para disfrutar del almuerzo. 18:30 hrs o 19:00 hrs Retorno a la ciudad de Cusco y traslado a su hotel."
-          }
-        },
-        "duration": "13 Horas Aprox.",
-        "departure": "Salidas diarias",
-        "schedule": "04:00 hrs (Servicio privado: A solicitud del pasajero)",
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel entre 04:00 y 04:40 hrs.",
+          "Viaje hacia Mollepata y desayuno local.",
+          "Continuación hacia Soraypampa.",
+          "Inicio de la caminata hacia la Laguna Humantay (1h30min aprox.).",
+          "Tiempo libre en la laguna y ceremonia andina de pago a la tierra.",
+          "Retorno a Soraypampa y luego a Mollepata para el almuerzo.",
+          "Regreso a Cusco entre 18:30 y 19:00 hrs. y traslado al hotel."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Movilidad Turística",
-          "Guía Profesional de Ruta",
-          "Transporte Turístico desde: Cusco/Mollepata/Soraypampa/Mollepata/Cusco",
-          "Desayuno",
-          "Box Lunch",
-          "Entrada turística"
+          "Movilidad Turística.",
+          "Guía Profesional de Ruta.",
+          "Transporte Cusco – Mollepata – Soraypampa – Cusco.",
+          "Desayuno.",
+          "Box Lunch.",
+          "Entrada turística."
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Alimentación no mencionada",
-          "Propinas"
+          "Seguro de viaje.",
+          "Alimentación no mencionada.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "ADT": "49",
-            "JR": "49",
-            "CHD": "49"
+          "per": "Por persona",
+          "ext": "Compartido: Adulto/Junior/CHD $49 | Privado: Desde $369 (1 persona) hasta $76 (8 personas)"
+        },
+        "optional": [
+          "Traer medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos de caminata.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol, protector solar.",
+          "Repelente de insectos (40% o más de DEET).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa abrigadora.",
+          "Binoculares, cámara fotográfica.",
+          "Mochila de equipaje y mochila pequeña."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de la Laguna Humantay",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
+            "width": 1200
           },
-          "private": {
-            "1": "369",
-            "2": "196",
-            "3/4": "139",
-            "5": "106",
-            "6": "90",
-            "7": "79",
-            "8": "76"
+          {
+            "alt": "Paisaje andino en la ruta a Humantay",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "minimumPersonRequirement": "Mínimo 2 personas."
-        },
-        "recommendations": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
-        ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
-        ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
         ]
       },
       "8": {
-        "packageTitle": "TURISMO CUSCO - 2025\nTOUR MARAS MORAY",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp"
+        "id": "8",
+        "title": "TOUR MARAS MORAY",
+        "subtitle": "Descubre la ingeniería ancestral y paisajes únicos del Valle Sagrado",
+        "description": "Explora los fascinantes sitios de Maras y Moray en este tour de medio día. Visita las impresionantes salineras y las terrazas circulares de Moray, utilizadas por los incas como laboratorio agrícola. Una combinación perfecta de historia, cultura y belleza natural.",
+        "whyChooseUs": [
+          "Visita a las salineras milenarias de Maras.",
+          "Exploración del laboratorio agrícola inca en Moray.",
+          "Ideal para viajeros con poco tiempo en Cusco.",
+          "Opciones en servicio compartido o privado.",
+          "Guías expertos y transporte turístico cómodo."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "08:10 hrs a 08:50 hrs Recojo del hotel e inicio del tour. Visitará Maras, ubicado en la provincia de Urubamba, donde se encuentran las minas de sal más importantes de la región del Cusco. Fue el primer centro productor de sal de la parte meridional de la sierra. Luego, nos dirigiremos al formidable complejo arqueológico de Moray, conformado por admirables sistemas de enormes terrazas que se superponen concéntricamente, tomando la forma de un gigantesco anfiteatro. Estas hermosas terrazas conformaron un gran laboratorio agrícola donde los antiguos peruanos lograron un increíble avance en la agricultura. 15:00 hrs Retorno a su hotel en Cusco."
-          }
-        },
-        "duration": "7 Horas Aprox.",
-        "departure": "Salidas diarias",
-        "schedule": {
-          "shared": "08:30 hrs",
-          "private": "A solicitud del pasajero"
-        },
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel entre 08:10 y 08:50 hrs.",
+          "Visita a las Salineras de Maras, centro de producción ancestral de sal.",
+          "Exploración del sitio arqueológico de Moray y sus terrazas concéntricas.",
+          "Retorno a Cusco a las 15:00 hrs."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Tickets de ingreso a Salineras de Maras",
-          "Guiado en Español o Inglés",
-          "Entrada a Maras",
-          "Asistencia permanente",
-          "Movilidad turística"
+          "Tickets de ingreso a Salineras de Maras.",
+          "Entrada a Maras.",
+          "Guiado en Español o Inglés.",
+          "Movilidad turística.",
+          "Asistencia permanente."
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Tickets de ingreso a Moray",
-          "Alimentación",
-          "Propinas"
+          "Seguro de viaje.",
+          "Tickets de ingreso a Moray.",
+          "Alimentación.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "ADT": "24",
-            "JR": "24",
-            "CHD": "24"
-          },
-          "private": {
-            "1": "234",
-            "2": "119",
-            "3/4": "81",
-            "5": "54",
-            "6": "43",
-            "7": "37",
-            "8": "38"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adulto/Junior/CHD $24 | Privado: Desde $234 (1 persona) hasta $38 (8 personas)"
         },
+        "optional": [
+          "Zapatillas o zapatos de caminata.",
+          "Sombrero o gorro, lentes para el sol, protector solar.",
+          "Repelente de insectos (40% DEET o más).",
+          "Impermeable o ropa de abrigo según la temporada.",
+          "Cámara fotográfica y binoculares.",
+          "Mochila de día y botella de agua reutilizable."
+        ],
         "adicionalEntryFee": {
-          "national": {
-            "adult": "14",
-            "child": "14"
+          "nacionales": {
+            "adulto": "$14",
+            "niño": "$14"
           },
-          "foreign": {
-            "adult": "25",
-            "child": "25"
+          "extranjeros": {
+            "adulto": "$25",
+            "niño": "$25"
           }
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de las salineras de Maras",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
+            "width": 1200
           },
-          "minimumPersonRequirement": "Mínimo 2 personas."
-        },
-        "recommendations": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
-        ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
-        ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
+          {
+            "alt": "Terrazas circulares en Moray",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
+            "width": 1200
+          }
         ]
       },
       "9": {
-        "packageTitle": "TURISMO CUSCO - 2025\nMONTAÑA PALCOYO",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp"
+        "id": "9",
+        "title": "MONTAÑA PALCOYO",
+        "subtitle": "Una alternativa menos concurrida a la Montaña Arcoíris",
+        "description": "Explora la Montaña Palcoyo, la opción tranquila y accesible frente a la popular Vinicunca. Disfruta de un paisaje colorido con tres montañas arcoíris visibles y una caminata moderada. Ideal para quienes buscan belleza natural sin una exigencia física intensa.",
+        "whyChooseUs": [
+          "Alternativa menos visitada que Vinicunca.",
+          "Accesible para personas con menor condición física.",
+          "Vistas panorámicas de tres montañas arcoíris.",
+          "Visita cultural al puente Inca de Checacupe.",
+          "Servicio con guía experto y almuerzo incluido."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "04:30 hrs Recojo del hotel. En dirección a la Montaña Arcoíris Palccoyo en un viaje de 3:30 hrs. El viaje es una alternativa menos visitada y menos exigente físicamente a la Montaña Arcoíris o Vinicunca. En nuestro recorrido se podrá apreciar alpacas nativas en paisajes montañosos hasta llegar al punto donde comenzaremos una caminata. Luego de 45 minutos de paso pausado, llegaremos a 5000 m de altitud, donde tendremos acceso a vistas privilegiadas de esta parte de la cordillera, con tres montañas de colores visibles desde el punto más alto. Luego, retornaremos a nuestro vehículo para trasladarnos por 1 hr hasta el puente Checacupe, puente colgante fabricado por los quechuas para favorecer la conexión del imperio Inca. Luego, podremos almorzar y tener un pequeño descanso. Regreso a Cusco."
-          }
-        },
-        "duration": "10 horas y media",
-        "departure": "Diarias",
-        "schedule": {
-          "shared": "04:30 am",
-          "private": "A solicitud del pasajero"
-        },
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel a las 04:30 hrs.",
+          "Viaje de 3h30min a la zona de caminata.",
+          "Caminata moderada de 45 minutos hasta los 5,000 m.s.n.m.",
+          "Vista de tres montañas de colores y paisaje cordillerano.",
+          "Visita al puente inca de Checacupe.",
+          "Almuerzo y retorno a Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Recojo del hotel",
-          "Transporte compartido",
-          "Guía en español",
-          "Almuerzo",
-          "Ticket de entrada a parque"
+          "Recojo del hotel.",
+          "Transporte compartido.",
+          "Guía en español.",
+          "Almuerzo.",
+          "Ticket de entrada al parque."
         ],
         "notIncluded": [
-          "Alimentación no especificada",
-          "Propina para el guía",
-          "Seguro de viaje",
-          "Fotografías",
-          "Snacks y/o bebidas durante el recorrido",
-          "Souvenirs, regalos, compras personales",
-          "Caballos"
+          "Alimentación no especificada.",
+          "Propinas.",
+          "Seguro de viaje.",
+          "Fotografías.",
+          "Snacks y bebidas.",
+          "Souvenirs.",
+          "Caballos."
         ],
         "prices": {
-          "shared": {
-            "ADT": "50",
-            "JR": "50",
-            "CHD": "50"
+          "per": "Por persona",
+          "ext": "Compartido: Adulto/Junior/CHD $50 | Privado: Desde $366 (1 persona) hasta $73 (8 personas)"
+        },
+        "optional": [
+          "Zapatillas o zapatos de caminata.",
+          "Ropa de abrigo y capa para lluvia.",
+          "Sombrero o gorro, lentes para el sol, protector solar.",
+          "Repelente con 40% DEET o más.",
+          "Bastones de trekking (opcional).",
+          "Cámara fotográfica y binoculares.",
+          "Mochila de día con botella de agua."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Vista colorida de la Montaña Palcoyo",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+            "width": 1200
           },
-          "private": {
-            "1": "366",
-            "2": "194",
-            "3/4": "136",
-            "5": "103",
-            "6": "87",
-            "7": "76",
-            "8": "73"
+          {
+            "alt": "Panorama de la cordillera con tonos arcoíris",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "minimumPersonRequirement": "Mínimo 2 personas."
-        },
-        "recommendations": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
-        ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
-        ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
         ]
       },
       "10": {
-        "packageTitle": "TURISMO CUSCO - 2025\nPARQUE ARQUEOLÓGICO EN CIUDAD",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/parque-arqueologico-cusco.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp"
+        "id": "10",
+        "title": "PARQUE ARQUEOLÓGICO EN CIUDAD",
+        "subtitle": "Recorrido cultural por los principales centros arqueológicos de Cusco",
+        "description": "Sumérgete en la historia inca visitando los principales centros arqueológicos aledaños a la ciudad de Cusco: Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Un tour ideal para quienes desean conocer la riqueza histórica y espiritual de la cultura andina sin alejarse de la ciudad.",
+        "whyChooseUs": [
+          "Tour de medio día, ideal para combinar con otras actividades.",
+          "Visita a los cuatro sitios arqueológicos más importantes de Cusco.",
+          "Acompañamiento por guías profesionales en español o inglés.",
+          "Salida diaria con opción de servicio privado.",
+          "Perfecto para una primera inmersión en la cultura inca."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Recojo del hotel. Visitará el Parque Arqueológico con sus cuatro centros importantes y que están aledaños de la ciudad del Cusco: Sacsayhuamán, famosa por sus enormes piedras labradas, Qenqo, centro de adoración al dios Puma, Puca Pucara, fortaleza roja debido al color de las piedras, y Tambomachay, sitio arqueológico destinado al culto al agua. Retorno a Cusco."
-          }
-        },
-        "duration": "3 ½ Horas",
-        "departure": "Salidas diarias",
-        "schedule": {
-          "shared": "09:00 AM",
-          "private": "A solicitud del pasajero"
-        },
-        "language": "Español",
+        "itinerary": [
+          "Recojo del hotel.",
+          "Visita a Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay.",
+          "Retorno a Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Transporte turístico",
-          "Guiado en Español o Inglés",
-          "Asistencia permanente"
+          "Transporte turístico.",
+          "Guía en español o inglés.",
+          "Asistencia permanente."
         ],
         "notIncluded": [
-          "Boleto turístico Parcial",
-          "Tickets de ingreso Coricancha",
-          "Tickets de ingreso Catedral",
-          "Seguro de viaje",
-          "Alimentación",
-          "Propinas"
+          "Boleto turístico parcial.",
+          "Entradas a Coricancha y Catedral.",
+          "Seguro de viaje.",
+          "Alimentación.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "ADT": "14",
-            "CHD": "14",
-            "EST": "14"
+          "per": "Por persona",
+          "ext": "Compartido: $14 (Adulto/CHD/Estudiante) | Privado: Desde $134 (1 persona) hasta $16 (8 personas)"
+        },
+        "optional": [
+          "Zapatillas cómodas o de caminata.",
+          "Protección solar y repelente con DEET.",
+          "Cámara fotográfica y binoculares.",
+          "Ropa ligera y abrigo para cambios de clima.",
+          "Botella de agua y snacks."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Vista de Sacsayhuamán en Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/parque-arqueologico-cusco.webp",
+            "width": 1200
           },
-          "private": {
-            "1": "134",
-            "2": "67",
-            "3/4": "45",
-            "5": "30",
-            "6": "24",
-            "7": "20",
-            "8": "16"
+          {
+            "alt": "Ruinas arqueológicas cerca de Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+            "width": 1200
           }
-        },
-        "additionalTouristTicket": {
-          "national": {
-            "adult": "14",
-            "child": "14"
-          },
-          "foreign": {
-            "adult": "25",
-            "child": "25"
-          }
-        },
-        "pickupPolicy": {
-          "sharedService": "Los pasajeros deberán esperar en el lobby del hotel a la hora indicada. El recojo puede tardar entre 10 y 15 minutos adicionales."
-        },
-        "pickupSchedule": {
-          "shared": "Turno Mañana: 08:20 - 08:50 hrs"
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "minimumPersonRequirement": "Mínimo 2 personas."
-        },
-        "recommendations": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
-        ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
-        ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
         ]
       },
       "11": {
-        "packageTitle": "TURISMO CUSCO - 2025\nQ’ESWACHACA",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/ultimo-puente-inca.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp"
+        "id": "11",
+        "title": "Q’ESWACHACA",
+        "subtitle": "El último puente Inca en uso – Un legado vivo del Qhapaq Ñan",
+        "description": "Descubre el asombroso puente inca de Q’eswachaca, reconocido por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad. Este tour de día completo te lleva a través de los Andes hasta el legendario puente de ichu sobre el río Apurímac, construido y renovado anualmente por comunidades locales mediante técnicas ancestrales. Una experiencia auténtica de cultura viva y conexión histórica.",
+        "whyChooseUs": [
+          "Visita al único puente inca funcional aún en uso.",
+          "Interacción con comunidades locales y participación en la elaboración de sogas.",
+          "Recorrido panorámico por las 4 lagunas altoandinas.",
+          "Tour disponible todo el año, con enfoque cultural y vivencial.",
+          "Experiencia única declarada Patrimonio de la Humanidad por la UNESCO."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Q’eswachaca es el último puente Inca en uso y es parte de la extensa red de caminos o Qhapac Ñan. Este puente ha sido reconocido por la UNESCO como “Patrimonio Cultural de la Humanidad”, y es el único que ha sobrevivido a tantas generaciones por más de 500 años. Se encuentra en un estado casi original gracias a la dedicación de las comunidades actoras: Huinchiri, Chaupibanda, Ccollana, Quehue y Chocayhua, las que haciendo gala de su cultura viva repiten técnicas y ceremonias de origen puramente andino, reproduciendo año a año este maravilloso evento, como una paradoja en el tiempo y mostrando la autenticidad de nuestra cultura. Durante tres días ellos renovarán anualmente el puente inca de Q'eswachaka, en los primeros días del mes de junio."
-          },
-          "day2": {
-            "description": "05:30 hrs Abordará la movilidad desde Cusco hasta el poblado de Pomacanchi, donde tendremos la vista panorámica de las 4 lagunas; Pomacanchi, Acopia, Asnacocha y Pampamarca, siendo este lugar muy histórico ya que se dio el inicio de la rebelión de José Gabriel Condorcanqui ‘’Tupac Amaru II‘’. Luego de apreciar diversos paisajes del alto andino, arribará al último puente Inca de Q’eswachaca. Tendrá la recepción por parte de la comunidad donde participará en la elaboración de sogas elaboradas con paja o ichu, finalmente tendrá la experiencia de cruzar el Río Apurímac a través del puente milenario. Tiempo libre para apreciar el maravilloso lugar. 17:30 hrs Retorno a Cusco."
-          }
-        },
-        "duration": "Día completo",
-        "departure": "Salidas diarias",
-        "schedule": {
-          "shared": "05:30 hrs",
-          "private": "A solicitud del pasajero"
-        },
-        "language": "Español",
+        "itinerary": [
+          "Día 1: Introducción histórica sobre el Q’eswachaca, su legado y las comunidades que lo mantienen.",
+          "Día 2:",
+          "- 05:30 hrs: Salida desde Cusco rumbo al poblado de Pomacanchi.",
+          "- Vista panorámica de las lagunas Pomacanchi, Acopia, Asnacocha y Pampamarca.",
+          "- Llegada al puente inca de Q’eswachaca.",
+          "- Participación en la elaboración de sogas de ichu y cruce del puente.",
+          "- Tiempo libre para fotografías y conexión con el entorno.",
+          "- 17:30 hrs: Retorno a Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Movilidad Turística",
-          "Guía de turismo",
-          "Box Lunch",
-          "Ingreso",
-          "Asistencia durante la excursión"
+          "Movilidad turística.",
+          "Guía de turismo.",
+          "Box lunch.",
+          "Ingreso al puente Q’eswachaca.",
+          "Asistencia permanente durante la excursión."
         ],
         "notIncluded": [
-          "Seguro de viaje",
-          "Alimentación",
-          "Propinas"
+          "Seguro de viaje.",
+          "Alimentación adicional.",
+          "Propinas."
         ],
         "prices": {
-          "shared": {
-            "ADT": "55",
-            "JR": "55",
-            "CHD": "55"
+          "per": "Por persona",
+          "ext": "Compartido: $55 (ADT/CHD/JR) | Privado: Desde $366 (1 persona) hasta $72 (8 personas)"
+        },
+        "optional": [
+          "Zapatillas de caminata.",
+          "Ropa impermeable y de abrigo.",
+          "Protección solar y repelente de insectos (DEET 40%).",
+          "Botella de agua y snacks personales.",
+          "Cámara fotográfica y binoculares.",
+          "Mochila pequeña."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Puente inca de Q’eswachaca sobre el río Apurímac",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/ultimo-puente-inca.webp",
+            "width": 1200
           },
-          "private": {
-            "1": "366",
-            "2": "193",
-            "3/4": "136",
-            "5": "103",
-            "6": "87",
-            "7": "76",
-            "8": "72"
+          {
+            "alt": "Comunidades locales renovando el puente Q’eswachaca",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "minimumPersonRequirement": "Mínimo 2 personas."
-        },
-        "recommendations": [
-          "Traer medicamentos e implementos de higiene personal",
-          "Zapatillas o zapatos de caminata",
-          "Linterna con pilas y focos de repuesto",
-          "Sombrero o gorro, lentes para el sol, protector solar",
-          "Repelente de insectos (recomendable con 40% o más de DEET)",
-          "Impermeable, camisas de manga larga y pantalones de algodón",
-          "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
-          "Mochila de equipaje y mochila pequeña"
-        ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
-          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
-          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
-          "No show no reembolsable",
-          "Se requiere información completa de los pasajeros antes del servicio",
-          "Precios exclusivos y confidenciales",
-          "Tarifas válidas hasta diciembre de 2025"
-        ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
         ]
       },
       "12": {
-        "packageTitle": "TURISMO CUSCO - 2025\nRAFTING EN CUSCO",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco-lake.webp"
+        "id": "12",
+        "title": "Rafting en Cusco",
+        "subtitle": "Aventura y relax en el río Urubamba",
+        "description": "Disfruta de una experiencia de rafting en los rápidos del río Urubamba, con un campamento cómodo que incluye duchas calientes, sauna y un almuerzo caliente. Ideal para quienes buscan adrenalina y descanso en la naturaleza.",
+        "whyChooseUs": [
+          "Guías profesionales con equipo completo y charla exhaustiva de seguridad.",
+          "Rafting en rápidos nivel II y III, con algunos tramos más desafiantes.",
+          "Incluye transporte turístico y recogida en el hotel.",
+          "Opcional Zip Line sobre el río Urubamba con 2 cables de 100 metros cada uno.",
+          "Disfrute de sauna y almuerzo en el campamento Cusipata River Lodge."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "08:50 hrs Salida del hotel en dirección al campamento “Cusipata River Lodge”. Disfrutará de duchas calientes, baños y sauna y confortable comedor. Nuestros guías profesionales le proporcionarán todo el equipo de rafting adecuado, y después de una charla exhaustiva sobre seguridad, nos dirigiremos hasta el poblado de Chuquicahuana. Ahí, comenzaremos con una clase en río de niveles II y III y en algunos tramos pueden ser más. Pasará unas dos horas flotando sobre el río sintiendo la adrenalina. Luego, terminaremos el rafting en CUSIPATA RIVER LODGE, donde se servirá un buen almuerzo caliente y se podrá disfrutar del sauna relajante. Y si desea también tenemos un ZIP LINE con 2 cables sobre el río Urubamba cada uno desde 100 mts (opcional). Regreso a la ciudad de Cusco por la tarde."
-          }
-        },
-        "duration": "07 horas aprox.",
-        "departure": "Diarias",
-        "schedule": {
-          "shared": "07:00 am"
-        },
-        "language": "Español",
+        "itinerary": [
+          "08:50 hrs: Salida del hotel hacia el campamento Cusipata River Lodge.",
+          "Recepción con duchas calientes, baños, sauna y comedor confortable.",
+          "Charla de seguridad y entrega de equipo de rafting.",
+          "Traslado a Chuquicahuana para iniciar rafting en rápidos de nivel II y III.",
+          "Dos horas de rafting disfrutando la adrenalina del río.",
+          "Regreso a Cusipata River Lodge para almuerzo y sauna relajante.",
+          "Opcional: Zip Line con 2 cables sobre el río Urubamba.",
+          "Regreso a Cusco por la tarde."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Recojo del hotel",
           "Transporte turístico",
@@ -1461,32 +1285,22 @@
           "Souvenirs, regalos, compras personales"
         ],
         "prices": {
-          "shared": {
-            "ADT": "80",
-            "CHD": "80"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: $80 (adultos y niños)"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": "Llevar otra muda de ropa, un par de sandalias"
-        },
-        "recommendationsList": [
-          "Traer medicamentos e implementos de higiene personal",
+        "optional": [
+          "Llevar otra muda de ropa y un par de sandalias",
+          "Medicamentos e implementos de higiene personal",
           "Zapatillas o zapatos de caminata",
           "Linterna con pilas y focos de repuesto",
           "Sombrero o gorro, lentes para el sol, protector solar",
           "Repelente de insectos (recomendable con 40% o más de DEET)",
           "Impermeable, camisas de manga larga y pantalones de algodón",
           "Ropa caliente en caso de friaje",
-          "Binoculares, cámara fotográfica",
+          "Binoculares y cámara fotográfica",
           "Mochila de equipaje y mochila pequeña"
         ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
+        "politics": [
           "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
           "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
           "No show no reembolsable",
@@ -1494,38 +1308,42 @@
           "Precios exclusivos y confidenciales",
           "Tarifas válidas hasta diciembre de 2025"
         ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
+        "images": [
+          {
+            "alt": "Rafting en río Urubamba, Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Campamento Cusipata River Lodge junto al río",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco-lake.webp",
+            "width": 1200
+          }
         ]
       },
       "13": {
-        "packageTitle": "TURISMO CUSCO - 2025\nRUTA DEL SOL CUSCO - PUNO",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp"
+        "id": "13",
+        "title": "Ruta del Sol Cusco - Puno",
+        "subtitle": "Tour en bus turístico con visitas culturales y paisajísticas",
+        "description": "Viaja en bus turístico desde Cusco hasta Puno visitando atractivos culturales como la Capilla de Andahuaylillas, el templo de Wiracocha en Raqchi, La Raya y el Museo Lítico de Pukará. Incluye almuerzo buffet y guía en español o inglés.",
+        "whyChooseUs": [
+          "Transporte cómodo en bus turístico con paradas estratégicas.",
+          "Visitas guiadas en sitios arqueológicos y culturales reconocidos.",
+          "Almuerzo buffet incluido para disfrutar de la gastronomía local.",
+          "Guía profesional bilingüe (español o inglés) durante todo el recorrido.",
+          "Asistencia permanente durante el viaje."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "07:00 hrs Salida en bus turístico desde el terminal terrestre con destino a la ciudad de Puno. En el trayecto visitará algunos atractivos; como la Capilla de Andahuaylillas conocida por la belleza de los murales que alberga en su interior, el complejo arqueológico de Raqchi conocido como el templo del Dios Wiracocha. Luego del recorrido, degustaremos de un delicioso almuerzo buffet. Seguido, visitaremos el punto más alto del camino en La Raya, la frontera entre las ciudades de Cusco y Puno. Finalmente, visitaremos el Museo Lítico de Pukara, en este museo podrá encontrar la famosa escultura del Hatunñaqac 'el supremo degollador'. 17:00 hrs Llegada a la estación de bus en Puno."
-          }
-        },
-        "duration": "10 horas",
-        "departure": "Salidas diarias (Para reservas de último minuto se deberá consultar)",
-        "schedule": {
-          "shared": "07:00 horas (Embarque 6:30 a 6:45 horas)",
-          "private": "A solicitud del pasajero"
-        },
-        "language": "Español o inglés",
+        "itinerary": [
+          "07:00 hrs: Salida en bus turístico desde el terminal terrestre de Cusco.",
+          "Visita a la Capilla de Andahuaylillas, famosa por sus murales.",
+          "Recorrido por el complejo arqueológico de Raqchi, templo de Wiracocha.",
+          "Almuerzo buffet durante el trayecto.",
+          "Parada en La Raya, punto más alto del camino y frontera entre Cusco y Puno.",
+          "Visita al Museo Lítico de Pukará, donde se encuentra la escultura del Hatunñaqac.",
+          "17:00 hrs: Llegada a la estación de bus en Puno."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Movilidad turística",
           "Tickets de ingreso",
@@ -1542,19 +1360,10 @@
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "90",
-            "JR": "83"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adultos $90, Junior (8-16 años) $83"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          }
-        },
-        "recommendationsList": [
+        "optional": [
           "Traer medicamentos e implementos de higiene personal",
           "Zapatillas o zapatos de caminata",
           "Linterna con pilas y focos de repuesto",
@@ -1565,8 +1374,7 @@
           "Binoculares, cámara fotográfica",
           "Mochila de equipaje y mochila pequeña"
         ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
+        "politics": [
           "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
           "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
           "No show no reembolsable",
@@ -1574,38 +1382,43 @@
           "Precios exclusivos y confidenciales",
           "Tarifas válidas hasta diciembre de 2025"
         ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
+        "images": [
+          {
+            "alt": "Paisaje en Puno",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Vista panorámica de Puno",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
+            "width": 1200
+          }
         ]
       },
       "14": {
-        "packageTitle": "TURISMO CUSCO - 2025\nRUTA DEL SOL PUNO A CUSCO",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/raqchi-puno.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp"
+        "id": "14",
+        "title": "Ruta del Sol Puno a Cusco",
+        "subtitle": "Tour en bus turístico con visitas culturales y paisajísticas desde Puno hacia Cusco",
+        "description": "Disfruta un viaje en bus turístico desde Puno a Cusco visitando importantes atractivos culturales como el Museo Lítico de Pukará, el Paso de la Raya con el nevado Chimboya, el complejo arqueológico de Raqchi y la Capilla de Andahuaylillas, con almuerzo buffet incluido y guía en español o inglés.",
+        "whyChooseUs": [
+          "Transporte cómodo en bus turístico con paradas en sitios históricos y culturales.",
+          "Guía profesional bilingüe (español o inglés) durante todo el recorrido.",
+          "Visitas a museos y complejos arqueológicos destacados.",
+          "Almuerzo buffet incluido para recargar energías.",
+          "Asistencia permanente para garantizar tu comodidad y seguridad."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "07:00 hrs Check in de ticket de embarque en la estación terrestre. 07:20 hrs Salida con destino a la ciudad de Cusco, en este trayecto visitará algunos atractivos importantes como el Museo Lítico de Pukara, en donde encontrará cerámicas y esculturas representando figuras zoomórficas, entre ellas la famosa escultura del Hatunñaqac 'el supremo degollador'. Posteriormente, visitará el Paso de la Raya, la frontera entre las ciudades de Puno y Cusco, a más de 4335 msnm donde se encuentra el famoso nevado Chimboya, de donde nace el río Amazonas. Tendrá tiempo para la toma de fotografías, y luego un almuerzo buffet en Sicuani. La siguiente parada será el Complejo Arqueológico de Raqchi, conocido también como el Templo del dios Wiracocha, el cual fue la suprema deidad Inka. En este lugar encontraremos la mayor cantidad de Colcas (Graneros), también veremos magníficas edificaciones en piedra y adobe. Finalmente, llegará a la Capilla De Andahuaylillas, una iglesia que data del siglo XVII, conocida como La Sixtina de los Andes por la belleza de sus murales, los trabajos en pan de oro y las pinturas de la escuela cusqueña que alberga en su interior. 17:00 hrs Llegada a la estación de bus en Cusco."
-          }
-        },
-        "duration": "10 horas",
-        "departure": "Salidas diarias (Para reservas de último minuto se deberá consultar)",
-        "schedule": {
-          "shared": "07:00 horas (Embarque 6:30 a 6:45 horas)",
-          "private": "A solicitud del pasajero"
-        },
-        "language": "Español o inglés",
+        "itinerary": [
+          "07:00 hrs: Check-in y embarque en la estación terrestre de Puno.",
+          "07:20 hrs: Salida hacia Cusco.",
+          "Visita al Museo Lítico de Pukará con cerámicas y esculturas zoomórficas.",
+          "Parada en el Paso de la Raya (4,335 msnm), con vistas al nevado Chimboya.",
+          "Almuerzo buffet en Sicuani.",
+          "Visita al Complejo Arqueológico de Raqchi, templo del dios Wiracocha.",
+          "Visita a la Capilla de Andahuaylillas, conocida como la Sixtina de los Andes.",
+          "17:00 hrs: Llegada a la estación de bus en Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Movilidad turística",
           "Tickets de ingreso",
@@ -1622,19 +1435,10 @@
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "90",
-            "JR": "83"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adultos $90, Junior (8-16 años) $83"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          }
-        },
-        "recommendationsList": [
+        "optional": [
           "Traer medicamentos e implementos de higiene personal",
           "Zapatillas o zapatos de caminata",
           "Linterna con pilas y focos de repuesto",
@@ -1645,8 +1449,7 @@
           "Binoculares, cámara fotográfica",
           "Mochila de equipaje y mochila pequeña"
         ],
-        "childPolicy": "La tarifa CHD aplica a niños menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes. Tarifa JR, aplica de 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes.",
-        "bookingConditions": [
+        "politics": [
           "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
           "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
           "No show no reembolsable",
@@ -1654,44 +1457,43 @@
           "Precios exclusivos y confidenciales",
           "Tarifas válidas hasta diciembre de 2025"
         ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
+        "images": [
+          {
+            "alt": "Museo Lítico de Pukará",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/raqchi-puno.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Paisaje en Puno",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
+            "width": 1200
+          }
         ]
       },
       "15": {
-        "packageTitle": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp"
+        "id": "15",
+        "title": "Sacred Valley Via Ferrata & Zip-Line",
+        "subtitle": "Experiencia de aventura con vía ferrata y tirolesa en el Valle Sagrado, Cusco",
+        "description": "Disfruta una emocionante actividad de vía ferrata y zip-line en el Valle Sagrado, acompañados de guías especializados. Incluye traslado desde y hacia el hotel en Cusco o Valle Sagrado, equipo completo, box lunch y asistencia permanente durante la actividad.",
+        "whyChooseUs": [
+          "Guías especializados que garantizan una experiencia segura y divertida.",
+          "Equipo completo para vía ferrata y zip-line incluido.",
+          "Traslados desde y hacia el hotel en Cusco o Valle Sagrado para mayor comodidad.",
+          "Box lunch saludable incluido para recargar energías durante la actividad.",
+          "Asistencia permanente para garantizar tu seguridad y apoyo en todo momento."
         ],
-        "itinerary": {
-          "day1": {
-            "description": "Comienza el día con el traslado al punto de inicio de la actividad en Sacred Valley, donde podrás disfrutar de la experiencia de la vía ferrata y tirolesa, acompañados de guías especializados. Durante la actividad se ofrecerá un box lunch con un delicioso sandwich caprese, chocolate sublime, mandarina y frutas deshidratadas."
-          }
-        },
-        "duration": "3 horas",
-        "departure": "Diarias",
-        "schedule": {
-          "shared": {
-            "cusco": "08:00 a.m.",
-            "sacredValley": "09:30 a 10:00 a.m."
-          },
-          "private": "Flexible (Se recomienda iniciar en la mañana, actividad debe comenzar antes de las 14:00 hrs y finalizar antes de las 19:00 hrs)"
-        },
+        "itinerary": [
+          "Traslado al punto de inicio en Sacred Valley.",
+          "Disfruta de la vía ferrata con equipo y guía especializado.",
+          "Realiza la tirolesa con equipo de seguridad completo.",
+          "Durante la actividad, se ofrece box lunch con sandwich caprese, chocolate sublime, mandarina y frutas deshidratadas."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Traslado ida y retorno desde el Hotel en Cusco o Valle Sagrado",
           "Guías especializados",
-          "Equipo Via Ferrata (arnés, casco, set via ferrata y guantes)",
+          "Equipo Via Ferrata (arnés, casco, set vía ferrata y guantes)",
           "Equipo zip-line (arnés, casco, set zip-line y guantes)",
           "Box Lunch (sandwich caprese, chocolate sublime, mandarina, frutas deshidratadas)",
           "Asistencia durante la actividad"
@@ -1702,46 +1504,11 @@
           "Seguro de viaje",
           "Fotografías"
         ],
-        "activities": {
-          "viaFerrata": {
-            "1": "68",
-            "2": "255",
-            "3-6": "149",
-            "7-9": "139",
-            "10+": "130"
-          },
-          "zipLine": {
-            "1": "68",
-            "2": "269",
-            "3-6": "155",
-            "7-9": "146",
-            "10+": "136"
-          },
-          "viaFerrataPlusZipLine": {
-            "1": "107",
-            "2": "361",
-            "3-6": "201",
-            "7-9": "192",
-            "10+": "182"
-          },
-          "zipLineShort": {
-            "1": "50",
-            "2": "239",
-            "3-6": "130",
-            "7-9": "124",
-            "10+": "119"
-          }
+        "prices": {
+          "per": "Por persona",
+          "ext": "Desde $50 hasta $361 según tipo y cantidad de participantes"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "minimumPersons": "Mínimo 2 personas en servicio compartido, si es una persona, puede unirse a un grupo existente.",
-          "weightLimit": "Peso máximo de 120 kg (265 lbs) para escalar de forma segura la vía ferrata y subir a la tirolesa."
-        },
-        "recommendations": [
+        "optional": [
           "Traer medicamentos e implementos de higiene personal",
           "Zapatillas o zapatos de caminata",
           "Linterna con pilas y focos de repuesto",
@@ -1752,11 +1519,7 @@
           "Binoculares, cámara fotográfica",
           "Mochila de equipaje y mochila pequeña"
         ],
-        "ageConditions": {
-          "zipLine": "Edad mínima 7 años",
-          "viaFerrata": "Edad mínima 8 años"
-        },
-        "bookingConditions": [
+        "politics": [
           "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes",
           "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales)",
           "No show no reembolsable",
@@ -1764,40 +1527,44 @@
           "Precios exclusivos y confidenciales",
           "Tarifas válidas hasta diciembre de 2025"
         ],
-        "cancellationPolicy": [
-          "Reservas individuales: Información completa 30 días antes del servicio",
-          "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada",
-          "Pago total al confirmar la reserva",
-          "Cambios por salud permitidos con al menos 48 horas de anticipación",
-          "No reembolso en caso de cancelación o no show"
-        ],
-        "billingPolicy": "Las facturas emitidas a pasajeros peruanos incluirán el I.G.V., desglosando los servicios inafectos y exonerados según la ley.",
-        "responsibilities": [
-          "En Andean Elite, siempre trabajamos para ofrecerles una experiencia inolvidable. Sin embargo, no podemos asumir responsabilidad por servicios no prestados o interrupciones causadas por factores fuera de nuestro control, como la negligencia de terceros proveedores, fenómenos naturales, retrasos, huelgas, intervenciones oficiales, entre otros.",
-          "Si es necesario modificar un tour o excursión para garantizar una mejor experiencia, lo haremos de manera oportuna.",
-          "Los trámites de visado y vacunación también son responsabilidad del pasajero, pero estamos aquí para orientarlos y apoyarlos en todo lo que necesiten."
+        "images": [
+          {
+            "alt": "Paisaje Sacred Valley y actividad de aventura",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Vía ferrata y zip-line en Sacred Valley",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+            "width": 1200
+          }
         ]
       },
       "16": {
-        "packageTitle": "TURISMO CUSCO - 2025\nSACRED VALLEY VIA FERRATA & ZIP-LINE CON ALMUERZO Y RELAX EN CABINAS",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp"
+        "id": "16",
+        "title": "Sacred Valley Via Ferrata & Zip-Line con Almuerzo y Relax en Cabinas",
+        "subtitle": "Experiencia exclusiva en Skylodge Adventure Suites con escalada, tirolesa y almuerzo gourmet",
+        "description": "Disfruta de una aventura única en el Valle Sagrado, escalando 400 metros por vía ferrata, descendiendo por tirolesas y culminando con un almuerzo de 4 platos con vista panorámica en las exclusivas cabinas Skylodge Adventure Suites.",
+        "whyChooseUs": [
+          "Experiencia exclusiva en Skylodge, único en su tipo.",
+          "Almuerzo gourmet de 4 platos con bebidas incluidas.",
+          "Guías especializados y equipo completo para vía ferrata y zip-line.",
+          "Traslado privado desde y hacia el hotel en Cusco.",
+          "Asistencia permanente durante toda la actividad."
         ],
-        "itinerary": {
-          "day1": {
-            "time": "Recojo del hotel y traslado hacia Skylodge.",
-            "description": "A solo una hora de la ciudad de Cusco, el exclusivo Skylodge Adventure Suites ofrece una experiencia única: escalar una montaña de 400 metros a través de una vía ferrata y descender por tirolesas para llegar hasta la cápsula comedor, disfrutando de un delicioso almuerzo con una impresionante vista sobre el valle Sagrado de los Incas."
-          }
-        },
-        "duration": "5 horas",
-        "departure": "Diarias",
-        "schedule": "09:00 hrs (consulta horarios de recojo)",
+        "itinerary": [
+          "Recojo del hotel en Cusco y traslado hacia Skylodge.",
+          "Escalada por vía ferrata de 400 metros hasta la cápsula comedor.",
+          "Descenso por tirolesas disfrutando del paisaje del Valle Sagrado.",
+          "Almuerzo de 4 platos a la carta con bebidas alcohólicas y no alcohólicas en las cabinas Skylodge."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Traslado ida y retorno desde el Hotel en Cusco",
           "Almuerzo de 4 platos a la carta con bebidas alcohólicas y no alcohólicas",
           "Guías especializados",
-          "Equipo Via Ferrata (arnés, casco, set via ferrata y guantes)",
+          "Equipo Via Ferrata (arnés, casco, set vía ferrata y guantes)",
           "Equipo zipline (arnés, casco, set zip-line y guantes)",
           "Asistencia durante la actividad"
         ],
@@ -1807,273 +1574,204 @@
           "Fotografías"
         ],
         "prices": {
-          "shared": {
-            "ADT": "295",
-            "JR": "295",
-            "CHD": "295"
-          }
+          "per": "Por persona",
+          "ext": "USD 295 (tarifa única para adultos, jóvenes y niños)"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
-      },
-      "17":{
-        "packageTitle": "TURISMO CUSCO - 2025\nEXPERIENCIAS GASTRONÓMICAS\nTALLER DE CHOCOLATE + CITY TOUR PEATONAL",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp"
+        "optional": [
+          "Traer medicamentos e implementos de higiene personal",
+          "Zapatillas o zapatos de caminata",
+          "Linterna con pilas y focos de repuesto",
+          "Sombrero o gorro, lentes para el sol y protector solar",
+          "Repelente de insectos (recomendable con 40% o más de DEET)",
+          "Impermeable, camisas de manga larga y pantalones de algodón",
+          "Ropa caliente en caso de friaje",
+          "Binoculares, cámara fotográfica",
+          "Mochila de equipaje y mochila pequeña"
         ],
-        "itinerary": {
-          "day1": {
-            "time": "Recojo y traslado a la chocolatería.",
-            "description": "Aprenderá todos los pasos del proceso de fabricación del chocolate a partir del árbol de cacao de la selva peruana. También de la historia, naturaleza y fabricación del chocolate; para poder elaborar sus propios chocolates con chocolate oscuro o de leche."
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Escalada y aventura en Skylodge Valle Sagrado",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+            "width": 1200
           },
-          "day2": {
-            "description": "Posteriormente, iniciaremos la visita a la ciudad imperial del Cusco de manera peatonal; con visita al Koricancha y al Templo al Dios Inti (El Sol) sobre el cual se construyó la iglesia de Santo Domingo y que según las crónicas; estaba recubierto de oro en épocas incas."
-          },
-          "day3": {
-            "description": "Luego, conoceremos la Plaza de Armas y visitaremos de manera panorámica la Catedral, que atesora obras y pinturas coloniales invaluables, como la Cruz que llegó con los primeros conquistadores."
-          },
-          "day4": {
-            "description": "También, tendrá la opción de conocer el mercado de San Pedro, el más antiguo de Cusco, y luego visitar el barrio de San Blas con calles muy típicas."
-          },
-          "day5": {
-            "description": "Finalmente, podrá visitar los Acueductos de Sapantiana. Hora oportuna, retorno a su hotel."
+          {
+            "alt": "Vista panorámica del Valle Sagrado y cabinas Skylodge",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+            "width": 1200
           }
-        },
-        "duration": "3:45 hrs aprox",
-        "departure": "Salidas diarias",
-        "schedule": "08:00 y 13:00 horas (ver horarios de recojo)",
+        ]
+      },
+      "17": {
+        "id": "17",
+        "title": "Experiencias Gastronómicas: Taller de Chocolate + City Tour Peatonal",
+        "subtitle": "Descubre la tradición del chocolate peruano y explora la historia de Cusco a pie",
+        "description": "Participa en un taller donde aprenderás el proceso de fabricación del chocolate desde el cacao de la selva peruana y luego disfruta un recorrido peatonal por la ciudad imperial de Cusco, visitando lugares históricos como el Koricancha, la Plaza de Armas, la Catedral, el mercado de San Pedro y el barrio de San Blas.",
+        "whyChooseUs": [
+          "Taller práctico de chocolate con ingredientes originarios de Perú.",
+          "Tour peatonal guiado por los principales puntos históricos de Cusco.",
+          "Incluye recojo y asistencia durante la actividad.",
+          "Ideal para quienes buscan combinar cultura gastronómica con historia local.",
+          "Grupos reducidos para una experiencia personalizada."
+        ],
+        "itinerary": [
+          "Día 1: Recojo y traslado a la chocolatería. Aprenderás el proceso y elaboración del chocolate.",
+          "Día 2: Tour peatonal por Cusco con visita al Koricancha y al Templo al Dios Inti.",
+          "Día 3: Visita panorámica a la Plaza de Armas y la Catedral.",
+          "Día 4: Opción para visitar el mercado de San Pedro y el barrio San Blas.",
+          "Día 5: Visita a los Acueductos de Sapantiana y retorno al hotel."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Asistencia durante la actividad",
-          "Guiado",
+          "Guía especializado",
           "Recojo del hotel"
         ],
         "notIncluded": [
-          "Entrada a Catedral",
+          "Entrada a la Catedral",
           "Seguro de viaje",
           "Alimentación",
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "39",
-            "JR": "39",
-            "CHD": "37"
-          }
+          "per": "Por persona",
+          "ext": "USD 39 para adultos y jóvenes, USD 37 para niños"
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+        "optional": [
+          "Traer medicamentos e implementos de higiene personal",
+          "Zapatillas o zapatos cómodos para caminar",
+          "Linterna con pilas y focos de repuesto",
+          "Sombrero o gorro, lentes para el sol y protector solar",
+          "Repelente de insectos con DEET (40% o más recomendado)",
+          "Impermeable, ropa de manga larga y pantalones de algodón",
+          "Ropa abrigadora para el friaje",
+          "Binoculares y cámara fotográfica",
+          "Mochila de equipaje y mochila pequeña"
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas solo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025."
+        ],
+        "images": [
+          {
+            "alt": "Taller de chocolate en Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
+            "width": 1200
           },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+          {
+            "alt": "City tour peatonal en Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
+            "width": 1200
+          }
+        ]
       },
       "18": {
-        "packageTitle": "TURISMO CUSCO - 2025\nCITY TOUR CUSCO & PARQUE ARQUEOLÓGICO",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-iglesia-landscape.webp"
+        "id": "18",
+        "title": "City Tour Cusco & Parque Arqueológico",
+        "subtitle": "Explora la historia y arquitectura inca y colonial en un recorrido guiado por Cusco",
+        "description": "Realiza un recorrido turístico por Cusco y sus alrededores, visitando el impresionante Parque Arqueológico con Sacsayhuamán y Qenqo, seguido de un paseo por la Plaza Mayor, la Catedral y el Templo de Qoricancha, combinando historia inca y colonial.",
+        "whyChooseUs": [
+          "Visita a uno de los sitios arqueológicos más impresionantes del mundo: Sacsayhuamán.",
+          "Recorrido guiado por los principales atractivos históricos de Cusco.",
+          "Guías profesionales en español o inglés.",
+          "Transporte cómodo y asistencia permanente durante el tour.",
+          "Ideal para quienes desean una experiencia cultural completa en pocas horas."
         ],
-        "itinerary": {
-          "day1": {
-            "time": "Hora coordinada",
-            "description": "Inicio del recorrido por la ciudad del Cusco y alrededores. Primeramente, nos dirigiremos hasta el Parque Arqueológico para ingresar a Sacsayhuaman, considerada como una de las edificaciones más hermosas del mundo y el observatorio astronómico de Qenqo."
-          },
-          "day2": {
-            "description": "Continuaremos con la visita a la Plaza Mayor donde la mayoría de las construcciones conservan el estilo colonial, visitaremos la Catedral y finalmente el Templo de Qoricancha, la máxima expresión de la arquitectura Inca, actualmente Convento de Santo Domingo."
-          },
-          "day3": {
-            "description": "Retorno a su hotel."
-          }
-        },
-        "duration": "3:00 hrs aprox",
-        "departure": "Salidas diarias",
-        "schedule": "12:00 hrs (ver horarios de recojo)",
+        "itinerary": [
+          "Día 1: Inicio del recorrido por la ciudad y visita al Parque Arqueológico, incluyendo Sacsayhuamán y Qenqo.",
+          "Día 2: Visita a la Plaza Mayor, la Catedral y el Templo de Qoricancha (Convento de Santo Domingo).",
+          "Día 3: Retorno a su hotel."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Transporte turístico",
-          "Guiado en Español o Inglés",
+          "Guía en español o inglés",
           "Asistencia permanente"
         ],
         "notIncluded": [
-          "Boleto turístico Parcial",
-          "Tickets de ingreso Coricancha",
-          "Tickets de ingreso Catedral",
+          "Boleto turístico parcial",
+          "Tickets de ingreso a Coricancha",
+          "Tickets de ingreso a la Catedral",
           "Seguro de viaje",
           "Alimentación",
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "134",
-            "CHD": "67"
-          },
-          "private": {
-            "ADT": "45",
-            "JR": "30",
-            "CHD": "24",
-            "5": "20",
-            "6": "18"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adultos USD 134, Niños USD 67. Privado: Adultos USD 45, Jóvenes USD 30, Niños USD 24, Otros descuentos por grupo."
         },
-        "additionalEntries": {
-          "BTC Parcial + Catedral + Qoricancha": {
-            "national": {
-              "adult": "29",
-              "child": "22"
-            },
-            "foreign": {
-              "adult": "40",
-              "child": "33"
-            }
+        "optional": [
+          "Compra de boleto turístico parcial, Catedral y Coricancha (costos adicionales según nacionalidad).",
+          "Traer medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos cómodos para caminar.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol y protector solar.",
+          "Repelente de insectos (40% o más de DEET recomendado).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa abrigadora para el friaje.",
+          "Binoculares y cámara fotográfica.",
+          "Mochila pequeña para equipaje personal."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025.",
+          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
+          "No reembolso en caso de cancelación o no show.",
+          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
+          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+        ],
+        "images": [
+          {
+            "alt": "Paisaje de Cusco con Sacsayhuamán",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Iglesia colonial en Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-iglesia-landscape.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol y protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+        ]
       },
       "19": {
-        "packageTitle": "TURISMO CUSCO - 2025\nFULL DAY VALLE SAGRADO, PISAC, OLLANTAYTAMBO & CHINCHEROS",
-
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-ollataytambo.webp"
+        "id": "19",
+        "title": "Full Day Valle Sagrado, Pisac, Ollantaytambo & Chincheros",
+        "subtitle": "Explora los sitios arqueológicos y pueblos vivos del Valle Sagrado en un día completo",
+        "description": "Disfruta de un recorrido completo por el Valle Sagrado de los Incas visitando Pisac, Urubamba, Ollantaytambo y Chincheros, con guía oficial, transporte turístico y almuerzo buffet incluido.",
+        "whyChooseUs": [
+          "Visita a Pisac con su complejo arqueológico y mercado artesanal.",
+          "Almuerzo buffet en Urubamba para disfrutar de la gastronomía local.",
+          "Recorrido por Ollantaytambo, pueblo vivo con arquitectura inca original.",
+          "Visita al pintoresco pueblo colonial de Chincheros.",
+          "Guía oficial de turismo en español y asistencia permanente."
         ],
-        "itinerary": {
-          "day1": {
-            "time": "07:30 hrs a 08:00 hrs",
-            "description": "Recojo del hotel. Iniciaremos el tour con la visita a Pisac donde visitará el complejo arqueológico, así como también el mercado típico artesanal, donde podrá comprar hermosas artesanías."
-          },
-          "day2": {
-            "description": "Continuaremos con el trayecto por el margen del Río Vilcanota hasta llegar a Urubamba, donde disfrutará de un exquisito almuerzo buffet."
-          },
-          "day3": {
-            "description": "Luego visitará Ollantaytambo, uno de los últimos pueblos Incas vivientes. Recorrerá las calles que mantienen el mismo trazo al de la época de los Incas y recorrerá el maravilloso complejo arqueológico."
-          },
-          "day4": {
-            "description": "Seguido, visitará Chincheros, un pequeño poblado inca y colonial. Retorno a su hotel en Cusco."
-          }
-        },
-        "duration": "Full Day",
-        "departure": "Salidas diarias",
-        "schedule": "07:30 hrs (ver horarios de recojo)",
-        "languages": ["Español"],
+        "itinerary": [
+          "07:30 - 08:00 hrs: Recojo del hotel y visita a Pisac, incluyendo complejo arqueológico y mercado artesanal.",
+          "Trayecto por el Río Vilcanota hasta Urubamba para almuerzo buffet.",
+          "Visita a Ollantaytambo, recorrido por calles incas y complejo arqueológico.",
+          "Visita a Chincheros y retorno al hotel en Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
-          "Movilidad Turística",
+          "Movilidad turística",
           "Guía oficial de turismo",
           "Almuerzo buffet",
           "Asistencia permanente"
@@ -2081,105 +1779,70 @@
         "notIncluded": [
           "Tickets de ingreso BT-Parcial ADT",
           "Seguro de viaje",
-          "Alimentación",
+          "Alimentación adicional",
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "36",
-            "CHD": "36"
-          },
-          "private": {
-            "ADT": "237",
-            "CHD": "128",
-            "1": "91",
-            "2": "66",
-            "3/4": "56",
-            "5": "50",
-            "6": "50"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adultos y Niños USD 36. Privado: Adultos USD 237, Niños USD 128, Tarifas especiales por grupo."
         },
-        "additionalEntries": {
-          "BTC Parcial": {
-            "national": {
-              "adult": "14",
-              "child": "14"
-            },
-            "foreign": {
-              "adult": "25",
-              "child": "25"
-            }
+        "optional": [
+          "Compra de boleto turístico parcial (costos adicionales según nacionalidad).",
+          "Medicamentos e implementos de higiene personal.",
+          "Zapatillas o zapatos cómodos para caminar.",
+          "Linterna con pilas y focos de repuesto.",
+          "Sombrero o gorro, lentes para el sol, protector solar.",
+          "Repelente de insectos (recomendable con 40% o más de DEET).",
+          "Impermeable, camisas de manga larga y pantalones de algodón.",
+          "Ropa abrigadora para el friaje.",
+          "Binoculares y cámara fotográfica.",
+          "Mochila pequeña para equipaje personal."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025.",
+          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
+          "No reembolso en caso de cancelación o no show.",
+          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
+          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+        ],
+        "images": [
+          {
+            "alt": "Valle Sagrado con montañas y río",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Complejo arqueológico de Ollantaytambo",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-ollataytambo.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol, protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+        ]
       },
       "20": {
-        "packageTitle": "TURISMO CUSCO - 2025\nVALLE SUR - ANDAHUAYLILLAS",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp"
+        "id": "20",
+        "title": "Valle Sur - Andahuaylillas",
+        "subtitle": "Tour completo por sitios arqueológicos y joyas coloniales al sur de Cusco",
+        "description": "Disfruta un tour de día completo visitando Tipón, Pikillaqta y la iglesia colonial de Andahuaylillas, conocida como 'La Sixtina de América', con guía oficial y movilidad turística.",
+        "whyChooseUs": [
+          "Visita al centro ceremonial Inka de Tipón y su sistema hidráulico ancestral.",
+          "Recorrido por la ciudadela amurallada de Pikillaqta, importante centro del Imperio Wari.",
+          "Conoce la hermosa Iglesia de Andahuaylillas con su impresionante arte barroco.",
+          "Guía oficial de turismo y asistencia durante todo el recorrido.",
+          "Transporte cómodo y seguro con salidas diarias desde Cusco."
         ],
-        "itinerary": {
-          "day1": {
-            "time": "08:00 hrs a 08:30 hrs",
-            "description": "Recojo del hotel. En dirección hacia el sur del Cusco, observará bellos paisajes de la Serranía Andina. La primera parada será el centro arqueológico de Tipón, centro ceremonial Inka donde a través de un canal de piedra se controlaba el flujo del agua proveniente de las cumbres altas del cerro Pachatusan hacia las tierras bajas del valle."
-          },
-          "day2": {
-            "description": "Posteriormente visitará el complejo Arqueológico de Pikillaqta que significa 'ciudad de pulgas'. Es una antigua ciudadela amurallada y de los centros regionales más importantes del Imperio Wari, en su expansión hacia la ciudad del Cusco."
-          },
-          "day3": {
-            "description": "Finalmente, concluirá la travesía visitando la bella Iglesia de Andahuaylillas, pequeña joya del periodo Colonial, conocida como 'La Sixtina de América', en cuyo interior se encuentra una impresionante colección de lienzos con marcos bañados en pan de oro y pinturas murales, retablos barrocos, y más."
-          },
-          "day4": {
-            "time": "14:30 hrs",
-            "description": "Retorno al hotel."
-          }
-        },
-        "duration": "Full Day",
-        "departure": "Salidas diarias",
-        "schedule": "08:45 hrs",
-        "languages": ["Español"],
+        "itinerary": [
+          "08:00 - 08:30 hrs: Recojo del hotel y salida hacia Tipón para visitar el centro ceremonial Inka.",
+          "Visita al complejo arqueológico Pikillaqta, antigua ciudad amurallada Wari.",
+          "Visita a la Iglesia de Andahuaylillas, joya colonial conocida como 'La Sixtina de América'.",
+          "14:30 hrs: Retorno al hotel en Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Guía oficial de turismo",
           "Ingreso a Andahuaylillas",
@@ -2192,101 +1855,66 @@
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "26",
-            "CHD": "26"
-          },
-          "private": {
-            "ADT": "182",
-            "CHD": "95",
-            "1": "65",
-            "2": "56",
-            "3/4": "46",
-            "5": "39",
-            "6": "39"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adultos y Niños USD 26. Privado: Adultos USD 182, Niños USD 95, Tarifas especiales por grupo."
         },
-        "additionalEntries": {
-          "BTC Parcial": {
-            "national": {
-              "adult": "14",
-              "child": "14"
-            },
-            "foreign": {
-              "adult": "25",
-              "child": "25"
-            }
+        "optional": [
+          "Compra de boleto turístico parcial (costos adicionales según nacionalidad).",
+          "Medicamentos e implementos de higiene personal recomendados.",
+          "Zapatillas o zapatos cómodos para caminata.",
+          "Linterna con pilas de repuesto.",
+          "Sombrero o gorro, lentes y protector solar.",
+          "Repelente de insectos con alto porcentaje de DEET.",
+          "Ropa impermeable y de manga larga para protección.",
+          "Ropa abrigadora para posibles bajas temperaturas.",
+          "Binoculares y cámara fotográfica.",
+          "Mochila pequeña para objetos personales."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025.",
+          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
+          "No reembolso en caso de cancelación o no show.",
+          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
+          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+        ],
+        "images": [
+          {
+            "alt": "Centro arqueológico Pikillaqta en Cusco",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
+            "width": 1200
+          },
+          {
+            "alt": "Paisaje de Cusco con montañas",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
+            "width": 1200
           }
-        },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
-          },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol, protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+        ]
       },
       "21": {
-        "packageTitle": "TURISMO CUSCO - 2025\nVINICUNCA (MONTAÑA DE 7 COLORES)",
-        "images": [
-          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp"
+        "id": "21",
+        "title": "Vinicunca (Montaña de 7 Colores)",
+        "subtitle": "Trekking y experiencia cultural en la montaña multicolor del Ausangate",
+        "description": "Un tour full day para descubrir la mágica Montaña de 7 Colores, caminando acompañado por un guía profesional que comparte el misticismo y tradiciones quechuas mientras disfrutas de paisajes espectaculares.",
+        "whyChooseUs": [
+          "Guía profesional especializado en trekking y cultura andina.",
+          "Incluye desayuno y almuerzo semi buffet para energizar tu aventura.",
+          "Transporte cómodo desde Cusco hacia las faldas del nevado Ausangate.",
+          "Experiencia cultural y espiritual única en un entorno natural impresionante.",
+          "Salidas diarias con opción privada a solicitud del pasajero."
         ],
-        "itinerary": {
-          "day1": {
-            "time": "04:20 hrs a 05:00 hrs",
-            "description": "Recojo del hotel, para luego comenzar el viaje de 2 hrs con dirección a las faldas del nevado Ausangate. Hará una parada en el pueblo de Cusipata para tomar un desayuno consistente."
-          },
-          "day2": {
-            "description": "Luego de una charla, continuará el viaje hacia la montaña e iniciará la caminata con un guía profesional, quien le explicará las diferentes costumbres y el misticismo que oculta la cordillera y el poblador quechua que vive en este sitio."
-          },
-          "day3": {
-            "description": "Terminando el trek, luego de ver la montaña de 7 colores, regresará al pueblo de Cusipata para el almuerzo respectivo."
-          },
-          "day4": {
-            "time": "16:30 hrs aprox",
-            "description": "Retorno a Cusco."
-          }
-        },
-        "duration": "Full Day",
-        "departure": "Salidas diarias",
-        "schedule": "Compartido: 04:20 hrs a 05:00 hrs; Servicio privado: A solicitud del pasajero",
-        "languages": ["Español"],
+        "itinerary": [
+          "04:20 - 05:00 hrs: Recojo del hotel y viaje de 2 horas hacia las faldas del nevado Ausangate, parada en Cusipata para desayuno.",
+          "Charla introductoria y comienzo de la caminata con guía profesional explicando costumbres y misticismo local.",
+          "Visita a la Montaña de 7 Colores y regreso a Cusipata para almuerzo semi buffet.",
+          "16:30 hrs aprox: Retorno a Cusco."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
         "includes": [
           "Movilidad Turística",
           "Guía profesional para el trekking",
@@ -2296,70 +1924,50 @@
         ],
         "notIncluded": [
           "Seguro de viaje",
-          "Alimentación",
+          "Alimentación adicional",
           "Propinas"
         ],
         "prices": {
-          "shared": {
-            "ADT": "49",
-            "CHD": "49"
-          },
-          "private": {
-            "ADT": "366",
-            "CHD": "194",
-            "1": "136",
-            "2": "103",
-            "3/4": "87",
-            "5": "76",
-            "6": "73"
-          }
+          "per": "Por persona",
+          "ext": "Compartido: Adultos y Niños USD 49. Privado: Adultos USD 366, Niños USD 194, tarifas especiales para grupos."
         },
-        "notes": {
-          "paymentMethods": {
-            "SafetyPay": "1% adicional",
-            "NIUBIS/VISANET": "3% adicional",
-            "Mercado Pago": "2.5% adicional (hasta 3 cuotas sin intereses)"
+        "optional": [
+          "Uso de bastones de trekking (no incluidos).",
+          "Ropa y calzado especializado para caminata.",
+          "Medicamentos e implementos de higiene personal recomendados.",
+          "Linterna con pilas de repuesto.",
+          "Sombrero o gorro, lentes y protector solar.",
+          "Repelente de insectos con alto porcentaje de DEET.",
+          "Ropa impermeable y de manga larga para protección.",
+          "Ropa abrigadora para posibles bajas temperaturas.",
+          "Binoculares y cámara fotográfica.",
+          "Mochila pequeña para objetos personales."
+        ],
+        "politics": [
+          "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
+          "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
+          "No show no reembolsable.",
+          "Se requiere información completa de los pasajeros antes del servicio.",
+          "Precios exclusivos y confidenciales.",
+          "Tarifas válidas hasta diciembre de 2025.",
+          "Cambios por salud permitidos con al menos 48 horas de anticipación.",
+          "No reembolso en caso de cancelación o no show.",
+          "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
+          "Los trámites de visado y vacunación son responsabilidad del pasajero."
+        ],
+        "images": [
+          {
+            "alt": "Montaña de 7 Colores, Vinicunca",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
+            "width": 1200
           },
-          "recommendations": [
-            "Traer medicamentos e implementos de higiene personal.",
-            "Zapatillas o zapatos de caminata.",
-            "Linterna con pilas y focos de repuesto.",
-            "Sombrero o gorro, lentes para el sol, protector solar.",
-            "Repelente de insectos (recomendable con 40% o más de DEET).",
-            "Impermeable, camisas de manga larga y pantalones de algodón.",
-            "Ropa caliente en caso de friaje.",
-            "Binoculares, cámara fotográfica.",
-            "Mochila de equipaje y mochila pequeña."
-          ],
-          "childPolicy": {
-            "CHD": "Menores de 08 años, incluye todos los servicios, mínimo 2 adultos pagantes.",
-            "JR": "De 08 hasta 16 años de edad, incluye todos los servicios, mínimo 2 adultos pagantes."
-          },
-          "bookingConditions": [
-            "Tarifas en dólares americanos, válidas sólo para pasajeros peruanos o residentes.",
-            "No válidas en temporadas altas (Semana Santa, Fiestas Patrias, Año Nuevo, feriados, eventos o ferias internacionales).",
-            "No show no reembolsable.",
-            "Se requiere información completa de los pasajeros antes del servicio.",
-            "Precios exclusivos y confidenciales.",
-            "Tarifas válidas hasta diciembre de 2025."
-          ],
-          "cancellationPolicy": [
-            "Reservas individuales: Información completa 30 días antes del servicio.",
-            "Reservas grupales: Lista preliminar de pasajeros 60 días antes de la llegada.",
-            "Pago total al confirmar la reserva.",
-            "Cambios por salud permitidos con al menos 48 horas de anticipación.",
-            "No reembolso en caso de cancelación o no show."
-          ],
-          "responsibilities": [
-            "Andean Elite no se responsabiliza por interrupciones causadas por factores fuera de nuestro control.",
-            "Si es necesario modificar un tour o excursión para mejorar la experiencia, se hará de manera oportuna.",
-            "Los trámites de visado y vacunación son responsabilidad del pasajero."
-          ]
-        }
+          {
+            "alt": "Paisaje del trekking en la Montaña de 7 Colores",
+            "src": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
+            "width": 1200
+          }
+        ]
       }
-
-
-
     },
     "CIRCUITS": {
       "1": {
@@ -3972,62 +3580,107 @@
       "TITLE": "Circuitos",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp",
       "DESCRIPTION": "Circuitos personalizados para explorar Perú a tu ritmo. Desde la costa hasta la sierra, cada circuito está diseñado para ofrecerte una experiencia única y enriquecedora.",
-      "PACKAGES": [
-        {
+      "PACKAGES": {
+        "1":{
           "id": "1",
           "title": "Cusco Exprés (CUSCO)",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
           "price": "0"
         },
-        {
+        "2":{
           "id": "2",
           "title": "Esencial Cusco y Machu Picchu (Cusco y Mapi)",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
           "price": "0"
         },
-        {
+        "3":{
           "id": "3",
           "title": "Tour Imperdible Cusco (cusco Valle y Mapi)",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
           "price": "0"
         },
-        {
+        "4":{
           "id": "4",
           "title": "Cusco y Montaña 7 Colores Cusco Valle Mapi y 7 Colores",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
           "price": "0"
         },
-        {
+        "5":{
           "id": "5",
           "title": "Encantos de Cusco y Laguna Humantay",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/lake-huamantay.webp",
           "price": "0"
         },
-        {
+        "6":{
           "id": "6",
           "title": "Descubre Cusco y el Oasis\n",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
           "price": "0"
         },
-        {
+        "7":{
           "id": "7",
           "title": "Explora Perú: Andes y Amazonía",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/cusco/peru-weavers-llama.webp",
           "price": "0"
         },
-        {
+        "8":{
           "id": "8",
           "title": "El Legado Sagrado de Cusco y el Lago Titicaca",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp",
           "price": "0"
         },
-        {
+        "9":{
           "id": "9",
           "title": "Viaje Andino: Cusco y Arequipa",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
           "image": "assets/img/destinations/arequipa/colca-canon.webp",
           "price": "0"
         }
-      ]
+      }
 
     },
     "CORPORATE_TRAVEL": {
