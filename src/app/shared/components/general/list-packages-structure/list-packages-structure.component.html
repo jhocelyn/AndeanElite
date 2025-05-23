@@ -17,19 +17,19 @@
         (click)="goToPackageDetails(package.slug)"
       >
         <img [src]="package.image" [alt]="package.title" class="w-full h-[50vh] object-cover rounded-t-md" />
-        <div class="py-2 h-full px-4">
-          <h3 class="text-center text-base font-semibold text-[#034873]">
+        <div class="py-4 h-full">
+          <h3 class="text-center text-lg font-bold text-[#034873]">
             {{ package.title }}
           </h3>
-          <h4 class="text-center text-sm font-semibold text-[#034873]">
+          <h4 class="text-center text-sm font-normal text-[#034873]">
             {{ package.days }}D / {{ package.nights }}N
           </h4>
-          <h4 class="text-center text-sm font-semibold text-[#034873]">
+          <h4 class="text-center py-2 text-base font-semibold text-red-700">
             {{ 'INFO_PACKAGES.FROM' |translate}} {{ package.price }}$
           </h4>
 
-          <div class="text-center text-sm font-semibold text-[#034873]">
-            <button class="rounded-2xl bg-[#042a4e] text-white px-4 py-2 mt-4 hover:bg-blue-900 transition-colors duration-300" (click)="goToPackageDetails(package.slug)">
+          <div class="text-center text-sm font-semibold">
+            <button class="rounded-2xl bg-[#042a4e] text-white px-4 py-2 hover:bg-blue-900 transition-colors duration-300" (click)="goToPackageDetails(package.slug)">
               Ver Programa >
             </button>
           </div>
