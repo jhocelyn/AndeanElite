@@ -1,6 +1,6 @@
 <div *ngIf="packageData">
   <!-- Menú Fijo -->
-  <div class="bg-gray-100 p-6 rounded-2xl shadow-md mb-6 sticky top-0 z-40">
+  <div class="bg-gray-100 p-6 rounded-2xl shadow-md sticky top-0 z-40">
     <ul class="flex justify-between gap-4 text-gray-700">
       <li *ngFor="let section of sections" (click)="setActiveSection(section.id)"
           class="flex items-center gap-2 cursor-pointer"
@@ -14,12 +14,16 @@
   </div>
 
   <!-- Secciones del Contenido -->
-  <div *ngFor="let section of sections" [hidden]="activeSection !== section.id" class="p-8 bg-gray-50 rounded-lg shadow-lg mb-8">
+  <div *ngFor="let section of sections" [hidden]="activeSection !== section.id" class="p-8 ">
     <ng-container [ngSwitch]="section.id">
 
       <!-- Descripción -->
       <div *ngSwitchCase="'description'">
-        <div class="bg-gray-100 p-6 rounded-2xl shadow-md">
+
+        <h2 class="text-2xl font-semibold text-[#042a4e]">{{ packageData.subtitle }}</h2>
+        <p [innerHTML]="packageData.description"></p>
+
+        <div class="bg-gray-100 p-6 rounded-2xl my-4 shadow-md ">
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
             <li class="flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -65,9 +69,6 @@
             {{ 'INFO_PACKAGES.DESCRIPTION.READ_NOTES' | translate }}
           </p>
         </div>
-
-        <h2 class="text-2xl font-semibold text-[#042a4e] my-4">{{ packageData.subtitle }}</h2>
-        <p [innerHTML]="packageData.description"></p>
 
         <h2 class="text-2xl font-semibold text-[#042a4e] my-4">{{ 'INFO_PACKAGES.WHY_YOU_WILL_LOVE' | translate:{subtitle: packageData.subtitle} }}</h2>
         <ul>
