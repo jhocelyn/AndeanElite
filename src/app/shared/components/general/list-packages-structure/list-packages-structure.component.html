@@ -18,10 +18,13 @@
       >
         <img [src]="package.image" [alt]="package.title" class="w-full h-[50vh] object-cover rounded-t-md" />
         <div class="py-4 h-full">
-          <h3 class="text-center text-lg font-bold text-[#034873]">
+          <h3 class="text-center px-2 text-lg font-bold text-[#034873]">
             {{ package.title }}
           </h3>
-          <h4 class="text-center text-sm font-normal text-[#034873]">
+          <h4
+            *ngIf="package.days !== '0' && package.nights !== '0'"
+            class="text-center text-sm font-normal text-[#034873']"
+          >
             {{ package.days }}D / {{ package.nights }}N
           </h4>
           <h4 class="text-center py-2 text-base font-semibold text-red-700">

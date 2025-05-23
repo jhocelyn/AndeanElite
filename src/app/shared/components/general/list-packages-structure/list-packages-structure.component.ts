@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {BannerComponent} from '../banner/banner.component';
-import {NgForOf} from '@angular/common';
+import {NgForOf, NgIf} from '@angular/common';
 import {ActivatedRoute, Router} from '@angular/router';
 import {TranslatePipe} from '@ngx-translate/core';
 import {FilterSidebarComponent} from '../../Important/filter-sidebar/filter-sidebar.component';
@@ -13,7 +13,8 @@ import {SimplePackage} from '../../../models/SimplePackage.model';
     BannerComponent,
     NgForOf,
     FilterSidebarComponent,
-    TranslatePipe
+    TranslatePipe,
+    NgIf
   ],
   templateUrl: './list-packages-structure.component.html',
   styleUrl: './list-packages-structure.component.css'
