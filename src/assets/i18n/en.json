@@ -3334,17 +3334,68 @@
       "7": {
         "id": "7",
         "title": "Explore Peru: Andes and The Amazon",
-        "subtitle": "",
-        "description": "",
-        "whyChooseUs": [],
-        "itinerary": [],
-        "startDate": "",
-        "endDate": "",
-        "includes": [],
-        "notIncluded": [],
-        "from": "",
-        "optional": [],
-        "politics": [],
+        "subtitle": "Cusco, Machu Picchu & the Peruvian Jungle",
+        "description": "An unforgettable journey that combines the majesty of the Andes with the biodiversity of the Peruvian Amazon.",
+        "whyChooseUs": [
+          "Guided visit to Machu Picchu and the Sacred Valley",
+          "Exploration of the Tambopata National Reserve",
+          "Accommodation at the exclusive Inkaterra Hacienda Concepcion",
+          "Cultural and nature tours included",
+          "Professional guides in Spanish or English"
+        ],
+        "itinerary": [
+          "DAY 1: Arrival in Cusco - City Tour + Nearby Ruins",
+          "DAY 2: Sacred Valley (Breakfast and lunch included)",
+          "DAY 3: Cusco – Aguas Calientes (Breakfast and lunch included)",
+          "DAY 4: Full Day Machu Picchu (Breakfast included)",
+          "DAY 5: Cusco - Puerto Maldonado (Breakfast, lunch, and dinner included)",
+          "DAY 6: Puerto Maldonado (Breakfast, lunch, and dinner included)",
+          "DAY 7: Puerto Maldonado (Breakfast included)"
+        ],
+        "startDate": "2025-05-22",
+        "endDate": "2025-05-29",
+        "includes": [
+          "Round-trip transfers in Cusco",
+          "3 hotel nights in Cusco with breakfast",
+          "1 hotel night in Aguas Calientes with breakfast",
+          "City tour and visit to 4 nearby ruins (Qoricancha)",
+          "Excursion to Machu Picchu",
+          "Expedition train ticket to Machu Picchu",
+          "Round-trip bus to Machu Picchu",
+          "Lunch in Machu Picchu (Apu Inti)",
+          "Sacred Valley tour with lunch",
+          "Shared service excursions",
+          "All entrance tickets as per the itinerary",
+          "Professional guiding in Spanish or English",
+          "Assistance at PUERTO MALDONADO airport",
+          "Round-trip land and river transport (Airport / Lodge / Airport)",
+          "2 nights accommodation at Inkaterra Hacienda Concepcion",
+          "Full board in Puerto Maldonado",
+          "Bottled water in Puerto Maldonado",
+          "Scheduled excursions (Spanish and English)",
+          "Basic equipment for each excursion",
+          "Entrance tickets to Sandoval Lake (SERNANP), Inkaterra Canopy"
+        ],
+        "notIncluded": [
+          "Domestic and international airfare",
+          "Early check-in and late check-out",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, medical or travel insurance, laundry, etc.)",
+          "Cathedral entrance"
+        ],
+        "from": "Cusco, Peru",
+        "optional": [
+          "Vistadome Train $80.00 USD (net)"
+        ],
+        "politics": [
+          "Prices are per person in USD",
+          "Child rate applies from 3 to 11 years old",
+          "Puerto Maldonado: children under 12 sharing bed with parents",
+          "Rates are subject to change without prior notice",
+          "Not valid on holidays or long weekends",
+          "Entrance to Machu Picchu is based on chosen circuit and availability from 1:00 PM"
+        ],
         "images": [
           {
             "alt": "Panoramic view of Machu Picchu",
@@ -3359,30 +3410,99 @@
         ],
         "comfort": [
           {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
+            "name": "Hotel Inkari  (Cusco) -Vista Machupicchu,Hacienda Concepcion habitacion",
+            "simple": "1144.5525",
+            "double": "975.66",
+            "triple": "--",
+            "child": "670.425",
+            "category": "3*"
+          },
+          {
+            "name": "Hotel Warari  (Cusco) - Vista Machupicchu, Hacienda Concepcion Habitacion",
+            "simple": "1129.1175",
+            "double": "970.1475",
+            "triple": "--",
+            "child": "659.4",
+            "category": "3*"
+          },
+          {
+            "name": "Hotel Imperial (Cusco) -Vista Machupicchu ,Hacienda Concepcion Habitación",
+            "simple": "1129.1175",
+            "double": "970.1475",
+            "triple": "--",
+            "child": "659.4",
+            "category": "3*"
+          },
+          {
+            "name": "Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Hacienda Concepcion Habitacion",
+            "simple": "1290.0825",
+            "double": "1040.7075",
+            "triple": "--",
+            "child": "725.55",
+            "category": "3* SUP"
+          },
+          {
+            "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu , Hacienda Concepcion Habitacion",
+            "simple": "943.8975",
+            "double": "1202.775",
+            "triple": "--",
+            "child": "854.5425",
+            "category": "3* SUP"
+          },
+          {
+            "name": "San Agustín (Cusco) - Inti Punku Machupicchu , Hacienda Concepcion Habitacion",
+            "simple": "1273.545",
+            "double": "1030.785",
+            "triple": "--",
+            "child": "703.5",
+            "category": "3* SUP"
+          },
+          {
+            "name": "San Agustín Dorado  (Cusco) – Casa Andina Machupicchu",
+            "simple": "979.1775",
+            "double": "1259.0025",
+            "triple": "--",
+            "child": "877.695",
+            "category": "3* SUP"
+          },
+          {
+            "name": "San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Hacienda Concepcion Habitacion",
+            "simple": "999.022",
+            "double": "1356.0225",
+            "triple": "--",
+            "child": "922.8975",
+            "category": "3* SUP"
+          },
+          {
+            "name": "Tierra Viva (Centro,Plaza,Saphy)  Hatun Inti Classic, Hacienda Concepcion cabana",
+            "simple": "1383.48",
+            "double": "1110.585",
+            "triple": "--",
+            "child": "799.26",
+            "category": "3* SUP"
+          },
+          {
+            "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, Hacienda Concepcion cabana",
+            "simple": "1373.5575",
+            "double": "1100.6625",
+            "triple": "--",
+            "child": "784.9275",
+            "category": "3* SUP"
+          },
+          {
+            "name": "Casa Andina (Plaza)(Cusco)Inti Punku Machupicchu, Hacienda Concepcion Cabana",
+            "simple": "1466.1675",
+            "double": "1146.9675",
+            "triple": "--",
+            "child": "831.2325",
+            "category": "3* SUP"
           }
+
+
         ],
         "deluxe": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
         ],
         "premium": [
-          {
-            "name": "",
-            "simple": "",
-            "double": "",
-            "triple": "",
-            "child": ""
-          }
         ]
       },
       "8": {
