@@ -23,6 +23,8 @@ export interface CircuitsPackageModel {
     double:string,
     triple:string,
     child:string,
+    category:string
+
   }[];
   deluxe:{
     name:string,
@@ -30,6 +32,7 @@ export interface CircuitsPackageModel {
     double:string,
     triple:string,
     child:string,
+    category:string
   }[];
   premium:{
     name:string,
@@ -37,5 +40,7 @@ export interface CircuitsPackageModel {
     double:string,
     triple:string,
     child:string,
+    category:string
+
   }[];
 }

@@ -1,0 +1,22 @@
+<table class="w-full text-left text-gray-700 border-collapse mb-6">
+  <thead>
+  <tr class="border-b border-gray-300">
+    <th class="py-2 w-[400px] px-4 price-col-category">Hotel</th>
+    <th class="py-2 px-4 price-col-category">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CATEGORY' | translate }}</th>
+    <th class="py-2 px-4 price-col-simple">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.SIMPLE' | translate }}</th>
+    <th class="py-2 px-4 price-col-double">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.DOUBLE' | translate }}</th>
+    <th class="py-2 px-4 price-col-triple">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.TRIPLE' | translate }}</th>
+    <th class="py-2 px-4 price-col-child">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CHILD' | translate }}</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let option of options" class="border-b text-center border-gray-200">
+    <td class="py-2 w-[400px] text-start px-4 font-medium price-col-category">{{ option.name }}</td>
+    <td class="py-2 px-4 price-col-simple">{{ option.category }}</td>
+    <td class="py-2 px-4 price-col-simple">{{ option.simple }}</td>
+    <td class="py-2 px-4 price-col-double">{{ option.double }}</td>
+    <td class="py-2 px-4 price-col-triple">{{ option.triple }}</td>
+    <td class="py-2 px-4 price-col-child">{{ option.child }}</td>
+  </tr>
+  </tbody>
+</table>

@@ -2032,69 +2032,85 @@
           }
         ],
         "comfort": [
-
           {
             "child": "290.85",
             "double": "415.8",
             "name": "Hotel Inkarri",
             "simple": "477.75",
-            "triple": "414.75"
+            "triple": "414.75",
+            "category": "3*"
           },
           {
             "child": "282.45",
             "double": "412.65",
             "name": "Hotel Imperial",
             "simple": "468.3",
-            "triple": "406.35"
+            "triple": "406.35",
+            "category": "3*"
+
           },
           {
             "child": "275.1",
             "double": "417.9",
             "name": "Hotel Prisma",
             "simple": "479.85",
-            "triple": "406.35"
+            "triple": "406.35",
+            "category": "3*"
+
           },
           {
             "child": "284.55",
             "double": "417.9",
             "name": "San Francisco Plaza",
             "simple": "475.65",
-            "triple": "408.45"
+            "triple": "408.45",
+            "category": "3*"
+
           },
           {
             "child": "306.6",
             "double": "434.7",
             "name": "Sueños del Inka",
             "simple": "507.15",
-            "triple": "430.5"
+            "triple": "430.5",
+            "category": "3*"
+
           },
           {
             "child": "327.6",
             "double": "449.4",
             "name": "Tierra Viva",
             "simple": "534.45",
-            "triple": "451.5"
+            "triple": "451.5",
+            "category": "3*"
+
           },
           {
             "child": "298.2",
             "double": "435.75",
             "name": "San Agustín Internacional",
             "simple": "521.85",
-            "triple": "423.15"
+            "triple": "423.15",
+            "category": "3*"
+
           },
           {
             "child": "348.6",
             "double": "473.55",
             "name": "Casa Andina Classic ( Plaza)",
             "simple": "584.85",
-            "triple": "473.55"
+            "triple": "473.55",
+            "category": "3*"
+
           },
           {
             "child": "320.25",
             "double": "444.15",
             "name": "Casa Andina Classic ( San Blas )",
             "simple": "526.05",
-            "triple": "444.15"
+            "triple": "444.15",
+            "category": "3*"
+
           }
         ],
         "deluxe": [
@@ -2103,77 +2119,98 @@
             "double": "455.7",
             "name": "Los Portales",
             "simple": "565.95",
-            "triple": "452.55"
+            "triple": "452.55",
+            "category": "4*"
           },
           {
             "child": "316.05",
             "double": "438.9",
             "name": "Terra Andina",
             "simple": "517.65",
-            "triple": "439.95"
+            "triple": "439.95",
+            "category": "4*"
+
           },
           {
             "child": "308.7",
             "double": "445.2",
             "name": "San Agust\u00edn Dorado",
             "simple": "540.75",
-            "triple": "433.65"
+            "triple": "433.65",
+            "category": "4*"
+
           },
           {
             "child": "312.9",
             "double": "449.4",
             "name": "San Agust\u00edn Plaza",
             "simple": "550.2",
-            "triple": "436.8"
+            "triple": "436.8",
+            "category": "4*"
+
           },
           {
             "child": "328.65",
             "double": "483",
             "name": "Xima Hotel",
             "simple": "555.45",
-            "triple": "457.8"
+            "triple": "457.8",
+            "category": "4*"
+
           },
           {
             "child": "343.35",
             "double": "472.5",
             "name": "Jos\u00e9 Antonio",
             "simple": "586.95",
-            "triple": "472.5"
+            "triple": "472.5",
+            "category": "4*"
+
           },
           {
             "child": "366.45",
             "double": "496.65",
             "name": "Sonesta",
             "simple": "628.95",
-            "triple": "498.75"
+            "triple": "498.75",
+            "category": "4*"
+
           },
           {
             "child": "359.1",
             "double": "510.3",
             "name": "Costa del Sol ( hab. moderna )",
             "simple": "633.15",
-            "triple": "489.3"
+            "triple": "489.3",
+            "category": "4*"
+
           },
           {
             "child": "402.15",
             "double": "532.35",
             "name": "Casa Andina Premium",
             "simple": "680.4",
-            "triple": "532.35"
+            "triple": "532.35",
+            "category": "4*"
+
           },
           {
             "child": "375.9",
             "double": "534.45",
             "name": "Novotel",
             "simple": "686.7",
-            "triple": "505.05"
+            "triple": "505.05",
+            "category": "4*"
+
           },
           {
             "child": "429.45",
             "double": "598.5",
             "name": "Aranwa ( hab. classic)",
             "simple": "835.8",
-            "triple": "553.35"
+            "triple": "553.35",
+            "category": "4*"
+
           }
         ],
         "premium": [
@@ -2182,7 +2219,9 @@
             "double": "752.85",
             "name": "Palacio del Inka",
             "simple": "1144.5",
-            "triple": "699.3"
+            "triple": "699.3",
+            "category": "5*"
+
           }
         ]
       },
@@ -2257,7 +2296,91 @@
           }
         ],
         "comfort": [
-          {"name":"Hotel Inkari  (Cusco) -Vista Machupicchu,  IBIS Lima","simple":"808.5","double":"646.8","triple":"635.25","child":"506.1"},{"name":"Hotel Warari  (Cusco) - Vista Machupicchu,  IBIS Lima","simple":"793.8","double":"641.55","triple":"623.7","child":"495.6"},{"name":"Hotel Imperial (Cusco) - Vista Machupicchu, IBIS Lima","simple":"793.8","double":"641.55","triple":"623.7","child":"495.6"},{"name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, El Tambo Lima","simple":"947.1","double":"591.15","triple":"689.85","child":"561.75"},{"name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, El Tambo Lima","simple":"922.95","double":"702.45","triple":"696.15","child":"568.05"},{"name":"San Agustín (Cusco) - Inti Punku Machupicchu , EL tambo","simple":"931.35","double":"699.3","triple":"669.9","child":"540.75"},{"name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Tierra Viva Miraflores Centro ","simple":"1078.4","double":"777","triple":"738.15","child":"609"},{"name":"Tierra Viva (Centro,Plaza,Saphy),Hatun Inti Classic,  Tierra Viva Miraflores Centro ","simple":"955.5","double":"729.75","triple":"723.45","child":"595.35"},{"name":"Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, HSA Exclusive","simple":"957.6","double":"721.35","triple":"--","child":"588"},{"name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Ikonik","simple":"1038.5","double":"762.3","triple":"757.05","child":"627.9"}
+          {
+            "name":"Hotel Inkari  (Cusco) -Vista Machupicchu,  IBIS Lima",
+            "simple":"808.5",
+            "double":"646.8",
+            "triple":"635.25",
+            "child":"506.1",
+            "category":"3*"
+          },
+          {
+            "name":"Hotel Warari  (Cusco) - Vista Machupicchu,  IBIS Lima",
+            "simple":"793.8",
+            "double":"641.55",
+            "triple":"623.7",
+            "child":"495.6",
+            "category":"3*"
+          },
+          {
+            "name":"Hotel Imperial (Cusco) - Vista Machupicchu, IBIS Lima",
+            "simple":"793.8",
+            "double":"641.55",
+            "triple":"623.7",
+            "child":"495.6",
+            "category":"3*"
+          },
+          {
+            "name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, El Tambo Lima",
+            "simple":"947.1",
+            "double":"591.15",
+            "triple":"689.85",
+            "child":"561.75",
+            "category":"3* SUP"
+          },
+          {
+            "name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, El Tambo Lima",
+            "simple":"922.95",
+            "double":"702.45",
+            "triple":"696.15",
+            "child":"568.05",
+            "category":"3* SUP"
+          },
+          {
+            "name":"San Agustín (Cusco) - Inti Punku Machupicchu , EL tambo",
+            "simple":"931.35",
+            "double":"699.3",
+            "triple":"669.9",
+            "child":"540.75",
+            "category":"3* SUP"
+
+          },
+          {
+            "name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Tierra Viva Miraflores Centro ",
+            "simple":"1078.4",
+            "double":"777",
+            "triple":"738.15",
+            "child":"609",
+            "category":"3* SUP"
+
+          },
+          {
+            "name":"Tierra Viva (Centro,Plaza,Saphy),Hatun Inti Classic,  Tierra Viva Miraflores Centro ",
+            "simple":"955.5",
+            "double":"729.75",
+            "triple":"723.45",
+            "child":"595.35",
+            "category":"3* SUP"
+
+          },
+          {
+            "name":"Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, HSA Exclusive",
+            "simple":"957.6",
+            "double":"721.35",
+            "triple":"--",
+            "child":"588",
+            "category":"3* SUP"
+
+          },
+          {
+            "name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Ikonik",
+            "simple":"1038.5",
+            "double":"762.3",
+            "triple":"757.05",
+            "child":"627.9",
+            "category":"3* SUP"
+
+          }
         ],
         "deluxe": [
           {
@@ -2265,70 +2388,88 @@
           "simple": "981.75",
           "double": "723.45",
           "triple": "722.4",
-          "child": "594.3"
+          "child": "594.3",
+            "category": "4*"
         },
           {
             "name": "Hotel Sonesta Posada (Cusco)Hatun Inti Classic José Antonio (Av. 28 de Julio)",
             "simple": "1116.2",
             "double": "793.8",
             "triple": "794.85",
-            "child": "664.65"
+            "child": "664.65",
+            "category": "4*"
           },
           {
             "name": "Hotel Jose Antonio   (Cusco)Casa Andina Machupicchu, Casa Andina Select Miraflores",
             "simple": "1061.6",
             "double": "768.6",
             "triple": "662.55",
-            "child": "638.4"
+            "child": "638.4",
+            "category": "4*"
+
           },
           {
             "name": "Los Portales (Cusco)Hatun Inti Classic José Antonio Deluxe (Bellavista)",
             "simple": "1053.2",
             "double": "762.3",
             "triple": "754.95",
-            "child": "622.65"
+            "child": "622.65",
+            "category": "4*"
+
           },
           {
             "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu El Pardo Double Tree by Hilton",
             "simple": "1226.4",
             "double": "884.1",
             "triple": "824.25",
-            "child": "689.85"
+            "child": "689.85",
+            "category": "4*"
+
           },
           {
             "name": "Novotel (Cusco)El Mapi by Inkaterra Pullman Lima Miraflores",
             "simple": "1337.7",
             "double": "953.4",
             "triple": "934.5",
-            "child": "801.15"
+            "child": "801.15",
+            "category": "4*"
+
           },
           {
             "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra ,C.A Premium Miraflores ",
             "simple": "1332.5",
             "double": "956.55",
             "triple": "935.55",
-            "child": "801.15"
+            "child": "801.15",
+            "category": "4*"
+
           },
           {
             "name": "Casa Andina Premium (Cusco)El Mapi by Inkaterra, C.A Premium San Isidro",
             "simple": "1338.8",
             "double": "959.7",
             "triple": "--",
-            "child": "805.35"
+            "child": "805.35",
+            "category": "4* SUP"
+
           },
           {
             "name": "Novotel (Cusco)El Mapi by Inkaterra, Hyatt Centric San Isidro ",
             "simple": "1344",
             "double": "956.55",
             "triple": "--",
-            "child": "802.2"
+            "child": "802.2",
+            "category": "4* SUP"
+
           },
           {
             "name": "Novotel (Cusco)El Mapi by Inkaterra, Swissotel",
             "simple": "1369.2",
             "double": "969.15",
             "triple": "940.8",
-            "child": "807.45"
+            "child": "807.45",
+            "category": "4* SUP"
+
           }
         ],
         "premium": []
@@ -2404,70 +2545,89 @@
             "double": "529.2",
             "name": "Hotel Inkari  (Cusco) -  Vista Machupicchu",
             "simple": "631.05",
-            "triple": "526.05"
+            "triple": "526.05",
+            "category": "3*"
           },
           {
             "child": "399",
             "double": "523.95",
             "name": "Hotel Warari  (Cusco) -  Vista Machupicchu",
             "simple": "616.35",
-            "triple": "514.5"
+            "triple": "514.5",
+            "category": "3*"
+
           },
           {
             "child": "462",
             "double": "591.15",
             "name": "Hotel Munay Wasi (Cusco) -  Inti Punku Machupichu",
             "simple": "769.65",
-            "triple": "577.5"
+            "triple": "577.5",
+            "category": "3* SUP"
+
           },
           {
             "child": "468.3",
             "double": "584.85",
             "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu",
             "simple": "745.5",
-            "triple": "583.8"
+            "triple": "583.8",
+            "category": "3* SUP"
+
           },
           {
             "child": "441",
             "double": "581.7",
             "name": "San Agust\u00edn (Cusco) -  Inti Punku Machupicchu",
             "simple": "753.9",
-            "triple": "557.55"
+            "triple": "557.55",
+            "category": "3* SUP"
+
           },
           {
             "child": "472.5",
             "double": "606.9",
             "name": "San Agust\u00edn Dorado  (Cusco) \u2013 Casa Andina Machupicchu",
             "simple": "799.05",
-            "triple": "588"
+            "triple": "588",
+            "category": "3* SUP"
+
           },
           {
             "child": "500.85",
             "double": "649.95",
             "name": "San Agust\u00edn Plaza (Cusco) -  Casa Andina Machupicchu",
             "simple": "891.45",
-            "triple": "617.4"
+            "triple": "617.4",
+            "category": "3* SUP"
+
           },
           {
             "child": "487.2",
             "double": "602.7",
             "name": "Tierra Viva (Centro,Plaza,Saphy)   Hatun Inti Classic",
             "simple": "768.6",
-            "triple": "602.7"
+            "triple": "602.7",
+            "category": "3* SUP"
+
           },
           {
             "child": "473.55",
             "double": "593.25",
             "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu",
             "simple": "759.15",
-            "triple": "589.05"
+            "triple": "589.05",
+            "category": "3* SUP"
+
           },
           {
             "child": "517.65",
             "double": "637.35",
             "name": "Casa Andina (Plaza)(Cusco) Inti Punku Machupicchu",
             "simple": "847.35",
-            "triple": "633.15"
+            "triple": "633.15",
+            "category": "3* SUP"
+
           }
         ],
         "deluxe": [
@@ -2476,49 +2636,64 @@
             "double": "596.4",
             "name": "Xima Hotel(Cusco) Hatun Inti Classic",
             "simple": "785.4",
-            "triple": "596.4"
+            "triple": "596.4",
+            "category": "4*"
+
           },
           {
             "child": "540.75",
             "double": "655.2",
             "name": "Hotel Sonesta Posada (Cusco) Hatun Inti Classic",
             "simple": "897.75",
-            "triple": "658.35"
+            "triple": "658.35",
+            "category": "4*"
+
           },
           {
             "child": "525",
             "double": "641.55",
             "name": "Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu",
             "simple": "865.2",
-            "triple": "536.55"
+            "triple": "536.55",
+            "category": "4*"
+
           },
           {
             "child": "492.45",
             "double": "617.4",
             "name": "Los Portales (Cusco) Hatun Inti Classic",
             "simple": "821.1",
-            "triple": "611.1"
+            "triple": "611.1",
+            "category": "4*"
+
           },
           {
             "child": "549.15",
             "double": "714",
             "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu",
             "simple": "956.55",
-            "triple": "669.9"
+            "triple": "669.9",
+            "category": "4*"
+
           },
           {
             "child": "645.75",
             "double": "785.4",
             "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra",
             "simple": "1060.5",
-            "triple": "766.5"
+            "triple": "766.5",
+            "category": "4* SUP"
+
           },
           {
             "child": "645.75",
             "double": "785.4",
             "name": "Novotel (Cusco) El Mapi by Inkaterra",
             "simple": "1060.5",
-            "triple": "766.5"
+            "triple": "766.5",
+            "category": "4* SUP"
+
+
           }
         ],
         "premium": []
@@ -2592,91 +2767,117 @@
             "double": "616.35",
             "name": "Hotel Warari",
             "simple": "731.85",
-            "triple": "601.65"
+            "triple": "601.65",
+            "category": "3*"
+
           },
           {
             "child": "485.1",
             "double": "624.75",
             "name": "Emperador Plaza",
             "simple": "738.15",
-            "triple": "606.9"
+            "triple": "606.9",
+            "category": "3*"
+
           },
           {
             "child": "498.75",
             "double": "624.75",
             "name": "Hotel Inkarri",
             "simple": "754.95",
-            "triple": "620.55"
+            "triple": "620.55",
+            "category": "3*"
+
           },
           {
             "child": "478.8",
             "double": "616.35",
             "name": "Hotel Imperial",
             "simple": "731.85",
-            "triple": "601.65"
+            "triple": "601.65",
+            "category": "3*"
+
           },
           {
             "child": "483",
             "double": "631.05",
             "name": "San Francisco Plaza",
             "simple": "749.7",
-            "triple": "604.8"
+            "triple": "604.8",
+            "category": "3*"
+
           },
           {
             "child": "527.1",
             "double": "659.4",
             "name": "Sue\u00f1os del Inka",
             "simple": "825.3",
-            "triple": "649.95"
+            "triple": "649.95",
+            "category": "3*"
+
           },
           {
             "child": "517.65",
             "double": "659.4",
             "name": "Siete Ventanas",
             "simple": "791.7",
-            "triple": "641.55"
+            "triple": "641.55",
+            "category": "3*"
+
           },
           {
             "child": "607.95",
             "double": "729.75",
             "name": "Tierra Viva",
             "simple": "937.65",
-            "triple": "727.65"
+            "triple": "727.65",
+            "category": "3*"
+
           },
           {
             "child": "565.95",
             "double": "700.35",
             "name": "Uni\u00f3n Hotel",
             "simple": "898.8",
-            "triple": "688.8"
+            "triple": "688.8",
+            "category": "3*"
+
           },
           {
             "child": "537.6",
             "double": "675.15",
             "name": "Munay Wasi",
             "simple": "884.1",
-            "triple": "660.45"
+            "triple": "660.45",
+            "category": "3*"
+
           },
           {
             "child": "512.4",
             "double": "666.75",
             "name": "San Agust\u00edn Internacional",
             "simple": "861",
-            "triple": "634.2"
+            "triple": "634.2",
+            "category": "3*"
+
           },
           {
             "child": "646.8",
             "double": "767.55",
             "name": "Casa Andina Classic ( Plaza)",
             "simple": "1031.1",
-            "triple": "767.55"
+            "triple": "767.55",
+            "category": "3*"
+
           },
           {
             "child": "516.6",
             "double": "694.05",
             "name": "Casa Andina Classic ( San Blas )",
             "simple": "876.75",
-            "triple": "694.05"
+            "triple": "694.05",
+            "category": "3*"
+
           }
         ],
         "deluxe": [
@@ -2685,77 +2886,99 @@
             "double": "674.1",
             "name": "Terra Andina",
             "simple": "848.4",
-            "triple": "679.35"
+            "triple": "679.35",
+            "category": "4*"
+
           },
           {
             "child": "544.95",
             "double": "696.15",
             "name": "San Agust\u00edn Dorado",
             "simple": "913.5",
-            "triple": "666.75"
+            "triple": "666.75",
+            "category": "4*"
+
           },
           {
             "child": "553.35",
             "double": "706.65",
             "name": "San Agust\u00edn Plaza",
             "simple": "936.6",
-            "triple": "673.05"
+            "triple": "673.05",
+            "category": "4*"
+
           },
           {
             "child": "583.8",
             "double": "704.55",
             "name": "Xima Hotel",
             "simple": "931.35",
-            "triple": "704.55"
+            "triple": "704.55",
+            "category": "4*"
+
           },
           {
             "child": "572.25",
             "double": "694.05",
             "name": "Jos\u00e9 Antonio",
             "simple": "911.4",
-            "triple": "694.05"
+            "triple": "694.05",
+            "category": "4*"
+
           },
           {
             "child": "591.15",
             "double": "728.7",
             "name": "Los Portales",
             "simple": "980.7",
-            "triple": "720.3"
+            "triple": "720.3",
+            "category": "4*"
+
           },
           {
             "child": "678.3",
             "double": "799.05",
             "name": "Sonesta",
             "simple": "1120.35",
-            "triple": "804.3"
+            "triple": "804.3",
+            "category": "4*"
+
           },
           {
             "child": "669.9",
             "double": "843.15",
             "name": "Costa del Sol ( hab. moderna )",
             "simple": "1141.35",
-            "triple": "791.7"
+            "triple": "791.7",
+            "category": "4*"
+
           },
           {
             "child": "775.95",
             "double": "897.75",
             "name": "Casa Andina Premium",
             "simple": "1260",
-            "triple": "897.75"
+            "triple": "897.75",
+            "category": "4*"
+
           },
           {
             "child": "710.85",
             "double": "904.05",
             "name": "Novotel",
             "simple": "1260",
-            "triple": "832.65"
+            "triple": "832.65",
+            "category": "4*"
+
           },
           {
             "child": "832.65",
             "double": "1071",
             "name": "Aranwa Hotel  ( hab. classic)",
             "simple": "1665.3",
-            "triple": "955.5"
+            "triple": "955.5",
+            "category": "4*"
+
           }
         ],
         "premium":[
@@ -2764,7 +2987,9 @@
             "double": "1464.75",
             "name": "Palacio del Inka",
             "simple": "2342.55",
-            "triple": "1330.35"
+            "triple": "1330.35",
+            "category": "5*"
+
           }
         ]
       },
@@ -2834,77 +3059,98 @@
             "double": "540.75",
             "name": "Hotel Warari",
             "simple": "638.4",
-            "triple": "529.2"
+            "triple": "529.2",
+            "category": "3*"
           },
           {
             "child": "426.3",
             "double": "548.1",
             "name": "Emperador Plaza",
             "simple": "643.65",
-            "triple": "533.4"
+            "triple": "533.4",
+            "category": "3*"
+
           },
           {
             "child": "436.8",
             "double": "548.1",
             "name": "Hotel Inkarri",
             "simple": "657.3",
-            "triple": "544.95"
+            "triple": "544.95",
+            "category": "3*"
+
           },
           {
             "child": "422.1",
             "double": "540.75",
             "name": "Hotel Imperial",
             "simple": "638.4",
-            "triple": "529.2"
+            "triple": "529.2",
+            "category": "3*"
+
           },
           {
             "child": "425.25",
             "double": "552.3",
             "name": "San Francisco Plaza",
             "simple": "653.1",
-            "triple": "532.35"
+            "triple": "532.35",
+            "category": "3*"
+
           },
           {
             "child": "460.95",
             "double": "575.4",
             "name": "Sue\u00f1os del Inka",
             "simple": "708.75",
-            "triple": "568.05"
+            "triple": "568.05",
+            "category": "3*"
+
           },
           {
             "child": "452.55",
             "double": "575.4",
             "name": "Siete Ventanas",
             "simple": "685.65",
-            "triple": "559.65"
+            "triple": "559.65",
+            "category": "3*"
+
           },
           {
             "child": "512.4",
             "double": "616.35",
             "name": "Tierra Viva",
             "simple": "772.8",
-            "triple": "619.5"
+            "triple": "619.5",
+            "category": "3*"
+
           },
           {
             "child": "451.5",
             "double": "583.8",
             "name": "San Agust\u00edn Internacional",
             "simple": "744.45",
-            "triple": "558.6"
+            "triple": "558.6",
+            "category": "3*"
+
           },
           {
             "child": "555.45",
             "double": "666.75",
             "name": "Casa Andina Classic ( Plaza)",
             "simple": "877.8",
-            "triple": "665.7"
+            "triple": "665.7",
+            "category": "3*"
+
           },
           {
             "child": "496.65",
             "double": "607.95",
             "name": "Casa Andina Classic ( San Blas )",
             "simple": "759.15",
-            "triple": "606.9"
+            "triple": "606.9",
+            "category": "3*"
+
           }
         ],
         "deluxe": [
@@ -2914,77 +3160,99 @@
             "double": "586.95",
             "name": "Terra Andina",
             "simple": "731.85",
-            "triple": "591.15"
+            "triple": "591.15",
+            "category": "4*"
+
           },
           {
             "child": "471.45",
             "double": "602.7",
             "name": "San Agust\u00edn Dorado",
             "simple": "782.25",
-            "triple": "579.6"
+            "triple": "579.6",
+            "category": "4*"
+
           },
           {
             "child": "477.75",
             "double": "612.15",
             "name": "San Agust\u00edn Plaza",
             "simple": "801.15",
-            "triple": "585.9"
+            "triple": "585.9",
+            "category": "4*"
+
           },
           {
             "child": "506.1",
             "double": "665.7",
             "name": "Xima Hotel",
             "simple": "803.25",
-            "triple": "617.4"
+            "triple": "617.4",
+            "category": "4*"
+
           },
           {
             "child": "537.6",
             "double": "648.9",
             "name": "Jos\u00e9 Antonio",
             "simple": "868.35",
-            "triple": "647.85"
+            "triple": "647.85",
+            "category": "4*"
+
           },
           {
             "child": "511.35",
             "double": "626.85",
             "name": "Los Portales",
             "simple": "832.65",
-            "triple": "619.5"
+            "triple": "619.5",
+            "category": "4*"
+
           },
           {
             "child": "580.65",
             "double": "689.85",
             "name": "Sonesta",
             "simple": "956.55",
-            "triple": "694.05"
+            "triple": "694.05",
+            "category": "4*"
+
           },
           {
             "child": "570.15",
             "double": "723.45",
             "name": "Costa del Sol ( hab. moderna )",
             "simple": "972.3",
-            "triple": "682.5"
+            "triple": "682.5",
+            "category": "4*"
+
           },
           {
             "child": "653.1",
             "double": "767.55",
             "name": "Casa Andina Premium",
             "simple": "1067.85",
-            "triple": "767.55"
+            "triple": "767.55",
+            "category": "4*"
+
           },
           {
             "child": "602.7",
             "double": "772.8",
             "name": "Novotel",
             "simple": "1083.6",
-            "triple": "716.1"
+            "triple": "716.1",
+            "category": "4*"
+
           },
           {
             "child": "697.2",
             "double": "903",
             "name": "Aranwa hotel  ( hab. classic)",
             "simple": "1386",
-            "triple": "812.7"
+            "triple": "812.7",
+            "category": "4*"
+
           }
         ],
         "premium": [
@@ -2993,7 +3261,9 @@
             "double": "1205.4",
             "name": "Palacio del Inka",
             "simple": "1958.25",
-            "triple": "1097.25"
+            "triple": "1097.25",
+            "category": "5*"
+
           }
         ]
       },
@@ -3165,77 +3435,98 @@
             "double": "776.6",
             "name": "Hotel Inkari  (Cusco) - Vista Machupicchu, Munay tambo Puno",
             "simple": "922.55",
-            "triple": "767.15"
+            "triple": "767.15",
+            "category": "3*"
           },
           {
             "child": "623.3",
             "double": "822.8",
             "name": "Hotel Warari  (Cusco) - Vista Machupicchu, Casona Plaza Centro Puno",
             "simple": "923.6",
-            "triple": "750.35"
+            "triple": "750.35",
+            "category": "3*"
+
           },
           {
             "child": "611.75",
             "double": "769.25",
             "name": "Hotel Imperial (Cusco) - Vista Machupicchu , Conde Lemos",
             "simple": "902.6",
-            "triple": "752.45"
+            "triple": "752.45",
+            "category": "3*"
+
           },
           {
             "child": "697.85",
             "double": "844.85",
             "name": "Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Hacienda Puno",
             "simple": "1088.45",
-            "triple": "824.9"
+            "triple": "824.9",
+            "category": "3* SUP"
+
           },
           {
             "child": "676.85",
             "double": "835.4",
             "name": "Terra Andina ( Cusco ) - Inti Punku Machupicchu , Hacienda Puno",
             "simple": "1072.7",
-            "triple": "804.95"
+            "triple": "804.95",
+            "category": "3* SUP"
+
           },
           {
             "child": "687.35",
             "double": "829.1",
             "name": "San Agust\u00edn (Cusco) - Inti Punku Machupicchu , Hacienda Plaza de Armas",
             "simple": "1072.7",
-            "triple": "804.95"
+            "triple": "804.95",
+            "category": "3* SUP"
+
           },
           {
             "child": "718.85",
             "double": "854.3",
             "name": "San Agust\u00edn Dorado  (Cusco) \u2013 Casa Andina Machupicchu , Hacienda Plaza de armas",
             "simple": "1117.85",
-            "triple": "835.4"
+            "triple": "835.4",
+            "category": "3* SUP"
+
           },
           {
             "child": "747.2",
             "double": "897.35",
             "name": "San Agust\u00edn Plaza (Cusco) - Casa Andina Machupicchu, hacienda Plaza de armas",
             "simple": "1210.25",
-            "triple": "864.8"
+            "triple": "864.8",
+            "category": "3* SUP"
+
           },
           {
             "child": "688.4",
             "double": "855.35",
             "name": "Tierra Viva (Centro,Plaza,Saphy)  Hatun Inti Classic, tierra viva Puno",
             "simple": "1077.95",
-            "triple": "692.7"
+            "triple": "692.7",
+            "category": "3* SUP"
+
           },
           {
             "child": "563.55",
             "double": "849.05",
             "name": "Casa Andina (San Blas)(Cusco) Inti Punku Machupicchu, Casa andina STD PUNO",
             "simple": "1082.15",
-            "triple": "844.85"
+            "triple": "844.85",
+            "category": "3* SUP"
+
           },
           {
             "child": "607.65",
             "double": "893.15",
             "name": "Casa Andina (Plaza)(Cusco)Inti Punku Machupicchu, Casa andina STD Puno",
             "simple": "1170.35",
-            "triple": "888.95"
+            "triple": "888.95",
+            "category": "3* SUP"
+
           }
         ],
         "deluxe": [
@@ -3244,49 +3535,63 @@
             "double": "958.75",
             "name": "Xima Hotel(Cusco) Hatun Inti Classic, Sonesta Posada del Inca",
             "simple": "1273.75",
-            "triple": "952.45"
+            "triple": "952.45",
+            "category": "4*"
+
           },
           {
             "child": "819.1",
             "double": "1017.55",
             "name": "Hotel Sonesta Posada (Cusco) Hatun Inti Classic, Sonesta Posada del Inca",
             "simple": "1386.1",
-            "triple": "1014.4"
+            "triple": "1014.4",
+            "category": "4*"
+
           },
           {
             "child": "788.65",
             "double": "1021.75",
             "name": "Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu, casa andina premium sin vista",
             "simple": "1367.2",
-            "triple": "914.65"
+            "triple": "914.65",
+            "category": "4*"
+
           },
           {
             "child": "755.05",
             "double": "1012.3",
             "name": "Los Portales (Cusco) Hatun Inti Classic, Casa andina Premium con vista",
             "simple": "1351.45",
-            "triple": "701.1"
+            "triple": "701.1",
+            "category": "4* SUP"
+
           },
           {
             "child": "792.85",
             "double": "1123.6",
             "name": "Costa del Sol - Hab. Contempo Tierra Viva Machupicchu , GHL HOTEL LAGO TITICACA",
             "simple": "1538.35",
-            "triple": "1086.85"
+            "triple": "1086.85",
+            "category": "4* SUP"
+
           },
           {
             "child": "1144.6",
             "double": "1284.25",
             "name": "Casa Andina Premium (Cusco) El Mapi by Inkaterra   GHL HOTEL LAGO TITICACA",
             "simple": "1540.45",
-            "triple": "1266.4"
+            "triple": "1266.4",
+            "category": "4* SUP"
+
           },
           {
             "child": "1118.4",
             "double": "1287.4",
             "name": "Novotel (Cusco) El Mapi by Inkaterra , GHL HOTEL LAGO TITICACA",
             "simple": "1549.9",
-            "triple": "1241.2"
+            "triple": "1241.2",
+            "category": "4* SUP"
+
           }
         ],
         "premium": []
@@ -3365,9 +3670,169 @@
         ],
 
         "comfort": [
-          {"name":"Hotel Inkari  (Cusco) - Vista Machupicchu, TerraMistica (Arequipa) Colca Inn (Colca)","simple":"926.1","double":"760.2","triple":"751.8","child":"600.6"},{"name":"Hotel Warari  (Cusco) -Vista Machupicchu  TerraMistica (Arequipa) Colca Inn (Colca)","simple":"911.4","double":"754.95","triple":"740.25","child":"408.1"},{"name":"Hotel Imperial (Cusco) Vista Machupicchu, Majestad (Arequipa) Colca Inn (Colca)","simple":"914.55","double":"764.4","triple":"742.35","child":"596.4"},{"name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Xima Crismar (Arequipa), Pozo del Cielo  (Colca)","simple":"1121.4","double":"847.35","triple":"834.75","child":"666.75"},{"name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, Mirador del Monasterio (Arequipa), Pozo del Cielo  (Colca)","simple":"1097.3","double":"847.35","triple":"828.45","child":"675.15"},{"name":"San Agustín (Cusco) - Inti Punku Machupicchu, Santa Rosa (Arequipa), Pozo del Cielo  (Colca)","simple":"1130.9","double":"849.45","triple":"804.3","child":"649.95"},{"name":"San Agustín Dorado  (Cusco) – Casa Andina Machupicchu, San Agustin Posada (Arequipa), Casa Andina Chivay","simple":"1203.3","double":"884.1","triple":"857.85","child":"652.05"},{"name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Casa Andina Classic (Arequipa), Casa Andina Chivay","simple":"1286.3","double":"929.25","triple":"896.7","child":"680.4"},{"name":"Tierra Viva (Centro,Plaza,Saphy) , Hatun Inti Classic, Vita  Hoteles (Arequipa), Colca Llaqta (Colca)","simple":"1116.2","double":"852.6","triple":"848.4","child":"702.45"},{"name":"Casa Andina (San Blas)(Cusco), Inti Punku Machupicchu, Casona Plaza  (Arequipa), Casona Plaza  (Colca)","simple":"1154","double":"871.5","triple":"856.8","child":"700.35"},{"name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Tambo Colonial (Arequipa), Casona Plaza (Colca)","simple":"1223.3","double":"915.6","triple":"891.45","child":"740.25"}        ],
+          {
+            "name":"Hotel Inkari  (Cusco) - Vista Machupicchu, TerraMistica (Arequipa) Colca Inn (Colca)",
+            "simple":"926.1",
+            "double":"760.2",
+            "triple":"751.8",
+            "child":"600.6",
+            "category": "3*"
+          },
+          {
+            "name":"Hotel Warari  (Cusco) -Vista Machupicchu  TerraMistica (Arequipa) Colca Inn (Colca)",
+            "simple":"911.4",
+            "double":"754.95",
+            "triple":"740.25",
+            "child":"408.1",
+            "category": "3*"
+          },
+          {
+            "name":"Hotel Imperial (Cusco) Vista Machupicchu, Majestad (Arequipa) Colca Inn (Colca)",
+            "simple":"914.55",
+            "double":"764.4",
+            "triple":"742.35",
+            "child":"596.4",
+            "category": "3*"
+
+          },
+          {
+            "name":"Hotel Munay Wasi (Cusco) - Inti Punku Machupichu, Xima Crismar (Arequipa), Pozo del Cielo  (Colca)",
+            "simple":"1121.4",
+            "double":"847.35",
+            "triple":"834.75",
+            "child":"666.75",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"Terra Andina ( Cusco ) - Inti Punku Machupicchu, Mirador del Monasterio (Arequipa), Pozo del Cielo  (Colca)",
+            "simple":"1097.3",
+            "double":"847.35",
+            "triple":"828.45",
+            "child":"675.15",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"San Agustín (Cusco) - Inti Punku Machupicchu, Santa Rosa (Arequipa), Pozo del Cielo  (Colca)",
+            "simple":"1130.9",
+            "double":"849.45",
+            "triple":"804.3",
+            "child":"649.95",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"San Agustín Dorado  (Cusco) – Casa Andina Machupicchu, San Agustin Posada (Arequipa), Casa Andina Chivay",
+            "simple":"1203.3",
+            "double":"884.1",
+            "triple":"857.85",
+            "child":"652.05",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"San Agustín Plaza (Cusco) - Casa Andina Machupicchu, Casa Andina Classic (Arequipa), Casa Andina Chivay",
+            "simple":"1286.3",
+            "double":"929.25",
+            "triple":"896.7",
+            "child":"680.4",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"Tierra Viva (Centro,Plaza,Saphy) , Hatun Inti Classic, Vita  Hoteles (Arequipa), Colca Llaqta (Colca)",
+            "simple":"1116.2",
+            "double":"852.6",
+            "triple":"848.4",
+            "child":"702.45",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"Casa Andina (San Blas)(Cusco), Inti Punku Machupicchu, Casona Plaza  (Arequipa), Casona Plaza  (Colca)",
+            "simple":"1154",
+            "double":"871.5",
+            "triple":"856.8",
+            "child":"700.35",
+            "category": "3* SUP"
+
+          },
+          {
+            "name":"Casa Andina (Plaza)(Cusco), Inti Punku Machupicchu, Tambo Colonial (Arequipa), Casona Plaza (Colca)",
+            "simple":"1223.3",
+            "double":"915.6",
+            "triple":"891.45",
+            "child":"740.25",
+            "category": "3* SUP"
+
+          }
+        ],
         "deluxe": [
-          {"name":"Xima Hotel(Cusco) Hatun Inti Classic, Sonesta (Arequipa), Colca Lodge / Aranwa (Colca)","simple":"1324.1","double":"950.25","triple":"888.3","child":"693"},{"name":"Hotel Sonesta Posada (Cusco) Hatun Inti Classic  Sonesta (Arequipa)   Colca Lodge / Aranwa (Colca)","simple":"1436.4","double":"1009.1","triple":"950.25","child":"752.85"},{"name":"Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu, Casa Andina Select (Arequipa), Colca Lodge / Aranwa (Colca)","simple":"1478.4","double":"1043.7","triple":"--","child":"720.3"},{"name":"Los Portales (Cusco) Hatun Inti Classic Costa del Sol (Aqp) Colca Lodge / Aranwa","simple":"1460.6","double":"1034.3","triple":"988.05","child":"690.9"},{"name":"Costa del Sol - Hab. Contempo Tierra Viva Machupicchu   Costa del Sol (Aqp)Colca Lodge / Aranwa","simple":"1596","double":"1130.9","triple":"1046.9","child":"747.6"},{"name":"Casa Andina Premium (Cusco)El Mapi by Inkaterra, Casa Andina Premium (Arequipa)Colca Lodge / Aranwa","simple":"1728.3","double":"1215.9","triple":"--","child":"841.05"},{"name":"Novotel (Cusco), El Mapi by Inkaterra, Casa Andina Premium (Arequipa), Colca Lodge / Aranwa","simple":"1728.3","double":"1215.9","triple":"--","child":"841.05"}],
+          {
+            "name":"Xima Hotel(Cusco) Hatun Inti Classic, Sonesta (Arequipa), Colca Lodge / Aranwa (Colca)",
+            "simple":"1324.1",
+            "double":"950.25",
+            "triple":"888.3",
+            "child":"693",
+            "category": "4*"
+
+          },
+          {
+            "name":"Hotel Sonesta Posada (Cusco) Hatun Inti Classic  Sonesta (Arequipa)   Colca Lodge / Aranwa (Colca)",
+            "simple":"1436.4",
+            "double":"1009.1",
+            "triple":"950.25",
+            "child":"752.85",
+            "category": "4*"
+
+          },
+          {
+            "name":"Hotel Jose Antonio   (Cusco) Casa Andina Machupicchu, Casa Andina Select (Arequipa), Colca Lodge / Aranwa (Colca)",
+            "simple":"1478.4",
+            "double":"1043.7",
+            "triple":"--",
+            "child":"720.3",
+            "category": "4*"
+
+          },
+          {
+            "name":"Los Portales (Cusco) Hatun Inti Classic Costa del Sol (Aqp) Colca Lodge / Aranwa",
+            "simple":"1460.6",
+            "double":"1034.3",
+            "triple":"988.05",
+            "child":"690.9",
+            "category": "4*"
+
+          },
+          {
+            "name":"Costa del Sol - Hab. Contempo Tierra Viva Machupicchu   Costa del Sol (Aqp)Colca Lodge / Aranwa",
+            "simple":"1596",
+            "double":"1130.9",
+            "triple":"1046.9",
+            "child":"747.6",
+            "category": "4*"
+
+          },
+          {
+            "name":"Casa Andina Premium (Cusco)El Mapi by Inkaterra, Casa Andina Premium (Arequipa)Colca Lodge / Aranwa",
+            "simple":"1728.3",
+            "double":"1215.9",
+            "triple":"--",
+            "child":"841.05",
+            "category": "4*"
+
+          },
+          {
+            "name":"Novotel (Cusco), El Mapi by Inkaterra, Casa Andina Premium (Arequipa), Colca Lodge / Aranwa",
+            "simple":"1728.3",
+            "double":"1215.9",
+            "triple":"--",
+            "child":"841.05",
+            "category": "4*"
+
+          }
+        ],
         "premium": [
         ]
       }

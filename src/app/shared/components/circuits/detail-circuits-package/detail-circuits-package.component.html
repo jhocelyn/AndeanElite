@@ -109,83 +109,27 @@
 
       <!-- Precios -->
       <div *ngSwitchCase="'prices'">
-        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">{{ 'INFO_PACKAGES.PRICES_TITLE' | translate }}</h2>
+        <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">
+          {{ 'INFO_PACKAGES.PRICES_TITLE' | translate }}
+        </h2>
 
-        <!-- Comfort -->
-        <ng-container *ngIf="packageData.comfort && packageData.comfort.length">
+        <!-- Comfort Section -->
+        <ng-container *ngIf="packageData.comfort?.length">
           <h3 class="text-xl font-semibold text-[#094074] mb-4">Comfort</h3>
-          <table class="w-full text-left text-gray-700 border-collapse mb-6">
-            <thead>
-            <tr class="border-b border-gray-300">
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CATEGORY' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.SIMPLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.DOUBLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.TRIPLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CHILD' | translate }}</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr *ngFor="let option of packageData.comfort" class="border-b border-gray-200">
-              <td class="py-2 px-4 font-medium">{{ option.name }}</td>
-              <td class="py-2 px-4">{{ option.simple }}</td>
-              <td class="py-2 px-4">{{ option.double }}</td>
-              <td class="py-2 px-4">{{ option.triple }}</td>
-              <td class="py-2 px-4">{{ option.child }}</td>
-            </tr>
-            </tbody>
-          </table>
+          <app-price-table [options]="packageData.comfort"></app-price-table>
         </ng-container>
 
-        <!-- Deluxe -->
-        <ng-container *ngIf="packageData.deluxe && packageData.deluxe.length">
+        <!-- Deluxe Section -->
+        <ng-container *ngIf="packageData.deluxe?.length">
           <h3 class="text-xl font-semibold text-[#094074] mb-4">Deluxe</h3>
-          <table class="w-full text-left text-gray-700 border-collapse mb-6">
-            <thead>
-            <tr class="border-b border-gray-300">
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CATEGORY' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.SIMPLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.DOUBLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.TRIPLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CHILD' | translate }}</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr *ngFor="let option of packageData.deluxe" class="border-b border-gray-200">
-              <td class="py-2 px-4 font-medium">{{ option.name }}</td>
-              <td class="py-2 px-4">{{ option.simple }}</td>
-              <td class="py-2 px-4">{{ option.double }}</td>
-              <td class="py-2 px-4">{{ option.triple }}</td>
-              <td class="py-2 px-4">{{ option.child }}</td>
-            </tr>
-            </tbody>
-          </table>
+          <app-price-table [options]="packageData.deluxe"></app-price-table>
         </ng-container>
 
-        <!-- Premium -->
-        <ng-container *ngIf="packageData.premium && packageData.premium.length">
+        <!-- Premium Section -->
+        <ng-container *ngIf="packageData.premium?.length">
           <h3 class="text-xl font-semibold text-[#094074] mb-4">Premium</h3>
-          <table class="w-full text-left text-gray-700 border-collapse mb-6">
-            <thead>
-            <tr class="border-b border-gray-300">
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CATEGORY' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.SIMPLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.DOUBLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.TRIPLE' | translate }}</th>
-              <th class="py-2 px-4">{{ 'INFO_PACKAGES.PRICE_CATEGORIES.CHILD' | translate }}</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr *ngFor="let option of packageData.premium" class="border-b border-gray-200">
-              <td class="py-2 px-4 font-medium">{{ option.name }}</td>
-              <td class="py-2 px-4">{{ option.simple }}</td>
-              <td class="py-2 px-4">{{ option.double }}</td>
-              <td class="py-2 px-4">{{ option.triple }}</td>
-              <td class="py-2 px-4">{{ option.child }}</td>
-            </tr>
-            </tbody>
-          </table>
+          <app-price-table [options]="packageData.premium"></app-price-table>
         </ng-container>
-
       </div>
 
       <!-- Políticas -->

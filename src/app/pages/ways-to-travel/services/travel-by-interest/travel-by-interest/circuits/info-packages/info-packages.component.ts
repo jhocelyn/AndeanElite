@@ -10,47 +10,8 @@ import {
   DetailCircuitsPackageComponent
 } from '../../../../../../../shared/components/circuits/detail-circuits-package/detail-circuits-package.component';
 import {Subscription, switchMap} from 'rxjs';
- interface PackageData {
-  id: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  whyChooseUs: string[];
-  itinerary: string[];
-  startDate: string;
-  endDate: string;
-  includes: string[];
-  notIncluded: string[];
-  from: string;
-  optional: string[];
-  politics: string[];
-  images: {
-    alt: string;
-    src: string;
-    width: number;
-  }[];
-  comfort:{
-    name:string,
-    simple:string,
-    double:string,
-    triple:string,
-    child:string,
-  }[];
-  deluxe:{
-    name:string,
-    simple:string,
-    double:string,
-    triple:string,
-    child:string,
-  }[];
-  premium:{
-    name:string,
-    simple:string,
-    double:string,
-    triple:string,
-    child:string,
-  }[];
-}
+import {CircuitsPackageModel} from '../../../../../../../shared/models/CircuitsPackage.model';
+
 
 @Component({
   selector: 'app-info-packages',
@@ -65,7 +26,7 @@ import {Subscription, switchMap} from 'rxjs';
   styleUrl: './info-packages.component.css'
 })
 export class InfoPackagesComponent implements OnInit{
-  packageData: PackageData | undefined;
+  packageData: CircuitsPackageModel | undefined;
   private subscriptions = new Subscription();
 
   constructor(private route: ActivatedRoute, private translate: TranslateService) {}
@@ -79,7 +40,7 @@ export class InfoPackagesComponent implements OnInit{
           return this.translate.get(`PACKAGES.CIRCUITS.${packageId}`);
         })
       ).subscribe({
-        next: (data: PackageData) => {
+        next: (data: CircuitsPackageModel) => {
           if (data) {
             this.packageData = data;
             console.log(this.packageData);

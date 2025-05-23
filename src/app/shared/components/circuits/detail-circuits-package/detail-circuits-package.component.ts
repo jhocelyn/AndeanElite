@@ -1,47 +1,8 @@
 import {Component, Input} from '@angular/core';
 import {NgClass, NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
 import {TranslatePipe} from '@ngx-translate/core';
-interface PackageData {
-  id: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  whyChooseUs: string[];
-  itinerary: string[];
-  startDate: string;
-  endDate: string;
-  includes: string[];
-  notIncluded: string[];
-  from: string;
-  optional: string[];
-  politics: string[];
-  images: {
-    alt: string;
-    src: string;
-    width: number;
-  }[];
-  comfort:{
-    name:string,
-    simple:string,
-    double:string,
-    triple:string,
-    child:string,
-  }[];
-  deluxe:{
-    name:string,
-    simple:string,
-    double:string,
-    triple:string,
-    child:string,
-  }[];
-  premium:{
-    name:string,
-    simple:string,
-    double:string,
-    triple:string,
-    child:string,
-  }[];
-}
+import {PriceTableComponent} from '../../Important/price-table/price-table.component';
+import {CircuitsPackageModel} from '../../../models/CircuitsPackage.model';
 
 
 @Component({
@@ -53,7 +14,8 @@ interface PackageData {
     NgSwitchCase,
     NgSwitch,
     NgClass,
-    TranslatePipe
+    TranslatePipe,
+    PriceTableComponent
   ],
   templateUrl: './detail-circuits-package.component.html',
   styleUrl: './detail-circuits-package.component.css'
@@ -74,5 +36,5 @@ export class DetailCircuitsPackageComponent {
   }
 
   activeSection = 'description';
-  @Input()  packageData: PackageData | undefined;
+  @Input()  packageData: CircuitsPackageModel | undefined;
 }
