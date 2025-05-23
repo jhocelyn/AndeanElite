@@ -2010,7 +2010,7 @@
           "Personal expenses (drinks, travel or medical insurance, laundry, etc.)",
           "Entrance fee to the Cathedral"
         ],
-        "from": "620.00",
+        "from": "406.35",
         "optional": [
           "Upgrade to Vistadome Train: $80.00 USD net price"
         ],
@@ -2272,7 +2272,7 @@
           "Personal expenses (drinks, medical insurance, laundry, etc.)",
           "Entrance to the Cathedral of Lima"
         ],
-        "from": "Prices per person in USD",
+        "from": "623.7",
         "optional": [
           "Vistadome train upgrade: $80 USD (net price)"
         ],
@@ -2521,7 +2521,7 @@
           "Personal expenses (drinks, medical/travel insurance, laundry, etc.)",
           "Entrance ticket to Cusco Cathedral"
         ],
-        "from": "850.00",
+        "from": "514.5",
         "optional": [
           "Vistadome Train Upgrade: $80.00 USD (net rate)"
         ],
@@ -2750,7 +2750,7 @@
           "Personal expenses (drinks, laundry, travel or medical insurance, etc.)",
           "Entrance fee to Cusco Cathedral"
         ],
-        "from": "Cusco",
+        "from": "601.65",
         "optional": [
           "Vistadome train upgrade: $80 USD net rate",
           "Horse with handler for Rainbow Mountain hike: $30 USD net",
@@ -3044,7 +3044,7 @@
           "Personal expenses (drinks, medical or travel insurance, laundry, etc.)",
           "Entrance fee to Cusco Cathedral"
         ],
-        "from": "USD",
+        "from": "529.2",
         "optional": [
           "Vistadome Train Upgrade: $80 USD net rate",
           "Horse with handler for Rainbow Mountain hike: $30 USD net",
@@ -3384,7 +3384,7 @@
           "Personal expenses (drinks, medical or travel insurance, laundry, etc.)",
           "Cathedral entrance"
         ],
-        "from": "Cusco, Peru",
+        "from": "970.1475",
         "optional": [
           "Vistadome Train $80.00 USD (net)"
         ],
@@ -3555,7 +3555,7 @@
           "Personal expenses (drinks, medical/travel insurance, laundry, etc.)",
           "Entrance fee to Cusco Cathedral"
         ],
-        "from": "USD",
+        "from": "692.7",
         "optional": [
           "Vistadome Train Upgrade: $80.00 USD (net rate)"
         ],
@@ -3788,7 +3788,7 @@
           "Tips and personal expenses.",
           "Entrance to Arequipa Cathedral."
         ],
-        "from": "USD 668.85 per person based on double occupancy (3-star category - national market)",
+        "from": "740.25",
         "optional": [
           "Vistadome train: USD 80.00 per person"
         ],
@@ -4083,6 +4083,8 @@
           "title": "2025 CAÑÓN DEL CÓNDOR + CHONTA",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
           "price": "0"
         },
@@ -4091,6 +4093,8 @@
           "title": "2025 CUATRIMOTOS EN MORADA DE LOS DIOSES",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
           "price": "0"
         },
@@ -4099,6 +4103,8 @@
           "title": "2025 CUATRIMOTOS EN MARAS & MORAY",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
           "price": "0"
         },
@@ -4107,6 +4113,8 @@
           "title": "2025 EXCURSIÓN SUPER VALLE",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
           "price": "0"
         },
@@ -4115,6 +4123,8 @@
           "title": "2025 FD MONTAÑA DE 7 COLORES EN CUATRIMOTOS",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
           "price": "0"
         },
@@ -4123,6 +4133,8 @@
           "title": "2025 FULL DAY MACHU PICCHU",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
           "price": "0"
         },
@@ -4131,6 +4143,8 @@
           "title": "2025 LAGUNA HUMANTAY",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
           "price": "0"
         },
@@ -4139,6 +4153,8 @@
           "title": "2025 TOUR MARAS MORAY",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
           "price": "0"
         },
@@ -4147,6 +4163,8 @@
           "title": "2025 MONTAÑA PALCOYO",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
           "price": "0"
         },
@@ -4155,6 +4173,8 @@
           "title": "2025 PARQUE ARQUEOLÓGICO EN CIUDAD",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
           "price": "0"
         },
@@ -4163,6 +4183,8 @@
           "title": "2025 Q’ESWACHACA",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
           "price": "0"
         },
@@ -4171,6 +4193,8 @@
           "title": "2025 RAFTING EN CUSCO",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
           "price": "0"
         },
@@ -4179,6 +4203,8 @@
           "title": "2025 RUTA DEL SOL CUSCO - PUNO",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
           "price": "0"
         },
@@ -4187,6 +4213,8 @@
           "title": "2025 RUTA DEL SOL PUNO A CUSCO",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
           "price": "0"
         },
@@ -4195,6 +4223,8 @@
           "title": "2025 SACRED VALLEY VIA FERRATA & ZIP-LINE",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
           "price": "0"
         },
@@ -4203,6 +4233,8 @@
           "title": "2025 SACRED VALLEY VIA FERRATA & ZIP-LINE CON ALMUERZO Y RELAX EN CABINAS",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
           "price": "0"
         },
@@ -4211,6 +4243,8 @@
           "title": "2025 EXPERIENCIAS GASTRONÓMICAS TALLER DE CHOCOLATE + CITY TOUR PEATONAL",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
           "price": "0"
         },
@@ -4219,6 +4253,8 @@
           "title": "2025 CITY TOUR CUSCO & PARQUE ARQUEOLÓGICO",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
           "price": "0"
         },
@@ -4227,6 +4263,8 @@
           "title": "2025 FULL DAY VALLE SAGRADO, PISAC, OLLANTAYTAMBO & CHINCHEROS",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
           "price": "0"
         },
@@ -4235,6 +4273,8 @@
           "title": "2025 VALLE SUR - ANDAHUAYLILLAS",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
           "price": "0"
         },
@@ -4243,6 +4283,8 @@
           "title": "2025 VINICUNCA (MONTAÑA DE 7 COLORES)",
           "categories":["adventure","culture"],
           "city": "cusco",
+          "days": "0",
+          "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
           "price": "0"
         }
@@ -4261,8 +4303,10 @@
             "adventure",
             "culture"
           ],
+          "days": "3",
+          "nights": "2",
           "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
-          "price": "0"
+          "price": "406.35"
         },
         "2": {
           "id": "2",
@@ -4272,8 +4316,10 @@
             "adventure",
             "culture"
           ],
+          "days": "6",
+          "nights": "5",
           "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
-          "price": "0"
+          "price": "623.7"
         },
         "3": {
           "id": "3",
@@ -4283,8 +4329,10 @@
             "adventure",
             "culture"
           ],
+          "days": "5",
+          "nights": "4",
           "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
-          "price": "0"
+          "price": "514.5"
         },
         "4": {
           "id": "4",
@@ -4294,8 +4342,10 @@
             "adventure",
             "culture"
           ],
+          "days": "6",
+          "nights": "5",
           "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
-          "price": "0"
+          "price": "601.65"
         },
         "5": {
           "id": "5",
@@ -4305,8 +4355,10 @@
             "adventure",
             "culture"
           ],
+          "days": "5",
+          "nights": "4",
           "image": "assets/img/destinations/cusco/lake-huamantay.webp",
-          "price": "0"
+          "price": "529.2"
         },
         "6": {
           "id": "6",
@@ -4327,8 +4379,10 @@
             "adventure",
             "culture"
           ],
+          "days": "7",
+          "nights": "6",
           "image": "assets/img/destinations/cusco/peru-weavers-llama.webp",
-          "price": "0"
+          "price": "970.1475"
         },
         "8": {
           "id": "8",
@@ -4338,8 +4392,10 @@
             "adventure",
             "culture"
           ],
+          "days": "5",
+          "nights": "4",
           "image": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp",
-          "price": "0"
+          "price": "692.7"
         },
         "9": {
           "id": "9",
@@ -4349,8 +4405,10 @@
             "adventure",
             "culture"
           ],
+          "days": "8",
+          "nights": "7",
           "image": "assets/img/destinations/arequipa/colca-canon.webp",
-          "price": "0"
+          "price": "740.25"
         }
       }
     },

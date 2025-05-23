@@ -1,4 +1,3 @@
-// models/simple-package.model.ts
 export interface SimplePackage {
   slug: string;
   title: string;
@@ -6,4 +5,6 @@ export interface SimplePackage {
   city: string;
   image: string;
   price: string;
+  nights?: string;
+  days?: string;
 }

@@ -22,7 +22,9 @@ export class PackagesService {
             categories: item.categories,
             city: item.city,
             image: item.image,
-            price: item.price
+            price: item.price,
+            days:item.days,
+            nights: item.nights,
           } as SimplePackage;
         })
       )

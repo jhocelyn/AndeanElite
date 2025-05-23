@@ -4,6 +4,7 @@ import {NgForOf} from '@angular/common';
 import {ActivatedRoute, Router} from '@angular/router';
 import {TranslatePipe} from '@ngx-translate/core';
 import {FilterSidebarComponent} from '../../Important/filter-sidebar/filter-sidebar.component';
+import {SimplePackage} from '../../../models/SimplePackage.model';
 
 @Component({
   selector: 'app-list-packages-structure',
@@ -11,7 +12,8 @@ import {FilterSidebarComponent} from '../../Important/filter-sidebar/filter-side
   imports: [
     BannerComponent,
     NgForOf,
-    FilterSidebarComponent
+    FilterSidebarComponent,
+    TranslatePipe
   ],
   templateUrl: './list-packages-structure.component.html',
   styleUrl: './list-packages-structure.component.css'
@@ -20,7 +22,7 @@ export class ListPackagesStructureComponent {
   @Input() backgroundImage!: string;
   @Input() title!: string;
   @Input() description!: string;
-  @Input() packages!: { slug: string; title: string; image: string; price: string }[];
+  @Input() packages!: SimplePackage[];
   @Input() cities: string[] = [];
   @Input() categories: string[] = [];
 

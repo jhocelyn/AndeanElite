@@ -2008,7 +2008,7 @@
           "Gastos personales (bebidas, lavandería, etc.)",
           "Ingreso a la Catedral"
         ],
-        "from": "404.25",
+        "from": "406.35",
         "optional": [
           "Tren Vistadome - $80.00"
         ],
@@ -2268,7 +2268,7 @@
           "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
           "Ingreso a la Catedral de Lima"
         ],
-        "from": "Precios por persona en USD",
+        "from": "623.7",
         "optional": [
           "Upgrade a tren Vistadome: $80 USD (precio neto)"
         ],
@@ -2517,7 +2517,7 @@
           "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
           "Ingreso a la Catedral"
         ],
-        "from": "529.20",
+        "from": "514.5",
         "optional": [
           "Tren Vistadome ($80.00 USD netos)"
         ],
@@ -2743,7 +2743,7 @@
           "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
           "Ingreso a la Catedral"
         ],
-        "from": "674.1",
+        "from": "601.65",
         "optional": [
           "Tren Vistadome $80.00 (netos)",
           "Caballo con arriero $30.00 (netos)"
@@ -3035,7 +3035,7 @@
           "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
           "Ingreso a la Catedral"
         ],
-        "from": "590.1",
+        "from": "529.2",
         "optional": [
           "Tren Vistadome $80.00 (netos)",
           "Caballo con arriero $30.00 (netos)"
@@ -3369,7 +3369,7 @@
           "Gastos personales",
           "Ingreso a la Catedral"
         ],
-        "from": "Cusco, Perú",
+        "from": "970.1475",
         "optional": [
           "Tren Vistadome por $80.00 netos"
         ],
@@ -3538,7 +3538,7 @@
           "Gastos personales (bebidas, seguro médico o de viaje, lavandería, etc.)",
           "Ingreso a la Catedral"
         ],
-        "from": "870.05",
+        "from": "692.7",
         "optional": [
           "Tren Vistadome $80.00 (netos)"
         ],
@@ -3770,7 +3770,7 @@
           "Propinas y gastos personales.",
           "Ingreso a la Catedral de Arequipa."
         ],
-        "from": "USD 668.85 por persona en base doble (categoría 3 estrellas - nacional)",
+        "from": "740.25",
         "optional": [
           "Tren Vistadome: USD 80.00 por persona"
         ],
@@ -4070,6 +4070,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
             "price": "0"
           },
@@ -4080,6 +4082,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
             "price": "0"
@@ -4091,6 +4095,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
             "price": "0"
@@ -4102,6 +4108,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
             "price": "0"
@@ -4113,6 +4121,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
             "price": "0"
@@ -4124,6 +4134,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
             "price": "0"
@@ -4135,6 +4147,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
             "price": "0"
@@ -4146,6 +4160,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
             "price": "0"
@@ -4157,6 +4173,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
             "price": "0"
@@ -4168,6 +4186,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
             "price": "0"
@@ -4179,6 +4199,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
             "price": "0"
@@ -4190,6 +4212,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
             "price": "0"
@@ -4201,6 +4225,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
             "price": "0"
@@ -4212,6 +4238,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
             "price": "0"
@@ -4223,6 +4251,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
             "price": "0"
@@ -4234,6 +4264,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
             "price": "0"
@@ -4246,6 +4278,8 @@
               "culture",
               "gastronomy"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
             "price": "0"
@@ -4257,6 +4291,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
             "price": "0"
@@ -4268,6 +4304,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
             "price": "0"
@@ -4279,6 +4317,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
             "price": "0"
@@ -4290,6 +4330,8 @@
               "adventure",
               "culture"
             ],
+            "days": "0",
+            "nights": "0",
             "city": "cusco",
             "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
             "price": "0"
@@ -4309,8 +4351,10 @@
             "adventure",
             "culture"
           ],
+          "days": "3",
+          "nights": "2",
           "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
-          "price": "0"
+          "price": "406.35"
         },
         "2":{
           "id": "2",
@@ -4320,8 +4364,10 @@
             "adventure",
             "culture"
           ],
+          "days": "6",
+          "nights": "5",
           "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
-          "price": "0"
+          "price": "623.7"
         },
         "3":{
           "id": "3",
@@ -4331,8 +4377,10 @@
             "adventure",
             "culture"
           ],
+          "days": "5",
+          "nights": "4",
           "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
-          "price": "0"
+          "price": "514.5"
         },
         "4":{
           "id": "4",
@@ -4342,8 +4390,10 @@
             "adventure",
             "culture"
           ],
+          "days": "6",
+          "nights": "5",
           "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
-          "price": "0"
+          "price": "601.65"
         },
         "5":{
           "id": "5",
@@ -4353,8 +4403,10 @@
             "adventure",
             "culture"
           ],
+          "days": "5",
+          "nights": "4",
           "image": "assets/img/destinations/cusco/lake-huamantay.webp",
-          "price": "0"
+          "price": "529.2"
         },
         "6":{
           "id": "6",
@@ -4375,8 +4427,10 @@
             "adventure",
             "culture"
           ],
+          "days": "7",
+          "nights": "6",
           "image": "assets/img/destinations/cusco/peru-weavers-llama.webp",
-          "price": "0"
+          "price": "970.1475"
         },
         "8":{
           "id": "8",
@@ -4386,8 +4440,10 @@
             "adventure",
             "culture"
           ],
+          "days": "5",
+          "nights": "4",
           "image": "assets/img/destinations/puno/lake-titicaca-natural-landscape.webp",
-          "price": "0"
+          "price": "692.7"
         },
         "9":{
           "id": "9",
@@ -4397,8 +4453,10 @@
             "adventure",
             "culture"
           ],
+          "days": "8",
+          "nights": "7",
           "image": "assets/img/destinations/arequipa/colca-canon.webp",
-          "price": "0"
+          "price": "740.25"
         }
       }
 
