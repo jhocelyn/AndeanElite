@@ -8,20 +8,6 @@
 <!-- Grid principal -->
 <div class=" grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-6 pb-12">
 
-  <!-- Sidebar -->
-  <div class="md:col-span-1">
-      <app-filter-sidebar
-        [cities]="cities"
-        [categories]="categories"
-        [filterCity]="filterCity"
-        [filterCategory]="filterCategory"
-        [searchTerm]="searchTerm"
-        (cityChange)="onCityChange($event)"
-        (categoryChange)="onCategoryChange($event)"
-        (searchChange)="onSearchChange($event)"
-      ></app-filter-sidebar>
-  </div>
-
   <!-- Lista de paquetes -->
   <div class="md:col-span-3">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -30,7 +16,7 @@
         class="bg-white shadow-lg cursor-pointer hover:shadow-xl transition"
         (click)="goToPackageDetails(package.slug)"
       >
-        <img [src]="package.image" [alt]="package.title" class="w-full h-40 object-cover rounded-t-md" />
+        <img [src]="package.image" [alt]="package.title" class="w-full h-60 object-cover rounded-t-md" />
         <div class="py-2 px-4">
           <h3 class="text-center text-sm font-semibold text-[#034873]">
             {{ package.title }}
@@ -40,4 +26,17 @@
     </div>
   </div>
 
+  <!-- Sidebar -->
+  <div class="md:col-span-1">
+    <app-filter-sidebar
+      [cities]="cities"
+      [categories]="categories"
+      [filterCity]="filterCity"
+      [filterCategory]="filterCategory"
+      [searchTerm]="searchTerm"
+      (cityChange)="onCityChange($event)"
+      (categoryChange)="onCategoryChange($event)"
+      (searchChange)="onSearchChange($event)"
+    ></app-filter-sidebar>
+  </div>
 </div>
