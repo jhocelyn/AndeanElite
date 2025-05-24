@@ -10,6 +10,7 @@ import {
 import {SimplePackage} from '../../../../../../../shared/models/SimplePackage.model';
 import {PackagesService} from '../../../../../../../services/packages.service';
 import {Subscription} from 'rxjs';
+import {NgClass, NgForOf} from '@angular/common';
 
 @Component({
   selector: 'app-list-packages',
@@ -17,7 +18,9 @@ import {Subscription} from 'rxjs';
   imports: [
     BannerComponent,
     TranslatePipe,
-    StructureListPackagesHomestaysComponent
+    StructureListPackagesHomestaysComponent,
+    NgClass,
+    NgForOf
   ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
@@ -50,5 +53,15 @@ export class ListPackagesComponent implements OnInit,OnDestroy{
       this.HomestaysData = data;
     });
   }
+  getIcon(index: number): string {
+    const icons = [
+      'fa-solid fa-handshake',
+      'fas fa-users',
+      'fas fa-mountain',
+      'fas fa-utensils'
+    ];
+    return icons[index] || 'fas fa-star';
+  }
+
 
 }

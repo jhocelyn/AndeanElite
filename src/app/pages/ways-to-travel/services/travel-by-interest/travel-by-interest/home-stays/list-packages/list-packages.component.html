@@ -3,62 +3,55 @@
   [title]="'TRAVEL_BY_INTEREST.HOME_STAYS.TITLE'">
 </app-banner>
 
-<div class="flex flex-col items-center px-4 py-10 w-full">
-  <h2 class="text-2xl md:text-3xl font-semibold text-[#042a4e] text-center mb-6">
+<div class="flex flex-col items-center px-4 py-10 w-full bg-gray-50">
+  <!-- Título y Descripción -->
+  <h2 class="text-3xl font-bold text-[#042a4e] text-center mb-4">
     {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.SUBTITLE' | translate }}
   </h2>
 
-  <p class="text-lg text-gray-700 text-center max-w-4xl mb-10">
+  <p class="text-lg text-gray-700 text-center max-w-4xl mb-10 leading-relaxed">
     {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.DESCRIPTION' | translate }}
   </p>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
+  <!-- Grid de puntos + video -->
+  <div class="flex justify-center w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center w-full max-w-7xl px-4">
 
-    <div>
-      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
-        <i class="fa-solid fa-handshake text-[#042a4e]"></i>
-        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.0.title' | translate }}
-      </h3>
-      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.0.description' | translate">
-      </p>
+      <!-- Puntos clave ocupan dos columnas -->
+      <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
+        <ng-container *ngFor="let point of [0,1,2,3]">
+          <div class="max-w-md">
+            <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+              <i [ngClass]="getIcon(point)" class="text-[#042a4e]"></i>
+              {{ ('TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.' + point + '.title') | translate }}
+            </h3>
+            <p class="text-gray-600" [innerHTML]="('TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.' + point + '.description') | translate"></p>
+          </div>
+        </ng-container>
+      </div>
+
+      <!-- Video como tercera columna -->
+      <div class="flex justify-center">
+        <video
+          class="w-[40vh] h-[60vh] rounded-lg shadow-md object-cover"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source [attr.src]="'assets/videos/video-homestays-dance.mp4'" type="video/mp4" />
+          Tu navegador no soporta la reproducción de video.
+        </video>
+      </div>
+
     </div>
-
-    <div>
-      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
-        <i class="fas fa-users text-[#042a4e]"></i>
-        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.1.title' | translate }}
-      </h3>
-      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.1.description' | translate ">
-      </p>
-    </div>
-
-    <div>
-      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
-        <i class="fas fa-mountain text-[#042a4e]"></i>
-        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.2.title' | translate }}
-      </h3>
-      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.2.description' | translate">
-      </p>
-    </div>
-
-    <div>
-      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
-        <i class="fas fa-utensils text-[#042a4e]"></i>
-        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.3.title' | translate }}
-      </h3>
-      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.3.description' | translate">
-      </p>
-    </div>
-
   </div>
 
-  <div class="mt-12  p-6 text-center max-w-3xl">
-    <p class="text-lg font-medium text-[#042a4e] mb-2" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.ACTION' | translate">
-    </p>
+  <!-- Acción final -->
+  <div class="mt-12 px-6 text-center max-w-3xl">
+    <p class="text-lg font-medium text-[#042a4e]" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.ACTION' | translate"></p>
   </div>
 </div>
 
-<app-structure-list-packages-homestays
-[packages]="HomestaysData"
-[video]="'assets/videos/video-homestays.mp4'"
-></app-structure-list-packages-homestays>
+<!-- Lista de paquetes -->
+<app-structure-list-packages-homestays [packages]="HomestaysData"></app-structure-list-packages-homestays>

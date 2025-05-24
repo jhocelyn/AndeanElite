@@ -18,7 +18,6 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class StructureListPackagesHomestaysComponent {
   @Input() packages!: SimplePackage[];
-  @Input() video: string='';
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
 

@@ -1,7 +1,7 @@
 <div class=" grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-6 pb-12">
 
   <!-- Lista de paquetes -->
-  <div class="md:col-span-3">
+  <div class="md:col-span-4">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         *ngFor="let package of packages"
@@ -12,7 +12,7 @@
         <img
           [src]="package.image"
           [alt]="package.title"
-          class="w-full h-[20vh] object-cover"
+          class="w-full h-[35vh] object-cover"
         />
 
         <!-- Contenido -->
@@ -46,16 +46,4 @@
       </div>
     </div>
   </div>
-
-  <!-- Video -->
-  <video
-    class="h-full object-cover rounded-md shadow-lg"
-    autoplay
-    muted
-    loop
-    playsinline
-  >
-    <source [attr.src]="video" type="video/mp4" />
-  </video>
-
 </div>
