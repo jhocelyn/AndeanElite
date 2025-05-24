@@ -488,6 +488,7 @@
           "Souvenirs, regalos, compras personales.",
           "Caballos."
         ],
+        "from": "67",
         "prices": "<div class=\"overflow-x-auto\">\n  <table class=\"w-full text-sm text-gray-700 border-collapse mb-6 text-center\">\n    <thead>\n      <tr class=\"bg-gray-100 border-b border-gray-300\">\n        <th colspan=\"3\" class=\"py-2 px-4 font-semibold\">Compartido</th>\n        <th colspan=\"7\" class=\"py-2 px-4 font-semibold\">Privado</th>\n      </tr>\n      <tr class=\"bg-white border-b border-gray-200\">\n        <th class=\"py-2 px-2\">ADT</th>\n        <th class=\"py-2 px-2\">JR</th>\n        <th class=\"py-2 px-2\">CHD</th>\n        <th class=\"py-2 px-2\">1</th>\n        <th class=\"py-2 px-2\">2</th>\n        <th class=\"py-2 px-2\">3/4</th>\n        <th class=\"py-2 px-2\">5</th>\n        <th class=\"py-2 px-2\">6</th>\n        <th class=\"py-2 px-2\">7</th>\n        <th class=\"py-2 px-2\">8</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"py-2 px-2\">67</td>\n        <td class=\"py-2 px-2\">67</td>\n        <td class=\"py-2 px-2\">67</td>\n        <td class=\"py-2 px-2\">369</td>\n        <td class=\"py-2 px-2\">196</td>\n        <td class=\"py-2 px-2\">139</td>\n        <td class=\"py-2 px-2\">106</td>\n        <td class=\"py-2 px-2\">90</td>\n        <td class=\"py-2 px-2\">79</td>\n        <td class=\"py-2 px-2\">76</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Medicamentos e implementos de higiene personal.",
@@ -847,7 +848,7 @@
           "Seguro de viaje."
         ],
         "from": "236",
-        "prices": "<div class=\"mb-6 overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"13\" class=\"px-4 py-2 font-semibold\">SERVICIOS A MACHU PICCHU</th>\n      </tr>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"6\" class=\"px-4 py-2 font-semibold\">Enero a Marzo</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Abril a Diciembre</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"3\" class=\"px-2 py-2 border-r\">Peruano</th>\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"4\" class=\"px-2 py-2\">Peruano</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2 border-r\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\"> </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">307</td>\n        <td class=\"px-2 py-2\">271</td>\n        <td class=\"px-2 py-2\">192</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\">236</td>\n        <td class=\"px-2 py-2 border-r\">182</td>\n        <td class=\"px-2 py-2\">318</td>\n        <td class=\"px-2 py-2\">282</td>\n        <td class=\"px-2 py-2\">200</td>\n        <td class=\"px-2 py-2\">261</td>\n        <td class=\"px-2 py-2\">247</td>\n        <td class=\"px-2 py-2\">190</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">350</td>\n        <td class=\"px-2 py-2\">315</td>\n        <td class=\"px-2 py-2\">225</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">291</td>\n        <td class=\"px-2 py-2 border-r\">215</td>\n        <td class=\"px-2 py-2\">350</td>\n        <td class=\"px-2 py-2\">315</td>\n        <td class=\"px-2 py-2\">225</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">291</td>\n        <td class=\"px-2 py-2\">215</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">438</td>\n        <td class=\"px-2 py-2\">403</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">381</td>\n        <td class=\"px-2 py-2\">368</td>\n        <td class=\"px-2 py-2 border-r\">282</td>\n        <td class=\"px-2 py-2\">438</td>\n        <td class=\"px-2 py-2\">403</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">381</td>\n        <td class=\"px-2 py-2\">368</td>\n        <td class=\"px-2 py-2\">282</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">774</td>\n        <td class=\"px-2 py-2\">774</td>\n        <td class=\"px-2 py-2\">584</td>\n        <td class=\"px-2 py-2\">768</td>\n        <td class=\"px-2 py-2\">768</td>\n        <td class=\"px-2 py-2 border-r\">581</td>\n        <td class=\"px-2 py-2\">807</td>\n        <td class=\"px-2 py-2\">807</td>\n        <td class=\"px-2 py-2\">607</td>\n        <td class=\"px-2 py-2\">801</td>\n        <td class=\"px-2 py-2\">801</td>\n        <td class=\"px-2 py-2\">604</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">821</td>\n        <td class=\"px-2 py-2\">821</td>\n        <td class=\"px-2 py-2\">619</td>\n        <td class=\"px-2 py-2\">805</td>\n        <td class=\"px-2 py-2\">805</td>\n        <td class=\"px-2 py-2 border-r\">573</td>\n        <td class=\"px-2 py-2\">853</td>\n        <td class=\"px-2 py-2\">853</td>\n        <td class=\"px-2 py-2\">642</td>\n        <td class=\"px-2 py-2\">838</td>\n        <td class=\"px-2 py-2\">838</td>\n        <td class=\"px-2 py-2\">597</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2\">933</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2 border-r\">933</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1004</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1004</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"text-left px-4 py-2 font-semibold bg-gray-100\">Mínimo 2 personas.</td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"text-left px-4 py-2 text-xs italic\">\n          <strong>INFORMATIVO:</strong><br>\n          Expedition: Confort: Básico, Asientos cómodos, ventanas panorámicas.<br>\n          Vistadome: Confort: Medio. Ventanas panorámicas, asientos cómodos, entretenimiento con música y bailes.<br>\n          Vistadome Observatory: Confort: Medio-alto. Ventanas panorámicas y techo de 360° para mejores vistas, snacks y bebidas.<br>\n          Hiram Bingham: Confort: Lujo. Almuerzo gourmet, cócteles, entretenimiento y traslados privados.\n          </td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<div class=\"mb-6 overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"13\" class=\"px-4 py-2 font-semibold\">SERVICIOS A MACHU PICCHU</th>\n      </tr>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"6\" class=\"px-4 py-2 font-semibold\">Enero a Marzo</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Abril a Diciembre</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero </th>\n        <th colspan=\"3\" class=\"px-2 py-2 border-r\">Peruano</th>\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"4\" class=\"px-2 py-2\">Peruano</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2 border-r\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\"> </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">270</td>\n        <td class=\"px-2 py-2\">197</td>\n        <td class=\"px-2 py-2\">248</td>\n        <td class=\"px-2 py-2\">235</td>\n        <td class=\"px-2 py-2 border-r\">187</td>\n        <td class=\"px-2 py-2\">320</td>\n        <td class=\"px-2 py-2\">285</td>\n        <td class=\"px-2 py-2\">208</td>\n        <td class=\"px-2 py-2\">263</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\">198</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">256</td>\n        <td class=\"px-2 py-2\">186</td>\n        <td class=\"px-2 py-2\">235</td>\n        <td class=\"px-2 py-2\">221</td>\n        <td class=\"px-2 py-2 border-r\">176</td>\n        <td class=\"px-2 py-2\">307</td>\n        <td class=\"px-2 py-2\">271</td>\n        <td class=\"px-2 py-2\">197</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\">236</td>\n        <td class=\"px-2 py-2\">187</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">387</td>\n        <td class=\"px-2 py-2\">352</td>\n        <td class=\"px-2 py-2\">259</td>\n        <td class=\"px-2 py-2\">331</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2 border-r\">249</td>\n        <td class=\"px-2 py-2\">387</td>\n        <td class=\"px-2 py-2\">352</td>\n        <td class=\"px-2 py-2\">259</td>\n        <td class=\"px-2 py-2\">331</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2\">249</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">374</td>\n        <td class=\"px-2 py-2\">338</td>\n        <td class=\"px-2 py-2\">248</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2\">304</td>\n        <td class=\"px-2 py-2 border-r\">238</td>\n        <td class=\"px-2 py-2\">374</td>\n        <td class=\"px-2 py-2\">338</td>\n        <td class=\"px-2 py-2\">248</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2\">304</td>\n        <td class=\"px-2 py-2\">238</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">363</td>\n        <td class=\"px-2 py-2\">327</td>\n        <td class=\"px-2 py-2\">240</td>\n        <td class=\"px-2 py-2\">306</td>\n        <td class=\"px-2 py-2\">293</td>\n        <td class=\"px-2 py-2 border-r\">230</td>\n        <td class=\"px-2 py-2\">389</td>\n        <td class=\"px-2 py-2\">353</td>\n        <td class=\"px-2 py-2\">260</td>\n        <td class=\"px-2 py-2\">332</td>\n        <td class=\"px-2 py-2\">319</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">349</td>\n        <td class=\"px-2 py-2\">314</td>\n        <td class=\"px-2 py-2\">229</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">279</td>\n        <td class=\"px-2 py-2 border-r\">219</td>\n        <td class=\"px-2 py-2\">375</td>\n        <td class=\"px-2 py-2\">340</td>\n        <td class=\"px-2 py-2\">249</td>\n        <td class=\"px-2 py-2\">318</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">243</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">738</td>\n        <td class=\"px-2 py-2\">703</td>\n        <td class=\"px-2 py-2\">542</td>\n        <td class=\"px-2 py-2\">694</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2 border-r\">538</td>\n        <td class=\"px-2 py-2\">738</td>\n        <td class=\"px-2 py-2\">703</td>\n        <td class=\"px-2 py-2\">542</td>\n        <td class=\"px-2 py-2\">694</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2\">538</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">724</td>\n        <td class=\"px-2 py-2\">689</td>\n        <td class=\"px-2 py-2\">531</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2\">530</td>\n        <td class=\"px-2 py-2 border-r\">527</td>\n        <td class=\"px-2 py-2\">724</td>\n        <td class=\"px-2 py-2\">689</td>\n        <td class=\"px-2 py-2\">531</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2\">530</td>\n        <td class=\"px-2 py-2\">527</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"text-left px-4 py-2 font-semibold bg-gray-100\">\nMinimo 2 personas.\n        </td>\n      </tr>\n <tr>\n  <td colspan=\"13\" class=\"text-left px-4 py-2 text-xs italic\">\n    <strong>INFORMATIVO:</strong><br>\n    The Voyager: Servicio cómodo y accesible, con asientos confortables y grandes ventanas.<br>\n    The 360°: Vistas panorámicas de 360° con ventanas amplias y un vagón observatorio al aire libre. Incluye bebidas y snacks.<br>\n    The Premium &amp; Lounge: Servicio exclusivo con salón privado, asientos amplios. Incluye observatorio al aire libre y música en vivo.<br>\n    Operación: lunes, miércoles, viernes y sábado.<br>\n    The First Class: Máximo lujo, con asientos amplios, cóctel de bienvenida, menú gourmet de 3 tiempos, música en vivo y traslados exclusivos hacia Machu Picchu.<br>\n    Operación: martes, jueves y domingo.\n  </td>\n</tr>\n<tr>\n  <td colspan=\"13\" class=\"text-left px-4 py-2 text-xs italic\">\n    <strong>SERVICIOS ADICIONALES:</strong><br>\n    Alimentación en Aguas Calientes:<br>\n    Almuerzo Apu Inti — US$20.00<br>\n    Almuerzo El Mapi — US$23.00<br>\n    Almuerzo Café Inkaterra (sin bebidas) — US$29.00<br>\n    Almuerzo Sanctuary Lodge — US$54.00<br>\n    Almuerzo Sumaq Machu Picchu — US$86.00\n  </td>\n</tr>\n    </tbody>\n  </table>\n</div>\n",
+        "prices": "<div class=\"mb-6 overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"1\" rowspan=\"2\" class=\"px-4 py-2 font-semibold\">SERVICIOS A MACHU PICCHU</th>\n        <th colspan=\"6\" class=\"px-4 py-2 font-semibold\">Enero a Marzo</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Abril a Diciembre</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"3\" class=\"border-r px-2 py-2\">Peruano</th>\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"4\" class=\"px-2 py-2\">Peruano</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">PERU RAIL – Desde Cusco</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"border-r px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\"></th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con Expedition</td>\n        <td class=\"px-2 py-2\">307</td>\n        <td class=\"px-2 py-2\">271</td>\n        <td class=\"px-2 py-2\">192</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\">236</td>\n        <td class=\"border-r px-2 py-2\">182</td>\n        <td class=\"px-2 py-2\">318</td>\n        <td class=\"px-2 py-2\">282</td>\n        <td class=\"px-2 py-2\">200</td>\n        <td class=\"px-2 py-2\">261</td>\n        <td class=\"px-2 py-2\">247</td>\n        <td class=\"px-2 py-2\">190</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con Vistadome</td>\n        <td class=\"px-2 py-2\">350</td>\n        <td class=\"px-2 py-2\">315</td>\n        <td class=\"px-2 py-2\">225</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">291</td>\n        <td class=\"border-r px-2 py-2\">215</td>\n        <td class=\"px-2 py-2\">350</td>\n        <td class=\"px-2 py-2\">315</td>\n        <td class=\"px-2 py-2\">225</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">291</td>\n        <td class=\"px-2 py-2\">215</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI con Vistadome Observatory</td>\n        <td class=\"px-2 py-2\">438</td>\n        <td class=\"px-2 py-2\">403</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">381</td>\n        <td class=\"px-2 py-2\">368</td>\n        <td class=\"border-r px-2 py-2\">282</td>\n        <td class=\"px-2 py-2\">438</td>\n        <td class=\"px-2 py-2\">403</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">381</td>\n        <td class=\"px-2 py-2\">368</td>\n        <td class=\"px-2 py-2\">282</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con HB + Vistadome</td>\n        <td class=\"px-2 py-2\">774</td>\n        <td class=\"px-2 py-2\">774</td>\n        <td class=\"px-2 py-2\">584</td>\n        <td class=\"px-2 py-2\">768</td>\n        <td class=\"px-2 py-2\">768</td>\n        <td class=\"border-r px-2 py-2\">581</td>\n        <td class=\"px-2 py-2\">807</td>\n        <td class=\"px-2 py-2\">807</td>\n        <td class=\"px-2 py-2\">607</td>\n        <td class=\"px-2 py-2\">801</td>\n        <td class=\"px-2 py-2\">801</td>\n        <td class=\"px-2 py-2\">604</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con HB + Vistadome Observatory</td>\n        <td class=\"px-2 py-2\">821</td>\n        <td class=\"px-2 py-2\">821</td>\n        <td class=\"px-2 py-2\">619</td>\n        <td class=\"px-2 py-2\">805</td>\n        <td class=\"px-2 py-2\">805</td>\n        <td class=\"border-r px-2 py-2\">573</td>\n        <td class=\"px-2 py-2\">853</td>\n        <td class=\"px-2 py-2\">853</td>\n        <td class=\"px-2 py-2\">642</td>\n        <td class=\"px-2 py-2\">838</td>\n        <td class=\"px-2 py-2\">838</td>\n        <td class=\"px-2 py-2\">597</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con HB desde Cusco</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2\">933</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"px-2 py-2\">1236</td>\n        <td class=\"border-r px-2 py-2\">933</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1004</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1334</td>\n        <td class=\"px-2 py-2\">1004</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"bg-gray-100 px-4 py-2 text-left font-semibold\">Mínimo 2 personas.</td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"px-4 py-2 text-left text-xs italic\">\n          <strong>INFORMATIVO:</strong><br />\n          Expedition: Confort: Básico, Asientos cómodos, ventanas panorámicas.<br />\n          Vistadome: Confort: Medio. Ventanas panorámicas, asientos cómodos, entretenimiento con música y bailes.<br />\n          Vistadome Observatory: Confort: Medio-alto. Ventanas panorámicas y techo de 360° para mejores vistas, snacks y bebidas.<br />\n          Hiram Bingham: Confort: Lujo. Almuerzo gourmet, cócteles, entretenimiento y traslados privados.\n        </td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<div class=\"mb-6 overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"1\" rowspan=\"2\" class=\"px-4 py-2 font-semibold\">SERVICIOS A MACHU PICCHU</th>\n        <th colspan=\"6\" class=\"px-4 py-2 font-semibold\">Enero a Marzo</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Abril a Diciembre</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"3\" class=\"border-r px-2 py-2\">Peruano</th>\n        <th colspan=\"3\" class=\"px-2 py-2\">Extranjero</th>\n        <th colspan=\"4\" class=\"px-2 py-2\">Peruano</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">INCA RAIL – Desde Cusco</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"border-r px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\"></th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con The Voyager</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">270</td>\n        <td class=\"px-2 py-2\">197</td>\n        <td class=\"px-2 py-2\">248</td>\n        <td class=\"px-2 py-2\">235</td>\n        <td class=\"border-r px-2 py-2\">187</td>\n        <td class=\"px-2 py-2\">320</td>\n        <td class=\"px-2 py-2\">285</td>\n        <td class=\"px-2 py-2\">208</td>\n        <td class=\"px-2 py-2\">263</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\">198</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con The Voyager Door to Door</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">256</td>\n        <td class=\"px-2 py-2\">186</td>\n        <td class=\"px-2 py-2\">235</td>\n        <td class=\"px-2 py-2\">221</td>\n        <td class=\"border-r px-2 py-2\">176</td>\n        <td class=\"px-2 py-2\">307</td>\n        <td class=\"px-2 py-2\">271</td>\n        <td class=\"px-2 py-2\">197</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\">236</td>\n        <td class=\"px-2 py-2\">187</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI con The 360°</td>\n        <td class=\"px-2 py-2\">387</td>\n        <td class=\"px-2 py-2\">352</td>\n        <td class=\"px-2 py-2\">259</td>\n        <td class=\"px-2 py-2\">331</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"border-r px-2 py-2\">249</td>\n        <td class=\"px-2 py-2\">387</td>\n        <td class=\"px-2 py-2\">352</td>\n        <td class=\"px-2 py-2\">259</td>\n        <td class=\"px-2 py-2\">331</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2\">249</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con The 360° Door to Door</td>\n        <td class=\"px-2 py-2\">374</td>\n        <td class=\"px-2 py-2\">338</td>\n        <td class=\"px-2 py-2\">248</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2\">304</td>\n        <td class=\"border-r px-2 py-2\">238</td>\n        <td class=\"px-2 py-2\">374</td>\n        <td class=\"px-2 py-2\">338</td>\n        <td class=\"px-2 py-2\">248</td>\n        <td class=\"px-2 py-2\">317</td>\n        <td class=\"px-2 py-2\">304</td>\n        <td class=\"px-2 py-2\">238</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI con The Premium & Lounge</td>\n        <td class=\"px-2 py-2\">363</td>\n        <td class=\"px-2 py-2\">327</td>\n        <td class=\"px-2 py-2\">240</td>\n        <td class=\"px-2 py-2\">306</td>\n        <td class=\"px-2 py-2\">293</td>\n        <td class=\"border-r px-2 py-2\">230</td>\n        <td class=\"px-2 py-2\">389</td>\n        <td class=\"px-2 py-2\">353</td>\n        <td class=\"px-2 py-2\">260</td>\n        <td class=\"px-2 py-2\">332</td>\n        <td class=\"px-2 py-2\">319</td>\n        <td class=\"px-2 py-2\">250</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con The Premium & Lounge Door to Door</td>\n        <td class=\"px-2 py-2\">349</td>\n        <td class=\"px-2 py-2\">314</td>\n        <td class=\"px-2 py-2\">229</td>\n        <td class=\"px-2 py-2\">292</td>\n        <td class=\"px-2 py-2\">279</td>\n        <td class=\"border-r px-2 py-2\">219</td>\n        <td class=\"px-2 py-2\">375</td>\n        <td class=\"px-2 py-2\">340</td>\n        <td class=\"px-2 py-2\">249</td>\n        <td class=\"px-2 py-2\">318</td>\n        <td class=\"px-2 py-2\">305</td>\n        <td class=\"px-2 py-2\">243</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI con The First Class</td>\n        <td class=\"px-2 py-2\">738</td>\n        <td class=\"px-2 py-2\">703</td>\n        <td class=\"px-2 py-2\">542</td>\n        <td class=\"px-2 py-2\">694</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"border-r px-2 py-2\">538</td>\n        <td class=\"px-2 py-2\">738</td>\n        <td class=\"px-2 py-2\">703</td>\n        <td class=\"px-2 py-2\">542</td>\n        <td class=\"px-2 py-2\">694</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2\">538</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">FD MAPI Con The First Class Door to Door</td>\n        <td class=\"px-2 py-2\">724</td>\n        <td class=\"px-2 py-2\">689</td>\n        <td class=\"px-2 py-2\">531</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2\">530</td>\n        <td class=\"border-r px-2 py-2\">527</td>\n        <td class=\"px-2 py-2\">724</td>\n        <td class=\"px-2 py-2\">689</td>\n        <td class=\"px-2 py-2\">531</td>\n        <td class=\"px-2 py-2\">680</td>\n        <td class=\"px-2 py-2\">530</td>\n        <td class=\"px-2 py-2\">527</td>\n        <td class=\"px-2 py-2\"></td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"bg-gray-100 px-4 py-2 text-left font-semibold\">Minimo 2 personas.</td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"px-4 py-2 text-left text-xs italic\">\n          <strong>INFORMATIVO:</strong><br />\n          The Voyager: Servicio cómodo y accesible, con asientos confortables y grandes ventanas.<br />\n          The 360°: Vistas panorámicas de 360° con ventanas amplias y un vagón observatorio al aire libre. Incluye bebidas y snacks.<br />\n          The Premium &amp; Lounge: Servicio exclusivo con salón privado, asientos amplios. Incluye observatorio al aire libre y música en vivo.<br />\n          Operación: lunes, miércoles, viernes y sábado.<br />\n          The First Class: Máximo lujo, con asientos amplios, cóctel de bienvenida, menú gourmet de 3 tiempos, música en vivo y traslados exclusivos hacia Machu Picchu.<br />\n          Operación: martes, jueves y domingo.\n        </td>\n      </tr>\n      <tr>\n        <td colspan=\"13\" class=\"px-4 py-2 text-left text-xs italic\">\n          <strong>SERVICIOS ADICIONALES:</strong><br />\n          Alimentación en Aguas Calientes:<br />\n          Almuerzo Apu Inti — US$20.00<br />\n          Almuerzo El Mapi — US$23.00<br />\n          Almuerzo Café Inkaterra (sin bebidas) — US$29.00<br />\n          Almuerzo Sanctuary Lodge — US$54.00<br />\n          Almuerzo Sumaq Machu Picchu — US$86.00\n        </td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Llevar pasaporte original o documento de identidad válido.",
           "Ropa cómoda y zapatillas de caminata.",
@@ -1608,10 +1609,8 @@
           "Alimentación",
           "Propinas"
         ],
-        "prices": {
-          "per": "Por persona",
-          "ext": "USD 39 para adultos y jóvenes, USD 37 para niños"
-        },
+        "from": "39",
+        "prices": "<div class=\"overflow-x-auto mb-6\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"3\" class=\"px-4 py-2 font-semibold\">COMPARTIDO</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior</th>\n        <th class=\"px-2 py-2\">Niño</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">39</td>\n        <td class=\"px-2 py-2\">39</td>\n        <td class=\"px-2 py-2\">37</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Traer medicamentos e implementos de higiene personal",
           "Zapatillas o zapatos cómodos para caminar",
@@ -1676,10 +1675,8 @@
           "Alimentación",
           "Propinas"
         ],
-        "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos USD 134, Niños USD 67. Privado: Adultos USD 45, Jóvenes USD 30, Niños USD 24, Otros descuentos por grupo."
-        },
+        "from": "13",
+        "prices": "<div class=\"overflow-x-auto mb-6\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"3\" class=\"px-4 py-2 font-semibold\">Compartido</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Privado</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">1</th>\n        <th class=\"px-2 py-2\">2</th>\n        <th class=\"px-2 py-2\">3/4</th>\n        <th class=\"px-2 py-2\">5</th>\n        <th class=\"px-2 py-2\">6</th>\n        <th class=\"px-2 py-2\">7</th>\n        <th class=\"px-2 py-2\">8</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">13</td>\n        <td class=\"px-2 py-2\">13</td>\n        <td class=\"px-2 py-2\">134</td>\n        <td class=\"px-2 py-2\">67</td>\n        <td class=\"px-2 py-2\">45</td>\n        <td class=\"px-2 py-2\">30</td>\n        <td class=\"px-2 py-2\">24</td>\n        <td class=\"px-2 py-2\">20</td>\n        <td class=\"px-2 py-2\">18</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<div class=\"overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"4\" class=\"px-4 py-2 text-center font-semibold\">\n          Tarifa Adicional de Entrada NETO USD: BTC Parcial + Catedral + Qoricancha\n        </th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"2\" class=\"px-2 py-2\">Nacional</th>\n        <th colspan=\"2\" class=\"px-2 py-2\">Extranjero</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior/Niño</th>\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Junior/Niño</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">29</td>\n        <td class=\"px-2 py-2\">22</td>\n        <td class=\"px-2 py-2\">40</td>\n        <td class=\"px-2 py-2\">33</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Compra de boleto turístico parcial, Catedral y Coricancha (costos adicionales según nacionalidad).",
           "Traer medicamentos e implementos de higiene personal.",
@@ -1749,10 +1746,8 @@
           "Alimentación adicional",
           "Propinas"
         ],
-        "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos y Niños USD 36. Privado: Adultos USD 237, Niños USD 128, Tarifas especiales por grupo."
-        },
+        "from": "36",
+        "prices": "<div class=\"overflow-x-auto mb-6\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"3\" class=\"px-4 py-2 font-semibold\">Compartido</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Privado</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">1</th>\n        <th class=\"px-2 py-2\">2</th>\n        <th class=\"px-2 py-2\">3/4</th>\n        <th class=\"px-2 py-2\">5</th>\n        <th class=\"px-2 py-2\">6</th>\n        <th class=\"px-2 py-2\">7</th>\n        <th class=\"px-2 py-2\">8</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">36</td>\n        <td class=\"px-2 py-2\">36</td>\n        <td class=\"px-2 py-2\">237</td>\n        <td class=\"px-2 py-2\">128</td>\n        <td class=\"px-2 py-2\">91</td>\n        <td class=\"px-2 py-2\">66</td>\n        <td class=\"px-2 py-2\">56</td>\n        <td class=\"px-2 py-2\">50</td>\n        <td class=\"px-2 py-2\">50</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<div class=\"overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"4\" class=\"px-4 py-2 text-center font-semibold\">\n          Tarifa Adicional de Boleto Turístico Parcial - NETO\n        </th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"2\" class=\"px-2 py-2\">Nacional</th>\n        <th colspan=\"2\" class=\"px-2 py-2\">Extranjero</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adultos</th>\n        <th class=\"px-2 py-2\">Junior/Niño</th>\n        <th class=\"px-2 py-2\">Adultos</th>\n        <th class=\"px-2 py-2\">Junior/Niño</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">14</td>\n        <td class=\"px-2 py-2\">14</td>\n        <td class=\"px-2 py-2\">25</td>\n        <td class=\"px-2 py-2\">25</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Compra de boleto turístico parcial (costos adicionales según nacionalidad).",
           "Medicamentos e implementos de higiene personal.",
@@ -1821,10 +1816,8 @@
           "Alimentación",
           "Propinas"
         ],
-        "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos y Niños USD 26. Privado: Adultos USD 182, Niños USD 95, Tarifas especiales por grupo."
-        },
+        "from": "26",
+        "prices": "<div class=\"overflow-x-auto mb-6\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"3\" class=\"px-4 py-2 font-semibold\">Compartido</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Privado</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">1</th>\n        <th class=\"px-2 py-2\">2</th>\n        <th class=\"px-2 py-2\">3/4</th>\n        <th class=\"px-2 py-2\">5</th>\n        <th class=\"px-2 py-2\">6</th>\n        <th class=\"px-2 py-2\">7</th>\n        <th class=\"px-2 py-2\">8</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">26</td>\n        <td class=\"px-2 py-2\">26</td>\n        <td class=\"px-2 py-2\">182</td>\n        <td class=\"px-2 py-2\">95</td>\n        <td class=\"px-2 py-2\">65</td>\n        <td class=\"px-2 py-2\">56</td>\n        <td class=\"px-2 py-2\">46</td>\n        <td class=\"px-2 py-2\">39</td>\n        <td class=\"px-2 py-2\">39</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<div class=\"overflow-x-auto\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"4\" class=\"px-4 py-2 text-center font-semibold\">\n          Adicional Tarifa de Entrada BT Parcial - Neto (USD)\n        </th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th colspan=\"2\" class=\"px-2 py-2\">Nacional</th>\n        <th colspan=\"2\" class=\"px-2 py-2\">Extranjero</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adultos</th>\n        <th class=\"px-2 py-2\">Junior/Niños</th>\n        <th class=\"px-2 py-2\">Adultos</th>\n        <th class=\"px-2 py-2\">Junior/Niños</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">14</td>\n        <td class=\"px-2 py-2\">14</td>\n        <td class=\"px-2 py-2\">25</td>\n        <td class=\"px-2 py-2\">25</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Compra de boleto turístico parcial (costos adicionales según nacionalidad).",
           "Medicamentos e implementos de higiene personal recomendados.",
@@ -1894,10 +1887,8 @@
           "Alimentación adicional",
           "Propinas"
         ],
-        "prices": {
-          "per": "Por persona",
-          "ext": "Compartido: Adultos y Niños USD 49. Privado: Adultos USD 366, Niños USD 194, tarifas especiales para grupos."
-        },
+        "from": "49",
+        "prices": "<div class=\"overflow-x-auto mb-6\">\n  <table class=\"w-full border-collapse text-center text-sm text-gray-700\">\n    <thead>\n      <tr class=\"border-b border-gray-100 bg-gray-100\">\n        <th colspan=\"3\" class=\"px-4 py-2 font-semibold\">Compartido</th>\n        <th colspan=\"7\" class=\"px-4 py-2 font-semibold\">Privado</th>\n      </tr>\n      <tr class=\"border-b border-gray-200 bg-white\">\n        <th class=\"px-2 py-2\">Adulto</th>\n        <th class=\"px-2 py-2\">Niño</th>\n        <th class=\"px-2 py-2\">1</th>\n        <th class=\"px-2 py-2\">2</th>\n        <th class=\"px-2 py-2\">3/4</th>\n        <th class=\"px-2 py-2\">5</th>\n        <th class=\"px-2 py-2\">6</th>\n        <th class=\"px-2 py-2\">7</th>\n        <th class=\"px-2 py-2\">8</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"border-b border-gray-200\">\n        <td class=\"px-2 py-2\">49</td>\n        <td class=\"px-2 py-2\">49</td>\n        <td class=\"px-2 py-2\">366</td>\n        <td class=\"px-2 py-2\">194</td>\n        <td class=\"px-2 py-2\">136</td>\n        <td class=\"px-2 py-2\">103</td>\n        <td class=\"px-2 py-2\">87</td>\n        <td class=\"px-2 py-2\">76</td>\n        <td class=\"px-2 py-2\">73</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
         "optional": [
           "Uso de bastones de trekking (no incluidos).",
           "Ropa y calzado especializado para caminata.",
@@ -4036,7 +4027,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/tours-chonta-peru.webp",
-          "price": "0"
+          "price": "67"
         },
         "2":{
           "id": "2",
@@ -4046,7 +4037,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-cuatrimotos.webp",
-          "price": "0"
+          "price": "36"
         },
         "3":{
           "id": "3",
@@ -4056,7 +4047,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/moray-landscape-tours.webp",
-          "price": "0"
+          "price": "74"
         },
         "4":{
           "id": "4",
@@ -4066,7 +4057,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
-          "price": "0"
+          "price": "51"
         },
         "5":{
           "id": "5",
@@ -4076,7 +4067,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "price": "0"
+          "price": "126"
         },
         "6":{
           "id": "6",
@@ -4086,7 +4077,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
-          "price": "0"
+          "price": "236"
         },
         "7":{
           "id": "7",
@@ -4096,7 +4087,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/laguna-huamantay-cusco.webp",
-          "price": "0"
+          "price": "49"
         },
         "8":{
           "id": "8",
@@ -4106,7 +4097,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/maras-landscape-tours.webp",
-          "price": "0"
+          "price": "24"
         },
         "9":{
           "id": "9",
@@ -4116,7 +4107,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris-landscape.webp",
-          "price": "0"
+          "price": "50"
         },
         "10":{
           "id": "10",
@@ -4126,7 +4117,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-tours.webp",
-          "price": "0"
+          "price": "14"
         },
         "11":{
           "id": "11",
@@ -4136,7 +4127,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/Q'eswachaca-ultimo-puente-inca.webp",
-          "price": "0"
+          "price": "55"
         },
         "12":{
           "id": "12",
@@ -4146,7 +4137,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/rafting-cusco.webp",
-          "price": "0"
+          "price": "80"
         },
         "13":{
           "id": "13",
@@ -4156,7 +4147,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape.webp",
-          "price": "0"
+          "price": "83"
         },
         "14":{
           "id": "14",
@@ -4166,7 +4157,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/puno-landscape-tour.webp",
-          "price": "0"
+          "price": "83"
         },
         "15":{
           "id": "15",
@@ -4176,7 +4167,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
-          "price": "0"
+          "price": "50"
         },
         "16":{
           "id": "16",
@@ -4186,7 +4177,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle-landscape.webp",
-          "price": "0"
+          "price": "295"
         },
         "17":{
           "id": "17",
@@ -4196,7 +4187,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp",
-          "price": "0"
+          "price": "39"
         },
         "18":{
           "id": "18",
@@ -4206,7 +4197,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-landscape.webp",
-          "price": "0"
+          "price": "13"
         },
         "19":{
           "id": "19",
@@ -4216,7 +4207,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/cusco-super-valle.webp",
-          "price": "0"
+          "price": "36"
         },
         "20":{
           "id": "20",
@@ -4226,7 +4217,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/arqueologico-pikillaqta-cusco.webp",
-          "price": "0"
+          "price": "26"
         },
         "21":{
           "id": "21",
@@ -4236,7 +4227,7 @@
           "days": "0",
           "nights": "0",
           "image": "assets/img/ways-to-travel/travel-by-interest/tours/montana-arcoiris.webp",
-          "price": "0"
+          "price": "49"
         }
       }
     },

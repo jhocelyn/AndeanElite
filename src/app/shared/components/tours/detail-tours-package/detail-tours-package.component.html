@@ -14,15 +14,11 @@
   </div>
 
   <!-- Secciones del Contenido -->
-  <div *ngFor="let section of sections" [hidden]="activeSection !== section.id" class="p-8 ">
+  <div *ngFor="let section of sections" [hidden]="activeSection !== section.id" class="p-8">
     <ng-container [ngSwitch]="section.id">
 
       <!-- Descripción -->
       <div *ngSwitchCase="'description'">
-
-        <h2 class="text-2xl font-semibold text-[#042a4e]">{{ packageData.subtitle }}</h2>
-        <p [innerHTML]="packageData.description"></p>
-
         <div class="bg-gray-100 p-6 rounded-2xl my-4 shadow-md ">
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
             <li class="flex items-center gap-2">
@@ -69,6 +65,9 @@
             {{ 'INFO_PACKAGES.DESCRIPTION.READ_NOTES' | translate }}
           </p>
         </div>
+
+        <h2 class="text-2xl font-semibold text-[#042a4e]">{{ packageData.subtitle }}</h2>
+        <p [innerHTML]="packageData.description"></p>
 
         <h2 class="text-2xl font-semibold text-[#042a4e] my-4">{{ 'INFO_PACKAGES.WHY_YOU_WILL_LOVE' | translate:{subtitle: packageData.subtitle} }}</h2>
         <ul>

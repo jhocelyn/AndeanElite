@@ -13,27 +13,41 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         *ngFor="let package of packages"
-        class="bg-white shadow-lg cursor-pointer hover:shadow-xl transition"
+        class="bg-white shadow-md hover:shadow-xl transition-shadow duration-300 rounded-md overflow-hidden cursor-pointer flex flex-col"
         (click)="goToPackageDetails(package.slug)"
       >
-        <img [src]="package.image" [alt]="package.title" class="w-full h-[50vh] object-cover rounded-t-md" />
-        <div class="py-4 h-full">
-          <h3 class="text-center px-2 text-lg font-bold text-[#034873]">
-            {{ package.title }}
-          </h3>
-          <h4
-            *ngIf="package.days !== '0' && package.nights !== '0'"
-            class="text-center text-sm font-normal text-[#034873']"
-          >
-            {{ package.days }}D / {{ package.nights }}N
-          </h4>
-          <h4 class="text-center py-2 text-base font-semibold text-red-700">
-            {{ 'INFO_PACKAGES.FROM' |translate}} {{ package.price }}$
-          </h4>
+        <!-- Imagen -->
+        <img
+          [src]="package.image"
+          [alt]="package.title"
+          class="w-full h-[50vh] object-cover"
+        />
 
-          <div class="text-center text-sm font-semibold">
-            <button class="rounded-2xl bg-[#042a4e] text-white px-4 py-2 hover:bg-blue-900 transition-colors duration-300" (click)="goToPackageDetails(package.slug)">
-              Ver Programa >
+        <!-- Contenido -->
+        <div class="flex flex-col justify-between flex-grow px-4 py-4">
+          <!-- Parte superior: título y duración -->
+          <div class="text-center">
+            <h3 class="text-lg font-bold text-[#034873]">
+              {{ package.title }}
+            </h3>
+            <h4
+              *ngIf="package.days !== '0' && package.nights !== '0'"
+              class="text-sm font-normal text-[#034873]"
+            >
+              {{ package.days }}D / {{ package.nights }}N
+            </h4>
+          </div>
+
+          <!-- Parte inferior: precio y botón -->
+          <div class="text-center mt-6">
+            <p class="text-base font-semibold text-red-700">
+              {{ 'INFO_PACKAGES.FROM' | translate }} {{ package.price }}$
+            </p>
+            <button
+              class="mt-2 rounded-2xl bg-[#042a4e] text-white px-4 py-2 hover:bg-blue-900 transition-colors duration-300"
+              (click)="goToPackageDetails(package.slug); $event.stopPropagation()"
+            >
+              Ver Programa &gt;
             </button>
           </div>
         </div>
