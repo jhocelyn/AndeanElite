@@ -1,17 +1,85 @@
 <div>
-<app-slider></app-slider> <!-- Slider -->
-</div>
-<!--Learn More Seccion-->
-<div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center w-full md:gap-40 h-[40vh]">
-  <div class="flex flex-col items-center justify-center gap-5 w-[80%] xl:w-[540px] p-10 md:p-0">
-    <h6 class="text-xl xl:text-[20px] font-extralight text-[#034873]">
-      ANDEAN ELITE
-    </h6>
-    <p class="text-center text-lg xl:text-[25px] text-[#034873]">
-      {{ 'ANDEANELITE.DESCRIPTION' | translate }}
-    </p>
+  <div>
+  <app-slider></app-slider> <!-- Slider -->
+  </div>
+  <!--Learn More Seccion-->
+  <div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-center w-full md:gap-40 h-[40vh]">
+    <div class="flex flex-col items-center justify-center gap-5 w-[80%] xl:w-[540px] p-10 md:p-0">
+      <h6 class="text-xl xl:text-[20px] font-extralight text-[#034873]">
+        ANDEAN ELITE
+      </h6>
+      <p class="text-center text-lg xl:text-[25px] text-[#034873]">
+        {{ 'ANDEANELITE.DESCRIPTION' | translate }}
+      </p>
+      <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
+        <span class="text-[#FFFFFF] text-[25px] xl:text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
+          <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
+            {{ 'BUTTON.READ_MORE' | translate }}
+          </span>
+          <span class="opacity-0 translate-x-[10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
+            →
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <!--Why ANDEANELITE Seccion-->
+  <div class="flex items-center justify-center flex-col bg-[#034873] text-white gap-10 md:gap-20 px-4 py-10 xl:py-16">
+    <!-- Título principal -->
+    <h1 class="text-center text-4xl xl:text-[50px] font-light">
+      {{ 'WHYANDEANELITE.TITLE' | translate }}
+    </h1>
+
+    <!-- Contenedor de los elementos -->
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-14">
+      <div
+        class="flex items-start gap-4 max-w-[350px] text-justify"
+        *ngFor="let item of whyItems; let i = index"
+      >
+          <i [ngClass]="'fa-solid ' + icons[i]" class="text-[50px] md:text-[60px]"></i>      <div>
+          <h2 class="text-xl text-justify font-semibold mb-2">{{ item.title }}</h2>
+          <p class="text-sm text-start">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--TRAVEL with ANDEANELITE Seccion-->
+  <div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col h-[70vh] items-center justify-center w-full p-4 ">
+    <h1 class="text-center w-full text-[20px] xl:text-[45px] font-extralight text-[#034873] mb-8">{{ 'TRAVELWITH.TITLE' | translate}}</h1>
+    <div class="flex flex-col text-center gap-5 text-[15px] xl:text-[17px] font-normal xl:w-[160vh] text-[#4D6270] mb-5">
+      <p class="">{{ 'TRAVELWITH.1' | translate}}</p>
+      <p class="">{{ 'TRAVELWITH.2' | translate}}</p>
+      <p class="">{{ 'TRAVELWITH.3' | translate}}</p>
+    </div>
     <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
-      <span class="text-[#FFFFFF] text-[25px] xl:text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
+    <span class="text-[#FFFFFF] text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
+      <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
+        {{ 'TRAVELWITH.BUTTON' | translate}}
+      </span>
+      <span class="opacity-0 translate-x-[10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
+        →
+      </span>
+    </span>
+    </button>
+
+  </div>
+  <!--Discover Seccion-->
+  <div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#0F2D40] ">
+    <!-- Título -->
+    <div class="text-2xl sm:text-4xl font-extralight text-white mb-6 text-center">
+      {{ galleryTitle }}
+    </div>
+
+    <div class=" max-w-[350px] xl:max-w-[1200px]">
+      <!-- Galería -->
+      <app-gallery
+        [title]="galleryTitle"
+        [images]="galleryImages">
+      </app-gallery>
+      </div>
+    <!-- Botón -->
+    <button class="mt-6 bg-[#4D6270] rounded-full w-3/4 sm:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873] focus:ring-2 focus:ring-blue-300">
+      <span class="text-white text-base sm:text-lg font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
         <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
           {{ 'BUTTON.READ_MORE' | translate }}
         </span>
@@ -21,127 +89,65 @@
       </span>
     </button>
   </div>
-</div>
-<!--Why ANDEANELITE Seccion-->
-<div class="flex items-center justify-center flex-col bg-[#034873] text-white gap-10 md:gap-20 px-4 py-10 xl:py-16">
-  <!-- Título principal -->
-  <h1 class="text-center text-4xl xl:text-[50px] font-light">
-    {{ 'WHYANDEANELITE.TITLE' | translate }}
-  </h1>
-
-  <!-- Contenedor de los elementos -->
-  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-14">
-    <div
-      class="flex items-start gap-4 max-w-[350px] text-justify"
-      *ngFor="let item of whyItems; let i = index"
-    >
-        <i [ngClass]="'fa-solid ' + icons[i]" class="text-[50px] md:text-[60px]"></i>      <div>
-        <h2 class="text-xl text-justify font-semibold mb-2">{{ item.title }}</h2>
-        <p class="text-sm text-start">{{ item.description }}</p>
-      </div>
+  <!--Customers Seccion-->
+  <div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] ">
+    <!-- Título -->
+    <div class="text-2xl sm:text-4xl font-extralight text-[#034873] text-center mb-6">
+      {{ galleryTitle1 }}
     </div>
-  </div>
-</div>
-<!--TRAVEL with ANDEANELITE Seccion-->
-<div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col h-[70vh] items-center justify-center w-full p-4 ">
-  <h1 class="text-center w-full text-[20px] xl:text-[45px] font-extralight text-[#034873] mb-8">{{ 'TRAVELWITH.TITLE' | translate}}</h1>
-  <div class="flex flex-col text-center gap-5 text-[15px] xl:text-[17px] font-normal xl:w-[160vh] text-[#4D6270] mb-5">
-    <p class="">{{ 'TRAVELWITH.1' | translate}}</p>
-    <p class="">{{ 'TRAVELWITH.2' | translate}}</p>
-    <p class="">{{ 'TRAVELWITH.3' | translate}}</p>
-  </div>
-  <button class="bg-[#4D6270] rounded-full w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
-  <span class="text-[#FFFFFF] text-[20px] font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
-    <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
-      {{ 'TRAVELWITH.BUTTON' | translate}}
-    </span>
-    <span class="opacity-0 translate-x-[10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
-      →
-    </span>
-  </span>
-  </button>
 
-</div>
-<!--Discover Seccion-->
-<div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#0F2D40] ">
-  <!-- Título -->
-  <div class="text-2xl sm:text-4xl font-extralight text-white mb-6 text-center">
-    {{ galleryTitle }}
-  </div>
-
-  <div class=" max-w-[350px] xl:max-w-[1200px]">
     <!-- Galería -->
-    <app-gallery
-      [title]="galleryTitle"
-      [images]="galleryImages">
-    </app-gallery>
+    <div class=" max-w-[350px] xl:max-w-[1200px]">
+      <app-gallery
+        [title]="galleryTitle1"
+        [images]="galleryImages1">
+      </app-gallery>
     </div>
-  <!-- Botón -->
-  <button class="mt-6 bg-[#4D6270] rounded-full w-3/4 sm:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873] focus:ring-2 focus:ring-blue-300">
-    <span class="text-white text-base sm:text-lg font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
-      <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
-        {{ 'BUTTON.READ_MORE' | translate }}
-      </span>
-      <span class="opacity-0 translate-x-[10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
-        →
-      </span>
-    </span>
-  </button>
-</div>
-<!--Customers Seccion-->
-<div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] ">
-  <!-- Título -->
-  <div class="text-2xl sm:text-4xl font-extralight text-[#034873] text-center mb-6">
-    {{ galleryTitle1 }}
-  </div>
 
-  <!-- Galería -->
-  <div class=" max-w-[350px] xl:max-w-[1200px]">
-    <app-gallery
-      [title]="galleryTitle1"
-      [images]="galleryImages1">
-    </app-gallery>
-  </div>
-
-  <!-- Botón -->
-  <button class="mt-6 bg-[#4D6270] rounded-full w-3/4 sm:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873] focus:ring-2 focus:ring-blue-300">
-    <span class="text-white text-lg sm:text-xl font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
-      <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
-        {{ 'BUTTON.READ_MORE' | translate }}
-      </span>
-      <span class="opacity-0 translate-x-[10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
-        →
-      </span>
-    </span>
-  </button>
-</div>
-<!--Contact us Seccion-->
-<div class="flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
-  <div class="hidden xl:block h-[50vh] w-[50vh]">
-    <img class="h-full object-cover" src="/assets/img/destinations/cusco/peru-weavers-llama.webp" alt="a">
-  </div>
-  <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col col-span-3 gap-6 p-4 ">
-    <h1 class="text-[30px] font-extralight text-[#034873]">{{ 'CONTACTUS.TITLE' | translate }}</h1>
-    <p class="text-[10px] md:text-[20px] font-normal text-[#4D6270]">{{ 'CONTACTUS.DESCRIPTION' | translate }}</p>
-    <form class="flex flex-col gap-5">
-      <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="{{ 'CONTACTUS.NAME' | translate }}">
-      <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="{{ 'CONTACTUS.EMAIL' | translate }}">
-      <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="{{ 'CONTACTUS.PHONE' | translate }}">
-      <button class="bg-[#4D6270] rounded-full w-[150px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
-        <span class="text-white text-[20px] font-extralight flex items-center space-x-2">
-          <span class="group-hover:-translate-x-2 transition-transform duration-300 ease-in-out">{{ 'CONTACTUS.BUTTON' | translate }}</span>
-          <span
-            class="opacity-0 translate-x-[-10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
-            →
-          </span>
+    <!-- Botón -->
+    <button class="mt-6 bg-[#4D6270] rounded-full w-3/4 sm:w-[250px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873] focus:ring-2 focus:ring-blue-300">
+      <span class="text-white text-lg sm:text-xl font-light flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out">
+        <span class="ml-7 transition-transform duration-300 ease-in-out group-hover:translate-x-[-10px]">
+          {{ 'BUTTON.READ_MORE' | translate }}
         </span>
-      </button>
-    </form>
+        <span class="opacity-0 translate-x-[10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
+          →
+        </span>
+      </span>
+    </button>
   </div>
-</div>
+  <!--Contact us Seccion-->
+  <div class="flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
+    <div class="hidden xl:block h-[50vh] w-[50vh]">
+      <img class="h-full object-cover" src="/assets/img/destinations/cusco/peru-weavers-llama.webp" alt="a">
+    </div>
+    <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col col-span-3 gap-6 p-4 ">
+      <h1 class="text-[30px] font-extralight text-[#034873]">{{ 'CONTACTUS.TITLE' | translate }}</h1>
+      <p class="text-[10px] md:text-[20px] font-normal text-[#4D6270]">{{ 'CONTACTUS.DESCRIPTION' | translate }}</p>
+      <form class="flex flex-col gap-5">
+        <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="{{ 'CONTACTUS.NAME' | translate }}">
+        <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="{{ 'CONTACTUS.EMAIL' | translate }}">
+        <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid border-[1px]" type="text" placeholder="{{ 'CONTACTUS.PHONE' | translate }}">
+        <button class="bg-[#4D6270] rounded-full w-[150px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
+          <span class="text-white text-[20px] font-extralight flex items-center space-x-2">
+            <span class="group-hover:-translate-x-2 transition-transform duration-300 ease-in-out">{{ 'CONTACTUS.BUTTON' | translate }}</span>
+            <span
+              class="opacity-0 translate-x-[-10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
+              →
+            </span>
+          </span>
+        </button>
+      </form>
+    </div>
+  </div>
 
-<!-- Botón flotante -->
-<a href="https://wa.me/51926941001?text=Hola%2C%20quiero%20planificar%20mi%20viaje"
-   class="fixed top-28 right-5 bg-[#FFFFFF] text-[#042A4E] px-20 py-3 rounded-full shadow-lg hover:bg-[#0F2D40] hover:text-white transition"
-   style="z-index: 1000;">
-  {{'PLANYOURTRIP'|translate}}</a>
+  <a
+    href="https://wa.me/51926941001?text=Hola%2C%20quiero%20planificar%20mi%20viaje"
+    [ngClass]="{
+    'top-28': !scrolled,
+    'top-4': scrolled
+  }"
+    class="fixed top-28 right-5 transition-all duration-500 ease-in-out text-2xl bg-white text-[#042A4E] px-24 py-3 rounded-full shadow-lg hover:bg-[#0F2D40] hover:text-white z-[1000]">
+    {{ 'PLANYOURTRIP' | translate }}
+  </a>
+</div>

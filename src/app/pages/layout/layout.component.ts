@@ -10,7 +10,7 @@ import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [NavbarComponent, SliderComponent, GalleryComponent, FooterComponent, TranslatePipe, NgForOf, NgClass],
+  imports: [ SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
@@ -36,8 +36,32 @@ export class LayoutComponent implements OnInit{
     @Inject(PLATFORM_ID) private platformId: Object,
     private translate: TranslateService
   ) {
-    this.loadWhyItems();
+    if (isPlatformBrowser(this.platformId)) {
+      AOS.init();
+      // Forzar evaluación inicial
+      this.onWindowScroll();
+    }
+
+    this.loadTranslations();
+
+    this.translate.onLangChange.subscribe(() => {
+      this.loadTranslations();
+      this.loadWhyItems();
+    });
   }
+  scrolled = false;
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    this.scrolled = scrollTop > 100;
+    console.log('scrollTop:', scrollTop, '→ scrolled:', this.scrolled);
+
+    const maxScroll = 200;
+    this.logoOpacity = Math.max(1 - scrollTop / maxScroll, 0);
+    this.logoScale = Math.max(1 - scrollTop / (maxScroll * 2), 0.5);
+  }
+
+
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
@@ -76,12 +100,5 @@ export class LayoutComponent implements OnInit{
     });
   }
 
-  @HostListener('window:scroll', [])
-  onScroll() {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const maxScroll = 200;
-    this.logoOpacity = Math.max(1 - scrollTop / maxScroll, 0);
-    this.logoScale = Math.max(1 - scrollTop / (maxScroll * 2), 0.5);
-  }
 
 }
