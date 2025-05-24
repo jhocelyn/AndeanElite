@@ -1,1 +1,63 @@
-<app-banner [backgroundImage]="CorporateData.image" [title]="CorporateData.title"></app-banner>
+<app-banner
+  [backgroundImage]="'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.IMAGE'"
+  [title]="'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.TITLE'">
+</app-banner>
+
+<div class="flex flex-col items-center px-4 py-10 w-full">
+  <h2 class="text-2xl md:text-3xl font-semibold text-[#042a4e] text-center mb-6">
+    {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.SUBTITLE' | translate }}
+  </h2>
+
+  <p class="text-lg text-gray-700 text-center max-w-4xl mb-10">
+    {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.DESCRIPTION' | translate }}
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-calendar-alt text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.0.title' | translate }}
+      </h3>
+      <p class="text-gray-600">
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.0.description' | translate }}
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-users text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.1.title' | translate }}
+      </h3>
+      <p class="text-gray-600">
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.1.description' | translate }}
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-file-alt text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.2.title' | translate }}
+      </h3>
+      <p class="text-gray-600">
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.2.description' | translate }}
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-building text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.3.title' | translate }}
+      </h3>
+      <p class="text-gray-600">
+        {{ 'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.POINTS.3.description' | translate }}
+      </p>
+    </div>
+
+  </div>
+
+  <div class="mt-12  p-6 text-center max-w-3xl">
+    <p class="text-lg font-medium text-[#042a4e] mb-2" [innerHTML]="'TRAVEL_BY_INTEREST.CORPORATE_TRAVEL.ACTION' | translate">
+    </p>
+  </div>
+</div>

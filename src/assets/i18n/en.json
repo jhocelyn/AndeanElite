@@ -4373,7 +4373,27 @@
     "CORPORATE_TRAVEL": {
       "TITLE": "Corporate Travel",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp",
-      "DESCRIPTION": "Corporate travel services for companies. We offer personalized packages to meet the needs of your business, from transportation to accommodation and activities."
+      "DESCRIPTION": "Andean Elite specializes in seamless corporate travel experiences in Peru and Latin America. Whether you’re planning a business meeting, incentive trip, or executive retreat, we provide fully tailored travel solutions—from premium transportation and luxury accommodations to curated cultural and adventure experiences.",
+      "SUBTITLE": "Corporate Travel Services in Peru – Tailored Business Experiences",
+      "POINTS": [
+        {
+          "title":"End-to-End Coordination",
+          "description":"We manage all logistics, so your team can focus on what matters most—your business. This includes flights, airport transfers, hotel bookings, meeting venues, and more."
+        },
+        {
+          "title":"Corporate Retreats & Incentives",
+          "description":"Reward your team with unforgettable incentive travel. Explore Machu Picchu, host executive meetings in the Sacred Valley, or bond through high-end adventure experiences like luxury treks, wellness programs, or Peruvian cooking classes.\n"
+        },
+        {
+          "title":"Customized Itineraries",
+          "description":"Each corporate group is unique. We design programs based on your team’s size, objectives, and interests. From immersive cultural tours to executive workshops in iconic locations, your journey will reflect your company’s identity."
+        },
+        {
+          "title":"Luxury Standards",
+          "description":"Enjoy 24/7 support, bilingual hosts, and a curated selection of 4- and 5-star services across Peru’s most iconic destinations. We ensure a seamless, exclusive travel experience that matches your brand’s standards."
+        }
+      ],
+      "ACTION": "Let’s plan your next corporate journey.<br>Contact us today for a custom proposal tailored to your business goals."
     },
     "CRUISE": {
       "TITLE": "Cruices",
