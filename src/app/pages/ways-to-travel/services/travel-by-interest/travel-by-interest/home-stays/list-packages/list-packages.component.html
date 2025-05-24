@@ -1,6 +1,64 @@
-<app-list-packages-structure
+<app-banner
   [backgroundImage]="'TRAVEL_BY_INTEREST.HOME_STAYS.IMAGE'"
-  [title]="'TRAVEL_BY_INTEREST.HOME_STAYS.TITLE'"
-  [description]="HomeStaysData?.DESCRIPTION"
-  [packages]="HomeStaysData?.PACKAGES"
-></app-list-packages-structure>
+  [title]="'TRAVEL_BY_INTEREST.HOME_STAYS.TITLE'">
+</app-banner>
+
+<div class="flex flex-col items-center px-4 py-10 w-full">
+  <h2 class="text-2xl md:text-3xl font-semibold text-[#042a4e] text-center mb-6">
+    {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.SUBTITLE' | translate }}
+  </h2>
+
+  <p class="text-lg text-gray-700 text-center max-w-4xl mb-10">
+    {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.DESCRIPTION' | translate }}
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fa-solid fa-handshake text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.0.title' | translate }}
+      </h3>
+      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.0.description' | translate">
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-users text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.1.title' | translate }}
+      </h3>
+      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.1.description' | translate ">
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-mountain text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.2.title' | translate }}
+      </h3>
+      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.2.description' | translate">
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold text-[#042a4e] mb-2 flex items-center gap-2">
+        <i class="fas fa-utensils text-[#042a4e]"></i>
+        {{ 'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.3.title' | translate }}
+      </h3>
+      <p class="text-gray-600" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.POINTS.3.description' | translate">
+      </p>
+    </div>
+
+  </div>
+
+  <div class="mt-12  p-6 text-center max-w-3xl">
+    <p class="text-lg font-medium text-[#042a4e] mb-2" [innerHTML]="'TRAVEL_BY_INTEREST.HOME_STAYS.ACTION' | translate">
+    </p>
+  </div>
+</div>
+
+<app-structure-list-packages-homestays
+[packages]="HomestaysData"
+[video]="'assets/videos/video-homestays.mp4'"
+></app-structure-list-packages-homestays>

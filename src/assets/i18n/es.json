@@ -4356,9 +4356,29 @@
 
     },
     "CORPORATE_TRAVEL": {
-      "TITLE": "Viaje Corporativo",
+      "TITLE": "Corporate Travel",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp",
-      "DESCRIPTION": "Viajes corporativos a medida para empresas. Ofrecemos servicios de transporte, alojamiento y actividades personalizadas para satisfacer las necesidades de tu empresa."
+      "DESCRIPTION": "Andean Elite specializes in seamless corporate travel experiences in Peru and Latin America. Whether you’re planning a business meeting, incentive trip, or executive retreat, we provide fully tailored travel solutions—from premium transportation and luxury accommodations to curated cultural and adventure experiences.",
+      "SUBTITLE": "Corporate Travel Services in Peru – Tailored Business Experiences",
+      "POINTS": [
+        {
+          "title":"End-to-End Coordination",
+          "description":"We manage all logistics, so your team can focus on what matters most—your business. This includes flights, airport transfers, hotel bookings, meeting venues, and more."
+        },
+        {
+          "title":"Corporate Retreats & Incentives",
+          "description":"Reward your team with unforgettable incentive travel. Explore Machu Picchu, host executive meetings in the Sacred Valley, or bond through high-end adventure experiences like luxury treks, wellness programs, or Peruvian cooking classes.\n"
+        },
+        {
+          "title":"Customized Itineraries",
+          "description":"Each corporate group is unique. We design programs based on your team’s size, objectives, and interests. From immersive cultural tours to executive workshops in iconic locations, your journey will reflect your company’s identity."
+        },
+        {
+          "title":"Luxury Standards",
+          "description":"Enjoy 24/7 support, bilingual hosts, and a curated selection of 4- and 5-star services across Peru’s most iconic destinations. We ensure a seamless, exclusive travel experience that matches your brand’s standards."
+        }
+      ],
+      "ACTION": "Let’s plan your next corporate journey.<br>Contact us today for a custom proposal tailored to your business goals."
     },
     "CRUISE": {
       "TITLE": "Crucero",
@@ -4376,9 +4396,108 @@
       "DESCRIPTION": "Viaja en familia y disfruta de experiencias únicas. Ofrecemos paquetes diseñados para todas las edades, asegurando diversión y aprendizaje para todos."
     },
     "HOME_STAYS": {
-      "TITLE": "Estancias",
+      "TITLE": "Home Stays",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp",
-      "DESCRIPTION": "Estancias en comunidades locales para una experiencia auténtica. Vive la cultura peruana de cerca y contribuye al desarrollo sostenible de las comunidades que visitas."
+      "DESCRIPTION": "Disconnect from routine and reconnect with the roots of the Andes.\nAt Andean Elite, our homestay experiences allow you to live, feel, and celebrate the daily life of native communities—hand in hand with the people who call these sacred lands home.",
+      "SUBTITLE": "Homestays in Peru – Live the Culture from Within",
+      "POINTS": [
+        {
+          "title":"Cultural Immersion",
+          "description":"<strong>Live as locals do.</strong><br>Participate in traditional ceremonies, dance festivals, and community gatherings. Your hosts will welcome you not as a tourist—but as part of their family."
+        },
+        {
+          "title":"Daily Traditions",
+          "description":"<strong>Cook, weave, harvest.</strong><br>Learn ancestral practices in their original setting. From hand-weaving to farming and cooking with local ingredients, connect with traditions that have lasted centuries."
+        },
+        {
+          "title":"Sacred Landscapes",
+          "description":"<strong>Wake up to the beauty of the Andes.</strong><br>Stay in breathtaking natural environments—from lakeside communities to ancient valleys—where every sunrise feels like a spiritual encounter."
+        },
+        {
+          "title":"Shared Meals",
+          "description":"<strong>Flavors that tell stories.</strong><br>Enjoy home-cooked meals that go beyond food—they’re stories passed down through generations. Sit, eat, laugh, and share at a local family’s table."
+        }
+      ],
+      "ACTION": "<strong>Don’t just visit Peru—live it, love it, and let it change you.</strong><br>Contact us today to plan your personalized cultural journey.",
+      "PACKAGES": {
+        "1": {
+          "id": "1",
+          "title": "Cusco Express",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
+          "price": "406.35"
+        },
+        "2": {
+          "id": "2",
+          "title": "Essential Cusco & Machu Picchu\n",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
+          "price": "623.7"
+        },
+        "3": {
+          "id": "3",
+          "title": "Must-See Cusco Tour",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
+          "price": "514.5"
+        },
+        "4": {
+          "id": "4",
+          "title": "Cusco and Rainbow Mountain",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
+          "price": "601.65"
+        },
+        "5": {
+          "id": "5",
+          "title": "Charms of Cusco and Humantay Lagoon",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/destinations/cusco/lake-huamantay.webp",
+          "price": "529.2"
+        },
+        "6": {
+          "id": "6",
+          "title": "Discover Cusco and the Oasis",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "image": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
+          "price": "0"
+        }
+      }
+
     },
     "MICE": {
       "TITLE": "MICE",

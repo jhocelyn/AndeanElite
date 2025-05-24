@@ -4414,7 +4414,106 @@
     "HOME_STAYS": {
       "TITLE": "Home Stays",
       "IMAGE": "assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp",
-      "DESCRIPTION": "Home Stays designed for those who want to explore the most beautiful places in Peru. From the Inca Trail to the Rainbow Mountain, we have the perfect option for you."
+      "DESCRIPTION": "Disconnect from routine and reconnect with the roots of the Andes.\nAt Andean Elite, our homestay experiences allow you to live, feel, and celebrate the daily life of native communities—hand in hand with the people who call these sacred lands home.",
+      "SUBTITLE": "Homestays in Peru – Live the Culture from Within",
+      "POINTS": [
+        {
+          "title":"Cultural Immersion",
+          "description":"<strong>Live as locals do.</strong><br>Participate in traditional ceremonies, dance festivals, and community gatherings. Your hosts will welcome you not as a tourist—but as part of their family."
+        },
+        {
+          "title":"Daily Traditions",
+          "description":"<strong>Cook, weave, harvest.</strong><br>Learn ancestral practices in their original setting. From hand-weaving to farming and cooking with local ingredients, connect with traditions that have lasted centuries."
+        },
+        {
+          "title":"Sacred Landscapes",
+          "description":"<strong>Wake up to the beauty of the Andes.</strong><br>Stay in breathtaking natural environments—from lakeside communities to ancient valleys—where every sunrise feels like a spiritual encounter."
+        },
+        {
+          "title":"Shared Meals",
+          "description":"<strong>Flavors that tell stories.</strong><br>Enjoy home-cooked meals that go beyond food—they’re stories passed down through generations. Sit, eat, laugh, and share at a local family’s table."
+        }
+      ],
+      "ACTION": "<strong>Don’t just visit Peru—live it, love it, and let it change you.</strong><br>Contact us today to plan your personalized cultural journey.",
+      "PACKAGES": {
+        "1": {
+          "id": "1",
+          "title": "Cusco Express",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp",
+          "price": "406.35"
+        },
+        "2": {
+          "id": "2",
+          "title": "Essential Cusco & Machu Picchu\n",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-ruins.webp",
+          "price": "623.7"
+        },
+        "3": {
+          "id": "3",
+          "title": "Must-See Cusco Tour",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/destinations/cusco/machu-picchu-inca-view.webp",
+          "price": "514.5"
+        },
+        "4": {
+          "id": "4",
+          "title": "Cusco and Rainbow Mountain",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/destinations/cusco/seven-colors-mountain-peru.webp",
+          "price": "601.65"
+        },
+        "5": {
+          "id": "5",
+          "title": "Charms of Cusco and Humantay Lagoon",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/destinations/cusco/lake-huamantay.webp",
+          "price": "529.2"
+        },
+        "6": {
+          "id": "6",
+          "title": "Discover Cusco and the Oasis",
+          "city": "cusco",
+          "categories": [
+            "adventure",
+            "culture"
+          ],
+          "image": "assets/img/destinations/cusco/machu-picchu-overlook-view.webp",
+          "price": "0"
+        }
+      }
+
     },
     "MICE": {
       "TITLE": "MICE",

@@ -1,28 +1,54 @@
-import { Component } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {
     ListPackagesStructureComponent
 } from "../../../../../../../shared/components/general/list-packages-structure/list-packages-structure.component";
-import {TranslateService} from '@ngx-translate/core';
+import {LangChangeEvent, TranslatePipe, TranslateService} from '@ngx-translate/core';
+import {BannerComponent} from '../../../../../../../shared/components/general/banner/banner.component';
+import {
+  StructureListPackagesHomestaysComponent
+} from '../../../../../../../shared/components/homestays/structure-list-packages-homestays/structure-list-packages-homestays.component';
+import {SimplePackage} from '../../../../../../../shared/models/SimplePackage.model';
+import {PackagesService} from '../../../../../../../services/packages.service';
+import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-list-packages',
   standalone: true,
-    imports: [
-        ListPackagesStructureComponent
-    ],
+  imports: [
+    BannerComponent,
+    TranslatePipe,
+    StructureListPackagesHomestaysComponent
+  ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })
-export class ListPackagesComponent {
-  HomeStaysData: any;
+export class ListPackagesComponent implements OnInit,OnDestroy{
+  HomestaysData: SimplePackage[] = [];
 
-  constructor(private translate: TranslateService) {
-    this.loadTrekkingData();
-  }
+  private langSubscription?: Subscription;
 
-  loadTrekkingData() {
-    this.translate.get('TRAVEL_BY_INTEREST.HOME_STAYS').subscribe((data) => {
-      this.HomeStaysData = data;
+  constructor(
+    private packageService: PackagesService,
+    private translate: TranslateService
+  ) {}
+
+  ngOnInit(): void {
+    this.loadPackages();
+    // Escuchar cambios de idioma
+    this.langSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.loadPackages();
     });
   }
+
+
+  ngOnDestroy(): void {
+    this.langSubscription?.unsubscribe();
+  }
+
+  loadPackages(): void {
+    this.packageService.getPackages('HOME_STAYS').subscribe(data => {
+      this.HomestaysData = data;
+    });
+  }
+
 }
