@@ -9,10 +9,8 @@ export interface TravelPackageModel {
   endDate: string;
   includes: string[];
   notIncluded: string[];
-  prices: {
-    per: string;
-    ext: string;
-  };
+  from: string;
+  prices: string;
   optional: string[];
   politics: string[];
   images: {

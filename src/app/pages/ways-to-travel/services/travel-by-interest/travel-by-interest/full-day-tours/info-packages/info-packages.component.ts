@@ -7,33 +7,7 @@ import {
   DetailToursPackageComponent
 } from '../../../../../../../shared/components/tours/detail-tours-package/detail-tours-package.component';
 import {Subscription} from 'rxjs';
-
-
-interface PackageData {
-  id: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  whyChooseUs: string[];
-  itinerary: string[];
-  startDate: string;
-  endDate: string;
-  from:string;
-  includes: string[];
-  notIncluded: string[];
-  prices: {
-    per: string;
-    ext: string;
-  };
-  optional: string[];
-  politics: string[];
-  images: {
-    alt: string;
-    src: string;
-    width: number;
-  }[];
-}
-
+import {TravelPackageModel} from '../../../../../../../shared/models/TravelPackage.model';
 
 @Component({
   selector: 'app-info-packages',
@@ -48,7 +22,7 @@ interface PackageData {
   styleUrls: ['./info-packages.component.css']
 })
 export class InfoPackagesComponent implements OnDestroy{
-  packageData: PackageData | undefined;
+  packageData: TravelPackageModel | undefined;
   private subscription: Subscription | undefined;
   packageId: string | undefined;
 
@@ -70,7 +44,7 @@ export class InfoPackagesComponent implements OnDestroy{
     if (!this.packageId) return;
 
     this.translate.get(`PACKAGES.FULL_DAY_TOURS.${this.packageId}`).subscribe(data => {
-      this.packageData = data as PackageData;
+      this.packageData = data as TravelPackageModel;
     });
   }
 

@@ -110,24 +110,7 @@
       <!-- Precios -->
       <div *ngSwitchCase="'prices'">
         <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">{{ 'INFO_PACKAGES.PRICES_TITLE' | translate }}</h2>
-        <table class="w-full text-left text-gray-700 border-collapse">
-          <thead>
-          <tr class="border-b border-gray-300">
-            <th class="py-2 px-4">{{ 'INFO_PACKAGES.PACKAGE_RATES.TARIFF' | translate }}</th>
-            <th class="py-2 px-4">{{ 'INFO_PACKAGES.PACKAGE_RATES.PRICE_PER_PERSON' | translate }}</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b border-gray-200">
-            <td class="py-2 px-4 font-medium">{{ 'INFO_PACKAGES.PACKAGE_RATES.PERUVIAN' | translate }}</td>
-            <td class="py-2 px-4">{{ packageData.prices.per }}</td>
-          </tr>
-          <tr>
-            <td class="py-2 px-4 font-medium">{{ 'INFO_PACKAGES.PACKAGE_RATES.FOREIGN' | translate }}</td>
-            <td class="py-2 px-4">{{ packageData.prices.ext }}</td>
-          </tr>
-          </tbody>
-        </table>
+        <div [innerHTML]="packageData.prices" class="prose max-w-full"></div>
       </div>
 
 

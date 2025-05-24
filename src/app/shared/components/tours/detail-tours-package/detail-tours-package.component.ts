@@ -1,29 +1,8 @@
 import {Component, Input} from '@angular/core';
 import {NgClass, NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
 import {TranslatePipe} from '@ngx-translate/core';
-interface PackageData {
-  id: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  whyChooseUs: string[];
-  itinerary: string[];
-  startDate: string;
-  endDate: string;
-  includes: string[];
-  notIncluded: string[];
-  prices: {
-    per: string;
-    ext: string;
-  };
-  optional: string[];
-  politics: string[];
-  images: {
-    alt: string;
-    src: string;
-    width: number;
-  }[];
-}
+import {TravelPackageModel} from '../../../models/TravelPackage.model';
+
 @Component({
   selector: 'app-detail-tours-package',
   standalone: true,
@@ -52,5 +31,5 @@ export class DetailToursPackageComponent {
   }
 
   activeSection = 'description';
-  @Input()  packageData: PackageData | undefined;
+  @Input()  packageData: TravelPackageModel | undefined;
 }
