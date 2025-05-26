@@ -35,45 +35,14 @@
     "SALES_CONTACT": "Centro de Contacto de Ventas:"
   },
   "ANDEANELITE": {
-    "TITLE": "ANDEAN ELITE",
-    "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida..."
-  },
-  "WHYANDEANELITE": {
-    "TITLE": "¿Por qué Andean Elite?",
-    "1": {
-      "TITLE": "Experiencias Únicas",
-      "DESCRIPTION": "Viajes personalizados en Perú, con aventura, cultura y lujo en cada destino."
-    },
-    "2": {
-      "TITLE": "Lujo en Cada Detalle",
-      "DESCRIPTION": "Hoteles boutique, trenes exclusivos y transporte privado para un viaje elegante."
-    },
-    "3": {
-      "TITLE": "Atención 24/7",
-      "DESCRIPTION": "Disponibles siempre para resolver imprevistos y asegurar tu tranquilidad."
-    },
-    "4": {
-      "TITLE": "Conexión Cultural",
-      "DESCRIPTION": "Explora Machu Picchu y el Valle Sagrado con tours culturales y exclusivos."
-    },
-    "5": {
-      "TITLE": "Guías Expertos",
-      "DESCRIPTION": "Guías locales con profundo conocimiento cultural en destinos como Cusco y Arequipa."
-    },
-    "6": {
-      "TITLE": "Seguridad y Confianza",
-      "DESCRIPTION": "Experiencia garantizando viajes seguros, organizados y cuidados al detalle."
-    }
-  },
-  "BUTTON": {
-    "READ_MORE": "Leer más"
-  },
-  "TRAVELWITH": {
-    "TITLE": "Viajar con Andean Elite: Experiencia de Lujo en Perú",
-    "1": "Desde el Corazón de los Andes hasta la Maravilla de Machu Picchu",
-    "2": "Déjate cautivar por los paisajes andinos, la riqueza cultural y la hospitalidad peruana mientras disfrutas de una experiencia exclusiva llena de magia y elegancia.",
-    "3": "Viaja con estilo. Vive Perú como nunca antes.",
-    "BUTTON": "Obtener Información"
+    "TITLE": "En Andean Elite, creamos viajes por Perú diseñados a tu medida.",
+    "DESCRIPTION": "Optimiza tu tiempo, cuida tus recursos y disfruta cada lugar con la guía de expertos locales. Nuestro enfoque combina asesoría personalizada A1, conexión auténtica con la cultura y una planificación eficiente para que vivas el mejor viaje por Perú, sin estrés ni improvisaciones.",
+    "POINTS": [
+      "Optimización de tu tiempo",
+      "Uso inteligente de tu presupuesto",
+      "Experiencias auténticas y flexibles",
+      "Asesoría local de primer nivel"
+    ]
   },
   "galleries": {
     "DISCOVER": {

@@ -35,48 +35,15 @@
     "SALES_CONTACT": "Sales Contact Center:"
   },
   "ANDEANELITE": {
-    "TITLE": "ANDEAN ELITE",
-    "DESCRIPTION": "Tailor-Made Luxury Travel for Unforgettable Experiences. Explore the world with exclusive and custom trips..."
+    "TITLE": "At Andean Elite, we craft tailor-made journeys across Peru designed around you.",
+    "DESCRIPTION": "We help you make the most of your time, optimize your resources, and experience each destination with the guidance of trusted local experts. Our approach blends personalized A1 travel consulting, authentic cultural connection, and efficient planning—ensuring you enjoy the best of Peru without stress, guesswork, or wasted time.",
+    "POINTS": [
+      "Time Optimization",
+      "Smart Use of Your Budget",
+      "Authentic and Flexible Experiences",
+      "Top-Level Local Guidance"
+    ]
   },
-  "WHYANDEANELITE": {
-    "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
-    "1": {
-      "TITLE": "Unique Travel",
-      "DESCRIPTION": "Custom trips in Peru from Machu Picchu to Titicaca with luxury and adventure."
-    },
-    "2": {
-      "TITLE": "Luxury in Every Detail",
-      "DESCRIPTION": "Boutique hotels, luxury trains, and private transport for a smooth, elegant experience."
-    },
-    "3": {
-      "TITLE": "Attention 24/7",
-      "DESCRIPTION": "We’re available anytime to solve issues and ensure peace of mind during travel."
-    },
-    "4": {
-      "TITLE": "Cultural Connection",
-      "DESCRIPTION": "Explore Peruvian heritage on guided tours to Machu Picchu and Sacred Valley."
-    },
-
-    "5": {
-      "TITLE": "Expert Guides",
-      "DESCRIPTION": "Local experts share cultural insights in Cusco, Arequipa, and other top destinations."
-    },
-    "6": {
-      "TITLE": "Security and Confidence",
-      "DESCRIPTION": "With experience and care, we ensure safe, worry-free luxury travel every step."
-    }
-
-  },
-  "BUTTON": {
-    "READ_MORE": "Read More"
-  },
-  "TRAVELWITH": {
-    "TITLE": "Luxury Travel in Peru with Andean Elite",
-    "1": "From the Heart of the Andes to the Wonder of Machu Picchu",
-    "2": "Be captivated by the Andean landscapes, cultural richness and Peruvian hospitality while enjoying an exclusive experience full of magic and elegance.",
-    "3": "Travel in style. Experience Peru like never before.",
-    "BUTTON": "GET INFO"
-      },
   "PLANYOURTRIP": "Plan Your Trip Here",
   "galleries": {
     "DISCOVER": {

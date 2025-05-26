@@ -99,6 +99,14 @@ export class LayoutComponent implements OnInit{
       this.galleryImages1 = res.IMAGES;
     });
   }
-
+  getIcon(index: number): string {
+    const icons = [
+      'fa-solid fa-clock',
+      'fa-solid fa-piggy-bank',
+      'fa-solid fa-mountain',
+      'fa-solid fa-face-smile'
+    ];
+    return icons[index] || 'fas fa-star';
+  }
 
 }
