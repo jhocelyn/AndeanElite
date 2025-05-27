@@ -57,17 +57,61 @@
   </div>
 
   <!--Purpose Seccion-->
-  <div class="flex flex-col text-[#0F2D40] xl:flex-row justify-center items-center h-min-[30vh] bg-[#ECEAE7] gap-8 p-10">
-    <i class="fa-solid fa-earth-americas text-[300px]"></i>
-    <div class="flex flex-col items-start py-10 gap-5 max-w-xl">
-      <h2 class="text-4xl">{{'HOME_PURPOSE.TITLE'|translate}}</h2>
-      <p class="text-3xl">{{'HOME_PURPOSE.DESCRIPTION'|translate}}</p>
-      <button  [routerLink]="'/our-purpose'" class="text-xl border border-blue-950 rounded-3xl py-3 px-8">{{'HOME_PURPOSE.BUTTON'|translate}}</button>
+  <div class="flex flex-col xl:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#0F2D40] text-gray-200">
+
+    <!-- Imagen con difuminado hacia la derecha -->
+    <div class="relative w-full h-[500px] overflow-hidden">
+      <img src="/assets/img/general/prueba2.jpeg"
+           alt="Imagen con difuminado"
+           class="w-full h-full object-cover"
+           style="
+           mask-image: linear-gradient(to right, black 60%, transparent 100%);
+           -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
+           mask-size: 100% 100%;
+           -webkit-mask-size: 100% 100%;
+         " />
     </div>
+
+    <!-- Contenido de texto -->
+    <div class="flex flex-col items-start py-10 gap-5 max-w-xl">
+      <h2 class="font-bold text-xl">{{'HOME_PURPOSE.TITLE'|translate}}</h2>
+      <p class="text-4xl">{{'HOME_PURPOSE.DESCRIPTION'|translate}}</p>
+      <button [routerLink]="'/our-purpose'" class="text-xl border border-gray-300 rounded-3xl py-3 px-8">
+        {{'HOME_PURPOSE.BUTTON'|translate}}
+      </button>
+    </div>
+
+  </div>
+
+
+  <div class="flex flex-col xl:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#0F2D40] text-gray-200">
+
+    <!-- Imagen con difuminado hacia la derecha -->
+    <div class="relative w-full h-[500px] overflow-hidden">
+      <img src="/assets/img/general/prueba2.jpeg"
+           alt="Imagen con difuminado"
+           class="w-full h-full object-cover"
+           style="
+           mask-image: linear-gradient(to right, black 60%, transparent 100%);
+           -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
+           mask-size: 100% 100%;
+           -webkit-mask-size: 100% 100%;
+         " />
+    </div>
+
+    <!-- Contenido de texto -->
+    <div class="flex flex-col items-start py-10 px-5 gap-5 max-w-xl">
+      <h2 class="font-semibold text-6xl">{{'HOME_PURPOSE.TITLE'|translate}}</h2>
+      <p class="text-xl">{{'HOME_PURPOSE.DESCRIPTION'|translate}}</p>
+      <button [routerLink]="'/our-purpose'" class="text-xl border border-gray-300 rounded-3xl py-3 px-8">
+        {{'HOME_PURPOSE.BUTTON'|translate}}
+      </button>
+    </div>
+
   </div>
 
   <!--Contact us Seccion-->
-  <div class="flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
+  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
     <div class="hidden xl:block h-[50vh] w-[50vh]">
       <img class="h-full object-cover" src="/assets/img/destinations/cusco/peru-weavers-llama.webp" alt="a">
     </div>
