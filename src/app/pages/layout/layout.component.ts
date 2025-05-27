@@ -1,5 +1,5 @@
 import {Component, OnInit, Inject, PLATFORM_ID, HostListener} from '@angular/core';
-import {isPlatformBrowser, NgClass, NgForOf} from '@angular/common';
+import {isPlatformBrowser, NgClass, NgForOf, NgIf} from '@angular/common';
 import AOS from 'aos';
 import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
 import {SliderComponent} from '../../shared/components/Important/slider/slider.component';
@@ -10,11 +10,13 @@ import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [ SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass],
+  imports: [SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass, NgIf],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
 export class LayoutComponent implements OnInit{
+  showModal = false;
+
   whyItems: { title: string; description: string }[] = [];
   icons = [
     'fa-plane',
