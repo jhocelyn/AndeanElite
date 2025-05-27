@@ -71,14 +71,16 @@
   },
   "OUR_PURPOSE": {
     "TITLE": "Our Purpose",
+    "SUBTITLE": "✨ Traveling with meaning. Healing with love. Because every experience you live can change another life.",
     "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
     "POINTS": [
-      "<strong>En Andean Elite, cada viaje deja huella</strong><br>No solo recorres Perú… ayudas a transformarlo.",
-      "✳\uFE0F<br> Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.",
-      "\uD83E\uDD1D<br>Tú exploras. Nosotros ayudamos. Ellos sonríen.",
-      "\uD83D\uDCCD<br>Cusco – Comunidades altoandinas<br>\uD83D\uDCAC<br>Conexión auténtica + Acción solidaria"
+      "<strong>At Andean Elite, every journey leaves a mark</strong><br>You don’t just explore Peru… you help transform it.",
+      "✳️<br>A portion of our earnings supports therapy for children with autism in the Andes. From Cusco, we collaborate with early stimulation centers that assist low-income families and guide mothers who fight alone for their children's wellbeing.",
+      "🤝<br>You explore. We help. They smile.",
+      "📍<br>Cusco – Highland communities<br>💬<br>Authentic connection + Meaningful action"
     ]
   },
+
   "PLANYOURTRIP": "Plan Your Trip Here",
   "galleries": {
     "DISCOVER": {

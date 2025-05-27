@@ -40,6 +40,17 @@
     "DESCRIPTION": "En Andean Elite, cada viaje contrinuye a brindar terapias para ninos con autismo en los Andes.",
     "BUTTON": "Conoce nuestro proposito"
   },
+  "OUR_PURPOSE": {
+    "TITLE": "Nuestro Propósito",
+    "SUBTITLE": "✨ Viajar con sentido. Sanar con amor. Porque cada experiencia que vives puede cambiar otra vida.",
+    "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
+    "POINTS": [
+      "<strong>En Andean Elite, cada viaje deja huella</strong><br>No solo recorres Perú… ayudas a transformarlo.",
+      "✳\uFE0F<br> Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.",
+      "\uD83E\uDD1D<br>Tú exploras. Nosotros ayudamos. Ellos sonríen.",
+      "\uD83D\uDCCD<br>Cusco – Comunidades altoandinas<br>\uD83D\uDCAC<br>Conexión auténtica + Acción solidaria"
+    ]
+  },
   "WHYANDEANELITE": {
     "TITLE": "¿Por qué elegir Andean Elite?",
     "POINTS": [
