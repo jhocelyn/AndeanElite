@@ -1,4 +1,4 @@
-<div class="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+<div class="w-full overflow-hidden">
   <div class="p-4 w-full flex flex-col justify-between">
       <h2 class="w-full text-base xl:text-2xl font-bold">{{ title }}</h2>
       <div class="flex w-full flex-row items-end xl:items-center">
@@ -9,13 +9,13 @@
 
   <div *ngIf="images.length > 1; else singleImage" class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div *ngFor="let img of images" class="px-3 w-full h-full md:h-[40vh] rounded-2xl">
-      <img [src]="img.src" [alt]="img.alt" class="w-full h-full object-cover rounded-2xl shadow-lg">
+      <img [src]="img.src" [alt]="img.alt" class="w-full h-full object-cover rounded-2xl ">
     </div>
   </div>
 
   <ng-template #singleImage>
     <div class="px-3 w-full h-full md:h-[40vh] rounded-2xl">
-      <img [src]="images[0].src" [alt]="images[0].alt" class="w-full h-full object-cover rounded-2xl shadow-lg">
+      <img [src]="images[0].src" [alt]="images[0].alt" class="w-full h-full object-cover rounded-2xl">
     </div>
   </ng-template>
 

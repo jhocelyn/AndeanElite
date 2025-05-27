@@ -34,15 +34,39 @@
     "CONTACT_US": "Contact us",
     "SALES_CONTACT": "Sales Contact Center:"
   },
-  "ANDEANELITE": {
-    "TITLE": "At Andean Elite, we craft tailor-made journeys across Peru designed around you.",
-    "DESCRIPTION": "We help you make the most of your time, optimize your resources, and experience each destination with the guidance of trusted local experts. Our approach blends personalized A1 travel consulting, authentic cultural connection, and efficient planning—ensuring you enjoy the best of Peru without stress, guesswork, or wasted time.",
+  "WHYANDEANELITE": {
+    "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
     "POINTS": [
-      "Time Optimization",
-      "Smart Use of Your Budget",
-      "Authentic and Flexible Experiences",
-      "Top-Level Local Guidance"
+      {
+        "TITLE": "Unique Travel",
+        "DESCRIPTION": "Custom trips in Peru from Machu Picchu to Titicaca with luxury and adventure"
+      },
+      {
+        "TITLE": "Luxury in Every Detail",
+        "DESCRIPTION": "Boutique hotels, private transportation, and exclusive experiences"
+      },
+      {
+        "TITLE": "Attention 24/7",
+        "DESCRIPTION": "We're available to solve issues and answer questions at any time"
+      },
+      {
+        "TITLE": "Cultural Connection",
+        "DESCRIPTION": "Discover Peru’s heritage with passionate, knowledgeable local guides"
+      },
+      {
+        "TITLE": "Expert Guides",
+        "DESCRIPTION": "Local experts who know every corner of Peru and its history"
+      },
+      {
+        "TITLE": "Security and Confidence",
+        "DESCRIPTION": "With experience in the industry, we ensure your trip is safe and worry-free"
+      }
     ]
+  },
+  "PURPOSE": {
+    "TITLE": "TRAVEL WITH PURPOSE AND REAL IMPACT",
+    "DESCRIPTION": "At Andean Elite, every trip helps provide therapies for children with autism in the Andes.",
+    "BUTTON": "Learn about our purpose"
   },
   "PLANYOURTRIP": "Plan Your Trip Here",
   "galleries": {

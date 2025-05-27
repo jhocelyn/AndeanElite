@@ -34,14 +34,38 @@
     "CONTACT_US": "Contáctenos",
     "SALES_CONTACT": "Centro de Contacto de Ventas:"
   },
-  "ANDEANELITE": {
-    "TITLE": "En Andean Elite, creamos viajes por Perú diseñados a tu medida.",
-    "DESCRIPTION": "Optimiza tu tiempo, cuida tus recursos y disfruta cada lugar con la guía de expertos locales. Nuestro enfoque combina asesoría personalizada A1, conexión auténtica con la cultura y una planificación eficiente para que vivas el mejor viaje por Perú, sin estrés ni improvisaciones.",
+  "PURPOSE": {
+    "TITLE": "VIAJES CON PROPOSITO E IMPACTO REAL",
+    "DESCRIPTION": "En Andean Elite, cada viaje contrinuye a brindar terapias para ninos con autismo en los Andes.",
+    "BUTTON": "Conoce nuestro proposito"
+  },
+  "WHYANDEANELITE": {
+    "TITLE": "¿Por qué elegir Andean Elite?",
     "POINTS": [
-      "Optimización de tu tiempo",
-      "Uso inteligente de tu presupuesto",
-      "Experiencias auténticas y flexibles",
-      "Asesoría local de primer nivel"
+      {
+        "TITLE": "Viajes únicos",
+        "DESCRIPTION": "Aventuras personalizadas y únicas por todo el Perú con estilo"
+      },
+      {
+        "TITLE": "Lujo en cada detalle",
+        "DESCRIPTION": "Hoteles boutique, transporte privado y experiencias exclusivas llenas de lujo"
+      },
+      {
+        "TITLE": "Atención 24/7",
+        "DESCRIPTION": "Siempre disponibles para ayudarte con cualquier duda o inconveniente, 24/7"
+      },
+      {
+        "TITLE": "Conexión cultural",
+        "DESCRIPTION": "Guías locales que comparten vivencias auténticas llenas de cultura peruana"
+      },
+      {
+        "TITLE": "Guías expertos",
+        "DESCRIPTION": "Guías expertos que conocen cada rincón e historia del Perú"
+      },
+      {
+        "TITLE": "Seguridad y confianza",
+        "DESCRIPTION": "Organizamos viajes seguros, confiables y sin preocupaciones en todo momento"
+      }
     ]
   },
   "galleries": {

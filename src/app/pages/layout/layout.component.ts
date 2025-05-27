@@ -101,10 +101,12 @@ export class LayoutComponent implements OnInit{
   }
   getIcon(index: number): string {
     const icons = [
-      'fa-solid fa-clock',
-      'fa-solid fa-piggy-bank',
-      'fa-solid fa-mountain',
-      'fa-solid fa-face-smile'
+      'fa-solid fa-plane',
+      'fa-solid fa-building',
+      'fa-solid fa-headset',
+      'fa-solid fa-building-columns',
+      'fa-solid fa-user-tie',
+      'fa-solid fa-shield-halved'
     ];
     return icons[index] || 'fas fa-star';
   }
