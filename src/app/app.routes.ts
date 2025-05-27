@@ -4,6 +4,7 @@ import {AboutUsComponent} from './pages/about-us/about-us.component';
 import {ContactUsComponent} from './pages/contact-us/contact-us.component';
 import {DestinationsComponent} from './pages/Destionations-pages/destinations/destinations.component';
 import {BookClaimsComponent} from './pages/book-claims/book-claims.component';
+import {OurPurposeComponent} from './pages/our-purpose/our-purpose.component';
 
 export const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -15,4 +16,5 @@ export const routes: Routes = [
   {path:'ways-to-travel',loadChildren:()=>import('./pages/ways-to-travel/ways-to-travel.routes').then(m=>m.waysToTravelRoutes)},
   {path:'book-claims', component:BookClaimsComponent},
   {path:'blog', loadChildren:()=>import('./pages/blog/blog.routes').then(m=>m.blogRoutes)},
+  {path:'our-purpose', component:OurPurposeComponent}
 ];

@@ -60,54 +60,11 @@
   <div class="flex flex-col text-[#0F2D40] xl:flex-row justify-center items-center h-min-[30vh] bg-[#ECEAE7] gap-8 p-10">
     <i class="fa-solid fa-earth-americas text-[300px]"></i>
     <div class="flex flex-col items-start py-10 gap-5 max-w-xl">
-      <h2 class="text-4xl">{{'PURPOSE.TITLE'|translate}}</h2>
-      <p class="text-3xl">{{'PURPOSE.DESCRIPTION'|translate}}</p>
-      <button  (click)="showModal = true" class="text-xl border border-blue-950 rounded-3xl py-3 px-8">{{'PURPOSE.BUTTON'|translate}}</button>
+      <h2 class="text-4xl">{{'HOME_PURPOSE.TITLE'|translate}}</h2>
+      <p class="text-3xl">{{'HOME_PURPOSE.DESCRIPTION'|translate}}</p>
+      <button  [routerLink]="'/our-purpose'" class="text-xl border border-blue-950 rounded-3xl py-3 px-8">{{'HOME_PURPOSE.BUTTON'|translate}}</button>
     </div>
   </div>
-  <!-- Modal superpuesto -->
-  <div
-    *ngIf="showModal"
-    class="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center z-50"
-  >
-    <div class="bg-white text-[#034873] p-8 rounded-2xl max-w-3xl w-[90%] shadow-2xl relative">
-      <button
-        class="absolute top-4 right-4 text-gray-500 hover:text-black text-2xl"
-        (click)="showModal = false"
-      >
-        &times;
-      </button>
-
-      <!-- Título gancho -->
-      <h3 class="text-xl font-bold mb-6 text-center">
-        ✨ Viajar con sentido. Sanar con amor. Porque cada experiencia que vives puede cambiar otra vida.
-      </h3>
-
-      <!-- Contenido en cajas -->
-      <div class="space-y-4">
-        <div class="bg-[#e6f0f8] p-4 rounded-xl shadow-sm">
-          <p class="font-semibold">En Andean Elite, cada viaje deja huella</p>
-          <p>No solo recorres Perú… ayudas a transformarlo.</p>
-        </div>
-
-        <div class="bg-[#e6f0f8] p-4 rounded-xl shadow-sm">
-          <p>
-            ✳️ Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.
-          </p>
-        </div>
-
-        <div class="bg-[#e6f0f8] p-4 rounded-xl shadow-sm">
-          <p>🤝 Tú exploras. Nosotros ayudamos. Ellos sonríen.</p>
-        </div>
-
-        <div class="bg-[#e6f0f8] p-4 rounded-xl shadow-sm">
-          <p>📍 Cusco – Comunidades altoandinas</p>
-          <p>💬 Conexión auténtica + Acción solidaria</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <!--Contact us Seccion-->
   <div class="flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">

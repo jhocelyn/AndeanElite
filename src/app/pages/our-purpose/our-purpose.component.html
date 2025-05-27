@@ -1,0 +1,26 @@
+<!-- Banner con imagen y título desde OUR_PURPOSE -->
+<app-banner
+  [backgroundImage]="'OUR_PURPOSE.IMAGE'"
+  [title]="'OUR_PURPOSE.TITLE' | translate">
+</app-banner>
+
+<!-- Contenido del propósito -->
+<div class="flex items-center w-full justify-center">
+  <div class="bg-white max-w-5xl text-[#034873] p-8 w-full">
+
+    <!-- Título gancho -->
+    <h3 class="text-4xl font-bold mb-6 text-center">
+      ✨ Viajar con sentido. Sanar con amor. Porque cada experiencia que vives puede cambiar otra vida.
+    </h3>
+
+    <!-- Cajas dinámicas desde JSON -->
+    <div class="space-y-10 text-xl " >
+      <div
+        *ngFor="let point of ['OUR_PURPOSE.POINTS.0', 'OUR_PURPOSE.POINTS.1', 'OUR_PURPOSE.POINTS.2', 'OUR_PURPOSE.POINTS.3']"
+        class="bg-[#e6f0f8] py-20 px-10 rounded-xl shadow-sm"
+      >
+        <p class="text-center" [innerHTML]="point | translate"></p>
+      </div>
+    </div>
+  </div>
+</div>

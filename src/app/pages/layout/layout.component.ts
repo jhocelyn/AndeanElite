@@ -6,11 +6,12 @@ import {SliderComponent} from '../../shared/components/Important/slider/slider.c
 import {GalleryComponent} from '../../shared/components/general/gallery/gallery.component';
 import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass, NgIf],
+  imports: [SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass, NgIf, RouterLink],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })

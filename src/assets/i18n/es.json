@@ -32,9 +32,10 @@
     },
     "DESTINATIONS": "Destinos",
     "CONTACT_US": "Contáctenos",
-    "SALES_CONTACT": "Centro de Contacto de Ventas:"
+    "SALES_CONTACT": "Centro de Contacto de Ventas:",
+    "OUR_PURPOSE": "Nuestro Propósito"
   },
-  "PURPOSE": {
+  "HOME_PURPOSE": {
     "TITLE": "VIAJES CON PROPOSITO E IMPACTO REAL",
     "DESCRIPTION": "En Andean Elite, cada viaje contrinuye a brindar terapias para ninos con autismo en los Andes.",
     "BUTTON": "Conoce nuestro proposito"

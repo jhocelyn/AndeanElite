@@ -32,7 +32,8 @@
       }
     },
     "CONTACT_US": "Contact us",
-    "SALES_CONTACT": "Sales Contact Center:"
+    "SALES_CONTACT": "Sales Contact Center:",
+    "OUR_PURPOSE": "Our Purpose"
   },
   "WHYANDEANELITE": {
     "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
@@ -63,10 +64,20 @@
       }
     ]
   },
-  "PURPOSE": {
+  "HOME_PURPOSE": {
     "TITLE": "TRAVEL WITH PURPOSE AND REAL IMPACT",
     "DESCRIPTION": "At Andean Elite, every trip helps provide therapies for children with autism in the Andes.",
     "BUTTON": "Learn about our purpose"
+  },
+  "OUR_PURPOSE": {
+    "TITLE": "Our Purpose",
+    "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
+    "POINTS": [
+      "<strong>En Andean Elite, cada viaje deja huella</strong><br>No solo recorres Perú… ayudas a transformarlo.",
+      "✳\uFE0F<br> Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.",
+      "\uD83E\uDD1D<br>Tú exploras. Nosotros ayudamos. Ellos sonríen.",
+      "\uD83D\uDCCD<br>Cusco – Comunidades altoandinas<br>\uD83D\uDCAC<br>Conexión auténtica + Acción solidaria"
+    ]
   },
   "PLANYOURTRIP": "Plan Your Trip Here",
   "galleries": {
