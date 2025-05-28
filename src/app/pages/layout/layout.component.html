@@ -58,11 +58,11 @@
 
   <!--Purpose Seccion-->
   <div class="relative flex flex-col xl:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-gray-200">
-    <div class=" absolute top-[15%] left-[25%] w-[15%] overflow-hidden">
+    <div class=" absolute top-[15%] left-[25%] w-[10%] overflow-hidden">
       <img src="assets/img/general/autism-symbol.webp">
     </div>
     <!-- Contenido de texto -->
-    <div class="flex flex-col items-start py-10 px-10 gap-5 w-[45%]">
+    <div class="flex flex-col items-start py-10 px-24 gap-5 w-[45%]">
       <h2 class="font-semibold text-6xl" [innerHTML]="'HOME_PURPOSE.TITLE'|translate"></h2>
       <p class="text-xl" [innerHTML]="'HOME_PURPOSE.DESCRIPTION'|translate"></p>
       <button [routerLink]="'/our-purpose'" class="text-xl border border-gray-300 rounded-3xl py-3 px-8">
@@ -75,11 +75,15 @@
            alt="Mom hug with her son"
            class="w-full h-full object-cover"
            style="
-           mask-image: linear-gradient(to left, black 50%, transparent 100%);
-           -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%);
-           mask-size: 100% 100%;
-           -webkit-mask-size: 100% 100%;
-         " />
+         -webkit-mask-image:
+           linear-gradient(to left, black 50%, transparent 100%),
+           linear-gradient(to top, black 60%, transparent 100%),
+           linear-gradient(to bottom, black 70%, transparent 100%);
+         -webkit-mask-composite: destination-in;
+         mask-composite: intersect;
+         -webkit-mask-size: 100% 100%;
+         -webkit-mask-repeat: no-repeat;
+       " />
     </div>
   </div>
 
