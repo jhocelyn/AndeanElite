@@ -57,57 +57,30 @@
   </div>
 
   <!--Purpose Seccion-->
-  <div class="flex flex-col xl:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#0F2D40] text-gray-200">
-
-    <!-- Imagen con difuminado hacia la derecha -->
-    <div class="relative w-full h-[500px] overflow-hidden">
-      <img src="/assets/img/general/prueba2.jpeg"
-           alt="Imagen con difuminado"
-           class="w-full h-full object-cover"
-           style="
-           mask-image: linear-gradient(to right, black 60%, transparent 100%);
-           -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
-           mask-size: 100% 100%;
-           -webkit-mask-size: 100% 100%;
-         " />
+  <div class="relative flex flex-col xl:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-gray-200">
+    <div class=" absolute top-[15%] left-[25%] w-[15%] overflow-hidden">
+      <img src="assets/img/general/autism-symbol.webp">
     </div>
-
     <!-- Contenido de texto -->
-    <div class="flex flex-col items-start py-10 gap-5 max-w-xl">
-      <h2 class="font-bold text-xl">{{'HOME_PURPOSE.TITLE'|translate}}</h2>
-      <p class="text-4xl">{{'HOME_PURPOSE.DESCRIPTION'|translate}}</p>
+    <div class="flex flex-col items-start py-10 px-10 gap-5 w-[45%]">
+      <h2 class="font-semibold text-6xl" [innerHTML]="'HOME_PURPOSE.TITLE'|translate"></h2>
+      <p class="text-xl" [innerHTML]="'HOME_PURPOSE.DESCRIPTION'|translate"></p>
       <button [routerLink]="'/our-purpose'" class="text-xl border border-gray-300 rounded-3xl py-3 px-8">
         {{'HOME_PURPOSE.BUTTON'|translate}}
       </button>
     </div>
-
-  </div>
-
-
-  <div class="flex flex-col xl:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#0F2D40] text-gray-200">
-
     <!-- Imagen con difuminado hacia la derecha -->
-    <div class="relative w-full h-[500px] overflow-hidden">
-      <img src="/assets/img/general/prueba2.jpeg"
-           alt="Imagen con difuminado"
+    <div class="relative w-[55%] h-[500px] overflow-hidden">
+      <img src="/assets/img/general/mom-hug-with-her-son.webp"
+           alt="Mom hug with her son"
            class="w-full h-full object-cover"
            style="
-           mask-image: linear-gradient(to right, black 60%, transparent 100%);
-           -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
+           mask-image: linear-gradient(to left, black 50%, transparent 100%);
+           -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%);
            mask-size: 100% 100%;
            -webkit-mask-size: 100% 100%;
          " />
     </div>
-
-    <!-- Contenido de texto -->
-    <div class="flex flex-col items-start py-10 px-5 gap-5 max-w-xl">
-      <h2 class="font-semibold text-6xl">{{'HOME_PURPOSE.TITLE'|translate}}</h2>
-      <p class="text-xl">{{'HOME_PURPOSE.DESCRIPTION'|translate}}</p>
-      <button [routerLink]="'/our-purpose'" class="text-xl border border-gray-300 rounded-3xl py-3 px-8">
-        {{'HOME_PURPOSE.BUTTON'|translate}}
-      </button>
-    </div>
-
   </div>
 
   <!--Contact us Seccion-->
