@@ -6,8 +6,8 @@ import {
   Output,
   PLATFORM_ID,
 } from '@angular/core';
-import {isPlatformBrowser, NgClass, NgIf} from '@angular/common';
-import {ActivatedRoute, NavigationEnd, Router, RouterLink} from '@angular/router';
+import {isPlatformBrowser, NgClass, NgForOf, NgIf} from '@angular/common';
+import {ActivatedRoute, Router, RouterLink} from '@angular/router';
 import {TranslateModule, TranslateService} from '@ngx-translate/core';
 import {ScrollService} from '../../../../services/scroll.service';
 
@@ -15,7 +15,7 @@ import {ScrollService} from '../../../../services/scroll.service';
   selector: 'app-navbar',
   standalone: true,
   imports: [
-    RouterLink, TranslateModule, NgClass, NgIf
+    RouterLink, TranslateModule, NgClass, NgIf, NgForOf
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
@@ -23,75 +23,87 @@ import {ScrollService} from '../../../../services/scroll.service';
 export class NavbarComponent implements OnInit{
   @Output() languageChanged = new EventEmitter<string>();
 
+  // Estado general
   isDesktop = false;
+
+  // Estado para navegación de escritorio
   isWaysToTravelOpen = false;
+  isStyleOpen = true;
+  isPeruOpen = false;
+  isAboutUsOpen = false;
+  isTravelByInterestOpen = false;
+
+
+  // Estado para navegación móvil
+  isMenuOpen = false;
+  activeSubMenu: string | null = null;
+  activeSubSubMenu: string | null = null;
+
+  // Configuración de contacto
+  phoneNumber = '+51950194035';
+  message = 'Hola, quiero más información sobre los paquetes de viaje.';
 
   constructor(
     private translate: TranslateService,
-    @Inject(PLATFORM_ID) private platformId: object,
-    private router: Router,
-    private route: ActivatedRoute,
-    private scrollService: ScrollService
+    @Inject(PLATFORM_ID) private platformId: object
   ) {}
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       this.isDesktop = window.innerWidth > 1024;
     }
-
   }
 
-
+  // Cambiar idioma
   changeLanguage(lang: string) {
     this.translate.use(lang);
     this.languageChanged.emit(lang);
   }
 
-  //Setting to config dektop
+  // Métodos para escritorio
   toggleWaysToTravelMenu() {
     this.isWaysToTravelOpen = !this.isWaysToTravelOpen;
-    this.isMenuAboutUsOpen=false;
+    this.isAboutUsOpen = false;
+
   }
-  isStyleOpen=true;
-  toggleStyleMenu() {
+
+  openStyleMenu() {
     this.isStyleOpen = true;
+    this.isPeruOpen = false;
+    this.isTravelByInterestOpen = false;
   }
-  toggleTravelByMenu() {
+
+  openTravelByMenu() {
     this.isStyleOpen = false;
-  }
-  isMenuAboutUsOpen = false;
-  toggleAboutUsMenu(){
-    this.isMenuAboutUsOpen=!this.isMenuAboutUsOpen;
-    this.isWaysToTravelOpen=false
+    this.isPeruOpen = false;
+    this.isTravelByInterestOpen = true;
   }
 
-  //Setting to menu mobil
-  isMenuOpen = false;
-  activeSubMenu: string | null = null;
-  activeSubSubMenu: string | null = null;
+  openPeruMenu() {
+    this.isPeruOpen = true;
+    this.isStyleOpen = false;
+    this.isTravelByInterestOpen = false;
+  }
 
+  toggleAboutUsMenu() {
+    this.isAboutUsOpen = !this.isAboutUsOpen;
+    this.isWaysToTravelOpen = false;
+  }
+
+  // Métodos para móvil
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
-    this.activeSubMenu = null; // Cierra cualquier submenú abierto al cerrar el menú principal
-    this.activeSubSubMenu = null; // Cierra cualquier submenú abierto al cerrar el menú principal
+    this.resetMobileMenus();
   }
 
   openSubMenu(menu: string) {
     this.activeSubMenu = menu;
-    this.activeSubSubMenu=null;
+    this.activeSubSubMenu = null;
   }
 
   closeSubMenu() {
     this.activeSubMenu = null;
-    this.activeSubSubMenu=null;
-  }
-
-  closeAllMenus() {
-    this.isMenuOpen = false;
-    this.activeSubMenu = null;
     this.activeSubSubMenu = null;
-    this.isMenuAboutUsOpen=false;
-    this.isWaysToTravelOpen=false
   }
 
   openSubSubMenu(menu: string) {
@@ -102,11 +114,22 @@ export class NavbarComponent implements OnInit{
     this.activeSubSubMenu = null;
   }
 
-  phoneNumber: string = '+51950194035'; // 📌 Reemplaza con tu número de WhatsApp
-  message: string = 'Hola, quiero más información sobre los paquetes de viaje.';
+  closeAllMenus() {
+    this.isMenuOpen = false;
+    this.activeSubMenu = null;
+    this.activeSubSubMenu = null;
+    this.isWaysToTravelOpen = false;
+    this.isAboutUsOpen = false;
+  }
 
+  private resetMobileMenus() {
+    this.activeSubMenu = null;
+    this.activeSubSubMenu = null;
+  }
+
+  // Abrir WhatsApp con mensaje predeterminado
   openWhatsApp() {
     const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`;
-    window.open(url,'_blank');
+    window.open(url, '_blank');
   }
 }
