@@ -57,7 +57,7 @@
     "CHOOSE": "Elige tu estilo. Nosotros lo hacemos realidad!"
   },
   "HOME_PURPOSE": {
-    "TITLE": "Viaja<br>Conecta<br>Transforma",
+    "TITLE_LINES": ["Viaja", "Conecta", "Transforma"],
     "DESCRIPTION": "En Andean Elite, cada viaje contrinuye a brindar terapias para ninos con autismo en los Andes.",
     "BUTTON": "Conoce nuestro proposito"
   },
