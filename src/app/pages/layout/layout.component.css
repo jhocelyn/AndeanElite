@@ -15,3 +15,12 @@
   height: auto;
   object-fit: contain;
 }
+
+/* styles.css o component-specific */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}

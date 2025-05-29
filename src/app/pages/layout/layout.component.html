@@ -4,6 +4,37 @@
   <app-slider></app-slider> <!-- Slider -->
   </div>
 
+  <!-- Styles Section -->
+  <div class="bg-white px-10 py-10">
+    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#034873] mb-12">
+      {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div
+        *ngFor="let style of styles"
+        class="bg-[#f9f9f9] rounded-xl shadow-md hover:shadow-xl transition-all duration-300  text-center"
+        [routerLink]="['/ways-to-travel/styles', style.name]"
+      >
+        <img
+          [src]="'/assets/img/ways-to-travel/styles/' + style.name + '/' + style.image"
+          alt="{{ style.name }}"
+          class="w-full h-48 object-cover  mb-6"
+        />
+        <h3 class="text-2xl font-semibold text-[#034873] mb-2">
+          {{ ('NAVBAR.WAYS.STYLES.' + style.name.toUpperCase().replace('-', '')) | translate }}
+        </h3>
+
+        <button class="rounded-xl py-2 px-6 mb-4 bg-[#034873] text-white hover:bg-blue-900 transition-colors duration-300">
+          <span class="text-lg">
+            {{'VIEW_PACKAGES'|translate}}
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
   <!--WHY ANDEANELITE Seccion-->
   <div class="flex flex-col text-white bg-[#0F2D40] min-h-[50vh] py-24 px-[120px]">
     <h1 class="text-4xl md:text-5xl font-semibold text-center mb-10">
@@ -25,39 +56,65 @@
     </div>
   </div>
 
-  <!--Discover Seccion-->
-  <div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#0F2D40] ">
-    <!-- Título -->
-    <div class="text-2xl sm:text-4xl font-extralight text-white mb-6 text-center">
-      {{ galleryTitle }}
-    </div>
+  <!--Travel By Interest-->
+  <div class="bg-[#ECEAE7] py-16 px-6 md:px-16 relative">
+    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#034873] mb-12">
+      {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}
+    </h2>
 
-    <div class=" max-w-[350px] xl:max-w-[1200px]">
-      <!-- Galería -->
-      <app-gallery
-        [title]="galleryTitle"
-        [images]="galleryImages">
-      </app-gallery>
+    <div class="relative">
+      <!-- Contenedor del carrusel -->
+      <div
+        #carouselContainer
+        class="flex gap-6 overflow-x-auto scroll-smooth pb-6 hide-scrollbar"
+      >
+        <div
+          *ngFor="let interest of interests" [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"
+          class="min-w-[305px] max-w-[305px] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
+        >
+          <img
+            [src]="interest.image"
+            [alt]="interest.title"
+            class="w-full h-40 object-cover rounded-t-xl"
+          />
+          <div class="p-4 text-[#034873] text-start">
+            <h3 class="font-semibold text-lg">
+              {{ interest.title === 'Mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + interest.title.toUpperCase()) | translate }}
+            </h3>
+          </div>
+        </div>
+
+        <!-- Tarjeta final "Ver todos" -->
+        <div
+          class="min-w-[305px] max-w-[305px] bg-[#034873] text-white rounded-xl flex items-center justify-center text-center cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
+          (click)="goToAllInterests()"
+        >
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">{{ 'ALL_TRAVEL' | translate }}</h3>
+          </div>
+        </div>
       </div>
+
+      <!-- Botones de navegación -->
+      <div class="absolute bottom-[-10] right-0 flex gap-2 pr-4 pb-2">
+        <button
+          class="bg-[#034873] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md hover:bg-[#022f4a] transition"
+          (click)="scrollCarousel('left')"
+        >
+          ‹
+        </button>
+        <button
+          class="bg-[#034873] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md hover:bg-[#022f4a] transition"
+          (click)="scrollCarousel('right')"
+        >
+          ›
+        </button>
+      </div>
+    </div>
   </div>
 
-  <!--Customers Seccion-->
-  <div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] ">
-    <!-- Título -->
-    <div class="text-2xl sm:text-4xl font-extralight text-[#034873] text-center mb-6">
-      {{ galleryTitle1 }}
-    </div>
 
-    <!-- Galería -->
-    <div class=" max-w-[350px] xl:max-w-[1200px]">
-      <app-gallery
-        [title]="galleryTitle1"
-        [images]="galleryImages1">
-      </app-gallery>
-    </div>
-  </div>
-
-  <!--Purpose Seccion-->
+  <!--Purpose Section-->
   <div class=" flex flex-col lg:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-gray-200">
     <!-- Contenido de texto -->
     <div class="flex flex-col items-start py-10 px-24 gap-5 w-[45%]">
@@ -92,7 +149,23 @@
     </div>
   </div>
 
-  <!--Contact us Seccion-->
+  <!--Customers Section-->
+  <div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] ">
+    <!-- Título -->
+    <div class="text-2xl sm:text-4xl font-extralight text-[#034873] text-center mb-6">
+      {{ galleryTitle1 }}
+    </div>
+
+    <!-- Galería -->
+    <div class=" max-w-[350px] xl:max-w-[1200px]">
+      <app-gallery
+        [title]="galleryTitle1"
+        [images]="galleryImages1">
+      </app-gallery>
+    </div>
+  </div>
+
+  <!--Contact us Section-->
   <div class="bg-[#ECEAE7] flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
     <div class="hidden xl:block h-[50vh] w-[50vh]">
       <img class="h-full object-cover" src="/assets/img/destinations/cusco/peru-weavers-llama.webp" alt="a">

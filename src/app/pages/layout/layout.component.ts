@@ -1,4 +1,4 @@
-import {Component, OnInit, Inject, PLATFORM_ID, HostListener} from '@angular/core';
+import {Component, OnInit, Inject, PLATFORM_ID, HostListener, ViewChild, ElementRef} from '@angular/core';
 import {isPlatformBrowser, NgClass, NgForOf, NgIf} from '@angular/common';
 import AOS from 'aos';
 import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
@@ -6,17 +6,56 @@ import {SliderComponent} from '../../shared/components/Important/slider/slider.c
 import {GalleryComponent} from '../../shared/components/general/gallery/gallery.component';
 import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
-import {RouterLink} from '@angular/router';
+import {Router, RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass, NgIf, RouterLink],
+  imports: [SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass, RouterLink],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
 export class LayoutComponent implements OnInit{
-  showModal = false;
+  @ViewChild('carouselContainer', { static: false }) carouselContainer!: ElementRef;
+
+  interests = [
+    { slug:'circuits', title: 'Circuits', image: '/assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp' },
+    { slug:'extensions', title: 'Extensions', image: '/assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp' },
+    { slug:'trekking', title: 'Trekking', image: '/assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp' },
+    { slug:'full-day-tours', title: 'FullDay', image: '/assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp' },
+    { slug:'family', title: 'Family', image: '/assets/img/ways-to-travel/travel-by-interest/family/family-travel-peru.webp' },
+    { slug:'taylor-made', title: 'Taylor', image: '/assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp' },
+    { slug:'cruise', title: 'Cruise', image: '/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp' },
+    { slug:'mice', title: 'Mice', image: '/assets/img/ways-to-travel/travel-by-interest/mice/mice-travel.webp' },
+    { slug:'homestays', title: 'Homestays', image: '/assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp' },
+    { slug:'corporate-travel', title: 'Corporate', image: '/assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp' },
+  ];
+
+  scrollCarousel(direction: 'left' | 'right') {
+    const container = this.carouselContainer.nativeElement;
+    const scrollAmount = 329; // ajusta al tamaño de tus tarjetas + gap
+    container.scrollBy({ left: direction === 'left' ? -scrollAmount : scrollAmount, behavior: 'smooth' });
+  }
+
+  goToAllInterests() {
+    this.router.navigate(['/ways-to-travel/travel-by-interest']);
+  }
+
+
+  styles = [
+    {
+      name: 'deluxe',
+      image: 'deluxe-travel-peru.webp'
+    },
+    {
+      name: 'comfort',
+      image: 'comfort-travel.webp'
+    },
+    {
+      name: 'super-deals',
+      image: 'super-deals-travel-peru.webp'
+    }
+  ];
 
   whyItems: { title: string; description: string }[] = [];
   icons = [
@@ -37,7 +76,8 @@ export class LayoutComponent implements OnInit{
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    private translate: TranslateService
+    private translate: TranslateService,
+    private router:Router
   ) {
     if (isPlatformBrowser(this.platformId)) {
       AOS.init();
