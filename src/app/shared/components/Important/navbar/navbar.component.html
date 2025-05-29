@@ -11,7 +11,7 @@
     </div>
 
     <!-- Menú principal (desktop) -->
-    <ul class="hidden md:flex flex-row text-white items-center gap-10 text-[17px]">
+    <ul class="hidden md:flex flex-row text-white items-center gap-16 text-[17px]">
       <!-- HOME -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
     <span
@@ -134,12 +134,6 @@
         </div>
       </li>
 
-      <!-- OUR PURPOSE -->
-      <li class="nav-item transition-colors duration-500 animate-slideDown">
-    <span [routerLink]="['/our-purpose']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
-      {{ 'NAVBAR.OUR_PURPOSE' | translate }}
-    </span>
-      </li>
 
       <!-- ABOUT US -->
       <li class="nav-item relative">
