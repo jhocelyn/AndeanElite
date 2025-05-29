@@ -18,6 +18,15 @@
     },
     "CHOOSE": "Choose your style. We’ll make it happen!"
   },
+  "HOME_TESTIMONIALS": {
+    "TESTIMONIALS": {
+      "TITLE": "That our customers say",
+      "SUBTITLE": "Experiences that inspire us to keep creating unforgettable journeys."
+    },
+    "READY": "Ready to experience Peru like never before?",
+    "DESCRIPTION": "Join to our community of travelers and discover the magic of Peru with Andean Elite.",
+    "PLAN": "Plan your luxury trip with us today!"
+  },
   "NAVBAR": {
     "ABOUT_US": {
       "TITLE": "About Us",

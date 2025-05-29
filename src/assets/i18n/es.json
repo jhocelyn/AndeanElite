@@ -61,6 +61,16 @@
     "DESCRIPTION": "En Andean Elite, cada viaje contrinuye a brindar terapias para ninos con autismo en los Andes.",
     "BUTTON": "Conoce nuestro proposito"
   },
+  "HOME_TESTIMONIALS": {
+  "TESTIMONIALS": {
+    "TITLE": "Lo Que Dicen Nuestros Viajeros",
+    "SUBTITLE": "Experiencias reales de quienes han vivido la magia de los Andes con nosotros"
+    },
+
+    "READY": "¿Listo para tu Próxima Aventura?",
+    "DESCRIPTION": "Únete a cientos de viajeros que han confiado en nosotros para crear recuerdos inolvidables",
+    "PLAN": "Planifica tu Viaje de Lujo"
+  },
   "OUR_PURPOSE": {
     "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
     "TITLE": "Our Purpose",
