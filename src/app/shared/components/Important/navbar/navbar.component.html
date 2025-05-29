@@ -146,6 +146,14 @@
           *ngIf="isAboutUsOpen"
           class="absolute left-0 top-full w-[190%] bg-white text-gray-800 shadow-lg mt-2 p-5 z-50 transition-all duration-300"
         >
+          <!-- NUEVA OPCIÓN: Our Purpose -->
+          <a
+            [routerLink]="'/our-purpose'"
+            (click)="closeAllMenus()"
+            class="block p-5 hover:bg-gray-100"
+          >
+            {{ 'NAVBAR.OUR_PURPOSE' | translate }}
+          </a>
           <ng-container *ngFor="let section of ['OURTEAM', 'LICENSE']">
             <a
               [routerLink]="'/about-us'"
@@ -157,14 +165,6 @@
             </a>
           </ng-container>
 
-          <!-- NUEVA OPCIÓN: Our Purpose -->
-          <a
-            [routerLink]="'/our-purpose'"
-            (click)="closeAllMenus()"
-            class="block p-5 hover:bg-gray-100"
-          >
-            {{ 'NAVBAR.OUR_PURPOSE' | translate }}
-          </a>
         </div>
       </li>
 
