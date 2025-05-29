@@ -183,7 +183,7 @@
   </div>
 
   <!-- Testimonials Section -->
-  <div class="bg-[#F8F9FA] py-20 px-4 text-center">
+  <div class="bg-white py-20 px-4 min-h-[81vh] text-center">
     <h2 class="text-3xl md:text-5xl font-bold text-[#034873] mb-4">
       {{ 'HOME_TESTIMONIALS.TESTIMONIALS.TITLE' | translate }}
     </h2>
@@ -192,60 +192,22 @@
     </p>
 
     <!-- Testimonio actual -->
-    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-xl p-8 relative text-[#034873]">
+    <div class="max-w-3xl mx-auto p-8 relative text-[#034873]">
+      <div class="font-semibold text-xl">{{ currentTestimonial.name }}</div>
+      <div class="text-yellow-400 text-lg">
+        <span *ngFor="let star of starsArray">★</span>
+      </div>
+      <div class="text-sm text-gray-600">
+        {{ currentTestimonial.location }} – {{ currentTestimonial.date }}
+      </div>
+      <div class="text-sm text-gray-500 italic mb-4">
+        {{ currentTestimonial.tripType }}
+      </div>
+      <p class="text-lg italic text-gray-800">
+        “{{ currentTestimonial.text }}”
+      </p>
 
-      <!-- Formato 1: texto, nombre, estrellas, (ubicación + fecha), tipo de viaje -->
-      <ng-container *ngIf="currentIndex === 0">
-        <p class="text-lg italic text-gray-800 mb-6">
-          “{{ currentTestimonial.text }}”
-        </p>
-        <div class="font-semibold text-xl">{{ currentTestimonial.name }}</div>
-        <div class="text-yellow-400 text-lg">
-          <span *ngFor="let star of [].constructor(currentTestimonial.stars)">★</span>
-        </div>
-        <div class="text-sm text-gray-600">
-          {{ currentTestimonial.location }} – {{ currentTestimonial.date }}
-        </div>
-        <div class="text-sm text-gray-500 italic">
-          {{ currentTestimonial.tripType }}
-        </div>
-      </ng-container>
-
-      <!-- Formato 2: nombre, estrellas, (ubicación + fecha), tipo de viaje, texto -->
-      <ng-container *ngIf="currentIndex === 1">
-        <div class="font-semibold text-xl">{{ currentTestimonial.name }}</div>
-        <div class="text-yellow-400 text-lg">
-          <span *ngFor="let star of [].constructor(currentTestimonial.stars)">★</span>
-        </div>
-        <div class="text-sm text-gray-600">
-          {{ currentTestimonial.location }} – {{ currentTestimonial.date }}
-        </div>
-        <div class="text-sm text-gray-500 italic mb-4">
-          {{ currentTestimonial.tripType }}
-        </div>
-        <p class="text-lg italic text-gray-800">
-          “{{ currentTestimonial.text }}”
-        </p>
-      </ng-container>
-
-      <!-- Formato 3: nombre, estrellas, texto, (ubicación + fecha), tipo de viaje -->
-      <ng-container *ngIf="currentIndex === 2">
-        <div class="font-semibold text-xl">{{ currentTestimonial.name }}</div>
-        <div class="text-yellow-400 text-lg">
-          <span *ngFor="let star of [].constructor(currentTestimonial.stars)">★</span>
-        </div>
-        <p class="text-lg italic text-gray-800 my-4">
-          “{{ currentTestimonial.text }}”
-        </p>
-        <div class="text-sm text-gray-600">
-          {{ currentTestimonial.location }} – {{ currentTestimonial.date }}
-        </div>
-        <div class="text-sm text-gray-500 italic">
-          {{ currentTestimonial.tripType }}
-        </div>
-      </ng-container>
-
-      <!-- Botones navegación -->
+      <!-- Botones de navegación -->
       <div class="absolute inset-y-0 left-[-40px] flex items-center">
         <button (click)="prevTestimonial()" class="text-[#034873] text-3xl hover:text-[#022f4a]">‹</button>
       </div>

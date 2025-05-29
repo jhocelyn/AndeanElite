@@ -134,9 +134,9 @@ export class LayoutComponent implements OnInit{
   testimonials = [
     {
       text: `Mi primera vez en Sudamérica y qué mejor manera que con Andean Elite.
-           Me enamoré perdidamente de Perú: la gastronomía en Lima, la majestuosidad de Machu Picchu,
-           la calidez de la gente de Cusco. Cada momento fue mágico. Ya estoy planeando regresar para
-           conocer la Amazonía.`,
+             Me enamoré perdidamente de Perú: la gastronomía en Lima, la majestuosidad de Machu Picchu,
+             la calidez de la gente de Cusco. Cada momento fue mágico. Ya estoy planeando regresar para
+             conocer la Amazonía.`,
       name: 'Laura Mitchell',
       stars: 5,
       location: 'Toronto, Canadá',
@@ -145,8 +145,8 @@ export class LayoutComponent implements OnInit{
     },
     {
       text: `Viajé sola y me sentí acompañada todo el tiempo.
-           Desde el primer contacto, el equipo fue atento y cálido.
-           Machu Picchu fue un sueño, pero lo que más me impactó fue la comunidad de Uros.`,
+             Desde el primer contacto, el equipo fue atento y cálido.
+             Machu Picchu fue un sueño, pero lo que más me impactó fue la comunidad de Uros.`,
       name: 'Sofía González',
       stars: 5,
       location: 'Barcelona, España',
@@ -155,7 +155,7 @@ export class LayoutComponent implements OnInit{
     },
     {
       text: `Viajamos con nuestros hijos adolescentes y todo estuvo perfectamente balanceado:
-           aventura, cultura y tiempo libre. El Valle Sagrado fue mágico y nuestros guías eran increíbles.`,
+             aventura, cultura y tiempo libre. El Valle Sagrado fue mágico y nuestros guías eran increíbles.`,
       name: 'Robert & Emily Harris',
       stars: 4,
       location: 'San Diego, EE.UU.',
@@ -170,6 +170,10 @@ export class LayoutComponent implements OnInit{
     return this.testimonials[this.currentIndex];
   }
 
+  get starsArray() {
+    return Array(this.currentTestimonial.stars);
+  }
+
   prevTestimonial() {
     this.currentIndex = (this.currentIndex - 1 + this.testimonials.length) % this.testimonials.length;
   }
@@ -177,6 +181,5 @@ export class LayoutComponent implements OnInit{
   nextTestimonial() {
     this.currentIndex = (this.currentIndex + 1) % this.testimonials.length;
   }
-
 
 }
