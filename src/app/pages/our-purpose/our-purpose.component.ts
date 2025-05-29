@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {NgForOf, NgIf} from '@angular/common';
 import {BannerComponent} from '../../shared/components/general/banner/banner.component';
 import {TranslatePipe} from '@ngx-translate/core';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-our-purpose',
@@ -10,7 +11,8 @@ import {TranslatePipe} from '@ngx-translate/core';
     NgIf,
     BannerComponent,
     TranslatePipe,
-    NgForOf
+    NgForOf,
+    RouterLink
   ],
   templateUrl: './our-purpose.component.html',
   styleUrl: './our-purpose.component.css'

@@ -43,15 +43,29 @@
     "BUTTON": "Conoce nuestro proposito"
   },
   "OUR_PURPOSE": {
-    "TITLE": "Nuestro Propósito",
-    "SUBTITLE": "✨ Viajar con sentido. Sanar con amor. Porque cada experiencia que vives puede cambiar otra vida.",
     "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
+    "TITLE": "Our Purpose",
+    "SUBTITLE": "Be part of the change that transforms lives in the Andes",
+    "DESCRIPTION": "Every trip booked with Andean Elits is not just unforgettable — it's a chance to create real impact.",
+    "BUTTON_EXPLORE": "Explore our tours",
+    "TRAVEL_TITLE": "Travel with Purpose",
     "POINTS": [
       "<strong>En Andean Elite, cada viaje deja huella</strong><br>No solo recorres Perú… ayudas a transformarlo.",
       "✳\uFE0F<br> Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.",
       "\uD83E\uDD1D<br>Tú exploras. Nosotros ayudamos. Ellos sonríen.",
       "\uD83D\uDCCD<br>Cusco – Comunidades altoandinas<br>\uD83D\uDCAC<br>Conexión auténtica + Acción solidaria"
-    ]
+    ],
+    "TRAVEL": [
+      "Fund individual therapy sessions for children",
+      "Provide transportation for rural families",
+      "Train local therapists and teachers",
+      "Support inclusive methodologies"
+    ],
+    "BUTTON_DONATE": "Donate now",
+    "DONATION_TITLE": "Make a Donation",
+    "DONATION_PHRASE": "Every story you tell, inspires a journey. Every journey, changes a life.",
+    "SHARE_TITLE": "Share Our Purpose",
+    "SHARE_TEXT": "Help us reach more people by sharing our mission on your social networks or by recommending us to friends."
   },
   "WHYANDEANELITE": {
     "TITLE": "¿Por qué elegir Andean Elite?",

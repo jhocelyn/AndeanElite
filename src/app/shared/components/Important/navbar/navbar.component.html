@@ -143,16 +143,16 @@
 
       <!-- ABOUT US -->
       <li class="nav-item relative">
-    <span (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
-      {{ 'NAVBAR.ABOUT_US.TITLE' | translate }}
-      <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform" [ngClass]="{ 'rotate-180': isAboutUsOpen }"></i>
-    </span>
+      <span (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+        {{ 'NAVBAR.ABOUT_US.TITLE' | translate }}
+        <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform" [ngClass]="{ 'rotate-180': isAboutUsOpen }"></i>
+      </span>
 
         <div
           *ngIf="isAboutUsOpen"
           class="absolute left-0 top-full w-[190%] bg-white text-gray-800 shadow-lg mt-2 p-5 z-50 transition-all duration-300"
         >
-          <ng-container *ngFor="let section of ['OURTEAM', 'LICENSE', 'RESPONSIBLE']">
+          <ng-container *ngFor="let section of ['OURTEAM', 'LICENSE']">
             <a
               [routerLink]="'/about-us'"
               [fragment]="section.toLowerCase()"
@@ -162,6 +162,15 @@
               {{ 'NAVBAR.ABOUT_US.' + section | translate }}
             </a>
           </ng-container>
+
+          <!-- NUEVA OPCIÓN: Our Purpose -->
+          <a
+            [routerLink]="'/our-purpose'"
+            (click)="closeAllMenus()"
+            class="block p-5 hover:bg-gray-100"
+          >
+            {{ 'NAVBAR.OUR_PURPOSE' | translate }}
+          </a>
         </div>
       </li>
 

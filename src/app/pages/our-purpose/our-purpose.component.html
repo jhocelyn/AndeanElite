@@ -1,27 +1,83 @@
-<!-- Banner con imagen y título desde OUR_PURPOSE -->
-<app-banner
-  [backgroundImage]="'OUR_PURPOSE.IMAGE'"
-  [title]="'OUR_PURPOSE.TITLE' | translate">
-</app-banner>
 
-<!-- Contenido del propósito -->
-<div class="flex items-center w-full justify-center">
-  <div class="bg-white max-w-5xl text-[#034873] p-8 w-full">
-    <!-- Título gancho -->
-    <h3 class="text-4xl font-bold mb-6 text-center">
-      {{ 'OUR_PURPOSE.SUBTITLE' | translate }}
-    </h3>
+<!-- Contenido principal -->
+<div class="bg-[#034873] text-[#FFFFFF] ">
+  <div class="w-full grid md:grid-cols-2 items-center">
 
-    <!-- Cajas dinámicas desde JSON -->
-    <div class="space-y-10 text-xl " >
-      <div
-        *ngFor="let point of ['OUR_PURPOSE.POINTS.0', 'OUR_PURPOSE.POINTS.1', 'OUR_PURPOSE.POINTS.2', 'OUR_PURPOSE.POINTS.3']"
-        class="bg-[#e6f0f8] py-20 px-10 rounded-xl shadow-sm"
-      >
-        <p class="text-center" [innerHTML]="point | translate"></p>
-      </div>
+    <!-- Sección de texto con botón -->
+    <div class="px-10 ">
+      <h2 class="text-3xl md:text-4xl font-bold">
+        {{ 'OUR_PURPOSE.SUBTITLE' | translate }}
+      </h2>
+      <p class="text-lg">
+        {{ 'OUR_PURPOSE.DESCRIPTION' | translate }}
+      </p>
+      <button
+        routerLink="/ways-to-travel"
+        class="mt-4 bg-[#034873] text-white px-6 border border-white py-3 rounded-lg hover:border-none hover:bg-[#022f4a] transition">
+        {{ 'OUR_PURPOSE.BUTTON_EXPLORE' | translate }}
+      </button>
     </div>
 
+    <!-- Imagen derecha -->
+    <div class="w-full">
+      <img src="/assets/img/general/mom-hug-with-her-son.webp" alt="Smiling child" class=" shadow-md w-full object-cover">
+    </div>
+  </div>
 
+  <!-- Segunda fila con íconos -->
+  <div class="grid md:grid-cols-2   text-center">
+
+    <div class="bg-[#042a4e] p-8 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">
+        {{ 'OUR_PURPOSE.TRAVEL_TITLE' | translate }}
+      </h3>
+      <ul class="space-y-2 text-left list-disc list-inside">
+        <li *ngFor="let item of ['OUR_PURPOSE.TRAVEL.0', 'OUR_PURPOSE.TRAVEL.1', 'OUR_PURPOSE.TRAVEL.2', 'OUR_PURPOSE.TRAVEL.3']">
+          {{ item | translate }}
+        </li>
+      </ul>
+      <button
+        class="mt-6 bg-[#034873] text-white px-5 py-2 rounded-md hover:bg-[#022f4a] transition">
+        {{ 'OUR_PURPOSE.BUTTON_DONATE' | translate }}
+      </button>
+    </div>
+
+    <div class="bg-[#034873] text-white p-8  shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">
+        {{ 'OUR_PURPOSE.DONATION_TITLE' | translate }}
+      </h3>
+      <p class="text-md italic mb-4">
+        {{ 'OUR_PURPOSE.DONATION_PHRASE' | translate }}
+      </p>
+      <div class="flex justify-center space-x-4 text-2xl">
+        <i class="fab fa-facebook hover:text-gray-300 cursor-pointer"></i>
+        <i class="fab fa-instagram hover:text-gray-300 cursor-pointer"></i>
+        <i class="fab fa-twitter hover:text-gray-300 cursor-pointer"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fila final: Comparte nuestro propósito -->
+  <div class="bg-[#022f4a] text-white p-20 text-center">
+    <h3 class="text-2xl font-bold mb-4">
+      {{ 'OUR_PURPOSE.SHARE_TITLE' | translate }}
+    </h3>
+    <p class="text-lg mb-6">
+      {{ 'OUR_PURPOSE.SHARE_TEXT' | translate }}
+    </p>
+    <div class="flex justify-center space-x-6 text-3xl">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook hover:text-gray-300"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram hover:text-gray-300"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter hover:text-gray-300"></i>
+      </a>
+      <a href="mailto:info@andeanelits.com" aria-label="Email">
+        <i class="fas fa-envelope hover:text-gray-300"></i>
+      </a>
+    </div>
   </div>
 </div>
