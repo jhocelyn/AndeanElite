@@ -39,6 +39,23 @@
     "SALES_CONTACT": "Centro de Contacto de Ventas:",
     "OUR_PURPOSE": "Nuestro Propósito"
   },
+  "HOME_STYLES": {
+    "TITLE": "Descubre Perú a tu manera.",
+    "SUBTITLE": "En Andean Elite creamos experiencias únicas, adaptadas a tu estilo de viaje y ritmo personal.",
+    "DELUXE": {
+      "TITLE": "Deluxe",
+      "DESCRIPTION": "Viajes exclusivos con alojamientos premium y servicio de primer nivel."
+    },
+    "COMFORT": {
+      "TITLE": "Comfort",
+      "DESCRIPTION": "Experiencias auténticas con el equilibrio perfecto entre confort y cultura."
+    },
+    "SUPERDEALS": {
+      "TITLE": "Super Deals",
+      "DESCRIPTION": "Las mejores ofertas para explorar Perú con calidad y precio accesible."
+    },
+    "CHOOSE": "Elige tu estilo. Nosotros lo hacemos realidad!"
+  },
   "HOME_PURPOSE": {
     "TITLE": "Viaja<br>Conecta<br>Transforma",
     "DESCRIPTION": "En Andean Elite, cada viaje contrinuye a brindar terapias para ninos con autismo en los Andes.",

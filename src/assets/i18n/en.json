@@ -1,6 +1,23 @@
 {
   "VIEW_PACKAGES": "View Packages",
   "ALL_TRAVEL": "View more Tours",
+  "HOME_STYLES": {
+    "TITLE": "Discover Peru your way.",
+    "SUBTITLE": "At Andean Elite, we create unique experiences tailored to your travel style and personal pace.",
+    "DELUXE": {
+      "TITLE": "Deluxe",
+      "DESCRIPTION": "Exclusive journeys with premium accommodations and top-tier service."
+    },
+    "COMFORT": {
+      "TITLE": "Comfort",
+      "DESCRIPTION": "Authentic experiences with the perfect balance of comfort and culture."
+    },
+    "SUPERDEALS": {
+      "TITLE": "Super Deals",
+      "DESCRIPTION": "The best offers to explore Peru with quality and affordable pricing."
+    },
+    "CHOOSE": "Choose your style. We’ll make it happen!"
+  },
   "NAVBAR": {
     "ABOUT_US": {
       "TITLE": "About Us",

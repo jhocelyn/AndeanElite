@@ -5,12 +5,22 @@
   </div>
 
   <!-- Styles Section -->
+  <div class="bg-[#0f2d40] py-10">
+    <h2 class="text-xl md:text-2xl font-semibold text-center text-white mb-5">
+      {{'HOME_STYLES.TITLE'|translate}}
+    </h2>
+    <p class="text-lg md:text-xl font-light text-center text-white mb-8">
+      {{'HOME_STYLES.SUBTITLE'|translate}}
+    </p>
+  </div>
+
+  <!-- Styles Section -->
   <div class="bg-white px-10 py-10">
-    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#034873] mb-12">
+    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#034873] my-6">
       {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
     </h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
       <div
         *ngFor="let style of styles"
         class="bg-[#f9f9f9] rounded-xl shadow-md hover:shadow-xl transition-all duration-300  text-center"
@@ -24,6 +34,9 @@
         <h3 class="text-2xl font-semibold text-[#034873] mb-2">
           {{ ('NAVBAR.WAYS.STYLES.' + style.name.toUpperCase().replace('-', '')) | translate }}
         </h3>
+        <p class="text-lg font-base text-black mb-2">
+          {{ ('HOME_STYLES.' + style.name.toUpperCase().replace('-', '')+'.DESCRIPTION') | translate }}
+        </p>
 
         <button class="rounded-xl py-2 px-6 mb-4 bg-[#034873] text-white hover:bg-blue-900 transition-colors duration-300">
           <span class="text-lg">
@@ -31,6 +44,10 @@
           </span>
         </button>
       </div>
+    </div>
+
+    <div class="flex items-center justify-center py-5">
+      <h3 class="text-xl md:text-2xl font-semibold text-center text-[#0F2D40] mb-5">{{'HOME_STYLES.CHOOSE'|translate}}</h3>
     </div>
   </div>
 
