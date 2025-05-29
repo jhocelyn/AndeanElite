@@ -1,6 +1,6 @@
 {
   "VIEW_PACKAGES": "View Packages",
-  "ALL_TRAVEL": "View all Travel By Interest",
+  "ALL_TRAVEL": "View more Tours",
   "NAVBAR": {
     "ABOUT_US": {
       "TITLE": "About Us",
@@ -30,12 +30,15 @@
         "TAYLOR": "Taylor Made",
         "EXTENSIONS": "Extensions",
         "HOMESTAYS": "Homestays",
-        "CORPORATE": "Corporate Travel"
+        "CORPORATE": "Corporate Travel",
+        "SEE_MORE": "Explore all our travel by interest"
+
       }
     },
     "CONTACT_US": "Contact us",
     "SALES_CONTACT": "Sales Contact Center:",
     "OUR_PURPOSE": "Our Purpose"
+
   },
   "OUR_PURPOSE": {
     "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",

@@ -1,6 +1,6 @@
 {
   "VIEW_PACKAGES": "Ver Paquetes",
-  "ALL_TRAVEL": "Mirar Todos los Viajes",
+  "ALL_TRAVEL": "Mirar todos los tours",
   "NAVBAR": {
     "ABOUT_US": {
       "TITLE": "Sobre nosotros",
@@ -29,7 +29,9 @@
         "TAYLOR": "A Medida",
         "EXTENSIONS": "Extensiones",
         "HOMESTAYS": "Estadías",
-        "CORPORATE": "Viaje Corporativo"
+        "CORPORATE": "Viaje Corporativo",
+        "SEE_MORE": "Explore all our travel by interest"
+
       }
     },
     "DESTINATIONS": "Destinos",

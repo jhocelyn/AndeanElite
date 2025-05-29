@@ -1,17 +1,14 @@
 import {Component, OnInit, Inject, PLATFORM_ID, HostListener, ViewChild, ElementRef} from '@angular/core';
 import {isPlatformBrowser, NgClass, NgForOf, NgIf} from '@angular/common';
 import AOS from 'aos';
-import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
 import {SliderComponent} from '../../shared/components/Important/slider/slider.component';
-import {GalleryComponent} from '../../shared/components/general/gallery/gallery.component';
-import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {Router, RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [SliderComponent, GalleryComponent, TranslatePipe, NgForOf, NgClass, RouterLink],
+  imports: [SliderComponent, TranslatePipe, NgForOf, NgClass, RouterLink, NgIf],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
@@ -33,7 +30,7 @@ export class LayoutComponent implements OnInit{
 
   scrollCarousel(direction: 'left' | 'right') {
     const container = this.carouselContainer.nativeElement;
-    const scrollAmount = 329; // ajusta al tamaño de tus tarjetas + gap
+    const scrollAmount = 290; // ajusta al tamaño de tus tarjetas + gap
     container.scrollBy({ left: direction === 'left' ? -scrollAmount : scrollAmount, behavior: 'smooth' });
   }
 

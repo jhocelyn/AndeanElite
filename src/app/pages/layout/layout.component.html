@@ -63,34 +63,48 @@
     </h2>
 
     <div class="relative">
-      <!-- Contenedor del carrusel -->
       <div
         #carouselContainer
         class="flex gap-6 overflow-x-auto scroll-smooth pb-6 hide-scrollbar"
       >
-        <div
-          *ngFor="let interest of interests" [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"
-          class="min-w-[305px] max-w-[305px] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
-        >
-          <img
-            [src]="interest.image"
-            [alt]="interest.title"
-            class="w-full h-40 object-cover rounded-t-xl"
-          />
-          <div class="p-4 text-[#034873] text-start">
-            <h3 class="font-semibold text-lg">
-              {{ interest.title === 'Mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + interest.title.toUpperCase()) | translate }}
-            </h3>
+        <ng-container *ngFor="let interest of interests; let i = index">
+          <!-- Mostrar tarjetas normales para los primeros 3 -->
+          <div
+            *ngIf="i !== 3"
+            [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"
+            class="min-w-[23.2%] max-w-[23.2%] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
+          >
+            <img
+              [src]="interest.image"
+              [alt]="interest.title"
+              class="w-full h-40 object-cover rounded-t-xl"
+            />
+            <div class="p-4 text-[#034873] text-start">
+              <h3 class="font-semibold text-lg">
+                {{ interest.title === 'Mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + interest.title.toUpperCase()) | translate }}
+              </h3>
+            </div>
           </div>
-        </div>
 
-        <!-- Tarjeta final "Ver todos" -->
+          <!-- Tarjeta azul como la cuarta -->
+          <div
+            *ngIf="i === 3"
+            class="min-w-[23.2%] max-w-[23.2%] bg-[#034873] text-white rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
+            (click)="goToAllInterests()"
+          >
+            <h3 class="text-xl font-semibold">{{ 'ALL_TRAVEL' | translate }}</h3>
+            <p class="mt-2 text-sm opacity-80">{{ 'NAVBAR.WAYS.TRAVEL.SEE_MORE' | translate }}</p>
+          </div>
+        </ng-container>
+
+        <!-- Tarjeta final: "Ver todos" (opcional si deseas mantenerla aparte) -->
+
         <div
           class="min-w-[305px] max-w-[305px] bg-[#034873] text-white rounded-xl flex items-center justify-center text-center cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
           (click)="goToAllInterests()"
         >
           <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">{{ 'ALL_TRAVEL' | translate }}</h3>
+            <h3 class="text-xl font-semibold mb-2">{{ 'NAVBAR.WAYS.TRAVEL.SEE_MORE' | translate }}</h3>
           </div>
         </div>
       </div>
@@ -112,7 +126,6 @@
       </div>
     </div>
   </div>
-
 
   <!--Purpose Section-->
   <div class=" flex flex-col lg:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-gray-200">
@@ -150,20 +163,7 @@
   </div>
 
   <!--Customers Section-->
-  <div class="flex flex-col justify-center items-center col-span-3 min-h-screen bg-[#ECEAE7] ">
-    <!-- Título -->
-    <div class="text-2xl sm:text-4xl font-extralight text-[#034873] text-center mb-6">
-      {{ galleryTitle1 }}
-    </div>
 
-    <!-- Galería -->
-    <div class=" max-w-[350px] xl:max-w-[1200px]">
-      <app-gallery
-        [title]="galleryTitle1"
-        [images]="galleryImages1">
-      </app-gallery>
-    </div>
-  </div>
 
   <!--Contact us Section-->
   <div class="bg-[#ECEAE7] flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
