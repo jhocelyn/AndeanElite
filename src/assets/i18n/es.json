@@ -111,6 +111,11 @@
     "SUBTITLE_DESCRIPTION": "Explora la ciudadela sagrada menos visitada del Perú. Entre montañas y senderos desafiantes, vive una conexión auténtica con la historia y la naturaleza andina.",
     "SUBTITLE_BUTTON": "Planifica tu viaje ahora"
   },
+  "HOME_TRAVEL_BY": {
+    "TITLE": "Viajes por Interes",
+    "SUBTITLE": "Encuentra el viaje perfecto para ti",
+    "DESCRIPTION": "Desde aventuras en crucero por el Amazonas hasta trekking por los Andes, tenemos algo para todos los gustos. Explora nuestras categorías de viajes por interés y descubre experiencias únicas que te conectarán con la esencia del Perú."
+  },
   "PLANYOURTRIP": "Planifica tu viaje aquí",
   "HOME_CERTIFICATES": {
     "TITLE": "Certificados",

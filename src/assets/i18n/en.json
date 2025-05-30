@@ -18,6 +18,11 @@
     },
     "CHOOSE": "Choose the travel style that suits you best!"
   },
+  "HOME_TRAVEL_BY": {
+    "TITLE": "Travel By Interest",
+    "SUBTITLE": "Find the adventure that inspires you most.",
+    "DESCRIPTION": "From scenic mountain treks to immersive cultural experiences, discover the perfect travel journey tailored for you"
+  },
   "HOME_CERTIFICATES": {
     "TITLE": "Certifications",
     "MINCETUR": "Ministry of Foreign Trade and Tourism",
