@@ -115,7 +115,9 @@
   "HOME_CERTIFICATES": {
     "TITLE": "Certificados",
     "MINCETUR": "Ministerio de Comercio Exterior y Turismo del Perú",
-    "AGENCY": "Agencia de Viajes y Turismo Registrada - Operador de Turismo"
+    "AGENCY": "Agencia de Viajes y Turismo Registrada - Operador de Turismo",
+    "PROTEGEME": "Turismo Responsable para prevenir la explotacion sexual de niñas, niños y adolescentes"
+
   },
   "OUR_PURPOSE": {
     "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
