@@ -16,10 +16,16 @@
 
   <!-- Styles Section -->
   <div class="bg-white px-10">
-    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#042A4E] my-10">
-      {{ 'HOME_STYLES.CHOOSE' | translate }}
-    </h2>
-
+    <div class="flex flex-col items-center my-10">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center text-[#042A4E] mb-5">
+        {{ 'HOME_STYLES.CHOOSE' | translate }}
+      </h2>
+      <div class="flex gap-10 text-xl text-[#042A4E]">
+        <i class="fa-solid fa-arrow-down"></i>
+        <i class="fa-solid fa-arrow-down"></i>
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
       <div
         *ngFor="let style of styles"
@@ -147,7 +153,7 @@
       <div class="absolute top-4 left-[50%] md:top-0 md:left-[45%] w-14 lg:w-14">
         <img src="assets/img/general/autism-symbol.webp">
       </div>
-      <div class="flex flex-col justify-start font-semibold  mt-4 md:mt-0 text-6xl">
+      <div class="flex flex-col justify-start font-semibold text-3xl mt-4 md:mt-0 md:text-6xl">
         <span class="ml-0">{{ 'HOME_PURPOSE.TITLE_LINES.0' | translate }}</span>
         <span class="ml-4 md:ml-6">{{ 'HOME_PURPOSE.TITLE_LINES.1' | translate }}</span>
         <span class="ml-10 md:ml-16">{{ 'HOME_PURPOSE.TITLE_LINES.2' | translate }}</span>
