@@ -5,18 +5,18 @@
   </div>
 
   <!-- Styles Section -->
-  <div class="bg-[#0f2d40] py-10">
-    <h2 class="text-xl md:text-4xl font-semibold text-center text-white mb-5">
+  <div class="bg-white text-[#042A4E] pt-10 ">
+    <h2 class="text-xl md:text-4xl font-semibold text-center mb-5">
       {{'HOME_STYLES.TITLE'|translate}}
     </h2>
-    <p class="text-lg md:text-xl font-light text-center text-white mb-8">
+    <p class="text-lg md:text-xl font-light text-center  mb-8">
       {{'HOME_STYLES.SUBTITLE'|translate}}
     </p>
   </div>
 
   <!-- Styles Section -->
   <div class="bg-white px-10">
-    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#034873] my-10">
+    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#042A4E] my-10">
       {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
     </h2>
 
@@ -31,14 +31,14 @@
           alt="{{ style.name }}"
           class="w-full h-48 object-cover "
         />
-        <h3 class="text-2xl font-semibold text-[#034873] my-2 ">
+        <h3 class="text-2xl font-semibold text-[#042A4E] my-2 ">
           {{ ('NAVBAR.WAYS.STYLES.' + style.name.toUpperCase().replace('-', '')) | translate }}
         </h3>
         <p class="text-lg font-base text-black ">
           {{ ('HOME_STYLES.' + style.name.toUpperCase().replace('-', '')+'.DESCRIPTION') | translate }}
         </p>
 
-        <button class="rounded-xl py-2 px-6 my-4 bg-[#034873] text-white hover:bg-blue-900 transition-colors duration-300">
+        <button class="rounded-xl py-2 px-6 my-4 bg-[#042A4E] text-white hover:bg-blue-900 transition-colors duration-300">
           <span class="text-lg">
             {{'VIEW_PACKAGES'|translate}}
           </span>
@@ -47,13 +47,13 @@
     </div>
 
     <div class="flex items-center justify-center mb-6 mt-10 ">
-      <h3 class="text-xl md:text-2xl font-semibold text-center text-[#0F2D40] mb-5">{{'HOME_STYLES.CHOOSE'|translate}}</h3>
+      <h3 class="text-xl md:text-2xl font-semibold text-center text-[#042A4E] mb-5">{{'HOME_STYLES.CHOOSE'|translate}}</h3>
     </div>
   </div>
 
   <!--Travel By Interest-->
   <div class="bg-[#ECEAE7] py-16 px-6 md:px-16 relative">
-    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#034873] mb-12">
+    <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#042A4E] mb-12">
       {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}
     </h2>
 
@@ -74,7 +74,7 @@
               [alt]="interest.title"
               class="w-full h-40 object-cover rounded-t-xl"
             />
-            <div class="p-4 text-[#034873] text-start">
+            <div class="p-4 text-[#042A4E] text-start">
               <h3 class="font-semibold text-lg">
                 {{ interest.title === 'Mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + interest.title.toUpperCase()) | translate }}
               </h3>
@@ -84,7 +84,7 @@
           <!-- Tarjeta azul como la cuarta -->
           <div
             *ngIf="i === 3"
-            class="min-w-[23.2%] max-w-[23.2%] bg-[#034873] text-white rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
+            class="min-w-[23.2%] max-w-[23.2%] bg-[#042A4E] text-white rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
             (click)="goToAllInterests()"
           >
             <h3 class="text-xl font-semibold">{{ 'ALL_TRAVEL' | translate }}</h3>
@@ -95,7 +95,7 @@
         <!-- Tarjeta final: "Ver todos" (opcional si deseas mantenerla aparte) -->
 
         <div
-          class="min-w-[305px] max-w-[305px] bg-[#034873] text-white rounded-xl flex items-center justify-center text-center cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
+          class="min-w-[305px] max-w-[305px] bg-[#042A4E] text-white rounded-xl flex items-center justify-center text-center cursor-pointer hover:bg-[#022f4a] transition-all duration-300"
           (click)="goToAllInterests()"
         >
           <div class="p-6">
@@ -107,13 +107,13 @@
       <!-- Botones de navegación -->
       <div class="absolute bottom-[-10] right-0 flex gap-2 pr-4 pb-2">
         <button
-          class="bg-[#034873] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md hover:bg-[#022f4a] transition"
+          class="bg-[#042A4E] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md hover:bg-[#022f4a] transition"
           (click)="scrollCarousel('left')"
         >
           ‹
         </button>
         <button
-          class="bg-[#034873] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md hover:bg-[#022f4a] transition"
+          class="bg-[#042A4E] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md hover:bg-[#022f4a] transition"
           (click)="scrollCarousel('right')"
         >
           ›
@@ -123,7 +123,7 @@
   </div>
 
   <!--WHY ANDEANELITE Seccion-->
-  <div class="flex flex-col text-white bg-[#0F2D40] min-h-[50vh] py-24 px-[120px]">
+  <div class="flex flex-col text-white bg-[#042A4E] min-h-[50vh] py-24 px-[120px]">
     <h1 class="text-4xl md:text-5xl font-semibold text-center mb-10">
       {{ 'WHYANDEANELITE.TITLE' | translate }}
     </h1>
@@ -184,7 +184,7 @@
 
   <!-- Testimonials Section -->
   <div class="bg-white py-20 px-4 min-h-[81vh] text-center">
-    <h2 class="text-3xl md:text-5xl font-bold text-[#034873] mb-4">
+    <h2 class="text-3xl md:text-5xl font-bold text-[#042A4E] mb-4">
       {{ 'HOME_TESTIMONIALS.TESTIMONIALS.TITLE' | translate }}
     </h2>
     <p class="text-lg text-gray-700 mb-10">
@@ -192,7 +192,7 @@
     </p>
 
     <!-- Testimonio actual -->
-    <div class="max-w-3xl mx-auto p-8 relative text-[#034873]">
+    <div class="max-w-3xl mx-auto p-8 relative text-[#042A4E]">
       <div class="font-semibold text-xl">{{ currentTestimonial.name }}</div>
       <div class="text-yellow-400 text-lg">
         <span *ngFor="let star of starsArray">★</span>
@@ -209,16 +209,16 @@
 
       <!-- Botones de navegación -->
       <div class="absolute inset-y-0 left-[-40px] flex items-center">
-        <button (click)="prevTestimonial()" class="text-[#034873] text-3xl hover:text-[#022f4a]">‹</button>
+        <button (click)="prevTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">‹</button>
       </div>
       <div class="absolute inset-y-0 right-[-40px] flex items-center">
-        <button (click)="nextTestimonial()" class="text-[#034873] text-3xl hover:text-[#022f4a]">›</button>
+        <button (click)="nextTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">›</button>
       </div>
     </div>
   </div>
 
   <!-- -->
-  <div class="bg-[#0f2d40] font-light py-10">
+  <div class="bg-[#042A4E] font-light py-10">
     <h2 class="text-xl md:text-4xl text-center text-white mb-5">
       {{'HOME_TESTIMONIALS.READY'|translate}}
     </h2>
@@ -238,12 +238,12 @@
     <div class="hidden xl:flex flex-col justify-between h-full w-[60vh]">
       <img class="h-[50vh] w-[50vh] object-cover" src="/assets/img/general/view-of-amazing-choquequirao.webp" alt="Vista de Choquequirao">
 
-      <div class="mt-4 font-light text-[#034873]">
+      <div class="mt-4 font-light text-[#042A4E]">
         <h3 class="text-xl mb-2">{{'HOME_CONTACT_US.SUBTITLE'|translate}}</h3>
         <p class="text-sm text-[#4D6270] mb-4">
           {{'HOME_CONTACT_US.SUBTITLE_DESCRIPTION'|translate}}
         </p>
-        <button class="bg-[#034873] hover:bg-[#022f4a] text-white px-4 py-2 rounded-full transition-all">
+        <button class="bg-[#042A4E] hover:bg-[#022f4a] text-white px-4 py-2 rounded-full transition-all">
           {{'HOME_CONTACT_US.SUBTITLE_BUTTON'|translate}}
         </button>
       </div>
@@ -251,7 +251,7 @@
 
     <!-- Formulario de contacto -->
     <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col gap-6 max-w-xl w-full p-4">
-      <h1 class="text-[30px] font-light text-[#034873]">
+      <h1 class="text-[30px] font-light text-[#042A4E]">
         {{ 'HOME_CONTACT_US.TITLE' | translate }}
       </h1>
       <p class="text-[14px] md:text-[18px] font-light text-[#4D6270]">
@@ -269,7 +269,7 @@
                class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
 
         <button type="submit"
-                class="bg-[#4D6270] hover:bg-[#034873] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
+                class="bg-[#4D6270] hover:bg-[#042A4E] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
         <span class="flex items-center space-x-2">
           <span class="group-hover:-translate-x-1 transition-transform duration-300">
             {{ 'HOME_CONTACT_US.BUTTON' | translate }}
