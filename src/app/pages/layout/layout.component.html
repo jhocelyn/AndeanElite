@@ -233,32 +233,31 @@
   </div>
 
   <!--Contact us Section-->
-  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row justify-center items-center gap-24 h-full p-6">
+  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row justify-center xl:items-start gap-24 h-full py-20">
     <!-- Imagen y contenido informativo -->
     <div class="hidden xl:flex flex-col justify-between h-full w-[60vh]">
       <img class="h-[50vh] w-[50vh] object-cover" src="/assets/img/general/view-of-amazing-choquequirao.webp" alt="Vista de Choquequirao">
 
       <div class="mt-4 font-light text-[#042A4E]">
-        <h3 class="text-xl mb-2">{{'HOME_CONTACT_US.SUBTITLE'|translate}}</h3>
+        <h3 class="text-xl mb-2">{{'HOME_CONTACT_US.SUBTITLE' | translate}}</h3>
         <p class="text-sm text-[#4D6270] mb-4">
-          {{'HOME_CONTACT_US.SUBTITLE_DESCRIPTION'|translate}}
+          {{'HOME_CONTACT_US.SUBTITLE_DESCRIPTION' | translate}}
         </p>
         <button class="bg-[#042A4E] hover:bg-[#022f4a] text-white px-4 py-2 rounded-full transition-all">
-          {{'HOME_CONTACT_US.SUBTITLE_BUTTON'|translate}}
+          {{'HOME_CONTACT_US.SUBTITLE_BUTTON' | translate}}
         </button>
       </div>
     </div>
 
     <!-- Formulario de contacto -->
-    <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col gap-6 max-w-xl w-full p-4">
+    <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col gap-6 items-start justify-start max-w-xl w-full h-full">
       <h1 class="text-[30px] font-light text-[#042A4E]">
         {{ 'HOME_CONTACT_US.TITLE' | translate }}
       </h1>
       <p class="text-[14px] md:text-[18px] font-light text-[#4D6270]">
         {{ 'HOME_CONTACT_US.DESCRIPTION' | translate }}
       </p>
-
-      <form class="flex flex-col  gap-4">
+      <form class="flex flex-col w-full gap-4">
         <input type="text" placeholder="{{ 'HOME_CONTACT_US.NAME' | translate }}"
                class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
 
@@ -269,7 +268,7 @@
                class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
 
         <button type="submit"
-                class="bg-[#4D6270] hover:bg-[#042A4E] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
+                class="bg-[#042A4E] hover:bg-[#042A4E] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
         <span class="flex items-center space-x-2">
           <span class="group-hover:-translate-x-1 transition-transform duration-300">
             {{ 'HOME_CONTACT_US.BUTTON' | translate }}
@@ -280,6 +279,7 @@
       </form>
     </div>
   </div>
+
 
   <a
     href="https://wa.me/51926941001?text=Hola%2C%20quiero%20planificar%20mi%20viaje"
