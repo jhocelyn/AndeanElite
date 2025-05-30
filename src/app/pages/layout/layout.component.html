@@ -233,25 +233,99 @@
   </div>
 
   <!--Contact us Section-->
-  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row row-span-2 justify-center items-center gap-20 h-[70vh]">
-    <div class="hidden xl:block h-[50vh] w-[50vh]">
-      <img class="h-full object-cover" src="/assets/img/destinations/cusco/peru-weavers-llama.webp" alt="a">
+  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row justify-center items-center gap-24 h-full p-6">
+    <!-- Imagen y contenido informativo -->
+    <div class="hidden xl:flex flex-col justify-between h-full w-[60vh]">
+      <img class="h-[50vh] w-[50vh] object-cover" src="/assets/img/general/people-in-choquequirao.webp" alt="Vista de Choquequirao">
+
+      <div class="mt-4 font-light text-[#034873]">
+        <h3 class="text-xl mb-2">Choquequirao: la joya inca lejos de las multitudes</h3>
+        <p class="text-sm text-[#4D6270] mb-4">
+          Explora la ciudadela sagrada menos visitada del Perú. Entre montañas y senderos desafiantes,
+          vive una conexión auténtica con la historia y la naturaleza andina.
+        </p>
+        <button class="bg-[#034873] hover:bg-[#022f4a] text-white px-4 py-2 rounded-full transition-all">
+          Planifica tu aventura ahora
+        </button>
+      </div>
     </div>
-    <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col col-span-3 gap-6 p-4 ">
-      <h1 class="text-[30px] font-extralight text-[#034873]">{{ 'CONTACTUS.TITLE' | translate }}</h1>
-      <p class="text-[10px] md:text-[20px] font-extralight text-[#4D6270]">{{ 'CONTACTUS.DESCRIPTION' | translate }}</p>
-      <form class="flex flex-col gap-5">
-        <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid px-2 border-[1px]" type="text" placeholder="{{ 'CONTACTUS.NAME' | translate }}">
-        <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid px-2 border-[1px]" type="text" placeholder="{{ 'CONTACTUS.EMAIL' | translate }}">
-        <input class="w-[300px] md:w-[400px] h-[50px] border-[#4D6270] border-solid px-2 border-[1px]" type="text" placeholder="{{ 'CONTACTUS.PHONE' | translate }}">
-        <button class="bg-[#4D6270] rounded-full w-[150px] h-[50px] flex items-center justify-center relative group transition-all duration-300 ease-in-out overflow-hidden hover:bg-[#034873]">
-          <span class="text-white text-[20px] font-extralight flex items-center space-x-2">
-            <span class="group-hover:-translate-x-2 transition-transform duration-300 ease-in-out">{{ 'CONTACTUS.BUTTON' | translate }}</span>
-            <span
-              class="opacity-0 translate-x-[-10px] text-white group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
-              →
-            </span>
+
+    <!-- Formulario de contacto -->
+    <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col gap-6 max-w-xl w-full p-4">
+      <h1 class="text-[30px] font-light text-[#034873]">
+        {{ 'CONTACTUS.TITLE' | translate }}
+      </h1>
+      <p class="text-[14px] md:text-[18px] font-light text-[#4D6270]">
+        {{ 'CONTACTUS.DESCRIPTION' | translate }}
+      </p>
+
+      <form class="flex flex-col  gap-4">
+        <input type="text" placeholder="{{ 'CONTACTUS.NAME' | translate }}"
+               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+
+        <input type="email" placeholder="{{ 'CONTACTUS.EMAIL' | translate }}"
+               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+
+        <input type="tel" placeholder="{{ 'CONTACTUS.PHONE' | translate }}"
+               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+
+        <button type="submit"
+                class="bg-[#4D6270] hover:bg-[#034873] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
+        <span class="flex items-center space-x-2">
+          <span class="group-hover:-translate-x-1 transition-transform duration-300">
+            {{ 'CONTACTUS.BUTTON' | translate }}
           </span>
+          <span class="opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">→</span>
+        </span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row justify-center items-center gap-24 h-full p-6">
+    <!-- Imagen y contenido informativo -->
+    <div class="hidden xl:flex flex-col justify-between h-full w-[60vh]">
+      <img class="h-[50vh] w-[50vh] object-cover" src="/assets/img/general/view-of-amazing-choquequirao.webp" alt="Vista de Choquequirao">
+
+      <div class="mt-4 font-light text-[#034873]">
+        <h3 class="text-xl mb-2">Choquequirao: la joya inca lejos de las multitudes</h3>
+        <p class="text-sm text-[#4D6270] mb-4">
+          Explora la ciudadela sagrada menos visitada del Perú. Entre montañas y senderos desafiantes,
+          vive una conexión auténtica con la historia y la naturaleza andina.
+        </p>
+        <button class="bg-[#034873] hover:bg-[#022f4a] text-white px-4 py-2 rounded-full transition-all">
+          Planifica tu aventura ahora
+        </button>
+      </div>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col gap-6 max-w-xl w-full p-4">
+      <h1 class="text-[30px] font-light text-[#034873]">
+        {{ 'CONTACTUS.TITLE' | translate }}
+      </h1>
+      <p class="text-[14px] md:text-[18px] font-light text-[#4D6270]">
+        {{ 'CONTACTUS.DESCRIPTION' | translate }}
+      </p>
+
+      <form class="flex flex-col  gap-4">
+        <input type="text" placeholder="{{ 'CONTACTUS.NAME' | translate }}"
+               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+
+        <input type="email" placeholder="{{ 'CONTACTUS.EMAIL' | translate }}"
+               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+
+        <input type="tel" placeholder="{{ 'CONTACTUS.PHONE' | translate }}"
+               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+
+        <button type="submit"
+                class="bg-[#4D6270] hover:bg-[#034873] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
+        <span class="flex items-center space-x-2">
+          <span class="group-hover:-translate-x-1 transition-transform duration-300">
+            {{ 'CONTACTUS.BUTTON' | translate }}
+          </span>
+          <span class="opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">→</span>
+        </span>
         </button>
       </form>
     </div>
