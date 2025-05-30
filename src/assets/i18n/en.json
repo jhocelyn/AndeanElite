@@ -18,6 +18,11 @@
     },
     "CHOOSE": "Choose the travel style that suits you best!"
   },
+  "HOME_CERTIFICATES": {
+    "TITLE": "Certifications",
+    "MINCETUR": "Ministry of Foreign Trade and Tourism",
+    "AGENCY": "Registered Travel and Tourism Agency - Tour Operator"
+  },
   "HOME_TESTIMONIALS": {
     "TESTIMONIALS": {
       "TITLE": "What Customers Said",
