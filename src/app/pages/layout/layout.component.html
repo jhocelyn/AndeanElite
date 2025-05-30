@@ -163,18 +163,17 @@
       <h2 class="text-xl md:text-4xl font-semibold text-center ">
       {{ 'HOME_CERTIFICATES.TITLE' | translate }}
     </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 items-start text-center">
+      <div class="grid grid-cols-1 text-sm md:grid-cols-3 gap-4 items-start text-center">
         <!-- Certificado 1 -->
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col h-[40vh] justify-center items-center">
           <img src="../../../assets/img/certifications/Agencia-de-viajes-turismo-registrada.webp"
                alt="" class="object-contain h-[12vh] mb-8">
-          <p>
-            {{ 'HOME_CERTIFICATES.AGENCY' | translate }}
+          <p [innerHTML]="'HOME_CERTIFICATES.AGENCY'|translate">
           </p>
         </div>
 
         <!-- Certificado 2 -->
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col  h-[36vh] justify-center items-center">
           <img src="assets/img/certifications/mincetur.webp"
                alt="" class="object-contain h-[15vh] mb-4">
           <p>
@@ -183,11 +182,10 @@
         </div>
 
         <!-- Certificado 3 -->
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col  h-[33vh] justify-center items-center">
           <img src="assets/img/certifications/protegeme.webp"
-               alt="" class="object-contain h-[15vh] mb-4">
-          <p>
-            {{ 'HOME_CERTIFICATES.PROTEGEME' | translate }}
+               alt="" class="object-contain h-[22vh] mb-4">
+          <p [innerHTML]="'HOME_CERTIFICATES.PROTEGEME'|translate">
           </p>
         </div>
       </div>
