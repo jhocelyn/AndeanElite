@@ -16,7 +16,7 @@
       "TITLE": "Super Deals",
       "DESCRIPTION": "The best offers to explore Peru with quality and affordable pricing."
     },
-    "CHOOSE": "Choose your style. We’ll make it happen!"
+    "CHOOSE": "Choose your travel style. We’ll take care of the rest."
   },
   "HOME_TESTIMONIALS": {
     "TESTIMONIALS": {
@@ -26,6 +26,52 @@
     "READY": "Ready to experience Peru like never before?",
     "DESCRIPTION": "Join to our community of travelers and discover the magic of Peru with Andean Elite.",
     "PLAN": "Plan your luxury trip with us today!"
+  },
+  "HOME_PURPOSE": {
+    "TITLE_LINES": ["Travel", "Connect", "Transform"],
+    "DESCRIPTION": "At Andean Elite, every trip helps provide therapies for children with autism in the Andes.",
+    "BUTTON": "Learn about our purpose"
+  },
+  "WHYANDEANELITE": {
+    "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
+    "POINTS": [
+      {
+        "TITLE": "Unique Travel",
+        "DESCRIPTION": "Custom trips in Peru from Machu Picchu to Titicaca with luxury and adventure"
+      },
+      {
+        "TITLE": "Luxury in Every Detail",
+        "DESCRIPTION": "Boutique hotels, private transportation, and exclusive experiences"
+      },
+      {
+        "TITLE": "Attention 24/7",
+        "DESCRIPTION": "We're available to solve issues and answer questions at any time"
+      },
+      {
+        "TITLE": "Cultural Connection",
+        "DESCRIPTION": "Discover Peru’s heritage with passionate, knowledgeable local guides"
+      },
+      {
+        "TITLE": "Expert Guides",
+        "DESCRIPTION": "Local experts who know every corner of Peru and its history"
+      },
+      {
+        "TITLE": "Security and Confidence",
+        "DESCRIPTION": "With experience in the industry, we ensure your trip is safe and worry-free"
+      }
+    ]
+  },
+  "PLANYOURTRIP": "Plan Your Trip Here",
+  "HOME_CONTACT_US": {
+    "TITLE": "Contact Us",
+    "DESCRIPTION": "Leave your details and we will contact you.",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "BUTTON": "Send",
+    "SUBTITLE": "Choquequirao: The Lost City of the Incas",
+    "SUBTITLE_DESCRIPTION": "Discover the magic of Choquequirao, the last refuge of the Incas, with our exclusive tours. Experience breathtaking landscapes, rich history, and authentic Andean culture on this unforgettable journey.",
+    "SUBTITLE_BUTTON": "Explore Choquequirao Tours"
   },
   "NAVBAR": {
     "ABOUT_US": {
@@ -90,98 +136,6 @@
     "DONATION_PHRASE": "Every story you tell, inspires a journey. Every journey, changes a life.",
     "SHARE_TITLE": "Share Our Purpose",
     "SHARE_TEXT": "Help us reach more people by sharing our mission on your social networks or by recommending us to friends."
-  },
-  "WHYANDEANELITE": {
-    "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
-    "POINTS": [
-      {
-        "TITLE": "Unique Travel",
-        "DESCRIPTION": "Custom trips in Peru from Machu Picchu to Titicaca with luxury and adventure"
-      },
-      {
-        "TITLE": "Luxury in Every Detail",
-        "DESCRIPTION": "Boutique hotels, private transportation, and exclusive experiences"
-      },
-      {
-        "TITLE": "Attention 24/7",
-        "DESCRIPTION": "We're available to solve issues and answer questions at any time"
-      },
-      {
-        "TITLE": "Cultural Connection",
-        "DESCRIPTION": "Discover Peru’s heritage with passionate, knowledgeable local guides"
-      },
-      {
-        "TITLE": "Expert Guides",
-        "DESCRIPTION": "Local experts who know every corner of Peru and its history"
-      },
-      {
-        "TITLE": "Security and Confidence",
-        "DESCRIPTION": "With experience in the industry, we ensure your trip is safe and worry-free"
-      }
-    ]
-  },
-  "HOME_PURPOSE": {
-    "TITLE_LINES": ["Travel", "Connect", "Transform"],
-    "DESCRIPTION": "At Andean Elite, every trip helps provide therapies for children with autism in the Andes.",
-    "BUTTON": "Learn about our purpose"
-  },
-  "PLANYOURTRIP": "Plan Your Trip Here",
-  "galleries": {
-    "DISCOVER": {
-      "TITLE": "Discover",
-      "IMAGES": [
-        {
-          "url": "assets/img/general/arequipa1.webp",
-          "title": "Majestic Arequipa",
-          "description": "Arequipa is the colonial-era capital of the Arequipa region in southern Peru. It is surrounded by three majestic volcanoes and is known for its baroque architecture built from sillar, a white volcanic stone. Beyond its architectural beauty, Arequipa offers a rich cultural history, traditional cuisine, and a mild climate, making it an ideal destination for those seeking to experience Peruvian history, nature, and tradition."
-        },
-        {
-          "url": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
-          "title": "Lima, The City of Kings: Where History Meets Modernity",
-          "description": "Lima is the capital of Peru, located on the country’s arid Pacific coast. While it preserves a well-maintained colonial center, it is also a dynamic metropolis and one of the largest cities in South America. Lima offers a vibrant mix of history, culture, and modernity, with world-renowned cuisine, diverse neighborhoods, coastal views, and a rich blend of pre-Columbian and colonial heritage."
-        },
-        {
-          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
-          "title": "Cusco: The Heart of the Inca Empire",
-          "description": "Experience the full magic of Cusco on an unforgettable 5-day, 4-night journey that includes comfortable accommodation in the heart of the city, a guided city tour, exploration of nearby archaeological sites, a scenic tour through the Sacred Valley, a train ride aboard the Expedition or Vistadome, a visit to the awe-inspiring Machu Picchu, and an adventurous hike to the colorful and iconic Rainbow Mountain."
-        },
-        {
-          "url": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
-          "title": "Enigmatic Nazca",
-          "description": "The Nazca Lines, in southern Peru, are a group of pre-Columbian geoglyphs etched into the desert sands. They cover an area of nearly 1,000 square kilometers and include around 300 distinct figures, featuring animals and plants."
-        },
-        {
-          "url": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
-          "title": "Puerto Maldonado",
-          "description": "Puerto Maldonado, the capital of the Madre de Dios region, serves as the gateway to the Peruvian Amazon. Surrounded by lush rainforest and rich wildlife, it offers access to the incredible Tambopata National Reserve. This biodiverse paradise invites travelers to immerse themselves in nature through guided jungle walks, river excursions, and wildlife spotting, promising an unforgettable and immersive Amazonian adventure unlike any other."
-        }
-      ]
-    },
-    "CUSTOMERS": {
-      "TITLE": "Our Customers Say",
-      "IMAGES": [
-        {
-          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
-          "title": "Johann (Peru) & Daniela (Mexico)",
-          "description": "\"Our trip with Andean Elite was spectacular. Everything was perfectly organized, and each destination amazed us. We had an incident where we lost a wallet with money at the entrance of Machu Picchu, but thanks to the Andean Elite team, who acted quickly with security and cameras, we managed to recover it. Impeccable service and highly recommended!\""
-        },
-        {
-          "url": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
-          "title": "Luis López - Mexico City, Mexico",
-          "description": "\"Traveling with Andean Elite was the best decision we could have made. They offered us an exclusive itinerary that combined history, culture, and luxury. The guide was incredibly knowledgeable and friendly. Cusco amazed us, and it was all thanks to the impeccable planning by the team. Highly recommended!\""
-        },
-        {
-          "url": "assets/img/destinations/cusco/machu-picchu-inca-citadel-peru.webp",
-          "title": "Mariana Quiñones - Atlanta, USA",
-          "description": "\"We always dreamed of visiting Machu Picchu, but doing it with Andean Elite made it an unforgettable experience. Every hotel was first-class, and the private transportation allowed us to relax and enjoy the trip. We felt cared for and attended to at all times. Thank you for this dream trip!\""
-        },
-        {
-          "url": "assets/img/destinations/arequipa/destinations-arequipa-santa-catalina.webp",
-          "title": "Londoño Family - Bogotá, Colombia",
-          "description": "\"There were five of us traveling as a family, and we couldn't be happier with the experience. Cusco captivated us with its history, Arequipa impressed us with its architecture, and Puno left us speechless with Lake Titicaca. Andean Elite took care of every detail so we could enjoy without worries. Definitely the best family trip we've ever had!\""
-        }
-      ]
-    }
   },
   "CONTACTUS": {
     "TITLE": "Contact us",

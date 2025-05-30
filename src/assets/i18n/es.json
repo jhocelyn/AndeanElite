@@ -71,31 +71,6 @@
     "DESCRIPTION": "Únete a cientos de viajeros que han confiado en nosotros para crear recuerdos inolvidables",
     "PLAN": "Planifica tu Viaje de Lujo"
   },
-  "OUR_PURPOSE": {
-    "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
-    "TITLE": "Our Purpose",
-    "SUBTITLE": "Be part of the change that transforms lives in the Andes",
-    "DESCRIPTION": "Every trip booked with Andean Elits is not just unforgettable — it's a chance to create real impact.",
-    "BUTTON_EXPLORE": "Explore our tours",
-    "TRAVEL_TITLE": "Travel with Purpose",
-    "POINTS": [
-      "<strong>En Andean Elite, cada viaje deja huella</strong><br>No solo recorres Perú… ayudas a transformarlo.",
-      "✳\uFE0F<br> Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.",
-      "\uD83E\uDD1D<br>Tú exploras. Nosotros ayudamos. Ellos sonríen.",
-      "\uD83D\uDCCD<br>Cusco – Comunidades altoandinas<br>\uD83D\uDCAC<br>Conexión auténtica + Acción solidaria"
-    ],
-    "TRAVEL": [
-      "Fund individual therapy sessions for children",
-      "Provide transportation for rural families",
-      "Train local therapists and teachers",
-      "Support inclusive methodologies"
-    ],
-    "BUTTON_DONATE": "Donate now",
-    "DONATION_TITLE": "Make a Donation",
-    "DONATION_PHRASE": "Every story you tell, inspires a journey. Every journey, changes a life.",
-    "SHARE_TITLE": "Share Our Purpose",
-    "SHARE_TEXT": "Help us reach more people by sharing our mission on your social networks or by recommending us to friends."
-  },
   "WHYANDEANELITE": {
     "TITLE": "¿Por qué elegir Andean Elite?",
     "POINTS": [
@@ -125,64 +100,43 @@
       }
     ]
   },
-  "galleries": {
-    "DISCOVER": {
-      "TITLE": "Descubre",
-      "IMAGES": [
-        {
-          "url": "assets/img/general/arequipa1.webp",
-          "title": "Arequipa Majestuosa",
-          "description": "Arequipa es la capital colonial de la región homónima en el sur del Perú. Rodeada por los imponentes volcanes Misti, Chachani y Pichu Pichu, destaca por su arquitectura barroca hecha con sillar, una piedra volcánica blanca. Su centro histórico, reconocido por la UNESCO, combina belleza arquitectónica, historia y cultura viva, convirtiendo a la ciudad en un destino fascinante para los viajeros que buscan autenticidad y tradición."
-        },
-        {
-          "url": "assets/img/destinations/lima/destinations-peru-lima-costa-verde.webp",
-          "title": "Lima, la Ciudad de los Reyes: Historia y Modernidad",
-          "description": "Lima es la capital del Perú, situada en la árida costa del Pacífico. Aunque conserva un centro histórico colonial con iglesias, balcones y casonas emblemáticas, es también una metrópolis moderna y vibrante. Es una de las ciudades más grandes de Sudamérica y destaca por su diversidad cultural, su reconocida gastronomía, su vida nocturna y su mezcla única de tradición e innovación urbana."
-        },
-        {
-          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
-          "title": "Cusco Mágico: Historia y Aventura",
-          "description": "Viva la magia completa de Cusco en un viaje inolvidable de 5 días y 4 noches que incluye estadía en cómodos hoteles, un tour guiado por la ciudad, visitas a sitios arqueológicos emblemáticos, recorrido por el impresionante Valle Sagrado, un viaje panorámico en tren Expedition o Vistadome, exploración de la maravilla mundial Machu Picchu y una caminata hacia la imponente y colorida Montaña de 7 Colores."
-        },
-        {
-          "url": "assets/img/destinations/nazca/destinations-peru-nasca.webp",
-          "title": "Nazca: Enigma en el Desierto",
-          "description": "Las Líneas de Nazca, ubicadas en el sur de Perú, son un enigmático conjunto de geoglifos precolombinos que se extienden sobre las áridas arenas del desierto. Estas misteriosas figuras cubren un área de aproximadamente 1,000 kilómetros cuadrados y se componen de alrededor de 300 representaciones distintas, que incluyen figuras de animales, plantas y seres humanos, siendo uno de los mayores logros del arte prehispánico en la región."
-        },
-        {
-          "url": "assets/img/destinations/puerto-maldonado/destinations-puerto-maldonado.webp",
-          "title": "Puerto Maldonado y la Selva Amazónica: Aventura en la Naturaleza.",
-          "description": "Puerto Maldonado, la capital de la región de Madre de Dios, se erige como la puerta de entrada al imponente Amazonas peruano. En este destino, la exuberante selva tropical y la biodiversidad única de la Reserva Nacional Tambopata te invitan a sumergirte en un entorno natural incomparable. Aquí, los viajeros pueden disfrutar de una experiencia inolvidable, rodeados de una rica flora y fauna en su hábitat natural."
-        }
-      ]
-    },
-    "CUSTOMERS": {
-      "TITLE": "Nuestros Clientes Dicen",
-      "IMAGES": [
-        {
-          "url": "assets/img/destinations/cusco/destinations-machu-picchu.webp",
-          "title": "Johann (Perú) & Daniela (México)",
-          "description": "\"Nuestro viaje con Andean Elite fue espectacular. Todo estuvo perfectamente organizado, y cada destino nos dejó asombrados. Tuvimos un incidente al perder una cartera con dinero en la entrada de Machu Picchu, pero gracias al equipo de Andean Elite, que actuó rápidamente con seguridad y cámaras, logramos recuperarla. ¡Un servicio impecable y altamente recomendado!\""
-        },
-        {
-          "url": "assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp",
-          "title": "Luis López. - Ciudad de México, México",
-          "description": "\"Viajar con Andean Elite fue la mejor decisión que pudimos tomar. Nos ofrecieron un itinerario exclusivo que combinó historia, cultura y lujo. El guía fue increíblemente conocedor y amable. Cusco nos dejó maravillados y todo fue gracias a la impecable planificación del equipo. ¡Recomendadísimos!\""
-        },
-        {
-          "url": "assets/img/destinations/cusco/machu-picchu-inca-citadel-peru.webp",
-          "title": "Mariana Quiñones. - Atlanta, USA",
-          "description": "\"Siempre soñamos con conocer Machu Picchu, pero hacerlo con Andean Elite lo convirtió en una experiencia inolvidable. Cada hotel fue de primera categoría y el transporte privado nos permitió relajarnos y disfrutar del viaje. Nos sentimos cuidados y atendidos en todo momento. ¡Gracias por este viaje de ensueño!\""
-        },
-        {
-          "url": "assets/img/destinations/arequipa/destinations-arequipa-santa-catalina.webp",
-          "title": "Familia Londoño- Bogota, Colombia",
-          "description": "\"Éramos cinco personas viajando en familia y no podríamos estar más felices con la experiencia. Cusco nos enamoró con su historia, Arequipa nos impresionó con su arquitectura, y Puno nos dejó sin palabras con el Lago Titicaca. Andean Elite se encargó de cada detalle para que disfrutáramos sin preocupaciones. ¡Definitivamente el mejor viaje familiar que hemos tenido!\""
-        }
-      ]
-    }
+  "HOME_CONTACT_US": {
+    "TITLE": "Contactanos",
+    "DESCRIPTION": "Dejanos tus datos y nos pondremos en contacto.",
+    "NAME": "Nombre",
+    "EMAIL": "Correo",
+    "PHONE": "Celular",
+    "BUTTON": "Enviar",
+    "SUBTITLE": "Choquequirao: la joya inca lejos de las multitudes",
+    "SUBTITLE_DESCRIPTION": "Explora la ciudadela sagrada menos visitada del Perú. Entre montañas y senderos desafiantes, vive una conexión auténtica con la historia y la naturaleza andina.",
+    "SUBTITLE_BUTTON": "Planifica tu viaje ahora"
   },
   "PLANYOURTRIP": "Planifica tu viaje aquí",
+  "OUR_PURPOSE": {
+    "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
+    "TITLE": "Our Purpose",
+    "SUBTITLE": "Be part of the change that transforms lives in the Andes",
+    "DESCRIPTION": "Every trip booked with Andean Elits is not just unforgettable — it's a chance to create real impact.",
+    "BUTTON_EXPLORE": "Explore our tours",
+    "TRAVEL_TITLE": "Travel with Purpose",
+    "POINTS": [
+      "<strong>En Andean Elite, cada viaje deja huella</strong><br>No solo recorres Perú… ayudas a transformarlo.",
+      "✳\uFE0F<br> Una parte de nuestras ganancias apoya terapias para niños con autismo en los Andes. Desde Cusco, colaboramos con centros de estimulación temprana que atienden a familias sin recursos, guiando a madres que luchan solas por el bienestar de sus hijos.",
+      "\uD83E\uDD1D<br>Tú exploras. Nosotros ayudamos. Ellos sonríen.",
+      "\uD83D\uDCCD<br>Cusco – Comunidades altoandinas<br>\uD83D\uDCAC<br>Conexión auténtica + Acción solidaria"
+    ],
+    "TRAVEL": [
+      "Fund individual therapy sessions for children",
+      "Provide transportation for rural families",
+      "Train local therapists and teachers",
+      "Support inclusive methodologies"
+    ],
+    "BUTTON_DONATE": "Donate now",
+    "DONATION_TITLE": "Make a Donation",
+    "DONATION_PHRASE": "Every story you tell, inspires a journey. Every journey, changes a life.",
+    "SHARE_TITLE": "Share Our Purpose",
+    "SHARE_TEXT": "Help us reach more people by sharing our mission on your social networks or by recommending us to friends."
+  },
   "CONTACTUS": {
     "TITLE": "Contáctenos",
     "EMAIL": "Correo Electronico",
