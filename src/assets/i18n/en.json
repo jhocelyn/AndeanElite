@@ -25,7 +25,7 @@
     },
     "READY": "Ready to experience Peru like never before?",
     "DESCRIPTION": "Join to our community of travelers and discover the magic of Peru with Andean Elite.",
-    "PLAN": "Plan your luxury trip with us today!"
+    "PLAN": "Plan Your Trip Here!"
   },
   "HOME_PURPOSE": {
     "TITLE_LINES": ["Travel", "Connect", "Transform"],
@@ -33,7 +33,7 @@
     "BUTTON": "Learn about our purpose"
   },
   "WHYANDEANELITE": {
-    "TITLE": "Why Choose Andean Elite for Your Luxury Travel?",
+    "TITLE": "Why Choose Andean Elite for Your Travel?",
     "POINTS": [
       {
         "TITLE": "Unique Travel",
