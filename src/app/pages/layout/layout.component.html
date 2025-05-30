@@ -160,35 +160,33 @@
     </div>
 
     <div class="mt-20">
-    <h2 class="text-xl md:text-4xl font-semibold text-center ">
+      <h2 class="text-xl md:text-4xl font-semibold text-center ">
       {{ 'HOME_CERTIFICATES.TITLE' | translate }}
     </h2>
-      <div class="flex flex-col mt-4">
-        <!-- Fila de imágenes -->
-        <div class="flex flex-col md:flex-row   justify-center items-center gap-4">
-          <div class="w-full flex  justify-center items-start p-2">
-            <img src="../../../assets/img/certifications/Agencia-de-viajes-turismo-registrada.webp"
-                 alt="" class="object-contain h-[12vh]">
-          </div>
-          <div class="w-full flex  justify-center items-end p-2">
-            <img src="assets/img/certifications/mincetur.webp"
-                 alt="" class="object-contain h-[15vh]">
-          </div>
-          <div class="w-full flex  justify-center p-2">
-            <img src="assets/img/certifications/protegeme.webp"
-                 alt="" class="object-contain h-[15vh]">
-          </div>
-        </div>
-
-        <!-- Fila de textos -->
-        <div class="flex flex-col md:flex-row justify-center items-start gap-4">
-          <p class="text-center w-full px-2 ">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 items-start text-center">
+        <!-- Certificado 1 -->
+        <div class="flex flex-col items-center">
+          <img src="../../../assets/img/certifications/Agencia-de-viajes-turismo-registrada.webp"
+               alt="" class="object-contain h-[12vh] mb-8">
+          <p>
             {{ 'HOME_CERTIFICATES.AGENCY' | translate }}
           </p>
-          <p class="text-center w-full px-2">
+        </div>
+
+        <!-- Certificado 2 -->
+        <div class="flex flex-col items-center">
+          <img src="assets/img/certifications/mincetur.webp"
+               alt="" class="object-contain h-[15vh] mb-4">
+          <p>
             {{ 'HOME_CERTIFICATES.MINCETUR' | translate }}
           </p>
-          <p class="text-center w-full px-2 ">
+        </div>
+
+        <!-- Certificado 3 -->
+        <div class="flex flex-col items-center">
+          <img src="assets/img/certifications/protegeme.webp"
+               alt="" class="object-contain h-[15vh] mb-4">
+          <p>
             {{ 'HOME_CERTIFICATES.PROTEGEME' | translate }}
           </p>
         </div>
