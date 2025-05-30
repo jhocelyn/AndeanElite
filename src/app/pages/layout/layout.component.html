@@ -5,7 +5,7 @@
   </div>
 
   <!-- Styles Section -->
-  <div class="bg-white text-[#042A4E] pt-10 ">
+  <div class="bg-white text-[#042A4E] pt-10 px-7">
     <h2 class="text-3xl md:text-5xl font-semibold text-center mb-5">
       {{'HOME_STYLES.TITLE'|translate}}
     </h2>
@@ -17,7 +17,7 @@
   <!-- Styles Section -->
   <div class="bg-white px-10">
     <h2 class="text-3xl md:text-5xl font-semibold text-center text-[#042A4E] my-10">
-      {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
+      {{ 'HOME_STYLES.CHOOSE' | translate }}
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
@@ -46,9 +46,6 @@
       </div>
     </div>
 
-    <div class="flex items-center justify-center mb-6 mt-10 ">
-      <h3 class="text-xl md:text-2xl font-semibold text-center text-[#042A4E] mb-5">{{'HOME_STYLES.CHOOSE'|translate}}</h3>
-    </div>
   </div>
 
   <!--Travel By Interest-->
@@ -123,7 +120,7 @@
   </div>
 
   <!--WHY ANDEANELITE Seccion-->
-  <div class="flex flex-col text-white bg-[#042A4E] min-h-[50vh] py-24 px-[120px]">
+  <div class="flex flex-col text-white bg-[#042A4E] min-h-[50vh] py-24 px-10 md:px-[120px]">
     <h1 class="text-4xl md:text-5xl font-semibold text-center mb-10">
       {{ 'WHYANDEANELITE.TITLE' | translate }}
     </h1>
@@ -144,28 +141,28 @@
   </div>
 
   <!--Purpose Section-->
-  <div class=" flex flex-col lg:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-gray-200">
+  <div class="flex flex-col lg:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-gray-200">
     <!-- Contenido de texto -->
-    <div class="relative flex flex-col w-[45%] px-20 mb-6">
-      <div class="absolute top-0 left-[45%] w-14 lg:w-14">
+    <div class="relative flex flex-col w-full md:w-[45%] px-10 md:px-20 mb-6">
+      <div class="absolute top-4 left-[50%] md:top-0 md:left-[45%] w-14 lg:w-14">
         <img src="assets/img/general/autism-symbol.webp">
       </div>
-      <div class="flex flex-col justify-start font-semibold text-6xl">
+      <div class="flex flex-col justify-start font-semibold  mt-4 md:mt-0 text-6xl">
         <span class="ml-0">{{ 'HOME_PURPOSE.TITLE_LINES.0' | translate }}</span>
-        <span class="ml-6">{{ 'HOME_PURPOSE.TITLE_LINES.1' | translate }}</span>
-        <span class="ml-16">{{ 'HOME_PURPOSE.TITLE_LINES.2' | translate }}</span>
+        <span class="ml-4 md:ml-6">{{ 'HOME_PURPOSE.TITLE_LINES.1' | translate }}</span>
+        <span class="ml-10 md:ml-16">{{ 'HOME_PURPOSE.TITLE_LINES.2' | translate }}</span>
       </div>
-      <p class="mt-4 text-lg text-gray-300">
+      <p class="mt-4 text-lg  text-gray-300">
         {{ 'HOME_PURPOSE.DESCRIPTION' | translate }}
       </p>
-      <div class="flex flex-col w-full justify-start">
+      <div class="flex flex-col w-full  justify-start">
         <button class="mt-6 text-white border border-white px-6 py-3 rounded-xl transition">
         {{ 'HOME_PURPOSE.BUTTON' | translate }}
       </button>
       </div>
     </div>
     <!-- Imagen con difuminado hacia la derecha -->
-    <div class="relative w-[55%] h-[500px] overflow-hidden">
+    <div class="relative w-full md:w-[55%] h-[500px] overflow-hidden">
       <img src="/assets/img/general/mom-hug-with-her-son.webp"
            alt="Mom hug with her son"
            class="w-full h-full object-cover"
@@ -183,7 +180,7 @@
   </div>
 
   <!-- Testimonials Section -->
-  <div class="bg-white py-20 px-4 min-h-[81vh] text-center">
+  <div class="bg-white py-14 px-10 md:px-4 md:py-20 min-h-[80vh] md:min-h-[81vh] text-center">
     <h2 class="text-3xl md:text-5xl font-bold text-[#042A4E] mb-4">
       {{ 'HOME_TESTIMONIALS.TESTIMONIALS.TITLE' | translate }}
     </h2>
@@ -208,18 +205,18 @@
       </p>
 
       <!-- Botones de navegación -->
-      <div class="absolute inset-y-0 left-[-40px] flex items-center">
+      <div class="absolute inset-y-0 left-[-10px] md:left-[-40px] flex items-center">
         <button (click)="prevTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">‹</button>
       </div>
-      <div class="absolute inset-y-0 right-[-40px] flex items-center">
+      <div class="absolute inset-y-0 right-[-10px] md:right-[-40px] flex items-center">
         <button (click)="nextTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">›</button>
       </div>
     </div>
   </div>
 
   <!-- -->
-  <div class="bg-[#042A4E] font-light py-10">
-    <h2 class="text-xl md:text-4xl text-center text-white mb-5">
+  <div class="bg-[#042A4E] font-light px-10 md:px-0 py-10">
+    <h2 class="text-2xl md:text-4xl text-center text-white mb-5">
       {{'HOME_TESTIMONIALS.READY'|translate}}
     </h2>
     <p class="text-lg md:text-2xl  text-center text-white mb-8">
@@ -233,9 +230,9 @@
   </div>
 
   <!--Contact us Section-->
-  <div class="bg-[#ECEAE7] flex flex-col xl:flex-row justify-center xl:items-start gap-24 h-full py-20">
+  <div class="bg-[#ECEAE7] flex flex-col md:flex-row justify-center xl:items-start gap-24 h-full px-10 md:px-0 py-20">
     <!-- Imagen y contenido informativo -->
-    <div class="hidden xl:flex flex-col justify-between h-full w-[60vh]">
+    <div class="flex flex-col justify-between h-full w-full md:w-[60vh]">
       <img class="h-[50vh] w-[50vh] object-cover" src="/assets/img/general/view-of-amazing-choquequirao.webp" alt="Vista de Choquequirao">
 
       <div class="mt-4 font-light text-[#042A4E]">
