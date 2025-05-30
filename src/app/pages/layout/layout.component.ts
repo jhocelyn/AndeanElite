@@ -30,8 +30,17 @@ export class LayoutComponent implements OnInit{
 
   scrollCarousel(direction: 'left' | 'right') {
     const container = this.carouselContainer.nativeElement;
-    const scrollAmount = 290; // ajusta al tamaño de tus tarjetas + gap
-    container.scrollBy({ left: direction === 'left' ? -scrollAmount : scrollAmount, behavior: 'smooth' });
+    const card = container.querySelector('div'); // Asume que cada tarjeta es un <div>
+
+    if (card) {
+      const cardWidth = card.offsetWidth + 24; // 24px es el gap-6 entre tarjetas (6 * 4 = 24)
+      const scrollAmount = direction === 'left' ? -cardWidth : cardWidth;
+
+      container.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    }
   }
 
   goToAllInterests() {

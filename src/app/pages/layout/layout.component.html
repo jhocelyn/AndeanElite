@@ -60,9 +60,9 @@
       <h2 class="text-3xl md:text-4xl  font-semibold text-center ">
         {{ 'HOME_TRAVEL_BY.TITLE' | translate }}
       </h2>
-      <h3 class="text-3xl md:text-xl   text-center my-4 ">        {{ 'HOME_TRAVEL_BY.SUBTITLE' | translate }}
+      <h3 class="text-lg md:text-xl text-center my-4 ">        {{ 'HOME_TRAVEL_BY.SUBTITLE' | translate }}
       </h3>
-      <p class="text-3xl md:text-lg   text-center ">        {{ 'HOME_TRAVEL_BY.DESCRIPTION' | translate }}
+      <p class="text-base md:text-lg  text-center ">        {{ 'HOME_TRAVEL_BY.DESCRIPTION' | translate }}
       </p>
       <div class="flex gap-10 text-xl text-white justify-center my-4">
         <i class="fa-solid fa-arrow-down"></i>
@@ -77,14 +77,14 @@
     <div class="relative">
       <div
         #carouselContainer
-        class="flex gap-6 overflow-x-auto scroll-smooth pb-6 hide-scrollbar"
+        class="flex gap-6 overflow-x-auto scroll-smooth hide-scrollbar snap-x snap-mandatory"
       >
         <ng-container *ngFor="let interest of interests; let i = index">
           <!-- Mostrar tarjetas normales para los primeros 3 -->
           <div
             *ngIf="i !== 3"
             [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"
-            class="min-w-[23.2%] max-w-[23.2%] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
+            class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
           >
             <img
               [src]="interest.image"
@@ -101,7 +101,7 @@
           <!-- Tarjeta azul como la cuarta -->
           <div
             *ngIf="i === 3"
-            class="min-w-[23.2%] max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer "
+            class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer "
             (click)="goToAllInterests()"
           >
             <h3 class="text-xl font-semibold">{{ 'ALL_TRAVEL' | translate }}</h3>
@@ -112,7 +112,7 @@
         <!-- Tarjeta final: "Ver todos" (opcional si deseas mantenerla aparte) -->
 
         <div
-          class="min-w-[305px] max-w-[305px] bg-white text-[#042A4E] rounded-xl flex items-center justify-center text-center cursor-pointer"
+          class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex items-center justify-center text-center cursor-pointer"
           (click)="goToAllInterests()"
         >
           <div class="p-6">
