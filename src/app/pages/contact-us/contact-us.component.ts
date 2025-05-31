@@ -12,9 +12,7 @@ import {
   standalone: true,
   imports: [
     ReactiveFormsModule,
-    PhoneCodeSelectorComponent,
     BannerComponent,
-    TranslatePipe,
     ReusableContactFormsComponent
   ],
   templateUrl: './contact-us.component.html',
