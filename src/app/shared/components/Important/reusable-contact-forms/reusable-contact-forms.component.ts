@@ -55,9 +55,14 @@ export class ReusableContactFormsComponent {
     this.contactForm.value.phone = this.numero + ' ' + this.contactForm.value.phone;
     if (this.contactForm.valid) {
       this.formSubmitted.emit(this.contactForm.value);
+      this.mensajeExito=true
+      setTimeout(() => this.mensajeExito= false, 1000);
       this.contactForm.reset();
+
     }
+
   }
+
 
   //Fechas
 
@@ -106,4 +111,8 @@ export class ReusableContactFormsComponent {
     this.showDatepickerEnd = false;
     this.contactForm.get('date_end')?.setValue(new Date(date.year, date.month - 1, date.day));
   }
+
+  //TEXTO
+  mensajeExito: boolean = false;
+
 }
