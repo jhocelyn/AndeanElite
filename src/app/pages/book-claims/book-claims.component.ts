@@ -102,12 +102,15 @@ export class BookClaimsComponent implements OnInit{
     }
     if (this.reclamationForm.valid) {
       const formData = this.reclamationForm.value;
+      formData.form = 'libro-reclamaciones';
+
       // Cambia esta URL por la de tu Apps Script o API
-      const url = 'https://script.google.com/macros/s/AKfycbxeEXsAnWmOoLstshyZqbJ9_W-SpGUtawlXOzElGvjxUNmRs31U_MOPsQ4na4eAQLiX/exec';
+      const url = 'https://script.google.com/macros/s/AKfycbw1xAvA17yZwDYxskby27uvVwEqD5gAubPLrglxjhBofqaTgjPLCpKNP1sB6OjfC7pa/exec';
       // Configurar los encabezados de la solicitud
       const headers = {
         'Content-Type': 'text/plain;charset=utf-8'
       };
+
       // Usamos fetch para enviar la solicitud POST
       fetch(url, {
         redirect:'follow',

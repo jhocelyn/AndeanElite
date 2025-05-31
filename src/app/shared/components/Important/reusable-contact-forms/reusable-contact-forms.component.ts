@@ -23,6 +23,7 @@ import {NgbDatepicker} from '@ng-bootstrap/ng-bootstrap';
 })
 export class ReusableContactFormsComponent {
   @Input() title: string = '';
+  @Input() formName: string = ''; // <-- nombre del formulario
   @Output() formSubmitted = new EventEmitter<any>();
 
   contactForm: FormGroup;
@@ -54,7 +55,11 @@ export class ReusableContactFormsComponent {
   onSubmit(): void {
     this.contactForm.value.phone = this.numero + ' ' + this.contactForm.value.phone;
     if (this.contactForm.valid) {
-      this.formSubmitted.emit(this.contactForm.value);
+      const payload = {
+        form: this.formName, // 👈 añade el nombre del formulario
+        ...this.contactForm.value
+      };
+      this.formSubmitted.emit(payload); // Emite al padre con el nombre incluido
       this.mensajeExito=true
       setTimeout(() => this.mensajeExito= false, 1000);
       this.contactForm.reset();

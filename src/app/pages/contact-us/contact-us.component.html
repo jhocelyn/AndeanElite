@@ -3,5 +3,7 @@
   [backgroundImage]="'assets/img/destinations/cusco/machu-picchu-caps-and-souvenirs.webp'"
   [title]="'CONTACT-US.TITLE'"
 ></app-banner>
-<app-reusable-contact-forms   (formSubmitted)="handleFormSubmit($event)"
+<app-reusable-contact-forms
+  [formName]="'contact-us'"
+(formSubmitted)="handleFormSubmit($event)"
 ></app-reusable-contact-forms>
