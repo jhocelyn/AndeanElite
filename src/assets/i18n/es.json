@@ -1,6 +1,9 @@
 {
   "VIEW_PACKAGES": "Ver Paquetes",
   "ALL_TRAVEL": "Mirar todos los tours",
+  "NONE_PACKAGES": "Estamos trabajando en esta sección, pronto podrás encontrar paquetes turísticos.",
+  "VIEW_PACKAGE": "Ver Paquete",
+
   "NAVBAR": {
     "ABOUT_US": {
       "TITLE": "Sobre nosotros",

@@ -1,71 +1,69 @@
+<!-- Banner y descripción no cambian -->
 <app-banner [backgroundImage]="backgroundImage" [title]="title"></app-banner>
 
-<!-- Descripción -->
 <div class="max-w-4xl mx-auto text-center py-8">
   <p class="text-lg text-gray-700">{{ description }}</p>
 </div>
 
-<!-- Grid principal -->
-<div class=" grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-6 pb-12">
+<!-- Condición principal -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-6 pb-12">
 
-  <!-- Lista de paquetes -->
-  <div class="md:col-span-3">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div
-        *ngFor="let package of packages"
-        class="bg-white shadow-md hover:shadow-xl transition-shadow duration-300 rounded-md overflow-hidden cursor-pointer flex flex-col"
-        (click)="goToPackageDetails(package.slug)"
-      >
-        <!-- Imagen -->
-        <img
-          [src]="package.image"
-          [alt]="package.title"
-          class="w-full h-[35vh] object-cover"
-        />
+  <!-- Si hay paquetes, muestra listado + filtro -->
+  <ng-container *ngIf="packages && packages.length > 0; else noPackages">
 
-        <!-- Contenido -->
-        <div class="flex flex-col justify-between flex-grow px-4 py-4">
-          <!-- Parte superior: título y duración -->
-          <div class="text-center">
-            <h3 class="text-lg font-bold text-[#034873]">
-              {{ package.title }}
-            </h3>
-            <h4
-              *ngIf="package.days !== '0' && package.nights !== '0'"
-              class="text-sm font-normal text-[#034873]"
-            >
-              {{ package.days }}D / {{ package.nights }}N
-            </h4>
-          </div>
+    <!-- Lista de paquetes -->
+    <div class="md:col-span-3">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div
+          *ngFor="let package of packages"
+          class="bg-white shadow-md hover:shadow-xl transition-shadow duration-300 rounded-md overflow-hidden cursor-pointer flex flex-col"
+          (click)="goToPackageDetails(package.slug)"
+        >
+          <img [src]="package.image" [alt]="package.title" class="w-full h-[35vh] object-cover" />
+          <div class="flex flex-col justify-between flex-grow px-4 py-4">
+            <div class="text-center">
+              <h3 class="text-lg font-bold text-[#034873]">{{ package.title }}</h3>
+              <h4 *ngIf="package.days !== '0' && package.nights !== '0'" class="text-sm font-normal text-[#034873]">
+                {{ package.days }}D / {{ package.nights }}N
+              </h4>
+            </div>
+            <div class="text-center mt-6">
+              <p class="text-xl font-semibold text-red-700">
+                {{ 'INFO_PACKAGES.FROM' | translate }} ${{ package.price }}
+              </p>
+              <button
+                class="mt-2 rounded-2xl bg-[#042a4e] text-white px-4 py-2 hover:bg-blue-900 transition-colors duration-300"
+                (click)="goToPackageDetails(package.slug); $event.stopPropagation()"
+              >
 
-          <!-- Parte inferior: precio y botón -->
-          <div class="text-center mt-6">
-            <p class="text-xl font-semibold text-red-700">
-              {{ 'INFO_PACKAGES.FROM' | translate }} ${{ package.price }}
-            </p>
-            <button
-              class="mt-2 rounded-2xl bg-[#042a4e] text-white px-4 py-2 hover:bg-blue-900 transition-colors duration-300"
-              (click)="goToPackageDetails(package.slug); $event.stopPropagation()"
-            >
-              Ver Programa &gt;
-            </button>
+                {{'VIEW_PACKAGE'|translate}}&gt;
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Sidebar -->
-  <div class="md:col-span-1">
-    <app-filter-sidebar
-      [cities]="cities"
-      [categories]="categories"
-      [filterCity]="filterCity"
-      [filterCategory]="filterCategory"
-      [searchTerm]="searchTerm"
-      (cityChange)="onCityChange($event)"
-      (categoryChange)="onCategoryChange($event)"
-      (searchChange)="onSearchChange($event)"
-    ></app-filter-sidebar>
-  </div>
+    <!-- Sidebar con filtro solo si hay paquetes -->
+    <div class="md:col-span-1">
+      <app-filter-sidebar
+        [cities]="cities"
+        [categories]="categories"
+        [filterCity]="filterCity"
+        [filterCategory]="filterCategory"
+        [searchTerm]="searchTerm"
+        (cityChange)="onCityChange($event)"
+        (categoryChange)="onCategoryChange($event)"
+        (searchChange)="onSearchChange($event)"
+      ></app-filter-sidebar>
+    </div>
+
+  </ng-container>
+
+  <!-- Template para cuando no hay paquetes -->
+  <ng-template #noPackages>
+    <div class="md:col-span-4 text-center py-20 text-xl font-semibold text-gray-600">
+      {{'NONE_PACKAGES'|translate}}    </div>
+  </ng-template>
+
 </div>
