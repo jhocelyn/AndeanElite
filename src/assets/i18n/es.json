@@ -218,7 +218,10 @@
     "5STARS": "5 estrellas",
     "DESTINATION": "Destinos",
     "MESSAGE": "Escribe tu mensaje",
-    "SEND_MESSAGE": "Envia tu mensaje"
+    "SEND_MESSAGE": "Envia tu mensaje",
+    "PRICE": "# Pasajeros",
+    "DEPARTURE": "Fecha de Salida",
+    "ARRIVAL": "Fecha de Llegada"
   },
   "DESTINATIONS": {
     "TITLE": "Destinos",

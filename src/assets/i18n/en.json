@@ -206,6 +206,7 @@
   "CONTACT-US": {
     "TITLE": "Contact us",
     "AGENCY_QUESTION": "Are you agency travel?",
+    "PRICE": "# Passengers",
     "BUTTON": "Send Message",
     "NAME_LABEL": "First And Last Name",
     "PHONE_PLACEHOLDER": "Phone",
@@ -215,6 +216,8 @@
     "4STARS": "4 Stars",
     "5STARS": "5 Stars",
     "DESTINATION": "Destination",
+    "DEPARTURE": "Departure Date",
+    "ARRIVAL": "Arrival Date",
     "MESSAGE": "Write your message",
     "SEND_MESSAGE": "Send Message"
   },

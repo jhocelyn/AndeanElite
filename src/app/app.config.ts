@@ -6,6 +6,7 @@ import { HttpClient, HttpClientModule, provideHttpClient, withFetch } from '@ang
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ScrollService } from './services/scroll.service';
+import {NgxDaterangepickerMd} from 'ngx-daterangepicker-material';
 
 export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -14,6 +15,7 @@ export function httpLoaderFactory(http: HttpClient) {
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
+    importProvidersFrom(NgxDaterangepickerMd.forRoot()),
     provideRouter(
       routes,
       withComponentInputBinding(),
