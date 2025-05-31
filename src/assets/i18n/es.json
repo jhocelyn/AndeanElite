@@ -221,7 +221,9 @@
     "SEND_MESSAGE": "Envia tu mensaje",
     "PRICE": "# Pasajeros",
     "DEPARTURE": "Fecha de Salida",
-    "ARRIVAL": "Fecha de Llegada"
+    "ARRIVAL": "Fecha de Llegada",
+    "CODE": "Codigo"
+
   },
   "DESTINATIONS": {
     "TITLE": "Destinos",

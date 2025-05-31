@@ -219,7 +219,8 @@
     "DEPARTURE": "Departure Date",
     "ARRIVAL": "Arrival Date",
     "MESSAGE": "Write your message",
-    "SEND_MESSAGE": "Send Message"
+    "SEND_MESSAGE": "Send Message",
+    "CODE": "Code"
   },
   "DESTINATIONS": {
   "TITLE": "Destinations",
