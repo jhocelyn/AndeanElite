@@ -13,7 +13,6 @@ import {
   standalone: true,
   imports: [
     BannerComponent,
-    ContactUsComponent,
     ReusableContactFormsComponent,
     TranslatePipe
   ],
@@ -45,4 +44,27 @@ export class MiceComponent  implements OnDestroy{
       this.langSubscription.unsubscribe();
     }
   }
+  handleFormSubmit(formData: any) {
+    const url = 'https://script.google.com/macros/s/AKfycbwQ6clI6kJl3HRLlGN6oAz22TS1ZMU29M84nP14i4S1pCjdtOMd-a7yPFTSfcvg5rOv/exec';
+    const headers = {
+      'Content-Type': 'text/plain;charset=utf-8'
+    };
+
+    fetch(url, {
+      redirect: 'follow',
+      method: 'POST',
+      headers: headers,
+      body: JSON.stringify(formData)
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Datos enviados correctamente:', data);
+        alert('Formulario enviado correctamente.');
+      })
+      .catch(error => {
+        console.error('Error al enviar los datos:', error);
+        alert('Ocurrió un error al enviar el formulario.');
+      });
+  }
+
 }

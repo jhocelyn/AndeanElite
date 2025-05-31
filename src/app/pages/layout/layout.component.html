@@ -1,4 +1,4 @@
-<div>
+<div class="relative">
 
   <div>
   <app-slider></app-slider> <!-- Slider -->
@@ -323,24 +323,27 @@
       <p class="text-[14px] md:text-[18px] font-light text-[#4D6270]">
         {{ 'HOME_CONTACT_US.DESCRIPTION' | translate }}
       </p>
-      <form class="flex flex-col w-full gap-4">
+      <form class="flex flex-col w-full gap-4" (ngSubmit)="submitForm()">
         <input type="text" placeholder="{{ 'HOME_CONTACT_US.NAME' | translate }}"
-               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+               [(ngModel)]="formData.name" name="name"
+               class="w-full h-[50px] border border-[#4D6270] px-3 placeholder:text-[#4D6270]">
 
         <input type="email" placeholder="{{ 'HOME_CONTACT_US.EMAIL' | translate }}"
-               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+               [(ngModel)]="formData.email" name="email"
+               class="w-full h-[50px] border border-[#4D6270] px-3 placeholder:text-[#4D6270]">
 
         <input type="number" placeholder="{{ 'HOME_CONTACT_US.PHONE' | translate }}"
-               class="w-full h-[50px] border border-[#4D6270] px-3  placeholder:text-[#4D6270]">
+               [(ngModel)]="formData.phone" name="phone"
+               class="w-full h-[50px] border border-[#4D6270] px-3 placeholder:text-[#4D6270]">
 
         <button type="submit"
                 class="bg-[#042A4E] hover:bg-[#042A4E] text-white text-lg font-light rounded-full h-[50px] w-[180px] flex items-center justify-center transition-all group">
-        <span class="flex items-center space-x-2">
-          <span class="group-hover:-translate-x-1 transition-transform duration-300">
-            {{ 'HOME_CONTACT_US.BUTTON' | translate }}
-          </span>
-          <span class="opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">→</span>
-        </span>
+    <span class="flex items-center space-x-2">
+      <span class="group-hover:-translate-x-1 transition-transform duration-300">
+        {{ 'HOME_CONTACT_US.BUTTON' | translate }}
+      </span>
+      <span class="opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">→</span>
+    </span>
         </button>
       </form>
     </div>
@@ -358,4 +361,15 @@
     class="fixed top-20 right-2 md:top-28 md:right-5 transition-all duration-500 ease-in-out text-xl bg-white text-[#042A4E] px-6 py-3 rounded-full shadow-lg hover:bg-[#0F2D40] hover:text-white z-[1000]">
     <i class="fa-brands fa-whatsapp text-[#25D366]" ></i> {{ 'PLANYOURTRIP' | translate }}
   </a>
+
+  <div *ngIf="exitedMessage" class="fixed inset-0 z-50 flex items-center justify-center">
+    <!-- Fondo oscuro semitransparente -->
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+
+    <!-- Mensaje centrado -->
+    <div class="relative z-10 bg-white text-blue-950 rounded-xl shadow-xl p-6 w-80 text-center">
+      <i class="fa-solid fa-check-circle"></i>
+      <p class="text-lg font-semibold">Mensaje enviado correctamente.</p>
+    </div>
+  </div>
 </div>

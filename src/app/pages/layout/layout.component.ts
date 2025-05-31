@@ -4,17 +4,26 @@ import AOS from 'aos';
 import {SliderComponent} from '../../shared/components/Important/slider/slider.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {Router, RouterLink} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [SliderComponent, TranslatePipe, NgForOf, NgClass, RouterLink, NgIf, NgOptimizedImage],
+  imports: [SliderComponent, TranslatePipe, NgForOf, NgClass, RouterLink, NgIf, FormsModule],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
 export class LayoutComponent implements OnInit{
   @ViewChild('carouselContainer', { static: false }) carouselContainer!: ElementRef;
+  @ViewChild('contactForm') contactForm!: ElementRef<HTMLFormElement>;
 
+  formData = {
+    name: '',
+    email: '',
+    phone: ''
+  };
+  exitedMessage=false;
   interests = [
     { slug:'circuits', title: 'Circuits', image: '/assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp' },
     { slug:'extensions', title: 'Extensions', image: '/assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp' },
@@ -79,7 +88,8 @@ export class LayoutComponent implements OnInit{
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
     private translate: TranslateService,
-    private router:Router
+    private router:Router,
+    private http: HttpClient
   ) {
     if (isPlatformBrowser(this.platformId)) {
       AOS.init();
@@ -190,5 +200,36 @@ export class LayoutComponent implements OnInit{
   nextTestimonial() {
     this.currentIndex = (this.currentIndex + 1) % this.testimonials.length;
   }
+
+  //Forms
+  submitForm() {
+    const payload = {
+      ...this.formData,
+      form: 'contact-us-home'
+    };
+
+    const url = 'https://script.google.com/macros/s/AKfycbwQ6clI6kJl3HRLlGN6oAz22TS1ZMU29M84nP14i4S1pCjdtOMd-a7yPFTSfcvg5rOv/exec';
+    const headers = {
+      'Content-Type': 'text/plain;charset=utf-8'
+    };
+
+    fetch(url, {
+      redirect: 'follow',
+      method: 'POST',
+      headers: headers,
+      body: JSON.stringify(payload)  // ← CORREGIDO
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Datos enviados correctamente:', data);
+        this.exitedMessage=true
+        setTimeout(() => this.exitedMessage= false, 1000);
+      })
+      .catch(error => {
+        console.error('Error al enviar los datos:', error);
+        alert('❌ Ocurrió un error al enviar el formulario.');
+      });
+  }
+
 
 }

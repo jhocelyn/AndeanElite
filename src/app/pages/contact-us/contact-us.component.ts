@@ -19,7 +19,7 @@ import {
 export class ContactUsComponent {
 
   handleFormSubmit(formData: any) {
-    const url = 'https://script.google.com/macros/s/AKfycbw1xAvA17yZwDYxskby27uvVwEqD5gAubPLrglxjhBofqaTgjPLCpKNP1sB6OjfC7pa/exec';
+    const url = 'https://script.google.com/macros/s/AKfycbwQ6clI6kJl3HRLlGN6oAz22TS1ZMU29M84nP14i4S1pCjdtOMd-a7yPFTSfcvg5rOv/exec';
     const headers = {
       'Content-Type': 'text/plain;charset=utf-8'
     };
