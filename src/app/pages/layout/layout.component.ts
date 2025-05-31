@@ -1,5 +1,5 @@
 import {Component, OnInit, Inject, PLATFORM_ID, HostListener, ViewChild, ElementRef} from '@angular/core';
-import {isPlatformBrowser, NgClass, NgForOf, NgIf} from '@angular/common';
+import {isPlatformBrowser, NgClass, NgForOf, NgIf, NgOptimizedImage} from '@angular/common';
 import AOS from 'aos';
 import {SliderComponent} from '../../shared/components/Important/slider/slider.component';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
@@ -8,7 +8,7 @@ import {Router, RouterLink} from '@angular/router';
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [SliderComponent, TranslatePipe, NgForOf, NgClass, RouterLink, NgIf],
+  imports: [SliderComponent, TranslatePipe, NgForOf, NgClass, RouterLink, NgIf, NgOptimizedImage],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })

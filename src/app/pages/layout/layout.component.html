@@ -193,43 +193,58 @@
   </div>
 
   <!--Purpose Section-->
-  <div class="flex flex-col lg:flex-row justify-center items-center min-h-[30vh] gap-8 bg-[#001f42] text-white">
-    <!-- Contenido de texto -->
-    <div class="relative flex flex-col w-full md:w-[45%] px-10 md:px-20 mb-6">
-      <div class="absolute top-4 left-[50%] md:top-0 md:left-[45%] w-14 lg:w-14">
-        <img src="assets/img/general/autism-symbol.webp">
-      </div>
-      <div class="flex flex-col justify-start font-semibold text-3xl mt-4 md:mt-0 md:text-6xl">
-        <span class="ml-0">{{ 'HOME_PURPOSE.TITLE_LINES.0' | translate }}</span>
-        <span class="ml-4 md:ml-6">{{ 'HOME_PURPOSE.TITLE_LINES.1' | translate }}</span>
-        <span class="ml-10 md:ml-16">{{ 'HOME_PURPOSE.TITLE_LINES.2' | translate }}</span>
-      </div>
-      <p class="mt-4 text-lg ">
-        {{ 'HOME_PURPOSE.DESCRIPTION' | translate }}
-      </p>
-      <div class="flex flex-col w-full  justify-start">
-        <button class="mt-6  border border-white px-6 py-3 rounded-xl transition">
-        {{ 'HOME_PURPOSE.BUTTON' | translate }}
-      </button>
-      </div>
+  <div class="relative min-h-[30vh] max-h-[70vh] w-full bg-[#001f42] text-white overflow-hidden">
+    <!-- Imagen al fondo derecha -->
+    <div class="absolute lg:right-0 lg:w-1/2 h-full z-0">
+      <img
+        src="/assets/img/general/mom-hug-with-her-son.webp"
+        alt="Mom hug with her son"
+        class="w-full h-full object-cover"
+        style="
+        -webkit-mask-image:
+          linear-gradient(to left, black 50%, transparent 100%),
+          linear-gradient(to top, black 60%, transparent 100%),
+          linear-gradient(to bottom, black 70%, transparent 100%);
+        -webkit-mask-composite: destination-in;
+        mask-composite: intersect;
+        -webkit-mask-size: 100% 100%;
+        -webkit-mask-repeat: no-repeat;
+      "
+      />
     </div>
-    <!-- Imagen con difuminado hacia la derecha -->
-    <div class="relative w-full h-[40vh] md:w-[55%] md:h-[500px] overflow-hidden">
-      <img src="/assets/img/general/mom-hug-with-her-son.webp"
-           alt="Mom hug with her son"
-           class="w-full h-full object-cover"
-           style="
-         -webkit-mask-image:
-           linear-gradient(to left, black 50%, transparent 100%),
-           linear-gradient(to top, black 60%, transparent 100%),
-           linear-gradient(to bottom, black 70%, transparent 100%);
-         -webkit-mask-composite: destination-in;
-         mask-composite: intersect;
-         -webkit-mask-size: 100% 100%;
-         -webkit-mask-repeat: no-repeat;
-       " />
+
+    <!-- Título e ícono centrados arriba -->
+    <div class="absolute top-6 left-[37%] transform -translate-x-1/2 text-center z-10">
+      <h2 class="text-2xl md:text-4xl font-semibold">
+        {{ 'HOME_PURPOSE.TITLE' | translate }}
+      </h2>
+
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between w-1/2 h-full pl-[15%] pt-24 pb-8 ">
+      <!-- Texto izquierda -->
+      <div class="w-full ">
+        <div class="font-semibold text-3xl lg:text-6xl leading-tight">
+          <span class="block ml-0">{{ 'HOME_PURPOSE.TITLE_LINES.0' | translate }}</span>
+          <span class="block ml-4 lg:ml-6">{{ 'HOME_PURPOSE.TITLE_LINES.1' | translate }}</span>
+          <span class="block ml-10 lg:ml-16">{{ 'HOME_PURPOSE.TITLE_LINES.2' | translate }}</span>
+        </div>
+        <p class="mt-4 text-lg">
+          {{ 'HOME_PURPOSE.DESCRIPTION' | translate }}
+        </p>
+        <div class="mt-6">
+          <button class="border border-white px-6 py-3 rounded-xl transition hover:bg-white hover:text-[#001f42]">
+            {{ 'HOME_PURPOSE.BUTTON' | translate }}
+          </button>
+        </div>
+      </div>
+      <div class="absolute left-[55%] top-[22%] mt-2 w-10 mx-auto">
+        <img src="assets/img/general/autism-symbol.webp" alt="autism symbol" />
+      </div>
     </div>
   </div>
+
 
   <!-- Testimonials Section -->
   <div class="bg-white p-10  text-center">
