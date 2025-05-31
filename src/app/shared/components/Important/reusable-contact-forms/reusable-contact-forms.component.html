@@ -1,4 +1,4 @@
-<div class="container mx-auto py-10 px-4">
+<div class="mx-auto py-10 px-4">
   <div class="bg-white shadow-lg rounded-lg p-6 md:p-10">
     <h2 *ngIf="title" class="text-center text-2xl text-[#042a4e] mb-6">{{ title }}</h2>
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
@@ -121,7 +121,7 @@
           </svg>
           <input type="text" [placeholder]="'CONTACT-US.DESTINATION' | translate" formControlName="destination" />
         </div>
-        <div class="relative flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] overflow-hidden">
+        <div class="flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] overflow-hidden">
           <input
             type="text"
             readonly
@@ -129,7 +129,8 @@
             [placeholder]="'CONTACT-US.ARRIVAL' | translate"
             [value]="formattedDateStart"
             (click)="toggleDatepickerStart()"
-          />          <!-- Línea vertical que ocupa todo el alto -->
+          />
+          <!-- Línea vertical que ocupa todo el alto -->
           <div class="w-px bg-gray-400 self-stretch"></div>
           <!-- Icono de calendario con padding -->
           <div class="px-3 text-gray-500">
@@ -153,9 +154,8 @@
             </svg>
           </div>
           <!-- Calendario desplegable -->
-          <div *ngIf="showDatepickerStart" class="absolute  top-full left-0 z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
+          <div  *ngIf="showDatepickerStart" class="absolute  top-[130%] left-[35%] z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
             <ngb-datepicker
-              [(ngModel)]="modelStart"
               (dateSelect)="onDateStartSelect($event)"
               outsideDays="visible"
               [displayMonths]="2"
@@ -163,7 +163,7 @@
             ></ngb-datepicker>
           </div>
         </div>
-        <div class="relative flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] overflow-hidden">
+        <div class="flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] overflow-hidden">
           <input
             type="text"
             readonly
@@ -196,9 +196,8 @@
             </svg>
           </div>
           <!-- Calendario desplegable -->
-          <div *ngIf="showDatepickerEnd" class="absolute top-full left-0 z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
+          <div *ngIf="showDatepickerEnd" class="absolute top-[130%] left-[60%] z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
             <ngb-datepicker
-              [(ngModel)]="modelEnd"
               (dateSelect)="onDateEndSelect($event)"
               outsideDays="visible"
               [displayMonths]="2"
