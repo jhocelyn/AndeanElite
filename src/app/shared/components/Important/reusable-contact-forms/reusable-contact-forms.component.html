@@ -121,7 +121,7 @@
           </svg>
           <input type="text" [placeholder]="'CONTACT-US.DESTINATION' | translate" formControlName="destination" />
         </div>
-        <div class="flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] overflow-hidden">
+        <div class="relative flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873]">
           <input
             type="text"
             readonly
@@ -154,7 +154,7 @@
             </svg>
           </div>
           <!-- Calendario desplegable -->
-          <div  *ngIf="showDatepickerStart" class="absolute  top-[130%] left-[35%] z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
+          <div  *ngIf="showDatepickerStart" class="absolute top-full left-0 z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
             <ngb-datepicker
               (dateSelect)="onDateStartSelect($event)"
               outsideDays="visible"
@@ -163,7 +163,7 @@
             ></ngb-datepicker>
           </div>
         </div>
-        <div class="flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] overflow-hidden">
+        <div class="relative flex items-center w-full border border-[#5e5e5e] rounded-lg shadow-sm focus-within:ring-[#034873] focus-within:border-[#034873] ">
           <input
             type="text"
             readonly
@@ -196,7 +196,7 @@
             </svg>
           </div>
           <!-- Calendario desplegable -->
-          <div *ngIf="showDatepickerEnd" class="absolute top-[130%] left-[60%] z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
+          <div *ngIf="showDatepickerEnd" class="absolute top-full left-0 z-10 mt-1 bg-white border border-gray-300 rounded shadow-lg">
             <ngb-datepicker
               (dateSelect)="onDateEndSelect($event)"
               outsideDays="visible"
