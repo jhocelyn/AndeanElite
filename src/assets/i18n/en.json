@@ -109,13 +109,13 @@
         "TITLE": "Travel By Interest",
         "CRUISE": "Cruise",
         "TREKKING": "Trekking",
-        "FULLDAY": "Full Day Tours",
+        "FULL-DAY-TOURS": "Full Day Tours",
         "FAMILY": "Family",
         "CIRCUITS": "Circuits",
-        "TAYLOR": "Taylor Made",
+        "TAYLOR-MADE": "Taylor Made",
         "EXTENSIONS": "Extensions",
         "HOMESTAYS": "Homestays",
-        "CORPORATE": "Corporate Travel",
+        "CORPORATE-TRAVEL": "Corporate Travel",
         "SEE_MORE": "Explore all our travel by interest"
 
       }

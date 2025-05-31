@@ -21,6 +21,7 @@ import {ScrollService} from '../../../../services/scroll.service';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent implements OnInit{
+
   @Output() languageChanged = new EventEmitter<string>();
 
   // Estado general

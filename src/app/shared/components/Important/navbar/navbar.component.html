@@ -77,24 +77,24 @@
               </div>
               <div class="flex gap-5">
                 <div class="flex-1">
-                  <ng-container *ngFor="let item of ['circuits', 'extensions', 'trekking', 'fullday', 'family']">
+                  <ng-container *ngFor="let item of ['circuits', 'extensions', 'trekking', 'full-day-tours', 'family']">
                     <a
                       [routerLink]="['/ways-to-travel/travel-by-interest', item]"
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      {{ ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase().replace('-', '')) | translate }}
+                      {{ ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase()) | translate }}
                     </a>
                   </ng-container>
                 </div>
                 <div class="flex-1">
-                  <ng-container *ngFor="let item of ['taylor', 'cruise', 'mice', 'homestays', 'corporate']">
+                  <ng-container *ngFor="let item of ['taylor-made', 'cruise', 'mice', 'homestays', 'corporate-travel']">
                     <a
                       [routerLink]="['/ways-to-travel/travel-by-interest', item]"
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      {{ item === 'mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase().replace('-', '')) | translate }}
+                      {{ item === 'mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase()) | translate }}
                     </a>
                   </ng-container>
                 </div>
