@@ -22,7 +22,7 @@
 
     class="px-4 py-2 hover:bg-blue-100 cursor-pointer"
     >
-    {{ country.flagEmoji }} {{ country.name }} ({{ country.phoneCode }})
+      {{ country.flagEmoji }} {{ currentLang === 'es' ? country.nameES : country.nameEN }} ({{ country.phoneCode }})
     </li>
   </ul>
 </div>

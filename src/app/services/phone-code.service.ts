@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root',
 })
 export class PhoneCodeService{
-  private url = 'assets/archives/phone-code-es.json';
+  private url = 'assets/archives/phone-code.json';
 
   constructor(private http: HttpClient) {}
 
