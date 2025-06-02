@@ -35,7 +35,6 @@
                 class="mt-2 rounded-2xl bg-[#042a4e] text-white px-4 py-2 hover:bg-blue-900 transition-colors duration-300"
                 (click)="goToPackageDetails(package.slug); $event.stopPropagation()"
               >
-
                 {{'VIEW_PACKAGE'|translate}}&gt;
               </button>
             </div>
@@ -59,11 +58,9 @@
     </div>
 
   </ng-container>
-
   <!-- Template para cuando no hay paquetes -->
   <ng-template #noPackages>
     <div class="md:col-span-4 text-center py-20 text-xl font-semibold text-gray-600">
       {{'NONE_PACKAGES'|translate}}    </div>
   </ng-template>
-
 </div>

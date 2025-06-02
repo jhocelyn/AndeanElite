@@ -47,8 +47,8 @@
             <a (click)="openTravelByMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
               <span>{{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</span><span>></span>
             </a>
-            <a [routerLink]="'/destinations'" (click)="openPeruMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <span>Perú</span><span>></span>
+            <a (click)="openPeruMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
+              <span>{{ 'NAVBAR.WAYS.PERU.TITLE'|translate }}</span><span>></span>
             </a>
           </div>
 
@@ -103,7 +103,7 @@
 
             <!-- Perú -->
             <ng-container *ngIf="isPeruOpen">
-              <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">Perú</div>
+              <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">{{'NAVBAR.WAYS.PERU.TITLE'|translate}}</div>
               <div class="flex gap-5">
                 <div class="flex-1">
                   <ng-container *ngFor="let item of ['Cusco', 'Puerto Maldonado', 'Puno', 'Arequipa']">
@@ -206,7 +206,6 @@
       <i class="fa-solid fa-xmark"></i>
     </button>
     <a [routerLink]="['/home']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ 'NAVBAR.HOME' | translate }}</a>
-    <a [routerLink]="['/destinations']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
     <div class="flex items-center justify-between text-white py-2 border-b border-white cursor-pointer" (click)="openSubMenu('ways')">
       {{ 'NAVBAR.WAYS.TITLE' | translate }} <span>></span>
     </div>
@@ -214,7 +213,7 @@
       {{ 'NAVBAR.ABOUT_US.TITLE' | translate }} <span>></span>
     </div>
     <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
-
+    <a [routerLink]="['/blog']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">BLOG</a>
     <!-- Idiomas -->
     <div class="flex flex-row items-center gap-2 pt-4">
       <span (click)="changeLanguage('es'); closeAllMenus()" class="cursor-pointer text-white">ESP</span>
@@ -236,12 +235,13 @@
       <h2 [routerLink]="['/ways-to-travel']" (click)="closeAllMenus()" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</h2>
       <div (click)="openSubSubMenu('styles')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</div>
       <div (click)="openSubSubMenu('travel')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</div>
+      <div (click)="openSubSubMenu('peru')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.PERU.TITLE" | translate }}</div>
     </div>
 
     <!-- ABOUT US -->
     <div *ngIf="activeSubMenu === 'about-us'">
       <h2 (click)="closeAllMenus()" [routerLink]="['/about-us']" class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</h2>
-      <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'our-team'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
+      <a (click)="closeAllMenus()" [routerLink]="'/our-purpose'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'license'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.LICENSE" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'responsible'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.RESPONSIBLE" | translate }}</a>
     </div>

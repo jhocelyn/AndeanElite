@@ -120,6 +120,9 @@
         "CORPORATE-TRAVEL": "Corporate Travel",
         "SEE_MORE": "Explore all our travel by interest"
 
+      },
+      "PERU": {
+        "TITLE": "Peru"
       }
     },
     "CONTACT_US": "Contact us",
@@ -171,7 +174,13 @@
       "CERTIFICATES": "Certificate ESNNA",
       "BOOK_CLAIMS": "Book of Claims"
     },
-    "FOLLOW": "Follow us"
+    "FOLLOW": "Follow us",
+    "STYLES_TO_TRAVEL": {
+      "TITLE": "Styles to Travel",
+      "DELUXE": "Deluxe",
+      "COMFORT": "Comfort",
+      "SUPER_DEALS": "Super Deals"
+    }
   },
   "ABOUT-US": {
     "TITLE": "About Andean Elite",

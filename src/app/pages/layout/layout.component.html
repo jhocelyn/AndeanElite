@@ -193,9 +193,9 @@
   </div>
 
   <!--Purpose Section-->
-  <div class="relative min-h-[30vh] max-h-[70vh] w-full bg-[#001f42] text-white overflow-hidden">
+  <div class="relative items-center min-h-[30vh] md:max-h-[70vh] w-full bg-[#001f42] text-white overflow-hidden">
     <!-- Imagen al fondo derecha -->
-    <div class="absolute lg:right-0 lg:w-1/2 h-full z-0">
+    <div class="absolute right-0 w-1/2 h-full z-0">
       <img
         src="/assets/img/general/mom-hug-with-her-son.webp"
         alt="Mom hug with her son"
@@ -214,32 +214,31 @@
     </div>
 
     <!-- Título e ícono centrados arriba -->
-    <div class="absolute top-6 left-[29%] transform -translate-x-1/2 text-center z-10">
+    <div class="absolute left-[50%] w-full top-6 md:left-[29%] transform -translate-x-1/2 text-center z-10">
       <h2 class="text-2xl md:text-4xl font-semibold">
         {{ 'HOME_PURPOSE.TITLE' | translate }}
       </h2>
-
     </div>
 
     <!-- Contenido principal -->
-    <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between w-1/2 h-full pl-[7%] pt-24 pb-8 ">
+    <div class="relative z-10 flex flex-row items-center justify-between w-1/2 h-full pl-[7%] pt-24 pb-8 ">
       <!-- Texto izquierda -->
       <div class="w-full">
-        <div class="font-semibold text-3xl lg:text-6xl leading-tight">
+        <div class="font-semibold text-2xl lg:text-6xl leading-tight">
           <span class="block ml-0">{{ 'HOME_PURPOSE.TITLE_LINES.0' | translate }}</span>
           <span class="block ml-4 lg:ml-14">{{ 'HOME_PURPOSE.TITLE_LINES.1' | translate }}</span>
           <span class="block ml-10 lg:ml-40">{{ 'HOME_PURPOSE.TITLE_LINES.2' | translate }}</span>
         </div>
-        <p class="mt-4 text-lg w-[70%]">
+        <p class="mt-4 text-base md:text-lg w-full md:w-[70%]">
           {{ 'HOME_PURPOSE.DESCRIPTION' | translate }}
         </p>
-        <div class="mt-6 w-[70%]">
+        <div class="mt-6 w-full md:w-[70%]">
           <button class="border w-full  border-white px-6 py-3 rounded-xl transition hover:bg-white hover:text-[#001f42]">
             {{ 'HOME_PURPOSE.BUTTON' | translate }}
           </button>
         </div>
       </div>
-      <div class="absolute left-[45%] top-[20%] mt-2 w-10 mx-auto">
+      <div class="absolute left-[45%] top-[20%] mt-2 w-7 md:w-10 mx-auto">
         <img src="assets/img/general/autism-symbol.webp" alt="autism symbol" />
       </div>
     </div>

@@ -35,6 +35,9 @@
         "CORPORATE-TRAVEL": "Viaje Corporativo",
         "SEE_MORE": "Explore all our travel by interest"
 
+      },
+      "PERU": {
+        "TITLE": "Perú"
       }
     },
     "DESTINATIONS": "Destinos",
@@ -173,8 +176,13 @@
       "CERTIFICATES": "Certificado ESNNA",
       "BOOK_CLAIMS": "Libro de Reclamaciones"
     },
-    "FOLLOW": "Siguenos"
-
+    "FOLLOW": "Siguenos",
+    "STYLES_TO_TRAVEL": {
+      "TITLE": "Estilos de Viajar",
+      "DELUXE": "Deluxe",
+      "COMFORT": "Comfort",
+      "SUPER_DEALS": "Super Deals"
+    }
   },
   "ABOUT-US": {
     "TITLE": "Sobre Andean Elite",
