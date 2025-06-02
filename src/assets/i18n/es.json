@@ -9,7 +9,7 @@
       "TITLE": "Sobre nosotros",
       "OURTEAM": "Nuestro Equipo",
       "LICENSE": "Viaja con nosotros",
-      "RESPONSIBLE": "Nuestra promesa"
+      "OUR_PURPOSE": "Nuestro Propósito"
     },
     "HOME": "Inicio",
     "WAYS": {
@@ -42,9 +42,7 @@
     },
     "DESTINATIONS": "Destinos",
     "CONTACT_US": "Contáctenos",
-    "SALES_CONTACT": "Centro de Contacto de Ventas:",
-    "OUR_PURPOSE": "Nuestro Propósito"
-  },
+    "SALES_CONTACT": "Centro de Contacto de Ventas:"},
   "HOME_STYLES": {
     "TITLE": "Descubre Perú a tu manera.",
     "SUBTITLE": "En Andean Elite creamos experiencias únicas, adaptadas a tu estilo de viaje y ritmo personal.",
@@ -182,6 +180,16 @@
       "DELUXE": "Deluxe",
       "COMFORT": "Comfort",
       "SUPER_DEALS": "Super Deals"
+    },
+    "TRAVEL_BY_INTEREST": {
+      "TITLE": "Viajes por Interes",
+      "CIRCUITS": "Circuitos",
+      "EXTENSIONS": "Extensiones",
+      "TREKKING": "Trekking",
+      "FULL_DAY_TOURS": "Full Day Tours",
+      "FAMILY": "Familia",
+      "TAYLOR_MADE": "A Medida",
+      "CRUISE": "Crucero"
     }
   },
   "ABOUT-US": {

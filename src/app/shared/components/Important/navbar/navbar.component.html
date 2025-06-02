@@ -152,7 +152,7 @@
             (click)="closeAllMenus()"
             class="block p-5 hover:bg-gray-100"
           >
-            {{ 'NAVBAR.OUR_PURPOSE' | translate }}
+            {{ 'NAVBAR.ABOUT_US.OUR_PURPOSE' | translate }}
           </a>
           <ng-container *ngFor="let section of ['OURTEAM', 'LICENSE']">
             <a
@@ -199,7 +199,7 @@
 
   <!-- Menú móvil -->
   <div
-    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transition-all duration-500"
+    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-[1001] flex flex-col px-6 py-4 transition-all duration-500"
     [ngClass]="{ 'right-[0%]': isMenuOpen }"
   >
     <button class="text-white text-2xl mb-4 self-end" (click)="toggleMenu()">
@@ -212,8 +212,8 @@
     <div class="flex items-center justify-between text-white py-2 border-b border-white cursor-pointer" (click)="openSubMenu('about-us')">
       {{ 'NAVBAR.ABOUT_US.TITLE' | translate }} <span>></span>
     </div>
-    <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
-    <a [routerLink]="['/blog']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">BLOG</a>
+    <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{  'NAVBAR.CONTACT_US' | translate }}</a>
+    <a [routerLink]="['/blog']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">Blog</a>
     <!-- Idiomas -->
     <div class="flex flex-row items-center gap-2 pt-4">
       <span (click)="changeLanguage('es'); closeAllMenus()" class="cursor-pointer text-white">ESP</span>
@@ -223,7 +223,7 @@
 
   <!-- Submenú (Segundo Nivel) -->
   <div
-    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-50 flex flex-col px-6 py-4 transition-all duration-500"
+    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-[1002] flex flex-col px-6 py-4 transition-all duration-500"
     [ngClass]="{ 'right-[0%]': activeSubMenu }"
   >
     <button class="text-white text-2xl mb-4" (click)="closeSubMenu()">
@@ -241,15 +241,16 @@
     <!-- ABOUT US -->
     <div *ngIf="activeSubMenu === 'about-us'">
       <h2 (click)="closeAllMenus()" [routerLink]="['/about-us']" class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</h2>
-      <a (click)="closeAllMenus()" [routerLink]="'/our-purpose'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
+      <a (click)="closeAllMenus()" [routerLink]="'/our-purpose'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OUR_PURPOSE" | translate }}</a>
+      <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'our-team'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'license'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.LICENSE" | translate }}</a>
-      <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'responsible'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.RESPONSIBLE" | translate }}</a>
     </div>
+
   </div>
 
   <!-- Sub-submenú (Tercer Nivel) -->
   <div
-    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-50 flex flex-col px-6 py-4 transition-all duration-500"
+    class="md:hidden fixed top-0 right-[-100%] w-full h-full bg-[#042A4E] z-[1002] flex flex-col px-6 py-4 transition-all duration-500"
     [ngClass]="{ 'right-[0%]': activeSubSubMenu }"
   >
     <button class="text-white text-2xl mb-4" (click)="closeSubSubMenu()">

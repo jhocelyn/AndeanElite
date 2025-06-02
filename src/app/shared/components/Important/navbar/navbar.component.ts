@@ -91,6 +91,7 @@ export class NavbarComponent implements OnInit{
     this.isWaysToTravelOpen = false;
   }
 
+
   // Métodos para móvil
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;

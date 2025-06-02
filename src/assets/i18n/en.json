@@ -93,7 +93,7 @@
       "TITLE": "About Us",
       "OURTEAM": "Our Team",
       "LICENSE": "Travel with us",
-      "RESPONSIBLE": "Our Promise"
+      "OUR_PURPOSE": "Our Purpose"
     },
     "DESTINATIONS": "Destinations",
     "HOME": "Home",
@@ -126,9 +126,7 @@
       }
     },
     "CONTACT_US": "Contact us",
-    "SALES_CONTACT": "Sales Contact Center:",
-    "OUR_PURPOSE": "Our Purpose"
-
+    "SALES_CONTACT": "Sales Contact Center:"
   },
   "OUR_PURPOSE": {
     "IMAGE": "/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp",
@@ -180,6 +178,16 @@
       "DELUXE": "Deluxe",
       "COMFORT": "Comfort",
       "SUPER_DEALS": "Super Deals"
+    },
+    "TRAVEL_BY_INTEREST": {
+      "TITLE": "Travel By Interest",
+      "CIRCUITS": "Circuits",
+      "EXTENSIONS": "Extensions",
+      "TREKKING": "Trekking",
+      "FULL_DAY_TOURS": "Full Day Tours",
+      "FAMILY": "Family",
+      "TAYLOR_MADE": "Taylor Made",
+      "CRUISE": "Cruise"
     }
   },
   "ABOUT-US": {
