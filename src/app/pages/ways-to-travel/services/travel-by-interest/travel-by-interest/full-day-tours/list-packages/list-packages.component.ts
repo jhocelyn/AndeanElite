@@ -55,7 +55,7 @@ export class ListPackagesComponent implements OnDestroy,OnInit{
   }
 
   loadPackages(): void {
-    this.packageService.getPackages('FULL_DAY_TOURS').subscribe(data => {
+    this.packageService.getPackages('TRAVEL_BY_INTEREST','FULL_DAY_TOURS').subscribe(data => {
       this.allTours = data;
       this.applyFilters();
       console.log("Paquetes cargados:", this.allTours);

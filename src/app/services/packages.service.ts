@@ -11,8 +11,8 @@ import {map} from 'rxjs/operators';
 export class PackagesService {
   constructor(private translate: TranslateService) {}
 
-  getPackages(Categoria:string): Observable<SimplePackage[]> {
-    return this.translate.get(`TRAVEL_BY_INTEREST.${Categoria}.PACKAGES`).pipe(
+  getPackages(Categoria1:string,Categoria2:string): Observable<SimplePackage[]> {
+    return this.translate.get(`${Categoria1}.${Categoria2}.PACKAGES`).pipe(
       map((packagesObj: any) =>
         Object.keys(packagesObj).map(key => {
           const item = packagesObj[key];

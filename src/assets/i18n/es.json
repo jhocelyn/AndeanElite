@@ -4752,87 +4752,21 @@
         }
       }
     },
-    "PREMIUM": {
-      "TITLE": "Premium",
-      "slug": "premium",
-      "IMAGE": "assets/img/ways-to-travel/styles/premium/premium-travel-peru.webp",
-      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        }
-      }
-    },
-    "PRICE_SALE": {
-      "TITLE": "Price Sale",
-      "slug": "price-sale",
-      "IMAGE": "assets/img/ways-to-travel/styles/price-sale/price-sale.webp",
-      "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-      "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        }
-      }
-    },
     "SUPER_DEALS": {
       "TITLE": "Super Deals",
       "slug": "super-deals",
       "IMAGE": "assets/img/ways-to-travel/styles/super-deals/super-deals-travel-peru.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "1": {
+          "id": "cusco-sunrise-3d2n",
+          "title": "Cusco Sunrise",
+          "categories": ["adventure", "culture"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/super-deals/3d2n-cusco-machu-picchu-train-city.webp",
+          "price": "407"
         }
       }
     }

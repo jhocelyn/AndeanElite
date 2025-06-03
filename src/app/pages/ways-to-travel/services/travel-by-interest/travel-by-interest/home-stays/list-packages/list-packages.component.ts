@@ -49,7 +49,7 @@ export class ListPackagesComponent implements OnInit,OnDestroy{
   }
 
   loadPackages(): void {
-    this.packageService.getPackages('HOME_STAYS').subscribe(data => {
+    this.packageService.getPackages('TRAVEL_BY_INTEREST','HOME_STAYS').subscribe(data => {
       this.HomestaysData = data;
     });
   }

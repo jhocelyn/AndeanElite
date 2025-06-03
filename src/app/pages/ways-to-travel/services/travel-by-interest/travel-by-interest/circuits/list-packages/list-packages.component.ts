@@ -56,7 +56,7 @@ export class ListPackagesComponent implements OnInit, OnDestroy{
   }
 
   loadPackages(): void {
-    this.packageService.getPackages('CIRCUITS').subscribe(data => {
+    this.packageService.getPackages('TRAVEL_BY_INTEREST','CIRCUITS').subscribe(data => {
       this.allCircuits = data;
       this.applyFilters();
       console.log("Paquetes cargados:", this.allCircuits);

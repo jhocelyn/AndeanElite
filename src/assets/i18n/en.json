@@ -3976,7 +3976,79 @@
         "premium": [
         ]
       }
-    }
+    },
+    "SUPER_DEALS":{
+      "1":{
+        "id": "1",
+        "title": "3D2N Cusco Amanecer",
+        "subtitle": "Explora la majestuosa ciudad de Cusco y la maravilla de Machu Picchu en 3 días y 2 noches.",
+        "description": "Descubre la magia de Cusco y Machu Picchu en un viaje inolvidable de 3 días. Disfruta de alojamiento, visitas guiadas, transporte completo y asistencia personalizada en todo momento.",
+        "whyChooseUs": [
+          "Asistencia personalizada durante todo el viaje.",
+          "Incluye tren Expedition o The Voyager.",
+          "Guías profesionales en español o inglés.",
+          "Entradas a los principales atractivos incluidas.",
+          "Alojamiento con desayuno incluido."
+        ],
+        "itinerary": [
+          "DÍA 01: CUSCO IN\nRecepción y traslado al hotel elegido. Resto del día libre para aclimatación. Pernocte.",
+          "DÍA 02: MACHU PICCHU\nAl amanecer, nos dirigiremos hacia la estación de trenes para iniciar el viaje hacia Aguas Calientes. Visitaremos Machu Picchu con guía profesional durante 3 horas y luego almorzaremos en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 03: CUSCO OUT\nDesayuno en el hotel. Mañana libre y traslado al aeropuerto a la hora coordinada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslado en Cusco aeropuerto – hotel – aeropuerto",
+          "2 noches de alojamiento en Cusco + desayunos",
+          "Full Day Machu Picchu + almuerzo en Aguas Calientes",
+          "Tren Expedition o The Voyager",
+          "Entradas turísticas",
+          "Guía profesional (español o inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Tickets aéreos nacionales",
+          "Tickets aéreos internacionales",
+          "Alimentación no especificada",
+          "Seguro de viaje",
+          "Propinas"
+        ],
+        "from": "$407",
+        "prices": "Hotel: Ankara Boutique (Ene-Mar) ♥ - Category 2* from $407 double room ",
+        "optional": [
+          "Trenes Vistadome o The 360° Bimodal",
+          "Trenes Vistadome Observatory o Premium & Lounge Bimodal",
+          "Almuerzo en Café Inkaterra",
+          "Almuerzo en Sanctuary Lodge",
+          "Almuerzo en Sumaq Machu Picchu",
+          "Cena Menú + Show Folklórico en el Restaurante Tunupa"
+        ],
+        "politics": [
+          "Pagos con SAFETYPAY: recargo del 1%.",
+          "Pagos con tarjeta vía NIUBIS/VISANET: recargo del 3%.",
+          "Pagos con Mercado Pago: recargo del 2.5%.",
+          "Entradas a Machu Picchu: acceso al Circuito 2 hasta las 13:00 hrs. Sujetos a disponibilidad. Cambios no permitidos.",
+          "Restricciones en Semana Santa, 25 de diciembre y 24 de junio.",
+          "Cancelaciones de trenes: penalidad del 10%, solicitud con 72h de anticipación.",
+          "Recomendaciones: llevar calzado cómodo, repelente, linterna, abrigo, entre otros.",
+          "Menores: Infantes (0-2 años) no pagan. Niños (2-8 años) tarifa CHD con desayuno. Junior (9-17 años) con suplemento.",
+          "Reservas individuales: datos 30 días antes, pago total 25 días antes.",
+          "Reservas grupales: lista preliminar 60 días antes, pagos del 50% a 50 y 25 días antes.",
+          "Cancelaciones individuales: pueden generar costos según proveedor.",
+          "Cancelaciones grupales: hasta 60 días sin penalidad, luego hasta 100% según fecha.",
+          "Andean Elite no se responsabiliza por servicios no prestados por causas externas.",
+          "Precios aplican solo si se reservan todos los servicios con Andean Elite.",
+          "No válido en temporadas altas: Semana Santa, Inti Raymi, Fiestas Patrias, Año Nuevo, etc."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu al amanecer con tren Expedition y ciudad de Cusco",
+            "src": "assets/img/ways-to-travel/styles/super-deals/3d2n-cusco-machupicchu-tren-ciudad.webp",
+            "width": 1200
+          }
+        ]
+      }
+      }
   },
   "WAYS_TO_TRAVEL": {
     "TITLE": "Ways to Travel",
@@ -4570,8 +4642,7 @@
     "TITLE": "Styles",
     "IMAGE": "assets/img/ways-to-travel/styles/styles-peru.webp",
     "DESCRIPTION": "Find the perfect travel style for you. We offer a variety of options to suit your preferences and needs.",
-    "STYLES":
-    {
+    "STYLES": {
       "PREMIUM": {
       "TITLE": "Premium",
       "slug": "premium",
@@ -4764,87 +4835,21 @@
         }
       }
     },
-    "PREMIUM": {
-      "TITLE": "Premium",
-      "slug": "premium",
-      "IMAGE": "assets/img/ways-to-travel/styles/premium/premium-travel-peru.webp",
-      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
-      "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        }
-      }
-    },
-    "PRICE_SALE": {
-      "TITLE": "Price Sale",
-      "slug": "price-sale",
-      "IMAGE": "assets/img/ways-to-travel/styles/price-sale/price-sale.webp",
-      "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
-      "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        }
-      }
-    },
     "SUPER_DEALS": {
       "TITLE": "Super Deals",
       "slug": "super-deals",
       "IMAGE": "assets/img/ways-to-travel/styles/super-deals/super-deals-travel-peru.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
-        },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "1": {
+          "id": "1",
+          "title": "Cusco Sunrise",
+          "categories": ["adventure", "culture"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/super-deals/3d2n-cusco-machupicchu-tren-ciudad.webp",
+          "price": "407"
         }
       }
     }
