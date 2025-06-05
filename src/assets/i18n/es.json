@@ -245,7 +245,18 @@
 
   },
   "DESTINATIONS": {
-    "TITLE": "Destinos",
+    "TITLE": "Descubre la Costa del Perú",
+    "SUBTITLE": "COSTA",
+    "EXPLORE": {
+      "ANDES": "Explora los Andes",
+      "MAJESTIC": "Explora los Andes Majestuosos",
+      "AMAZON": "Aventuras en la Amazonía",
+      "MACHU_PICCHU": "Explora Machu Picchu"
+    },
+    "DISCOVER": {
+      "COAST": "Descubre la Costa",
+      "JUNGLE": "Descubre la Selva"
+    },
     "CUSCO": {
       "TITLE": "Cusco",
       "DESCRIPTION": "Cusco, la antigua capital del Imperio Inca, es un destino turístico de renombre mundial. Conocida por su rica historia, arquitectura colonial y paisajes impresionantes, Cusco ofrece una experiencia única que combina cultura, aventura y espiritualidad. Desde la majestuosidad de Machu Picchu hasta el vibrante Valle Sagrado, cada rincón de Cusco cuenta una historia fascinante.",

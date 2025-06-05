@@ -114,8 +114,8 @@
         <h2 class="text-2xl font-semibold text-[#042a4e] mb-4">
           {{ 'INFO_PACKAGES.PRICES_TITLE' | translate }}
         </h2>
-
         <p>{{packageData.prices}}</p>
+        <p [innerHTML]="packageData.additional"></p>
       </div>
 
       <!-- Políticas -->

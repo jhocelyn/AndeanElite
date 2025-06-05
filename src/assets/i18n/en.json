@@ -242,7 +242,18 @@
     "CODE": "Code"
   },
   "DESTINATIONS": {
-  "TITLE": "Destinations",
+    "TITLE": "Discover Peru's Coast",
+    "SUBTITLE": "COAST",
+    "EXPLORE": {
+      "ANDES": "Explore the Andes",
+      "MAJESTIC": "Explore the Majestic Andes",
+      "AMAZON": "Amazon Jungle Adventures",
+      "MACHU_PICCHU": "Explore Machu Picchu"
+    },
+    "DISCOVER": {
+      "COAST": "Discover the Coast",
+      "JUNGLE": "Discover the Jungle"
+    },
     "CUSCO": {
     "TITLE": "CUSCO",
     "DESCRIPTION": "Cusco, the ancient capital of the Inca Empire, is a UNESCO World Heritage site known for its rich history and stunning architecture. Nestled in the Andes mountains, it offers a unique blend of Inca and colonial Spanish influences. Visitors can explore archaeological sites, vibrant markets, and experience the local culture.",
@@ -4014,7 +4025,8 @@
           "Propinas"
         ],
         "from": "$407",
-        "prices": "Hotel: Ankara Boutique (Ene-Mar) ♥ - Category 2* from $407 double room ",
+        "prices": "Hoteles Categoria 3* desde $407 habitación doble",
+        "additional": "<strong>ADICIONALES</strong><br>\nSuplemento para pasajero viajando solo: <strong>USD $39.00</strong><br><br>\n\n<strong>Trenes ida o retorno:</strong><br>\nVistadome o The 360° Bimodal: <strong>USD $47.00 ADT</strong> | <strong>USD $29.00 CHD</strong><br>\nVistadome Observatory o Premium & Lounge Bimodal: <strong>USD $72.00 ADT</strong> | <strong>USD $50.00 CHD</strong><br><br>\n\n<strong>Alimentación & upgrade:</strong><br>\nAlmuerzo en Café Inkaterra: <strong>USD $6.00</strong><br>\nAlmuerzo en Sanctuary Lodge: <strong>USD $31.00</strong><br>\nAlmuerzo en Sumaq Machu Picchu: <strong>USD $63.00</strong><br>\nCusco: Cena Menú* + Show Folklórico en el Restaurante Tunupa: <strong>USD $29.00</strong><br>\n<em>Menú: Comprende 3 opciones gourmet a elegir y el famoso pisco sour TUNUPA de cortesía.</em>\n",
         "optional": [
           "Trenes Vistadome o The 360° Bimodal",
           "Trenes Vistadome Observatory o Premium & Lounge Bimodal",

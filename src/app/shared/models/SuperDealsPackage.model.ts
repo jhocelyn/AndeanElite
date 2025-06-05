@@ -11,6 +11,7 @@ export interface SuperDealsPackageModel {
   notIncluded: string[];
   from: string;
   prices: string;
+  additional:string;
   optional: string[];
   politics: string[];
   images: {
