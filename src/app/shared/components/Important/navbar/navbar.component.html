@@ -14,25 +14,25 @@
     <ul class="hidden md:flex flex-row text-white items-center gap-16 text-[17px]">
       <!-- HOME -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
-    <span
+    <h2
       [routerLink]="['/home']"
       (click)="closeAllMenus()"
       class="relative cursor-pointer after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
     >
       {{ 'NAVBAR.HOME' | translate }}
-    </span>
+    </h2>
       </li>
 
       <!-- WAYS TO TRAVEL -->
       <li class="nav-item relative">
-    <span
+    <h2
       (click)="toggleWaysToTravelMenu()"
       class="cursor-pointer relative flex items-center after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
     >
       {{ 'NAVBAR.WAYS.TITLE' | translate }}
       <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform"
          [ngClass]="{ 'rotate-180': isWaysToTravelOpen }"></i>
-    </span>
+    </h2>
 
         <!-- Submenu -->
         <div
@@ -42,13 +42,13 @@
           <!-- Columna izquierda -->
           <div class="w-[40%] font-semibold">
             <a (click)="openStyleMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <span>{{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</span><span>></span>
+              <h3>{{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</h3><span>></span>
             </a>
             <a (click)="openTravelByMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <span>{{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</span><span>></span>
+              <h3>{{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</h3><span>></span>
             </a>
             <a (click)="openPeruMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <span>{{ 'NAVBAR.WAYS.PERU.TITLE'|translate }}</span><span>></span>
+              <h3>{{ 'NAVBAR.WAYS.PERU.TITLE'|translate }}</h3><span>></span>
             </a>
           </div>
 
@@ -57,15 +57,16 @@
             <!-- Estilos de viaje -->
             <ng-container *ngIf="isStyleOpen">
               <div [routerLink]="['/ways-to-travel/styles']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">
-                {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}
+                <h3>
+                {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</h3>
               </div>
               <ng-container *ngFor="let style of ['deluxe', 'comfort', 'super-deals']">
                 <a
                   [routerLink]="['/ways-to-travel/styles', style]"
                   (click)="closeAllMenus()"
                   class="block px-4 py-2 hover:bg-gray-100"
-                >
-                  {{ ('NAVBAR.WAYS.STYLES.' + style.toUpperCase().replace('-', '')) | translate }}
+                ><h4>
+                  {{ ('NAVBAR.WAYS.STYLES.' + style.toUpperCase().replace('-', '')) | translate }}</h4>
                 </a>
               </ng-container>
             </ng-container>
@@ -73,7 +74,7 @@
             <!-- Intereses -->
             <ng-container *ngIf="isTravelByInterestOpen">
               <div [routerLink]="['/ways-to-travel/travel-by-interest']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">
-                {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}
+                <h3> {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</h3>
               </div>
               <div class="flex gap-5">
                 <div class="flex-1">
@@ -83,7 +84,9 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
+                      <h4>
                       {{ ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase()) | translate }}
+                      </h4>
                     </a>
                   </ng-container>
                 </div>
@@ -94,7 +97,9 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
+                      <h4>
                       {{ item === 'mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase()) | translate }}
+                      </h4>
                     </a>
                   </ng-container>
                 </div>
@@ -103,7 +108,7 @@
 
             <!-- Perú -->
             <ng-container *ngIf="isPeruOpen">
-              <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">{{'NAVBAR.WAYS.PERU.TITLE'|translate}}</div>
+              <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2"><h3>{{'NAVBAR.WAYS.PERU.TITLE'|translate}}</h3></div>
               <div class="flex gap-5">
                 <div class="flex-1">
                   <ng-container *ngFor="let item of ['Cusco', 'Puerto Maldonado', 'Puno', 'Arequipa']">
@@ -112,7 +117,7 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                     {{item}}
+                      <h4>{{item}}</h4>
                     </a>
                   </ng-container>
                 </div>
@@ -123,7 +128,8 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      {{item}}
+                      <h4>{{item}}</h4>
+
                     </a>
                   </ng-container>
                 </div>
@@ -137,10 +143,10 @@
 
       <!-- ABOUT US -->
       <li class="nav-item relative">
-      <span (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+      <h2 (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
         {{ 'NAVBAR.ABOUT_US.TITLE' | translate }}
         <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform" [ngClass]="{ 'rotate-180': isAboutUsOpen }"></i>
-      </span>
+      </h2>
 
         <div
           *ngIf="isAboutUsOpen"
@@ -152,7 +158,7 @@
             (click)="closeAllMenus()"
             class="block p-5 hover:bg-gray-100"
           >
-            {{ 'NAVBAR.ABOUT_US.OUR_PURPOSE' | translate }}
+            <h3>{{ 'NAVBAR.ABOUT_US.OUR_PURPOSE' | translate }}</h3>
           </a>
           <ng-container *ngFor="let section of ['OURTEAM', 'LICENSE']">
             <a
@@ -161,7 +167,7 @@
               (click)="closeAllMenus()"
               class="block p-5 hover:bg-gray-100"
             >
-              {{ 'NAVBAR.ABOUT_US.' + section | translate }}
+              <h3>{{ 'NAVBAR.ABOUT_US.' + section | translate }}</h3>
             </a>
           </ng-container>
 
@@ -170,16 +176,16 @@
 
       <!-- CONTACT -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
-    <span [routerLink]="['/contact-us']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+    <h2 [routerLink]="['/contact-us']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
       {{ 'NAVBAR.CONTACT_US' | translate }}
-    </span>
+    </h2>
       </li>
 
       <!-- BLOG -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
-    <span [routerLink]="['/blog']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+    <h2 [routerLink]="['/blog']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
       Blog
-    </span>
+    </h2>
       </li>
     </ul>
 

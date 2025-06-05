@@ -20,11 +20,13 @@
       <h2 class="text-3xl md:text-4xl font-semibold text-center text-[#042A4E] mb-5">
         {{ 'HOME_STYLES.CHOOSE' | translate }}
       </h2>
+      <!-- FLECHAS DE DESPLAZAMIENTO
       <div class="flex gap-10 text-xl text-[#042A4E]">
         <i class="fa-solid fa-arrow-down"></i>
         <i class="fa-solid fa-arrow-down"></i>
         <i class="fa-solid fa-arrow-down"></i>
       </div>
+      -->
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
       <div
@@ -64,23 +66,26 @@
       </h3>
       <p class="text-base md:text-lg font-extralight  text-center ">        {{ 'HOME_TRAVEL_BY.DESCRIPTION' | translate }}
       </p>
+      <!-- FLECHAS DE DESPLAZAMIENTO
+
       <div class="flex gap-10 text-xl text-white justify-center my-4">
         <i class="fa-solid fa-arrow-down"></i>
         <i class="fa-solid fa-arrow-down"></i>
         <i class="fa-solid fa-arrow-down"></i>
       </div>
+-->
 
-    </div>
+</div>
 
 
 
-    <div class="relative">
-      <div
-        #carouselContainer
-        class="flex gap-6 overflow-x-auto scroll-smooth hide-scrollbar snap-x snap-mandatory"
-      >
-        <ng-container *ngFor="let interest of interests; let i = index">
-          <!-- Mostrar tarjetas normales para los primeros 3 -->
+<div class="relative">
+<div
+  #carouselContainer
+  class="flex gap-6 overflow-x-auto scroll-smooth hide-scrollbar snap-x snap-mandatory"
+>
+  <ng-container *ngFor="let interest of interests; let i = index">
+    <!-- Mostrar tarjetas normales para los primeros 3 -->
           <div
             *ngIf="i !== 3"
             [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"

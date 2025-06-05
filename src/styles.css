@@ -11,3 +11,13 @@
     background-position: center;
   }
 }
+
+/* Estilo base para todo el texto */
+body {
+  @apply font-open;
+}
+
+/* Encabezados con fuente elegante */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-playfair;
+}
