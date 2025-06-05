@@ -14,7 +14,7 @@
 
 /* Estilo base para todo el texto */
 body {
-  @apply font-open;
+  @apply font-lato;
 }
 
 /* Encabezados con fuente elegante */
