@@ -1,30 +1,24 @@
-<!--
-<app-banner
-  [backgroundImage]="'assets/img/destinations/banner-destinations-peru.webp'"
-  [title]="'DESTINATIONS.TITLE'"
-></app-banner>-->
-
 <!-- Banner -->
-<div class="relative p-5 h-[70vh] text-white overflow-hidden">
+<div class="relative h-[60vh] text-white overflow-hidden">
   <img src="assets/img/destinations/cusco/destinations-machu-picchu.webp" alt="Destinations Banner" class="object-[100%_35%] object-cover w-full h-full">
   <div class="absolute top-1/2 left-[10%] transform -translate-y-1/2">
-    <h2 class="mt-8 text-3xl font-semibold">{{ 'DESTINATIONS.TITLE'|translate }}</h2>
+    <h2 class="mt-10 text-3xl font-semibold">{{ 'DESTINATIONS.TITLE'|translate }}</h2>
     <h3 class="text-4xl font-semibold">{{ 'DESTINATIONS.SUBTITLE'|translate }}</h3>
     <button class="p-4 mt-4 bg-[#042A4E]">{{'DESTINATIONS.EXPLORE.MACHU_PICCHU'|translate}}</button>
   </div>
 </div>
 
 <!-- Content -->
-<div class="w-full flex flex-col text-[#042A4E] items-center">
-  <h3 class="text-3xl">
+<div class="w-full flex flex-col mt-5 text-[#042A4E] items-center">
+  <h3 class="text-2xl  md:text-3xl">
     {{'DESTINATIONS.EXPLORE.MACHU_PICCHU'|translate}}
   </h3>
 
   <div class="w-full flex flex-col items-center">
     <!-- Títulos principales -->
-    <div class="flex justify-between font-semibold text-2xl w-full px-5 mb-4">
-      <h3 class=" ">{{ 'DESTINATIONS.EXPLORE.MAJESTIC' | translate }}</h3>
-      <h3 class=" ">{{ 'DESTINATIONS.EXPLORE.AMAZON' | translate }}</h3>
+    <div class="hidden md:flex justify-between font-semibold text-2xl w-full px-5 mb-4">
+      <h3 class="">{{ 'DESTINATIONS.EXPLORE.MAJESTIC' | translate }}</h3>
+      <h3 class="">{{ 'DESTINATIONS.EXPLORE.AMAZON' | translate }}</h3>
     </div>
 
     <!-- Galería de destinos -->
@@ -56,7 +50,7 @@
 
       <!-- Contenido centrado -->
       <div class="absolute inset-0 flex flex-col justify-center items-center px-6">
-        <h4 class="text-3xl font-bold mb-2">{{ ('DESTINATIONS.' + destination.name) | translate }}</h4>
+        <h4 class="text-3xl text-center font-bold mb-2">{{ ('DESTINATIONS.' + destination.name) | translate }}</h4>
         <button class="text-base px-4 py-2 border-2 border-[#042A4E] hover:bg-[#042A4E] hover:text-white transition">
           {{ ('DESTINATIONS.' + destination.name) | translate }}
         </button>
