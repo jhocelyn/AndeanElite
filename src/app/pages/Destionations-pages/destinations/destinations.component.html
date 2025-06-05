@@ -46,7 +46,24 @@
     </div>
   </div>
 
-  <div></div>
+  <!-- Galería de destinos -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full p-5 text-white">
+    <div *ngFor="let destination of destinations_2" class="relative h-[40vh] overflow-hidden">
+      <img [src]="destination.image" class="w-full h-full object-cover" [alt]="destination.name" />
+
+      <!-- Capa oscura sobre la imagen -->
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+      <!-- Contenido centrado -->
+      <div class="absolute inset-0 flex flex-col justify-center items-center px-6">
+        <h4 class="text-3xl font-bold mb-2">{{ ('DESTINATIONS.' + destination.name) | translate }}</h4>
+        <button class="text-base px-4 py-2 border-2 border-[#042A4E] hover:bg-[#042A4E] hover:text-white transition">
+          {{ ('DESTINATIONS.' + destination.name) | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+
 </div>
 <!--
 <app-destinations-grid

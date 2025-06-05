@@ -22,7 +22,11 @@ export class DestinationsComponent {
     {name:'DISCOVER.COAST',image:'assets/img/destinations/ica/huacachina-desert-oasis.webp', link:'coast'},
     {name:'EXPLORE.ANDES',image:'assets/img/destinations/cusco/machu-picchu-overlook-view.webp', link:'andes'},
     {name:'DISCOVER.JUNGLE',image:'assets/img/destinations/puerto-maldonado/abiseo-river-national-park.webp', link:'jungle'},
+  ]
 
+  destinations_2=[
+    {name:'EXPLORE.MACHU_PICCHU',image:'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp', link:'andes/cusco'},
+    {name:'DISCOVER.JUNGLE',image:'assets/img/destinations/puerto-maldonado/abiseo-river-national-park.webp', link:'jungle'},
   ]
 
   /*destinations = [
