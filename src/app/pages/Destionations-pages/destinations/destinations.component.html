@@ -8,60 +8,53 @@
   </div>
 </div>
 
-<!-- Content -->
-<div class="w-full flex flex-col mt-5 text-[#042A4E] items-center">
-  <h3 class="text-2xl  md:text-3xl">
-    {{'DESTINATIONS.EXPLORE.MACHU_PICCHU'|translate}}
-  </h3>
 
-  <div class="w-full flex flex-col items-center">
-    <!-- Títulos principales -->
-    <div class="hidden md:flex justify-between font-semibold text-2xl w-full px-5 mb-4">
-      <h3 class="">{{ 'DESTINATIONS.EXPLORE.MAJESTIC' | translate }}</h3>
-      <h3 class="">{{ 'DESTINATIONS.EXPLORE.AMAZON' | translate }}</h3>
-    </div>
+<div class="px-4 md:px-20 text-gray-700">
+  <!-- Introducción -->
+  <section class="my-10 space-y-4">
+    <h3 class="text-primary  text-3xl font-semibold">
+      {{ 'DESTINATIONS.PERU.TITLE' | translate }}
+    </h3>
+    <p class="text-lg ">
+      {{ 'DESTINATIONS.PERU.DESCRIPTION' | translate }}
+    </p>
+  </section>
 
-    <!-- Galería de destinos -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full p-5 text-white">
-      <div *ngFor="let destination of destinations" class="relative h-[40vh] overflow-hidden">
-        <img [src]="destination.image" class="w-full h-full object-cover" [alt]="destination.name" />
+  <!-- Secciones dinámicas -->
+  <ng-container *ngFor="let region of regions">
+    <section class="flex flex-col md:flex-row gap-6 mb-14 items-center"
+             [ngClass]="{ 'md:flex-row-reverse': region.reverse }"
 
-        <!-- Capa oscura sobre la imagen -->
-        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-
-        <!-- Contenido centrado -->
-        <div class="absolute inset-0 flex flex-col justify-center items-start px-6">
-          <h4 class="text-2xl font-bold mb-2">{{ ('DESTINATIONS.' + destination.name) | translate }}</h4>
-          <button class="text-base px-4 py-2 border-2 border-[#042A4E] hover:bg-[#042A4E] hover:text-white transition">
-            {{ ('DESTINATIONS.' + destination.name) | translate }}
-          </button>
-        </div>
+    >
+      <div *ngIf="region.images?.length" class="flex gap-6 w-full md:w-1/2 justify-center">
+        <img
+          *ngFor="let img of region.images; let i = index"
+          [src]="img"
+          [alt]="region.alt"
+          [ngClass]="{
+      'mt-8': i === 1
+    }"
+          class="rounded-lg object-cover w-[38vh] h-[50vh] transition-all duration-300"
+        />
       </div>
-    </div>
-  </div>
 
-  <!-- Galería de destinos -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full p-5 text-white">
-    <div *ngFor="let destination of destinations_2" class="relative h-[40vh] overflow-hidden">
-      <img [src]="destination.image" class="w-full h-full object-cover" [alt]="destination.name" />
+      <div class="flex flex-col gap-3 w-full md:w-1/2">
+        <h3 class="text-primary  text-3xl font-semibold">
+          {{ region.title | translate }}
+        </h3>
+        <p class="text-base ">
+          {{ region.description | translate }}
+        </p>
 
-      <!-- Capa oscura sobre la imagen -->
-      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-
-      <!-- Contenido centrado -->
-      <div class="absolute inset-0 flex flex-col justify-center items-center px-6">
-        <h4 class="text-3xl text-center font-bold mb-2">{{ ('DESTINATIONS.' + destination.name) | translate }}</h4>
-        <button class="text-base px-4 py-2 border-2 border-[#042A4E] hover:bg-[#042A4E] hover:text-white transition">
-          {{ ('DESTINATIONS.' + destination.name) | translate }}
-        </button>
+        <ul *ngIf="region.list" class="list-disc ml-5 space-y-1">
+          <li
+            *ngFor="let item of region.list | translate"
+            [innerHTML]="item.DESCRIPTION || item"
+            class="text-base"
+            [routerLink]="item.LINK || null"
+          ></li>
+        </ul>
       </div>
-    </div>
-  </div>
-
+    </section>
+  </ng-container>
 </div>
-<!--
-<app-destinations-grid
-  [columns]="4"
-  [destinations]="destinations">
-</app-destinations-grid>
--->

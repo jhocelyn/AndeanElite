@@ -242,6 +242,77 @@
     "CODE": "Code"
   },
   "DESTINATIONS": {
+    "PERU": {
+      "TITLE": "¡Descubre la Magia de Perú con Nosotros!",
+      "DESCRIPTION": "¿Estás buscando una aventura inolvidable? Permítenos guiarte a través de Perú, un país vibrante y lleno de contrastes que te dejará sin aliento. Desde las misteriosas ruinas incas hasta la exuberante Amazonía, Perú ofrece una experiencia única para cada viajero. En nuestra agencia de viajes, somos expertos en crear itinerarios personalizados que capturan la esencia de este fascinante destino. ¡Prepárate para vivir momentos que recordarás para siempre!"
+    },
+    "RELEVANT": {
+      "TITLE": "Lo Más Resaltante de Perú: Una Experiencia Inolvidable",
+      "DESCRIPTION": "Perú es mucho más que un destino; es un viaje a través del tiempo y la naturaleza. Aquí, la historia milenaria se fusiona con paisajes que quitan el aliento y una gastronomía reconocida mundialmente.",
+      "HIGHLIGHTS": [
+        "<strong>Riqueza Cultural e Histórica:</strong> Sumérgete en el legado del Imperio Inca, explora ciudades coloniales declaradas Patrimonio de la Humanidad y maravíllate con la diversidad de tradiciones y festividades que aún perduran.",
+        "<strong>Biodiversidad Asombrosa:</strong> Desde las gélidas cumbres andinas hasta la densa selva amazónica, Perú alberga una de las mayores variedades de flora y fauna del planeta. Un verdadero paraíso para los amantes de la naturaleza y la aventura.",
+        "<strong>Gastronomía de Clase Mundial:</strong> Prepárate para deleitar tu paladar con la cocina peruana, una fusión exquisita de sabores ancestrales e influencias globales. Desde el ceviche fresco hasta el ají de gallina, cada plato es una obra de arte culinaria."
+      ]
+    },
+    "COAST": {
+      "TITLE": "Costa: Sol, Cultura y Misterio",
+      "DESCRIPTION": "La costa peruana te invita a explorar paisajes desérticos, ciudades coloniales vibrantes y enigmas ancestrales.",
+      "LIST": [
+        {
+          "DESCRIPTION": "<strong>Lima:</strong> La Capital Gastronómica y Cultural: Descubre el encanto colonial del Centro Histórico, déjate seducir por la modernidad de Miraflores y Barranco, y embárcate en un viaje culinario que no tiene comparación.",
+          "LINK": "lima"
+        },
+        {
+          "DESCRIPTION": "<strong>Paracas e Islas Ballestas:</strong> Navega por un santuario de vida silvestre donde lobos marinos, aves guaneras y pingüinos de Humboldt te darán la bienvenida. Un paraíso natural a poca distancia de la capital.",
+          "LINK": "ica"
+        },
+        {
+          "DESCRIPTION": "<strong>Nazca:</strong> Las Líneas Misteriosas: Sobrevuela las enigmáticas Líneas de Nazca, geoglifos gigantes que han desconcertado a la humanidad por siglos. Una experiencia que te dejará sin palabras.",
+          "LINK": "nasca"
+        },
+        {
+          "DESCRIPTION": "<strong>Arequipa:</strong> La Ciudad Blanca: Explora la hermosa ciudad de Arequipa, construida con sillar volcánico blanco, y maravíllate con su arquitectura colonial y el imponente Cañón del Colca, uno de los más profundos del mundo.",
+          "LINK": "arequipa"
+        }
+      ]
+    },
+    "ANDES": {
+      "TITLE": "Sierra: El Corazón del Imperio Inca y la Aventura Andina",
+      "DESCRIPTION": "La sierra peruana es el alma de la cultura inca y el escenario de paisajes montañosos espectaculares.",
+      "LIST": [
+        {
+          "DESCRIPTION": "<strong>Cusco:</strong> El Ombligo del Mundo: La antigua capital del Imperio Inca te espera con sus calles empedradas, templos coloniales y una atmósfera mística. El punto de partida perfecto para explorar el Valle Sagrado.",
+          "LINK": "cusco"
+        },
+        {
+          "DESCRIPTION": "<strong>Machu Picchu:</strong> La Ciudad Perdida de los Incas: La joya de la corona de Perú. Esta maravilla arqueológica te transportará a un pasado glorioso. ¡Una visita obligada que superará todas tus expectativas!",
+          "LINK": "cusco"
+        },
+        {
+          "DESCRIPTION": "<strong>Valle Sagrado de los Incas:</strong> Explora los pintorescos pueblos de Pisac, Ollantaytambo y Chinchero, descubre mercados coloridos y admira las impresionantes terrazas agrícolas incas.",
+          "LINK": "cusco"
+        },
+        {
+          "DESCRIPTION": "<strong>Lago Titicaca y Puno:</strong> Cuna de Leyendas: Navega por el lago navegable más alto del mundo y visita las misteriosas islas flotantes de los Uros, hogar de una cultura ancestral que aún mantiene sus tradiciones.",
+          "LINK": "puno"
+        }
+      ]
+    },
+    "AMAZON": {
+      "TITLE": "Selva: Biodiversidad, Aventura y Culturas Vivas",
+      "DESCRIPTION": "La selva amazónica peruana te sumerge en un mundo de exuberante vegetación, fauna exótica y culturas ancestrales.",
+      "LIST": [
+        {
+          "DESCRIPTION": "<strong>Iquitos: La Puerta a la Amazonía:</strong> Embárcate en una aventura inolvidable por el río Amazonas. Explora la densa selva, observa monos, perezosos, caimanes y una increíble variedad de aves.",
+          "LINK": "puerto-maldonado"
+        },
+        {
+          "DESCRIPTION": "<strong>Puerto Maldonado:</strong> El Santuario de la Biodiversidad: Descubre la Reserva Nacional de Tambopata y el Parque Nacional del Manú, hogar de una de las mayores concentraciones de biodiversidad del planeta. Ideal para el ecoturismo y la observación de vida silvestre.",
+          "LINK": "puerto-maldonado"
+        }
+      ]
+    },
     "TITLE": "Discover Peru's Coast",
     "SUBTITLE": "COAST",
     "EXPLORE": {
@@ -3989,8 +4060,8 @@
       }
     },
     "SUPER_DEALS":{
-      "1":{
-        "id": "1",
+      "cusco-sunrise":{
+        "id": "cusco-sunrise",
         "title": "3D2N Cusco Amanecer",
         "subtitle": "Explora la majestuosa ciudad de Cusco y la maravilla de Machu Picchu en 3 días y 2 noches.",
         "description": "Descubre la magia de Cusco y Machu Picchu en un viaje inolvidable de 3 días. Disfruta de alojamiento, visitas guiadas, transporte completo y asistencia personalizada en todo momento.",
@@ -4853,8 +4924,8 @@
       "IMAGE": "assets/img/ways-to-travel/styles/super-deals/super-deals-travel-peru.webp",
       "DESCRIPTION": "Travels of comfort for unforgettable experiences. Explore the world with exclusive and custom trips...",
       "PACKAGES":{
-        "1": {
-          "id": "1",
+        "cusco-sunrise": {
+          "id": "cusco-sunrise",
           "title": "Cusco Sunrise",
           "categories": ["adventure", "culture"],
           "city": "Cusco",

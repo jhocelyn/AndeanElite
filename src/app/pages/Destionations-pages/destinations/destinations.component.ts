@@ -5,29 +5,72 @@ import {
   DestinationsGridComponent
 } from '../../../shared/components/general/destinations-grid/destinations-grid.component';
 import {TranslatePipe} from '@ngx-translate/core';
-import {NgForOf} from '@angular/common';
+import {NgClass, NgForOf, NgIf} from '@angular/common';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-destinations',
   standalone: true,
-  imports: [LazyLoadImageModule, BannerComponent, DestinationsGridComponent, TranslatePipe, NgForOf],
+  imports: [LazyLoadImageModule, BannerComponent, DestinationsGridComponent, TranslatePipe, NgForOf, RouterLink, NgIf, NgClass],
   templateUrl: './destinations.component.html',
   styleUrl: './destinations.component.css'
 })
 export class DestinationsComponent {
 
   //Array of destinations
+  regions = [
+    {
+      key: 'DESTINATIONS.RELEVANT',
+      title: 'DESTINATIONS.RELEVANT.TITLE',
+      description: 'DESTINATIONS.RELEVANT.DESCRIPTION',
+      list: 'DESTINATIONS.RELEVANT.HIGHLIGHTS',
+      reverse:false,
+      alt: 'Imagen de gastronomía',
+      images: [
+        'assets/img/ways-to-travel/travel-by-interest/tours/gastronomia-clase-peru.webp',
+        'assets/img/destinations/cusco/machu-picchu-inca-citadel-peru.webp'
+      ]
+    },
+    {
+      key: 'DESTINATIONS.COAST',
+      title: 'DESTINATIONS.COAST.TITLE',
+      description: 'DESTINATIONS.COAST.DESCRIPTION',
+      list: 'DESTINATIONS.COAST.LIST',
+      reverse:true,
+      alt: 'Imagen de la costa',
+      images: [
+        'assets/img/destinations/lima/caral-supe.webp',
+        'assets/img/destinations/ica/huacachina-desert-oasis.webp'
+      ]
+    },
+    {
+      key: 'DESTINATIONS.ANDES',
+      title: 'DESTINATIONS.ANDES.TITLE',
+      description: 'DESTINATIONS.ANDES.DESCRIPTION',
+      list: 'DESTINATIONS.ANDES.LIST',
+      alt: 'Imagen de los Andes',
+      reverse:false,
+      images: [
+        'assets/img/destinations/cusco/machu-picchu-overlook-view.webp',
+        'assets/img/destinations/puno/lake-titicaca-natural-landscape.webp'
+      ]
+    },
+    {
+      key: 'DESTINATIONS.AMAZON',
+      title: 'DESTINATIONS.AMAZON.TITLE',
+      description: 'DESTINATIONS.AMAZON.DESCRIPTION',
+      list: 'DESTINATIONS.AMAZON.LIST',
+      alt: 'Imagen de la selva',
+      reverse:true,
+      images: [
+        'assets/img/destinations/puerto-maldonado/abiseo-river-national-park.webp',
+        'assets/img/destinations/puerto-maldonado/iquitos-amazing-jungle.webp'
+      ]
+    }
+  ];
 
-  destinations=[
-    {name:'DISCOVER.COAST',image:'assets/img/destinations/ica/huacachina-desert-oasis.webp', link:'coast'},
-    {name:'EXPLORE.ANDES',image:'assets/img/destinations/cusco/machu-picchu-overlook-view.webp', link:'andes'},
-    {name:'DISCOVER.JUNGLE',image:'assets/img/destinations/puerto-maldonado/abiseo-river-national-park.webp', link:'jungle'},
-  ]
 
-  destinations_2=[
-    {name:'EXPLORE.MACHU_PICCHU',image:'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp', link:'andes/cusco'},
-    {name:'DISCOVER.JUNGLE',image:'assets/img/destinations/puerto-maldonado/abiseo-river-national-park.webp', link:'jungle'},
-  ]
+
 
   /*destinations = [
     { name: 'Cusco', image: 'assets/img/destinations/cusco/machu-picchu-inca-view.webp', link: '/destination/cusco/packages' },
