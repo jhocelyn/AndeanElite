@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ssr": "ng build && ng run Andeanelite:server",
+    "serve:ssr": "node dist/andeanelite/server/main.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:Andeanelite": "node dist/andeanelite/server/server.mjs"

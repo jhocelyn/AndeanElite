@@ -42,13 +42,13 @@
           <!-- Columna izquierda -->
           <div class="w-[40%] font-semibold">
             <a (click)="openStyleMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <h3>{{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</h3><span>></span>
+              <a>{{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</a><span>></span>
             </a>
             <a (click)="openTravelByMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <h3>{{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</h3><span>></span>
+              <a>{{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</a><span>></span>
             </a>
             <a (click)="openPeruMenu()" class="flex justify-between items-center p-5 hover:bg-gray-100">
-              <h3>{{ 'NAVBAR.WAYS.PERU.TITLE'|translate }}</h3><span>></span>
+              <a>{{ 'NAVBAR.WAYS.PERU.TITLE'|translate }}</a><span>></span>
             </a>
           </div>
 
@@ -57,16 +57,16 @@
             <!-- Estilos de viaje -->
             <ng-container *ngIf="isStyleOpen">
               <div [routerLink]="['/ways-to-travel/styles']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">
-                <h3>
-                {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</h3>
+                <a>
+                {{ 'NAVBAR.WAYS.STYLES.TITLE' | translate }}</a>
               </div>
               <ng-container *ngFor="let style of ['deluxe', 'comfort', 'super-deals']">
                 <a
                   [routerLink]="['/ways-to-travel/styles', style]"
                   (click)="closeAllMenus()"
                   class="block px-4 py-2 hover:bg-gray-100"
-                ><h4>
-                  {{ ('NAVBAR.WAYS.STYLES.' + style.toUpperCase().replace('-', '')) | translate }}</h4>
+                ><a>
+                  {{ ('NAVBAR.WAYS.STYLES.' + style.toUpperCase().replace('-', '')) | translate }}</a>
                 </a>
               </ng-container>
             </ng-container>
@@ -74,7 +74,7 @@
             <!-- Intereses -->
             <ng-container *ngIf="isTravelByInterestOpen">
               <div [routerLink]="['/ways-to-travel/travel-by-interest']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2">
-                <h3> {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</h3>
+                <a> {{ 'NAVBAR.WAYS.TRAVEL.TITLE' | translate }}</a>
               </div>
               <div class="flex gap-5">
                 <div class="flex-1">
@@ -84,9 +84,9 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      <h4>
+                      <a>
                       {{ ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase()) | translate }}
-                      </h4>
+                      </a>
                     </a>
                   </ng-container>
                 </div>
@@ -97,9 +97,9 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      <h4>
+                      <a>
                       {{ item === 'mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + item.toUpperCase()) | translate }}
-                      </h4>
+                      </a>
                     </a>
                   </ng-container>
                 </div>
@@ -108,7 +108,7 @@
 
             <!-- Perú -->
             <ng-container *ngIf="isPeruOpen">
-              <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2"><h3>{{'NAVBAR.WAYS.PERU.TITLE'|translate}}</h3></div>
+              <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2"><a>{{'NAVBAR.WAYS.PERU.TITLE'|translate}}</a></div>
               <div class="flex gap-5">
                 <div class="flex-1">
                   <ng-container *ngFor="let item of ['Cusco', 'Puerto Maldonado', 'Puno', 'Arequipa']">
@@ -117,7 +117,7 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      <h4>{{item}}</h4>
+                      <a>{{item}}</a>
                     </a>
                   </ng-container>
                 </div>
@@ -128,7 +128,7 @@
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
-                      <h4>{{item}}</h4>
+                      <a>{{item}}</a>
 
                     </a>
                   </ng-container>
@@ -143,10 +143,10 @@
 
       <!-- ABOUT US -->
       <li class="nav-item relative">
-      <h2 (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+      <a (click)="toggleAboutUsMenu()" class="cursor-pointer relative flex items-center hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
         {{ 'NAVBAR.ABOUT_US.TITLE' | translate }}
         <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform" [ngClass]="{ 'rotate-180': isAboutUsOpen }"></i>
-      </h2>
+      </a>
 
         <div
           *ngIf="isAboutUsOpen"
@@ -158,7 +158,7 @@
             (click)="closeAllMenus()"
             class="block p-5 hover:bg-gray-100"
           >
-            <h3>{{ 'NAVBAR.ABOUT_US.OUR_PURPOSE' | translate }}</h3>
+            <a>{{ 'NAVBAR.ABOUT_US.OUR_PURPOSE' | translate }}</a>
           </a>
           <ng-container *ngFor="let section of ['OURTEAM', 'LICENSE']">
             <a
@@ -167,7 +167,7 @@
               (click)="closeAllMenus()"
               class="block p-5 hover:bg-gray-100"
             >
-              <h3>{{ 'NAVBAR.ABOUT_US.' + section | translate }}</h3>
+              <a>{{ 'NAVBAR.ABOUT_US.' + section | translate }}</a>
             </a>
           </ng-container>
 
@@ -176,16 +176,16 @@
 
       <!-- CONTACT -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
-    <h2 [routerLink]="['/contact-us']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+    <a [routerLink]="['/contact-us']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
       {{ 'NAVBAR.CONTACT_US' | translate }}
-    </h2>
+    </a>
       </li>
 
       <!-- BLOG -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
-    <h2 [routerLink]="['/blog']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
+    <a [routerLink]="['/blog']" (click)="closeAllMenus()" class="relative cursor-pointer hover:after:w-full after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300">
       Blog
-    </h2>
+    </a>
       </li>
     </ul>
 
@@ -238,7 +238,7 @@
 
     <!-- WAYS TO TRAVEL -->
     <div *ngIf="activeSubMenu === 'ways'">
-      <h2 [routerLink]="['/ways-to-travel']" (click)="closeAllMenus()" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</h2>
+      <a [routerLink]="['/ways-to-travel']" (click)="closeAllMenus()" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</a>
       <div (click)="openSubSubMenu('styles')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</div>
       <div (click)="openSubSubMenu('travel')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</div>
       <div (click)="openSubSubMenu('peru')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.PERU.TITLE" | translate }}</div>
@@ -246,7 +246,7 @@
 
     <!-- ABOUT US -->
     <div *ngIf="activeSubMenu === 'about-us'">
-      <h2 (click)="closeAllMenus()" [routerLink]="['/about-us']" class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</h2>
+      <a (click)="closeAllMenus()" [routerLink]="['/about-us']" class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/our-purpose'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OUR_PURPOSE" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'our-team'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'license'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.LICENSE" | translate }}</a>
@@ -264,7 +264,7 @@
     </button>
 
     <div *ngIf="activeSubSubMenu === 'styles'">
-      <h2 (click)="closeAllMenus()" [routerLink]="['ways-to-travel/styles']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</h2>
+      <a (click)="closeAllMenus()" [routerLink]="['ways-to-travel/styles']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</a>
       <a [routerLink]="['/ways-to-travel/styles/premium']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PREMIUM" | translate }}</a>
       <a [routerLink]="['/ways-to-travel/styles/deluxe']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.DELUXE" | translate }}</a>
       <a [routerLink]="['/ways-to-travel/styles/comfort']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.COMFORT" | translate }}</a>
@@ -273,7 +273,7 @@
     </div>
 
     <div *ngIf="activeSubSubMenu === 'travel'">
-      <h2 (click)="closeAllMenus()" [routerLink]="['ways-to-travel/travel-by-interest']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</h2>
+      <a (click)="closeAllMenus()" [routerLink]="['ways-to-travel/travel-by-interest']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</a>
       <a [routerLink]="['ways-to-travel/travel-by-interest/circuits']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CIRCUITS" | translate }}</a>
       <a [routerLink]="['ways-to-travel/travel-by-interest/extensions']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.EXTENSIONS" | translate }}</a>
       <a [routerLink]="['ways-to-travel/travel-by-interest/trekking']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.TREKKING" | translate }}</a>
