@@ -119,6 +119,9 @@ export class LayoutComponent implements OnInit{
     if (isPlatformBrowser(this.platformId)) {
       AOS.init();
     }
+    this.translate.get('HOME_TESTIMONIALS.TESTIMONIALS.LIST').subscribe((data) => {
+      this.testimonials = data;
+    });
 
     this.translate.onLangChange.subscribe(() => {
       this.loadWhyItems(); // <- ⚠️ Añade esta línea para recargar los textos traducidos
@@ -150,37 +153,7 @@ export class LayoutComponent implements OnInit{
   }
 
   //TESTIMONIOS
-  testimonials = [
-    {
-      text: `Mi primera vez en Sudamérica y qué mejor manera que con Andean Elite.
-             Me enamoré perdidamente de Perú: la gastronomía en Lima, la majestuosidad de Machu Picchu,
-             la calidez de la gente de Cusco. Cada momento fue mágico. Ya estoy planeando regresar para
-             conocer la Amazonía.`,
-      name: 'Laura Mitchell',
-      stars: 5,
-      location: 'Toronto, Canadá',
-      date: 'Agosto 2024',
-      tripType: 'Hecho a la medida - Aniversario de bodas'
-    },
-    {
-      text: `Viajé sola y me sentí acompañada todo el tiempo.
-             Desde el primer contacto, el equipo fue atento y cálido.
-             Machu Picchu fue un sueño, pero lo que más me impactó fue la comunidad de Uros.`,
-      name: 'Sofía González',
-      stars: 5,
-      location: 'Barcelona, España',
-      date: 'Julio 2024',
-      tripType: 'Viaje cultural - Experiencia local'
-    },
-    {
-      text: `Viajamos con nuestros hijos adolescentes y todo estuvo perfectamente balanceado:
-             aventura, cultura y tiempo libre. El Valle Sagrado fue mágico y nuestros guías eran increíbles.`,
-      name: 'Robert & Emily Harris',
-      stars: 4,
-      location: 'San Diego, EE.UU.',
-      date: 'Junio 2024',
-      tripType: 'Familiar - Vacaciones escolares'
-    }
+  testimonials :any[]= [
   ];
 
   currentIndex = 0;
@@ -190,7 +163,7 @@ export class LayoutComponent implements OnInit{
   }
 
   get starsArray() {
-    return Array(this.currentTestimonial.stars);
+    return Array(parseInt(this.currentTestimonial?.STARS));
   }
 
   prevTestimonial() {

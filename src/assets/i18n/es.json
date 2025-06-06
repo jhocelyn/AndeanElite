@@ -69,8 +69,34 @@
   "HOME_TESTIMONIALS": {
   "TESTIMONIALS": {
     "TITLE": "Lo Que Dicen Nuestros Viajeros",
-    "SUBTITLE": "Experiencias reales de quienes han vivido la magia de los Andes con nosotros"
-    },
+    "SUBTITLE": "Experiencias reales de quienes han vivido la magia de los Andes con nosotros",
+    "LIST": [
+      {
+        "TEXT": "Mi primera vez en Sudamérica y qué mejor manera que con Andean Elite. Me enamoré perdidamente de Perú: la gastronomía en Lima, la majestuosidad de Machu Picchu, la calidez de la gente de Cusco. Cada momento fue mágico. Ya estoy planeando regresar para conocer la Amazonía.",
+        "NAME": "Laura Mitchell",
+        "STARS": "5",
+        "LOCATION": "Toronto, Canadá",
+        "DATE": "Agosto 2024",
+        "TRIP_TYPE": "Hecho a la medida - Aniversario de bodas"
+      },
+      {
+        "TEXT": "Viajé sola y me sentí acompañada todo el tiempo. Desde el primer contacto, el equipo fue atento y cálido. Machu Picchu fue un sueño, pero lo que más me impactó fue la comunidad de Uros.",
+        "NAME": "Sofía González",
+        "STARS": "5",
+        "LOCATION": "Barcelona, España",
+        "DATE": "Julio 2024",
+        "TRIP_TYPE": "Viaje cultural - Experiencia local"
+      },
+      {
+        "TEXT": "Viajamos con nuestros hijos adolescentes y todo estuvo perfectamente balanceado: aventura, cultura y tiempo libre. El Valle Sagrado fue mágico y nuestros guías eran increíbles.",
+        "NAME": "Robert & Emily Harris",
+        "STARS": "4",
+        "LOCATION": "San Diego, EE.UU.",
+        "DATE": "Junio 2024",
+        "TRIP_TYPE": "Familiar - Vacaciones escolares"
+      }
+    ]
+  },
 
     "READY": "¿Listo para tu Próxima Aventura?",
     "DESCRIPTION": "Únete a cientos de viajeros que han confiado en nosotros para crear recuerdos inolvidables",

@@ -250,8 +250,8 @@
   </div>
 
 
-  <!-- Testimonials Section -->
-  <div class="bg-white p-10  text-center">
+  <!-- Sección de Testimonios -->
+  <div class="bg-white p-10 text-center">
     <h2 class="text-3xl md:text-5xl font-bold text-[#042A4E] mb-4">
       {{ 'HOME_TESTIMONIALS.TESTIMONIALS.TITLE' | translate }}
     </h2>
@@ -260,22 +260,22 @@
     </p>
 
     <!-- Testimonio actual -->
-    <div class="max-w-3xl mx-auto  p-8 relative text-[#042A4E]">
-      <div class="font-semibold text-xl">{{ currentTestimonial.name }}</div>
+    <div class="max-w-3xl mx-auto p-8 relative text-[#042A4E]" *ngIf="currentTestimonial">
+      <div class="font-semibold text-xl">{{ currentTestimonial.NAME }}</div>
       <div class="text-yellow-400 text-lg">
         <span *ngFor="let star of starsArray">★</span>
       </div>
       <div class="text-sm text-gray-600">
-        {{ currentTestimonial.location }} – {{ currentTestimonial.date }}
+        {{ currentTestimonial.LOCATION }} – {{ currentTestimonial.DATE }}
       </div>
       <div class="text-sm text-gray-500 italic mb-4">
-        {{ currentTestimonial.tripType }}
+        {{ currentTestimonial.TRIP_TYPE }}
       </div>
       <p class="text-lg italic text-gray-800">
-        “{{ currentTestimonial.text }}”
+        “{{ currentTestimonial.TEXT }}”
       </p>
 
-      <!-- Botones de navegación -->
+      <!-- Botones -->
       <div class="absolute inset-y-0 left-[-10px] md:left-[-40px] flex items-center">
         <button (click)="prevTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">‹</button>
       </div>

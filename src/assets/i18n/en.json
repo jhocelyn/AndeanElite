@@ -34,11 +34,38 @@
   "HOME_TESTIMONIALS": {
     "TESTIMONIALS": {
       "TITLE": "What Customers Said",
-      "SUBTITLE": "Experiences that inspire us to keep creating unforgettable journeys."
+      "SUBTITLE": "Experiences that inspire us to keep creating unforgettable journeys.",
+      "LIST": [
+        {
+          "TEXT": "My first time in South America, and what better way to experience it than with Andean Elite. I fell madly in love with Peru: the cuisine in Lima, the majesty of Machu Picchu, the warmth of the people in Cusco. Every moment was magical. I'm already planning to return to explore the Amazon.",
+          "NAME": "Laura Mitchell",
+          "STARS": "5",
+          "LOCATION": "Toronto, Canada",
+          "DATE": "August 2024",
+          "TRIP_TYPE": "Tailor-made - Wedding anniversary"
+        },
+        {
+          "TEXT": "I traveled alone and felt accompanied the entire time. From the first contact, the team was attentive and warm. Machu Picchu was a dream, but what impacted me the most was the Uros community.",
+          "NAME": "Sofía González",
+          "STARS": "5",
+          "LOCATION": "Barcelona, Spain",
+          "DATE": "July 2024",
+          "TRIP_TYPE": "Cultural trip - Local experience"
+        },
+        {
+          "TEXT": "We traveled with our teenage children, and everything was perfectly balanced: adventure, culture, and free time. The Sacred Valley was magical, and our guides were amazing.",
+          "NAME": "Robert & Emily Harris",
+          "STARS": "4",
+          "LOCATION": "San Diego, USA",
+          "DATE": "June 2024",
+          "TRIP_TYPE": "Family trip - School vacation"
+        }
+      ]
     },
     "READY": "Ready to experience Peru like never before?",
     "DESCRIPTION": "Join to our community of travelers and discover the magic of Peru with Andean Elite.",
     "PLAN": "Plan Your Trip Here!"
+
   },
   "HOME_PURPOSE": {
     "TITLE": "Responsible tourism with social impact",
