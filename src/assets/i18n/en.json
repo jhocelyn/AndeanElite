@@ -5226,6 +5226,10 @@
     "blog": {
       "title": "Blog - Andean Elite",
       "description": "Read our latest articles, travel tips, and stories from our adventures in Peru."
+    },
+    "book-claims": {
+      "title": "Book Claims - Andean Elite",
+      "description": "Learn about our booking policies, claims process, and how we ensure your satisfaction."
     }
   }
 

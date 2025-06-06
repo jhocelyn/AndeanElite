@@ -161,18 +161,18 @@ export class BookClaimsComponent implements OnInit{
   }
 
   private setTranslatedMeta() {
-    this.translate.get(['meta.ways-to-travel.title', 'meta.ways-to-travel.description']).subscribe(translations => {
-      this.title.setTitle(translations['meta.ways-to-travel.title']);
+    this.translate.get(['meta.book-claims.title', 'meta.book-claims.description']).subscribe(translations => {
+      this.title.setTitle(translations['meta.book-claims.title']);
 
       this.meta.updateTag({
         name: 'description',
-        content: translations['meta.ways-to-travel.description']
+        content: translations['meta.book-claims.description']
       });
 
       // Canonical puede mantenerse fijo si no cambia según idioma
       this.meta.updateTag({
         rel: 'canonical',
-        href: 'https://andeanelite.com/ways-to-travel'
+        href: 'https://andeanelite.com/book-claims'
       });
     });
   }

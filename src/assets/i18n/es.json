@@ -5069,6 +5069,10 @@
     "blog": {
       "title": "Blog - Andean Elite",
       "description": "Lee nuestros últimos artículos, consejos de viaje e historias de nuestras aventuras en Perú."
+    },
+    "book-claims": {
+      "title": "Reservas y Reclamaciones - Andean Elite",
+      "description": "Realiza tu reserva o presenta una reclamación de manera fácil y rápida."
     }
 
   }

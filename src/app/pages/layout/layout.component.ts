@@ -214,18 +214,18 @@ export class LayoutComponent implements OnInit{
       });
   }
   private setTranslatedMeta() {
-    this.translate.get(['meta.ways-to-travel.title', 'meta.ways-to-travel.description']).subscribe(translations => {
-      this.title.setTitle(translations['meta.ways-to-travel.title']);
+    this.translate.get(['meta.home.title', 'meta.home.description']).subscribe(translations => {
+      this.title.setTitle(translations['meta.home.title']);
 
       this.meta.updateTag({
         name: 'description',
-        content: translations['meta.ways-to-travel.description']
+        content: translations['meta.home.description']
       });
 
       // Canonical puede mantenerse fijo si no cambia según idioma
       this.meta.updateTag({
         rel: 'canonical',
-        href: 'https://andeanelite.com/ways-to-travel'
+        href: 'https://andeanelite.com/'
       });
     });
   }
