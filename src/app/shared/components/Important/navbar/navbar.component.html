@@ -15,7 +15,7 @@
       <!-- HOME -->
       <li class="nav-item transition-colors duration-500 animate-slideDown">
     <h2
-      [routerLink]="['/home']"
+      [routerLink]="['/']"
       (click)="closeAllMenus()"
       class="relative cursor-pointer after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
     >
@@ -211,7 +211,7 @@
     <button class="text-white text-2xl mb-4 self-end" (click)="toggleMenu()">
       <i class="fa-solid fa-xmark"></i>
     </button>
-    <a [routerLink]="['/home']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ 'NAVBAR.HOME' | translate }}</a>
+    <a [routerLink]="['/']" class="text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ 'NAVBAR.HOME' | translate }}</a>
     <div class="flex items-center justify-between text-white py-2 border-b border-white cursor-pointer" (click)="openSubMenu('ways')">
       {{ 'NAVBAR.WAYS.TITLE' | translate }} <span>></span>
     </div>

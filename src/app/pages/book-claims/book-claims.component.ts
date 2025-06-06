@@ -1,10 +1,11 @@
 import {Component, Inject, OnInit, PLATFORM_ID} from '@angular/core';
-import {TranslatePipe} from '@ngx-translate/core';
+import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {BannerComponent} from '../../shared/components/general/banner/banner.component';
 import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
 import {isPlatformBrowser, NgIf} from '@angular/common';
 import {NgxCaptchaModule} from 'ngx-captcha';
 import {Router} from '@angular/router';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-book-claims',
@@ -24,7 +25,7 @@ export class BookClaimsComponent implements OnInit{
   reclamationForm!: FormGroup;
   isBrowser = false;
   showSuccessModal = false;
-  constructor(private fb: FormBuilder, @Inject(PLATFORM_ID) private platformId: Object, private router: Router) {
+  constructor(private fb: FormBuilder, @Inject(PLATFORM_ID) private platformId: Object, private title:Title, private meta:Meta, private router: Router, private translate:TranslateService) {
     this.isBrowser = isPlatformBrowser(platformId);
   }
   site_key:string='6LdRCh4rAAAAANhdQqrPuYoSXDcdED9Y9GQwtlmo'
@@ -67,6 +68,13 @@ export class BookClaimsComponent implements OnInit{
     });
 
     this.handleMinorFieldValidation();
+
+    this.setTranslatedMeta();
+
+    // Se actualiza automáticamente al cambiar idioma
+    this.translate.onLangChange.subscribe(() => {
+      this.setTranslatedMeta();
+    });
   }
 
 
@@ -151,4 +159,23 @@ export class BookClaimsComponent implements OnInit{
     this.showSuccessModal = false;
     this.router.navigate(['/']);
   }
+
+  private setTranslatedMeta() {
+    this.translate.get(['meta.ways-to-travel.title', 'meta.ways-to-travel.description']).subscribe(translations => {
+      this.title.setTitle(translations['meta.ways-to-travel.title']);
+
+      this.meta.updateTag({
+        name: 'description',
+        content: translations['meta.ways-to-travel.description']
+      });
+
+      // Canonical puede mantenerse fijo si no cambia según idioma
+      this.meta.updateTag({
+        rel: 'canonical',
+        href: 'https://andeanelite.com/ways-to-travel'
+      });
+    });
+  }
+
 }
+

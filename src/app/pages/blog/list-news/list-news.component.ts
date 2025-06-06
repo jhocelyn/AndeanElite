@@ -9,6 +9,7 @@ import {NewCardComponent} from '../../../shared/components/general/new-card/new-
 import {Subscription} from 'rxjs';
 import {NewsItem} from '../../../shared/models/NewsItem.model';
 import {FilterSidebarComponent} from '../../../shared/components/Important/filter-sidebar/filter-sidebar.component';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-list-news',
@@ -36,7 +37,8 @@ export class ListNewsComponent implements OnInit, OnDestroy {
 
   private langSubscription?: Subscription;
 
-  constructor(private newsService: newService, private translate: TranslateService) {}
+  constructor(private newsService: newService, private translate: TranslateService, private title: Title,
+              private meta: Meta) {}
 
   ngOnInit(): void {
     this.loadNewsData();
@@ -44,6 +46,13 @@ export class ListNewsComponent implements OnInit, OnDestroy {
     // Suscripción a cambio de idioma
     this.langSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.loadNewsData();
+    });
+
+    this.setTranslatedMeta();
+
+    // Se actualiza automáticamente al cambiar idioma
+    this.translate.onLangChange.subscribe(() => {
+      this.setTranslatedMeta();
     });
   }
 
@@ -89,5 +98,22 @@ export class ListNewsComponent implements OnInit, OnDestroy {
     if (this.langSubscription) {
       this.langSubscription.unsubscribe();
     }
+  }
+
+  private setTranslatedMeta() {
+    this.translate.get(['meta.blog.title', 'meta.blog.description']).subscribe(translations => {
+      this.title.setTitle(translations['meta.blog.title']);
+
+      this.meta.updateTag({
+        name: 'description',
+        content: translations['meta.blog.description']
+      });
+
+      // Canonical puede mantenerse fijo si no cambia según idioma
+      this.meta.updateTag({
+        rel: 'canonical',
+        href: 'https://andeanelite.com/blog'
+      });
+    });
   }
 }

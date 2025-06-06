@@ -6,6 +6,7 @@ import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {Router, RouterLink} from '@angular/router';
 import {HttpClient} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-layout',
@@ -89,7 +90,9 @@ export class LayoutComponent implements OnInit{
     @Inject(PLATFORM_ID) private platformId: Object,
     private translate: TranslateService,
     private router:Router,
-    private http: HttpClient
+    private http: HttpClient,
+    private title: Title,
+    private meta: Meta
   ) {
     if (isPlatformBrowser(this.platformId)) {
       AOS.init();
@@ -100,6 +103,7 @@ export class LayoutComponent implements OnInit{
     this.translate.onLangChange.subscribe(() => {
       this.loadWhyItems();
     });
+
   }
   scrolled = false;
   @HostListener('window:scroll', [])
@@ -125,6 +129,12 @@ export class LayoutComponent implements OnInit{
 
     this.translate.onLangChange.subscribe(() => {
       this.loadWhyItems(); // <- ⚠️ Añade esta línea para recargar los textos traducidos
+    });
+    this.setTranslatedMeta();
+
+    // Se actualiza automáticamente al cambiar idioma
+    this.translate.onLangChange.subscribe(() => {
+      this.setTranslatedMeta();
     });
   }
 
@@ -202,6 +212,22 @@ export class LayoutComponent implements OnInit{
         console.error('Error al enviar los datos:', error);
         alert('❌ Ocurrió un error al enviar el formulario.');
       });
+  }
+  private setTranslatedMeta() {
+    this.translate.get(['meta.ways-to-travel.title', 'meta.ways-to-travel.description']).subscribe(translations => {
+      this.title.setTitle(translations['meta.ways-to-travel.title']);
+
+      this.meta.updateTag({
+        name: 'description',
+        content: translations['meta.ways-to-travel.description']
+      });
+
+      // Canonical puede mantenerse fijo si no cambia según idioma
+      this.meta.updateTag({
+        rel: 'canonical',
+        href: 'https://andeanelite.com/ways-to-travel'
+      });
+    });
   }
 
 
