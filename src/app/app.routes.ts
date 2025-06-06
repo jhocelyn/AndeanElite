@@ -7,8 +7,7 @@ import {BookClaimsComponent} from './pages/book-claims/book-claims.component';
 import {OurPurposeComponent} from './pages/our-purpose/our-purpose.component';
 
 export const routes: Routes = [
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path:'home', component: LayoutComponent},
+  {path:'', component: LayoutComponent},
   {path:'about-us',component:AboutUsComponent},
   {path:'contact-us',component:ContactUsComponent},
   {path:'destinations',component:DestinationsComponent},
