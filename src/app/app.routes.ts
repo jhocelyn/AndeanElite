@@ -7,7 +7,8 @@ import {BookClaimsComponent} from './pages/book-claims/book-claims.component';
 import {OurPurposeComponent} from './pages/our-purpose/our-purpose.component';
 
 export const routes: Routes = [
-  {path:'', component: LayoutComponent},
+  {path:'',redirectTo:'home', pathMatch:'full'},
+  {path:'home', component: LayoutComponent},
   {path:'about-us',component:AboutUsComponent},
   {path:'contact-us',component:ContactUsComponent},
   {path:'destinations',component:DestinationsComponent},
@@ -15,5 +16,6 @@ export const routes: Routes = [
   {path:'ways-to-travel',loadChildren:()=>import('./pages/ways-to-travel/ways-to-travel.routes').then(m=>m.waysToTravelRoutes)},
   {path:'book-claims', component:BookClaimsComponent},
   {path:'blog', loadChildren:()=>import('./pages/blog/blog.routes').then(m=>m.blogRoutes)},
-  {path:'our-purpose', component:OurPurposeComponent}
+  {path:'our-purpose', component:OurPurposeComponent},
+  {path:'**',redirectTo:'home', pathMatch:'full'}
 ];
