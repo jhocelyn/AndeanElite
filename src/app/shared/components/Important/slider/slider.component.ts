@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID ,AfterViewInit} from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { NgForOf } from '@angular/common';
 import {LazyLoadImageModule} from 'ng-lazyload-image';
@@ -10,12 +10,25 @@ import {LazyLoadImageModule} from 'ng-lazyload-image';
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.css']
 })
-export class SliderComponent implements OnInit {
-  images: string[] = [
-    'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp',
-    'assets/img/destinations/cusco/seven-colors-mountain-peru1.webp',
-    'assets/img/home/hike-in-peru-2023-11-27-05-01-51-utc.webp',
-    'assets/img/home/banner/Moray.jpg',
+export class SliderComponent implements OnInit, AfterViewInit {
+  images= [
+    {src:'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak.webp',
+    placeholder: 'assets/img/destinations/cusco/machu-picchu-huayna-picchu-peak-tiny.webp',
+    preload: true,
+    loaded: false},
+    {
+      src:'assets/img/destinations/cusco/seven-colors-mountain-peru.webp',
+      placeholder: 'assets/img/destinations/cusco/seven-colors-mountain-peru-tiny.webp',
+      preload: true,
+    loaded: false},
+    {src:'assets/img/home/hike-in-peru.webp',
+    placeholder: 'assets/img/home/hike-in-peru-tiny.webp',
+    preload: true,
+    loaded: false},
+    {src:'assets/img/home/banner/Moray.jpg',
+    placeholder: 'assets/img/home/banner/Moray.jpg',
+    preload: true,
+    loaded: false},
   ];
   currentImageIndex: number = 0;
 
@@ -35,5 +48,16 @@ export class SliderComponent implements OnInit {
 
   goToImage(index: number): void {
     this.currentImageIndex = index;
+  }
+
+  ngAfterViewInit() {
+    if (isPlatformBrowser(this.platformId)) {
+      // Carga agresiva de la primera imagen
+      const img = new Image();
+      img.src = this.images[0].src;
+      img.onload = () => {
+        this.images[0].loaded = true;
+      };
+    }
   }
 }

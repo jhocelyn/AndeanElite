@@ -1,18 +1,30 @@
 <div class="relative h-[60vh] md:h-[90vh] bg-cover bg-center overflow-hidden">
-  <div
-    *ngFor="let image of images; let i = index"
-    class="absolute inset-0 h-full w-full transition-opacity duration-1000"
-    [class.opacity-0]="i !== currentImageIndex"
-    [class.opacity-100]="i === currentImageIndex"
-  >
+  <!-- Primera imagen (carga prioritaria) -->
+  <div class="absolute inset-0 h-full w-full">
     <img
-      [defaultImage]="'assets/img/loading-placeholder.webp'"
-      [errorImage]="'assets/img/error-placeholder.webp'"
-      [lazyLoad]="image"
+      [src]="images[0].loaded ? images[0].src : images[0].placeholder"
       class="h-full w-full object-cover object-[50%_35%]"
       alt="Slider Image"
+      #firstImage
+      fetchpriority="high"
     />
-    </div>
+  </div>
+
+  <!-- Resto de imágenes (lazy load) -->
+  <div *ngFor="let image of images.slice(1); let i = index"
+       class="absolute inset-0 h-full w-full transition-opacity duration-1000"
+       [class.opacity-0]="(i+1) !== currentImageIndex"
+       [class.opacity-100]="(i+1) === currentImageIndex">
+    <img
+      [defaultImage]="image.placeholder"
+      [lazyLoad]="image.src"
+      class="h-full w-full object-cover object-[50%_35%]"
+      alt="Slider Image"
+      loading="lazy"
+    />
+  </div>
+
+
   <div class="absolute inset-0 bg-black opacity-5"></div>
   <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex gap-2 z-4">
     <button
