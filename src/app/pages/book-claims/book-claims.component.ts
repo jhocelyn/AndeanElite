@@ -70,6 +70,12 @@ export class BookClaimsComponent implements OnInit{
       recaptcha: ['', Validators.required],
     });
 
+    this.reclamationForm.get('terms')?.valueChanges.subscribe((termsAccepted: boolean) => {
+      if (termsAccepted && this.isBrowser && !this.recaptchaLoaded) {
+        this.loadRecaptcha();
+      }
+    });
+
     this.handleMinorFieldValidation();
 
     this.setTranslatedMeta();
