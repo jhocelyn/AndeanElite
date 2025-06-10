@@ -1,4 +1,4 @@
-import {Component, Inject, OnInit, PLATFORM_ID} from '@angular/core';
+import {Component, ElementRef, Inject, OnInit, PLATFORM_ID, ViewChild} from '@angular/core';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {BannerComponent} from '../../shared/components/general/banner/banner.component';
 import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
@@ -22,6 +22,9 @@ import {Meta, Title} from '@angular/platform-browser';
   styleUrl: './book-claims.component.css'
 })
 export class BookClaimsComponent implements OnInit{
+  @ViewChild('captchaContainer') captchaContainer!: ElementRef;
+  recaptchaLoaded = false;
+
   reclamationForm!: FormGroup;
   isBrowser = false;
   showSuccessModal = false;
@@ -175,6 +178,21 @@ export class BookClaimsComponent implements OnInit{
         href: 'https://andeanelite.com/book-claims'
       });
     });
+  }
+
+  loadRecaptcha() {
+    if (this.recaptchaLoaded) return;
+
+    // Carga el script dinámicamente
+    const script = document.createElement('script');
+    script.src = 'https://www.google.com/recaptcha/api.js?render=explicit';
+    script.async = true;
+    script.defer = true;
+    script.onload = () => {
+      this.recaptchaLoaded = true;
+      // Aquí puedes inicializar el captcha si es necesario
+    };
+    document.head.appendChild(script);
   }
 
 }

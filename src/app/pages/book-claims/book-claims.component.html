@@ -187,12 +187,14 @@
     <input type="checkbox" id="terms" formControlName="terms" class="w-1/4" />
     <label class="w-3/4" for="terms">{{'BOOK_CLAIMS.TERMS'|translate}}<a href="/terminos-y-condiciones" class="text-blue-600 underline" target="_blank">{{'BOOK_CLAIMS.TERMS_LINK'|translate}}</a></label>
   </div>
-  <!-- Botón con reCAPTCHA -->
-  <ngx-recaptcha2 *ngIf="isBrowser"
-                  #captchaElem
-                  [siteKey]="site_key"
-                  formControlName="recaptcha">
-  </ngx-recaptcha2>
+
+  <div #captchaContainer>
+    <ngx-recaptcha2 *ngIf="recaptchaLoaded && isBrowser"
+                    #captchaElem
+                    [siteKey]="site_key"
+                    formControlName="recaptcha">
+    </ngx-recaptcha2>
+  </div>
 
   <!-- Botón ENVIAR -->
   <div class="text-right">
