@@ -8,4 +8,5 @@ export interface NewsItem {
   text?: string;
   summary?: string; // Agregado para mostrar resumen en tarjeta
   context_Image?:string;
+  author?: string; // Agregado para mostrar autor en tarjeta
 }

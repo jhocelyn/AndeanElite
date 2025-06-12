@@ -33,7 +33,7 @@ export class ListNewsComponent implements OnInit, OnDestroy {
   filterCategory: string = '';
   searchTerm: string = '';
   cities: string[] = ['', 'lima', 'arequipa', 'puno', 'cusco', 'chachapoyas', 'ica', 'nazca', 'puerto-maldonado'];
-  categories: string[] = ['', 'culture', 'family', 'adventure', 'gastronomy', 'romance', 'cultural-heritage'];
+  categories: string[] = ['tourism', 'culture', 'family', 'adventure', 'gastronomy', 'romance', 'cultural-heritage'];
 
   private langSubscription?: Subscription;
 
