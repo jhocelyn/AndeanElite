@@ -25,8 +25,8 @@ export class SliderComponent implements OnInit, AfterViewInit {
     placeholder: 'assets/img/home/hike-in-peru-tiny.webp',
     preload: true,
     loaded: false},
-    {src:'assets/img/home/banner/Moray.jpg',
-    placeholder: 'assets/img/home/banner/Moray.jpg',
+    {src:'assets/img/home/banner/Moray.webp',
+    placeholder: 'assets/img/home/banner/Moray.webp',
     preload: true,
     loaded: false},
   ];
