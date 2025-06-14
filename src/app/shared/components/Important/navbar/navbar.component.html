@@ -238,7 +238,7 @@
 
     <!-- WAYS TO TRAVEL -->
     <div *ngIf="activeSubMenu === 'ways'">
-      <a [routerLink]="['/ways-to-travel']" (click)="closeAllMenus()" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</a>
+      <a [href]="'/ways-to-travel'" [routerLink]="['/ways-to-travel']" (click)="closeAllMenus()" class="cursor-pointer font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</a>
       <div (click)="openSubSubMenu('styles')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</div>
       <div (click)="openSubSubMenu('travel')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</div>
       <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.PERU.TITLE" | translate }}</div>
@@ -246,7 +246,7 @@
 
     <!-- ABOUT US -->
     <div *ngIf="activeSubMenu === 'about-us'">
-      <a (click)="closeAllMenus()" [routerLink]="['/about-us']" class="font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</a>
+      <a (click)="closeAllMenus()" [href]="'/about-us'" [routerLink]="['/about-us']" class="cursor-pointer font-semibold text-lg pb-2">{{ "NAVBAR.ABOUT_US.TITLE" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/our-purpose'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OUR_PURPOSE" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'our-team'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.OURTEAM" | translate }}</a>
       <a (click)="closeAllMenus()" [routerLink]="'/about-us'" [fragment]="'license'" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.ABOUT_US.LICENSE" | translate }}</a>
