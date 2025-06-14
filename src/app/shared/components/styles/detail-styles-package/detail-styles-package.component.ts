@@ -12,7 +12,6 @@ import {SuperDealsPackageModel} from '../../../models/SuperDealsPackage.model';
     NgForOf,
     NgIf,
     NgSwitchCase,
-    PriceTableComponent,
     TranslatePipe,
     NgSwitch,
     NgClass
