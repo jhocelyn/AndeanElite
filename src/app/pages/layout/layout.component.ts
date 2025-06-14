@@ -231,4 +231,17 @@ export class LayoutComponent implements OnInit{
   }
 
 
+  openWhatsApp(): void {
+    const lang = this.translate.currentLang;
+
+    const message =
+      lang === 'en'
+        ? 'Hi! I would like to plan my trip with Andean Elite.'
+        : 'Hola, quiero planificar mi viaje con Andean Elite.';
+
+    const phone = '51950194035';
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+    window.open(url, '_blank');
+  }
 }
