@@ -5,12 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        playfair: ['"Playfair Display"', 'serif'],
-        lato: ['Lato', 'sans-serif'],
-        open: ['"Open Sans"', 'sans-serif'],
-
-      }
     },
   },
   safelist: [
