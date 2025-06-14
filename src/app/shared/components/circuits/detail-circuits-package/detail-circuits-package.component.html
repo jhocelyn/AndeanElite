@@ -1,14 +1,17 @@
 <div *ngIf="packageData">
   <!-- Menú Fijo -->
-  <div class="bg-gray-100 p-6 rounded-2xl shadow-md sticky top-0 z-40">
-    <ul class="flex justify-between gap-4 text-gray-700">
-      <li *ngFor="let section of sections" (click)="setActiveSection(section.id)"
-          class="flex items-center gap-2 cursor-pointer"
-          [ngClass]="{'text-[#042a4e] font-semibold': activeSection === section.id}">
+  <!-- Menú Fijo Mejorado -->
+  <div class="bg-gray-100 px-4 py-4 rounded-2xl shadow-md sticky top-0 z-40">
+    <ul class="flex overflow-x-auto no-scrollbar justify-start gap-4 text-gray-700">
+      <li
+        *ngFor="let section of sections"
+        (click)="setActiveSection(section.id)"
+        class="flex-shrink-0 px-2 py-2 flex items-center gap-2 cursor-pointer min-w-fit"
+        [ngClass]="{'text-[#042a4e] font-semibold': activeSection === section.id}">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#042a4e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" [attr.d]="section.icon" />
         </svg>
-        {{ section.nameKey | translate }}
+        <span class="whitespace-nowrap">{{ section.nameKey | translate }}</span>
       </li>
     </ul>
   </div>
@@ -118,19 +121,25 @@
         <!-- Comfort Section -->
         <ng-container *ngIf="packageData.comfort?.length">
           <h3 class="text-xl font-semibold text-[#094074] mb-4">Comfort</h3>
-          <app-price-table [options]="packageData.comfort"></app-price-table>
+          <div class="w-full overflow-x-auto">
+            <app-price-table  [options]="packageData.comfort"></app-price-table>
+          </div>
         </ng-container>
 
         <!-- Deluxe Section -->
         <ng-container *ngIf="packageData.deluxe?.length">
           <h3 class="text-xl font-semibold text-[#094074] mb-4">Deluxe</h3>
-          <app-price-table [options]="packageData.deluxe"></app-price-table>
+          <div class="w-full overflow-x-auto">
+            <app-price-table [options]="packageData.deluxe"></app-price-table>
+          </div>
         </ng-container>
 
         <!-- Premium Section -->
         <ng-container *ngIf="packageData.premium?.length">
           <h3 class="text-xl font-semibold text-[#094074] mb-4">Premium</h3>
-          <app-price-table [options]="packageData.premium"></app-price-table>
+          <div class="w-full overflow-x-auto">
+            <app-price-table [options]="packageData.premium"></app-price-table>
+          </div>
         </ng-container>
       </div>
 

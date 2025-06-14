@@ -241,7 +241,7 @@
       <a [routerLink]="['/ways-to-travel']" (click)="closeAllMenus()" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.TITLE" | translate }}</a>
       <div (click)="openSubSubMenu('styles')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</div>
       <div (click)="openSubSubMenu('travel')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.TRAVEL.TITLE" | translate }}</div>
-      <div (click)="openSubSubMenu('peru')" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.PERU.TITLE" | translate }}</div>
+      <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="block text-white py-2 border-b border-white cursor-pointer">{{ "NAVBAR.WAYS.PERU.TITLE" | translate }}</div>
     </div>
 
     <!-- ABOUT US -->
@@ -285,6 +285,7 @@
       <a [routerLink]="['ways-to-travel/travel-by-interest/homestays']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.HOMESTAYS" | translate }}</a>
       <a [routerLink]="['ways-to-travel/travel-by-interest/corporate-travel']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.TRAVEL.CORPORATE" | translate }}</a>
     </div>
+
   </div>
 
 </nav>
