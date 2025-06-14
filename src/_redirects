@@ -1,0 +1,5 @@
+# Excepción para robots.txt
+/robots.txt  /robots.txt  200
+
+# Tu fallback SPA
+/*  /index.html  200
