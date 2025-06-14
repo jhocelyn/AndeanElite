@@ -69,9 +69,12 @@ export class InfoPackagesComponent implements OnInit,OnDestroy{
 
   goToWhatsApp(): void {
     if (!this.packageData) return;
-
+    const lang = this.translate.currentLang;
     const phone = '51950194035'; // reemplaza con tu número real (sin espacios ni símbolos)
-    const message = `Hola, quiero información sobre el paquete: ${this.packageData.title}`;
+    const message = lang === 'en'
+      ? `Hi! I'm interested in the travel package: ${this.packageData.title}`
+      : `Hola, quiero información sobre el paquete: ${this.packageData.title}`;
+
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
     window.open(url, '_blank');
