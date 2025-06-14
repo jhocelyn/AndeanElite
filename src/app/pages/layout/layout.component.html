@@ -16,7 +16,7 @@
 
   <!-- Styles Section -->
   <div class="bg-white px-10">
-    <div class="flex flex-col items-center my-10">
+    <div class="flex flex-col items-center mt-10 mb-2">
       <h2 class="text-3xl md:text-4xl font-semibold text-center text-[#042A4E] mb-5">
         {{ 'HOME_STYLES.CHOOSE' | translate }}
       </h2>
@@ -28,7 +28,7 @@
       </div>
       -->
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-5">
       <div
         *ngFor="let style of styles"
         class="bg-[#f9f9f9] rounded-xl shadow-md hover:shadow-xl transition-all duration-300  text-center "
@@ -64,7 +64,7 @@
       </h2>
       <h3 class="text-lg md:text-xl font-extralight text-center my-4 ">        {{ 'HOME_TRAVEL_BY.SUBTITLE' | translate }}
       </h3>
-      <p class="text-base md:text-lg font-extralight  text-center ">        {{ 'HOME_TRAVEL_BY.DESCRIPTION' | translate }}
+      <p class="text-base md:text-lg font-extralight text-center mb-4 ">        {{ 'HOME_TRAVEL_BY.DESCRIPTION' | translate }}
       </p>
       <!-- FLECHAS DE DESPLAZAMIENTO
 
@@ -79,73 +79,73 @@
 
 
 
-<div class="relative">
-<div
-  #carouselContainer
-  class="flex gap-6 overflow-x-auto scroll-smooth hide-scrollbar snap-x snap-mandatory"
->
-  <ng-container *ngFor="let interest of interests; let i = index">
-    <!-- Mostrar tarjetas normales para los primeros 3 -->
-          <div
-            *ngIf="i !== 3"
-            [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"
-            class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
-          >
-            <img
-              [src]="interest.image"
-              [alt]="interest.title"
-              class="w-full h-40 object-cover rounded-t-xl"
-            />
-            <div class="p-4 text-start">
-              <h3 class="font-semibold text-lg">
-                {{ interest.title === 'Mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + interest.title.toUpperCase()) | translate }}
-              </h3>
+    <div class="relative">
+      <div
+        #carouselContainer
+        class="flex gap-6 overflow-x-auto scroll-smooth hide-scrollbar snap-x snap-mandatory"
+      >
+        <ng-container *ngFor="let interest of interests; let i = index">
+          <!-- Mostrar tarjetas normales para los primeros 3 -->
+                <div
+                  *ngIf="i !== 3"
+                  [routerLink]="['/ways-to-travel/travel-by-interest', interest.slug]"
+                  class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white rounded-xl shadow-md flex-shrink-0 hover:shadow-xl transition-all duration-300"
+                >
+                  <img
+                    [src]="interest.image"
+                    [alt]="interest.title"
+                    class="w-full h-48 object-cover rounded-t-xl"
+                  />
+                  <div class="p-4 text-start">
+                    <h3 class="font-semibold text-lg">
+                      {{ interest.title === 'Mice' ? 'MICE' : ('NAVBAR.WAYS.TRAVEL.' + interest.title.toUpperCase()) | translate }}
+                    </h3>
+                  </div>
+                </div>
+
+                <!-- Tarjeta azul como la cuarta -->
+                <div
+                  *ngIf="i === 3"
+                  class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer "
+                  (click)="goToAllInterests()"
+                >
+                  <h3 class="text-xl font-semibold">{{ 'ALL_TRAVEL' | translate }}</h3>
+                  <p class="mt-2 text-sm opacity-80">{{ 'NAVBAR.WAYS.TRAVEL.SEE_MORE' | translate }}</p>
+                </div>
+              </ng-container>
+
+              <!-- Tarjeta final: "Ver todos" (opcional si deseas mantenerla aparte) -->
+
+              <div
+                class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex items-center justify-center text-center cursor-pointer"
+                (click)="goToAllInterests()"
+              >
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold mb-2">{{ 'NAVBAR.WAYS.TRAVEL.SEE_MORE' | translate }}</h3>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <!-- Tarjeta azul como la cuarta -->
-          <div
-            *ngIf="i === 3"
-            class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex flex-col items-center justify-center text-center p-6 cursor-pointer "
-            (click)="goToAllInterests()"
-          >
-            <h3 class="text-xl font-semibold">{{ 'ALL_TRAVEL' | translate }}</h3>
-            <p class="mt-2 text-sm opacity-80">{{ 'NAVBAR.WAYS.TRAVEL.SEE_MORE' | translate }}</p>
-          </div>
-        </ng-container>
-
-        <!-- Tarjeta final: "Ver todos" (opcional si deseas mantenerla aparte) -->
-
-        <div
-          class="min-w-[100%] max-w-[100%] md:min-w-[23.2%] md:max-w-[23.2%] bg-white text-[#042A4E] rounded-xl flex items-center justify-center text-center cursor-pointer"
-          (click)="goToAllInterests()"
-        >
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">{{ 'NAVBAR.WAYS.TRAVEL.SEE_MORE' | translate }}</h3>
-          </div>
-        </div>
-      </div>
 
       <!-- Botones de navegación -->
-      <div class="absolute bottom-[-10] right-0 flex gap-2 pr-4 pb-2">
-        <button
-          class="bg-white text-[#042A4E] w-10 h-10 rounded-full flex items-center justify-center shadow-md "
-          (click)="scrollCarousel('left')"
-        >
-          ‹
-        </button>
-        <button
-          class="bg-white text-[#042A4E] w-10 h-10 rounded-full flex items-center justify-center shadow-md "
-          (click)="scrollCarousel('right')"
-        >
-          ›
-        </button>
-      </div>
+      <div class="absolute  bottom-[-7vh] md:bottom-[-9vh] right-0 flex gap-2 pr-4 pb-2">
+            <button
+              class="bg-white text-[#042A4E] w-10 h-10 rounded-full flex items-center justify-center shadow-md "
+              (click)="scrollCarousel('left')"
+            >
+              ‹
+            </button>
+            <button
+              class="bg-white text-[#042A4E] w-10 h-10 rounded-full flex items-center justify-center shadow-md "
+              (click)="scrollCarousel('right')"
+            >
+              ›
+            </button>
+          </div>
     </div>
   </div>
 
   <!--WHY ANDEANELITE Seccion-->
-  <div class="flex flex-col bg-white text-[#042A4E] min-h-[50vh] pt-16 pb-0 px-10 md:px-[120px]">
+  <div class="flex flex-col bg-white text-[#042A4E] min-h-[50vh] pt-8 md:pt-16 pb-0 px-10 md:px-[120px]">
     <h2 class="text-4xl md:text-5xl font-semibold text-center mb-10">
       {{ 'WHYANDEANELITE.TITLE' | translate }}
     </h2>
@@ -164,13 +164,13 @@
       </div>
     </div>
 
-    <div class="mt-20">
-      <h2 class="text-xl md:text-4xl font-semibold text-center ">
+    <div class="mt-20 mb-4 md:mb-0">
+      <h2 class="text-xl md:text-4xl mb-4 md:mb-0 font-semibold text-center ">
       {{ 'HOME_CERTIFICATES.TITLE' | translate }}
     </h2>
-      <div class="grid grid-cols-1 text-sm md:grid-cols-3 gap-4 items-start text-center">
+      <div class="grid grid-cols-1 text-sm md:grid-cols-3 md:gap-4 items-start text-center">
         <!-- Certificado 1 -->
-        <div class="flex flex-col h-[40vh] justify-center items-center">
+        <div class="flex flex-col h-[24vh] md:h-[40vh]  justify-center items-center">
           <img src="../../../assets/img/certifications/Agencia-de-viajes-turismo-registrada.webp"
                alt="" class="object-contain h-[12vh] mb-8">
           <p [innerHTML]="'HOME_CERTIFICATES.AGENCY'|translate">
@@ -178,7 +178,7 @@
         </div>
 
         <!-- Certificado 2 -->
-        <div class="flex flex-col  h-[36vh] justify-center items-center">
+        <div class="flex flex-col h-[24vh]  md:h-[36vh] justify-center items-center">
           <img src="assets/img/certifications/mincetur.webp"
                alt="" class="object-contain h-[15vh] mb-4">
           <p>
@@ -187,7 +187,7 @@
         </div>
 
         <!-- Certificado 3 -->
-        <div class="flex flex-col  h-[33vh] justify-center items-center">
+        <div class="flex flex-col  h-[30vh] md:h-[33vh] justify-center items-center">
           <img src="assets/img/certifications/protegeme.webp"
                alt="" class="object-contain h-[22vh] mb-4">
           <p [innerHTML]="'HOME_CERTIFICATES.PROTEGEME'|translate">
