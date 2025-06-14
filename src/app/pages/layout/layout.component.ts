@@ -29,13 +29,13 @@ export class LayoutComponent implements OnInit{
     { slug:'circuits', title: 'Circuits', image: '/assets/img/ways-to-travel/travel-by-interest/circuits/circuits-peru.webp' },
     { slug:'extensions', title: 'Extensions', image: '/assets/img/ways-to-travel/travel-by-interest/extensions/extensions-peru.webp' },
     { slug:'trekking', title: 'Trekking', image: '/assets/img/ways-to-travel/travel-by-interest/trekking/trekking-peru.webp' },
-    { slug:'full-day-tours', title: 'FullDay', image: '/assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp' },
+    { slug:'full-day-tours', title: 'Full-Day-Tours', image: '/assets/img/ways-to-travel/travel-by-interest/tours/full-tours-peru.webp' },
     { slug:'family', title: 'Family', image: '/assets/img/ways-to-travel/travel-by-interest/family/family-travel-peru.webp' },
-    { slug:'taylor-made', title: 'Taylor', image: '/assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp' },
+    { slug:'taylor-made', title: 'taylor-made', image: '/assets/img/ways-to-travel/travel-by-interest/taylor-made/taylor-made-travel.webp' },
     { slug:'cruise', title: 'Cruise', image: '/assets/img/ways-to-travel/travel-by-interest/cruise/cruise-peru.webp' },
     { slug:'mice', title: 'Mice', image: '/assets/img/ways-to-travel/travel-by-interest/mice/mice-travel.webp' },
     { slug:'homestays', title: 'Homestays', image: '/assets/img/ways-to-travel/travel-by-interest/homestays/homestays-peru.webp' },
-    { slug:'corporate-travel', title: 'Corporate', image: '/assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp' },
+    { slug:'corporate-travel', title: 'Corporate-Travel', image: '/assets/img/ways-to-travel/travel-by-interest/corporate-travel/corporate-travel.webp' },
   ];
 
   scrollCarousel(direction: 'left' | 'right') {

@@ -265,11 +265,9 @@
 
     <div *ngIf="activeSubSubMenu === 'styles'">
       <a (click)="closeAllMenus()" [routerLink]="['ways-to-travel/styles']" class="font-semibold text-lg pb-2">{{ "NAVBAR.WAYS.STYLES.TITLE" | translate }}</a>
-      <a [routerLink]="['/ways-to-travel/styles/premium']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PREMIUM" | translate }}</a>
       <a [routerLink]="['/ways-to-travel/styles/deluxe']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.DELUXE" | translate }}</a>
       <a [routerLink]="['/ways-to-travel/styles/comfort']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.COMFORT" | translate }}</a>
       <a [routerLink]="['/ways-to-travel/styles/super-deals']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.SUPERDEALS" | translate }}</a>
-      <a [routerLink]="['/ways-to-travel/styles/price-sale']" class="block text-white py-2 border-b border-white" (click)="closeAllMenus()">{{ "NAVBAR.WAYS.STYLES.PRICESALE" | translate }}</a>
     </div>
 
     <div *ngIf="activeSubSubMenu === 'travel'">
