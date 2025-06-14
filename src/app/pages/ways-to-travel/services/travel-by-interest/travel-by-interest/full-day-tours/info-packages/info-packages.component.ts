@@ -52,4 +52,13 @@ export class InfoPackagesComponent implements OnDestroy{
     this.subscription?.unsubscribe();
   }
 
+  goToWhatsApp(): void {
+    if (!this.packageData) return;
+
+    const phone = '51950194035'; // reemplaza con tu número real (sin espacios ni símbolos)
+    const message = `Hola, quiero información sobre el paquete: ${this.packageData.title}`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+    window.open(url, '_blank');
+  }
 }

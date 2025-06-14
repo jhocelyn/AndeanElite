@@ -19,7 +19,7 @@
         {{ 'INFO_PACKAGES.FROM' | translate }}
         <span class="text-yellow-400">${{ packageData.from }}</span>
       </p>
-      <button class="w-full bg-yellow-500 text-[#042a4e] font-bold px-6 py-4 rounded-xl shadow-md hover:bg-yellow-400 transition-colors duration-300">
+      <button (click)="goToWhatsApp()" class="w-full bg-yellow-500 text-[#042a4e] font-bold px-6 py-4 rounded-xl shadow-md hover:bg-yellow-400 transition-colors duration-300">
         {{ 'INFO_PACKAGES.BUY_NOW' | translate }}
       </button>
     </div>

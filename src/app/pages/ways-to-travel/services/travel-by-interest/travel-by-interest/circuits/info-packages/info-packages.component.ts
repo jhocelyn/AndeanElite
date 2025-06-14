@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {
@@ -25,7 +25,7 @@ import {CircuitsPackageModel} from '../../../../../../../shared/models/CircuitsP
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'
 })
-export class InfoPackagesComponent implements OnInit{
+export class InfoPackagesComponent implements OnInit,OnDestroy{
   packageData: CircuitsPackageModel | undefined;
   private subscriptions = new Subscription();
 
@@ -66,5 +66,15 @@ export class InfoPackagesComponent implements OnInit{
 
   ngOnDestroy() {
     this.subscriptions.unsubscribe();
+  }
+
+  goToWhatsApp(): void {
+    if (!this.packageData) return;
+
+    const phone = '51950194035'; // reemplaza con tu número real (sin espacios ni símbolos)
+    const message = `Hola, quiero información sobre el paquete: ${this.packageData.title}`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+    window.open(url, '_blank');
   }
 }
