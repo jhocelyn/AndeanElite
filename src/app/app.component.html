@@ -1,6 +1,8 @@
 <app-navbar></app-navbar>
 <router-outlet/>
-<div *ngIf="!cookiesAccepted" class="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 p-4 text-sm text-center shadow-md">
+<!-- Banner cookies -->
+<div *ngIf="isBrowser && !cookiesAccepted"
+     class="fixed bottom-0 left-0 right-0 z-50 bg-white text-center p-4 text-sm border-t border-gray-200 shadow-md">
   <p class="mb-2">Usamos cookies para analizar el tráfico y mejorar tu experiencia. Al continuar, aceptas su uso.</p>
   <button
     (click)="acceptCookies()"

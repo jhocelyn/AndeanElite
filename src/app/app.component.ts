@@ -1,4 +1,4 @@
-  import {Component, OnInit} from '@angular/core';
+  import {AfterViewInit, Component, OnInit} from '@angular/core';
   import { isPlatformBrowser } from '@angular/common';
   import { Inject, PLATFORM_ID } from '@angular/core';
   import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
@@ -18,8 +18,10 @@
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
   })
-  export class AppComponent implements OnInit{
+  export class AppComponent implements OnInit,AfterViewInit{
     title = 'Andeanelite';
+
+    isBrowser = false;
     constructor(
       private router: Router,
       @Inject(PLATFORM_ID) private platformId: Object
@@ -41,24 +43,31 @@
     cookiesAccepted = false;
 
     ngOnInit() {
-      if (isPlatformBrowser(this.platformId)) {
-        const stored = localStorage.getItem('cookiesAccepted');
-        this.cookiesAccepted = stored === 'true';
+      this.isBrowser = isPlatformBrowser(this.platformId);
+    }
 
-        if (this.cookiesAccepted) {
-          this.loadAnalytics();
-        }
+    ngAfterViewInit() {
+      if (this.isBrowser) {
+        const accepted = localStorage.getItem('cookiesAccepted') === 'true';
+
+        // Para asegurar detección por Angular
+        setTimeout(() => {
+          this.cookiesAccepted = accepted;
+
+          if (this.cookiesAccepted) {
+            this.loadAnalytics();
+          }
+        });
       }
     }
 
     acceptCookies() {
-      if (isPlatformBrowser(this.platformId)) {
+      if (this.isBrowser) {
         localStorage.setItem('cookiesAccepted', 'true');
         this.cookiesAccepted = true;
         this.loadAnalytics();
       }
     }
-
 
     loadAnalytics() {
       const script = document.createElement('script');
@@ -75,5 +84,4 @@
     `;
       document.head.appendChild(inlineScript);
     }
-
   }
