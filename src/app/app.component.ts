@@ -42,7 +42,9 @@
 
     ngOnInit() {
       if (isPlatformBrowser(this.platformId)) {
-        this.cookiesAccepted = localStorage.getItem('cookiesAccepted') === 'true';
+        const stored = localStorage.getItem('cookiesAccepted');
+        this.cookiesAccepted = stored === 'true';
+
         if (this.cookiesAccepted) {
           this.loadAnalytics();
         }
@@ -56,6 +58,7 @@
         this.loadAnalytics();
       }
     }
+
 
     loadAnalytics() {
       const script = document.createElement('script');

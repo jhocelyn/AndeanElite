@@ -1,8 +1,14 @@
 <app-navbar></app-navbar>
 <router-outlet/>
-<div *ngIf="!cookiesAccepted" class="fixed bottom-0 left-0 right-0 bg-white border-t p-4 shadow-lg text-center z-[9999]">
-  <p>Usamos cookies para analizar el tráfico y mejorar tu experiencia. Al continuar, aceptas el uso de cookies.</p>
-  <button (click)="acceptCookies()" class="mt-2 bg-[#042A4E] text-white px-4 py-2 rounded">Aceptar</button>
+<div *ngIf="!cookiesAccepted" class="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 p-4 text-sm text-center shadow-md">
+  <p class="mb-2">Usamos cookies para analizar el tráfico y mejorar tu experiencia. Al continuar, aceptas su uso.</p>
+  <button
+    (click)="acceptCookies()"
+    class="bg-[#042A4E] text-white px-4 py-2 rounded hover:bg-[#064663]"
+  >
+    Aceptar cookies
+  </button>
 </div>
+
 
 <app-footer></app-footer>
