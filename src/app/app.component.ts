@@ -20,17 +20,22 @@
   })
   export class AppComponent implements OnInit{
     title = 'Andeanelite';
-    constructor(private router: Router,@Inject(PLATFORM_ID) private platformId: Object) {
-      this.router.events.pipe(
-        filter(event => event instanceof NavigationEnd)
-      ).subscribe(() => {
-        // Verificación para evitar error si fbq aún no está cargado
-        if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
-          window.fbq('track', 'PageView');
-        } else {
-          console.warn('Meta Pixel (fbq) aún no está cargado.');
-        }
-      });
+    constructor(
+      private router: Router,
+      @Inject(PLATFORM_ID) private platformId: Object
+    ) {
+      // Meta Pixel: track 'PageView' solo en navegador
+      if (isPlatformBrowser(this.platformId)) {
+        this.router.events.pipe(
+          filter(event => event instanceof NavigationEnd)
+        ).subscribe(() => {
+          if (typeof window.fbq === 'function') {
+            window.fbq('track', 'PageView');
+          } else {
+            console.warn('Meta Pixel (fbq) aún no está cargado.');
+          }
+        });
+      }
     }
 
     cookiesAccepted = false;
