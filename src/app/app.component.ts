@@ -6,6 +6,7 @@
   import {FooterComponent} from './shared/components/Important/footer/footer.component';
   import { filter } from 'rxjs';
   import {NgIf} from '@angular/common';
+  import {TranslatePipe} from '@ngx-translate/core';
 
   declare global {
     interface Window { fbq: (...args: any[]) => void; }
@@ -14,7 +15,7 @@
   @Component({
     selector: 'app-root',
     standalone: true,
-    imports: [RouterOutlet, NavbarComponent, FooterComponent, NgIf],
+    imports: [RouterOutlet, NavbarComponent, FooterComponent, NgIf, TranslatePipe],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
   })
@@ -66,6 +67,14 @@
         localStorage.setItem('cookiesAccepted', 'true');
         this.cookiesAccepted = true;
         this.loadAnalytics();
+      }
+    }
+
+    rejectCookies() {
+      if (this.isBrowser) {
+        localStorage.setItem('cookiesAccepted', 'false');
+        this.cookiesAccepted = true; // Oculta el banner
+        // No se carga analytics ni pixel
       }
     }
 

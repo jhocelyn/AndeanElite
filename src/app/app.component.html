@@ -1,16 +1,29 @@
 <app-navbar></app-navbar>
-<router-outlet/>
-<!-- Banner cookies -->
+<!-- Fondo oscuro del modal -->
 <div *ngIf="isBrowser && !cookiesAccepted"
-     class="fixed bottom-0 left-0 right-0 z-50 bg-white text-center p-4 text-sm border-t border-gray-200 shadow-md">
-  <p class="mb-2">Usamos cookies para analizar el tráfico y mejorar tu experiencia. Al continuar, aceptas su uso.</p>
-  <button
-    (click)="acceptCookies()"
-    class="bg-[#042A4E] text-white px-4 py-2 rounded hover:bg-[#064663]"
-  >
-    Aceptar cookies
-  </button>
+     class="fixed inset-0 bg-black bg-opacity-60 z-40"></div>
+
+<!-- Banner de cookies -->
+<div *ngIf="isBrowser && !cookiesAccepted"
+     class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 bg-white text-center p-6 w-[90%] max-w-md rounded-xl shadow-lg border">
+  <h2 class="text-lg font-semibold mb-2 text-[#042A4E]">{{ 'COOKIES.TITLE'|translate }}</h2>
+  <p class="text-gray-700 text-sm mb-4">
+    {{ 'COOKIES.DESCRIPTION'|translate }}  </p>
+  <div class="flex justify-center gap-4">
+    <button
+      (click)="acceptCookies()"
+      class="bg-[#042A4E] text-white px-4 py-2 rounded hover:bg-[#064663] transition-colors"
+    >
+      {{ 'COOKIES.ACCEPT'|translate }}
+    </button>
+    <button
+      (click)="rejectCookies()"
+      class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 transition-colors"
+    >
+      {{ 'COOKIES.REJECT'|translate }}
+    </button>
+  </div>
 </div>
 
-
+<router-outlet/>
 <app-footer></app-footer>

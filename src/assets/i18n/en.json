@@ -1,4 +1,10 @@
 {
+  "COOKIES": {
+    "TITLE": "Cookies Policy",
+    "DESCRIPTION":"We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies.",
+    "ACCEPT": "Accept",
+    "REJECT": "Reject"
+    },
   "VIEW_PACKAGES": "View Packages",
   "VIEW_PACKAGE": "View Package",
   "ALL_TRAVEL": "View more Tours",
