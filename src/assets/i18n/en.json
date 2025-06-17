@@ -24,12 +24,14 @@
       "TITLE": "Super Deals",
       "DESCRIPTION": "The best offers to explore Peru with quality and affordable pricing."
     },
-    "CHOOSE": "Choose the travel style that suits you best!"
+    "CHOOSE": "Choose the travel style that suits you best!",
+    "TITLE_BUTTON": "Explore All Travel Styles in Peru – From Luxury to Adventure"
   },
   "HOME_TRAVEL_BY": {
     "TITLE": "Travel By Interest",
     "SUBTITLE": "Find the adventure that inspires you most.",
-    "DESCRIPTION": "From scenic mountain treks to immersive cultural experiences, discover the perfect travel journey tailored for you"
+    "DESCRIPTION": "From scenic mountain treks to immersive cultural experiences, discover the perfect travel journey tailored for you",
+    "TITLE_BUTTON": "Explore All Travel By Interest in Peru – From Cultural Tours to Adventure Trips"
   },
   "HOME_CERTIFICATES": {
     "TITLE": "Certifications",
@@ -66,18 +68,23 @@
           "DATE": "June 2024",
           "TRIP_TYPE": "Family trip - School vacation"
         }
-      ]
+      ],
+      "TITLE_BUTTON": "Explore All Testimonials from Our Travelers – Real Experiences, Real Adventures On Peru"
+
     },
     "READY": "Ready to experience Peru like never before?",
     "DESCRIPTION": "Join to our community of travelers and discover the magic of Peru with Andean Elite.",
-    "PLAN": "Plan Your Trip Here!"
+    "PLAN": "Plan Your Trip Here!",
+    "TITLE_BUTTON": "Plan your personalized trip to the Andes in Peru"
+
 
   },
   "HOME_PURPOSE": {
     "TITLE": "Responsible tourism with social impact",
     "TITLE_LINES": ["Travel", "Connect", "Transform"],
     "DESCRIPTION": "At Andean Elite, every trip helps provide therapies for children with autism in the Andes.",
-    "BUTTON": "Learn about our purpose"
+    "BUTTON": "Learn about our purpose",
+    "TITLE_BUTTON": "At AndeanElite we believe that every trip on Peru can make a difference. Join us in creating a positive impact in the Andes."
   },
   "WHYANDEANELITE": {
     "TITLE": "Why Choose Andean Elite for Your Travel?",

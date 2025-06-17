@@ -4,6 +4,10 @@
   <app-slider></app-slider> <!-- Slider -->
   </div>
 
+  <h1 class="sr-only">
+    Viajes a Machu Picchu y Tours Exclusivos en Perú
+  </h1>
+
   <!-- Styles Section -->
   <div class="bg-white text-[#042A4E] pt-10 px-7">
     <h2 class="text-3xl md:text-5xl font-semibold text-center mb-5">
@@ -36,7 +40,7 @@
       >
         <img
           [src]="'/assets/img/ways-to-travel/styles/' + style.name + '/' + style.image"
-          alt="{{ style.name }}"
+          alt="{{  style.name  }}"
           class="w-full h-48 object-cover "
         />
         <h3 class="text-2xl font-semibold text-[#042A4E] my-2 ">
@@ -46,7 +50,7 @@
           {{ ('HOME_STYLES.' + style.name.toUpperCase().replace('-', '')+'.DESCRIPTION') | translate }}
         </p>
 
-        <button class="rounded-xl py-2 px-6 my-4 bg-[#042A4E] text-white hover:bg-blue-900 transition-colors duration-300">
+        <button title="{{'HOME_STYLES.TITLE_BUTTON'|translate}}" class="rounded-xl py-2 px-6 my-4 bg-[#042A4E] text-white hover:bg-blue-900 transition-colors duration-300">
           <span class="text-lg">
             {{'VIEW_PACKAGES'|translate}}
           </span>
@@ -126,13 +130,14 @@
 
       <!-- Botones de navegación -->
       <div class="absolute  bottom-[-7vh] md:bottom-[-9vh] right-0 flex gap-2 pr-4 pb-2">
-            <button
+            <button title="{{'HOME_TRAVEL_BY.TITLE_BUTTON'|translate}}"
               class="bg-white text-[#042A4E] w-10 h-10 rounded-full flex items-center justify-center shadow-md "
               (click)="scrollCarousel('left')"
             >
               ‹
             </button>
             <button
+              title="{{'HOME_TRAVEL_BY.TITLE_BUTTON'|translate}}"
               class="bg-white text-[#042A4E] w-10 h-10 rounded-full flex items-center justify-center shadow-md "
               (click)="scrollCarousel('right')"
             >
@@ -236,7 +241,7 @@
           {{ 'HOME_PURPOSE.DESCRIPTION' | translate }}
         </p>
         <div class="mt-6 w-full md:w-[70%]">
-          <button class="border w-full  border-white px-6 py-3 rounded-xl transition hover:bg-white hover:text-[#001f42]">
+          <button title="{{'HOME_PURPOSE.TITLE_BUTTON'|translate}}" class="border w-full  border-white px-6 py-3 rounded-xl transition hover:bg-white hover:text-[#001f42]">
             {{ 'HOME_PURPOSE.BUTTON' | translate }}
           </button>
         </div>
@@ -275,10 +280,10 @@
 
       <!-- Botones -->
       <div class="absolute inset-y-0 left-[-10px] md:left-[-40px] flex items-center">
-        <button (click)="prevTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">‹</button>
+        <button title="{{'HOME_TESTIMONIALS.TESMIONIALS.TITLE_BUTTON'|translate}}" (click)="prevTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">‹</button>
       </div>
       <div class="absolute inset-y-0 right-[-10px] md:right-[-40px] flex items-center">
-        <button (click)="nextTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">›</button>
+        <button title="{{'HOME_TESTIMONIALS.TESMIONIALS.TITLE_BUTTON'|translate}}" (click)="nextTestimonial()" class="text-[#042A4E] text-3xl hover:text-[#022f4a]">›</button>
       </div>
     </div>
   </div>
@@ -292,9 +297,10 @@
       {{'HOME_TESTIMONIALS.DESCRIPTION'|translate}}
     </p>
     <div class="flex justify-center">
-      <button class="text-lg md:text-xl bg-white rounded-full py-4 px-12 text-center text-[#0f2d40] ">
+      <button title="{{'HOME_TESTIMONIALS.TITLE_BUTTON'|translate}}" class="text-lg md:text-xl bg-white rounded-full py-4 px-12 text-center text-[#0f2d40] ">
         {{'HOME_TESTIMONIALS.PLAN'|translate}}
       </button>
+
     </div>
   </div>
 
