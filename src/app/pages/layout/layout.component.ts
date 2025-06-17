@@ -213,6 +213,7 @@ export class LayoutComponent implements OnInit{
         alert('❌ Ocurrió un error al enviar el formulario.');
       });
   }
+
   private setTranslatedMeta() {
     this.translate.get(['meta.home.title', 'meta.home.description']).subscribe(translations => {
       this.title.setTitle(translations['meta.home.title']);
