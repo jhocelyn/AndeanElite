@@ -4085,6 +4085,2208 @@
             "width": 1200
           }
         ]
+      },
+      "cusco-fugaz-3d2n": {
+        "id": "cusco-fugaz-3d2n",
+        "title": "Cusco Express Program",
+        "subtitle": "3 Days / 2 Nights – City Tour & Machu Picchu",
+        "description": "Discover the essence of Cusco in a 3-day trip including a guided City Tour, a full-day visit to Machu Picchu, and hotel accommodation. Ideal for travelers seeking a complete experience in a short time.",
+        "whyChooseUs": [
+          "Accommodation with breakfast in selected hotels.",
+          "City Tour and visits to major Inca archaeological sites.",
+          "Excursion to Machu Picchu with a professional guide.",
+          "Includes lunch in Aguas Calientes.",
+          "Transport, train, and full assistance throughout the trip."
+        ],
+        "itinerary": [
+          "DAY 1: CUSCO IN – CITY TOUR & SURROUNDINGS\nReception at the airport and transfer to the hotel. In the afternoon, we visit the Cathedral, Qoricancha Temple, and the impressive ruins of Sacsayhuamán and Qenqo. Return to the hotel.",
+          "DAY 2: MACHU PICCHU\nTransfer to the train station. Guided tour of Machu Picchu (approx. 3 hours). Free time, then lunch in Aguas Calientes. Return to Cusco and overnight stay.",
+          "DAY 3: CUSCO OUT\nBreakfast at the hotel. Free morning. Transfer to the airport at the scheduled time."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Transfers in Cusco: airport – hotel – airport",
+          "2 nights of accommodation in Cusco with breakfast",
+          "Half-day City Tour & Archaeological Park visit",
+          "Full-day tour to Machu Picchu + lunch in Aguas Calientes",
+          "Train tickets: Expedition or The Voyager",
+          "Entry tickets to all mentioned attractions",
+          "Professional guide (Spanish or English)",
+          "Personal assistance throughout the journey"
+        ],
+        "notIncluded": [
+          "International and domestic air tickets",
+          "Early check-in and late check-out at the hotel",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, laundry, etc.)",
+          "Entrance to Cusco Cathedral"
+        ],
+        "from": "473",
+        "prices": "Starting at 473 USD per passenger in double occupancy at 3-star hotels. Rates vary depending on hotel and travel dates.",
+        "additional": "<strong>LUGGAGE POLICY FOR TRAIN:</strong><br>1 small bag or backpack up to 5 kg / 11 lb, with total linear dimensions not exceeding 62 in (height + length + width).<br><br><strong>IMPORTANT:</strong> Train service includes a bimodal connection: bus from Cusco to Ollantaytambo + train to Aguas Calientes.",
+        "optional": [
+          "Upgrade to Vistadome train (ask for pricing)",
+          "Additional night in Cusco",
+          "Entrance to Cusco Cathedral",
+          "International travel insurance"
+        ],
+        "politics": [
+          "Rates are per person in USD.",
+          "Prices subject to availability at time of booking.",
+          "Cancellations may incur penalties depending on the date.",
+          "Reservations require full or partial payment to confirm.",
+          "Unused services are non-refundable.",
+          "Andean Elite is not responsible for weather changes or external events beyond control."
+        ],
+        "images": [
+          {
+            "alt": "Panoramic view of Machu Picchu and Cusco city during a 3-day trip",
+            "src": "assets/img/ways-to-travel/styles/3d2n-cusco-fugaz.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-machu-sacredvalley-3d2n": {
+        "id": "cusco-machu-sacredvalley-3d2n",
+        "title": "Cusco, Machu Picchu y Valle Sagrado",
+        "subtitle": "3 Días / 2 Noches – Experiencia Completa",
+        "description": "Vive la magia de Cusco, el Valle Sagrado de los Incas y la majestuosa Machu Picchu en solo 3 días. Incluye tours guiados, alojamiento de calidad, alimentación, boletos de tren y asistencia completa.",
+        "whyChooseUs": [
+          "Incluye tanto el Valle Sagrado como Machu Picchu en un solo viaje.",
+          "Alojamiento con desayuno incluido.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional en español o inglés.",
+          "Asistencia personalizada durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – VALLE SAGRADO\nRecepción en Cusco y traslado al hotel. A las 7:30 a.m. inicia el tour al Valle Sagrado. Visita a las ruinas de Pisaq y su mercado artesanal, almuerzo buffet en Urubamba, y recorrido por la fortaleza de Ollantaytambo. Regreso a Cusco y pernocte.",
+          "DÍA 2: MACHU PICCHU\nTraslado temprano a la estación de tren hacia Aguas Calientes. Bus a la cima de Machu Picchu y tour guiado de 3 horas por sus zonas más emblemáticas como el Templo del Sol, el Intihuatana y la Roca Sagrada. Almuerzo en Aguas Calientes y retorno en tren. Pernocte en Cusco.",
+          "DÍA 3: CUSCO OUT\nDesayuno en el hotel. Mañana libre para explorar Cusco. A la hora indicada, traslado al aeropuerto."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados: aeropuerto de Cusco – hotel – aeropuerto",
+          "2 noches de alojamiento en Cusco con desayuno",
+          "Full Day Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren: Expedition o The Voyager",
+          "Entradas turísticas",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "475",
+        "prices": "Desde $475 USD por pasajero en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>NOTA:</strong> El servicio de tren es bimodal (bus de Cusco a Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas sujetas a disponibilidad y confirmación al momento de la reserva.",
+          "Todos los precios están en USD por persona.",
+          "Programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Se acepta pago con tarjeta de crédito. No hay recargo usando SafetyPay.",
+          "Los horarios de check-in y check-out de los hoteles deben respetarse.",
+          "Los hoteles están sujetos a disponibilidad y pueden variar sin previo aviso.",
+          "Los hoteles se reservan el derecho de asignar la ubicación de las habitaciones.",
+          "Actuamos únicamente como intermediarios entre los proveedores locales y el viajero.",
+          "No nos responsabilizamos por retrasos o cambios causados por factores externos (clima, huelgas, fuerza mayor).",
+          "Los documentos de viaje (visas, pruebas médicas, etc.) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV si se prestan fuera de Perú. Si se solicita factura, se aplicará el IGV correspondiente.",
+          "Los traslados son en servicio compartido. El pasajero debe respetar los horarios y puntos de encuentro para evitar perder el servicio sin derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado en un tour de 3 días",
+            "src": "assets/img/ways-to-travel/styles/3d2-cusco-machu-picchu-valle-sagrado.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-supervalley-3d2n": {
+        "id": "cusco-supervalley-3d2n",
+        "title": "Programa Cusco & Super Valle",
+        "subtitle": "3 Días / 2 Noches – City Tour, Valle Sagrado y Machu Picchu",
+        "description": "Descubre lo mejor de Cusco, el Super Valle Sagrado y Machu Picchu en solo 3 días. Este paquete completo incluye tours guiados, alojamiento, alimentación, tren y asistencia personalizada.",
+        "whyChooseUs": [
+          "Incluye City Tour, Valle Sagrado y Machu Picchu en un solo viaje.",
+          "Alojamiento con desayuno en hoteles seleccionados.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional bilingüe (español o inglés).",
+          "Boletos de tren Expedition o The Voyager incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR & PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto de Cusco y traslado al hotel. A las 12:30 p.m. iniciaremos el recorrido por el centro histórico: visita a la Catedral, Templo de Qoricancha y las ruinas arqueológicas de Sacsayhuamán y Qenqo. Retorno al hotel y pernocte.",
+          "DÍA 2: SUPER VALLE SAGRADO\nRecojo del hotel entre las 6:30 y 7:00 a.m. Iniciamos en Chinchero con su templo colonial y palacio incaico, luego Moray (laboratorio agrícola inca) y las salineras de Maras. Continuamos a Urubamba para almuerzo buffet. Luego visitamos la fortaleza de Ollantaytambo y el sitio arqueológico y mercado de Pisaq. Retorno a Cusco con recuerdos inolvidables.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje a Aguas Calientes y bus a la cima de Machu Picchu. Tour guiado de 3 horas por los principales sitios como el Templo del Sol, Intihuatana y la Roca Sagrada. Tiempo libre y almuerzo en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 4: CUSCO OUT\nDesayuno. Tiempo libre para explorar mercados locales o descansar. Traslado al aeropuerto en el horario programado."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados: aeropuerto de Cusco – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour por Cusco y Parque Arqueológico",
+          "Full Day Super Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren: Expedition o The Voyager",
+          "Entradas a los atractivos turísticos",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y gastos personales",
+          "Propinas y gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "592",
+        "prices": "Desde $592 USD por persona en base doble en hoteles categoría 3 estrellas. Tarifas pueden variar según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren Expedition y Vistadome es bimodal (bus a Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD y sujetas a confirmación al momento de reservar.",
+          "Precios pueden variar según disponibilidad de hotel y fechas de viaje.",
+          "Los programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Pago con tarjeta Visa aceptado. No hay recargo mediante SafetyPay.",
+          "Respetar horarios de check-in y check-out de los hoteles.",
+          "Disponibilidad hotelera sujeta a cambios sin previo aviso.",
+          "Asignación de habitaciones según disponibilidad al momento de llegada.",
+          "Actuamos únicamente como intermediarios entre los proveedores de servicios y el viajero.",
+          "No nos responsabilizamos por eventos de fuerza mayor, retrasos, pérdidas o accidentes.",
+          "Los documentos de viaje (pasaporte, visas, vacunas) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV si se prestan fuera del Perú. Facturación puede incluir IGV.",
+          "Los traslados son en servicio compartido. El pasajero debe ser puntual y esperar en los puntos indicados. No se reembolsa por pérdida de servicio por retraso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado con city tour en Cusco",
+            "src": "assets/img/ways-to-travel/styles/3d2n-cusco-super-valle.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-exotic-4d3n": {
+        "id": "cusco-exotic-4d3n",
+        "title": "Programa Cusco Exótico",
+        "subtitle": "4 Días / 3 Noches – City Tour, Machu Picchu y Montaña de 7 Colores",
+        "description": "Explora lo mejor de Cusco en esta experiencia de 4 días que incluye la ciudad histórica, el parque arqueológico, la maravilla de Machu Picchu y la colorida Montaña de 7 Colores. Incluye alojamiento, comidas, transporte y guías profesionales.",
+        "whyChooseUs": [
+          "Incluye City Tour y parque arqueológico.",
+          "Visita a Machu Picchu con almuerzo y boletos de tren.",
+          "Excursión de día completo a la Montaña de 7 Colores con desayuno y almuerzo.",
+          "Guías profesionales bilingües (español o inglés).",
+          "Asistencia completa durante toda tu estadía."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m. iniciaremos el tour por la ciudad visitando la Catedral, el Templo del Qoricancha y las ruinas de Sacsayhuamán y Qenqo. Retorno al hotel para descansar.",
+          "DÍA 2: MACHU PICCHU\nMuy temprano, traslado a la estación de tren para el viaje a Aguas Calientes. Desde allí, tomaremos un bus hasta la cima de Machu Picchu. Disfrutaremos de una visita guiada de 3 horas por los puntos más emblemáticos: Templo del Sol, Intihuatana, Roca Sagrada y más. Almuerzo en Aguas Calientes. Retorno en tren a Cusco. Pernocte en el hotel.",
+          "DÍA 3: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. y traslado hacia la base del Nevado Ausangate. Parada en Cusipata para desayunar. Luego iniciaremos una caminata de aproximadamente 3 horas con guía profesional hacia la Montaña de los 7 Colores. Después de la visita, regresamos a Cusipata para almorzar. Llegada al hotel en Cusco aproximadamente a las 4:30 p.m.",
+          "DÍA 4: CUSCO OUT\nDesayuno y tiempo libre. A la hora coordinada, traslado al aeropuerto para tu vuelo de salida."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour y Parque Arqueológico",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Tren Expedition o turista ida y vuelta",
+          "Full Day Montaña de 7 Colores con desayuno y almuerzo",
+          "Entradas turísticas",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "575",
+        "prices": "Desde $575 USD por persona en base doble. Tarifas varían según la categoría del hotel y la temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila pequeña de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los servicios de tren Expedition y Vistadome son bimodales (bus hasta Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a disponibilidad al momento de la reserva.",
+          "Los programas no son reembolsables, no transferibles y no permiten cambios.",
+          "Pagos con tarjeta Visa mediante SafetyPay sin recargo adicional.",
+          "Se deben respetar los horarios de check-in y check-out establecidos por los hoteles.",
+          "La disponibilidad hotelera puede variar sin previo aviso.",
+          "La asignación de habitaciones está sujeta a disponibilidad al momento del check-in.",
+          "Andean Elite actúa únicamente como intermediario entre proveedores y clientes.",
+          "No nos responsabilizamos por retrasos, accidentes o eventos de fuerza mayor.",
+          "Los pasajeros son responsables de sus documentos de viaje personales.",
+          "Los servicios están exonerados del IGV salvo que se requiera facturación dentro del Perú.",
+          "Los traslados son compartidos; los pasajeros deben respetar el punto y hora de encuentro. Perder el traslado no da derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu, la Montaña de 7 Colores y city tour en Cusco",
+            "src": "assets/img/ways-to-travel/styles/4d3n-cusco-exotico.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-unforgettable-4d3n": {
+        "id": "cusco-unforgettable-4d3n",
+        "title": "Programa Cusco Inolvidable",
+        "subtitle": "4 Días / 3 Noches – City Tour, Valle Sagrado y Machu Picchu",
+        "description": "Explora los sitios más icónicos de Cusco en esta experiencia de 4 días, que incluye un city tour, el Valle Sagrado de los Incas y la maravilla de Machu Picchu. Una inmersión cultural y escénica completa.",
+        "whyChooseUs": [
+          "Incluye lo mejor de Cusco: city tour, Valle Sagrado y Machu Picchu.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Boletos de tren Expedition o categoría turista incluidos.",
+          "Guía profesional bilingüe (español o inglés).",
+          "Asistencia completa durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel seleccionado. A las 12:30 p.m. iniciamos el tour visitando la Catedral, el Templo de Qoricancha y las ruinas de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nRecojo del hotel a las 7:30 a.m. Visita al sitio arqueológico y mercado artesanal de Pisaq. Continuamos por el río Vilcanota hasta Urubamba para disfrutar de un almuerzo buffet. Por la tarde, exploramos la impresionante fortaleza de Ollantaytambo. Retorno a Cusco y pernocte en el hotel.",
+          "DÍA 3: MACHU PICCHU\nSalida temprana hacia la estación de tren. Viaje a Aguas Calientes y luego bus hasta la cima de Machu Picchu. Visita guiada de 3 horas recorriendo el Templo del Sol, el Intihuatana, la Roca Sagrada y más. Tiempo libre, almuerzo en Aguas Calientes y retorno a Cusco.",
+          "DÍA 4: CUSCO OUT\nDesayuno en el hotel. Mañana libre para explorar a tu ritmo. Traslado al aeropuerto en el horario coordinado."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour y Parque Arqueológico",
+          "Tour al Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o estándar",
+          "Entradas a los sitios turísticos",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos de avión internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "561",
+        "prices": "Desde $561 USD por persona en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila pequeña de hasta 5 kg / 11 lb, con un máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en servicio bimodal: bus hasta Ollantaytambo y tren hasta Aguas Calientes.",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas expresadas en USD por persona y sujetas a confirmación.",
+          "Los precios deben confirmarse al momento de reservar.",
+          "Los programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Pagos con tarjeta Visa vía SafetyPay sin recargo adicional.",
+          "Se deben respetar los horarios de check-in y check-out.",
+          "La disponibilidad hotelera puede variar sin previo aviso.",
+          "Los hoteles asignan habitaciones según disponibilidad al momento de llegada.",
+          "Andean Elite actúa únicamente como intermediario entre proveedores y clientes.",
+          "No nos responsabilizamos por fuerza mayor, retrasos o accidentes fuera de nuestro control.",
+          "Los pasajeros son responsables de sus documentos de viaje personales (visas, vacunas, etc.).",
+          "Los servicios están exonerados del IGV salvo que se requiera factura con impuesto.",
+          "Los traslados son compartidos y requieren puntualidad; la inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Cusco, el Valle Sagrado y Machu Picchu en un paquete de 4 días",
+            "src": "assets/img/ways-to-travel/styles/4d3n-cusco-inolvidable.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-majestic-5d4n": {
+        "id": "cusco-majestic-5d4n",
+        "title": "Programa Cusco Majestuoso",
+        "subtitle": "5 Días / 4 Noches – City Tour, Valle Sagrado, Machu Picchu y Maras & Moray",
+        "description": "Disfruta lo mejor de Cusco y sus alrededores con este completo programa de 5 días. Descubre la historia de la ciudad, Machu Picchu, el Valle Sagrado y los increíbles paisajes de Maras y Moray.",
+        "whyChooseUs": [
+          "Incluye las principales atracciones: City Tour, Valle Sagrado, Machu Picchu, Maras y Moray.",
+          "Almuerzos buffet en el Valle Sagrado y Aguas Calientes incluidos.",
+          "Boletos de tren ida y vuelta (Expedition o Turista) a Machu Picchu.",
+          "Guía profesional bilingüe (español/inglés).",
+          "Asistencia personalizada durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto de Cusco y traslado al hotel seleccionado. A las 12:30 p.m. inicia el city tour visitando la Catedral, el Templo de Qoricancha y los sitios arqueológicos de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nDesayuno en el hotel. A las 7:30 a.m. visitamos las ruinas y mercado artesanal de Pisaq. Luego, almuerzo buffet en Urubamba. Por la tarde, exploramos el complejo arqueológico de Ollantaytambo. Retorno al hotel en Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje hacia Aguas Calientes y subida en bus a Machu Picchu. Tour guiado de 3 horas por la ciudadela, incluyendo el Templo del Sol, el Intihuatana y más. Tiempo libre y almuerzo en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 4: MARAS & MORAY\nRecojo en el hotel a las 8:10 a.m. Visita a las salineras de Maras y luego a las terrazas circulares de Moray, una muestra de la ingeniería agrícola inca. Regreso al hotel en Cusco.",
+          "DÍA 5: CUSCO OUT\nDesayuno y mañana libre para explorar la ciudad. A la hora programada, traslado al aeropuerto."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayunos",
+          "City Tour y Parque Arqueológico",
+          "Tour de día completo al Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta a Machu Picchu (Expedition o Turista)",
+          "Tour a Salineras de Maras y terrazas circulares de Moray",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos de avión internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no especificadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "613",
+        "prices": "Desde $613 USD por persona en base doble en hoteles 3 estrellas. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en modalidad bimodal: bus desde Cusco hasta Ollantaytambo y tren hacia Aguas Calientes.",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a confirmación al momento de la reserva.",
+          "Los programas no son reembolsables, no endosables ni transferibles.",
+          "Pagos con tarjeta Visa aceptados. SafetyPay sin recargos.",
+          "Se deben respetar los horarios de check-in y check-out del hotel.",
+          "La disponibilidad hotelera puede cambiar sin previo aviso.",
+          "La asignación de habitaciones depende de la disponibilidad al llegar.",
+          "Andean Elite actúa como intermediario y no se responsabiliza por eventos externos o demoras.",
+          "No nos responsabilizamos por pérdidas, accidentes o casos de fuerza mayor.",
+          "Los documentos de viaje (visas, requisitos médicos, etc.) son responsabilidad del pasajero.",
+          "Los servicios están exentos de IGV salvo que se solicite factura, en cuyo caso se aplica el impuesto.",
+          "Traslados en servicio compartido. Se requiere puntualidad; la inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vistas panorámicas de Machu Picchu, salineras de Maras y el Valle Sagrado en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-majestuoso.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-wonderful-5d4n": {
+        "id": "cusco-wonderful-5d4n",
+        "title": "Programa Cusco Maravilloso",
+        "subtitle": "5 Días / 4 Noches – City Tour, Machu Picchu, Montaña de 7 Colores y Laguna Humantay",
+        "description": "Sumérgete en la belleza natural y cultural de Cusco. Descubre Machu Picchu, camina hacia la famosa Montaña de 7 Colores y la Laguna Humantay, y explora el corazón del Imperio Inca en 5 días inolvidables.",
+        "whyChooseUs": [
+          "Itinerario completo que cubre las principales atracciones de Cusco.",
+          "Incluye City Tour, Machu Picchu, Montaña de 7 Colores y Laguna Humantay.",
+          "Alojamiento con desayuno, tours guiados y entradas incluidas.",
+          "Almuerzos buffet y regionales incluidos en los tours de día completo.",
+          "Guías bilingües profesionales y asistencia 24/7."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto de Cusco y traslado al hotel. A las 12:30 p.m., iniciamos el recorrido visitando la Catedral, el Templo de Qoricancha y los sitios arqueológicos de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje hacia Aguas Calientes y subida en bus a Machu Picchu. Tour guiado de 3 horas por la ciudadela, con tiempo libre para explorar y tomar fotos. Almuerzo en Aguas Calientes y retorno a Cusco. Pernocte.",
+          "DÍA 3: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. Viaje hacia Cusipata para desayuno. Caminata de 3 horas hacia la Montaña de 7 Colores junto al guía, quien compartirá información cultural sobre los Andes. Almuerzo en Cusipata y retorno a Cusco alrededor de las 4:30 p.m.",
+          "DÍA 4: LAGUNA HUMANTAY\nRecojo entre 4:00 y 4:40 a.m. Desayuno en Mollepata y continuación hasta Soraypampa. Caminata de aproximadamente 1h30min hacia la Laguna Humantay. Tiempo libre para disfrutar del paisaje y ceremonia tradicional. Retorno a Mollepata para el almuerzo y regreso a Cusco a las 6:30 p.m.",
+          "DÍA 5: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayuno",
+          "City Tour con ingreso a parque arqueológico",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o categoría Turista",
+          "Full Day Montaña de 7 Colores con desayuno y almuerzo",
+          "Full Day Laguna Humantay con almuerzo",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español/inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y nacionales",
+          "Early check-in y late check-out en el hotel",
+          "Seguro de viaje",
+          "Comidas no especificadas y propinas",
+          "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "657",
+        "prices": "Desde $657 USD por persona en base doble en hoteles 3 estrellas. Tarifas sujetas a variación según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un total de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en modalidad bimodal (bus hasta Ollantaytambo + tren a Aguas Calientes y retorno).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Precios por persona en USD. Sujetos a confirmación al momento de la reserva.",
+          "Programas no reembolsables, no endosables ni transferibles.",
+          "Pagos con tarjeta Visa aceptados. SafetyPay sin recargo.",
+          "Respetar los horarios de check-in y check-out en todos los hoteles.",
+          "Hoteles sujetos a disponibilidad y posibles cambios sin previo aviso.",
+          "Asignación de habitaciones según disponibilidad al momento del check-in.",
+          "Andean Elite actúa como intermediario y no se responsabiliza por demoras o factores externos.",
+          "No nos hacemos responsables por retrasos, fuerza mayor o pérdidas personales.",
+          "Los documentos de viaje (pasaporte, visas, vacunas) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV salvo que se requiera factura, en cuyo caso se aplicará el impuesto.",
+          "Traslados en servicio compartido. El pasajero debe presentarse puntualmente en el lugar y hora indicados. Inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Laguna Humantay, Montaña de 7 Colores y Machu Picchu en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-maravilloso.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-multicolor-5d4n": {
+        "id": "cusco-multicolor-5d4n",
+        "title": "Programa Cusco Multicolor",
+        "subtitle": "5 Días / 4 Noches – City Tour, Valle Sagrado, Machu Picchu y Montaña de 7 Colores",
+        "description": "Vive la esencia vibrante de Cusco en 5 días inolvidables. Este tour completo incluye el Valle Sagrado, el majestuoso Machu Picchu y la impresionante Montaña de 7 Colores, con alojamiento y todos los servicios clave incluidos.",
+        "whyChooseUs": [
+          "Itinerario completo de 5 días con las principales atracciones de Cusco.",
+          "Incluye Machu Picchu, Valle Sagrado, Montaña de 7 Colores y parques arqueológicos.",
+          "Entradas, tours guiados y desayunos en hotel incluidos.",
+          "Almuerzos buffet y traslados in/out para las excursiones.",
+          "Atención personalizada y guías profesionales bilingües."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m., tour guiado por el centro histórico: Catedral del Cusco, Templo de Qoricancha, parque arqueológico de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nDesayuno en el hotel. Salida a las 7:30 a.m. para visitar Pisaq y su mercado artesanal. Almuerzo buffet en Urubamba. Luego, visita a la fortaleza de Ollantaytambo. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje a Aguas Calientes y bus a Machu Picchu. Tour guiado de 3 horas por los principales atractivos como el Templo del Sol e Intihuatana. Tiempo libre para fotos. Almuerzo en Aguas Calientes y regreso a Cusco. Pernocte.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. y traslado a Cusipata para desayuno. Caminata guiada de 3 horas hacia la Montaña de 7 Colores. Disfruta de los paisajes y aprende sobre la zona. Almuerzo en Cusipata y retorno al hotel hacia las 4:30 p.m.",
+          "DÍA 5: CUSCO OUT\nDesayuno en el hotel y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayunos",
+          "City Tour de Cusco con ingreso al parque arqueológico",
+          "Tour de día completo al Valle Sagrado + almuerzo buffet",
+          "Tour de día completo a Machu Picchu + almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o clase Turista",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español / inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y domésticos",
+          "Early check-in o late check-out en el hotel",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, atención médica, etc.)",
+          "Ingreso a la Catedral de Cusco"
+        ],
+        "from": "643",
+        "prices": "Desde $643 USD por persona en base doble en hoteles 3 estrellas. Tarifas pueden variar según el hotel y la temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 mochila o bolso pequeño de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren es bimodal (bus hasta Ollantaytambo + tren a Aguas Calientes y viceversa).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a confirmación.",
+          "Los precios deben confirmarse al momento de la reserva.",
+          "Los programas no son modificables, ni reembolsables, ni transferibles.",
+          "Pago con Visa o Safety Pay sin recargo.",
+          "Los horarios de check-in/check-out del hotel deben respetarse.",
+          "La asignación de habitaciones depende de la disponibilidad al momento del check-in.",
+          "Andean Elite actúa únicamente como intermediario y no se responsabiliza por retrasos externos.",
+          "No somos responsables por fuerza mayor, accidentes o pérdidas fuera de nuestro control.",
+          "Los documentos de viaje y requisitos de salud son responsabilidad exclusiva del pasajero.",
+          "Los servicios están exonerados de IGV si son ventas internacionales; si se requiere factura local, se aplicará el impuesto.",
+          "Los traslados son regulares (compartidos). El pasajero debe ser puntual. No-show no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vistas panorámicas de Machu Picchu y Montaña de 7 Colores en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-multicolor.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-spectacular-6d5n": {
+        "id": "cusco-spectacular-6d5n",
+        "title": "Programa Cusco Espectacular",
+        "subtitle": "06 Días / 05 Noches – City Tour, Super Valle, Machu Picchu, Vinicunca y Valle Sur",
+        "description": "Descubre Cusco con este itinerario de 6 días que combina lo mejor de la ciudad, sitios arqueológicos, naturaleza y la maravilla de Machu Picchu. Incluye tours guiados, alojamiento, comidas y transporte.",
+        "whyChooseUs": [
+          "Incluye visitas a Machu Picchu, Montaña de 7 Colores, Valle Sur y más.",
+          "5 noches de alojamiento con desayuno incluido.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional bilingüe (español o inglés) durante todo el viaje.",
+          "Entradas, transporte, trenes y asistencia completa incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m., visita a la Catedral, Templo de Qoricancha, Sacsayhuamán y Qenqo.",
+          "DÍA 2: SUPER VALLE SAGRADO\nSalida a las 6:30 a.m. Visita a Chinchero, Moray, Salineras de Maras, almuerzo buffet en Urubamba, ruinas de Ollantaytambo y mercado de Pisac. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nViaje temprano hacia Aguas Calientes. Tour guiado de 3 horas por Machu Picchu, incluyendo Templo del Sol, Intihuatana, Roca Sagrada. Almuerzo y retorno a Cusco.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. Desayuno en Cusipata y caminata de 3 horas hacia Vinicunca con guía. Almuerzo y retorno a Cusco a las 16:30 horas.",
+          "DÍA 5: VALLE SUR\nTour a Tipón, Pikillaqta y Andahuaylillas. Disfruta del paisaje andino y la historia preincaica y colonial. Regreso a Cusco por la tarde.",
+          "DÍA 6: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora coordinada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados aeropuerto – hotel – aeropuerto en Cusco",
+          "5 noches de alojamiento con desayunos",
+          "City Tour + Parque Arqueológico",
+          "Full Day Super Valle con almuerzo buffet",
+          "Full Day Machu Picchu + almuerzo en Aguas Calientes",
+          "Tren Expedition o Turista (ida y vuelta)",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Excursión al Valle Sur",
+          "Entradas a los sitios turísticos",
+          "Guía profesional en español o inglés",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "728",
+        "prices": "Desde $728 USD por persona en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, máximo 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Servicio bimodal: bus de Cusco a Ollantaytambo + tren a Aguas Calientes (ida y vuelta).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32 por persona",
+          "Almuerzo en Café Inkaterra – $6 por persona",
+          "Noche adicional en Cusco",
+          "Guía privado en Machu Picchu"
+        ],
+        "politics": [
+          "Tarifas en USD por persona, sujetas a disponibilidad.",
+          "Precios deben confirmarse al momento de la reserva.",
+          "Programas no reembolsables, no transferibles y no permiten cambios.",
+          "Pago con tarjeta Visa o SafetyPay sin recargo.",
+          "Horarios de check-in y check-out deben respetarse.",
+          "Hoteles sujetos a disponibilidad sin previo aviso.",
+          "El hotel asigna habitaciones según disponibilidad a la llegada.",
+          "Andean Elite actúa como intermediario entre operadores y pasajeros.",
+          "No se asume responsabilidad por demoras, clima u otros factores externos.",
+          "Pasajeros son responsables de sus documentos de viaje.",
+          "Servicios exentos de IGV; si se requiere factura, se aplicará el IGV correspondiente.",
+          "Traslados compartidos, el pasajero debe respetar horarios o perderá el servicio sin derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Paisajes andinos y Machu Picchu en tour Cusco Espectacular 6 días",
+            "src": "assets/img/ways-to-travel/styles/6d5n-cusco-espectacular.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "complete-cusco-7d6n": {
+        "id": "complete-cusco-7d6n",
+        "title": "Programa Cusco al Completo",
+        "subtitle": "07 Días / 06 Noches – Valle Sagrado, Machu Picchu, Montaña de 7 Colores y Más",
+        "description": "Vive la experiencia más completa de Cusco con esta aventura de 7 días. Incluye City Tour, Valle Sagrado, Machu Picchu, Vinicunca, Laguna Humantay y Valle Sur. Ideal para quienes lo quieren todo.",
+        "whyChooseUs": [
+          "Seis noches de alojamiento en Cusco con desayuno diario incluido.",
+          "Inmersión cultural total con city tour y parques arqueológicos.",
+          "Excursiones a Machu Picchu, Laguna Humantay y Montaña de 7 Colores.",
+          "Explora el Valle Sagrado, el Valle Sur y joyas ocultas incas.",
+          "Todo el transporte, trenes, entradas y guía profesional incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto y traslado al hotel. Visita a la Catedral del Cusco, el Templo de Qoricancha y sitios arqueológicos como Sacsayhuamán y Qenqo.",
+          "DÍA 2: SUPER VALLE SAGRADO\nVisita a Chinchero, terrazas de Moray, salineras de Maras, almuerzo buffet en Urubamba, ruinas de Ollantaytambo y mercado de Pisac. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Tour guiado por la ciudadela incluyendo el Templo del Sol y la Roca Sagrada. Tiempo libre. Almuerzo en Aguas Calientes y regreso a Cusco.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nSalida a las 4:30 a.m. Caminata por los Andes con desayuno en Cusipata. Visita a Vinicunca con guía. Retorno y almuerzo en Cusipata. Regreso a Cusco.",
+          "DÍA 5: LAGUNA HUMANTAY\nRecojo temprano hacia Mollepata para desayuno. Caminata hacia la Laguna Humantay (1h30 de ascenso). Ceremonia de gratitud a los Apus. Almuerzo en Mollepata y regreso a Cusco.",
+          "DÍA 6: VALLE SUR\nDesayuno y tour a Tipón (sitio ceremonial inca), Pikillaqta (ciudad preinca Wari) e Iglesia de Andahuaylillas (la Capilla Sixtina de América). Retorno a Cusco por la tarde.",
+          "DÍA 7: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados aeropuerto de Cusco – hotel – aeropuerto",
+          "6 noches de alojamiento con desayuno incluido",
+          "City Tour + Parque Arqueológico",
+          "Full Day Super Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Tren ida y vuelta categoría Expedition o Turista",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Full Day Laguna Humantay + desayuno y almuerzo",
+          "Full Day tour al Valle Sur",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "810",
+        "prices": "Desde $810 USD por persona en base doble en hoteles 3 estrellas. Precios varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, máximo 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren es bimodal: bus de Cusco a Ollantaytambo y tren a Aguas Calientes (ida y retorno).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32 por persona",
+          "Almuerzo en Café Inkaterra – $6 por persona",
+          "Noche adicional en Cusco",
+          "Tour privado a Machu Picchu"
+        ],
+        "politics": [
+          "Tarifas en USD por persona.",
+          "Precios sujetos a disponibilidad al momento de la reserva.",
+          "Programas no reembolsables, no transferibles y no endosables.",
+          "Reservas confirmadas con pago total o parcial.",
+          "Servicios no utilizados no son reembolsables.",
+          "Andean Elite no se responsabiliza por clima o factores externos.",
+          "Documentos y requisitos de viaje son responsabilidad del pasajero.",
+          "Servicios exonerados de IGV; si se requiere factura con IGV, se aplicará el impuesto.",
+          "Traslados en servicio compartido; el pasajero debe respetar horarios y puntos de encuentro."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Cusco, Machu Picchu y el Valle Sagrado en un tour completo de 7 días",
+            "src": "assets/img/ways-to-travel/styles/7d6n-cusco-al-completo.webp",
+            "width": 1200
+          }
+        ]
+      }
+    },
+    "COMFORT":{
+      "cusco-sunrise":{
+        "id": "cusco-sunrise",
+        "title": "3D2N Cusco Amanecer",
+        "subtitle": "Explora la majestuosa ciudad de Cusco y la maravilla de Machu Picchu en 3 días y 2 noches.",
+        "description": "Descubre la magia de Cusco y Machu Picchu en un viaje inolvidable de 3 días. Disfruta de alojamiento, visitas guiadas, transporte completo y asistencia personalizada en todo momento.",
+        "whyChooseUs": [
+          "Asistencia personalizada durante todo el viaje.",
+          "Incluye tren Expedition o The Voyager.",
+          "Guías profesionales en español o inglés.",
+          "Entradas a los principales atractivos incluidas.",
+          "Alojamiento con desayuno incluido."
+        ],
+        "itinerary": [
+          "DÍA 01: CUSCO IN\nRecepción y traslado al hotel elegido. Resto del día libre para aclimatación. Pernocte.",
+          "DÍA 02: MACHU PICCHU\nAl amanecer, nos dirigiremos hacia la estación de trenes para iniciar el viaje hacia Aguas Calientes. Visitaremos Machu Picchu con guía profesional durante 3 horas y luego almorzaremos en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 03: CUSCO OUT\nDesayuno en el hotel. Mañana libre y traslado al aeropuerto a la hora coordinada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslado en Cusco aeropuerto – hotel – aeropuerto",
+          "2 noches de alojamiento en Cusco + desayunos",
+          "Full Day Machu Picchu + almuerzo en Aguas Calientes",
+          "Tren Expedition o The Voyager",
+          "Entradas turísticas",
+          "Guía profesional (español o inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Tickets aéreos nacionales",
+          "Tickets aéreos internacionales",
+          "Alimentación no especificada",
+          "Seguro de viaje",
+          "Propinas"
+        ],
+        "from": "440",
+        "prices": "Hoteles Categoria 4* desde $440 habitación doble",
+        "additional": "<strong>ADICIONALES</strong><br>\nSuplemento para pasajero viajando solo: <strong>USD $39.00</strong><br><br>\n\n<strong>Trenes ida o retorno:</strong><br>\nVistadome o The 360° Bimodal: <strong>USD $47.00 ADT</strong> | <strong>USD $29.00 CHD</strong><br>\nVistadome Observatory o Premium & Lounge Bimodal: <strong>USD $72.00 ADT</strong> | <strong>USD $50.00 CHD</strong><br><br>\n\n<strong>Alimentación & upgrade:</strong><br>\nAlmuerzo en Café Inkaterra: <strong>USD $6.00</strong><br>\nAlmuerzo en Sanctuary Lodge: <strong>USD $31.00</strong><br>\nAlmuerzo en Sumaq Machu Picchu: <strong>USD $63.00</strong><br>\nCusco: Cena Menú* + Show Folklórico en el Restaurante Tunupa: <strong>USD $29.00</strong><br>\n<em>Menú: Comprende 3 opciones gourmet a elegir y el famoso pisco sour TUNUPA de cortesía.</em>\n",
+        "optional": [
+          "Trenes Vistadome o The 360° Bimodal",
+          "Trenes Vistadome Observatory o Premium & Lounge Bimodal",
+          "Almuerzo en Café Inkaterra",
+          "Almuerzo en Sanctuary Lodge",
+          "Almuerzo en Sumaq Machu Picchu",
+          "Cena Menú + Show Folklórico en el Restaurante Tunupa"
+        ],
+        "politics": [
+          "Pagos con SAFETYPAY: recargo del 1%.",
+          "Pagos con tarjeta vía NIUBIS/VISANET: recargo del 3%.",
+          "Pagos con Mercado Pago: recargo del 2.5%.",
+          "Entradas a Machu Picchu: acceso al Circuito 2 hasta las 13:00 hrs. Sujetos a disponibilidad. Cambios no permitidos.",
+          "Restricciones en Semana Santa, 25 de diciembre y 24 de junio.",
+          "Cancelaciones de trenes: penalidad del 10%, solicitud con 72h de anticipación.",
+          "Recomendaciones: llevar calzado cómodo, repelente, linterna, abrigo, entre otros.",
+          "Menores: Infantes (0-2 años) no pagan. Niños (2-8 años) tarifa CHD con desayuno. Junior (9-17 años) con suplemento.",
+          "Reservas individuales: datos 30 días antes, pago total 25 días antes.",
+          "Reservas grupales: lista preliminar 60 días antes, pagos del 50% a 50 y 25 días antes.",
+          "Cancelaciones individuales: pueden generar costos según proveedor.",
+          "Cancelaciones grupales: hasta 60 días sin penalidad, luego hasta 100% según fecha.",
+          "Andean Elite no se responsabiliza por servicios no prestados por causas externas.",
+          "Precios aplican solo si se reservan todos los servicios con Andean Elite.",
+          "No válido en temporadas altas: Semana Santa, Inti Raymi, Fiestas Patrias, Año Nuevo, etc."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu al amanecer con tren Expedition y ciudad de Cusco",
+            "src": "assets/img/ways-to-travel/styles/super-deals/3d2n-cusco-machupicchu-tren-ciudad.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-fugaz-3d2n": {
+        "id": "cusco-fugaz-3d2n",
+        "title": "Cusco Express Program",
+        "subtitle": "3 Days / 2 Nights – City Tour & Machu Picchu",
+        "description": "Discover the essence of Cusco in a 3-day trip including a guided City Tour, a full-day visit to Machu Picchu, and hotel accommodation. Ideal for travelers seeking a complete experience in a short time.",
+        "whyChooseUs": [
+          "Accommodation with breakfast in selected hotels.",
+          "City Tour and visits to major Inca archaeological sites.",
+          "Excursion to Machu Picchu with a professional guide.",
+          "Includes lunch in Aguas Calientes.",
+          "Transport, train, and full assistance throughout the trip."
+        ],
+        "itinerary": [
+          "DAY 1: CUSCO IN – CITY TOUR & SURROUNDINGS\nReception at the airport and transfer to the hotel. In the afternoon, we visit the Cathedral, Qoricancha Temple, and the impressive ruins of Sacsayhuamán and Qenqo. Return to the hotel.",
+          "DAY 2: MACHU PICCHU\nTransfer to the train station. Guided tour of Machu Picchu (approx. 3 hours). Free time, then lunch in Aguas Calientes. Return to Cusco and overnight stay.",
+          "DAY 3: CUSCO OUT\nBreakfast at the hotel. Free morning. Transfer to the airport at the scheduled time."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Transfers in Cusco: airport – hotel – airport",
+          "2 nights of accommodation in Cusco with breakfast",
+          "Half-day City Tour & Archaeological Park visit",
+          "Full-day tour to Machu Picchu + lunch in Aguas Calientes",
+          "Train tickets: Expedition or The Voyager",
+          "Entry tickets to all mentioned attractions",
+          "Professional guide (Spanish or English)",
+          "Personal assistance throughout the journey"
+        ],
+        "notIncluded": [
+          "International and domestic air tickets",
+          "Early check-in and late check-out at the hotel",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, laundry, etc.)",
+          "Entrance to Cusco Cathedral"
+        ],
+        "from": "499",
+        "prices": "Starting at $499 USD per passenger in double occupancy at 3-star hotels. Rates vary depending on hotel and travel dates.",
+        "additional": "<strong>LUGGAGE POLICY FOR TRAIN:</strong><br>1 small bag or backpack up to 5 kg / 11 lb, with total linear dimensions not exceeding 62 in (height + length + width).<br><br><strong>IMPORTANT:</strong> Train service includes a bimodal connection: bus from Cusco to Ollantaytambo + train to Aguas Calientes.",
+        "optional": [
+          "Upgrade to Vistadome train (ask for pricing)",
+          "Additional night in Cusco",
+          "Entrance to Cusco Cathedral",
+          "International travel insurance"
+        ],
+        "politics": [
+          "Rates are per person in USD.",
+          "Prices subject to availability at time of booking.",
+          "Cancellations may incur penalties depending on the date.",
+          "Reservations require full or partial payment to confirm.",
+          "Unused services are non-refundable.",
+          "Andean Elite is not responsible for weather changes or external events beyond control."
+        ],
+        "images": [
+          {
+            "alt": "Panoramic view of Machu Picchu and Cusco city during a 3-day trip",
+            "src": "assets/img/ways-to-travel/styles/3d2n-cusco-fugaz.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-machu-sacredvalley-3d2n": {
+        "id": "cusco-machu-sacredvalley-3d2n",
+        "title": "Cusco, Machu Picchu y Valle Sagrado",
+        "subtitle": "3 Días / 2 Noches – Experiencia Completa",
+        "description": "Vive la magia de Cusco, el Valle Sagrado de los Incas y la majestuosa Machu Picchu en solo 3 días. Incluye tours guiados, alojamiento de calidad, alimentación, boletos de tren y asistencia completa.",
+        "whyChooseUs": [
+          "Incluye tanto el Valle Sagrado como Machu Picchu en un solo viaje.",
+          "Alojamiento con desayuno incluido.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional en español o inglés.",
+          "Asistencia personalizada durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – VALLE SAGRADO\nRecepción en Cusco y traslado al hotel. A las 7:30 a.m. inicia el tour al Valle Sagrado. Visita a las ruinas de Pisaq y su mercado artesanal, almuerzo buffet en Urubamba, y recorrido por la fortaleza de Ollantaytambo. Regreso a Cusco y pernocte.",
+          "DÍA 2: MACHU PICCHU\nTraslado temprano a la estación de tren hacia Aguas Calientes. Bus a la cima de Machu Picchu y tour guiado de 3 horas por sus zonas más emblemáticas como el Templo del Sol, el Intihuatana y la Roca Sagrada. Almuerzo en Aguas Calientes y retorno en tren. Pernocte en Cusco.",
+          "DÍA 3: CUSCO OUT\nDesayuno en el hotel. Mañana libre para explorar Cusco. A la hora indicada, traslado al aeropuerto."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados: aeropuerto de Cusco – hotel – aeropuerto",
+          "2 noches de alojamiento en Cusco con desayuno",
+          "Full Day Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren: Expedition o The Voyager",
+          "Entradas turísticas",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "501",
+        "prices": "Desde $501 USD por pasajero en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>NOTA:</strong> El servicio de tren es bimodal (bus de Cusco a Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas sujetas a disponibilidad y confirmación al momento de la reserva.",
+          "Todos los precios están en USD por persona.",
+          "Programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Se acepta pago con tarjeta de crédito. No hay recargo usando SafetyPay.",
+          "Los horarios de check-in y check-out de los hoteles deben respetarse.",
+          "Los hoteles están sujetos a disponibilidad y pueden variar sin previo aviso.",
+          "Los hoteles se reservan el derecho de asignar la ubicación de las habitaciones.",
+          "Actuamos únicamente como intermediarios entre los proveedores locales y el viajero.",
+          "No nos responsabilizamos por retrasos o cambios causados por factores externos (clima, huelgas, fuerza mayor).",
+          "Los documentos de viaje (visas, pruebas médicas, etc.) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV si se prestan fuera de Perú. Si se solicita factura, se aplicará el IGV correspondiente.",
+          "Los traslados son en servicio compartido. El pasajero debe respetar los horarios y puntos de encuentro para evitar perder el servicio sin derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado en un tour de 3 días",
+            "src": "assets/img/ways-to-travel/styles/3d2-cusco-machu-picchu-valle-sagrado.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-supervalley-3d2n": {
+        "id": "cusco-supervalley-3d2n",
+        "title": "Programa Cusco & Super Valle",
+        "subtitle": "3 Días / 2 Noches – City Tour, Valle Sagrado y Machu Picchu",
+        "description": "Descubre lo mejor de Cusco, el Super Valle Sagrado y Machu Picchu en solo 3 días. Este paquete completo incluye tours guiados, alojamiento, alimentación, tren y asistencia personalizada.",
+        "whyChooseUs": [
+          "Incluye City Tour, Valle Sagrado y Machu Picchu en un solo viaje.",
+          "Alojamiento con desayuno en hoteles seleccionados.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional bilingüe (español o inglés).",
+          "Boletos de tren Expedition o The Voyager incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR & PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto de Cusco y traslado al hotel. A las 12:30 p.m. iniciaremos el recorrido por el centro histórico: visita a la Catedral, Templo de Qoricancha y las ruinas arqueológicas de Sacsayhuamán y Qenqo. Retorno al hotel y pernocte.",
+          "DÍA 2: SUPER VALLE SAGRADO\nRecojo del hotel entre las 6:30 y 7:00 a.m. Iniciamos en Chinchero con su templo colonial y palacio incaico, luego Moray (laboratorio agrícola inca) y las salineras de Maras. Continuamos a Urubamba para almuerzo buffet. Luego visitamos la fortaleza de Ollantaytambo y el sitio arqueológico y mercado de Pisaq. Retorno a Cusco con recuerdos inolvidables.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje a Aguas Calientes y bus a la cima de Machu Picchu. Tour guiado de 3 horas por los principales sitios como el Templo del Sol, Intihuatana y la Roca Sagrada. Tiempo libre y almuerzo en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 4: CUSCO OUT\nDesayuno. Tiempo libre para explorar mercados locales o descansar. Traslado al aeropuerto en el horario programado."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados: aeropuerto de Cusco – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour por Cusco y Parque Arqueológico",
+          "Full Day Super Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren: Expedition o The Voyager",
+          "Entradas a los atractivos turísticos",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y gastos personales",
+          "Propinas y gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "632",
+        "prices": "Desde $632 USD por persona en base doble en hoteles categoría 4 estrellas. Tarifas pueden variar según hotel y temporada.",
+
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren Expedition y Vistadome es bimodal (bus a Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD y sujetas a confirmación al momento de reservar.",
+          "Precios pueden variar según disponibilidad de hotel y fechas de viaje.",
+          "Los programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Pago con tarjeta Visa aceptado. No hay recargo mediante SafetyPay.",
+          "Respetar horarios de check-in y check-out de los hoteles.",
+          "Disponibilidad hotelera sujeta a cambios sin previo aviso.",
+          "Asignación de habitaciones según disponibilidad al momento de llegada.",
+          "Actuamos únicamente como intermediarios entre los proveedores de servicios y el viajero.",
+          "No nos responsabilizamos por eventos de fuerza mayor, retrasos, pérdidas o accidentes.",
+          "Los documentos de viaje (pasaporte, visas, vacunas) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV si se prestan fuera del Perú. Facturación puede incluir IGV.",
+          "Los traslados son en servicio compartido. El pasajero debe ser puntual y esperar en los puntos indicados. No se reembolsa por pérdida de servicio por retraso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado con city tour en Cusco",
+            "src": "assets/img/ways-to-travel/styles/3d2n-cusco-super-valle.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-exotic-4d3n": {
+        "id": "cusco-exotic-4d3n",
+        "title": "Programa Cusco Exótico",
+        "subtitle": "4 Días / 3 Noches – City Tour, Machu Picchu y Montaña de 7 Colores",
+        "description": "Explora lo mejor de Cusco en esta experiencia de 4 días que incluye la ciudad histórica, el parque arqueológico, la maravilla de Machu Picchu y la colorida Montaña de 7 Colores. Incluye alojamiento, comidas, transporte y guías profesionales.",
+        "whyChooseUs": [
+          "Incluye City Tour y parque arqueológico.",
+          "Visita a Machu Picchu con almuerzo y boletos de tren.",
+          "Excursión de día completo a la Montaña de 7 Colores con desayuno y almuerzo.",
+          "Guías profesionales bilingües (español o inglés).",
+          "Asistencia completa durante toda tu estadía."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m. iniciaremos el tour por la ciudad visitando la Catedral, el Templo del Qoricancha y las ruinas de Sacsayhuamán y Qenqo. Retorno al hotel para descansar.",
+          "DÍA 2: MACHU PICCHU\nMuy temprano, traslado a la estación de tren para el viaje a Aguas Calientes. Desde allí, tomaremos un bus hasta la cima de Machu Picchu. Disfrutaremos de una visita guiada de 3 horas por los puntos más emblemáticos: Templo del Sol, Intihuatana, Roca Sagrada y más. Almuerzo en Aguas Calientes. Retorno en tren a Cusco. Pernocte en el hotel.",
+          "DÍA 3: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. y traslado hacia la base del Nevado Ausangate. Parada en Cusipata para desayunar. Luego iniciaremos una caminata de aproximadamente 3 horas con guía profesional hacia la Montaña de los 7 Colores. Después de la visita, regresamos a Cusipata para almorzar. Llegada al hotel en Cusco aproximadamente a las 4:30 p.m.",
+          "DÍA 4: CUSCO OUT\nDesayuno y tiempo libre. A la hora coordinada, traslado al aeropuerto para tu vuelo de salida."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour y Parque Arqueológico",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Tren Expedition o turista ida y vuelta",
+          "Full Day Montaña de 7 Colores con desayuno y almuerzo",
+          "Entradas turísticas",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "615",
+        "prices": "Desde $615 USD por persona en base doble. Tarifas varían según la categoría del hotel y la temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila pequeña de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los servicios de tren Expedition y Vistadome son bimodales (bus hasta Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a disponibilidad al momento de la reserva.",
+          "Los programas no son reembolsables, no transferibles y no permiten cambios.",
+          "Pagos con tarjeta Visa mediante SafetyPay sin recargo adicional.",
+          "Se deben respetar los horarios de check-in y check-out establecidos por los hoteles.",
+          "La disponibilidad hotelera puede variar sin previo aviso.",
+          "La asignación de habitaciones está sujeta a disponibilidad al momento del check-in.",
+          "Andean Elite actúa únicamente como intermediario entre proveedores y clientes.",
+          "No nos responsabilizamos por retrasos, accidentes o eventos de fuerza mayor.",
+          "Los pasajeros son responsables de sus documentos de viaje personales.",
+          "Los servicios están exonerados del IGV salvo que se requiera facturación dentro del Perú.",
+          "Los traslados son compartidos; los pasajeros deben respetar el punto y hora de encuentro. Perder el traslado no da derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu, la Montaña de 7 Colores y city tour en Cusco",
+            "src": "assets/img/ways-to-travel/styles/4d3n-cusco-exotico.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-unforgettable-4d3n": {
+        "id": "cusco-unforgettable-4d3n",
+        "title": "Programa Cusco Inolvidable",
+        "subtitle": "4 Días / 3 Noches – City Tour, Valle Sagrado y Machu Picchu",
+        "description": "Explora los sitios más icónicos de Cusco en esta experiencia de 4 días, que incluye un city tour, el Valle Sagrado de los Incas y la maravilla de Machu Picchu. Una inmersión cultural y escénica completa.",
+        "whyChooseUs": [
+          "Incluye lo mejor de Cusco: city tour, Valle Sagrado y Machu Picchu.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Boletos de tren Expedition o categoría turista incluidos.",
+          "Guía profesional bilingüe (español o inglés).",
+          "Asistencia completa durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel seleccionado. A las 12:30 p.m. iniciamos el tour visitando la Catedral, el Templo de Qoricancha y las ruinas de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nRecojo del hotel a las 7:30 a.m. Visita al sitio arqueológico y mercado artesanal de Pisaq. Continuamos por el río Vilcanota hasta Urubamba para disfrutar de un almuerzo buffet. Por la tarde, exploramos la impresionante fortaleza de Ollantaytambo. Retorno a Cusco y pernocte en el hotel.",
+          "DÍA 3: MACHU PICCHU\nSalida temprana hacia la estación de tren. Viaje a Aguas Calientes y luego bus hasta la cima de Machu Picchu. Visita guiada de 3 horas recorriendo el Templo del Sol, el Intihuatana, la Roca Sagrada y más. Tiempo libre, almuerzo en Aguas Calientes y retorno a Cusco.",
+          "DÍA 4: CUSCO OUT\nDesayuno en el hotel. Mañana libre para explorar a tu ritmo. Traslado al aeropuerto en el horario coordinado."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour y Parque Arqueológico",
+          "Tour al Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o estándar",
+          "Entradas a los sitios turísticos",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos de avión internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "601",
+        "prices": "Desde $601 USD por persona en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila pequeña de hasta 5 kg / 11 lb, con un máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en servicio bimodal: bus hasta Ollantaytambo y tren hasta Aguas Calientes.",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas expresadas en USD por persona y sujetas a confirmación.",
+          "Los precios deben confirmarse al momento de reservar.",
+          "Los programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Pagos con tarjeta Visa vía SafetyPay sin recargo adicional.",
+          "Se deben respetar los horarios de check-in y check-out.",
+          "La disponibilidad hotelera puede variar sin previo aviso.",
+          "Los hoteles asignan habitaciones según disponibilidad al momento de llegada.",
+          "Andean Elite actúa únicamente como intermediario entre proveedores y clientes.",
+          "No nos responsabilizamos por fuerza mayor, retrasos o accidentes fuera de nuestro control.",
+          "Los pasajeros son responsables de sus documentos de viaje personales (visas, vacunas, etc.).",
+          "Los servicios están exonerados del IGV salvo que se requiera factura con impuesto.",
+          "Los traslados son compartidos y requieren puntualidad; la inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Cusco, el Valle Sagrado y Machu Picchu en un paquete de 4 días",
+            "src": "assets/img/ways-to-travel/styles/4d3n-cusco-inolvidable.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-majestic-5d4n": {
+        "id": "cusco-majestic-5d4n",
+        "title": "Programa Cusco Majestuoso",
+        "subtitle": "5 Días / 4 Noches – City Tour, Valle Sagrado, Machu Picchu y Maras & Moray",
+        "description": "Disfruta lo mejor de Cusco y sus alrededores con este completo programa de 5 días. Descubre la historia de la ciudad, Machu Picchu, el Valle Sagrado y los increíbles paisajes de Maras y Moray.",
+        "whyChooseUs": [
+          "Incluye las principales atracciones: City Tour, Valle Sagrado, Machu Picchu, Maras y Moray.",
+          "Almuerzos buffet en el Valle Sagrado y Aguas Calientes incluidos.",
+          "Boletos de tren ida y vuelta (Expedition o Turista) a Machu Picchu.",
+          "Guía profesional bilingüe (español/inglés).",
+          "Asistencia personalizada durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto de Cusco y traslado al hotel seleccionado. A las 12:30 p.m. inicia el city tour visitando la Catedral, el Templo de Qoricancha y los sitios arqueológicos de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nDesayuno en el hotel. A las 7:30 a.m. visitamos las ruinas y mercado artesanal de Pisaq. Luego, almuerzo buffet en Urubamba. Por la tarde, exploramos el complejo arqueológico de Ollantaytambo. Retorno al hotel en Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje hacia Aguas Calientes y subida en bus a Machu Picchu. Tour guiado de 3 horas por la ciudadela, incluyendo el Templo del Sol, el Intihuatana y más. Tiempo libre y almuerzo en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 4: MARAS & MORAY\nRecojo en el hotel a las 8:10 a.m. Visita a las salineras de Maras y luego a las terrazas circulares de Moray, una muestra de la ingeniería agrícola inca. Regreso al hotel en Cusco.",
+          "DÍA 5: CUSCO OUT\nDesayuno y mañana libre para explorar la ciudad. A la hora programada, traslado al aeropuerto."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayunos",
+          "City Tour y Parque Arqueológico",
+          "Tour de día completo al Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta a Machu Picchu (Expedition o Turista)",
+          "Tour a Salineras de Maras y terrazas circulares de Moray",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos de avión internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no especificadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "666",
+        "prices": "Desde $666 USD por persona en base doble en hoteles 4 estrellas. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en modalidad bimodal: bus desde Cusco hasta Ollantaytambo y tren hacia Aguas Calientes.",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a confirmación al momento de la reserva.",
+          "Los programas no son reembolsables, no endosables ni transferibles.",
+          "Pagos con tarjeta Visa aceptados. SafetyPay sin recargos.",
+          "Se deben respetar los horarios de check-in y check-out del hotel.",
+          "La disponibilidad hotelera puede cambiar sin previo aviso.",
+          "La asignación de habitaciones depende de la disponibilidad al llegar.",
+          "Andean Elite actúa como intermediario y no se responsabiliza por eventos externos o demoras.",
+          "No nos responsabilizamos por pérdidas, accidentes o casos de fuerza mayor.",
+          "Los documentos de viaje (visas, requisitos médicos, etc.) son responsabilidad del pasajero.",
+          "Los servicios están exentos de IGV salvo que se solicite factura, en cuyo caso se aplica el impuesto.",
+          "Traslados en servicio compartido. Se requiere puntualidad; la inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vistas panorámicas de Machu Picchu, salineras de Maras y el Valle Sagrado en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-majestuoso.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-wonderful-5d4n": {
+        "id": "cusco-wonderful-5d4n",
+        "title": "Programa Cusco Maravilloso",
+        "subtitle": "5 Días / 4 Noches – City Tour, Machu Picchu, Montaña de 7 Colores y Laguna Humantay",
+        "description": "Sumérgete en la belleza natural y cultural de Cusco. Descubre Machu Picchu, camina hacia la famosa Montaña de 7 Colores y la Laguna Humantay, y explora el corazón del Imperio Inca en 5 días inolvidables.",
+        "whyChooseUs": [
+          "Itinerario completo que cubre las principales atracciones de Cusco.",
+          "Incluye City Tour, Machu Picchu, Montaña de 7 Colores y Laguna Humantay.",
+          "Alojamiento con desayuno, tours guiados y entradas incluidas.",
+          "Almuerzos buffet y regionales incluidos en los tours de día completo.",
+          "Guías bilingües profesionales y asistencia 24/7."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto de Cusco y traslado al hotel. A las 12:30 p.m., iniciamos el recorrido visitando la Catedral, el Templo de Qoricancha y los sitios arqueológicos de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje hacia Aguas Calientes y subida en bus a Machu Picchu. Tour guiado de 3 horas por la ciudadela, con tiempo libre para explorar y tomar fotos. Almuerzo en Aguas Calientes y retorno a Cusco. Pernocte.",
+          "DÍA 3: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. Viaje hacia Cusipata para desayuno. Caminata de 3 horas hacia la Montaña de 7 Colores junto al guía, quien compartirá información cultural sobre los Andes. Almuerzo en Cusipata y retorno a Cusco alrededor de las 4:30 p.m.",
+          "DÍA 4: LAGUNA HUMANTAY\nRecojo entre 4:00 y 4:40 a.m. Desayuno en Mollepata y continuación hasta Soraypampa. Caminata de aproximadamente 1h30min hacia la Laguna Humantay. Tiempo libre para disfrutar del paisaje y ceremonia tradicional. Retorno a Mollepata para el almuerzo y regreso a Cusco a las 6:30 p.m.",
+          "DÍA 5: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayuno",
+          "City Tour con ingreso a parque arqueológico",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o categoría Turista",
+          "Full Day Montaña de 7 Colores con desayuno y almuerzo",
+          "Full Day Laguna Humantay con almuerzo",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español/inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y nacionales",
+          "Early check-in y late check-out en el hotel",
+          "Seguro de viaje",
+          "Comidas no especificadas y propinas",
+          "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "710",
+        "prices": "Desde $710 USD por persona en base doble en hoteles 4 estrellas. Tarifas sujetas a variación según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un total de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en modalidad bimodal (bus hasta Ollantaytambo + tren a Aguas Calientes y retorno).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Precios por persona en USD. Sujetos a confirmación al momento de la reserva.",
+          "Programas no reembolsables, no endosables ni transferibles.",
+          "Pagos con tarjeta Visa aceptados. SafetyPay sin recargo.",
+          "Respetar los horarios de check-in y check-out en todos los hoteles.",
+          "Hoteles sujetos a disponibilidad y posibles cambios sin previo aviso.",
+          "Asignación de habitaciones según disponibilidad al momento del check-in.",
+          "Andean Elite actúa como intermediario y no se responsabiliza por demoras o factores externos.",
+          "No nos hacemos responsables por retrasos, fuerza mayor o pérdidas personales.",
+          "Los documentos de viaje (pasaporte, visas, vacunas) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV salvo que se requiera factura, en cuyo caso se aplicará el impuesto.",
+          "Traslados en servicio compartido. El pasajero debe presentarse puntualmente en el lugar y hora indicados. Inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Laguna Humantay, Montaña de 7 Colores y Machu Picchu en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-maravilloso.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-multicolor-5d4n": {
+        "id": "cusco-multicolor-5d4n",
+        "title": "Programa Cusco Multicolor",
+        "subtitle": "5 Días / 4 Noches – City Tour, Valle Sagrado, Machu Picchu y Montaña de 7 Colores",
+        "description": "Vive la esencia vibrante de Cusco en 5 días inolvidables. Este tour completo incluye el Valle Sagrado, el majestuoso Machu Picchu y la impresionante Montaña de 7 Colores, con alojamiento y todos los servicios clave incluidos.",
+        "whyChooseUs": [
+          "Itinerario completo de 5 días con las principales atracciones de Cusco.",
+          "Incluye Machu Picchu, Valle Sagrado, Montaña de 7 Colores y parques arqueológicos.",
+          "Entradas, tours guiados y desayunos en hotel incluidos.",
+          "Almuerzos buffet y traslados in/out para las excursiones.",
+          "Atención personalizada y guías profesionales bilingües."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m., tour guiado por el centro histórico: Catedral del Cusco, Templo de Qoricancha, parque arqueológico de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nDesayuno en el hotel. Salida a las 7:30 a.m. para visitar Pisaq y su mercado artesanal. Almuerzo buffet en Urubamba. Luego, visita a la fortaleza de Ollantaytambo. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje a Aguas Calientes y bus a Machu Picchu. Tour guiado de 3 horas por los principales atractivos como el Templo del Sol e Intihuatana. Tiempo libre para fotos. Almuerzo en Aguas Calientes y regreso a Cusco. Pernocte.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. y traslado a Cusipata para desayuno. Caminata guiada de 3 horas hacia la Montaña de 7 Colores. Disfruta de los paisajes y aprende sobre la zona. Almuerzo en Cusipata y retorno al hotel hacia las 4:30 p.m.",
+          "DÍA 5: CUSCO OUT\nDesayuno en el hotel y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayunos",
+          "City Tour de Cusco con ingreso al parque arqueológico",
+          "Tour de día completo al Valle Sagrado + almuerzo buffet",
+          "Tour de día completo a Machu Picchu + almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o clase Turista",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español / inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y domésticos",
+          "Early check-in o late check-out en el hotel",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, atención médica, etc.)",
+          "Ingreso a la Catedral de Cusco"
+        ],
+        "from": "696",
+        "prices": "Desde $696 USD por persona en base doble en hoteles 4 estrellas. Tarifas pueden variar según el hotel y la temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 mochila o bolso pequeño de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren es bimodal (bus hasta Ollantaytambo + tren a Aguas Calientes y viceversa).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a confirmación.",
+          "Los precios deben confirmarse al momento de la reserva.",
+          "Los programas no son modificables, ni reembolsables, ni transferibles.",
+          "Pago con Visa o Safety Pay sin recargo.",
+          "Los horarios de check-in/check-out del hotel deben respetarse.",
+          "La asignación de habitaciones depende de la disponibilidad al momento del check-in.",
+          "Andean Elite actúa únicamente como intermediario y no se responsabiliza por retrasos externos.",
+          "No somos responsables por fuerza mayor, accidentes o pérdidas fuera de nuestro control.",
+          "Los documentos de viaje y requisitos de salud son responsabilidad exclusiva del pasajero.",
+          "Los servicios están exonerados de IGV si son ventas internacionales; si se requiere factura local, se aplicará el impuesto.",
+          "Los traslados son regulares (compartidos). El pasajero debe ser puntual. No-show no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vistas panorámicas de Machu Picchu y Montaña de 7 Colores en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-multicolor.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-spectacular-6d5n": {
+        "id": "cusco-spectacular-6d5n",
+        "title": "Programa Cusco Espectacular",
+        "subtitle": "06 Días / 05 Noches – City Tour, Super Valle, Machu Picchu, Vinicunca y Valle Sur",
+        "description": "Descubre Cusco con este itinerario de 6 días que combina lo mejor de la ciudad, sitios arqueológicos, naturaleza y la maravilla de Machu Picchu. Incluye tours guiados, alojamiento, comidas y transporte.",
+        "whyChooseUs": [
+          "Incluye visitas a Machu Picchu, Montaña de 7 Colores, Valle Sur y más.",
+          "5 noches de alojamiento con desayuno incluido.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional bilingüe (español o inglés) durante todo el viaje.",
+          "Entradas, transporte, trenes y asistencia completa incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m., visita a la Catedral, Templo de Qoricancha, Sacsayhuamán y Qenqo.",
+          "DÍA 2: SUPER VALLE SAGRADO\nSalida a las 6:30 a.m. Visita a Chinchero, Moray, Salineras de Maras, almuerzo buffet en Urubamba, ruinas de Ollantaytambo y mercado de Pisac. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nViaje temprano hacia Aguas Calientes. Tour guiado de 3 horas por Machu Picchu, incluyendo Templo del Sol, Intihuatana, Roca Sagrada. Almuerzo y retorno a Cusco.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. Desayuno en Cusipata y caminata de 3 horas hacia Vinicunca con guía. Almuerzo y retorno a Cusco a las 16:30 horas.",
+          "DÍA 5: VALLE SUR\nTour a Tipón, Pikillaqta y Andahuaylillas. Disfruta del paisaje andino y la historia preincaica y colonial. Regreso a Cusco por la tarde.",
+          "DÍA 6: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora coordinada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados aeropuerto – hotel – aeropuerto en Cusco",
+          "5 noches de alojamiento con desayunos",
+          "City Tour + Parque Arqueológico",
+          "Full Day Super Valle con almuerzo buffet",
+          "Full Day Machu Picchu + almuerzo en Aguas Calientes",
+          "Tren Expedition o Turista (ida y vuelta)",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Excursión al Valle Sur",
+          "Entradas a los sitios turísticos",
+          "Guía profesional en español o inglés",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "795",
+        "prices": "Desde $795 USD por persona en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, máximo 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Servicio bimodal: bus de Cusco a Ollantaytambo + tren a Aguas Calientes (ida y vuelta).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32 por persona",
+          "Almuerzo en Café Inkaterra – $6 por persona",
+          "Noche adicional en Cusco",
+          "Guía privado en Machu Picchu"
+        ],
+        "politics": [
+          "Tarifas en USD por persona, sujetas a disponibilidad.",
+          "Precios deben confirmarse al momento de la reserva.",
+          "Programas no reembolsables, no transferibles y no permiten cambios.",
+          "Pago con tarjeta Visa o SafetyPay sin recargo.",
+          "Horarios de check-in y check-out deben respetarse.",
+          "Hoteles sujetos a disponibilidad sin previo aviso.",
+          "El hotel asigna habitaciones según disponibilidad a la llegada.",
+          "Andean Elite actúa como intermediario entre operadores y pasajeros.",
+          "No se asume responsabilidad por demoras, clima u otros factores externos.",
+          "Pasajeros son responsables de sus documentos de viaje.",
+          "Servicios exentos de IGV; si se requiere factura, se aplicará el IGV correspondiente.",
+          "Traslados compartidos, el pasajero debe respetar horarios o perderá el servicio sin derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Paisajes andinos y Machu Picchu en tour Cusco Espectacular 6 días",
+            "src": "assets/img/ways-to-travel/styles/6d5n-cusco-espectacular.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "complete-cusco-7d6n": {
+        "id": "complete-cusco-7d6n",
+        "title": "Programa Cusco al Completo",
+        "subtitle": "07 Días / 06 Noches – Valle Sagrado, Machu Picchu, Montaña de 7 Colores y Más",
+        "description": "Vive la experiencia más completa de Cusco con esta aventura de 7 días. Incluye City Tour, Valle Sagrado, Machu Picchu, Vinicunca, Laguna Humantay y Valle Sur. Ideal para quienes lo quieren todo.",
+        "whyChooseUs": [
+          "Seis noches de alojamiento en Cusco con desayuno diario incluido.",
+          "Inmersión cultural total con city tour y parques arqueológicos.",
+          "Excursiones a Machu Picchu, Laguna Humantay y Montaña de 7 Colores.",
+          "Explora el Valle Sagrado, el Valle Sur y joyas ocultas incas.",
+          "Todo el transporte, trenes, entradas y guía profesional incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto y traslado al hotel. Visita a la Catedral del Cusco, el Templo de Qoricancha y sitios arqueológicos como Sacsayhuamán y Qenqo.",
+          "DÍA 2: SUPER VALLE SAGRADO\nVisita a Chinchero, terrazas de Moray, salineras de Maras, almuerzo buffet en Urubamba, ruinas de Ollantaytambo y mercado de Pisac. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Tour guiado por la ciudadela incluyendo el Templo del Sol y la Roca Sagrada. Tiempo libre. Almuerzo en Aguas Calientes y regreso a Cusco.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nSalida a las 4:30 a.m. Caminata por los Andes con desayuno en Cusipata. Visita a Vinicunca con guía. Retorno y almuerzo en Cusipata. Regreso a Cusco.",
+          "DÍA 5: LAGUNA HUMANTAY\nRecojo temprano hacia Mollepata para desayuno. Caminata hacia la Laguna Humantay (1h30 de ascenso). Ceremonia de gratitud a los Apus. Almuerzo en Mollepata y regreso a Cusco.",
+          "DÍA 6: VALLE SUR\nDesayuno y tour a Tipón (sitio ceremonial inca), Pikillaqta (ciudad preinca Wari) e Iglesia de Andahuaylillas (la Capilla Sixtina de América). Retorno a Cusco por la tarde.",
+          "DÍA 7: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados aeropuerto de Cusco – hotel – aeropuerto",
+          "6 noches de alojamiento con desayuno incluido",
+          "City Tour + Parque Arqueológico",
+          "Full Day Super Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Tren ida y vuelta categoría Expedition o Turista",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Full Day Laguna Humantay + desayuno y almuerzo",
+          "Full Day tour al Valle Sur",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "890",
+        "prices": "Desde $890 USD por persona en base doble en hoteles 4 estrellas. Precios varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, máximo 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren es bimodal: bus de Cusco a Ollantaytambo y tren a Aguas Calientes (ida y retorno).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32 por persona",
+          "Almuerzo en Café Inkaterra – $6 por persona",
+          "Noche adicional en Cusco",
+          "Tour privado a Machu Picchu"
+        ],
+        "politics": [
+          "Tarifas en USD por persona.",
+          "Precios sujetos a disponibilidad al momento de la reserva.",
+          "Programas no reembolsables, no transferibles y no endosables.",
+          "Reservas confirmadas con pago total o parcial.",
+          "Servicios no utilizados no son reembolsables.",
+          "Andean Elite no se responsabiliza por clima o factores externos.",
+          "Documentos y requisitos de viaje son responsabilidad del pasajero.",
+          "Servicios exonerados de IGV; si se requiere factura con IGV, se aplicará el impuesto.",
+          "Traslados en servicio compartido; el pasajero debe respetar horarios y puntos de encuentro."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Cusco, Machu Picchu y el Valle Sagrado en un tour completo de 7 días",
+            "src": "assets/img/ways-to-travel/styles/7d6n-cusco-al-completo.webp",
+            "width": 1200
+          }
+        ]
+      }
+    },
+    "DELUXE":{
+      "cusco-sunrise":{
+        "id": "cusco-sunrise",
+        "title": "3D2N Cusco Amanecer",
+        "subtitle": "Explora la majestuosa ciudad de Cusco y la maravilla de Machu Picchu en 3 días y 2 noches.",
+        "description": "Descubre la magia de Cusco y Machu Picchu en un viaje inolvidable de 3 días. Disfruta de alojamiento, visitas guiadas, transporte completo y asistencia personalizada en todo momento.",
+        "whyChooseUs": [
+          "Asistencia personalizada durante todo el viaje.",
+          "Incluye tren Expedition o The Voyager.",
+          "Guías profesionales en español o inglés.",
+          "Entradas a los principales atractivos incluidas.",
+          "Alojamiento con desayuno incluido."
+        ],
+        "itinerary": [
+          "DÍA 01: CUSCO IN\nRecepción y traslado al hotel elegido. Resto del día libre para aclimatación. Pernocte.",
+          "DÍA 02: MACHU PICCHU\nAl amanecer, nos dirigiremos hacia la estación de trenes para iniciar el viaje hacia Aguas Calientes. Visitaremos Machu Picchu con guía profesional durante 3 horas y luego almorzaremos en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 03: CUSCO OUT\nDesayuno en el hotel. Mañana libre y traslado al aeropuerto a la hora coordinada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslado en Cusco aeropuerto – hotel – aeropuerto",
+          "2 noches de alojamiento en Cusco + desayunos",
+          "Full Day Machu Picchu + almuerzo en Aguas Calientes",
+          "Tren Expedition o The Voyager",
+          "Entradas turísticas",
+          "Guía profesional (español o inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Tickets aéreos nacionales",
+          "Tickets aéreos internacionales",
+          "Alimentación no especificada",
+          "Seguro de viaje",
+          "Propinas"
+        ],
+        "from": "541",
+        "prices": "Hoteles Categoria 5* desde $541 habitación doble",
+        "additional": "<strong>ADICIONALES</strong><br>\nSuplemento para pasajero viajando solo: <strong>USD $39.00</strong><br><br>\n\n<strong>Trenes ida o retorno:</strong><br>\nVistadome o The 360° Bimodal: <strong>USD $47.00 ADT</strong> | <strong>USD $29.00 CHD</strong><br>\nVistadome Observatory o Premium & Lounge Bimodal: <strong>USD $72.00 ADT</strong> | <strong>USD $50.00 CHD</strong><br><br>\n\n<strong>Alimentación & upgrade:</strong><br>\nAlmuerzo en Café Inkaterra: <strong>USD $6.00</strong><br>\nAlmuerzo en Sanctuary Lodge: <strong>USD $31.00</strong><br>\nAlmuerzo en Sumaq Machu Picchu: <strong>USD $63.00</strong><br>\nCusco: Cena Menú* + Show Folklórico en el Restaurante Tunupa: <strong>USD $29.00</strong><br>\n<em>Menú: Comprende 3 opciones gourmet a elegir y el famoso pisco sour TUNUPA de cortesía.</em>\n",
+        "optional": [
+          "Trenes Vistadome o The 360° Bimodal",
+          "Trenes Vistadome Observatory o Premium & Lounge Bimodal",
+          "Almuerzo en Café Inkaterra",
+          "Almuerzo en Sanctuary Lodge",
+          "Almuerzo en Sumaq Machu Picchu",
+          "Cena Menú + Show Folklórico en el Restaurante Tunupa"
+        ],
+        "politics": [
+          "Pagos con SAFETYPAY: recargo del 1%.",
+          "Pagos con tarjeta vía NIUBIS/VISANET: recargo del 3%.",
+          "Pagos con Mercado Pago: recargo del 2.5%.",
+          "Entradas a Machu Picchu: acceso al Circuito 2 hasta las 13:00 hrs. Sujetos a disponibilidad. Cambios no permitidos.",
+          "Restricciones en Semana Santa, 25 de diciembre y 24 de junio.",
+          "Cancelaciones de trenes: penalidad del 10%, solicitud con 72h de anticipación.",
+          "Recomendaciones: llevar calzado cómodo, repelente, linterna, abrigo, entre otros.",
+          "Menores: Infantes (0-2 años) no pagan. Niños (2-8 años) tarifa CHD con desayuno. Junior (9-17 años) con suplemento.",
+          "Reservas individuales: datos 30 días antes, pago total 25 días antes.",
+          "Reservas grupales: lista preliminar 60 días antes, pagos del 50% a 50 y 25 días antes.",
+          "Cancelaciones individuales: pueden generar costos según proveedor.",
+          "Cancelaciones grupales: hasta 60 días sin penalidad, luego hasta 100% según fecha.",
+          "Andean Elite no se responsabiliza por servicios no prestados por causas externas.",
+          "Precios aplican solo si se reservan todos los servicios con Andean Elite.",
+          "No válido en temporadas altas: Semana Santa, Inti Raymi, Fiestas Patrias, Año Nuevo, etc."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu al amanecer con tren Expedition y ciudad de Cusco",
+            "src": "assets/img/ways-to-travel/styles/super-deals/3d2n-cusco-machupicchu-tren-ciudad.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-fugaz-3d2n": {
+        "id": "cusco-fugaz-3d2n",
+        "title": "Cusco Express Program",
+        "subtitle": "3 Days / 2 Nights – City Tour & Machu Picchu",
+        "description": "Discover the essence of Cusco in a 3-day trip including a guided City Tour, a full-day visit to Machu Picchu, and hotel accommodation. Ideal for travelers seeking a complete experience in a short time.",
+        "whyChooseUs": [
+          "Accommodation with breakfast in selected hotels.",
+          "City Tour and visits to major Inca archaeological sites.",
+          "Excursion to Machu Picchu with a professional guide.",
+          "Includes lunch in Aguas Calientes.",
+          "Transport, train, and full assistance throughout the trip."
+        ],
+        "itinerary": [
+          "DAY 1: CUSCO IN – CITY TOUR & SURROUNDINGS\nReception at the airport and transfer to the hotel. In the afternoon, we visit the Cathedral, Qoricancha Temple, and the impressive ruins of Sacsayhuamán and Qenqo. Return to the hotel.",
+          "DAY 2: MACHU PICCHU\nTransfer to the train station. Guided tour of Machu Picchu (approx. 3 hours). Free time, then lunch in Aguas Calientes. Return to Cusco and overnight stay.",
+          "DAY 3: CUSCO OUT\nBreakfast at the hotel. Free morning. Transfer to the airport at the scheduled time."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Transfers in Cusco: airport – hotel – airport",
+          "2 nights of accommodation in Cusco with breakfast",
+          "Half-day City Tour & Archaeological Park visit",
+          "Full-day tour to Machu Picchu + lunch in Aguas Calientes",
+          "Train tickets: Expedition or The Voyager",
+          "Entry tickets to all mentioned attractions",
+          "Professional guide (Spanish or English)",
+          "Personal assistance throughout the journey"
+        ],
+        "notIncluded": [
+          "International and domestic air tickets",
+          "Early check-in and late check-out at the hotel",
+          "Travel insurance",
+          "Meals not mentioned and tips",
+          "Personal expenses (drinks, laundry, etc.)",
+          "Entrance to Cusco Cathedral"
+        ],
+        "from": "600",
+        "prices": "Starting at $600 USD per passenger in double occupancy at 5-star hotels. Rates vary depending on hotel and travel dates.",
+        "additional": "<strong>LUGGAGE POLICY FOR TRAIN:</strong><br>1 small bag or backpack up to 5 kg / 11 lb, with total linear dimensions not exceeding 62 in (height + length + width).<br><br><strong>IMPORTANT:</strong> Train service includes a bimodal connection: bus from Cusco to Ollantaytambo + train to Aguas Calientes.",
+        "optional": [
+          "Upgrade to Vistadome train (ask for pricing)",
+          "Additional night in Cusco",
+          "Entrance to Cusco Cathedral",
+          "International travel insurance"
+        ],
+        "politics": [
+          "Rates are per person in USD.",
+          "Prices subject to availability at time of booking.",
+          "Cancellations may incur penalties depending on the date.",
+          "Reservations require full or partial payment to confirm.",
+          "Unused services are non-refundable.",
+          "Andean Elite is not responsible for weather changes or external events beyond control."
+        ],
+        "images": [
+          {
+            "alt": "Panoramic view of Machu Picchu and Cusco city during a 3-day trip",
+            "src": "assets/img/ways-to-travel/styles/3d2n-cusco-fugaz.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-machu-sacredvalley-3d2n": {
+        "id": "cusco-machu-sacredvalley-3d2n",
+        "title": "Cusco, Machu Picchu y Valle Sagrado",
+        "subtitle": "3 Días / 2 Noches – Experiencia Completa",
+        "description": "Vive la magia de Cusco, el Valle Sagrado de los Incas y la majestuosa Machu Picchu en solo 3 días. Incluye tours guiados, alojamiento de calidad, alimentación, boletos de tren y asistencia completa.",
+        "whyChooseUs": [
+          "Incluye tanto el Valle Sagrado como Machu Picchu en un solo viaje.",
+          "Alojamiento con desayuno incluido.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional en español o inglés.",
+          "Asistencia personalizada durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – VALLE SAGRADO\nRecepción en Cusco y traslado al hotel. A las 7:30 a.m. inicia el tour al Valle Sagrado. Visita a las ruinas de Pisaq y su mercado artesanal, almuerzo buffet en Urubamba, y recorrido por la fortaleza de Ollantaytambo. Regreso a Cusco y pernocte.",
+          "DÍA 2: MACHU PICCHU\nTraslado temprano a la estación de tren hacia Aguas Calientes. Bus a la cima de Machu Picchu y tour guiado de 3 horas por sus zonas más emblemáticas como el Templo del Sol, el Intihuatana y la Roca Sagrada. Almuerzo en Aguas Calientes y retorno en tren. Pernocte en Cusco.",
+          "DÍA 3: CUSCO OUT\nDesayuno en el hotel. Mañana libre para explorar Cusco. A la hora indicada, traslado al aeropuerto."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados: aeropuerto de Cusco – hotel – aeropuerto",
+          "2 noches de alojamiento en Cusco con desayuno",
+          "Full Day Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren: Expedition o The Voyager",
+          "Entradas turísticas",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "602",
+        "prices": "Desde $602 USD por pasajero en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>NOTA:</strong> El servicio de tren es bimodal (bus de Cusco a Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas sujetas a disponibilidad y confirmación al momento de la reserva.",
+          "Todos los precios están en USD por persona.",
+          "Programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Se acepta pago con tarjeta de crédito. No hay recargo usando SafetyPay.",
+          "Los horarios de check-in y check-out de los hoteles deben respetarse.",
+          "Los hoteles están sujetos a disponibilidad y pueden variar sin previo aviso.",
+          "Los hoteles se reservan el derecho de asignar la ubicación de las habitaciones.",
+          "Actuamos únicamente como intermediarios entre los proveedores locales y el viajero.",
+          "No nos responsabilizamos por retrasos o cambios causados por factores externos (clima, huelgas, fuerza mayor).",
+          "Los documentos de viaje (visas, pruebas médicas, etc.) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV si se prestan fuera de Perú. Si se solicita factura, se aplicará el IGV correspondiente.",
+          "Los traslados son en servicio compartido. El pasajero debe respetar los horarios y puntos de encuentro para evitar perder el servicio sin derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado en un tour de 3 días",
+            "src": "assets/img/ways-to-travel/styles/3d2-cusco-machu-picchu-valle-sagrado.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-supervalley-3d2n": {
+        "id": "cusco-supervalley-3d2n",
+        "title": "Programa Cusco & Super Valle",
+        "subtitle": "3 Días / 2 Noches – City Tour, Valle Sagrado y Machu Picchu",
+        "description": "Descubre lo mejor de Cusco, el Super Valle Sagrado y Machu Picchu en solo 3 días. Este paquete completo incluye tours guiados, alojamiento, alimentación, tren y asistencia personalizada.",
+        "whyChooseUs": [
+          "Incluye City Tour, Valle Sagrado y Machu Picchu en un solo viaje.",
+          "Alojamiento con desayuno en hoteles seleccionados.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional bilingüe (español o inglés).",
+          "Boletos de tren Expedition o The Voyager incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR & PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto de Cusco y traslado al hotel. A las 12:30 p.m. iniciaremos el recorrido por el centro histórico: visita a la Catedral, Templo de Qoricancha y las ruinas arqueológicas de Sacsayhuamán y Qenqo. Retorno al hotel y pernocte.",
+          "DÍA 2: SUPER VALLE SAGRADO\nRecojo del hotel entre las 6:30 y 7:00 a.m. Iniciamos en Chinchero con su templo colonial y palacio incaico, luego Moray (laboratorio agrícola inca) y las salineras de Maras. Continuamos a Urubamba para almuerzo buffet. Luego visitamos la fortaleza de Ollantaytambo y el sitio arqueológico y mercado de Pisaq. Retorno a Cusco con recuerdos inolvidables.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje a Aguas Calientes y bus a la cima de Machu Picchu. Tour guiado de 3 horas por los principales sitios como el Templo del Sol, Intihuatana y la Roca Sagrada. Tiempo libre y almuerzo en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 4: CUSCO OUT\nDesayuno. Tiempo libre para explorar mercados locales o descansar. Traslado al aeropuerto en el horario programado."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados: aeropuerto de Cusco – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour por Cusco y Parque Arqueológico",
+          "Full Day Super Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren: Expedition o The Voyager",
+          "Entradas a los atractivos turísticos",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y gastos personales",
+          "Propinas y gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "784",
+        "prices": "Desde $784 USD por persona en base doble en hoteles categoría 5 estrellas. Tarifas pueden variar según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren Expedition y Vistadome es bimodal (bus a Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD y sujetas a confirmación al momento de reservar.",
+          "Precios pueden variar según disponibilidad de hotel y fechas de viaje.",
+          "Los programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Pago con tarjeta Visa aceptado. No hay recargo mediante SafetyPay.",
+          "Respetar horarios de check-in y check-out de los hoteles.",
+          "Disponibilidad hotelera sujeta a cambios sin previo aviso.",
+          "Asignación de habitaciones según disponibilidad al momento de llegada.",
+          "Actuamos únicamente como intermediarios entre los proveedores de servicios y el viajero.",
+          "No nos responsabilizamos por eventos de fuerza mayor, retrasos, pérdidas o accidentes.",
+          "Los documentos de viaje (pasaporte, visas, vacunas) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV si se prestan fuera del Perú. Facturación puede incluir IGV.",
+          "Los traslados son en servicio compartido. El pasajero debe ser puntual y esperar en los puntos indicados. No se reembolsa por pérdida de servicio por retraso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado con city tour en Cusco",
+            "src": "assets/img/ways-to-travel/styles/3d2n-cusco-super-valle.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-exotic-4d3n": {
+        "id": "cusco-exotic-4d3n",
+        "title": "Programa Cusco Exótico",
+        "subtitle": "4 Días / 3 Noches – City Tour, Machu Picchu y Montaña de 7 Colores",
+        "description": "Explora lo mejor de Cusco en esta experiencia de 4 días que incluye la ciudad histórica, el parque arqueológico, la maravilla de Machu Picchu y la colorida Montaña de 7 Colores. Incluye alojamiento, comidas, transporte y guías profesionales.",
+        "whyChooseUs": [
+          "Incluye City Tour y parque arqueológico.",
+          "Visita a Machu Picchu con almuerzo y boletos de tren.",
+          "Excursión de día completo a la Montaña de 7 Colores con desayuno y almuerzo.",
+          "Guías profesionales bilingües (español o inglés).",
+          "Asistencia completa durante toda tu estadía."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m. iniciaremos el tour por la ciudad visitando la Catedral, el Templo del Qoricancha y las ruinas de Sacsayhuamán y Qenqo. Retorno al hotel para descansar.",
+          "DÍA 2: MACHU PICCHU\nMuy temprano, traslado a la estación de tren para el viaje a Aguas Calientes. Desde allí, tomaremos un bus hasta la cima de Machu Picchu. Disfrutaremos de una visita guiada de 3 horas por los puntos más emblemáticos: Templo del Sol, Intihuatana, Roca Sagrada y más. Almuerzo en Aguas Calientes. Retorno en tren a Cusco. Pernocte en el hotel.",
+          "DÍA 3: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. y traslado hacia la base del Nevado Ausangate. Parada en Cusipata para desayunar. Luego iniciaremos una caminata de aproximadamente 3 horas con guía profesional hacia la Montaña de los 7 Colores. Después de la visita, regresamos a Cusipata para almorzar. Llegada al hotel en Cusco aproximadamente a las 4:30 p.m.",
+          "DÍA 4: CUSCO OUT\nDesayuno y tiempo libre. A la hora coordinada, traslado al aeropuerto para tu vuelo de salida."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour y Parque Arqueológico",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Tren Expedition o turista ida y vuelta",
+          "Full Day Montaña de 7 Colores con desayuno y almuerzo",
+          "Entradas turísticas",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral"
+        ],
+        "from": "766",
+        "prices": "Desde $766 USD por persona en base doble. Tarifas varían según la categoría del hotel y la temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila pequeña de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los servicios de tren Expedition y Vistadome son bimodales (bus hasta Ollantaytambo + tren a Aguas Calientes).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a disponibilidad al momento de la reserva.",
+          "Los programas no son reembolsables, no transferibles y no permiten cambios.",
+          "Pagos con tarjeta Visa mediante SafetyPay sin recargo adicional.",
+          "Se deben respetar los horarios de check-in y check-out establecidos por los hoteles.",
+          "La disponibilidad hotelera puede variar sin previo aviso.",
+          "La asignación de habitaciones está sujeta a disponibilidad al momento del check-in.",
+          "Andean Elite actúa únicamente como intermediario entre proveedores y clientes.",
+          "No nos responsabilizamos por retrasos, accidentes o eventos de fuerza mayor.",
+          "Los pasajeros son responsables de sus documentos de viaje personales.",
+          "Los servicios están exonerados del IGV salvo que se requiera facturación dentro del Perú.",
+          "Los traslados son compartidos; los pasajeros deben respetar el punto y hora de encuentro. Perder el traslado no da derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Machu Picchu, la Montaña de 7 Colores y city tour en Cusco",
+            "src": "assets/img/ways-to-travel/styles/4d3n-cusco-exotico.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-unforgettable-4d3n": {
+        "id": "cusco-unforgettable-4d3n",
+        "title": "Programa Cusco Inolvidable",
+        "subtitle": "4 Días / 3 Noches – City Tour, Valle Sagrado y Machu Picchu",
+        "description": "Explora los sitios más icónicos de Cusco en esta experiencia de 4 días, que incluye un city tour, el Valle Sagrado de los Incas y la maravilla de Machu Picchu. Una inmersión cultural y escénica completa.",
+        "whyChooseUs": [
+          "Incluye lo mejor de Cusco: city tour, Valle Sagrado y Machu Picchu.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Boletos de tren Expedition o categoría turista incluidos.",
+          "Guía profesional bilingüe (español o inglés).",
+          "Asistencia completa durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel seleccionado. A las 12:30 p.m. iniciamos el tour visitando la Catedral, el Templo de Qoricancha y las ruinas de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nRecojo del hotel a las 7:30 a.m. Visita al sitio arqueológico y mercado artesanal de Pisaq. Continuamos por el río Vilcanota hasta Urubamba para disfrutar de un almuerzo buffet. Por la tarde, exploramos la impresionante fortaleza de Ollantaytambo. Retorno a Cusco y pernocte en el hotel.",
+          "DÍA 3: MACHU PICCHU\nSalida temprana hacia la estación de tren. Viaje a Aguas Calientes y luego bus hasta la cima de Machu Picchu. Visita guiada de 3 horas recorriendo el Templo del Sol, el Intihuatana, la Roca Sagrada y más. Tiempo libre, almuerzo en Aguas Calientes y retorno a Cusco.",
+          "DÍA 4: CUSCO OUT\nDesayuno en el hotel. Mañana libre para explorar a tu ritmo. Traslado al aeropuerto en el horario coordinado."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "3 noches de alojamiento en Cusco con desayuno",
+          "City Tour y Parque Arqueológico",
+          "Tour al Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o estándar",
+          "Entradas a los sitios turísticos",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos de avión internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "752",
+        "prices": "Desde $752 USD por persona en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila pequeña de hasta 5 kg / 11 lb, con un máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en servicio bimodal: bus hasta Ollantaytambo y tren hasta Aguas Calientes.",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas expresadas en USD por persona y sujetas a confirmación.",
+          "Los precios deben confirmarse al momento de reservar.",
+          "Los programas no permiten cambios, no son reembolsables ni transferibles.",
+          "Pagos con tarjeta Visa vía SafetyPay sin recargo adicional.",
+          "Se deben respetar los horarios de check-in y check-out.",
+          "La disponibilidad hotelera puede variar sin previo aviso.",
+          "Los hoteles asignan habitaciones según disponibilidad al momento de llegada.",
+          "Andean Elite actúa únicamente como intermediario entre proveedores y clientes.",
+          "No nos responsabilizamos por fuerza mayor, retrasos o accidentes fuera de nuestro control.",
+          "Los pasajeros son responsables de sus documentos de viaje personales (visas, vacunas, etc.).",
+          "Los servicios están exonerados del IGV salvo que se requiera factura con impuesto.",
+          "Los traslados son compartidos y requieren puntualidad; la inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Cusco, el Valle Sagrado y Machu Picchu en un paquete de 4 días",
+            "src": "assets/img/ways-to-travel/styles/4d3n-cusco-inolvidable.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-majestic-5d4n": {
+        "id": "cusco-majestic-5d4n",
+        "title": "Programa Cusco Majestuoso",
+        "subtitle": "5 Días / 4 Noches – City Tour, Valle Sagrado, Machu Picchu y Maras & Moray",
+        "description": "Disfruta lo mejor de Cusco y sus alrededores con este completo programa de 5 días. Descubre la historia de la ciudad, Machu Picchu, el Valle Sagrado y los increíbles paisajes de Maras y Moray.",
+        "whyChooseUs": [
+          "Incluye las principales atracciones: City Tour, Valle Sagrado, Machu Picchu, Maras y Moray.",
+          "Almuerzos buffet en el Valle Sagrado y Aguas Calientes incluidos.",
+          "Boletos de tren ida y vuelta (Expedition o Turista) a Machu Picchu.",
+          "Guía profesional bilingüe (español/inglés).",
+          "Asistencia personalizada durante todo el viaje."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto de Cusco y traslado al hotel seleccionado. A las 12:30 p.m. inicia el city tour visitando la Catedral, el Templo de Qoricancha y los sitios arqueológicos de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nDesayuno en el hotel. A las 7:30 a.m. visitamos las ruinas y mercado artesanal de Pisaq. Luego, almuerzo buffet en Urubamba. Por la tarde, exploramos el complejo arqueológico de Ollantaytambo. Retorno al hotel en Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje hacia Aguas Calientes y subida en bus a Machu Picchu. Tour guiado de 3 horas por la ciudadela, incluyendo el Templo del Sol, el Intihuatana y más. Tiempo libre y almuerzo en Aguas Calientes. Retorno a Cusco y traslado al hotel.",
+          "DÍA 4: MARAS & MORAY\nRecojo en el hotel a las 8:10 a.m. Visita a las salineras de Maras y luego a las terrazas circulares de Moray, una muestra de la ingeniería agrícola inca. Regreso al hotel en Cusco.",
+          "DÍA 5: CUSCO OUT\nDesayuno y mañana libre para explorar la ciudad. A la hora programada, traslado al aeropuerto."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayunos",
+          "City Tour y Parque Arqueológico",
+          "Tour de día completo al Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta a Machu Picchu (Expedition o Turista)",
+          "Tour a Salineras de Maras y terrazas circulares de Moray",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Boletos de avión internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no especificadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Entrada a la Catedral de Cusco"
+        ],
+        "from": "752",
+        "prices": "Desde $752 USD por persona en base doble en hoteles 5 estrellas. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en modalidad bimodal: bus desde Cusco hasta Ollantaytambo y tren hacia Aguas Calientes.",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a confirmación al momento de la reserva.",
+          "Los programas no son reembolsables, no endosables ni transferibles.",
+          "Pagos con tarjeta Visa aceptados. SafetyPay sin recargos.",
+          "Se deben respetar los horarios de check-in y check-out del hotel.",
+          "La disponibilidad hotelera puede cambiar sin previo aviso.",
+          "La asignación de habitaciones depende de la disponibilidad al llegar.",
+          "Andean Elite actúa como intermediario y no se responsabiliza por eventos externos o demoras.",
+          "No nos responsabilizamos por pérdidas, accidentes o casos de fuerza mayor.",
+          "Los documentos de viaje (visas, requisitos médicos, etc.) son responsabilidad del pasajero.",
+          "Los servicios están exentos de IGV salvo que se solicite factura, en cuyo caso se aplica el impuesto.",
+          "Traslados en servicio compartido. Se requiere puntualidad; la inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vistas panorámicas de Machu Picchu, salineras de Maras y el Valle Sagrado en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-majestuoso.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-wonderful-5d4n": {
+        "id": "cusco-wonderful-5d4n",
+        "title": "Programa Cusco Maravilloso",
+        "subtitle": "5 Días / 4 Noches – City Tour, Machu Picchu, Montaña de 7 Colores y Laguna Humantay",
+        "description": "Sumérgete en la belleza natural y cultural de Cusco. Descubre Machu Picchu, camina hacia la famosa Montaña de 7 Colores y la Laguna Humantay, y explora el corazón del Imperio Inca en 5 días inolvidables.",
+        "whyChooseUs": [
+          "Itinerario completo que cubre las principales atracciones de Cusco.",
+          "Incluye City Tour, Machu Picchu, Montaña de 7 Colores y Laguna Humantay.",
+          "Alojamiento con desayuno, tours guiados y entradas incluidas.",
+          "Almuerzos buffet y regionales incluidos en los tours de día completo.",
+          "Guías bilingües profesionales y asistencia 24/7."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto de Cusco y traslado al hotel. A las 12:30 p.m., iniciamos el recorrido visitando la Catedral, el Templo de Qoricancha y los sitios arqueológicos de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje hacia Aguas Calientes y subida en bus a Machu Picchu. Tour guiado de 3 horas por la ciudadela, con tiempo libre para explorar y tomar fotos. Almuerzo en Aguas Calientes y retorno a Cusco. Pernocte.",
+          "DÍA 3: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. Viaje hacia Cusipata para desayuno. Caminata de 3 horas hacia la Montaña de 7 Colores junto al guía, quien compartirá información cultural sobre los Andes. Almuerzo en Cusipata y retorno a Cusco alrededor de las 4:30 p.m.",
+          "DÍA 4: LAGUNA HUMANTAY\nRecojo entre 4:00 y 4:40 a.m. Desayuno en Mollepata y continuación hasta Soraypampa. Caminata de aproximadamente 1h30min hacia la Laguna Humantay. Tiempo libre para disfrutar del paisaje y ceremonia tradicional. Retorno a Mollepata para el almuerzo y regreso a Cusco a las 6:30 p.m.",
+          "DÍA 5: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayuno",
+          "City Tour con ingreso a parque arqueológico",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o categoría Turista",
+          "Full Day Montaña de 7 Colores con desayuno y almuerzo",
+          "Full Day Laguna Humantay con almuerzo",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español/inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y nacionales",
+          "Early check-in y late check-out en el hotel",
+          "Seguro de viaje",
+          "Comidas no especificadas y propinas",
+          "Gastos personales (bebidas, seguro médico, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "912",
+        "prices": "Desde $912 USD por persona en base doble en hoteles 5 estrellas. Tarifas sujetas a variación según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, con un total de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Los trenes Expedition y Vistadome operan en modalidad bimodal (bus hasta Ollantaytambo + tren a Aguas Calientes y retorno).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Precios por persona en USD. Sujetos a confirmación al momento de la reserva.",
+          "Programas no reembolsables, no endosables ni transferibles.",
+          "Pagos con tarjeta Visa aceptados. SafetyPay sin recargo.",
+          "Respetar los horarios de check-in y check-out en todos los hoteles.",
+          "Hoteles sujetos a disponibilidad y posibles cambios sin previo aviso.",
+          "Asignación de habitaciones según disponibilidad al momento del check-in.",
+          "Andean Elite actúa como intermediario y no se responsabiliza por demoras o factores externos.",
+          "No nos hacemos responsables por retrasos, fuerza mayor o pérdidas personales.",
+          "Los documentos de viaje (pasaporte, visas, vacunas) son responsabilidad del pasajero.",
+          "Servicios están exonerados de IGV salvo que se requiera factura, en cuyo caso se aplicará el impuesto.",
+          "Traslados en servicio compartido. El pasajero debe presentarse puntualmente en el lugar y hora indicados. Inasistencia no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Laguna Humantay, Montaña de 7 Colores y Machu Picchu en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-maravilloso.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-multicolor-5d4n": {
+        "id": "cusco-multicolor-5d4n",
+        "title": "Programa Cusco Multicolor",
+        "subtitle": "5 Días / 4 Noches – City Tour, Valle Sagrado, Machu Picchu y Montaña de 7 Colores",
+        "description": "Vive la esencia vibrante de Cusco en 5 días inolvidables. Este tour completo incluye el Valle Sagrado, el majestuoso Machu Picchu y la impresionante Montaña de 7 Colores, con alojamiento y todos los servicios clave incluidos.",
+        "whyChooseUs": [
+          "Itinerario completo de 5 días con las principales atracciones de Cusco.",
+          "Incluye Machu Picchu, Valle Sagrado, Montaña de 7 Colores y parques arqueológicos.",
+          "Entradas, tours guiados y desayunos en hotel incluidos.",
+          "Almuerzos buffet y traslados in/out para las excursiones.",
+          "Atención personalizada y guías profesionales bilingües."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m., tour guiado por el centro histórico: Catedral del Cusco, Templo de Qoricancha, parque arqueológico de Sacsayhuamán y Qenqo. Retorno al hotel.",
+          "DÍA 2: VALLE SAGRADO DE LOS INCAS\nDesayuno en el hotel. Salida a las 7:30 a.m. para visitar Pisaq y su mercado artesanal. Almuerzo buffet en Urubamba. Luego, visita a la fortaleza de Ollantaytambo. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Viaje a Aguas Calientes y bus a Machu Picchu. Tour guiado de 3 horas por los principales atractivos como el Templo del Sol e Intihuatana. Tiempo libre para fotos. Almuerzo en Aguas Calientes y regreso a Cusco. Pernocte.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. y traslado a Cusipata para desayuno. Caminata guiada de 3 horas hacia la Montaña de 7 Colores. Disfruta de los paisajes y aprende sobre la zona. Almuerzo en Cusipata y retorno al hotel hacia las 4:30 p.m.",
+          "DÍA 5: CUSCO OUT\nDesayuno en el hotel y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados en Cusco: aeropuerto – hotel – aeropuerto",
+          "4 noches de alojamiento en Cusco con desayunos",
+          "City Tour de Cusco con ingreso al parque arqueológico",
+          "Tour de día completo al Valle Sagrado + almuerzo buffet",
+          "Tour de día completo a Machu Picchu + almuerzo en Aguas Calientes",
+          "Boletos de tren ida y vuelta: Expedition o clase Turista",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español / inglés)",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y domésticos",
+          "Early check-in o late check-out en el hotel",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, atención médica, etc.)",
+          "Ingreso a la Catedral de Cusco"
+        ],
+        "from": "898",
+        "prices": "Desde $898 USD por persona en base doble en hoteles 3 estrellas. Tarifas pueden variar según el hotel y la temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 mochila o bolso pequeño de hasta 5 kg / 11 lb, con un tamaño máximo de 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren es bimodal (bus hasta Ollantaytambo + tren a Aguas Calientes y viceversa).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32.00 por persona",
+          "Almuerzo en Café Inkaterra – $6.00 por persona"
+        ],
+        "politics": [
+          "Tarifas por persona en USD, sujetas a confirmación.",
+          "Los precios deben confirmarse al momento de la reserva.",
+          "Los programas no son modificables, ni reembolsables, ni transferibles.",
+          "Pago con Visa o Safety Pay sin recargo.",
+          "Los horarios de check-in/check-out del hotel deben respetarse.",
+          "La asignación de habitaciones depende de la disponibilidad al momento del check-in.",
+          "Andean Elite actúa únicamente como intermediario y no se responsabiliza por retrasos externos.",
+          "No somos responsables por fuerza mayor, accidentes o pérdidas fuera de nuestro control.",
+          "Los documentos de viaje y requisitos de salud son responsabilidad exclusiva del pasajero.",
+          "Los servicios están exonerados de IGV si son ventas internacionales; si se requiere factura local, se aplicará el impuesto.",
+          "Los traslados son regulares (compartidos). El pasajero debe ser puntual. No-show no es reembolsable."
+        ],
+        "images": [
+          {
+            "alt": "Vistas panorámicas de Machu Picchu y Montaña de 7 Colores en un tour de 5 días",
+            "src": "assets/img/ways-to-travel/styles/5d4n-cusco-multicolor.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "cusco-spectacular-6d5n": {
+        "id": "cusco-spectacular-6d5n",
+        "title": "Programa Cusco Espectacular",
+        "subtitle": "06 Días / 05 Noches – City Tour, Super Valle, Machu Picchu, Vinicunca y Valle Sur",
+        "description": "Descubre Cusco con este itinerario de 6 días que combina lo mejor de la ciudad, sitios arqueológicos, naturaleza y la maravilla de Machu Picchu. Incluye tours guiados, alojamiento, comidas y transporte.",
+        "whyChooseUs": [
+          "Incluye visitas a Machu Picchu, Montaña de 7 Colores, Valle Sur y más.",
+          "5 noches de alojamiento con desayuno incluido.",
+          "Almuerzo buffet en el Valle Sagrado y almuerzo en Aguas Calientes.",
+          "Guía profesional bilingüe (español o inglés) durante todo el viaje.",
+          "Entradas, transporte, trenes y asistencia completa incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y PARQUE ARQUEOLÓGICO\nRecepción en el aeropuerto y traslado al hotel. A las 12:30 p.m., visita a la Catedral, Templo de Qoricancha, Sacsayhuamán y Qenqo.",
+          "DÍA 2: SUPER VALLE SAGRADO\nSalida a las 6:30 a.m. Visita a Chinchero, Moray, Salineras de Maras, almuerzo buffet en Urubamba, ruinas de Ollantaytambo y mercado de Pisac. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nViaje temprano hacia Aguas Calientes. Tour guiado de 3 horas por Machu Picchu, incluyendo Templo del Sol, Intihuatana, Roca Sagrada. Almuerzo y retorno a Cusco.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nRecojo a las 4:30 a.m. Desayuno en Cusipata y caminata de 3 horas hacia Vinicunca con guía. Almuerzo y retorno a Cusco a las 16:30 horas.",
+          "DÍA 5: VALLE SUR\nTour a Tipón, Pikillaqta y Andahuaylillas. Disfruta del paisaje andino y la historia preincaica y colonial. Regreso a Cusco por la tarde.",
+          "DÍA 6: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora coordinada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados aeropuerto – hotel – aeropuerto en Cusco",
+          "5 noches de alojamiento con desayunos",
+          "City Tour + Parque Arqueológico",
+          "Full Day Super Valle con almuerzo buffet",
+          "Full Day Machu Picchu + almuerzo en Aguas Calientes",
+          "Tren Expedition o Turista (ida y vuelta)",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Excursión al Valle Sur",
+          "Entradas a los sitios turísticos",
+          "Guía profesional en español o inglés",
+          "Asistencia durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Tickets aéreos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "1048",
+        "prices": "Desde $1048 USD por persona en base doble. Tarifas varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, máximo 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> Servicio bimodal: bus de Cusco a Ollantaytambo + tren a Aguas Calientes (ida y vuelta).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32 por persona",
+          "Almuerzo en Café Inkaterra – $6 por persona",
+          "Noche adicional en Cusco",
+          "Guía privado en Machu Picchu"
+        ],
+        "politics": [
+          "Tarifas en USD por persona, sujetas a disponibilidad.",
+          "Precios deben confirmarse al momento de la reserva.",
+          "Programas no reembolsables, no transferibles y no permiten cambios.",
+          "Pago con tarjeta Visa o SafetyPay sin recargo.",
+          "Horarios de check-in y check-out deben respetarse.",
+          "Hoteles sujetos a disponibilidad sin previo aviso.",
+          "El hotel asigna habitaciones según disponibilidad a la llegada.",
+          "Andean Elite actúa como intermediario entre operadores y pasajeros.",
+          "No se asume responsabilidad por demoras, clima u otros factores externos.",
+          "Pasajeros son responsables de sus documentos de viaje.",
+          "Servicios exentos de IGV; si se requiere factura, se aplicará el IGV correspondiente.",
+          "Traslados compartidos, el pasajero debe respetar horarios o perderá el servicio sin derecho a reembolso."
+        ],
+        "images": [
+          {
+            "alt": "Paisajes andinos y Machu Picchu en tour Cusco Espectacular 6 días",
+            "src": "assets/img/ways-to-travel/styles/6d5n-cusco-espectacular.webp",
+            "width": 1200
+          }
+        ]
+      },
+      "complete-cusco-7d6n": {
+        "id": "complete-cusco-7d6n",
+        "title": "Programa Cusco al Completo",
+        "subtitle": "07 Días / 06 Noches – Valle Sagrado, Machu Picchu, Montaña de 7 Colores y Más",
+        "description": "Vive la experiencia más completa de Cusco con esta aventura de 7 días. Incluye City Tour, Valle Sagrado, Machu Picchu, Vinicunca, Laguna Humantay y Valle Sur. Ideal para quienes lo quieren todo.",
+        "whyChooseUs": [
+          "Seis noches de alojamiento en Cusco con desayuno diario incluido.",
+          "Inmersión cultural total con city tour y parques arqueológicos.",
+          "Excursiones a Machu Picchu, Laguna Humantay y Montaña de 7 Colores.",
+          "Explora el Valle Sagrado, el Valle Sur y joyas ocultas incas.",
+          "Todo el transporte, trenes, entradas y guía profesional incluidos."
+        ],
+        "itinerary": [
+          "DÍA 1: CUSCO IN – CITY TOUR Y ALREDEDORES\nRecepción en el aeropuerto y traslado al hotel. Visita a la Catedral del Cusco, el Templo de Qoricancha y sitios arqueológicos como Sacsayhuamán y Qenqo.",
+          "DÍA 2: SUPER VALLE SAGRADO\nVisita a Chinchero, terrazas de Moray, salineras de Maras, almuerzo buffet en Urubamba, ruinas de Ollantaytambo y mercado de Pisac. Regreso a Cusco.",
+          "DÍA 3: MACHU PICCHU\nTraslado temprano a la estación de tren. Tour guiado por la ciudadela incluyendo el Templo del Sol y la Roca Sagrada. Tiempo libre. Almuerzo en Aguas Calientes y regreso a Cusco.",
+          "DÍA 4: MONTAÑA DE 7 COLORES – VINICUNCA\nSalida a las 4:30 a.m. Caminata por los Andes con desayuno en Cusipata. Visita a Vinicunca con guía. Retorno y almuerzo en Cusipata. Regreso a Cusco.",
+          "DÍA 5: LAGUNA HUMANTAY\nRecojo temprano hacia Mollepata para desayuno. Caminata hacia la Laguna Humantay (1h30 de ascenso). Ceremonia de gratitud a los Apus. Almuerzo en Mollepata y regreso a Cusco.",
+          "DÍA 6: VALLE SUR\nDesayuno y tour a Tipón (sitio ceremonial inca), Pikillaqta (ciudad preinca Wari) e Iglesia de Andahuaylillas (la Capilla Sixtina de América). Retorno a Cusco por la tarde.",
+          "DÍA 7: CUSCO OUT\nDesayuno y mañana libre. Traslado al aeropuerto a la hora programada."
+        ],
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31",
+        "includes": [
+          "Traslados aeropuerto de Cusco – hotel – aeropuerto",
+          "6 noches de alojamiento con desayuno incluido",
+          "City Tour + Parque Arqueológico",
+          "Full Day Super Valle Sagrado con almuerzo buffet",
+          "Full Day Machu Picchu con almuerzo en Aguas Calientes",
+          "Tren ida y vuelta categoría Expedition o Turista",
+          "Full Day Montaña de 7 Colores + desayuno y almuerzo",
+          "Full Day Laguna Humantay + desayuno y almuerzo",
+          "Full Day tour al Valle Sur",
+          "Entradas a todos los sitios mencionados",
+          "Guía profesional bilingüe (español o inglés)",
+          "Asistencia personalizada durante todo el viaje"
+        ],
+        "notIncluded": [
+          "Vuelos internacionales y nacionales",
+          "Early check-in y late check-out",
+          "Seguro de viaje",
+          "Comidas no mencionadas y propinas",
+          "Gastos personales (bebidas, lavandería, etc.)",
+          "Ingreso a la Catedral del Cusco"
+        ],
+        "from": "1194",
+        "prices": "Desde $1194 USD por persona en base doble en hoteles 5 estrellas. Precios varían según hotel y temporada.",
+        "additional": "<strong>POLÍTICA DE EQUIPAJE EN TREN:</strong><br>1 bolso o mochila de hasta 5 kg / 11 lb, máximo 62 pulgadas lineales (alto + largo + ancho).<br><br><strong>IMPORTANTE:</strong> El servicio de tren es bimodal: bus de Cusco a Ollantaytambo y tren a Aguas Calientes (ida y retorno).",
+        "optional": [
+          "Upgrade a tren Vistadome – $32 por persona",
+          "Almuerzo en Café Inkaterra – $6 por persona",
+          "Noche adicional en Cusco",
+          "Tour privado a Machu Picchu"
+        ],
+        "politics": [
+          "Tarifas en USD por persona.",
+          "Precios sujetos a disponibilidad al momento de la reserva.",
+          "Programas no reembolsables, no transferibles y no endosables.",
+          "Reservas confirmadas con pago total o parcial.",
+          "Servicios no utilizados no son reembolsables.",
+          "Andean Elite no se responsabiliza por clima o factores externos.",
+          "Documentos y requisitos de viaje son responsabilidad del pasajero.",
+          "Servicios exonerados de IGV; si se requiere factura con IGV, se aplicará el impuesto.",
+          "Traslados en servicio compartido; el pasajero debe respetar horarios y puntos de encuentro."
+        ],
+        "images": [
+          {
+            "alt": "Vista panorámica de Cusco, Machu Picchu y el Valle Sagrado en un tour completo de 7 días",
+            "src": "assets/img/ways-to-travel/styles/7d6n-cusco-al-completo.webp",
+            "width": 1200
+          }
+        ]
       }
     }
 
@@ -4683,33 +6885,6 @@
     "IMAGE": "assets/img/ways-to-travel/styles/styles-peru.webp",
     "DESCRIPTION": "Cada viajero tiene su propio estilo. Por eso, ofrecemos una variedad de servicios para satisfacer tus necesidades específicas.",
     "STYLES": {
-      "PREMIUM": {
-        "TITLE": "Premium",
-        "slug": "premium",
-        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-        "PACKAGES": [
-          {
-            "title": "Viaje Premium a Machu Picchu",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "10"
-          },
-          {
-            "title": "Viaje Premium a Nazca",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          },
-          {
-            "title": "Viaje Premium a Machu Picchu",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          },
-          {
-            "title": "Viaje Premium a Nazca",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          }
-        ]
-      },
       "DELUXE": {
         "TITLE": "Deluxe",
         "slug": "deluxe",
@@ -4740,33 +6915,6 @@
       "COMFORT": {
         "TITLE": "Comfort",
         "slug": "comfort",
-        "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
-        "PACKAGES": [
-          {
-            "title": "Viaje Premium a Machu Picchu",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          },
-          {
-            "title": "Viaje Premium a Nazca",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          },
-          {
-            "title": "Viaje Premium a Machu Picchu",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          },
-          {
-            "title": "Viaje Premium a Nazca",
-            "image": "assets/img/destinations/banner-destinations-peru.webp",
-            "price": "0"
-          }
-        ]
-      },
-      "PRICE-SALE": {
-        "TITLE": "Price Sale",
-        "slug": "price-sale",
         "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
         "PACKAGES": [
           {
@@ -4825,25 +6973,115 @@
       "IMAGE": "assets/img/ways-to-travel/styles/comfort/comfort-travel.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-sunrise": {
+          "id": "cusco-sunrise",
+          "title": "Amanecer en Cusco",
+          "categories": ["aventura", "cultura"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-machupicchu-tren-ciudad.webp",
+          "price": "440"
         },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-fugaz-3d2n": {
+          "id": "cusco-fugaz",
+          "title": "Cusco Exprés",
+          "categories": ["cultura", "patrimonio"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-fugaz.webp",
+          "price": "499"
         },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-machu-sacredvalley-3d2n": {
+          "id": "cusco-machu-sacredvalley",
+          "title": "Cusco, Machu Picchu y Valle Sagrado",
+          "categories": ["cultura", "historia"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-machu-picchu-valle-sagrado.webp",
+          "price": "501"
         },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-supervalley-3d2n": {
+          "id": "cusco-supervalley",
+          "title": "Cusco y Super Valle",
+          "categories": ["cultura", "paisaje"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-super-valle.webp",
+          "price": "632"
+        },
+        "cusco-exotic-4d3n": {
+          "id": "cusco-exotic",
+          "title": "Cusco Exótico",
+          "categories": ["cultura", "aventura"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/4d3n-cusco-exotico.webp",
+          "price": "615"
+        },
+        "cusco-unforgettable-4d3n": {
+          "id": "cusco-unforgettable",
+          "title": "Cusco Inolvidable",
+          "categories": ["cultura", "historia"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/4d3n-cusco-inolvidable.webp",
+          "price": "601"
+        },
+        "cusco-majestic-5d4n": {
+          "id": "cusco-majestic",
+          "title": "Cusco Majestuoso",
+          "categories": ["cultura", "aventura"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-majestuoso.webp",
+          "price": "666"
+        },
+        "cusco-wonderful-5d4n": {
+          "id": "cusco-wonderful",
+          "title": "Cusco Maravilloso",
+          "categories": ["aventura", "naturaleza", "cultura"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-maravilloso.webp",
+          "price": "710"
+        },
+        "cusco-multicolor-5d4n": {
+          "id": "cusco-multicolor",
+          "title": "Cusco Multicolor",
+          "categories": ["cultura", "aventura", "naturaleza"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-multicolor.webp",
+          "price": "696"
+        },
+        "cusco-spectacular-6d5n": {
+          "id": "cusco-spectacular",
+          "title": "Cusco Espectacular",
+          "categories": ["aventura", "cultura", "naturaleza"],
+          "city": "Cusco",
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/ways-to-travel/styles/6d5n-cusco-espectacular.webp",
+          "price": "795"
+        },
+        "complete-cusco-7d6n": {
+          "id": "cusco-complete",
+          "title": "Cusco al Completo",
+          "categories": ["cultura", "aventura", "naturaleza"],
+          "city": "Cusco",
+          "days": "7",
+          "nights": "6",
+          "image": "assets/img/ways-to-travel/styles/7d6n-cusco-al-completo.webp",
+          "price": "890"
         }
       }
     },
@@ -4853,25 +7091,115 @@
       "IMAGE": "assets/img/ways-to-travel/styles/deluxe/deluxe-travel-peru.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
-        "1":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-sunrise": {
+          "id": "cusco-sunrise",
+          "title": "Amanecer en Cusco",
+          "categories": ["aventura", "cultura"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-machupicchu-tren-ciudad.webp",
+          "price": "541"
         },
-        "2":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-fugaz-3d2n": {
+          "id": "cusco-fugaz",
+          "title": "Cusco Exprés",
+          "categories": ["cultura", "patrimonio"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-fugaz.webp",
+          "price": "600"
         },
-        "3":{
-          "title":"Viaje Premium a Machu Picchu",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-machu-sacredvalley-3d2n": {
+          "id": "cusco-machu-sacredvalley",
+          "title": "Cusco, Machu Picchu y Valle Sagrado",
+          "categories": ["cultura", "historia"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-machu-picchu-valle-sagrado.webp",
+          "price": "602"
         },
-        "4":{
-          "title":"Viaje Premium a Nazca",
-          "image":"assets/img/destinations/banner-destinations-peru.webp",
-          "price":"0"
+        "cusco-supervalley-3d2n": {
+          "id": "cusco-supervalley",
+          "title": "Cusco y Super Valle",
+          "categories": ["cultura", "paisaje"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-super-valle.webp",
+          "price": "784"
+        },
+        "cusco-exotic-4d3n": {
+          "id": "cusco-exotic",
+          "title": "Cusco Exótico",
+          "categories": ["cultura", "aventura"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/4d3n-cusco-exotico.webp",
+          "price": "766"
+        },
+        "cusco-unforgettable-4d3n": {
+          "id": "cusco-unforgettable",
+          "title": "Cusco Inolvidable",
+          "categories": ["cultura", "historia"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/4d3n-cusco-inolvidable.webp",
+          "price": "752"
+        },
+        "cusco-majestic-5d4n": {
+          "id": "cusco-majestic",
+          "title": "Cusco Majestuoso",
+          "categories": ["cultura", "aventura"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-majestuoso.webp",
+          "price": "752"
+        },
+        "cusco-wonderful-5d4n": {
+          "id": "cusco-wonderful",
+          "title": "Cusco Maravilloso",
+          "categories": ["aventura", "naturaleza", "cultura"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-maravilloso.webp",
+          "price": "912"
+        },
+        "cusco-multicolor-5d4n": {
+          "id": "cusco-multicolor",
+          "title": "Cusco Multicolor",
+          "categories": ["cultura", "aventura", "naturaleza"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-multicolor.webp",
+          "price": "898"
+        },
+        "cusco-spectacular-6d5n": {
+          "id": "cusco-spectacular",
+          "title": "Cusco Espectacular",
+          "categories": ["aventura", "cultura", "naturaleza"],
+          "city": "Cusco",
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/ways-to-travel/styles/6d5n-cusco-espectacular.webp",
+          "price": "1048"
+        },
+        "complete-cusco-7d6n": {
+          "id": "cusco-complete",
+          "title": "Cusco al Completo",
+          "categories": ["cultura", "aventura", "naturaleza"],
+          "city": "Cusco",
+          "days": "7",
+          "nights": "6",
+          "image": "assets/img/ways-to-travel/styles/7d6n-cusco-al-completo.webp",
+          "price": "1194"
         }
       }
     },
@@ -4881,15 +7209,115 @@
       "IMAGE": "assets/img/ways-to-travel/styles/super-deals/super-deals-travel-peru.webp",
       "DESCRIPTION": "Viajes de lujo a medida para experiencias inolvidables. Explora el mundo con viajes exclusivos y a medida...",
       "PACKAGES":{
-        "1": {
-          "id": "cusco-sunrise-3d2n",
-          "title": "Cusco Sunrise",
-          "categories": ["adventure", "culture"],
+        "cusco-sunrise": {
+          "id": "cusco-sunrise",
+          "title": "Amanecer en Cusco",
+          "categories": ["aventura", "cultura"],
           "city": "Cusco",
           "days": "3",
           "nights": "2",
-          "image": "assets/img/ways-to-travel/styles/super-deals/3d2n-cusco-machu-picchu-train-city.webp",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-machupicchu-tren-ciudad.webp",
           "price": "407"
+        },
+        "cusco-fugaz-3d2n": {
+          "id": "cusco-fugaz",
+          "title": "Cusco Exprés",
+          "categories": ["cultura", "patrimonio"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-fugaz.webp",
+          "price": "473"
+        },
+        "cusco-machu-sacredvalley-3d2n": {
+          "id": "cusco-machu-sacredvalley",
+          "title": "Cusco, Machu Picchu y Valle Sagrado",
+          "categories": ["cultura", "historia"],
+          "city": "Cusco",
+          "days": "3",
+          "nights": "2",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-machu-picchu-valle-sagrado.webp",
+          "price": "475"
+        },
+        "cusco-supervalley-3d2n": {
+          "id": "cusco-supervalley",
+          "title": "Cusco y Super Valle",
+          "categories": ["cultura", "paisaje"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/3d2n-cusco-super-valle.webp",
+          "price": "592"
+        },
+        "cusco-exotic-4d3n": {
+          "id": "cusco-exotic",
+          "title": "Cusco Exótico",
+          "categories": ["cultura", "aventura"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/4d3n-cusco-exotico.webp",
+          "price": "575"
+        },
+        "cusco-unforgettable-4d3n": {
+          "id": "cusco-unforgettable",
+          "title": "Cusco Inolvidable",
+          "categories": ["cultura", "historia"],
+          "city": "Cusco",
+          "days": "4",
+          "nights": "3",
+          "image": "assets/img/ways-to-travel/styles/4d3n-cusco-inolvidable.webp",
+          "price": "561"
+        },
+        "cusco-majestic-5d4n": {
+          "id": "cusco-majestic",
+          "title": "Cusco Majestuoso",
+          "categories": ["cultura", "aventura"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-majestuoso.webp",
+          "price": "613"
+        },
+        "cusco-wonderful-5d4n": {
+          "id": "cusco-wonderful",
+          "title": "Cusco Maravilloso",
+          "categories": ["aventura", "naturaleza", "cultura"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-maravilloso.webp",
+          "price": "657"
+        },
+        "cusco-multicolor-5d4n": {
+          "id": "cusco-multicolor",
+          "title": "Cusco Multicolor",
+          "categories": ["cultura", "aventura", "naturaleza"],
+          "city": "Cusco",
+          "days": "5",
+          "nights": "4",
+          "image": "assets/img/ways-to-travel/styles/5d4n-cusco-multicolor.webp",
+          "price": "643"
+        },
+        "cusco-spectacular-6d5n": {
+          "id": "cusco-spectacular",
+          "title": "Cusco Espectacular",
+          "categories": ["aventura", "cultura", "naturaleza"],
+          "city": "Cusco",
+          "days": "6",
+          "nights": "5",
+          "image": "assets/img/ways-to-travel/styles/6d5n-cusco-espectacular.webp",
+          "price": "728"
+        },
+        "complete-cusco-7d6n": {
+          "id": "cusco-complete",
+          "title": "Cusco al Completo",
+          "categories": ["cultura", "aventura", "naturaleza"],
+          "city": "Cusco",
+          "days": "7",
+          "nights": "6",
+          "image": "assets/img/ways-to-travel/styles/7d6n-cusco-al-completo.webp",
+          "price": "413"
         }
       }
     }
@@ -5351,6 +7779,4 @@
       "description": "Gestiona tu reserva de forma rápida o presenta una reclamación. Te ofrecemos soporte directo y transparente para tu viaje por Perú."
     }
   }
-
-
 }

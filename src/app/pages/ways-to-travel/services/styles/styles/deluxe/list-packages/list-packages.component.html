@@ -1,6 +1,14 @@
 <app-list-packages-structure
-  [backgroundImage]="'STYLES.DELUXE.IMAGE'"
-  [title]="'STYLES.DELUXE.TITLE'"
-  [description]="DeluxeData?.DESCRIPTION"
-  [packages]="DeluxeData?.PACKAGES"
+  [backgroundImage]="'STYLES.SUPER_DEALS.IMAGE'"
+  [title]="'STYLES.SUPER_DEALS.TITLE'"
+  [description]="Description"
+  [packages]="filteredSuperDeals"
+  [cities]="cities"
+  [categories]="categories"
+  [filterCity]="filterCity"
+  [filterCategory]="filterCategory"
+  [searchTerm]="searchTerm"
+  (cityChange)="setCityFilter($event)"
+  (categoryChange)="setCategoryFilter($event)"
+  (searchChange)="setSearchTerm($event)"
 ></app-list-packages-structure>

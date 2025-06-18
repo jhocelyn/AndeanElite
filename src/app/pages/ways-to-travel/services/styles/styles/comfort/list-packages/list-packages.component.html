@@ -1,6 +1,14 @@
 <app-list-packages-structure
-  [backgroundImage]="'STYLES.COMFORT.IMAGE'"
-  [title]="'STYLES.COMFORT.TITLE'"
-  [description]="ComfortData?.DESCRIPTION"
-  [packages]="ComfortData?.PACKAGES"
+  [backgroundImage]="'STYLES.SUPER_DEALS.IMAGE'"
+  [title]="'STYLES.SUPER_DEALS.TITLE'"
+  [description]="Description"
+  [packages]="filteredSuperDeals"
+  [cities]="cities"
+  [categories]="categories"
+  [filterCity]="filterCity"
+  [filterCategory]="filterCategory"
+  [searchTerm]="searchTerm"
+  (cityChange)="setCityFilter($event)"
+  (categoryChange)="setCategoryFilter($event)"
+  (searchChange)="setSearchTerm($event)"
 ></app-list-packages-structure>
