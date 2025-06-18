@@ -7,7 +7,7 @@ export const comfortRoutes:Routes=[
   {path:'',component:LayoutComponent
   ,children:[
       {path:'',component:ListPackagesComponent},
-      {path:':id',component:InfoPackagesComponent},
+      {path:'info-packages/:id',component:InfoPackagesComponent},
     ]
   }
 ]
