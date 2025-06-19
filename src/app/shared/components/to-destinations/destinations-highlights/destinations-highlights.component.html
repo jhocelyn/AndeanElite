@@ -4,11 +4,11 @@
 </div>
 
 <!-- Descripción -->
-<div class="grid md:grid-cols-2 gap-6 px-6 py-10 max-w-6xl mx-auto">
+<div class="grid md:grid-cols-2 gap-8 px-6 py-10 max-w-6xl mx-auto">
   <div class="text-lg font-medium text-gray-800 leading-relaxed">
     <p [innerHTML]="overview | translate"></p>
   </div>
-  <div class="text-3xl md:text-4xl font-bold text-gray-800 uppercase">
+  <div class="text-3xl md:text-4xl text-end font-bold text-gray-800 uppercase">
     {{ headline | translate }}
   </div>
 </div>
@@ -16,7 +16,7 @@
 <!-- Rejilla de tarjetas -->
 <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-6 py-10 max-w-6xl mx-auto">
   <ng-container *ngFor="let card of highlights; trackBy: trackByIndex">
-    <article class="space-y-3">
+    <div class="space-y-3">
       <img
         class="aspect-[4/3] w-full object-cover rounded-lg shadow-sm"
         [src]="card.image"
@@ -27,6 +27,6 @@
         {{ card.title | translate }}
       </h3>
       <p class="text-sm text-gray-700" [innerHTML]="card.body | translate"></p>
-    </article>
+    </div>
   </ng-container>
 </div>
