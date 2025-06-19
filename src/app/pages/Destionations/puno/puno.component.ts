@@ -19,24 +19,24 @@ export class PunoComponent {
   private readonly i18nBase = 'destinations.puno';
 
   /** banner */
-  imageUrl = 'assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp';
+  imageUrl = 'assets/img/destinations/puno/lake-titicaca-natural-landscape.webp';
   overview = `${this.i18nBase}.overview`;
   headline = `${this.i18nBase}.headline`;
 
   /** tarjetas */
   machuPicchuCards: HighlightCard[] = [
-    this.card('urosIslands'),
-    this.card('taquileIsland'),
-    this.card('lampaVillage'), // reemplaza por los IDs reales restantes
-    this.card('festivityCandelaria'),
-    this.card('sillustaniTombs'),
-    this.card('titicacaSunrise'),
+    this.card('urosIslands','assets/img/destinations/puno/uros-floating.webp'),
+    this.card('taquileIsland','assets/img/destinations/puno/taquile-island.webp'),
+    this.card('lampaVillage','assets/img/destinations/puno/lampa.webp'),
+    this.card('festivityCandelaria','assets/img/destinations/puno/festival-virgen-candelaria.webp'),
+    this.card('sillustaniTombs','assets/img/destinations/puno/Sillustani-Chullpas-Visiting-Sillustani.webp'),
+    this.card('titicacaSunrise','assets/img/destinations/puno/Amanecer_Titicaca.webp'),
   ];
 
   /** factoría para no repetir código */
-  private card(id: string): HighlightCard {
+  private card(id: string,imageUrl:string): HighlightCard {
     return {
-      image: this.imageUrl,
+      image: imageUrl,
       alt:   `${this.i18nBase}.cards.${id}.alt`,
       title: `${this.i18nBase}.cards.${id}.title`,
       body:  `${this.i18nBase}.cards.${id}.body`

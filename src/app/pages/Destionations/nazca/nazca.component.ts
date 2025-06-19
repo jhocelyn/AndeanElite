@@ -16,27 +16,27 @@ import {
 export class NazcaComponent {
 
   /** prefijo base de traducción */
-  private readonly i18nBase = 'destinations.cusco';
+  private readonly i18nBase = 'destinations.nazca';
 
   /** banner */
-  imageUrl = 'assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp';
+  imageUrl = 'assets/img/destinations/nazca/destinations-peru-nasca.webp';
   overview = `${this.i18nBase}.overview`;
   headline = `${this.i18nBase}.headline`;
 
   /** tarjetas */
   machuPicchuCards: HighlightCard[] = [
-    this.card('nazcaLinesFlight'),
-    this.card('cantallocAqueducts'),
-    this.card('chauchillaCemetery'), // reemplaza por los IDs reales restantes
-    this.card('pyramidsCahuachi'),
-    this.card('planetarium'),
-    this.card('desertSunset'),
+    this.card('nazcaLinesFlight','assets/img/destinations/nazca/nazca-lines.webp'),
+    this.card('cantallocAqueducts','assets/img/destinations/nazca/cantalloc-aqueducts.webp'),
+    this.card('chauchillaCemetery','assets/img/destinations/nazca/Cahuachi.webp'),
+    this.card('pyramidsCahuachi','assets/img/destinations/nazca/nazca-chauchilla.webp'),
+    this.card('planetarium','assets/img/destinations/nazca/planetarium.webp'),
+    this.card('desertSunset','assets/img/destinations/nazca/sunset-over.webp'),
   ];
 
   /** factoría para no repetir código */
-  private card(id: string): HighlightCard {
+  private card(id: string,imageUrl:string): HighlightCard {
     return {
-      image: this.imageUrl,
+      image: imageUrl,
       alt:   `${this.i18nBase}.cards.${id}.alt`,
       title: `${this.i18nBase}.cards.${id}.title`,
       body:  `${this.i18nBase}.cards.${id}.body`
