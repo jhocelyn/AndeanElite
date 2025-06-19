@@ -19,24 +19,24 @@ export class ArequipaComponent {
   private readonly i18nBase = 'destinations.arequipa';
 
   /** banner */
-  imageUrl = 'assets/img/destinations/cusco/Inca-Trail-to-Machu-Picchu.webp';
+  imageUrl = 'assets/img/destinations/arequipa/colca-canon.webp';
   overview = `${this.i18nBase}.overview`;
   headline = `${this.i18nBase}.headline`;
 
   /** tarjetas */
   machuPicchuCards: HighlightCard[] = [
-    this.card('historicCenter'),
-    this.card('santaCatalina'),
-    this.card('colcaCanyon'), // reemplaza por los IDs reales restantes
-    this.card('condorCross'),
-    this.card('mistiVolcano'),
-    this.card('arequipaGastronomy'),
+    this.card('historicCenter','assets/img/destinations/arequipa/arequipa-historical-center.webp'),
+    this.card('santaCatalina','assets/img/destinations/arequipa/santa-catalina-home.webp'),
+    this.card('colcaCanyon','assets/img/destinations/arequipa/canon-del-colca.webp'), // reemplaza por los IDs reales restantes
+    this.card('condorCross','assets/img/destinations/arequipa/the-cross-of-condor.webp'),
+    this.card('mistiVolcano','assets/img/destinations/arequipa/clim-misti.webp'),
+    this.card('arequipaGastronomy','assets/img/destinations/arequipa/arequipa-food.webp'),
   ];
 
   /** factoría para no repetir código */
-  private card(id: string): HighlightCard {
+  private card(id: string,imageUrl:string): HighlightCard {
     return {
-      image: this.imageUrl,
+      image: imageUrl,
       alt:   `${this.i18nBase}.cards.${id}.alt`,
       title: `${this.i18nBase}.cards.${id}.title`,
       body:  `${this.i18nBase}.cards.${id}.body`
