@@ -364,6 +364,333 @@
       ]
     }
   },
+  "destinations": {
+    "cusco": {
+      "headline": "LA MAJESTUOSIDAD DE MACHU PICCHU TE DEJARÁ SIN ALIENTO",
+      "overview": "<strong>Machu Picchu</strong>, la ciudad perdida de los incas, probablemente sea la razón por la que decidiste viajar a Perú. Recientemente elegida como una de las Nuevas Siete Maravillas del Mundo, este sitio mágico te dejará sin palabras.",
+      "cards": {
+        "classicTrail": {
+          "title": "Camino Inca Tradicional de 4 Días",
+          "body": "Camina sobre las huellas de los antiguos incas en esta icónica ruta de 4 días que atraviesa valles frondosos y bosques nubosos, culminando con un amanecer inolvidable en Machu Picchu.",
+          "alt": "Excursionista cruzando los Andes por el Camino Inca de 4 días"
+        },
+        "shortTrail": {
+          "title": "Camino Inca Corto de 2 Días",
+          "body": "Ideal para quienes disponen de poco tiempo pero buscan aventura. Disfruta la emoción de recorrer el tramo final del Camino Inca hasta llegar a la Puerta del Sol en Machu Picchu.",
+          "alt": "Excursionista ingresando a Machu Picchu por la Puerta del Sol"
+        },
+        "sacredValley": {
+          "title": "El Valle Sagrado de los Incas",
+          "body": "Explora pintorescos pueblos andinos, mercados llenos de color y asombrosas ruinas incas enclavadas entre majestuosas montañas y campos dorados.",
+          "alt": "Vista aérea de las ruinas de Pisac en el Valle Sagrado"
+        },
+        "rainbowMountain": {
+          "title": "Aventura en la Montaña de Siete Colores",
+          "body": "Admira Vinicunca, la famosa montaña de los siete colores. Esta caminata de un día ofrece paisajes vibrantes y surrealistas que parecen de otro planeta.",
+          "alt": "Turistas posando en la cima de la Montaña de Siete Colores"
+        },
+        "morayMaras": {
+          "title": "Misterios de Moray y Maras",
+          "body": "Descubre la ingeniería agrícola ancestral en los círculos concéntricos de Moray y las brillantes salineras de Maras — aún activas hoy en día.",
+          "alt": "Salineras de Maras y andenes circulares de Moray"
+        },
+        "cuscoCity": {
+          "title": "Tour Histórico por la Ciudad del Cusco",
+          "body": "Desde sus calles empedradas hasta los imponentes muros de piedra de Sacsayhuamán, conoce cómo la historia vive en la capital cultural de los Andes.",
+          "alt": "Vista panorámica de la ciudad del Cusco con montañas al fondo"
+        }
+      }
+    },
+    "machuPicchu": {
+      "headline": "El Majestuoso Cusco",
+      "overview": "<strong>Machu Picchu</strong>, la ciudad perdida de los incas, es probablemente la razón principal por la que decidiste viajar a Perú. Elegida como una de las Nuevas Siete Maravillas del Mundo, este lugar mágico te envolverá con su misticismo, historia y paisajes que parecen de otro mundo.",
+      "cards": {
+        "classicTrail": {
+          "title": "Camino Inca Tradicional de 4 días",
+          "body": "Vive una experiencia única caminando por senderos ancestrales, entre bosques nubosos y ruinas ocultas, hasta llegar a Machu Picchu al amanecer. Una aventura mística que recordarás para siempre.",
+          "alt": "Excursionista en el Camino Inca tradicional"
+        },
+        "shortTrail": {
+          "title": "Camino Inca Corto de 2 días",
+          "body": "Ideal para quienes buscan una experiencia intensa en menos tiempo. Esta ruta incluye la llegada triunfal a Machu Picchu por la legendaria Puerta del Sol.",
+          "alt": "Excursionista llegando a Machu Picchu por la Puerta del Sol"
+        },
+        "sunGate": {
+          "title": "Puerta del Sol (Inti Punku)",
+          "body": "El punto de llegada más emocionante del Camino Inca. Disfruta de la primera vista panorámica de Machu Picchu desde este mirador natural bañado por el sol andino.",
+          "alt": "Vista panorámica de Machu Picchu desde Inti Punku"
+        },
+        "huaynaPicchu": {
+          "title": "Ascenso a Huayna Picchu",
+          "body": "Sube la montaña icónica que aparece en todas las postales. Desde su cima, tendrás una de las vistas más espectaculares del santuario y sus alrededores.",
+          "alt": "Turista en la cima de Huayna Picchu con vista al santuario"
+        },
+        "templeOfTheSun": {
+          "title": "Templo del Sol",
+          "body": "Uno de los templos más sagrados de Machu Picchu. Su arquitectura perfectamente alineada con el sol muestra la maestría astronómica de los incas.",
+          "alt": "Vista del Templo del Sol con muros de piedra inca"
+        },
+        "mysticalExperience": {
+          "title": "Misticismo en Machu Picchu",
+          "body": "Más allá de la historia y la arquitectura, Machu Picchu es una experiencia espiritual. Siente la energía de los Apus mientras te conectas con la naturaleza y la cultura andina.",
+          "alt": "Viajero meditando entre las ruinas de Machu Picchu"
+        }
+      }
+    },
+    "arequipa": {
+      "headline": "EL ENCANTO BLANCO DE AREQUIPA Y LA GRANDEZA DEL CAÑÓN DEL COLCA",
+      "overview": "<strong>Arequipa</strong>, conocida como la Ciudad Blanca, deslumbra con su arquitectura colonial de sillar volcánico, su deliciosa gastronomía y su cercanía al majestuoso Cañón del Colca. Un destino que combina historia, aventura y paisajes de otro mundo.",
+      "cards": {
+        "historicCenter": {
+          "title": "Centro Histórico de Arequipa",
+          "body": "Recorre calles de piedra, iglesias barrocas y plazas soleadas en una ciudad declarada Patrimonio de la Humanidad por la UNESCO.",
+          "alt": "Vista de la Plaza de Armas y la Catedral de Arequipa"
+        },
+        "santaCatalina": {
+          "title": "Monasterio de Santa Catalina",
+          "body": "Explora esta ciudad dentro de la ciudad, un convento del siglo XVI lleno de colores, pasajes secretos y siglos de historia religiosa.",
+          "alt": "Pasillo colorido del Monasterio de Santa Catalina"
+        },
+        "colcaCanyon": {
+          "title": "Excursión al Cañón del Colca",
+          "body": "Uno de los cañones más profundos del mundo. Admira terrazas preincaicas, pueblos tradicionales y paisajes que quitan el aliento.",
+          "alt": "Panorámica del Cañón del Colca con montañas y terrazas"
+        },
+        "condorCross": {
+          "title": "Mirador de la Cruz del Cóndor",
+          "body": "Sé testigo del majestuoso vuelo del cóndor andino, una experiencia que te conecta con la naturaleza en su forma más pura.",
+          "alt": "Cóndor andino volando sobre el Cañón del Colca"
+        },
+        "mistiVolcano": {
+          "title": "Ascenso al Volcán Misti",
+          "body": "Para los aventureros, una caminata desafiante hacia la cima del Misti, el volcán que vigila la ciudad con su imponente presencia.",
+          "alt": "Vistas del volcán Misti nevado desde las afueras de Arequipa"
+        },
+        "arequipaGastronomy": {
+          "title": "Ruta Gastronómica Arequipeña",
+          "body": "Deléitate con sabores únicos como el rocoto relleno, la ocopa arequipeña y los tradicionales chupes en pintorescas picanterías.",
+          "alt": "Plato de rocoto relleno en restaurante típico de Arequipa"
+        }
+      }
+    },
+    "sacredValley": {
+      "headline": "EL VALLE SAGRADO: CORAZÓN VIVO DE LA CULTURA INCA",
+      "overview": "El <strong>Valle Sagrado de los Incas</strong> es un escenario de belleza natural y herencia ancestral. Rodeado de imponentes montañas, este fértil valle reúne pueblos vibrantes, mercados coloridos y vestigios arqueológicos que cuentan la historia de una civilización brillante.",
+      "cards": {
+        "pisacRuins": {
+          "title": "Ruinas de Pisac y su Mercado",
+          "body": "Asómbrate con los antiguos andenes incas en lo alto del valle y explora uno de los mercados más famosos del Perú, lleno de arte y cultura local.",
+          "alt": "Vista de las terrazas incas en Pisac y el mercado artesanal"
+        },
+        "ollantaytambo": {
+          "title": "Fortaleza de Ollantaytambo",
+          "body": "Descubre esta imponente fortaleza viva, un ejemplo perfecto de urbanismo inca que aún es habitado. Escalones, templos y vistas de postal.",
+          "alt": "Vista aérea de Ollantaytambo entre montañas"
+        },
+        "marasMoray": {
+          "title": "Salineras de Maras y Terrazas de Moray",
+          "body": "Admira las salinas blancas de Maras y los enigmáticos círculos concéntricos de Moray, antiguos laboratorios agrícolas incas.",
+          "alt": "Vista aérea de las salinas de Maras y las terrazas de Moray"
+        },
+        "urubamba": {
+          "title": "Relajación en Urubamba",
+          "body": "Este tranquilo pueblo a orillas del río es perfecto para desconectar, disfrutar de spas, hoteles boutique y la calidez de la hospitalidad andina.",
+          "alt": "Paisaje verde y montañoso de Urubamba al atardecer"
+        },
+        "chinchero": {
+          "title": "Chinchero: Tejidos y Tradición",
+          "body": "Vive una auténtica experiencia cultural entre tejidos ancestrales, ruinas incas y una de las iglesias coloniales más bellas del Perú.",
+          "alt": "Mujeres andinas tejiendo en el pueblo de Chinchero"
+        },
+        "adventureSports": {
+          "title": "Aventura al Aire Libre",
+          "body": "Para los más activos, el Valle ofrece ciclismo de montaña, caminatas, rafting y tirolesas con vistas espectaculares de los Andes.",
+          "alt": "Turista practicando ciclismo en los paisajes del Valle Sagrado"
+        }
+      }
+    },
+    "peruvianAmazon": {
+      "headline": "SELVA PERUANA: ENTRE MISTERIOS MILENARIOS Y NATURALEZA SALVAJE",
+      "overview": "Desde la frondosa selva baja de <strong>Puerto Maldonado</strong> hasta los tesoros arqueológicos de <strong>Chachapoyas</strong> en la selva alta, la Amazonía peruana ofrece un mundo de biodiversidad, misterio y cultura viva por descubrir.",
+      "cards": {
+        "tambopataReserve": {
+          "title": "Reserva Nacional Tambopata",
+          "body": "Explora uno de los lugares con mayor biodiversidad del planeta. Caminatas nocturnas, lagos amazónicos y avistamiento de animales en estado puro.",
+          "alt": "Canoas en el lago Sandoval rodeadas de vegetación amazónica"
+        },
+        "treeLodges": {
+          "title": "Alojamientos en la Selva",
+          "body": "Duerme en lodges ecológicos elevados entre los árboles, escucha los sonidos de la selva y desconéctate en una experiencia 100% inmersiva.",
+          "alt": "Vista de un eco lodge entre los árboles en la selva"
+        },
+        "macawClayLick": {
+          "title": "Colpa de Guacamayos",
+          "body": "Sé testigo del espectáculo natural de decenas de guacamayos alimentándose en las paredes arcillosas de la Amazonía, una explosión de color y vida.",
+          "alt": "Grupo de guacamayos coloridos sobre una colpa amazónica"
+        },
+        "kuelapFortress": {
+          "title": "Fortaleza de Kuélap",
+          "body": "Más antigua que Machu Picchu, Kuélap fue construida por los Chachapoyas sobre una montaña cubierta de neblina. Una joya arqueológica que impacta por su grandeza.",
+          "alt": "Ruinas de Kuélap entre nubes en la selva alta"
+        },
+        "goctaFalls": {
+          "title": "Catarata de Gocta",
+          "body": "Una de las cascadas más altas del mundo, rodeada de selva exuberante y leyendas. Llegar hasta ella es una caminata inolvidable.",
+          "alt": "Cascada de Gocta cayendo entre vegetación frondosa"
+        },
+        "livingCulture": {
+          "title": "Cultura Viva en la Amazonía",
+          "body": "Conoce comunidades amazónicas, su gastronomía, rituales ancestrales y formas de vida sostenibles en armonía con la naturaleza.",
+          "alt": "Mujeres amazónicas cocinando en comunidad tradicional"
+        }
+      }
+    },
+    "lima": {
+      "headline": "LIMA: ENTRE SABORES INOLVIDABLES Y ACANTILADOS JUNTO AL MAR",
+      "overview": "<strong>Lima</strong>, la capital peruana, es una ciudad vibrante donde la historia colonial convive con una escena gastronómica de clase mundial, barrios bohemios y espectaculares vistas al océano Pacífico. Un destino que sorprende desde el primer día.",
+      "cards": {
+        "historicCenter": {
+          "title": "Centro Histórico de Lima",
+          "body": "Explora iglesias barrocas, balcones coloniales y plazas llenas de vida en este conjunto monumental reconocido por la UNESCO.",
+          "alt": "Plaza Mayor de Lima con la Catedral y el Palacio de Gobierno"
+        },
+        "mirafloresMalecon": {
+          "title": "Malecón de Miraflores",
+          "body": "Pasea por acantilados frente al mar, jardines en flor y modernos cafés con vista al atardecer. Ideal para caminar, correr o volar en parapente.",
+          "alt": "Vista aérea del malecón de Miraflores junto al océano"
+        },
+        "barrancoDistrict": {
+          "title": "Encanto Bohemio de Barranco",
+          "body": "Descubre murales de arte urbano, bares con música en vivo, museos y puentes románticos en el barrio más artístico de Lima.",
+          "alt": "Calle colorida y puente de los suspiros en Barranco"
+        },
+        "limaGastronomy": {
+          "title": "Capital Gastronómica de América",
+          "body": "Deléitate con ceviches frescos, cocina nikkei, y experiencias gourmet en restaurantes premiados como Central o Maido.",
+          "alt": "Plato de ceviche en restaurante de alta cocina"
+        },
+        "catacombs": {
+          "title": "Catacumbas de San Francisco",
+          "body": "Adéntrate en los túneles subterráneos del convento de San Francisco, un viaje fascinante por la historia religiosa y misteriosa de Lima.",
+          "alt": "Pasillos de las catacumbas iluminados con luz tenue"
+        },
+        "costaVerde": {
+          "title": "Playas de la Costa Verde",
+          "body": "Disfruta del sol, el surf y la brisa marina en las playas limeñas que se extienden al pie de sus famosos acantilados.",
+          "alt": "Surfistas en las playas de Lima bajo los acantilados"
+        }
+      }
+    },
+    "ica": {
+      "headline": "ICA: OASIS ENTRE DUNAS, VINOS Y AVENTURAS DEL DESIERTO",
+      "overview": "<strong>Ica</strong> es tierra de contrastes: dunas doradas que parecen infinitas, lagunas escondidas entre el desierto, viñedos centenarios y adrenalina pura. Aquí se vive el sol, el vino, la historia y la aventura en su máxima expresión.",
+      "cards": {
+        "huacachina": {
+          "title": "Oasis de Huacachina",
+          "body": "Un oasis real rodeado de dunas gigantes. Disfruta paseos en buggies, sandboarding o simplemente una puesta de sol mágica frente al agua.",
+          "alt": "Vista panorámica del oasis de Huacachina entre dunas"
+        },
+        "duneBuggy": {
+          "title": "Aventura en Buggies por el Desierto",
+          "body": "Súbete a un buggy y recorre a toda velocidad las dunas del desierto. Una experiencia llena de adrenalina, risas y paisajes únicos.",
+          "alt": "Turistas en buggy cruzando las dunas de Ica"
+        },
+        "vineyards": {
+          "title": "Ruta del Pisco y el Vino",
+          "body": "Visita bodegas tradicionales y aprende sobre la producción del pisco y el vino peruano. Catas, historia y sabor en el corazón del desierto.",
+          "alt": "Copas de vino frente a viñedos en Ica"
+        },
+        "cachiche": {
+          "title": "Leyendas de Cachiche",
+          "body": "Explora el mítico pueblo de las brujas. Historias, esculturas y un árbol encantado te sumergen en el lado mágico de Ica.",
+          "alt": "Escultura de bruja en el pueblo de Cachiche"
+        },
+        "ballestasIslands": {
+          "title": "Islas Ballestas desde Paracas",
+          "body": "A pocos kilómetros de Ica, navega hacia este paraíso natural para ver lobos marinos, pingüinos de Humboldt y el misterioso Candelabro.",
+          "alt": "Lobos marinos descansando en las Islas Ballestas"
+        },
+        "canyonDeLosPerdidos": {
+          "title": "Cañón de los Perdidos",
+          "body": "Un paisaje surrealista de formaciones rocosas y cañones ocultos. Aventura geológica y fotográfica en el desierto profundo de Ica.",
+          "alt": "Caminantes en el Cañón de los Perdidos bajo cielos despejados"
+        }
+      }
+    },
+    "nazca": {
+      "headline": "NAZCA: LÍNEAS MISTERIOSAS Y TESOROS BAJO LA ARENA",
+      "overview": "<strong>Nazca</strong> es un destino que despierta la imaginación. Sus líneas milenarias trazadas sobre el desierto han desconcertado a arqueólogos y viajeros durante décadas. Pero Nazca es mucho más: pirámides enterradas, acueductos ancestrales y cielos abiertos para volar y soñar.",
+      "cards": {
+        "nazcaLinesFlight": {
+          "title": "Sobrevuelo a las Líneas de Nazca",
+          "body": "Súbete a una avioneta y contempla desde el cielo los geoglifos gigantes: monos, colibríes, astronautas. Un misterio tallado en el desierto.",
+          "alt": "Vista aérea del colibrí de las Líneas de Nazca"
+        },
+        "cantallocAqueducts": {
+          "title": "Acueductos de Cantalloc",
+          "body": "Construidos hace más de mil años, estos canales subterráneos siguen llevando agua al desierto. Un legado tecnológico de la cultura Nazca.",
+          "alt": "Acueductos en espiral de Cantalloc vistos desde arriba"
+        },
+        "chauchillaCemetery": {
+          "title": "Cementerio de Chauchilla",
+          "body": "Visita tumbas preincaicas donde las momias aún descansan con vestimentas intactas. Un encuentro impactante con la historia antigua.",
+          "alt": "Momia preincaica en el cementerio de Chauchilla"
+        },
+        "pyramidsCahuachi": {
+          "title": "Pirámides de Cahuachi",
+          "body": "Explora el centro ceremonial más importante de la cultura Nazca: pirámides de adobe, plazas y templos en medio del desierto.",
+          "alt": "Estructuras piramidales de Cahuachi al atardecer"
+        },
+        "planetarium": {
+          "title": "Planetario María Reiche",
+          "body": "Conoce la teoría astronómica detrás de las líneas y el legado de la mujer que dedicó su vida a estudiarlas. Ciencia, pasión y estrellas.",
+          "alt": "Cúpula del planetario iluminada bajo el cielo nocturno"
+        },
+        "desertSunset": {
+          "title": "Atardecer en el Desierto de Nazca",
+          "body": "Termina tu día con un espectáculo de colores sobre las dunas infinitas. Paz, silencio y una postal que queda para siempre.",
+          "alt": "Sol poniente sobre el desierto de Nazca"
+        }
+      }
+    },
+    "puno": {
+      "headline": "PUNO: DONDE NAVEGA LA CULTURA SOBRE LAS AGUAS DEL TITICACA",
+      "overview": "<strong>Puno</strong> es el alma del altiplano. A orillas del lago navegable más alto del mundo, sus islas flotantes, festividades coloridas y paisajes sagrados revelan una conexión única entre el agua, la tierra y sus pueblos ancestrales.",
+      "cards": {
+        "urosIslands": {
+          "title": "Islas Flotantes de los Uros",
+          "body": "Conoce las comunidades que viven sobre islas hechas de totora. Un modo de vida ancestral que sobrevive flotando sobre el lago.",
+          "alt": "Bote de totora navegando frente a una isla flotante de los Uros"
+        },
+        "taquileIsland": {
+          "title": "Isla Taquile y sus Tejedores",
+          "body": "Admira textiles reconocidos por la UNESCO y la armonía colectiva de una comunidad que mantiene vivas sus tradiciones desde hace siglos.",
+          "alt": "Tejedor tradicional en la isla Taquile"
+        },
+        "lampaVillage": {
+          "title": "Lampa, la Ciudad Rosada",
+          "body": "Un tesoro escondido de arquitectura colonial, arte sacro y túneles secretos. Una joya poco conocida del altiplano puneño.",
+          "alt": "Iglesia colonial de Lampa bajo el cielo andino"
+        },
+        "festivityCandelaria": {
+          "title": "Festividad de la Virgen de la Candelaria",
+          "body": "Vive una explosión de música, danza y fe. Más de 100 mil danzantes celebran la mayor fiesta folclórica del Perú.",
+          "alt": "Grupo de danzantes con trajes coloridos en la fiesta de la Candelaria"
+        },
+        "sillustaniTombs": {
+          "title": "Chullpas de Sillustani",
+          "body": "Antiguas torres funerarias preincaicas con vistas impresionantes al lago Umayo. Un lugar cargado de energía y silencio.",
+          "alt": "Chullpas circulares de Sillustani frente al lago"
+        },
+        "titicacaSunrise": {
+          "title": "Amanecer sobre el Titicaca",
+          "body": "Madruga para contemplar cómo el sol emerge entre las islas y el cielo altiplánico se pinta de fuego. Una experiencia espiritual.",
+          "alt": "Salida del sol sobre el lago Titicaca con reflejos dorados"
+        }
+      }
+    }
+
+  },
   "PACKAGES": {
     "DESTINOS":{
       "AREQUIPA": [

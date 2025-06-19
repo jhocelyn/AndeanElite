@@ -111,9 +111,9 @@
               <div [routerLink]="['/destinations']" (click)="closeAllMenus()" class="text-2xl font-semibold px-4 py-2"><a>{{'NAVBAR.WAYS.PERU.TITLE'|translate}}</a></div>
               <div class="flex gap-5">
                 <div class="flex-1">
-                  <ng-container *ngFor="let item of ['Cusco', 'Puerto Maldonado', 'Puno', 'Arequipa']">
+                  <ng-container *ngFor="let item of ['Cusco', 'Machu Picchu', 'Sacred Valley', 'Peruvian Amazon']">
                     <a
-                      [routerLink]="['/destination/', item.toLowerCase()]"
+                      [routerLink]="['/destinations/', item.toLowerCase().split(' ').join('-')]"
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >
@@ -122,9 +122,9 @@
                   </ng-container>
                 </div>
                 <div class="flex-1">
-                  <ng-container *ngFor="let item of ['Lima', 'Ica', 'Nazca', 'Chachapoyas']">
+                  <ng-container *ngFor="let item of [ 'Arequipa & Colca Canon','Lima', 'Ica', 'Nazca', 'Puno']">
                     <a
-                      [routerLink]="['/destination/', item.toLowerCase()]"
+                      [routerLink]="['/destinations/', item.toLowerCase().split(' ').join('-')]"
                       (click)="closeAllMenus()"
                       class="block px-4 py-2 hover:bg-gray-100"
                     >

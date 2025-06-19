@@ -433,6 +433,333 @@
       ]
     }
 },
+  "destinations": {
+    "cusco": {
+      "headline": "THE MAJESTY OF MACHU PICCHU IS BREATHTAKING",
+      "overview": "<strong>Machu Picchu</strong>, the lost city of the Incas, is quite possibly the reason you chose to travel to Peru in the first place! It was recently voted one of the New Seven Wonders of the World and we guarantee this magical site will leave you speechless.",
+      "cards": {
+        "classicTrail": {
+          "title": "4-Day Traditional Inka Trail",
+          "body": "Walk in the footsteps of the Incas along this iconic 4-day trail through lush valleys and cloud forests, culminating in a dramatic sunrise arrival at Machu Picchu.",
+          "alt": "Hiker crossing the Andes on the 4-day Inca Trail"
+        },
+        "shortTrail": {
+          "title": "2-Day Short Inca Trail",
+          "body": "Perfect for those short on time but high on adventure. Capture the thrill of hiking the final stretch of the Inca Trail into the Sun Gate at Machu Picchu.",
+          "alt": "Hiker entering Machu Picchu via Sun Gate"
+        },
+        "sacredValley": {
+          "title": "The Sacred Valley of the Incas",
+          "body": "Explore charming Andean towns, colorful markets, and astonishing Incan ruins nestled between majestic mountains and golden fields.",
+          "alt": "Aerial view of Pisac ruins in the Sacred Valley"
+        },
+        "rainbowMountain": {
+          "title": "Rainbow Mountain Adventure",
+          "body": "Marvel at Vinicunca, the mountain of seven colors. This full-day trek rewards hikers with surreal, vibrant landscapes unlike anything else on Earth.",
+          "alt": "Tourists posing on top of Rainbow Mountain"
+        },
+        "morayMaras": {
+          "title": "Mysteries of Moray & Maras",
+          "body": "Uncover ancient agricultural engineering at the circular terraces of Moray and the gleaming salt pans of Maras — still in use today.",
+          "alt": "Salt ponds of Maras and circular terraces of Moray"
+        },
+        "cuscoCity": {
+          "title": "Historic Cusco City Tour",
+          "body": "From the cobblestone streets to the massive stone walls of Sacsayhuamán, discover how the past lives on in the cultural capital of the Andes.",
+          "alt": "Panoramic view of Cusco city with mountains in the background"
+        }
+      }
+    },
+    "machuPicchu": {
+      "headline": "THE MAJESTY OF MACHU PICCHU IS BREATHTAKING",
+      "overview": "<strong>Machu Picchu</strong>, the lost city of the Incas, is probably the main reason you chose to travel to Peru. Named one of the New Seven Wonders of the World, this magical site will envelop you with its mysticism, rich history, and surreal mountain scenery.",
+      "cards": {
+        "classicTrail": {
+          "title": "4-Day Traditional Inca Trail",
+          "body": "Embark on a once-in-a-lifetime journey along ancient paths through cloud forests and hidden ruins, culminating with a breathtaking sunrise arrival at Machu Picchu.",
+          "alt": "Hiker walking the traditional 4-day Inca Trail"
+        },
+        "shortTrail": {
+          "title": "2-Day Short Inca Trail",
+          "body": "Perfect for travelers with limited time who still crave adventure. Arrive at Machu Picchu through the legendary Sun Gate on this powerful 2-day hike.",
+          "alt": "Hiker arriving at Machu Picchu via the Sun Gate"
+        },
+        "sunGate": {
+          "title": "Sun Gate (Inti Punku)",
+          "body": "The most exhilarating arrival point along the Inca Trail. Watch the majestic Machu Picchu unfold before you from this natural sunlit viewpoint.",
+          "alt": "Panoramic view of Machu Picchu from Inti Punku"
+        },
+        "huaynaPicchu": {
+          "title": "Climb to Huayna Picchu",
+          "body": "Ascend the iconic peak that towers behind Machu Picchu in every postcard. The summit offers a jaw-dropping view over the citadel and surrounding mountains.",
+          "alt": "Traveler at the summit of Huayna Picchu overlooking the ruins"
+        },
+        "templeOfTheSun": {
+          "title": "Temple of the Sun",
+          "body": "One of the most sacred structures in Machu Picchu. Its precisely cut stone walls and solar alignment showcase the Incas' astronomical mastery.",
+          "alt": "Stone walls of the Temple of the Sun in Machu Picchu"
+        },
+        "mysticalExperience": {
+          "title": "Mystical Energy of Machu Picchu",
+          "body": "More than a destination, Machu Picchu is a spiritual experience. Feel the energy of the Apus and connect deeply with nature and Andean culture.",
+          "alt": "Visitor meditating among the ruins of Machu Picchu"
+        }
+      }
+    },
+    "arequipa": {
+      "headline": "THE WHITE CHARM OF AREQUIPA & THE GRANDEUR OF COLCA CANYON",
+      "overview": "<strong>Arequipa</strong>, known as the White City, shines with its stunning colonial architecture built from volcanic stone, rich cuisine, and proximity to the awe-inspiring Colca Canyon. A destination where history, nature, and adventure come together.",
+      "cards": {
+        "historicCenter": {
+          "title": "Historic Center of Arequipa",
+          "body": "Wander cobblestone streets, baroque churches, and sun-drenched plazas in this UNESCO World Heritage Site.",
+          "alt": "View of Arequipa's Plaza de Armas and Cathedral"
+        },
+        "santaCatalina": {
+          "title": "Santa Catalina Monastery",
+          "body": "Step inside this 16th-century convent turned vibrant museum — a colorful maze of history, silence, and devotion.",
+          "alt": "Colorful hallway inside Santa Catalina Monastery"
+        },
+        "colcaCanyon": {
+          "title": "Colca Canyon Excursion",
+          "body": "One of the deepest canyons in the world. Discover pre-Incan terraces, traditional villages, and jaw-dropping mountain views.",
+          "alt": "Panoramic view of Colca Canyon with terraced slopes"
+        },
+        "condorCross": {
+          "title": "Condor Cross Viewpoint",
+          "body": "Watch the mighty Andean condor soar just meters above you — an unforgettable encounter with one of the Andes’ greatest icons.",
+          "alt": "Andean condor flying over Colca Canyon"
+        },
+        "mistiVolcano": {
+          "title": "Climb Misti Volcano",
+          "body": "For thrill-seekers: hike to the summit of the Misti volcano for stunning views and bragging rights over Arequipa’s iconic peak.",
+          "alt": "Snow-capped Misti Volcano overlooking Arequipa"
+        },
+        "arequipaGastronomy": {
+          "title": "Arequipa Food Route",
+          "body": "Indulge in unique local flavors like rocoto relleno, ocopa, and hearty chupes in traditional picantería restaurants.",
+          "alt": "Dish of rocoto relleno in a traditional Arequipa eatery"
+        }
+      }
+    },
+    "sacredValley": {
+      "headline": "THE SACRED VALLEY: LIVING HEART OF INCA CIVILIZATION",
+      "overview": "The <strong>Sacred Valley of the Incas</strong> is a breathtaking blend of natural beauty and ancient heritage. Nestled between towering Andean peaks, the valley is home to vibrant towns, colorful markets, and awe-inspiring archaeological wonders.",
+      "cards": {
+        "pisacRuins": {
+          "title": "Pisac Ruins and Market",
+          "body": "Marvel at the hilltop Inca terraces and explore one of Peru’s most famous markets, full of traditional crafts and local color.",
+          "alt": "View of Pisac Inca terraces and vibrant local market"
+        },
+        "ollantaytambo": {
+          "title": "Ollantaytambo Fortress",
+          "body": "Discover this living Inca town and its stunning fortress — a masterpiece of stonework, terraces, and sacred views.",
+          "alt": "Aerial view of Ollantaytambo surrounded by mountains"
+        },
+        "marasMoray": {
+          "title": "Maras Salt Pans & Moray Terraces",
+          "body": "Visit the dazzling white salt flats of Maras and the mysterious circular terraces of Moray, used for ancient agricultural experiments.",
+          "alt": "Aerial view of Maras salt pools and Moray archaeological site"
+        },
+        "urubamba": {
+          "title": "Relaxation in Urubamba",
+          "body": "A peaceful town along the river, ideal for boutique stays, spa treatments, and immersing in warm Andean hospitality.",
+          "alt": "Green and mountainous landscape of Urubamba at sunset"
+        },
+        "chinchero": {
+          "title": "Chinchero: Textiles and Tradition",
+          "body": "Experience living culture through traditional weaving, Inca ruins, and one of the most picturesque colonial churches in Peru.",
+          "alt": "Andean women weaving in the village of Chinchero"
+        },
+        "adventureSports": {
+          "title": "Outdoor Adventure",
+          "body": "For thrill-seekers: mountain biking, trekking, rafting, and zip-lining — all set against the stunning Andean backdrop.",
+          "alt": "Tourist mountain biking through Sacred Valley trails"
+        }
+      }
+    },
+    "peruvianAmazon": {
+      "headline": "PERUVIAN AMAZON: BETWEEN ANCIENT MYSTERIES AND WILD NATURE",
+      "overview": "From the lush lowland jungles of <strong>Puerto Maldonado</strong> to the misty archaeological marvels of <strong>Chachapoyas</strong>, the Peruvian Amazon invites you into a world of raw biodiversity, history, and vibrant culture.",
+      "cards": {
+        "tambopataReserve": {
+          "title": "Tambopata National Reserve",
+          "body": "Venture into one of the most biodiverse corners of Earth. Night hikes, oxbow lakes, and wildlife encounters await in pristine rainforest.",
+          "alt": "Canoes floating on Lake Sandoval in dense Amazon jungle"
+        },
+        "treeLodges": {
+          "title": "Amazon Jungle Lodges",
+          "body": "Sleep among the treetops in eco-lodges, wake up to monkey calls, and immerse yourself in the sounds and scents of the rainforest.",
+          "alt": "Eco-lodge nestled in treetop canopy"
+        },
+        "macawClayLick": {
+          "title": "Macaw Clay Lick Experience",
+          "body": "Watch dozens of brilliantly colored macaws descend on clay cliffs — one of the Amazon's most unforgettable wildlife spectacles.",
+          "alt": "Group of macaws feeding on a rainforest clay wall"
+        },
+        "kuelapFortress": {
+          "title": "Kuélap Fortress",
+          "body": "Older than Machu Picchu, this mountaintop fortress of the Chachapoyas is wrapped in mist and mystery. A monumental testament to a lost civilization.",
+          "alt": "Ancient Kuélap ruins shrouded in clouds"
+        },
+        "goctaFalls": {
+          "title": "Gocta Waterfall",
+          "body": "One of the tallest waterfalls in the world, Gocta is surrounded by jungle trails, legend, and magic. A hike that stirs the soul.",
+          "alt": "Gocta Falls cascading through lush rainforest"
+        },
+        "livingCulture": {
+          "title": "Living Amazonian Culture",
+          "body": "Meet local communities, share ancestral meals, learn traditional practices, and experience the Amazon as a place of connection and wisdom.",
+          "alt": "Amazonian women cooking in a traditional communal setting"
+        }
+      }
+    },
+    "lima": {
+      "headline": "LIMA: WHERE UNFORGETTABLE FLAVORS MEET CLIFFSIDE OCEAN VIEWS",
+      "overview": "<strong>Lima</strong>, Peru’s capital city, is a vibrant blend of colonial heritage, world-class gastronomy, seaside parks, and artistic neighborhoods. A surprising destination that invites you to explore, taste, and fall in love from day one.",
+      "cards": {
+        "historicCenter": {
+          "title": "Lima’s Historic Center",
+          "body": "Wander through baroque churches, colonial balconies, and lively plazas in this UNESCO-listed architectural treasure.",
+          "alt": "Lima's Plaza Mayor with the Cathedral and Government Palace"
+        },
+        "mirafloresMalecon": {
+          "title": "Miraflores Cliffside Walk",
+          "body": "Stroll along oceanfront parks, scenic gardens, and trendy cafés. A perfect spot for walking, jogging, or even paragliding.",
+          "alt": "Aerial view of Miraflores’ clifftop promenade over the ocean"
+        },
+        "barrancoDistrict": {
+          "title": "Bohemian Barranco",
+          "body": "Lima’s most artistic neighborhood, full of murals, live music venues, boutique museums, and romantic bridges.",
+          "alt": "Colorful street with the Bridge of Sighs in Barranco"
+        },
+        "limaGastronomy": {
+          "title": "Latin America’s Culinary Capital",
+          "body": "Savor fresh ceviches, nikkei fusion dishes, and world-renowned tasting menus at award-winning restaurants like Central and Maido.",
+          "alt": "Ceviche plate served at a gourmet restaurant in Lima"
+        },
+        "catacombs": {
+          "title": "San Francisco Catacombs",
+          "body": "Descend into the haunting tunnels beneath Lima’s most iconic convent — a journey through religious history and colonial mystery.",
+          "alt": "Dimly lit corridors of the San Francisco Catacombs"
+        },
+        "costaVerde": {
+          "title": "Beaches of the Costa Verde",
+          "body": "Soak up sun, surf, and sea breeze on the Pacific beaches nestled below Lima’s dramatic cliffs.",
+          "alt": "Surfers riding waves beneath the Costa Verde cliffs"
+        }
+      }
+    },
+    "ica": {
+      "headline": "ICA: AN OASIS OF DUNES, WINES & DESERT ADVENTURES",
+      "overview": "<strong>Ica</strong> is a land of contrasts: endless golden dunes, hidden desert lagoons, historic vineyards, and thrilling adventures. Sun, wine, mystery, and adrenaline — this is Peru’s desert playground.",
+      "cards": {
+        "huacachina": {
+          "title": "Huacachina Oasis",
+          "body": "A real desert oasis surrounded by towering dunes. Ride a buggy, go sandboarding, or simply enjoy a magical sunset by the lagoon.",
+          "alt": "Panoramic view of Huacachina oasis amid the sand dunes"
+        },
+        "duneBuggy": {
+          "title": "Desert Buggy Adventure",
+          "body": "Strap in for high-speed thrills across the Ica dunes. A rush of adrenaline, stunning scenery, and pure fun in the sand.",
+          "alt": "Tourists riding a buggy over the Ica desert dunes"
+        },
+        "vineyards": {
+          "title": "Pisco & Wine Route",
+          "body": "Tour traditional vineyards, learn how Peru’s pisco is made, and enjoy tastings surrounded by sun-soaked desert vines.",
+          "alt": "Wine glasses with vineyard view in Ica"
+        },
+        "cachiche": {
+          "title": "The Witch Legends of Cachiche",
+          "body": "Uncover local folklore in this mysterious village known for its tales of witches, enchanted trees, and supernatural energy.",
+          "alt": "Statue of a witch in Cachiche village"
+        },
+        "ballestasIslands": {
+          "title": "Ballestas Islands from Paracas",
+          "body": "Just a short trip from Ica, sail to these wildlife-rich islands to spot sea lions, Humboldt penguins, and the enigmatic Candelabra geoglyph.",
+          "alt": "Sea lions resting on the rocks at Ballestas Islands"
+        },
+        "canyonDeLosPerdidos": {
+          "title": "Canyon of the Lost",
+          "body": "A surreal desert canyon of sculpted rock and geological mystery. Ideal for photography and exploration off the beaten path.",
+          "alt": "Hikers walking through the Canyon of the Lost under clear skies"
+        }
+      }
+    },
+    "nazca": {
+      "headline": "NAZCA: ANCIENT LINES AND SECRETS BENEATH THE SAND",
+      "overview": "<strong>Nazca</strong> is a destination that fuels the imagination. For decades, its giant desert drawings have baffled scientists and amazed travelers. But there’s more: hidden pyramids, ancient aqueducts, and wide open skies for flying and dreaming.",
+      "cards": {
+        "nazcaLinesFlight": {
+          "title": "Flight Over the Nazca Lines",
+          "body": "Board a light aircraft and witness the giant geoglyphs from above: monkeys, hummingbirds, astronauts — a desert mystery carved in time.",
+          "alt": "Aerial view of the Nazca hummingbird geoglyph"
+        },
+        "cantallocAqueducts": {
+          "title": "Cantalloc Aqueducts",
+          "body": "Over a thousand years old and still functional, these underground spiral canals showcase the engineering genius of the Nazca people.",
+          "alt": "Spiral-shaped Cantalloc aqueducts seen from above"
+        },
+        "chauchillaCemetery": {
+          "title": "Chauchilla Cemetery",
+          "body": "Step into ancient burial grounds where mummies rest with hair, clothing, and dignity preserved through the centuries.",
+          "alt": "Pre-Inca mummy on display at Chauchilla"
+        },
+        "pyramidsCahuachi": {
+          "title": "Cahuachi Pyramids",
+          "body": "Explore the largest ceremonial center of the Nazca culture — adobe pyramids, temples, and plazas rising from the desert sands.",
+          "alt": "Adobe pyramid ruins of Cahuachi at sunset"
+        },
+        "planetarium": {
+          "title": "María Reiche Planetarium",
+          "body": "Discover the astronomical theories behind the lines and the life of the woman who devoted herself to their study. Science meets stardust.",
+          "alt": "Planetarium dome under a starlit sky"
+        },
+        "desertSunset": {
+          "title": "Sunset Over the Nazca Desert",
+          "body": "End your day with a breathtaking display of color across the endless dunes — silence, serenity, and a memory for life.",
+          "alt": "Golden sunset over the vast Nazca desert"
+        }
+      }
+    },
+    "puno": {
+      "headline": "PUNO: WHERE CULTURE SAILS OVER THE WATERS OF TITICACA",
+      "overview": "<strong>Puno</strong> is the soul of the Andean highlands. Set on the shore of the world’s highest navigable lake, its floating islands, vibrant festivals, and sacred landscapes reveal a timeless connection between people, water, and sky.",
+      "cards": {
+        "urosIslands": {
+          "title": "Uros Floating Islands",
+          "body": "Meet the communities who live on islands made entirely of reeds. A living tradition that floats above the sacred waters of Lake Titicaca.",
+          "alt": "Totora boat sailing near a Uros floating island"
+        },
+        "taquileIsland": {
+          "title": "Taquile Island and its Weavers",
+          "body": "Explore a community where centuries-old textile art — recognized by UNESCO — is woven into daily life and identity.",
+          "alt": "Traditional weaver working on Taquile Island"
+        },
+        "lampaVillage": {
+          "title": "Lampa, The Pink City",
+          "body": "A hidden gem of colonial architecture, sacred art, and underground tunnels. One of the Altiplano’s best-kept secrets.",
+          "alt": "Colonial church of Lampa beneath Andean skies"
+        },
+        "festivityCandelaria": {
+          "title": "Virgin of Candelaria Festival",
+          "body": "Join Peru’s most spectacular folkloric celebration. Over 100,000 dancers fill the streets with color, rhythm, and devotion.",
+          "alt": "Dancers in colorful costumes at the Candelaria festival"
+        },
+        "sillustaniTombs": {
+          "title": "Sillustani Burial Towers",
+          "body": "Explore ancient funerary towers overlooking Lake Umayo. A silent and mystical site filled with ancestral energy.",
+          "alt": "Stone funerary towers of Sillustani by the lake"
+        },
+        "titicacaSunrise": {
+          "title": "Sunrise Over Lake Titicaca",
+          "body": "Rise early to witness the sun emerging between islands and clouds. A deeply spiritual moment on Peru’s sacred lake.",
+          "alt": "Golden sunrise reflecting over Lake Titicaca"
+        }
+      }
+    }
+
+  },
   "PACKAGES":{
     "DESTINOS":{
       "AREQUIPA": [

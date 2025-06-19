@@ -1,0 +1,32 @@
+<!-- Portada -->
+<div class="relative">
+  <img [src]="imageUrl" alt="Destination cover" class="w-full h-[320px] object-cover" />
+</div>
+
+<!-- Descripción -->
+<div class="grid md:grid-cols-2 gap-6 px-6 py-10 max-w-6xl mx-auto">
+  <div class="text-lg font-medium text-gray-800 leading-relaxed">
+    <p [innerHTML]="overview | translate"></p>
+  </div>
+  <div class="text-3xl md:text-4xl font-bold text-gray-800 uppercase">
+    {{ headline | translate }}
+  </div>
+</div>
+
+<!-- Rejilla de tarjetas -->
+<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-6 py-10 max-w-6xl mx-auto">
+  <ng-container *ngFor="let card of highlights; trackBy: trackByIndex">
+    <article class="space-y-3">
+      <img
+        class="aspect-[4/3] w-full object-cover rounded-lg shadow-sm"
+        [src]="card.image"
+        [alt]="card.alt | translate"
+        loading="lazy"
+      />
+      <h3 class="font-semibold text-lg leading-tight">
+        {{ card.title | translate }}
+      </h3>
+      <p class="text-sm text-gray-700" [innerHTML]="card.body | translate"></p>
+    </article>
+  </ng-container>
+</div>
