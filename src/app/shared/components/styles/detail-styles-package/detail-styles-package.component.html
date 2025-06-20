@@ -74,9 +74,13 @@
         <p [innerHTML]="packageData.description"></p>
 
         <h2 class="text-2xl font-semibold text-[#042a4e] my-4">{{ 'INFO_PACKAGES.WHY_YOU_WILL_LOVE' | translate:{subtitle: packageData.subtitle} }}</h2>
-        <ul>
-          <li *ngFor="let why of packageData.whyChooseUs">{{ why }}</li>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 list-disc list-inside">
+          <li *ngFor="let why of packageData.whyChooseUs">
+            {{ why }}
+          </li>
         </ul>
+
+
       </div>
 
       <!-- Itinerario -->
