@@ -6206,8 +6206,8 @@
         "images": [
           {
             "alt": "Panoramic view of Machu Picchu and Sacred Valley with city tour in Cusco",
-            "src": "assets/img/ways-to-travel/styles/deluxe/super-valley-deluxe.webp,",
-            "width": "1200"
+            "src": "assets/img/ways-to-travel/styles/deluxe/super-valley-deluxe.webp",
+            "width": 1200
           }
         ]
       },
