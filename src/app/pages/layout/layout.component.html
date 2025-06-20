@@ -241,7 +241,7 @@
           {{ 'HOME_PURPOSE.DESCRIPTION' | translate }}
         </p>
         <div class="mt-6 w-full md:w-[70%]">
-          <button title="{{'HOME_PURPOSE.TITLE_BUTTON'|translate}}" class="border w-full  border-white px-6 py-3 rounded-xl transition hover:bg-white hover:text-[#001f42]">
+          <button [routerLink]="'/our-purpose'" title="{{'HOME_PURPOSE.TITLE_BUTTON'|translate}}" class="border w-full  border-white px-6 py-3 rounded-xl transition hover:bg-white hover:text-[#001f42]">
             {{ 'HOME_PURPOSE.BUTTON' | translate }}
           </button>
         </div>
@@ -297,7 +297,7 @@
       {{'HOME_TESTIMONIALS.DESCRIPTION'|translate}}
     </p>
     <div class="flex justify-center">
-      <button title="{{'HOME_TESTIMONIALS.TITLE_BUTTON'|translate}}" class="text-lg md:text-xl bg-white rounded-full py-4 px-12 text-center text-[#0f2d40] ">
+      <button (click)="openWhatsApp()" title="{{'HOME_TESTIMONIALS.TITLE_BUTTON'|translate}}" class="text-lg md:text-xl bg-white rounded-full py-4 px-12 text-center text-[#0f2d40] ">
         {{'HOME_TESTIMONIALS.PLAN'|translate}}
       </button>
 
