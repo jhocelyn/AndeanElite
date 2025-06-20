@@ -5313,7 +5313,7 @@
         "images": [
           {
             "alt": "Panoramic view of Machu Picchu and Cusco city during a 3-day trip",
-            "src": "assets/img/ways-to-travel/styles/comfort/cusco-ciudad-amazing-view.webp",
+            "src": "assets/img/ways-to-travel/styles/comfort/amazing-view-of-machu-picchu.webp",
             "width": 1200
           }
         ]
@@ -5582,7 +5582,7 @@
         "images": [
           {
             "alt": "Panoramic view of Cusco, Sacred Valley, and Machu Picchu in 4-day travel package",
-            "src": "assets/img/ways-to-travel/styles/comfort/aguas-calientes.webp",
+            "src": "assets/img/ways-to-travel/styles/comfort/machu-picchu-view.webp",
             "width": 1200
           }
         ]
@@ -5652,7 +5652,7 @@
         "images": [
           {
             "alt": "Panoramic views of Machu Picchu, Maras salt mines and Sacred Valley on a 5-day tour",
-            "src": "assets/img/ways-to-travel/styles/comfort/cusco-ciudad-noche.webp",
+            "src": "assets/img/ways-to-travel/styles/comfort/machu-pichu.webp",
             "width": 1200
           }
         ]
@@ -5864,7 +5864,7 @@
         "images": [
           {
             "alt": "Spectacular panoramic view of Cusco, Machu Picchu and Rainbow Mountain in a 6-day tour",
-            "src": "assets/img/ways-to-travel/styles/comfort/chinchero-pueblo-comfort.webp",
+            "src": "assets/img/ways-to-travel/styles/comfort/valley-deluxe.webp",
             "width": 1200
           }
         ]
@@ -7400,7 +7400,7 @@
           "city": "Cusco",
           "days": "3",
           "nights": "2",
-          "image": "assets/img/ways-to-travel/styles/comfort/cusco-ciudad-amazing-view.webp",
+          "image": "assets/img/ways-to-travel/styles/comfort/amazing-view-of-machu-picchu.webp",
           "price": "499"
         },
         "cusco-machu-sacredvalley-3d2n": {
@@ -7440,7 +7440,7 @@
           "city": "Cusco",
           "days": "4",
           "nights": "3",
-          "image": "assets/img/ways-to-travel/styles/comfort/aguas-calientes.webp",
+          "image": "assets/img/ways-to-travel/styles/comfort/machu-picchu-view.webp",
           "price": "601"
         },
         "cusco-majestic-5d4n": {
@@ -7450,7 +7450,7 @@
           "city": "Cusco",
           "days": "5",
           "nights": "4",
-          "image": "assets/img/ways-to-travel/styles/comfort/cusco-ciudad-noche.webp",
+          "image": "assets/img/ways-to-travel/styles/comfort/machu-pichu.webp",
           "price": "666"
         },
         "cusco-wonderful-5d4n": {
@@ -7480,7 +7480,7 @@
           "city": "Cusco",
           "days": "6",
           "nights": "5",
-          "image": "assets/img/ways-to-travel/styles/comfort/chinchero-pueblo-comfort.webp",
+          "image": "assets/img/ways-to-travel/styles/comfort/valley-deluxe.webp",
           "price": "795"
         },
         "complete-cusco-7d6n": {
