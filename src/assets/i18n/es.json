@@ -6053,7 +6053,7 @@
         "images": [
           {
             "alt": "Vista panorámica de Machu Picchu y el Valle Sagrado en un tour de 3 días",
-            "src": "assets/img/ways-to-travel/styles/deluxe/valley-deluxe.webp",
+            "src": "assets/img/ways-to-travel/styles/deluxe/machu-picchu.webp",
             "width": 1200
           }
         ]
@@ -6188,7 +6188,7 @@
         "images": [
           {
             "alt": "Vista panorámica de Machu Picchu, la Montaña de 7 Colores y city tour en Cusco",
-            "src": "assets/img/ways-to-travel/styles/deluxe/pisac-ruins.webp",
+            "src": "assets/img/ways-to-travel/styles/deluxe/rainbow-mountain-deluxe-2.webp",
             "width": 1200
           }
         ]
@@ -6256,7 +6256,7 @@
         "images": [
           {
             "alt": "Vista panorámica de Cusco, el Valle Sagrado y Machu Picchu en un paquete de 4 días",
-            "src": "assets/img/ways-to-travel/styles/deluxe/aguas-calientes.webp",
+            "src": "assets/img/destinations/sacred-valley/Ollantaytambo.webp",
             "width": 1200
           }
         ]
@@ -6325,7 +6325,7 @@
         "images": [
           {
             "alt": "Vistas panorámicas de Machu Picchu, salineras de Maras y el Valle Sagrado en un tour de 5 días",
-            "src": "assets/img/ways-to-travel/styles/deluxe/cusco-noche-deluxe.webp",
+            "src": "assets/img/ways-to-travel/styles/deluxe/moray.webp",
             "width": 1200
           }
         ]
@@ -6394,7 +6394,7 @@
         "images": [
           {
             "alt": "Laguna Humantay, Montaña de 7 Colores y Machu Picchu en un tour de 5 días",
-            "src": "assets/img/ways-to-travel/styles/deluxe/rainbow-mountain-deluxe-2.webp",
+            "src": "assets/img/ways-to-travel/styles/deluxe/laguna-humantay-deluxe.webp",
             "width": 1200
           }
         ]
@@ -6610,7 +6610,7 @@
         "images": [
           {
             "alt": "Vista panorámica de Cusco, Machu Picchu y el Valle Sagrado en un tour completo de 7 días",
-            "src": "assets/img/ways-to-travel/styles/deluxe/coricancha-temple-deluxe.webp",
+            "src": "assets/img/ways-to-travel/styles/deluxe/tipon-terraces.webp",
             "width": 1200
           }
         ]
@@ -7445,7 +7445,7 @@
           "city": "Cusco",
           "days": "3",
           "nights": "2",
-          "image": "assets/img/ways-to-travel/styles/deluxe/valley-deluxe.webp",
+          "image": "assets/img/ways-to-travel/styles/deluxe/machu-picchu.webp",
           "price": "602"
         },
         "cusco-supervalley-3d2n": {
@@ -7465,7 +7465,7 @@
           "city": "Cusco",
           "days": "4",
           "nights": "3",
-          "image": "assets/img/ways-to-travel/styles/deluxe/pisac-ruins.webp",
+          "image": "assets/img/ways-to-travel/styles/deluxe/rainbow-mountain-deluxe-2.webp",
           "price": "766"
         },
         "cusco-unforgettable-4d3n": {
@@ -7475,7 +7475,7 @@
           "city": "Cusco",
           "days": "4",
           "nights": "3",
-          "image": "assets/img/ways-to-travel/styles/deluxe/aguas-calientes.webp",
+          "image": "assets/img/destinations/sacred-valley/Ollantaytambo.webp",
           "price": "752"
         },
         "cusco-majestic-5d4n": {
@@ -7485,7 +7485,7 @@
           "city": "Cusco",
           "days": "5",
           "nights": "4",
-          "image": "assets/img/ways-to-travel/styles/deluxe/cusco-noche-deluxe.webp",
+          "image": "assets/img/ways-to-travel/styles/deluxe/moray.webp",
           "price": "752"
         },
         "cusco-wonderful-5d4n": {
@@ -7495,7 +7495,7 @@
           "city": "Cusco",
           "days": "5",
           "nights": "4",
-          "image": "assets/img/ways-to-travel/styles/deluxe/rainbow-mountain-deluxe-2.webp",
+          "image": "assets/img/ways-to-travel/styles/deluxe/laguna-humantay-deluxe.webp",
           "price": "912"
         },
         "cusco-multicolor-5d4n": {
@@ -7525,7 +7525,7 @@
           "city": "Cusco",
           "days": "7",
           "nights": "6",
-          "image": "assets/img/ways-to-travel/styles/deluxe/coricancha-temple-deluxe.webp",
+          "image": "assets/img/ways-to-travel/styles/deluxe/tipon-terraces.webp",
           "price": "1194"
         }
       }
