@@ -189,17 +189,51 @@
           </p>
         </div>
 
-        <!-- Certificado 3 -->
-        <div class="flex flex-col  h-[30vh] md:h-[33vh] justify-center items-center">
-          <img src="assets/img/certifications/protegeme.webp"
-               alt="" class="object-contain h-[22vh] mb-4">
-          <p [innerHTML]="'HOME_CERTIFICATES.PROTEGEME'|translate">
-          </p>
+        <!-- Certificado 3 → abre modal -->
+        <div
+          class="flex flex-col h-[30vh] md:h-[33vh] justify-center items-center cursor-pointer"
+          (click)="openCertModal()"
+        >
+          <!-- miniatura del certificado -->
+          <img
+            src="assets/img/certifications/protegeme.webp"
+            alt="Protégeme (miniatura)"
+            class="object-contain h-[22vh] mb-4"
+          />
+          <p [innerHTML]="'HOME_CERTIFICATES.PROTEGEME' | translate"></p>
         </div>
       </div>
     </div>
-  </div>
 
+
+
+  </div>
+  <!-- ===== Modal overlay ===== -->
+  <div
+    *ngIf="showCertModal"
+    class="fixed inset-0 z-[9999] grid place-content-center bg-black/70"
+    (click)="closeCertModal()"
+  >
+    <div
+      class="relative max-w-[90vw] max-h-[90vh]"
+      (click)="$event.stopPropagation()"
+    >
+      <button
+        class="absolute -top-4 -right-4 bg-white rounded-full w-8 h-8 flex items-center justify-center text-xl shadow"
+        aria-label="Cerrar"
+        (click)="closeCertModal()"
+      >
+        &times;
+      </button>
+
+      <!-- aquí se muestra la imagen **distinta** -->
+      <img
+        [src]="modalImageSrc"
+        alt="Certificado Protégeme (versión grande)"
+        class="max-w-full max-h-full rounded shadow-lg"
+      />
+    </div>
+  </div>
   <!--Purpose Section-->
   <div class="relative items-center min-h-[30vh] md:max-h-[70vh] w-full bg-[#001f42] text-white overflow-hidden">
     <!-- Imagen al fondo derecha -->
